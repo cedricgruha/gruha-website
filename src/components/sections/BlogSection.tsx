@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -35,72 +35,50 @@ const blogCards = [
 ];
 
 export const BlogSection = () => {
-  const sectionRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-  
-  // Drag to scroll state
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [scrollLeft, setScrollLeft] = useState(0);
-
-  const handleMouseDown = (e: React.MouseEvent) => {
-    if (!scrollContainerRef.current) return;
-    setIsDragging(true);
-    setStartX(e.pageX - scrollContainerRef.current.offsetLeft);
-    setScrollLeft(scrollContainerRef.current.scrollLeft);
-  };
-
-  const handleMouseLeave = () => {
-    setIsDragging(false);
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging || !scrollContainerRef.current) return;
-    e.preventDefault();
-    const x = e.pageX - scrollContainerRef.current.offsetLeft;
-    const walk = (x - startX) * 2; // scroll speed
-    scrollContainerRef.current.scrollLeft = scrollLeft - walk;
-  };
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Simple fade up for the section
-      if (sectionRef.current) {
-        gsap.fromTo(sectionRef.current,
-          { opacity: 0, y: 50 },
-          { 
-            opacity: 1, 
-            y: 0, 
-            duration: 1, 
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: sectionRef.current,
-              start: "top 80%",
-            }
-          }
-        );
+      // Horizontal Scroll
+      if (sectionRef.current && scrollContainerRef.current) {
+        const container = scrollContainerRef.current;
+        
+        const getScrollAmount = () => {
+          const containerWidth = container.scrollWidth;
+          return -(containerWidth - window.innerWidth);
+        };
+
+        const tween = gsap.to(container, {
+          x: getScrollAmount,
+          ease: "none"
+        });
+
+        ScrollTrigger.create({
+          trigger: sectionRef.current,
+          start: "top top",
+          end: () => `+=${getScrollAmount() * -1}`,
+          pin: true,
+          animation: tween,
+          scrub: true, // changed from 1 to true to remove floating parallax feel
+          invalidateOnRefresh: true
+        });
       }
-    }, sectionRef);
+    }, wrapperRef);
 
     return () => ctx.revert();
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-16 pb-32 bg-white overflow-hidden">
+    <div ref={wrapperRef} className="w-full relative block">
+      <section ref={sectionRef} className="py-16 bg-white overflow-hidden min-h-screen flex flex-col justify-center">
 
       {/* Horizontal Scroll Container */}
       <div className="w-full relative">
         <div 
           ref={scrollContainerRef}
-          onMouseDown={handleMouseDown}
-          onMouseLeave={handleMouseLeave}
-          onMouseUp={handleMouseUp}
-          onMouseMove={handleMouseMove}
-          className={`flex overflow-x-auto gap-8 md:gap-12 pb-12 pt-4 px-6 md:px-12 snap-x ${isDragging ? '' : 'snap-mandatory'} hide-scrollbar ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+          className="flex flex-nowrap gap-8 md:gap-12 pb-12 pt-4 px-6 md:px-12 w-max"
           style={{
             // Use padding left to align with container on large screens
             paddingLeft: 'max(1.5rem, calc((100vw - 1400px) / 2 + 3rem))',
@@ -152,5 +130,6 @@ export const BlogSection = () => {
         }
       `}} />
     </section>
+    </div>
   );
 };

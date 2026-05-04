@@ -48,9 +48,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}
+      className={`${fraunces.variable} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col font-inter bg-white text-dark">{children}</body>
+      <body className="flex flex-col font-inter bg-white text-dark">{children}</body>
     </html>
   );
 }

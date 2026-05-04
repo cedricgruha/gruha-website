@@ -9,61 +9,48 @@ import { ChevronRight } from 'lucide-react';
 gsap.registerPlugin(ScrollTrigger);
 
 const specialists = [
-  {
-    name: "Riya",
-    role: "Your home search agent",
-    description: "Captures who you actually are. Translates it into the home that fits.",
-    color: "#28A78F",
-    image: "/assets/specialists/riya.png" // Placeholder
-  },
+
   {
     name: "Kabir",
     role: "Your projects curator",
     description: "Two thousand projects in Bengaluru. Filters them down to yours.",
     color: "#2B6CB0",
-    image: "/assets/specialists/kabir.png"
+    image: "/assets/team/kabir.png"
   },
   {
     name: "Ananya",
     role: "Your floor plan specialist",
     description: "Reads floor plans the way you wish you could. Scores every unit.",
     color: "#ED8936",
-    image: "/assets/specialists/ananya.png"
+    image: "/assets/team/ananya.png"
   },
   {
     name: "Arjun",
     role: "Your project analyst",
     description: "Sees the project the way a drone sees it — towers, shadows, sun, gates.",
     color: "#84A962",
-    image: "/assets/specialists/arjun.png"
+    image: "/assets/team/arjun.png"
   },
   {
     name: "Karan",
     role: "Your location explorer",
     description: "Walks the streets, drives the commute, checks the floods. Before you ever do.",
     color: "#9F7AEA",
-    image: "/assets/specialists/karan.png"
+    image: "/assets/team/karan.png"
   },
   {
     name: "Sharon",
     role: "Your lifestyle curator",
     description: "What the brochure won't tell you — the noise, the greenery, the evening crowd.",
     color: "#F56565",
-    image: "/assets/specialists/sharon.png"
-  },
-  {
-    name: "Vikram",
-    role: "Your finance specialist",
-    description: "The real number, not the sticker. EMI math, tax math, total cost.",
-    color: "#4299E1",
-    image: "/assets/specialists/vikram.png"
+    image: "/assets/team/sharan.png"
   },
   {
     name: "Aisha",
     role: "Your legal specialist",
     description: "Catches the paperwork red flags before you sign. RERA, Khata, all of it.",
     color: "#4A5568",
-    image: "/assets/specialists/aisha.png"
+    image: "/assets/team/aisha.png"
   }
 ];
 
@@ -127,7 +114,7 @@ export const SpecialistsSection = () => {
         </div>
 
         {/* Cards Grid */}
-        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {specialists.map((specialist, idx) => (
             <div 
               key={idx} 

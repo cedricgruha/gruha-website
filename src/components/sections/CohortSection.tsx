@@ -84,12 +84,12 @@ export const CohortSection = () => {
           </div>
           
           {/* Right Image */}
-          <div className="md:w-1/2 flex justify-end items-end h-full pt-10 md:pt-0">
+          <div className="md:w-1/2 flex justify-end items-end h-full pt-10 md:pt-0 self-end">
             <img 
               ref={imageRef}
               src="/assets/cohort-1/Frame%201597884646.png" 
               alt="Gruha.ai Specialist" 
-              className="w-full max-w-[500px] h-auto object-contain object-bottom relative -mb-1"
+              className="w-full max-w-[600px] h-auto object-contain object-bottom relative -mb-1"
               style={{ maxHeight: '600px' }}
             />
           </div>

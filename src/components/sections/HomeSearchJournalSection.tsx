@@ -41,15 +41,17 @@ export const HomeSearchJournalSection = () => {
     <section ref={sectionRef} className="pt-24 pb-24 bg-[#f8f7f3] relative mt-12 md:mt-24">
       
       {/* Step Indicator - Centered precisely on the section dividing line */}
-      <div className="absolute -top-22 left-1/2 -translate-x-1/2 flex flex-col items-center z-20" style={{ transform: 'translate(-50%, -18px)' }}>
-        <div className="w-12 h-12 rounded-full border border-[#84A98C] flex items-center justify-center mb-8 bg-[#f8f7f3]">
-          <svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-[#2D6A4F]">
-            <line x1="12" y1="4" x2="12" y2="15" strokeDasharray="3 3"></line>
-            <polyline points="16 14 12 18 8 14"></polyline>
-          </svg>
-        </div>
-        <div className="px-6 py-3 bg-[#E2EBE5] text-[#2D6A4F] rounded-3xl text-[18px] font-inter font-semibold tracking-wide">
-          Step 1 of your journey
+      <div className="absolute -top-8 left-0 w-full flex justify-center z-20 -translate-y-1/2">
+        <div className="flex flex-col items-center">
+          <div className="w-12 h-12 rounded-full border border-[#84A98C] flex items-center justify-center mb-4 bg-[#f8f7f3]">
+            <svg className="w-6 h-6 text-[#2D6A4F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="12" y1="4" x2="12" y2="15" strokeDasharray="3 3"></line>
+              <polyline points="16 14 12 18 8 14"></polyline>
+            </svg>
+          </div>
+          <div className="px-6 py-3 bg-[#E2EBE5] text-[#2D6A4F] rounded-full text-[18px] font-inter font-semibold tracking-wide text-center shadow-sm">
+            Step 1 of your journey
+          </div>
         </div>
       </div>
 

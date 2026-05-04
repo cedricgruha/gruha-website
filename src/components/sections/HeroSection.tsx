@@ -51,22 +51,12 @@ export const HeroSection = () => {
         const cards = cardsRef.current.querySelectorAll('.feature-card');
         tl.fromTo(cards,
           { y: 100, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.8, stagger: 0.05 },
+          { y: 0, opacity: 1, duration: 0.8, stagger: 0.02 },
           "-=0.4"
         );
       }
 
-      // Parallax effect on background
-      gsap.to('.hero-bg', {
-        yPercent: 20,
-        ease: 'none',
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: 'top top',
-          end: 'bottom top',
-          scrub: true,
-        }
-      });
+      // Removed parallax effect as requested
     }, containerRef);
 
     return () => ctx.revert(); // Cleanup on unmount
@@ -158,33 +148,41 @@ export const HeroSection = () => {
       </div>
 
       {/* Bottom Cards Carousel/Grid */}
-      <div ref={cardsRef} className="relative z-10 w-full mt-16 px-4 md:px-8 pb-0 overflow-hidden">
-        {/* First Row */}
-        <div className="flex gap-4 md:gap-6 pb-2 md:pb-4" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-          {bottomCards.map((card, idx) => (
-            <div key={`row1-${idx}`} className="feature-card relative shrink-0 w-[280px] md:w-[320px] aspect-[16/10] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group cursor-pointer">
-              <Image 
-                src={card.src}
-                alt={card.alt}
-                fill
-                className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-500"
-              />
-            </div>
-          ))}
+      <div ref={cardsRef} className="relative z-10 w-full mt-16 pb-0 overflow-hidden">
+        {/* First Row (Right to Left) */}
+        <div className="flex pb-2 md:pb-4 w-full">
+          <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
+            {[...bottomCards, ...bottomCards, ...bottomCards, ...bottomCards].map((card, idx) => (
+              <div key={`row1-${idx}`} className="flex-none pr-4 md:pr-6">
+                <div className="feature-card relative shrink-0 w-[280px] md:w-[320px] aspect-[16/10] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group cursor-pointer">
+                  <Image 
+                    src={card.src}
+                    alt={card.alt}
+                    fill
+                    className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-500"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
         
-        {/* Second Row */}
-        <div className="flex gap-4 md:gap-6 pb-0 translate-x-[140px] md:translate-x-[160px]" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-          {bottomRowCards.map((card, idx) => (
-            <div key={`row2-${idx}`} className="feature-card relative shrink-0 w-[280px] md:w-[320px] aspect-[16/10] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group cursor-pointer">
-              <Image 
-                src={card.src}
-                alt={card.alt}
-                fill
-                className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-500"
-              />
-            </div>
-          ))}
+        {/* Second Row (Left to Right) */}
+        <div className="flex pb-0 w-full mt-2 md:mt-4">
+          <div className="flex w-max animate-marquee-reverse hover:[animation-play-state:paused]">
+            {[...bottomRowCards, ...bottomRowCards, ...bottomRowCards, ...bottomRowCards].map((card, idx) => (
+              <div key={`row2-${idx}`} className="flex-none pr-4 md:pr-6">
+                <div className="feature-card relative shrink-0 w-[280px] md:w-[320px] aspect-[16/10] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group cursor-pointer">
+                  <Image 
+                    src={card.src}
+                    alt={card.alt}
+                    fill
+                    className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-500"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Gradient black shade to hide 2nd row */}
@@ -194,6 +192,20 @@ export const HeroSection = () => {
       <style dangerouslySetInnerHTML={{__html: `
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
+        }
+        @keyframes marquee {
+          0% { transform: translateX(0%); }
+          100% { transform: translateX(-50%); }
+        }
+        @keyframes marquee-reverse {
+          0% { transform: translateX(-50%); }
+          100% { transform: translateX(0%); }
+        }
+        .animate-marquee {
+          animation: marquee 60s linear infinite;
+        }
+        .animate-marquee-reverse {
+          animation: marquee-reverse 60s linear infinite;
         }
       `}} />
     </section>
