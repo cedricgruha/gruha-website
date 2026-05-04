@@ -105,7 +105,7 @@ export const BlogSection = () => {
       </div>
 
       {/* Desktop: GSAP horizontal scroll */}
-      <section ref={sectionRef} className="hidden md:flex py-16 bg-white overflow-hidden min-h-screen flex-col justify-center">
+      <section ref={sectionRef} className="hidden md:flex py-16 2xl:py-10 bg-white overflow-hidden min-h-screen 2xl:min-h-0 flex-col justify-center">
         <div className="w-full relative">
           <div 
             ref={scrollContainerRef}
@@ -124,7 +124,7 @@ export const BlogSection = () => {
                 style={{
                   width: 'calc((100vw - 96px) / 2.25)',
                   minWidth: '320px',
-                  maxWidth: '600px',
+                  maxWidth: '520px',
                 }}
               >
                 <div className="w-full bg-[#111] border-b border-gray-200 aspect-[4/3] relative pointer-events-none">
@@ -137,10 +137,10 @@ export const BlogSection = () => {
                 </div>
                 
                 <div className="p-8 md:p-10 flex flex-col flex-grow bg-[#FAF7F2]">
-                  <h3 className="font-inter text-2xl md:text-[28px] font-bold text-black mb-4 leading-[1.15] tracking-tight">
+                  <h3 className="font-inter text-2xl md:text-[1.75rem] font-bold text-black mb-4 leading-[1.15] tracking-tight">
                     {card.title}
                   </h3>
-                  <p className="font-inter text-[15px] md:text-[17px] text-gray-700 leading-[1.5] font-normal tracking-[-0.01em]">
+                  <p className="font-inter text-[0.9375rem] md:text-[1.0625rem] text-gray-700 leading-[1.5] font-normal tracking-[-0.01em]">
                     {card.description}
                   </p>
                 </div>

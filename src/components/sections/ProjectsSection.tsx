@@ -90,10 +90,10 @@ export const ProjectsSection = () => {
             
             {/* Header */}
             <div className="mb-6 md:mb-8">
-              <h2 className="font-fraunces text-3xl md:text-4xl lg:text-[44px] text-black leading-[1.1] mb-1 tracking-tight">
+              <h2 className="font-fraunces text-3xl md:text-4xl lg:text-[2.75rem] text-black leading-[1.1] mb-1 tracking-tight">
                 02
               </h2>
-              <h2 className="font-fraunces text-3xl md:text-4xl lg:text-[44px] text-black leading-[1.1] mb-3 tracking-tight">
+              <h2 className="font-fraunces text-3xl md:text-4xl lg:text-[2.75rem] text-black leading-[1.1] mb-3 tracking-tight">
                 Projects
               </h2>
               
@@ -123,10 +123,10 @@ export const ProjectsSection = () => {
                   
                   {/* Text */}
                   <div className="flex flex-col">
-                    <h3 className="font-inter text-base md:text-[18px] font-bold text-black mb-1 tracking-tight">
+                    <h3 className="font-inter text-base md:text-lg font-bold text-black mb-1 tracking-tight">
                       {feature.title}
                     </h3>
-                    <p className="font-inter text-[13px] md:text-sm text-gray-700 leading-relaxed font-medium whitespace-pre-line">
+                    <p className="font-inter text-[0.8125rem] md:text-sm text-gray-700 leading-relaxed font-medium whitespace-pre-line">
                       {feature.description}
                     </p>
                   </div>

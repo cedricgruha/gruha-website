@@ -68,17 +68,17 @@ export const ProjectListSection = () => {
               className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0 w-full"
             >
               {/* Text Content */}
-              <div className="w-full md:w-4/12 pl-4 md:pl-[max(2rem,calc((100vw-1152px)/2))] pr-4 md:pr-10 lg:pr-16 flex flex-col justify-center py-4 md:py-0">
-                <h2 className="font-inter font-bold text-xl md:text-2xl lg:text-[26px] leading-[1.2] tracking-[-0.5px] text-black mb-2 whitespace-pre-line">
+              <div className="w-full md:w-5/12 pl-4 md:pl-[max(2rem,calc((100vw-1152px)/2))] pr-4 md:pr-10 lg:pr-16 flex flex-col justify-center py-4 md:py-0">
+                <h2 className="font-inter font-bold text-2xl md:text-xl lg:text-4xl leading-[1.2] tracking-[-0.5px] text-black mb-2 whitespace-pre-line">
                   {item.title}
                 </h2>
-                <p className="font-inter text-xs md:text-sm lg:text-[14px] leading-[1.5] tracking-[-0.2px] text-black/75 font-normal whitespace-pre-line">
+                <p className="font-inter text-xs md:text-lg leading-[1.5] tracking-[-0.2px] text-black/75 font-normal whitespace-pre-line">
                   {item.description}
                 </p>
               </div>
 
               {/* Image Content */}
-              <div className="w-full md:w-8/12 flex justify-end pl-0 md:pl-8">
+              <div className="w-full md:w-7/12 flex justify-end pl-8">
                 <img 
                   src={item.image} 
                   alt={item.title.replace(/\n/g, ' ')}

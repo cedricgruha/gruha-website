@@ -2,8 +2,10 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { useWaitlist } from '@/contexts/WaitlistContext';
 
 export const TrustCtaSection = () => {
+  const { openModal } = useWaitlist();
   return (
     <section className="relative w-full bg-[#1A1B1A] overflow-hidden py-12 md:py-16">
       {/* Background Pattern */}
@@ -43,7 +45,7 @@ export const TrustCtaSection = () => {
           
           {/* Right: CTA Button */}
           <div className="flex-shrink-0 w-full md:w-auto flex justify-center md:justify-end">
-            <button className="w-full md:w-auto bg-[#8BD8BE] hover:bg-[#74C9AD] text-[#111] font-inter font-medium text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300">
+            <button onClick={openModal} className="w-full md:w-auto bg-[#8BD8BE] hover:bg-[#74C9AD] text-[#111] font-inter font-medium text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300">
               Join the Waitlist
               <ArrowRight className="w-4 h-4" />
             </button>
@@ -54,3 +56,4 @@ export const TrustCtaSection = () => {
     </section>
   );
 };
+

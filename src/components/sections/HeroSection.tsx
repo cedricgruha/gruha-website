@@ -5,11 +5,13 @@ import Image from 'next/image';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Layers, ShieldCheck, Users } from 'lucide-react';
+import { useWaitlist } from '@/contexts/WaitlistContext';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export const HeroSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const { openModal } = useWaitlist();
   const headlineRef = useRef<HTMLHeadingElement>(null);
   const subheadlineRef = useRef<HTMLParagraphElement>(null);
   const btnRef = useRef<HTMLButtonElement>(null);
@@ -95,7 +97,7 @@ export const HeroSection = () => {
   ];
 
   return (
-    <section ref={containerRef} className="relative min-h-screen pt-24 overflow-hidden bg-black flex flex-col justify-between">
+    <section ref={containerRef} className="relative min-h-screen 2xl:min-h-0 2xl:h-[900px] pt-24 overflow-hidden bg-black flex flex-col justify-between">
       {/* Background Image */}
       <div className="hero-bg absolute inset-0 z-0">
         <Image 
@@ -127,6 +129,7 @@ export const HeroSection = () => {
 
         <button 
           ref={btnRef}
+          onClick={openModal}
           className="bg-[#D8A76B] text-black hover:bg-[#D8A76B]/90 font-inter font-medium px-6 py-3 rounded-lg text-sm transition-all duration-300 mb-8 inline-flex items-center gap-2"
         >
           Join Waitlist <span className="text-base leading-none">↗</span>
@@ -139,7 +142,7 @@ export const HeroSection = () => {
               <div className="w-8 h-8 md:w-9 md:h-9 rounded-full border border-gray-600/50 bg-black/20 backdrop-blur-sm flex items-center justify-center text-white shrink-0">
                 {feature.icon}
               </div>
-              <p className="text-[11px] md:text-sm text-gray-300 font-inter whitespace-pre-line leading-snug">
+              <p className="text-[0.6875rem] md:text-sm text-gray-300 font-inter whitespace-pre-line leading-snug">
                 {feature.text}
               </p>
             </div>

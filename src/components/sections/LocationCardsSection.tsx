@@ -93,15 +93,15 @@ export const LocationCardsSection = () => {
 
                 {/* Text Content */}
                 <div className="w-full md:w-5/12 flex flex-col justify-center">
-                  <span className="font-inter text-[20px] text-gray-300 font-semibold leading-none tracking-tight">
+                  <span className="font-inter text-xl text-gray-300 font-semibold leading-none tracking-tight">
                     {card.id}
                   </span>
                   <div className="w-8 h-[2px] bg-[#48C4A9] mt-2 mb-4"></div>
                   
-                  <h2 className="font-inter font-bold text-2xl md:text-[28px] leading-[1.1] tracking-[-0.5px] text-black mb-4 whitespace-pre-line">
+                  <h2 className="font-inter font-bold text-2xl md:text-[1.75rem] leading-[1.1] tracking-[-0.5px] text-black mb-4 whitespace-pre-line">
                     {card.title}
                   </h2>
-                  <p className="font-inter text-sm md:text-[15px] leading-[1.5] tracking-[-0.2px] text-gray-700 font-normal">
+                  <p className="font-inter text-sm md:text-[0.9375rem] leading-[1.5] tracking-[-0.2px] text-gray-700 font-normal">
                     {card.description}
                   </p>
                 </div>

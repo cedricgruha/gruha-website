@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { AppProviders } from "@/components/ui/AppProviders";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -50,7 +51,9 @@ export default function RootLayout({
       lang="en"
       className={`${fraunces.variable} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
     >
-      <body className="flex flex-col font-inter bg-white text-dark">{children}</body>
+      <body className="flex flex-col font-inter bg-white text-dark">
+        <AppProviders>{children}</AppProviders>
+      </body>
     </html>
   );
 }

@@ -64,7 +64,7 @@ export const CohortSection = () => {
               Cohort 01 . Bengaluru . Open
             </p>
             
-            <h2 className="font-fraunces text-3xl md:text-4xl lg:text-[48px] text-white leading-[1.1] mb-4 md:mb-5">
+            <h2 className="font-fraunces text-3xl md:text-4xl lg:text-[3rem] text-white leading-[1.1] mb-4 md:mb-5">
               Eight Specialists.<br />
               One Journal.<br />
               Cohort 01.

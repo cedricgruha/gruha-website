@@ -5,9 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/Button';
+import { useWaitlist } from '@/contexts/WaitlistContext';
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const { openModal } = useWaitlist();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,10 +29,7 @@ export const Header = () => {
         <Link href="/" className="relative z-10 flex items-center gap-2">
           {/* Logo container. Using unoptimized since it's an export build */}
           <div className="relative h-8 w-32 md:h-10 md:w-40">
-            {/* Since the background is dark in the hero section, we might need to filter the logo if it's black. 
-                Assuming the provided logo is the Gruha.ai logo. 
-                Applying brightness-0 invert if the background is dark and the logo is black, 
-                but let's keep it simple and just use the image first. */}
+
             <Image 
               src="/assets/logo.png" 
               alt="Gruha.ai Logo" 
@@ -41,19 +40,13 @@ export const Header = () => {
           </div>
         </Link>
         
-        {/* Navigation - optional for now, but leaving space */}
-        <nav className="hidden md:flex items-center gap-8 text-white font-inter text-sm font-medium">
-          <Link href="#features" className="hover:text-primary transition-colors">Features</Link>
-          <Link href="#specialists" className="hover:text-primary transition-colors">Specialists</Link>
-          <Link href="#how-it-works" className="hover:text-primary transition-colors">How it works</Link>
-        </nav>
 
         <div className="flex items-center gap-3">
           {/* Mobile CTA - small, always visible */}
-          <Button variant="primary" size="sm" className="md:hidden bg-[#D8A76B] text-black hover:bg-[#D8A76B]/90 rounded-lg border-none shadow-none text-xs px-4 py-2">
+          <Button onClick={openModal} variant="primary" size="sm" className="md:hidden bg-[#D8A76B] text-black hover:bg-[#D8A76B]/90 rounded-lg border-none shadow-none text-xs px-4 py-2">
             Join ↗
           </Button>
-          <Button variant="primary" size="sm" className="hidden md:inline-flex bg-[#D8A76B] text-black hover:bg-[#D8A76B]/90 rounded-lg border-none shadow-none text-sm px-6">
+          <Button onClick={openModal} variant="primary" size="sm" className="hidden md:inline-flex bg-[#D8A76B] text-black hover:bg-[#D8A76B]/90 rounded-lg border-none shadow-none text-sm px-6">
             Join Waitlist  ↗
           </Button>
         </div>

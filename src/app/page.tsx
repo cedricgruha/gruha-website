@@ -15,8 +15,10 @@ import { ProjectTowerSection } from "@/components/sections/ProjectTowerSection";
 import { ProjectListSection } from "@/components/sections/ProjectListSection";
 import { LocationIntelligenceSection } from "@/components/sections/LocationIntelligenceSection";
 import { LocationCardsSection } from "@/components/sections/LocationCardsSection";
-import { TrustCtaSection } from "@/components/sections/TrustCtaSection";
+
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
+import { TrustCtaSection } from "@/components/sections/TrustCtaSection";
+import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 export default function Home() {
   return (
     <>
@@ -25,6 +27,7 @@ export default function Home() {
         <HeroSection />
         <FeatureSection />
         <SpecialistsSection />
+       <HowItWorksSection/>
         <HomeSearchJournalSection />
         <CohortSection />
         <ProjectsSection />

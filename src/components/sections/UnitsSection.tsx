@@ -101,10 +101,10 @@ export const UnitsSection = () => {
           {/* Left Content */}
           <div ref={textRef}>
             <div className="mb-8">
-               <h2 className="font-fraunces text-4xl md:text-[44px] text-black leading-[1.1] mb-1 tracking-tight">
+              <h2 className="font-fraunces text-4xl md:text-[2.75rem] text-black leading-[1.1] mb-1 tracking-tight">
                 03
               </h2>
-              <h2 className="font-fraunces text-4xl md:text-[44px] text-black leading-[1.1] mb-4 tracking-tight">
+              <h2 className="font-fraunces text-4xl md:text-[2.75rem] text-black leading-[1.1] mb-4 tracking-tight">
                  Home &amp; Units
               </h2>
               
@@ -112,7 +112,7 @@ export const UnitsSection = () => {
               <div className="w-12 h-0.5 bg-[#FE6235] mb-6 rounded-full"></div>
               
               <div className="mt-6 md:mt-8">
-                <p className="font-inter text-[18px] md:text-[22px] lg:text-[32px] font-light text-black leading-[1.1] tracking-tight mb-2">
+                <p className="font-inter text-lg md:text-[1.375rem] lg:text-[2rem] font-light text-black leading-[1.1] tracking-tight mb-2">
                   Every space tells a story. <br/>
                   Find yours.
                 </p>
@@ -131,7 +131,7 @@ export const UnitsSection = () => {
                       <img src={item.icon} alt="" className="w-full h-full object-contain" />
                     </div>
                     <div>
-                      <h4 className="font-inter text-base md:text-[18px] font-regular text-black leading-tight mb-0.5 tracking-tight">
+                      <h4 className="font-inter text-base md:text-lg font-regular text-black leading-tight mb-0.5 tracking-tight">
                         {item.title}
                       </h4>
                       <p className="font-inter text-xs md:text-sm text-gray-700 font-medium opacity-80 leading-relaxed">

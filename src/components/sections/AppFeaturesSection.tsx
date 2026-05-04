@@ -80,10 +80,10 @@ export const AppFeaturesSection = () => {
             >
               {/* Text Content */}
               <div className="w-full md:w-5/12 flex flex-col justify-center">
-                <h2 className="font-inter font-bold text-2xl md:text-[28px] leading-[1.2] tracking-[-0.5px] text-black mb-3 whitespace-pre-line">
+                <h2 className="font-inter font-bold text-2xl md:text-[1.75rem] leading-[1.2] tracking-[-0.5px] text-black mb-3 whitespace-pre-line">
                   {feature.title}
                 </h2>
-                <p className="font-inter text-sm md:text-[15px] leading-[1.6] tracking-[-0.2px] text-black/70 font-normal">
+                <p className="font-inter text-sm md:text-[0.9375rem] leading-[1.6] tracking-[-0.2px] text-black/70 font-normal">
                   {feature.description}
                 </p>
               </div>

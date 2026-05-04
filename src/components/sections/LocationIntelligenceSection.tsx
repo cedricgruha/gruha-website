@@ -90,11 +90,11 @@ export const LocationIntelligenceSection = () => {
           
           {/* Left Content */}
           <div ref={contentRef} className="w-full md:w-6/12 flex flex-col items-start pt-6 md:pt-0">
-            <h2 className="font-fraunces font-semibold text-[36px] md:text-[44px] leading-none text-black mb-2">
+            <h2 className="font-fraunces font-semibold text-[2.25rem] md:text-[2.75rem] leading-none text-black mb-2">
               05
             </h2>
             
-            <h2 className="font-fraunces font-semibold text-[38px] md:text-[44px] leading-[1.05] tracking-[-1.5px] text-black mb-5">
+            <h2 className="font-fraunces font-semibold text-[2.375rem] md:text-[2.75rem] leading-[1.05] tracking-[-1.5px] text-black mb-5">
               Location Intelligence
             </h2>
             
@@ -105,7 +105,7 @@ export const LocationIntelligenceSection = () => {
               Live with confidence.
             </h3>
 
-            <p className="font-inter text-sm md:text-[15px] text-gray-600 leading-[1.6] max-w-[500px] mb-8">
+            <p className="font-inter text-sm md:text-[0.9375rem] text-gray-600 leading-[1.6] max-w-[500px] mb-8">
               We analyze everything around your home - from daily convenience to future growth - so you can make a smarter choice.
             </p>
 
@@ -113,12 +113,12 @@ export const LocationIntelligenceSection = () => {
             <div className="w-full h-[1px] bg-gray-300 mb-6 max-w-[550px]"></div>
 
             {/* Feature Row */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-0 w-full max-w-[550px]">
+            <div className="flex  flex-wrap  items-start  gap-6 sm:gap-0 w-full max-w-[550px] justify-around">
               {features.map((feature, index) => (
                 <React.Fragment key={index}>
                   <div 
                     ref={el => { featuresRef.current[index] = el; }}
-                    className="flex flex-row items-center gap-3 flex-1"
+                    className="flex flex-row items-center gap-3 col-1/2"
                   >
                     <img 
                       src={feature.icon} 
@@ -126,10 +126,10 @@ export const LocationIntelligenceSection = () => {
                       className="w-8 h-8 object-contain"
                     />
                     <div className="flex flex-col">
-                      <span className="font-inter font-bold text-[15px] text-black leading-tight">
+                      <span className="font-inter font-bold text-[0.9375rem] text-black leading-tight">
                         {feature.title}
                       </span>
-                      <span className="font-inter text-[13px] text-gray-500 leading-tight">
+                      <span className="font-inter text-[0.8125rem] text-gray-500 leading-tight">
                         {feature.subtitle}
                       </span>
                     </div>

@@ -38,12 +38,12 @@ export const HomeSearchJournalSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section ref={sectionRef} className="pt-16 pb-16 bg-[#f8f7f3] relative mt-12 md:mt-24">
+    <section ref={sectionRef} className="pt-24 pb-16 bg-[#f8f7f3] relative ">
       
       {/* Step Indicator - Centered precisely on the section dividing line */}
-      <div className="absolute -top-8 left-0 w-full flex justify-center z-20 -translate-y-1/2">
+      <div className=" left-0 w-full flex justify-center z-20 -translate-y-1/2">
         <div className="flex flex-col items-center">
-          <div className="w-10 h-10 rounded-full border border-[#84A98C] flex items-center justify-center mb-3 bg-[#f8f7f3]">
+          <div className="w-10 h-10 rounded-full border border-[#84A98C] flex items-center justify-center mb-3 bg-[#f8f7f3] animate-bounce">
             <svg className="w-5 h-5 text-[#2D6A4F]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="12" y1="4" x2="12" y2="15" strokeDasharray="3 3"></line>
               <polyline points="16 14 12 18 8 14"></polyline>
@@ -55,7 +55,7 @@ export const HomeSearchJournalSection = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 md:px-6">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 ">
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
           
@@ -94,7 +94,7 @@ export const HomeSearchJournalSection = () => {
               >
                 {/* Card Text Content */}
                 <div className="p-5 md:p-8 lg:p-10 pb-0">
-                  <h3 className="font-inter font-bold text-xl md:text-2xl lg:text-[30px] leading-tight text-black tracking-tight mb-3">
+                  <h3 className="font-inter font-bold text-xl md:text-2xl lg:text-[1.875rem] leading-tight text-black tracking-tight mb-3">
                     {card.title}
                   </h3>
                   <p className="font-inter text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed max-w-[95%] font-medium">
@@ -103,11 +103,11 @@ export const HomeSearchJournalSection = () => {
                 </div>
                 
                 {/* Card Image */}
-                <div className="w-full mt-5 md:mt-8 px-4 md:px-5 pb-4 md:pb-5 flex justify-center">
+                <div className="w-full mt-5 md:mt-8  flex justify-center">
                   <img 
                     src={card.img} 
                     alt={card.title} 
-                    className="w-full max-w-[95%] h-auto rounded-[12px] md:rounded-[16px] shadow-md"
+                    className="w-full  h-auto "
                   />
                 </div>
               </div>

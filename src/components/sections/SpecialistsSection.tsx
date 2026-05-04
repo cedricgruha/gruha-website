@@ -141,18 +141,18 @@ export const SpecialistsSection = () => {
               {/* Content Container */}
               <div className="p-4 md:p-5 lg:p-6 flex flex-col flex-grow bg-white">
                 <h3 
-                  className="font-fraunces text-xl md:text-2xl lg:text-[28px] font-normal mb-0.5 leading-none"
+                  className="font-fraunces text-xl md:text-2xl lg:text-[1.75rem] font-normal mb-0.5 leading-none"
                   style={{ color: specialist.color }}
                 >
                   {specialist.name}
                 </h3>
                 
-                <p className="font-inter text-[13px] text-[#718096] font-medium">
+                <p className="font-inter text-[0.8125rem] text-[#718096] font-medium">
                   {specialist.role}
                 </p>
                 
                 <div className="flex items-end justify-between mt-auto pt-6">
-                  <p className="font-inter text-[12px] md:text-[13px] text-[#1A202C] leading-[1.6] pr-4 max-w-[85%] font-medium">
+                  <p className="font-inter text-xs md:text-[0.8125rem] text-[#1A202C] leading-[1.6] pr-4 max-w-[85%] font-medium">
                     {specialist.description}
                   </p>
                   

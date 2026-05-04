@@ -56,14 +56,14 @@ export const FinalCtaSection = () => {
           
           {/* Left Content */}
           <div ref={contentRef} className="w-full md:w-4/6 flex flex-col items-start">
-            <h2 className="font-fraunces text-[22px] md:text-[28px] lg:text-[36px] leading-[1.1] font-semibold text-black tracking-[-0.5px] mb-3 md:mb-4">
+            <h2 className="font-fraunces text-[1.375rem] md:text-[1.75rem] lg:text-[2.25rem] leading-[1.1] font-semibold text-black tracking-[-0.5px] mb-3 md:mb-4">
               Make your next home decision <br className="hidden md:block" />
               with <span className="text-[#3DBCA6]">real data</span>.
             </h2>
             
             <div className="w-10 h-[2px] bg-[#3DBCA6] mb-4"></div>
             
-            <p className="font-inter text-xs md:text-sm lg:text-[15px] text-gray-600 leading-relaxed max-w-[400px]">
+            <p className="font-inter text-xs md:text-sm lg:text-[0.9375rem] text-gray-600 leading-relaxed max-w-[400px]">
               Stop guessing. Start seeing the reality around every property.
             </p>
           </div>
