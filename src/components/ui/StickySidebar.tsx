@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface StickySidebarProps {
   number: string;
@@ -28,10 +29,12 @@ export const StickySidebar: React.FC<StickySidebarProps> = ({
         {description}
       </div>
       <div className="relative w-full h-[400px] md:h-[500px] mt-auto">
-        <img 
+        <Image 
           src={image} 
           alt={imageAlt} 
-          className="w-full h-full object-contain md:object-left-bottom  "
+          fill
+          className="object-contain md:object-left-bottom"
+          sizes="(max-width: 768px) 100vw, 50vw"
         />
       </div>
     </>

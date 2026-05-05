@@ -1,6 +1,7 @@
 "use client";
 
 import  { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -72,16 +73,19 @@ export const FeatureSection = () => {
           {/* Desktop: autoplay video */}
           <video
             ref={videoRef}
-            src="/assets/white%204_001.mp4"
+            src="/assets/white-4_001.mp4"
             autoPlay
             loop
             muted
             playsInline
+            preload="none"
             className="w-full h-auto object-contain hidden sm:block"
           />
           {/* Mobile: static image */}
-          <img
+          <Image
             src="/assets/hero-mobile-bg.jpeg"
+            width={600}
+            height={400}
             className="w-full h-auto object-contain sm:hidden"
             alt="How we built Gruha.ai ?"
           />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export interface FeatureData {
   title: string;
@@ -22,9 +23,11 @@ export const SectionFeatures: React.FC<SectionFeaturesProps> = ({ features, clas
           {/* Icon */}
           <div className="w-9 h-9 flex-shrink-0 flex items-center justify-center mr-5 md:mr-6 pt-0.5">
             {typeof feature.icon === 'string' ? (
-              <img 
+              <Image 
                 src={feature.icon} 
                 alt="" 
+                width={36}
+                height={36}
                 className="w-full h-auto object-contain"
               />
             ) : (

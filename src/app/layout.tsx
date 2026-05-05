@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter, Space_Grotesk } from "next/font/google";
+import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { AppProviders } from "@/components/ui/AppProviders";
 import Script from "next/script";
@@ -7,17 +7,15 @@ import Script from "next/script";
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
+  display: 'swap',
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: 'swap',
 });
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gruha.ai"),
@@ -83,6 +81,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://gruha.ai",
   },
+  themeColor: "#000000",
 };
 
 export default function RootLayout({
@@ -93,7 +92,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${inter.variable} ${spaceGrotesk.variable} antialiased`}
+      className={`${fraunces.variable} ${inter.variable} antialiased`}
     >
       <body className="flex flex-col font-inter bg-white text-dark">
         <Script

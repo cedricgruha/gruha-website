@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Metadata } from "next";
+import { FooterVariant } from "@/components/layout/FooterVariant";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -68,7 +69,7 @@ export default function AboutPage() {
         <div className="fixed top-0 right-0 w-[500px] h-[500px] bg-[#FE6235]/5 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
         <div className="fixed bottom-0 left-0 w-[500px] h-[500px] bg-blue-500/5 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
       </main>
-      <Footer />
+     <FooterVariant />
     </>
   );
 }

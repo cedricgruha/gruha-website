@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
 
@@ -25,9 +26,11 @@ export const TrustCtaSection = () => {
           {/* Left: Icon and Text */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10 w-full md:w-3/4">
             <div className="flex-shrink-0 pt-0.5 md:pt-1">
-              <img 
+              <Image 
                 src="/assets/3-cta/Vector.svg" 
                 alt="Trust Icon" 
+                width={56}
+                height={56}
                 className="w-12 md:w-14 h-auto object-contain"
               />
             </div>

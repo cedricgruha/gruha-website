@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export interface CardData {
   id: string | number;
@@ -44,11 +45,13 @@ export const StackingCard: React.FC<StackingCardProps> = ({
       </div>
       
       {/* Card Image */}
-      <div className="w-full mt-6 md:mt-8 flex justify-center overflow-hidden">
-        <img 
+      <div className="relative w-full h-[35vh] md:h-[350px] lg:h-[480px] mt-6 md:mt-8 flex justify-center overflow-hidden">
+        <Image 
           src={card.image} 
           alt={card.title} 
-          className="w-full h-[35vh] md:h-auto object-cover md:object-contain"
+          fill
+          className="object-cover object-top"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
         />
       </div>
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
@@ -17,7 +18,7 @@ export const Footer = () => {
           <div className="lg:col-span-4 pr-0 lg:pr-12">
             <Link href="/" className="inline-block mb-6">
               <div className="text-[2rem] font-inter font-bold tracking-tight">
-                <img src="/assets/logo.png" alt="logo" className='w-48 h-auto' />
+                <Image src="/assets/logo.png" alt="logo" width={192} height={48} className='w-48 h-auto' />
               </div>
             </Link>
             <p className="text-[#A1A1AA] font-inter text-[0.9375rem] leading-[1.7] mb-10 max-w-[300px] hidden md:block">
@@ -57,16 +58,16 @@ export const Footer = () => {
               <h4 className="text-[#888] text-xs font-bold tracking-[0.1em] uppercase mb-6">Social</h4>
               <div className="flex items-center gap-3">
                 <Link href="#" className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-white transition-colors group">
-                  <img src="/assets/socialmedia/Vector.svg" alt="Facebook" className="w-[14px] h-[14px] opacity-70 group-hover:opacity-100 transition-opacity" />
+                  <Image src="/assets/socialmedia/Vector.svg" alt="Facebook" width={14} height={14} className="opacity-70 group-hover:opacity-100 transition-opacity" />
                 </Link>
                 <Link href="#" className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-white transition-colors group">
-                  <img src="/assets/socialmedia/Vector (1).svg" alt="X/Twitter" className="w-[14px] h-[14px] opacity-70 group-hover:opacity-100 transition-opacity" />
+                  <Image src="/assets/socialmedia/vector-1.svg" alt="X/Twitter" width={14} height={14} className="opacity-70 group-hover:opacity-100 transition-opacity" />
                 </Link>
                 <Link href="#" className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-white transition-colors group">
-                  <img src="/assets/socialmedia/logo-instagram 1.svg" alt="Instagram" className="w-[14px] h-[14px] opacity-70 group-hover:opacity-100 transition-opacity" />
+                  <Image src="/assets/socialmedia/logo-instagram-1.svg" alt="Instagram" width={14} height={14} className="opacity-70 group-hover:opacity-100 transition-opacity" />
                 </Link>
                 <Link href="#" className="w-8 h-8 rounded-full border border-gray-600 flex items-center justify-center hover:border-white transition-colors group">
-                  <img src="/assets/socialmedia/Vector (2).svg" alt="Pinterest" className="w-[14px] h-[14px] opacity-70 group-hover:opacity-100 transition-opacity" />
+                  <Image src="/assets/socialmedia/vector-2.svg" alt="Pinterest" width={14} height={14} className="opacity-70 group-hover:opacity-100 transition-opacity" />
                 </Link>
               </div>
             </div>

@@ -68,7 +68,7 @@ export const HeroSection = () => {
   const renderHeadline = () => {
     const text = "Better way to search, shortlist, evaluate and select your home";
     return text.split(' ').map((word, idx) => (
-      <span key={idx} className="word inline-block mr-[0.3em]">{word}</span>
+      <span key={idx} className="word inline-block mr-[0.3em] opacity-100">{word}</span>
     ));
   };
 
@@ -101,13 +101,17 @@ export const HeroSection = () => {
     <section ref={containerRef} className="relative min-h-screen 2xl:min-h-0 2xl:h-[900px] pt-24 overflow-hidden bg-black flex flex-col justify-between">
       {/* Background Image */}
       <div className="hero-bg absolute inset-0 z-0">
-        <Image 
-          src="/assets/hero/hero-background.png"
-          alt="Hero Background"
-          fill
-          className="object-cover opacity-70"
-          priority
-        />
+        <div className=" absolute inset-0">
+          <Image 
+            src="/assets/hero/hero-background.png"
+            alt="Hero Background"
+            fill
+            className="object-cover opacity-70"
+            priority
+            sizes="100vw"
+          />
+        </div>
+        
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 pointer-events-none"></div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
 
@@ -9,15 +10,14 @@ export const WaitlistSection = () => {
   return (
     <section className="relative w-full bg-[#111111] overflow-hidden">
       {/* Background Pattern */}
-      <div 
-        className="absolute inset-0 z-0 opacity-40 pointer-events-none"
-        style={{
-          backgroundImage: 'url("/assets/Looper-1.png")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      />
+      <div className="absolute top-0 bottom-0 left-[-40%] right-[-40%] md:inset-0 z-0 opacity-40 pointer-events-none">
+        <Image 
+          src="/assets/looper-1.png"
+          alt=""
+          fill
+          className="object-contain md:object-cover object-center"
+        />
+      </div>
       
       <div className="max-w-6xl mx-auto px-6 md:px-8 pt-16 pb-28 md:py-24 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">

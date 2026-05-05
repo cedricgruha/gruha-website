@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import React, { useRef, useEffect } from 'react';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -92,10 +94,12 @@ export const CohortSection = () => {
           
           {/* Right Image */}
           <div className="md:w-1/2 flex justify-end items-end h-full pt-0 md:pt-0 self-end order-0 md:order-1">
-            <img 
-              ref={imageRef}
+            <Image 
+              ref={imageRef as any}
               src="/assets/cohort-1/Frame%201597884646.png" 
               alt="Gruha.ai Specialist" 
+              width={600}
+              height={600}
               className="w-full max-w-[600px] h-auto object-contain object-bottom relative -mb-1"
               style={{ maxHeight: '600px' }}
             />

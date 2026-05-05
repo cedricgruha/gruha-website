@@ -16,6 +16,7 @@ import { SectionFour } from "@/components/sections/SectionFour";
 import { SectionFive } from "@/components/sections/SectionFive";
 import { SectionSix } from "@/components/sections/SectionSix";
 import { LastStepCta } from "@/components/sections/LastStepCta";
+import { FooterVariant } from "@/components/layout/FooterVariant";
 export default function Home() {
   return (
     <>
@@ -44,7 +45,8 @@ export default function Home() {
         <SectionSix />
         <LastStepCta />
       </main>
-      <Footer />
+      <FooterVariant />
+      {/* <Footer /> */}
     </>
   );
 }

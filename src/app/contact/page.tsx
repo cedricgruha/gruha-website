@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WaitlistForm } from "@/components/ui/WaitlistForm";
 import Image from "next/image";
 import { Metadata } from "next";
+import { FooterVariant } from "@/components/layout/FooterVariant";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -69,7 +70,7 @@ export default function ContactPage() {
         <div className="fixed top-1/4 -left-20 w-64 h-64 bg-[#FE6235]/5 rounded-full blur-3xl pointer-events-none z-0"></div>
         <div className="fixed bottom-1/4 -right-20 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl pointer-events-none z-0"></div>
       </main>
-      <Footer />
+       <FooterVariant />
     </>
   );
 }

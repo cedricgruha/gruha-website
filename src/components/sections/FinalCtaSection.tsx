@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useRef, useEffect } from 'react';
+import Image from 'next/image';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useWaitlist } from '@/contexts/WaitlistContext';
@@ -71,9 +72,11 @@ const { openModal } = useWaitlist();
 
           {/* Right Content / Image & Button */}
           <div className="w-full md:w-3/6 flex flex-col items-center justify-center gap-4 md:gap-5 mt-2 md:mt-0">
-            <img 
-              src="/assets/CTA-last.png" 
+            <Image 
+              src="/assets/cta-last.png" 
               alt="Data visualization"
+              width={420}
+              height={300}
               className="w-full max-w-[240px] md:max-w-[380px] lg:max-w-[420px] h-auto object-contain pointer-events-none"
             />
             <button onClick={openModal}

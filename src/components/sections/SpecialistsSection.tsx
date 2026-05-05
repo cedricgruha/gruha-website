@@ -117,24 +117,20 @@ export const SpecialistsSection = () => {
           {specialists.map((specialist, idx) => (
             <div 
               key={idx} 
-              className="group flex flex-col bg-white rounded-[1.5rem] overflow-hidden transition-all duration-300  h-full"
+              className="group flex flex-col bg-white rounded-[1.5rem] overflow-hidden transition-all duration-300 h-full border"
               style={{ 
-                borderWidth: '1px', 
-                borderStyle: 'solid',
-                borderColor: specialist.color + '40', // 25% opacity of the theme color
-                boxShadow: 'none'
-              }}
+                '--specialist-color': specialist.color,
+                borderColor: `${specialist.color}40`
+              } as React.CSSProperties}
             >
               {/* Image Container */}
-              <div className="relative flex justify-center   sm:justify-start w-full pt-3 md:pt-4 px-4  items-end  bg-white overflow-visible">
-                <img 
+              <div className="relative flex justify-center sm:justify-start w-full h-[320px] sm:h-[250px] md:h-[280px] pt-3 md:pt-4 px-4 items-end bg-white overflow-visible">
+                <Image 
                   src={specialist.image}
                   alt={specialist.name}
-                  className="h-[320px] sm:h-[250px] md:h-[280px] w-auto max-w-full object-contain object-left sm:object-center transition-transform duration-500 group-hover:scale-105"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement!.innerHTML = `<div class="h-[180px] w-full flex items-center justify-start sm:justify-center text-gray-400 font-inter text-sm bg-gray-50 rounded-xl">[Image: ${specialist.name}]</div>`;
-                  }}
+                  fill
+                  className="object-contain object-bottom sm:object-center transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                 />
               </div>
 
@@ -142,7 +138,7 @@ export const SpecialistsSection = () => {
               <div className="p-4 md:p-5 lg:p-6 flex flex-col flex-grow bg-transparent">
                 <h3 
                   className="font-fraunces text-xl md:text-2xl lg:text-[1.75rem] font-normal mb-0.5 leading-none"
-                  style={{ color: specialist.color }}
+                  style={{ color: 'var(--specialist-color)' }}
                 >
                   {specialist.name}
                 </h3>
@@ -155,13 +151,6 @@ export const SpecialistsSection = () => {
                   <p className="font-inter text-xs md:text-[0.8125rem] text-[#1A202C] leading-[1.6] pr-4 max-w-[85%] font-medium">
                     {specialist.description}
                   </p>
-                  
-                  <ChevronRight 
-                    size={20} 
-                    strokeWidth={2.5} 
-                    style={{ color: specialist.color }}
-                    className="transform group-hover:translate-x-1 transition-transform duration-300 flex-shrink-0 mb-1"
-                  />
                 </div>
               </div>
             </div>
