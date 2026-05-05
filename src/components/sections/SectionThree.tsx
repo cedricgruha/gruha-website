@@ -56,7 +56,7 @@ const cards = [
     title: "The NE flat and the SW flat\nare not the same. Now\nyou'll see why.",
     description: "Direct sunlight calculated on your specific window facings, per season. Two units in the same tower can get very different sun — this is the number that tells you which is which.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (5).png",
-    bg:"bg-[#0C4056]",
+    bg:"bg-[#1650cb]",
     textColor: "text-white",
     id:"st4"
   }
