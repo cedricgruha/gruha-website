@@ -8,7 +8,7 @@ import { useWaitlist } from '@/contexts/WaitlistContext';
 export const Footer = () => {
   const { openModal } = useWaitlist();
   return (
-    <footer className="bg-[#1C1C1E] pt-24 pb-10 text-white">
+    <footer className="bg-[#1C1C1E] pt-5 md:pt-24 pb-10 text-white">
       <div className="container mx-auto px-6 md:px-12 max-w-[1400px]">
         {/* Top Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
@@ -20,7 +20,7 @@ export const Footer = () => {
                 <img src="/assets/logo.png" alt="logo" className='w-48 h-auto' />
               </div>
             </Link>
-            <p className="text-[#A1A1AA] font-inter text-[0.9375rem] leading-[1.7] mb-10 max-w-[300px]">
+            <p className="text-[#A1A1AA] font-inter text-[0.9375rem] leading-[1.7] mb-10 max-w-[300px] hidden md:block">
              
             </p>
             <button onClick={openModal} className="bg-[#fc7c54] hover:bg-[#fc7c54]/90 text-[#111] font-inter font-medium text-[0.9375rem] px-6 py-3.5 rounded-lg flex items-center gap-2 transition-all duration-300">

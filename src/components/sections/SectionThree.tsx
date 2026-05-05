@@ -33,7 +33,7 @@ const cards = [
   {
     title: "Vaastu-aligned? Wecheck every room — notjust the main door.",
     description: "Every unit evaluated against classical Vaastu principles — main door, kitchen, master bedroom, pooja room, toilets, and the Brahmasthan. You get a compliance score with specific passes and deviations.",
-    image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (2).png",
+    image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (3).png",
     bg:"bg-[#FB6660]",
     textColor: "text-white",
     id:"st5"
@@ -48,7 +48,7 @@ const cards = [
   {
     title: "Overlook & Privacy Check",
     description: "Every nearby building — PGs, residential towers, offices, schools — measured against your unit's window lines. See which of your windows are overlooked, from what angle, and by what kind of building, before you commit to a flat where the curtains never come off.",
-    image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (3).png",
+    image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (2).png",
     bg:"bg-[#20BDA1]",
     id:"st3"
   },
