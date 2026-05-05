@@ -23,7 +23,7 @@ const features = [
 
 const cards = [
   {
-    title: "Not all 1200 sq ft are\ncreated equal.",
+    title: "Not all 1200 sq ft arecreated equal.",
     description: "Your floor plan colour-coded into usable space, circulation, and dead space — with an efficiency score. See exactly what you're paying for, and what's eating into your carpet area.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (1).png",
     bg:"bg-[#FB2162]",
@@ -31,7 +31,7 @@ const cards = [
     id:"st1"
   },
   {
-    title: "Vaastu-aligned? We\ncheck every room — not\njust the main door.",
+    title: "Vaastu-aligned? Wecheck every room — notjust the main door.",
     description: "Every unit evaluated against classical Vaastu principles — main door, kitchen, master bedroom, pooja room, toilets, and the Brahmasthan. You get a compliance score with specific passes and deviations.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (2).png",
     bg:"bg-[#FB6660]",
@@ -39,7 +39,7 @@ const cards = [
     id:"st5"
   },
   {
-    title: "Pick your appliances. We'll\nshow you the kitchens\nthat actually fit them.",
+    title: "Pick your appliances. We'll show you the kitchens that actually fit them.",
     description: "Tell Gruha what goes in your kitchen — OTG, built-in oven, dishwasher, tall fridge, coffee machine, chimney size — and every unit's kitchen is scored for counter space, ventilation, plug points, and storage.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (4).png",
     bg:"bg-[#EFD477]",
@@ -53,7 +53,7 @@ const cards = [
     id:"st3"
   },
   {
-    title: "The NE flat and the SW flat\nare not the same. Now\nyou'll see why.",
+    title: "The NE flat and the SW flat are not the same. Nowyou'll see why.",
     description: "Direct sunlight calculated on your specific window facings, per season. Two units in the same tower can get very different sun — this is the number that tells you which is which.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (5).png",
     bg:"bg-[#1650cb]",

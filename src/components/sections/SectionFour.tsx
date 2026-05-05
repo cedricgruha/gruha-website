@@ -50,7 +50,7 @@ const cards = [
     description: "A dynamic simulation of how sunlight and shadows shift across the day and through the year — at both project and unit level. See which homes get natural light, which stay shaded, and how surrounding towers impact exposure. ",
     image: "/assets/list-after-project/list (2).png",
     id:"pj-4",
-    bg:"bg-[#65EB8B]",
+    bg:"bg-[#d2ea6d]",
   }
 ];
 
