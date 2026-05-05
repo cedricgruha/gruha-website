@@ -103,7 +103,7 @@ export const HeroSection = () => {
       <div className="hero-bg absolute inset-0 z-0">
         <div className=" absolute inset-0">
           <Image 
-            src="/assets/hero/hero-background.png"
+            src="/assets/hero/hero-background.webp"
             alt="Hero Background"
             fill
             className="object-cover opacity-70"
