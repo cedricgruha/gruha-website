@@ -96,7 +96,7 @@ export const CohortSection = () => {
           <div className="md:w-1/2 flex justify-end items-end h-full pt-0 md:pt-0 self-end order-0 md:order-1">
             <Image 
               ref={imageRef as any}
-              src="/assets/cohort-1/Frame%201597884646.png" 
+              src="/assets/cohort-1/frame-1597884646.png" 
               alt="Gruha.ai Specialist" 
               width={600}
               height={600}

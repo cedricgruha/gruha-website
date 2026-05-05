@@ -73,7 +73,7 @@ const { openModal } = useWaitlist();
           {/* Right Content / Image & Button */}
           <div className="w-full md:w-3/6 flex flex-col items-center justify-center gap-4 md:gap-5 mt-2 md:mt-0">
             <Image 
-              src="/assets/cta-last.png" 
+              src="/assets/CTA-last.png" 
               alt="Data visualization"
               width={420}
               height={300}
