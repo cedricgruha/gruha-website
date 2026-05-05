@@ -54,7 +54,7 @@ export const CohortSection = () => {
   }, []);
 
   return (
-    <section ref={containerRef} className="bg-[#1A222E] pt-12 md:pt-16 pb-24 md:pb-0 relative overflow-hidden">
+    <section ref={containerRef} className="bg-[#1A222E] pt-12 md:pt-8  md:pb-0 relative overflow-hidden">
 
 
       

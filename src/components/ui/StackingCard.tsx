@@ -20,7 +20,7 @@ export const StackingCard: React.FC<StackingCardProps> = ({
   card, 
   index, 
   topOffset = 120, 
-  spacing = 16 
+  spacing = 8 
 }) => {
   return (
     <div 

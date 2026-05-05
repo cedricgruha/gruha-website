@@ -24,7 +24,7 @@ const features = [
 const cards = [
   {
     title: "How efficiently is\nspace used?",
-    description: "Measure of usable, functional space\nacross the entire project.",
+    description: "A breakdown of usable vs wasted space across towers, corridors, amenities, and common areas. Not all square footage works equally — some projects look large on paper but lose space to poor layouts and circulation. This shows how much of what you’re paying for you’ll actually use.",
     image: "/assets/list-after-project/list (1).png",
     id:"pj-1",
     bg:"bg-[#B349A6]",
@@ -32,14 +32,14 @@ const cards = [
   },
   {
     title: "Construction\nProgress",
-    description: "Measure of usable, functional space\nacross the entire project.",
+    description: "Track real construction progress across towers, floors, and key infrastructure — not just overall percentages. See what’s structurally complete, what’s still under development, and whether timelines align with reality. Because delays don’t show up in brochures — they show up after you’ve committed.",
     image: "/assets/list-after-project/list (3).png",
     id:"pj-2",
     bg:"bg-[#9BEBDF]",
   },
   {
     title: "Movement &\nAccess",
-    description: "Understand real walking distances\nand daily movement inside the\nproject.",
+    description: "Understand real walking paths, entry/exit points, lift access, and internal road layouts — mapped to daily routines. The distance from gate to tower, tower to amenities, parking to home — all visualised. What feels convenient on a plan can become friction when you live it. This helps you see the difference early.",
     image: "/assets/list-after-project/list (4).png",
     id:"pj-3",
     bg:"bg-[#EA726D]",
@@ -47,7 +47,7 @@ const cards = [
   },
   {
     title: "Sun & Shadow\nSimulation",
-    description: "See how sunlight and shadows move\nacross your project and affect your\nselected unit.",
+    description: "A dynamic simulation of how sunlight and shadows shift across the day and through the year — at both project and unit level. See which homes get natural light, which stay shaded, and how surrounding towers impact exposure. Because direction alone doesn’t tell the full story — light is shaped by everything around you.",
     image: "/assets/list-after-project/list (2).png",
     id:"pj-4",
     bg:"bg-[#65EB8B]",
@@ -64,6 +64,7 @@ export const SectionFour = () => {
       sidebarImage="/assets/drone.png"
       cards={cards}
       features={features}
+       spacing={32}
     />
   );
 };

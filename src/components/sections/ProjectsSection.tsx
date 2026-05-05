@@ -27,12 +27,11 @@ const cards = [
     bg: "bg-[#F26A76]",
     title: "2,000+ projects. One screen. The whole city.",
     description: "Every active and upcoming project in Bengaluru, dropped on a real satellite map. Pan, zoom, and see what's actually being built around the localities you're shortlisting.",
-    image: "/assets/blog/Rectangle%2034626212.png"
+    image: "/assets/blog/Rectangle%2034626212.png",
   },
   {
     id:"c-2",
     bg: "bg-[#E0C5A3]",
-    textColor: "text-white",
     title: "Your Journal becomes your filter — automatically.",
     description: "The requirements captured in your Home Search Journal apply to the map without you lifting a finger. Projects that fit light up; projects that don't fade out.",
     image: "/assets/blog/Rectangle%2034626212%20(1).png"
@@ -46,8 +45,7 @@ const cards = [
   },
   {
     id:"c-4",
-    bg: "bg-[#A6A498]",
-    textColor: "text-white",
+    bg: "bg-[#b880c7]",
     title: "Side-by-Side Project Compare",
     description: "Four projects, one screen—no spreadsheets. Pin any four and compare price, sun, privacy, commute, vaastu, greenery, and RERA. Differences are instantly clear.",
     image: "/assets/blog/Rectangle%2034626212%20(3).png"
@@ -55,7 +53,6 @@ const cards = [
   {
     id:"c-5",
     bg: "bg-[#9BA6BF]",
-    textColor: "text-white",
     title: "New launches in your area? You'll hear first.",
     description: "Save any map view as a watch. Get alerts for new listings, price drops, or when a flagged unit becomes available.",
     image: "/assets/blog/Rectangle%2034626212%20(4).png"
@@ -72,6 +69,7 @@ export const ProjectsSection = () => {
       sidebarImage="/assets/02-projects/character-men.png"
       cards={cards}
       features={features}
+      spacing={32}
     />
   );
 };

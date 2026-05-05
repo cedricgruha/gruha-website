@@ -72,6 +72,7 @@ export const SectionThree = () => {
       sidebarImage="/assets/section3.png"
       cards={cards}
       features={features}
+      spacing={32}
     />
   );
 };

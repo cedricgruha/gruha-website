@@ -50,7 +50,7 @@ export const FeatureSection = () => {
   }, []);
 
   return (
-    <section ref={containerRef} className="py-16 bg-[#FFF] md:bg-[#eeecee] overflow-hidden">
+    <section ref={containerRef} className="py-16 bg-[#FFF] md:bg-[#f1eff1] overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 flex flex-col items-center">
         <h2 
           ref={titleRef}

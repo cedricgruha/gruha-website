@@ -88,7 +88,7 @@ export const BaseStepSection: React.FC<BaseStepSectionProps> = ({
 
   return (
     <section id={sectionId} ref={sectionRef} className={`py-12 md:py-16 ${bgClass} relative`}>
-      <JourneyBadge step={step} className={badgeMarginTop} />
+      {/* <JourneyBadge step={step} className={badgeMarginTop} /> */}
 
       <div className="max-w-6xl mx-auto px-4 md:px-6 ">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
