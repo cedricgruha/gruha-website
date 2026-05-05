@@ -21,25 +21,62 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gruha.ai"),
-  title: "Gruha.ai - AI-Powered Home Search Platform | Find Your Dream Home in Bengaluru",
-  description: "Better way to search, shortlist, evaluate and select your home. AI-powered platform with 8 specialists, real-time data, and comprehensive location intelligence.",
-  keywords: "real estate, property search, Bengaluru homes, AI home search, property evaluation, RERA verified, home buying",
+  title: {
+    default: "Gruha.ai - AI-Powered Home Search Platform in Bengaluru",
+    template: "%s | Gruha.ai"
+  },
+  description: "Experience the future of home buying in Bengaluru with Gruha.ai. Our AI-powered platform uses 8 specialized agents to help you search, evaluate, and secure your dream home with real-time data and deep location intelligence.",
+  keywords: ["real estate Bengaluru", "AI property search", "home buying India", "RERA verified homes", "Bengaluru apartment search", "Gruha AI", "location intelligence real estate"],
+  authors: [{ name: "Gruha.ai Team" }],
+  creator: "Gruha.ai",
+  publisher: "Gruha.ai",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "Gruha.ai - Find Your Perfect Home",
-    description: "AI-powered platform for smarter home searching and evaluation",
+    title: "Gruha.ai - AI-Powered Home Search Platform",
+    description: "Smarter home searching and evaluation powered by AI specialists in Bengaluru.",
     url: "https://gruha.ai",
     siteName: "Gruha.ai",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Gruha.ai - AI Home Search",
+      },
+    ],
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Gruha.ai - AI-Powered Home Search",
-    description: "Find your dream home with AI specialists",
-    images: ["/twitter-image.jpg"],
+    description: "Find your dream home in Bengaluru with AI specialists.",
+    images: ["/assets/twitter-image.jpg"],
+    creator: "@gruha_ai",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  alternates: {
+    canonical: "https://gruha.ai",
+  },
 };
 
 export default function RootLayout({

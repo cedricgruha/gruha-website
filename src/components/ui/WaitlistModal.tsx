@@ -40,7 +40,7 @@ export const WaitlistModal = () => {
     >
       <div className="absolute inset-0 bg-[#1C1C1E]/75 backdrop-blur-sm" />
 
-      <div className="relative w-full max-w-md bg-[#FDFAF7] rounded-2xl shadow-2xl overflow-hidden animate-modal-in">
+      <div className="relative w-full max-w-md bg-[#FDFAF7] rounded-2xl shadow-2xl overflow-y-auto max-h-[calc(100vh-2rem)] animate-modal-in">
         <div className="bg-[#1C1C1E] px-7 pt-7 pb-6 relative">
           <button
             onClick={closeModal}

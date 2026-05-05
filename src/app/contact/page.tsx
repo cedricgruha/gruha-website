@@ -1,8 +1,14 @@
 
-import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 import { WaitlistForm } from "@/components/ui/WaitlistForm";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Get in touch with Gruha.ai for early access and inquiries about AI-powered property search and evaluation in Bengaluru.",
+};
 
 export default function ContactPage() {
   return (

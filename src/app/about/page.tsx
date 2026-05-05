@@ -1,5 +1,11 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about the mission and the founders behind Gruha.ai, an AI-native platform revolutionizing home ownership in Bengaluru.",
+};
 
 export default function AboutPage() {
   return (
