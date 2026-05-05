@@ -44,10 +44,10 @@ export const Header = () => {
         <div className="flex items-center gap-3">
           {/* Mobile CTA - small, always visible */}
           <Button onClick={openModal} variant="primary" size="sm" className="md:hidden bg-[#fc7c54] text-black hover:bg-[#fc7c54]/90 rounded-lg border-none shadow-none text-xs px-4 py-2">
-            Join ↗
+            Join Waitlist 
           </Button>
           <Button onClick={openModal} variant="primary" size="sm" className="hidden md:inline-flex bg-[#fc7c54] text-black hover:bg-[#fc7c54]/90 rounded-lg border-none shadow-none text-sm px-6">
-            Join Waitlist  ↗
+            Join Waitlist  
           </Button>
         </div>
       </div>

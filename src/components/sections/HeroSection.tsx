@@ -74,9 +74,9 @@ export const HeroSection = () => {
 
   const featureHighlights = [
     { icon: <Layers size={20} strokeWidth={1.5} />, text: "Feature rich\nplatform" },
-    { icon: <ShieldCheck size={20} strokeWidth={1.5} className="text-blue-400" />, text: "Privacy & Home buyer\nfirst" },
-    { icon: <Users size={20} strokeWidth={1.5} className="text-gray-300" />, text: "Agents (Human + AI)\nworking for you" },
-    { icon: <Zap size={20} strokeWidth={1.5} className="text-orange-400" />, text: "Data driven\nevaluation" }
+    { icon: <ShieldCheck size={20} strokeWidth={1.5} className="text-white" />, text: "Privacy & Home buyer\nfirst" },
+    { icon: <Users size={20} strokeWidth={1.5} className="text-white" />, text: "Agents (Human + AI)\nworking for you" },
+    { icon: <Zap size={20} strokeWidth={1.5} className="text-white" />, text: "Data driven\nevaluation" }
   ];
 
   const bottomCards = [
@@ -133,7 +133,7 @@ export const HeroSection = () => {
           onClick={openModal}
           className="bg-[#fc7c54] text-black hover:bg-[#fc7c54]/90 font-inter font-medium px-6 py-3 rounded-lg text-sm transition-all duration-300 mb-8 inline-flex items-center gap-2"
         >
-          Join Waitlist <span className="text-base leading-none">↗</span>
+          Join Waitlist 
         </button>
 
         {/* Feature Highlights — 2-col grid on mobile, row on desktop */}

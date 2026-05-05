@@ -150,7 +150,7 @@ export const WaitlistModal = () => {
                 onClick={closeModal}
                 className="mt-2 font-inter text-sm font-semibold text-[#FE6235] hover:text-[#E05020] transition-colors"
               >
-                Close ↗
+                Close 
               </button>
             </div>
           ) : (
