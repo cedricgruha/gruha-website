@@ -25,7 +25,7 @@ const cards = [
   {
     id:"c-1",
     bg: "bg-[#d42056]",
-    title: "2,000+ projects. One screen. The whole city.",
+    title: "The City, Simplified on One Screen.",
     description: "Every active and upcoming project in Bengaluru, dropped on a real satellite map. Pan, zoom, and see what's actually being built around the localities you're shortlisting.",
     image: "/assets/blog/Rectangle%2034626212%20(2).png",
   },

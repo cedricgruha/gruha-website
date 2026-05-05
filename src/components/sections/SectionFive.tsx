@@ -7,7 +7,7 @@ const features = [
   {
     title: "25+",
     description: "Data Layers",
-    icon: "/assets/05-location-inteligence/stacks_24dp_E3E3E3_FILL0_wght400_GRAD0_OPSZ24 1.svg"
+    icon: "/assets/05-location-inteligence/icon-1.svg"
   },
   {
     title: "Live",

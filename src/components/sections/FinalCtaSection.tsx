@@ -49,7 +49,7 @@ export const FinalCtaSection = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="relative w-full pt-10 pb-32 md:py-14 lg:py-0 lg:pb-5 bg-[#F6F7F9] overflow-hidden border-1 border-[#bce0d4] "
+      className="relative w-full pt-10 pb-10 md:py-14 lg:py-0 lg:pb-5 bg-[#F6F7F9] overflow-hidden border-1 border-[#bce0d4] "
     >
       <div className="container mx-auto px-4 md:px-8 max-w-6xl relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">

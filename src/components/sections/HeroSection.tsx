@@ -27,15 +27,15 @@ export const HeroSection = () => {
         const chars = headlineRef.current.querySelectorAll('.word');
         tl.fromTo(chars, 
           { y: 50, opacity: 0 },
-          { y: 0, opacity: 1, duration: 1, stagger: 0.1 }
+          { y: 0, opacity: 1, duration: 0.6, stagger: 0.04 }
         );
       }
 
       // Fade in subheadline and button
       tl.fromTo([subheadlineRef.current, btnRef.current],
         { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.8, stagger: 0.2 },
-        "-=0.5"
+        { y: 0, opacity: 1, duration: 0.5, stagger: 0.1 },
+        "-=0.4"
       );
 
       // Features fade in
@@ -43,8 +43,8 @@ export const HeroSection = () => {
         const featureItems = featuresRef.current.children;
         tl.fromTo(featureItems,
           { opacity: 0, x: -20 },
-          { opacity: 1, x: 0, duration: 0.6, stagger: 0.2 },
-          "-=0.4"
+          { opacity: 1, x: 0, duration: 0.4, stagger: 0.08 },
+          "-=0.3"
         );
       }
 
@@ -53,8 +53,8 @@ export const HeroSection = () => {
         const cards = cardsRef.current.querySelectorAll('.feature-card');
         tl.fromTo(cards,
           { y: 100, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.8, stagger: 0.02 },
-          "-=0.4"
+          { y: 0, opacity: 1, duration: 0.6, stagger: 0.01 },
+          "-=0.3"
         );
       }
 

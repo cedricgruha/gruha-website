@@ -89,7 +89,7 @@ export const CohortSection = () => {
           </div>
           
           {/* Right Image */}
-          <div className="md:w-1/2 flex justify-end items-end h-full pt-10 md:pt-0 self-end order-0 md:order-1">
+          <div className="md:w-1/2 flex justify-end items-end h-full pt-0 md:pt-0 self-end order-0 md:order-1">
             <img 
               ref={imageRef}
               src="/assets/cohort-1/Frame%201597884646.png" 

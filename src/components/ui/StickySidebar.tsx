@@ -17,12 +17,13 @@ export const StickySidebar: React.FC<StickySidebarProps> = ({
 }) => {
   return (
     <>
-      <div className="mb-2 font-fraunces text-3xl md:text-4xl text-black">
+      <div className="mb-2 font-fraunces text-3xl md:text-4xl text-primary">
         {number}
       </div>
       <h2 className="font-fraunces text-3xl md:text-4xl lg:text-5xl text-black leading-[1.1] mb-4">
         {title}
       </h2>
+      <div className="w-16 h-[3px] bg-[#FE6235] mb-6"></div>
       <div className="font-inter text-base md:text-lg text-gray-700 leading-[1.4] mb-6 whitespace-pre-line">
         {description}
       </div>
@@ -30,7 +31,7 @@ export const StickySidebar: React.FC<StickySidebarProps> = ({
         <img 
           src={image} 
           alt={imageAlt} 
-          className="w-full h-full object-contain object-left-bottom"
+          className="w-full h-full object-contain md:object-left-bottom  "
         />
       </div>
     </>

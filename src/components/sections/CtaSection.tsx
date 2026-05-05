@@ -13,7 +13,7 @@ export const CtaSection = () => {
         src="/assets/cta-bg.png"
         alt=""
         aria-hidden="true"
-        className="absolute bottom-0 right-0 w-[65%] md:w-[58%] h-auto object-contain object-right-bottom pointer-events-none select-none z-0"
+        className="absolute bottom-0 right-0 w-[100%] md:w-[58%] h-auto object-contain object-right-bottom pointer-events-none select-none z-0"
       />
       
       <div className="container mx-auto px-6 md:px-8 max-w-6xl relative z-10 pt-16 pb-32 md:py-32">

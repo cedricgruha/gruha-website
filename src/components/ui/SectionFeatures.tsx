@@ -13,7 +13,7 @@ interface SectionFeaturesProps {
 
 export const SectionFeatures: React.FC<SectionFeaturesProps> = ({ features, className = "" }) => {
   return (
-    <div className={`flex flex-col md:flex-row w-full ${className}`}>
+    <div className={`flex flex-col md:flex-row w-full ps-5 sm:ps-0 ${className}`}>
       {features.map((feature, index) => (
         <div 
           key={index} 

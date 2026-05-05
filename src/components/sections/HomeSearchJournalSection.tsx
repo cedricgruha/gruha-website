@@ -42,7 +42,7 @@ export const HomeSearchJournalSection = () => {
       step={1}
       number="01"
       title={<>Home Search<br/>Journal</>}
-      description={<>Tell Riya who you are.<br className="hidden md:block"/>She finds the home that fits.</>}
+      description={<>Tell Riya who you are.<br className="hidden md:block"/> She finds the home that fits.</>}
       sidebarImage="/assets/home-search-journal/left-side-main-character.png"
       cards={cards}
       bgClass="bg-[#f8f7f3]"
