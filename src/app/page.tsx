@@ -15,6 +15,7 @@ import { SectionThree } from "@/components/sections/SectionThree";
 import { SectionFour } from "@/components/sections/SectionFour";
 import { SectionFive } from "@/components/sections/SectionFive";
 import { SectionSix } from "@/components/sections/SectionSix";
+import { LastStepCta } from "@/components/sections/LastStepCta";
 export default function Home() {
   return (
     <>
@@ -41,6 +42,7 @@ export default function Home() {
         <FinalCtaSection />
         {/* step-6 */}
         <SectionSix />
+        <LastStepCta />
       </main>
       <Footer />
     </>
