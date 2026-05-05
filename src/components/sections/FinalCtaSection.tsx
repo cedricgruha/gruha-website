@@ -3,6 +3,7 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useWaitlist } from '@/contexts/WaitlistContext';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,7 +11,7 @@ export const FinalCtaSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
-
+const { openModal } = useWaitlist();
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(contentRef.current,
@@ -75,7 +76,7 @@ export const FinalCtaSection = () => {
               alt="Data visualization"
               className="w-full max-w-[240px] md:max-w-[380px] lg:max-w-[420px] h-auto object-contain pointer-events-none"
             />
-            <button 
+            <button onClick={openModal}
               ref={buttonRef}
               className="w-full md:w-auto bg-[#3DBCA6] hover:bg-[#32A893] text-white font-inter font-medium text-sm px-10 py-3 rounded-md shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg relative z-20"
             >

@@ -21,7 +21,7 @@ const cards = [
   },
   {
     id: "3",
-    title: "The dealbreakers brochures skip",
+    title: "The dealbreakers, that brochures skip",
     description: "Pets, Vaastu, vegetarian-only block, aging parents on the ground floor — the constraints that never make a listing. Tell Riya once, and every project we surface has already passed them.",
     bg: "bg-[#79D9AC]",
     image: "/assets/home-search-journal/home-search-journal-card-image (4).png"

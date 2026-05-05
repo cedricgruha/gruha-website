@@ -23,7 +23,7 @@ const features = [
 
 const cards = [
   {
-    title: "Not all 1200 sq ft arecreated equal.",
+    title: "Not all 1900 Sq ft flats are created equal.",
     description: "Your floor plan colour-coded into usable space, circulation, and dead space — with an efficiency score. See exactly what you're paying for, and what's eating into your carpet area.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (1).png",
     bg:"bg-[#FB2162]",
@@ -31,7 +31,7 @@ const cards = [
     id:"st1"
   },
   {
-    title: "Vaastu-aligned? Wecheck every room — not just the main door.",
+    title: "Vaastu-aligned? We check every room — not just the main door.",
     description: "Every unit evaluated against classical Vaastu principles — main door, kitchen, master bedroom, pooja room, toilets, and the Brahmasthan. You get a compliance score with specific passes and deviations.",
     image: "/assets/features/ChatGPT Image May 2, 2026, 09_44_47 AM 1 (3).png",
     bg:"bg-[#FB6660]",

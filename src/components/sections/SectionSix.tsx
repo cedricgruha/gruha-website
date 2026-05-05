@@ -43,7 +43,7 @@ const cards = [
     title: "How quiet is the neighbourhood at 6am, really?",
     description: "A 0–100 score based on proximity to major roads and hubs. Know if you can sleep and work without the city leaking in. Quiet on paper vs. quiet at dawn.",
     image: "/assets/generated/community_profile.png",
-    bg: "bg-[#503FBF]",
+    bg: "bg-[#FF9F00]",
     textColor: "text-white"
   },
   {

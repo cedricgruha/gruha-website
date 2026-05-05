@@ -117,7 +117,7 @@ export const SpecialistsSection = () => {
           {specialists.map((specialist, idx) => (
             <div 
               key={idx} 
-              className="group flex flex-col bg-white rounded-[1.5rem] overflow-hidden transition-all duration-300 cursor-pointer h-full"
+              className="group flex flex-col bg-white rounded-[1.5rem] overflow-hidden transition-all duration-300  h-full"
               style={{ 
                 borderWidth: '1px', 
                 borderStyle: 'solid',

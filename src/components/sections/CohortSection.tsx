@@ -4,6 +4,7 @@ import React, { useRef, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useWaitlist } from '@/contexts/WaitlistContext';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,6 +12,7 @@ export const CohortSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
+   const { openModal } = useWaitlist();
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -76,12 +78,12 @@ export const CohortSection = () => {
             </h2>
             
             <p className="font-inter text-sm md:text-base lg:text-lg text-gray-300 leading-relaxed max-w-xl mb-6 md:mb-8 font-light">
-              We&apos;re rolling out Bengaluru one cohort at a time — so every Journal
+              We&apos;re rolling out Bengaluru one cohort at a time — so every cohort
               gets the full team&apos;s attention.
             </p>
             
             <div>
-              <button className="bg-[#EE7456] hover:bg-[#E06548] text-white font-inter font-medium text-sm px-5 py-2.5 rounded-xl flex items-center gap-2 transition-colors duration-300 group shadow-lg shadow-[#EE7456]/20">
+              <button onClick={openModal} className="bg-[#EE7456] hover:bg-[#E06548] text-white font-inter font-medium text-sm px-5 py-2.5 rounded-xl flex items-center gap-2 transition-colors duration-300 group shadow-lg shadow-[#EE7456]/20">
                 Join Cohort 01
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </button>

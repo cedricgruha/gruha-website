@@ -158,7 +158,7 @@ export const HeroSection = () => {
           <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
             {[...bottomCards, ...bottomCards, ...bottomCards, ...bottomCards].map((card, idx) => (
               <div key={`row1-${idx}`} className="flex-none pr-3 md:pr-4">
-                <div className="feature-card relative shrink-0 w-[200px] md:w-[280px] aspect-[13/9] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group cursor-pointer">
+                <div className="feature-card relative shrink-0 w-[200px] md:w-[280px] aspect-[13/9] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group ">
                   <Image 
                     src={card.src}
                     alt={card.alt}
@@ -176,7 +176,7 @@ export const HeroSection = () => {
           <div className="flex w-max animate-marquee-reverse hover:[animation-play-state:paused]">
             {[...bottomRowCards, ...bottomRowCards, ...bottomRowCards, ...bottomRowCards].map((card, idx) => (
               <div key={`row2-${idx}`} className="flex-none pr-3 md:pr-4">
-                <div className="feature-card relative shrink-0 w-[200px] md:w-[280px] lg:w-[320px] aspect-[16/10] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group cursor-pointer">
+                <div className="feature-card relative shrink-0 w-[200px] md:w-[280px] lg:w-[320px] aspect-[16/10] rounded-xl overflow-hidden border border-gray-800 bg-black/40 group ">
                   <Image 
                     src={card.src}
                     alt={card.alt}
