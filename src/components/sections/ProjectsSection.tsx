@@ -34,7 +34,7 @@ const cards = [
     bg: "bg-[#E0C5A3]",
     title: "Your Journal becomes your filter — automatically.",
     description: "The requirements captured in your Home Search Journal apply to the map without you lifting a finger. Projects that fit light up; projects that don't fade out.",
-    image: "/assets/blog/rectangle-34626212-1.png"
+    image: "/assets/blog/rectangle-34626212-3.png"
   },
   {
     id:"c-3",
@@ -48,7 +48,7 @@ const cards = [
     bg: "bg-[#b880c7]",
     title: "Side-by-Side Project Compare",
     description: "Four projects, one screen—no spreadsheets. Pin any four and compare price, sun, privacy, commute, vaastu, greenery, and RERA. Differences are instantly clear.",
-    image: "/assets/blog/rectangle-34626212-3.png"
+    image: "/assets/blog/rectangle-34626212-1.png"
   },
   {
     id:"c-5",
