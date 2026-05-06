@@ -10,8 +10,8 @@ export async function POST(request: Request) {
     const { data, error } = await resend.batch.send([
       // Email 1: Notification to the team
       {
-        from: 'homebuyers',
-        to: 'homebuyers',
+        from: 'homebuyers@gruha.ai',
+        to: 'homebuyers@gruha.ai',
         subject: `New enquiry from ${name}`,
         html: `
           <h2>New enquiry — Gruha.ai</h2>
@@ -23,9 +23,9 @@ export async function POST(request: Request) {
       },
       // Email 2: Confirmation to the lead
       {
-        from: 'homebuyers',
+        from: 'homebuyers@gruha.ai',
         to: email,
-        replyTo: 'hello@gruha.ai',
+        replyTo: 'homebuyers@gruha.ai',
         subject: "We've received your enquiry",
         html: `
           <p>Hi ${firstName},</p>
