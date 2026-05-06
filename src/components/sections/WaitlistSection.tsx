@@ -10,12 +10,12 @@ export const WaitlistSection = () => {
   return (
     <section className="relative w-full bg-[#111111] overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute top-0 bottom-0 left-[-40%] right-[-40%] md:inset-0 z-0 opacity-40 pointer-events-none">
+      <div className="absolute top-0 bottom-0 left-[-40%] right-[-40%] md:inset-0 z-0 opacity-40 pointer-events-none overflow-hidden">
         <Image 
           src="/assets/looper-1.png"
           alt=""
           fill
-          className="object-contain md:object-cover object-center"
+          className="object-contain md:object-cover object-center scale-[2] md:scale-100 transition-transform duration-700"
         />
       </div>
       
