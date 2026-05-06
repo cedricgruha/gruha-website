@@ -24,10 +24,7 @@ export const Footer = () => {
             <p className="text-[#A1A1AA] font-inter text-[0.9375rem] leading-[1.7] mb-10 max-w-[300px] hidden md:block">
              
             </p>
-            {/* <button onClick={openModal} className="bg-[#fc7c54] hover:bg-[#fc7c54]/90 text-[#111] font-inter font-medium text-[0.9375rem] px-6 py-3.5 rounded-lg flex items-center gap-2 transition-all duration-300">
-              Join Waitlist
-              <ArrowUpRight className="w-4 h-4 stroke-[2.5]" />
-            </button> */}
+          
           </div>
 
           {/* Contact & Email Column */}
@@ -35,8 +32,8 @@ export const Footer = () => {
             
             <div>
               <h4 className="text-[#888] text-xs font-bold tracking-[0.1em] uppercase mb-6">Email</h4>
-              <Link href="mailto:hello@gruha.ai" className="text-[#E4E4E7] font-inter text-[0.9375rem] hover:text-white underline underline-offset-[5px] decoration-gray-500 hover:decoration-white transition-colors">
-                hello@gruha.ai
+              <Link href="mailto:homebuyers@gruha.ai" className="text-[#E4E4E7] font-inter text-[0.9375rem] hover:text-white underline underline-offset-[5px] decoration-gray-500 hover:decoration-white transition-colors">
+                homebuyers@gruha.ai
               </Link>
             </div>
           </div>

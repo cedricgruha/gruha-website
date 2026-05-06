@@ -27,7 +27,7 @@ export const StackingCard: React.FC<StackingCardProps> = ({
     <div 
       className={`w-full min-h-[50vh] md:min-h-0 rounded-[32px] md:rounded-[28px] overflow-hidden ${card.bg} flex flex-col pt-14 md:pt-0 sticky shadow-sm [--stack-top:80px] md:[--stack-top:120px]`}
       style={{ 
-        top: `calc(var(--stack-top) + ${index * spacing}px)`,
+        top: `calc(${topOffset}px + ${index * spacing}px)`,
         zIndex: index + 1
       } as React.CSSProperties}
     >
