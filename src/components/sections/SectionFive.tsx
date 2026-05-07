@@ -67,8 +67,8 @@ export const SectionFive = () => {
     <BaseStepSection
       step={5}
       number="05"
-      title={<>Project & Tower <br/>Intelligence</>}
-      description="Big decisions need the full picture."
+      title={<>Location Intelligence</>}
+      description="Know the neighbourhood. Live with confidence."
       sidebarImage="/assets/05-location-inteligence/right-image.png"
       cards={cards}
       features={features}
