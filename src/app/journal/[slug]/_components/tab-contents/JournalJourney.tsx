@@ -203,117 +203,127 @@ export const JournalJourney: React.FC<JournalJourneyProps> = ({
           </div>
 
           {/* DESKTOP ROADMAP (SVG Snaking Path) */}
-          <div className="hidden md:block relative w-full aspect-[1000/800] max-h-[820px]">
-            <svg
-              className="absolute inset-0 w-full h-full pointer-events-none z-0"
-              viewBox="0 0 1000 800"
-              preserveAspectRatio="xMidYMid meet"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <marker
-                  id="arrowhead"
-                  markerWidth="7"
-                  markerHeight="7"
-                  refX="5"
-                  refY="3.5"
-                  orient="auto"
+          {(() => {
+            const maxY = Math.max(...roadmapNodes.map((n) => n.y), 300);
+            const viewBoxHeight = Math.max(520, maxY + 240);
+
+            return (
+              <div
+                className="hidden md:block relative w-full pb-12 mb-4"
+                style={{ aspectRatio: `1000 / ${viewBoxHeight}` }}
+              >
+                <svg
+                  className="absolute inset-0 w-full h-full pointer-events-none z-0"
+                  viewBox={`0 0 1000 ${viewBoxHeight}`}
+                  preserveAspectRatio="xMidYMid meet"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
+                  <defs>
+                    <marker
+                      id="arrowhead"
+                      markerWidth="7"
+                      markerHeight="7"
+                      refX="5"
+                      refY="3.5"
+                      orient="auto"
+                    >
+                      <path
+                        d="M 1 1 L 6 3.5 L 1 6"
+                        fill="none"
+                        stroke="#CBD5E1"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </marker>
+                  </defs>
+
+                  {/* Main Path: Top Row */}
                   <path
-                    d="M 1 1 L 6 3.5 L 1 6"
+                    d="M 130 110 C 190 60, 270 190, 340 160 C 420 120, 480 180, 560 150 C 640 120, 680 140, 740 130 C 820 120, 880 190, 880 290"
                     fill="none"
                     stroke="#CBD5E1"
-                    strokeWidth="1.8"
+                    strokeWidth="2.2"
+                    strokeDasharray="6 6"
                     strokeLinecap="round"
-                    strokeLinejoin="round"
                   />
-                </marker>
-              </defs>
 
-              {/* Main Path: Top Row */}
-              <path
-                d="M 130 110 C 190 60, 270 190, 340 160 C 420 120, 480 180, 560 150 C 640 120, 680 140, 740 130 C 820 120, 880 190, 880 290"
-                fill="none"
-                stroke="#CBD5E1"
-                strokeWidth="2.2"
-                strokeDasharray="6 6"
-                strokeLinecap="round"
-              />
+                  {/* Loop under Budget Shock */}
+                  <path
+                    d="M 880 290 C 800 370, 860 520, 930 450 C 980 400, 970 330, 950 335"
+                    fill="none"
+                    stroke="#CBD5E1"
+                    strokeWidth="2.2"
+                    strokeDasharray="6 6"
+                    strokeLinecap="round"
+                    markerEnd="url(#arrowhead)"
+                  />
 
-              {/* Loop under Budget Shock */}
-              <path
-                d="M 880 290 C 800 370, 860 520, 930 450 C 980 400, 970 330, 950 335"
-                fill="none"
-                stroke="#CBD5E1"
-                strokeWidth="2.2"
-                strokeDasharray="6 6"
-                strokeLinecap="round"
-                markerEnd="url(#arrowhead)"
-              />
+                  {/* Path: Budget Shock area to Back to Research */}
+                  <path
+                    d="M 880 290 C 830 350, 780 390, 710 400 C 630 410, 580 420, 510 430 C 440 440, 390 440, 330 450"
+                    fill="none"
+                    stroke="#CBD5E1"
+                    strokeWidth="2.2"
+                    strokeDasharray="6 6"
+                    strokeLinecap="round"
+                  />
 
-              {/* Path: Budget Shock area to Back to Research */}
-              <path
-                d="M 880 290 C 830 350, 780 390, 710 400 C 630 410, 580 420, 510 430 C 440 440, 390 440, 330 450"
-                fill="none"
-                stroke="#CBD5E1"
-                strokeWidth="2.2"
-                strokeDasharray="6 6"
-                strokeLinecap="round"
-              />
+                  {/* Teardrop Loop above Back to Research */}
+                  <path
+                    d="M 330 450 C 270 370, 320 340, 345 380 C 355 400, 348 415, 345 422"
+                    fill="none"
+                    stroke="#CBD5E1"
+                    strokeWidth="2.2"
+                    strokeDasharray="6 6"
+                    strokeLinecap="round"
+                    markerEnd="url(#arrowhead)"
+                  />
 
-              {/* Teardrop Loop above Back to Research */}
-              <path
-                d="M 330 450 C 270 370, 320 340, 345 380 C 355 400, 348 415, 345 422"
-                fill="none"
-                stroke="#CBD5E1"
-                strokeWidth="2.2"
-                strokeDasharray="6 6"
-                strokeLinecap="round"
-                markerEnd="url(#arrowhead)"
-              />
+                  {/* Path: Back to Research to Current Position */}
+                  <path
+                    d="M 330 450 C 240 480, 190 520, 150 580 C 110 650, 230 730, 320 710 C 400 690, 460 760, 530 740"
+                    fill="none"
+                    stroke="#CBD5E1"
+                    strokeWidth="2.2"
+                    strokeDasharray="6 6"
+                    strokeLinecap="round"
+                  />
+                </svg>
 
-              {/* Path: Back to Research to Current Position */}
-              <path
-                d="M 330 450 C 240 480, 190 520, 150 580 C 110 650, 230 730, 320 710 C 400 690, 460 760, 530 740"
-                fill="none"
-                stroke="#CBD5E1"
-                strokeWidth="2.2"
-                strokeDasharray="6 6"
-                strokeLinecap="round"
-              />
-            </svg>
-
-            {roadmapNodes.map((stage) => {
-              const Icon = stage.icon;
-              return (
-                <div
-                  key={stage.id}
-                  className="absolute z-10 flex flex-col items-center pointer-events-auto"
-                  style={{
-                    left: `${(stage.x / 1000) * 100}%`,
-                    top: `${(stage.y / 800) * 100}%`,
-                    width: `${stage.width}px`,
-                    transform: "translate(-50%, -27px)",
-                  }}
-                >
-                  <div
-                    className="flex items-center justify-center w-[54px] h-[54px] bg-[#F1F5F9] rounded-[18px] mb-2 shrink-0 transition-transform duration-200 hover:scale-105"
-                    style={{ boxShadow: "0 0 0 8px #ffffff" }}
-                  >
-                    <Icon className="w-[26px] h-[26px] text-[#475569]" strokeWidth={1.75} />
-                  </div>
-                  <div className="flex flex-col items-center text-center gap-0.5 w-full">
-                    <h4 className="font-semibold text-[14px] leading-[18px] text-[#334155] font-inter">
-                      {stage.title}
-                    </h4>
-                    <p className="font-medium text-[13px] leading-[17px] text-[#64748B] font-inter">
-                      {stage.desc}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+                {roadmapNodes.map((stage) => {
+                  const Icon = stage.icon;
+                  return (
+                    <div
+                      key={stage.id}
+                      className="absolute z-10 flex flex-col items-center pointer-events-auto"
+                      style={{
+                        left: `${(stage.x / 1000) * 100}%`,
+                        top: `${(stage.y / viewBoxHeight) * 100}%`,
+                        width: `${stage.width}px`,
+                        transform: "translate(-50%, -27px)",
+                      }}
+                    >
+                      <div
+                        className="flex items-center justify-center w-[54px] h-[54px] bg-[#F1F5F9] rounded-[18px] mb-2 shrink-0 transition-transform duration-200 hover:scale-105"
+                        style={{ boxShadow: "0 0 0 8px #ffffff" }}
+                      >
+                        <Icon className="w-[26px] h-[26px] text-[#475569]" strokeWidth={1.75} />
+                      </div>
+                      <div className="flex flex-col items-center text-center gap-0.5 w-full">
+                        <h4 className="font-semibold text-[14px] leading-[18px] text-[#334155] font-inter">
+                          {stage.title}
+                        </h4>
+                        <p className="font-medium text-[13px] leading-[17px] text-[#64748B] font-inter">
+                          {stage.desc}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })()}
         </div>
 
         {/* Moments & Voices Grid */}

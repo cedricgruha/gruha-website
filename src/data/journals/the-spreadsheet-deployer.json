@@ -396,6 +396,10 @@
           "description": "Bhartiya City Nikoo Homes phase window (~₹11,950–12,100/sqft), township scale and early-bird margin.",
           "projects": 3,
           "siteVisits": 5,
+          "latlong": {
+            "lat": 13.070697,
+            "lng": 77.633453
+          },
           "imageSrc": "/journals/thanisandra.png",
           "imagegenerationprompt": "A modern architectural vector landscape of Thanisandra Main Road showing new township developments and landscaped boulevards, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -404,6 +408,10 @@
           "description": "L&T Raintree Boulevard benchmark (₹17.5K–20.4K/sqft) showing corridor premium once delivered.",
           "projects": 4,
           "siteVisits": 6,
+          "latlong": {
+            "lat": 13.035362,
+            "lng": 77.598785
+          },
           "imageSrc": "/journals/hebbal.png",
           "imagegenerationprompt": "A sleek architectural view of Hebbal flyover and high-rise luxury apartment towers in North Bengaluru, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -412,6 +420,10 @@
           "description": "Plotted land options (₹2,100–8,500/sqft) near Foxconn hub and Satellite Town Ring Road (STRR).",
           "projects": 3,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 13.248940,
+            "lng": 77.657300
+          },
           "imageSrc": "/journals/devanahalli.png",
           "imagegenerationprompt": "A wide aerial view of plotted development layouts near Devanahalli airport corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }

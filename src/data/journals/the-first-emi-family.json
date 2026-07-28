@@ -422,6 +422,10 @@
           "description": "Strong social infrastructure, growing employment hubs and communities designed for young families.",
           "projects": 5,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 12.932896,
+            "lng": 77.688195
+          },
           "imageSrc": "/journals/sarjapur.png",
           "imagegenerationprompt": "A modern flat vector illustration of sarjapur, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -430,6 +434,10 @@
           "description": "Balanced connectivity, improving infrastructure and better value within their target budget.",
           "projects": 4,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 12.890365,
+            "lng": 77.673333
+          },
           "imageSrc": "/journals/hosa-road.png",
           "imagegenerationprompt": "A modern flat vector illustration of hosa road, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -438,6 +446,10 @@
           "description": "Larger homes within budget, but longer commute and fewer ready social conveniences.",
           "projects": 2,
           "siteVisits": 3,
+          "latlong": {
+            "lat": 12.779163,
+            "lng": 77.768668
+          },
           "imageSrc": "/journals/attibele.png",
           "imagegenerationprompt": "A modern flat vector illustration of attibele, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }

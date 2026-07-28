@@ -350,6 +350,10 @@
           "desc": "50-acre eco-village in Kengeri. Proven performance bills, RWH, near-zero energy.",
           "projectsCount": 1,
           "visitsCount": 4,
+          "latlong": {
+            "lat": 12.885551,
+            "lng": 77.464302
+          },
           "dotColor": "#DD5128",
           "isTopChoice": true,
           "image": "/journals/the-regenerative-builder/malhar.png",
@@ -361,6 +365,10 @@
           "desc": "30x40 site bought as Plan 2031 hold. Solar-screened peri-urban layout.",
           "projectsCount": 2,
           "visitsCount": 3,
+          "latlong": {
+            "lat": 12.939098,
+            "lng": 77.489741
+          },
           "dotColor": "rgb(16, 185, 129)",
           "image": "/journals/the-regenerative-builder/magadi.png",
           "imagegenerationprompt": "A modern architectural vector render of a plotted layout on Magadi Road in an 80% greyscale monochrome palette with a Warm Coral #DD5128 tree pin accent, Scandinavian minimalism, clean white background."
@@ -371,6 +379,10 @@
           "desc": "Marketing brochure leaf with vertical garden render. Declined after receiving mood board instead of bills.",
           "projectsCount": 1,
           "visitsCount": 1,
+          "latlong": {
+            "lat": 12.974499,
+            "lng": 77.566068
+          },
           "dotColor": "rgb(59, 130, 246)",
           "image": "/journals/the-regenerative-builder/detour.png",
           "imagegenerationprompt": "A modern vector rendering of a villa mood board in an 80% greyscale monochrome palette with a Warm Coral #DD5128 bookmark accent, Scandinavian minimalism, clean white background."

@@ -17,6 +17,7 @@ interface JournalCard {
   image: string;
   views?: number;
   copies?: number;
+  path?: string;
 }
 
 const FILTERS = ["All", "Investors", "Families", "NRI", "Sustainability", "Young Professionals", "Seniors", "Plot Buyers"];
@@ -121,68 +122,78 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
             {filtered.map((journal, idx) => {
               const stagger = [0, 48, 0, -32, 48, 0, -48, 32];
               const mt = stagger[idx % stagger.length];
-              return (
-              <div key={journal.id} className="group relative flex flex-col cursor-pointer" style={{ marginTop: mt }}>
-                {/* Card */}
-                <div className="relative aspect-[16/9] rounded-lg overflow-hidden transition-transform duration-500 group-hover:-translate-y-2 shadow-xl bg-white">
-                  {/* Spine effect */}
-                  <div className="absolute left-0 top-0 bottom-0 w-6 z-20" style={{ background: "linear-gradient(to right, rgba(0,0,0,0.25), transparent)" }} />
+              const targetHref = journal.path ? (journal.path.startsWith("/") ? journal.path : `/${journal.path}`) : null;
 
-                  {/* Gradient overlay */}
-                  <div className="absolute inset-0 z-10" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 35%, transparent 60%)" }} />
+              const cardContent = (
+                <div className="group relative flex flex-col cursor-pointer" style={{ marginTop: mt }}>
+                  {/* Card */}
+                  <div className="relative aspect-[16/9] rounded-lg overflow-hidden transition-transform duration-500 group-hover:-translate-y-2 shadow-xl bg-white">
+                    {/* Spine effect */}
+                    <div className="absolute left-0 top-0 bottom-0 w-6 z-20" style={{ background: "linear-gradient(to right, rgba(0,0,0,0.25), transparent)" }} />
 
-                  {/* Image */}
-                  <img
-                    src={journal.image}
-                    alt={journal.title}
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
+                    {/* Gradient overlay */}
+                    <div className="absolute inset-0 z-10" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 35%, transparent 60%)" }} />
 
-                  {/* Content overlay */}
-                  <div className="absolute inset-0 z-30 p-8 flex flex-col justify-end">
-                    <div className="mb-4 space-y-2">
-                      {journal.segment && (
-                        <span
-                          className="inline-block px-2.5 py-0.5 rounded-md text-[10px] font-bold tracking-[0.1em] uppercase backdrop-blur-md"
-                          style={{ fontFamily: fu, background: "rgba(221,81,40,0.2)", color: "#FF8A65", border: "1px solid rgba(221,81,40,0.3)" }}
-                        >
-                          {journal.segment}
+                    {/* Image */}
+                    <img
+                      src={journal.image}
+                      alt={journal.title}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+
+                    {/* Content overlay */}
+                    <div className="absolute inset-0 z-30 p-8 flex flex-col justify-end">
+                      <div className="mb-4 space-y-2">
+                        {journal.segment && (
+                          <span
+                            className="inline-block px-2.5 py-0.5 rounded-md text-[10px] font-bold tracking-[0.1em] uppercase backdrop-blur-md"
+                            style={{ fontFamily: fu, background: "rgba(221,81,40,0.2)", color: "#FF8A65", border: "1px solid rgba(221,81,40,0.3)" }}
+                          >
+                            {journal.segment}
+                          </span>
+                        )}
+                        <h3 className="text-[18px] font-semibold leading-tight text-white" style={{ fontFamily: fd }}>
+                          {journal.title}
+                        </h3>
+                        <p className="text-[11px] leading-[1.5] text-white/70 line-clamp-2" style={{ fontFamily: fu }}>
+                          {journal.subtitle}
+                        </p>
+                      </div>
+                      <div className="flex items-center gap-3 pt-4 border-t border-white/15">
+                        <span className="flex items-center gap-1.5 text-[10px] text-white/50" style={{ fontFamily: fu }}>
+                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" strokeWidth="2"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" strokeWidth="2"/></svg>
+                          {journal.views ? (journal.views / 1000).toFixed(1) + 'k' : ''}
                         </span>
-                      )}
-                      <h3 className="text-[18px] font-semibold leading-tight text-white" style={{ fontFamily: fd }}>
-                        {journal.title}
-                      </h3>
-                      <p className="text-[11px] leading-[1.5] text-white/70 line-clamp-2" style={{ fontFamily: fu }}>
-                        {journal.subtitle}
-                      </p>
-                    </div>
-                    <div className="flex items-center gap-3 pt-4 border-t border-white/15">
-                      <span className="flex items-center gap-1.5 text-[10px] text-white/50" style={{ fontFamily: fu }}>
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" strokeWidth="2"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" strokeWidth="2"/></svg>
-                        {journal.views ? (journal.views / 1000).toFixed(1) + 'k' : ''}
-                      </span>
-                      <span className="flex items-center gap-1.5 text-[10px] text-white/50" style={{ fontFamily: fu }}>
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" strokeWidth="2"/></svg>
-                        {journal.copies || ''}
-                      </span>
+                        <span className="flex items-center gap-1.5 text-[10px] text-white/50" style={{ fontFamily: fu }}>
+                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" strokeWidth="2"/></svg>
+                          {journal.copies || ''}
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Tags below card */}
-                <div className="mt-4 flex gap-2">
-                  {journal.tags.slice(0, 3).map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[10px] font-bold tracking-[0.1em] uppercase px-2 py-0.5 rounded-md"
-                      style={{ fontFamily: fu, background: "#E8E0F5", color: "#5B21B6" }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
+                  {/* Tags below card */}
+                  <div className="mt-4 flex gap-2">
+                    {journal.tags.slice(0, 3).map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-[10px] font-bold tracking-[0.1em] uppercase px-2 py-0.5 rounded-md"
+                        style={{ fontFamily: fu, background: "#E8E0F5", color: "#5B21B6" }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            );
+              );
+
+              return targetHref ? (
+                <Link key={journal.id} href={targetHref} className="block no-underline">
+                  {cardContent}
+                </Link>
+              ) : (
+                <React.Fragment key={journal.id}>{cardContent}</React.Fragment>
+              );
             })}
           </div>
         </section>

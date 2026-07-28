@@ -396,6 +396,10 @@
           "description": "Sobha Dream Acres corridor near his son's Microsoft workplace (~₹12.8-13.2K/sqft).",
           "projects": 4,
           "siteVisits": 6,
+          "latlong": {
+            "lat": 12.939868,
+            "lng": 77.699285
+          },
           "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/bellandur.png",
           "imagegenerationprompt": "A modern architectural vector landscape of Bellandur Panathur tech corridor with high-rise apartment towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -404,6 +408,10 @@
           "description": "Gated plotted developments with DC conversion and A-khata status (~₹7-9K/sqft premium band).",
           "projects": 3,
           "siteVisits": 5,
+          "latlong": {
+            "lat": 13.211489,
+            "lng": 77.695624
+          },
           "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/devanahalli.png",
           "imagegenerationprompt": "An aerial vector illustration of a gated plot layout with landscaped internal roads near Devanahalli airport, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -412,6 +420,10 @@
           "description": "Explored alternative 3BHK options with strong rental demand from tech parks.",
           "projects": 3,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 12.910796,
+            "lng": 77.684470
+          },
           "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/sarjapur.png",
           "imagegenerationprompt": "A modern architectural vector landscape of Sarjapur Road residential developments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }

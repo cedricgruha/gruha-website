@@ -421,6 +421,10 @@
           "description": "Established residential township belt with Brigade Gardenia & Millennium (~₹11.8K/sqft).",
           "projects": 4,
           "siteVisits": 5,
+          "latlong": {
+            "lat": 12.891558,
+            "lng": 77.581452
+          },
           "imageSrc": "/journals/the-quiet-crorepatis/jp-nagar.png",
           "imagegenerationprompt": "A modern architectural vector view of JP Nagar 7th Phase residential complexes with leafy avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -429,6 +433,10 @@
           "description": "Premium heritage residential hub with 24-unit boutique apartments (~₹15-21K/sqft).",
           "projects": 3,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 12.927204,
+            "lng": 77.583484
+          },
           "imageSrc": "/journals/the-quiet-crorepatis/jayanagar.png",
           "imagegenerationprompt": "A modern architectural vector view of Jayanagar 4th Block avenues and boutique apartments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -437,6 +445,10 @@
           "description": "Quiet South Bengaluru locality explored during post-walkaway re-evaluations.",
           "projects": 3,
           "siteVisits": 3,
+          "latlong": {
+            "lat": 12.926920,
+            "lng": 77.548807
+          },
           "imageSrc": "/journals/the-quiet-crorepatis/banashankari.png",
           "imagegenerationprompt": "A modern architectural vector view of Banashankari residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }

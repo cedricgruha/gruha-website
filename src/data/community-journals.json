@@ -11,7 +11,8 @@
     "segment": "INVESTORS & WEALTH",
     "image": "/journals/cover/1.png",
     "views": 14292,
-    "copies": 506
+    "copies": 506,
+    "path": "community-journals/the-quiet-crorepatis"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "segment": "INVESTORS & WEALTH",
     "image": "/journals/cover/2.png",
     "views": 13422,
-    "copies": 101
+    "copies": 101,
+    "path": "community-journals/the-spreadsheet-deployer"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     "segment": "INVESTORS & WEALTH / NRI",
     "image": "/journals/cover/3.png",
     "views": 6654,
-    "copies": 497
+    "copies": 497,
+    "path": "community-journals/the-3000-miles-home-journal"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     "segment": "INVESTORS & WEALTH",
     "image": "/journals/cover/4.png",
     "views": 5475,
-    "copies": 191
+    "copies": 191,
+    "path": "community-journals/the-bhoomi-to-bengaluru-journal"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     "segment": "INVESTORS & WEALTH",
     "image": "/journals/cover/5.png",
     "views": 21227,
-    "copies": 514
+    "copies": 514,
+    "path": "community-journals/the-twelve-keys-journal"
   },
   {
     "id": 7,
@@ -137,7 +142,8 @@
     "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
     "image": "/journals/cover/14.png",
     "views": 15947,
-    "copies": 111
+    "copies": 111,
+    "path": "community-journals/the-first-emi-family"
   },
   {
     "id": 15,

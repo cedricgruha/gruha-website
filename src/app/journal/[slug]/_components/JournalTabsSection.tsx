@@ -100,14 +100,27 @@ export const JournalTabsSection: React.FC = () => {
     },
   ];
 
+  // Map tabs array from JSON into a dictionary by tab id
+  const tabsMap: Record<string, any> = ((journalData as any).tabs || []).reduce((acc: any, tab: any) => {
+    acc[tab.id] = tab;
+    return acc;
+  }, {});
+
+  const profileRaw = tabsMap["profile"] || {};
+  const journeyRaw = tabsMap["journey"] || {};
+  const searchRaw = tabsMap["search"] || {};
+  const projectsRaw = tabsMap["projects"] || {};
+  const learningsRaw = tabsMap["learnings"] || {};
+  const startHereRaw = tabsMap["start-here"] || tabsMap["startHere"] || {};
+
   // ---------------------------------------------------------------------------
   // Tab Panel Renderers
   // ---------------------------------------------------------------------------
 
   const renderProfileContent = () => {
     const profileData = {
-      ...journalData.profile,
-      stats: journalData.profile.stats.map((item) => {
+      ...profileRaw,
+      stats: (profileRaw.stats || []).map((item: any) => {
         const IconComponent = getIcon(item.icon);
         return {
           ...item,
@@ -121,24 +134,24 @@ export const JournalTabsSection: React.FC = () => {
 
   const renderJourneyContent = () => {
     const journeyData = {
-      ...journalData.journey,
-      metrics: journalData.journey.metrics.map((item) => ({
+      ...journeyRaw,
+      metrics: (journeyRaw.metrics || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      roadmapNodes: journalData.journey.roadmapNodes.map((item) => ({
+      roadmapNodes: (journeyRaw.roadmapNodes || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      timelineSteps: journalData.journey.timelineSteps.map((item) => ({
+      timelineSteps: (journeyRaw.timelineSteps || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      moments: journalData.journey.moments.map((item) => ({
+      moments: (journeyRaw.moments || []).map((item: any) => ({
         ...item,
         desc: item.desc,
       })),
-      realityChecks: journalData.journey.realityChecks.map((item) => ({
+      realityChecks: (journeyRaw.realityChecks || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
@@ -149,15 +162,16 @@ export const JournalTabsSection: React.FC = () => {
 
   const renderSearchContent = () => {
     const searchData = {
-      ...journalData.search,
-      metrics: journalData.search.metrics.map((item) => ({
+      ...searchRaw,
+      metrics: (searchRaw.metrics || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      filters: journalData.search.filters.map((item) => ({
+      filters: (searchRaw.filters || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
+      exploredAreas: searchRaw.exploredAreas || [],
     };
 
     return <JournalSearch {...searchData} />;
@@ -165,16 +179,16 @@ export const JournalTabsSection: React.FC = () => {
 
   const renderProjectsContent = () => {
     const projectsData = {
-      ...journalData.projects,
-      metrics: journalData.projects.metrics.map((item) => ({
+      ...projectsRaw,
+      metrics: (projectsRaw.metrics || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      priorities: journalData.projects.priorities.map((item) => ({
+      priorities: (projectsRaw.priorities || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      rejectedReasons: journalData.projects.rejectedReasons.map((item) => ({
+      rejectedReasons: (projectsRaw.rejectedReasons || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
@@ -185,20 +199,20 @@ export const JournalTabsSection: React.FC = () => {
 
   const renderLearningsContent = () => {
     const learningsData = {
-      ...journalData.learnings,
-      metrics: journalData.learnings.metrics.map((item) => ({
+      ...learningsRaw,
+      metrics: (learningsRaw.metrics || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      beforeItems: journalData.learnings.beforeItems.map((item) => ({
+      beforeItems: (learningsRaw.beforeItems || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      afterItems: journalData.learnings.afterItems.map((item) => ({
+      afterItems: (learningsRaw.afterItems || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
-      differentlyCards: journalData.learnings.differentlyCards.map((item) => ({
+      differentlyCards: (learningsRaw.differentlyCards || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),
@@ -209,8 +223,8 @@ export const JournalTabsSection: React.FC = () => {
 
   const renderStartHereContent = () => {
     const startHereData = {
-      ...journalData.startHere,
-      valueProps: journalData.startHere.valueProps.map((item) => ({
+      ...startHereRaw,
+      valueProps: (startHereRaw.valueProps || []).map((item: any) => ({
         ...item,
         icon: getIcon(item.icon),
       })),

@@ -247,6 +247,10 @@
           "desc": "₹6.8 Cr clean cash split. Total freedom, but house is demolished for someone else's drawing.",
           "projectsCount": 3,
           "visitsCount": 5,
+          "latlong": {
+            "lat": 43.514288,
+            "lng": 16.443467
+          },
           "dotColor": "rgb(59, 130, 246)",
           "image": "/journals/the-three-shares/sale.png",
           "imagegenerationprompt": "A modern architectural vector render of a clean property sale document in an 80% greyscale monochrome palette with a Warm Coral #DD5128 seal accent, Scandinavian minimalism, clean white background."

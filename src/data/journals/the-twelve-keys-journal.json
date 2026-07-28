@@ -37,7 +37,9 @@
   "buyers": [
     {
       "name": "Priyanka Bhat",
-      "role": "Ex-Hotelier & Micro-Stay Operator (35 yrs)",
+      "age": 35,
+      "location": "Bengaluru",
+      "role": "Ex-Hotelier & Micro-Stay Operator ",
       "avatar": "/journals/priyanka.png",
       "image": "/journals/priyanka.png",
       "imagegenerationprompt": "A modern vector illustration of priyanka bhat, a confident 35-year-old Indian female entrepreneur with styled short dark hair, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
@@ -85,7 +87,8 @@
       "buyers": [
         {
           "name": "Priyanka Bhat",
-          "role": "Ex-Hotelier & Micro-Stay Operator (35 yrs)",
+          "age": 35,
+          "role": "Ex-Hotelier & Micro-Stay Operator ",
           "avatar": "/journals/priyanka.png",
           "image": "/journals/priyanka.png",
           "imagegenerationprompt": "A modern vector illustration of priyanka bhat avatar headshot with a confident warm smile, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
@@ -381,6 +384,10 @@
           "description": "High corporate demand, 85%+ occupancy, strict RWA audit required before token.",
           "projects": 6,
           "siteVisits": 8,
+          "latlong": {
+            "lat": 13.027704,
+            "lng": 77.632474
+          },
           "imageSrc": "/journals/the-twelve-keys-journal/hero.png",
           "imagegenerationprompt": "A modern vector illustration of a modern vector landscape of Bellandur ORR tech park towers and glass facades, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -389,6 +396,10 @@
           "description": "Strong tech influx, lower entry price per sqft, developer-led ready studio stock.",
           "projects": 5,
           "siteVisits": 6,
+          "latlong": {
+            "lat": 13.043267,
+            "lng": 77.621616
+          },
           "imageSrc": "/journals/manyata.png",
           "imagegenerationprompt": "A modern vector illustration of a vector view of Manyata tech park boulevard with modern office buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -397,6 +408,10 @@
           "description": "Township studios with integrated commercial zones and tolerant RWA communities.",
           "projects": 3,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9833,
+            "lng": 77.75
+          },
           "imageSrc": "/journals/whitefield.png",
           "imagegenerationprompt": "A modern vector illustration of an architectural vector view of Whitefield Varthur road integrated townships, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }

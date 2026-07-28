@@ -217,53 +217,7 @@ export const JournalSearch: React.FC<JournalSearchProps> = ({
         </div>
 
         {/* Insight Highlight Card */}
-        <div
-          className="relative w-full rounded-[24px] p-5 sm:p-6 overflow-hidden flex flex-row items-center isolation-auto border border-[#F1F5F9] shadow-xs"
-          style={{
-            background: "radial-gradient(60.66% 250.48% at 15.13% 50.27%, #FAF9FF 0%, rgba(235, 231, 255, 0.75) 100%)",
-          }}
-        >
-          <div className="relative z-10 w-full flex flex-col justify-center items-start gap-3 lg:pr-[280px]">
-            <div className="w-[40px] h-[40px] flex items-center justify-center flex-shrink-0">
-              <svg
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 3.33334L18.88 12.4533L28 15.3333L18.88 18.2133L16 27.3333L13.12 18.2133L4 15.3333L13.12 12.4533L16 3.33334Z"
-                  stroke="#8B5CF6"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M5.33331 4L6.50664 7.70667L10.2133 8.88L6.50664 10.0533L5.33331 13.76L4.15998 10.0533L0.453308 8.88L4.15998 7.70667L5.33331 4Z"
-                  fill="#8B5CF6"
-                />
-              </svg>
-            </div>
-            <h3 className="w-full text-[16px] leading-[19px] font-semibold text-[#8B5CF6] font-inter">
-              {insightTitle}
-            </h3>
-            <p className="w-full max-w-[777px] text-[14px] leading-[22px] font-medium text-[#8B5CF6] font-inter">
-              {insightDescription}
-            </p>
-          </div>
 
-          <div className="hidden lg:block absolute top-0 right-12 w-[303px] h-[202px] pointer-events-none">
-            <Image
-              src={insightImage}
-              alt="Advisor"
-              width={303}
-              height={202}
-              className="w-full h-full object-contain mix-blend-multiply"
-              priority
-            />
-          </div>
-        </div>
 
       </div>
     </section>

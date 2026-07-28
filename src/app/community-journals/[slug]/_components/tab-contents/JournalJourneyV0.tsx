@@ -396,7 +396,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
         )}
 
         {/* -- Dynamic Roadmap SVG ---------------------------------------- */}
-        <div className="w-full border border-[#F1F5F9] rounded-[24px] bg-white overflow-hidden shadow-[0_1px_2px_rgba(17,24,33,.04),0_8px_24px_rgba(17,24,33,.05)]">
+        <div className="w-full border border-[#F1F5F9] rounded-[24px] bg-white overflow-hidden pb-6 shadow-[0_1px_2px_rgba(17,24,33,.04),0_8px_24px_rgba(17,24,33,.05)]">
           <div className="px-8 pt-7 pb-2">
             <p
               className="text-[9.5px] font-semibold tracking-[0.14em] uppercase"
@@ -413,7 +413,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
           </div>
 
           {/* Mobile Vertical Nodes */}
-          <div className="flex flex-col gap-6 p-6 md:hidden">
+          <div className="flex flex-col gap-6 p-6 pb-10 md:hidden">
             {roadmapNodes.map((stage, idx) => {
               const Icon = typeof stage.icon === "string" ? (props: any) => getIcon(stage.icon, "HelpCircle", props) : stage.icon;
               const isLast = idx === roadmapNodes.length - 1;
@@ -442,7 +442,8 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
           {/* Desktop SVG Snaking Path & Loop/Bounce Overlays */}
           {(() => {
             const maxY = Math.max(...roadmapNodes.map((n) => n.y), 300);
-            const viewBoxHeight = Math.min(870, Math.max(460, maxY + 140));
+            // Generous bottom margin space (240px offset) ensuring no node card text, badge, or bounce arc gets clipped
+            const viewBoxHeight = Math.max(520, maxY + 240);
 
             // 1. Main sequential connecting path
             const mainPathD = roadmapNodes.reduce((acc, curr, idx) => {
@@ -514,7 +515,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 
             return (
               <div
-                className="hidden md:block relative w-full pb-6"
+                className="hidden md:block relative w-full pb-12 mb-4"
                 style={{ aspectRatio: `1000 / ${viewBoxHeight}` }}
               >
                 <svg

@@ -410,6 +410,10 @@
           "description": "Prestige / Sobha brand towers (~₹14–18K/sqft), metro connectivity, high tenant demand, and return family appeal.",
           "projects": 4,
           "siteVisits": 6,
+          "latlong": {
+            "lat": 12.971480,
+            "lng": 77.737086
+          },
           "imageSrc": "/journals/the-3000-miles-home-journal/whitefield.png",
           "imagegenerationprompt": "A modern architectural vector landscape of Whitefield Bengaluru showing high-rise brand towers and metro flyovers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -418,6 +422,10 @@
           "description": "Puravankara developments with fast airport connectivity, quiet residential character, and competitive pricing.",
           "projects": 3,
           "siteVisits": 4,
+          "latlong": {
+            "lat": 13.020750,
+            "lng": 77.629932
+          },
           "imageSrc": "/journals/the-3000-miles-home-journal/hennur.png",
           "imagegenerationprompt": "A modern architectural vector landscape of Hennur Road residential towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -426,6 +434,10 @@
           "description": "Established luxury corridor with high resale benchmarks and swift airport transit.",
           "projects": 3,
           "siteVisits": 5,
+          "latlong": {
+            "lat": 13.201899,
+            "lng": 77.740834
+          },
           "imageSrc": "/journals/the-3000-miles-home-journal/hebbal.png",
           "imagegenerationprompt": "A sleek architectural view of Hebbal flyover and high-rise luxury apartment towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }
