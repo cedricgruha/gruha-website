@@ -81,9 +81,9 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </span>
       </nav>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-[380px_1fr] gap-8 md:gap-10 items-stretch pb-10">
-        {/* Col 1 — Hero Image */}
-        <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-square border border-slate-100 shadow-xs w-full max-w-[280px] mx-auto sm:mx-0 flex-none">
+      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-10">
+        {/* Col 1 — Hero Image (Widescreen Landscape) */}
+        <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-[16/10] border border-slate-200/80 shadow-md w-full max-w-[460px] mx-auto sm:mx-0 flex-none">
           <img
             src={getImgSrc(displayHeroImage)}
             alt={displayTitle.replace("\n", " ")}
