@@ -1,0 +1,951 @@
+{
+  "article": {
+    "tags": [
+      "INVESTORS & WEALTH",
+      "NRI",
+      "BENGALURU"
+    ],
+    "title": "The 3,000 Miles Home Journal",
+    "description": "Arjun Nair's ₹2.6 Cr remote home-buying journey from Dubai to Whitefield & Hennur — trusting WhatsApp video calls, a 12-point visit protocol, and his brother's gut.",
+    "quote": "\"I'm trusting a WhatsApp video and my brother's gut.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Video",
+        "text": "12-point video call protocol beats unguided site visits"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "Verify NRE repatriation & consulate POA before paying booking fees"
+      },
+      {
+        "icon": "FileText",
+        "text": "Top-tier brand developers reduce remote execution & title risk"
+      }
+    ],
+    "heroImage": "/journals/cover/3.png",
+    "heroTitle": "The 3,000 Miles Home Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Arjun Nair -- senior product manager in Dubai with ₹2.6 Cr NRE savings, a daughter starting Grade 6 in 2028, and a brother holding his Power of Attorney in Bengaluru.",
+      "buyers": [
+        {
+          "name": "Arjun Nair",
+          "age": 38,
+          "role": "Senior Product Manager (Dubai)",
+          "description": "Analytical, risk-conscious product manager in Dubai with 14 years Gulf experience. Balancing ₹2.6 Cr NRE savings deployment against 3,000 km remote transaction anxiety.",
+          "tags": [
+            "NRI-Investor",
+            "Data-Driven",
+            "Risk-Averse"
+          ],
+          "image": "/journals/the-3000-miles-home-journal/arjun.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old South Indian male tech product manager named Arjun with short dark hair and a neat trim beard, wearing a dark navy button-down shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Deploy ₹2.6 Cr AED savings into a high-quality 3BHK brand-developer home in Whitefield or Hennur — creating a tenant-ready asset with professional management while preserving the option to return for Grade 6 in 2028.",
+      "sharedVisionImage": "/journals/the-3000-miles-home-journal/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a modern high-rise residential building with a smartphone in the foreground showing a WhatsApp video call stream of the balcony view, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the call interface highlights, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Dubai Expat"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "NRI Investor"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Grade 6"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-3000-miles-home-journal/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an official RERA registration certificate and developer delivery track record seal, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the verified RERA seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "RERA & Brand Delivery Track",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Brand-name tier-1 developer with flawless delivery record to eliminate remote execution risk."
+        },
+        {
+          "image": "/journals/the-3000-miles-home-journal/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone displaying a 12-point inspection checklist card with video call controls, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the video call button, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "12-Point Video Call Protocol",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Structured live video inspection checklist executed by his brother Vinod during Saturday site visits."
+        },
+        {
+          "image": "/journals/the-3000-miles-home-journal/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of house keys, tenant agreement documents, and a property management service seal, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the management seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Professional Property Management",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Tenant-ready property with 6% managed rental care to eliminate empty-flat anxiety across 3,000 km."
+        },
+        {
+          "image": "/journals/the-3000-miles-home-journal/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a school calendar pointing to 2028 beside a framed family portrait, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the 2028 date badge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "2028 Return Option & School Window",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Securing a family home before daughter Meera starts Grade 6 in 2028."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From colleague registration selfies and 9 visits in 6 days to POA co-owner pitfalls and final consulate key handovers.",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Consulate POA & Key Handover"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.5 Cr All-In (AED Savings)"
+        },
+        {
+          "icon": "Calendar",
+          "label": "RETURN TARGET",
+          "value": "2028 (Grade 6 Window)"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "REMOTE DILIGENCE",
+          "value": "12-Point Video Protocol"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "s1-nre-three-tabs",
+          "stage": "S1",
+          "type": "stage",
+          "title": "S1: Three-Tab NRE Sheet",
+          "desc": "Return / Rent / Regret spreadsheet in Dubai; AED savings ready for deployment.",
+          "icon": "Globe",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s2-corridor-triage",
+          "stage": "S2",
+          "type": "stage",
+          "title": "S2: Corridor Triage",
+          "desc": "2 weeks triaging Whitefield vs Hennur vs Hebbal; brand developer rule set.",
+          "icon": "Compass",
+          "x": 320,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "detour-high-yield-resale",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "DETOUR: High-Yield Resale",
+          "desc": "3 weeks Kadubeesanahalli unit with un-regularized balcony extension.",
+          "icon": "AlertTriangle",
+          "x": 540,
+          "y": 220,
+          "width": 180
+        },
+        {
+          "id": "s2-video-protocol-loop",
+          "stage": "S2",
+          "type": "loop",
+          "title": "S2 LOOP: Video Protocol",
+          "desc": "2 weeks building 12-point WhatsApp video-visit protocol with brother in Bengaluru.",
+          "icon": "Video",
+          "loopText": "Video Protocol Loop",
+          "x": 760,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s3-s2-trip-home-regression",
+          "stage": "S3",
+          "type": "regression",
+          "targetNodeId": "s2-corridor-triage",
+          "title": "S3 → S2: Trip Home Regression",
+          "desc": "9 site visits in 6 days, zero decisions made; 'trips verify, process decides'.",
+          "icon": "PlaneTakeoff",
+          "loopText": "S3 → S2 Regression (-3)",
+          "x": 880,
+          "y": 320,
+          "width": 190
+        },
+        {
+          "id": "s5-s3-seller-hike-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "s2-video-protocol-loop",
+          "title": "S5 → S3 BOUNCE: Price Hike",
+          "desc": "6 weeks bounce: first PLH seller raised price by ₹15L after verbal token agreement.",
+          "icon": "TrendingUp",
+          "loopText": "S5 → S3 Bounce (6 wks)",
+          "x": 600,
+          "y": 420,
+          "width": 190
+        },
+        {
+          "id": "s5-second-plh-unit",
+          "stage": "S5",
+          "type": "stage",
+          "title": "S5: Second PLH Unit",
+          "desc": "3 weeks: single NRI owner unit with complete Drive folder before asking.",
+          "icon": "FileCheck",
+          "x": 340,
+          "y": 420,
+          "width": 180
+        },
+        {
+          "id": "s7-consulate-poa-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "S7: Consulate POA Close",
+          "desc": "4 weeks: Consulate POA, Section 195 TDS & NRE wire complete at ₹2.5 Cr.",
+          "icon": "CheckCircle2",
+          "x": 100,
+          "y": 420,
+          "width": 180
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "post-booking",
+          "label": "Post-booking",
+          "icon": "CalendarPlus"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote",
+          "active": true,
+          "tag": "Completed"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "selfie-moment",
+          "title": "The midnight registration selfie",
+          "desc": "A colleague's sub-registrar selfie glowing on a Dubai phone triggered Arjun's three-tab spreadsheet.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/moment-1.png",
+          "imagegenerationprompt": "A smartphone screen on a dark desk showing a colleague's property registration selfie, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen glow accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "gimbal-moment",
+          "title": "Vinod's gimbal video on unpaved road",
+          "desc": "Brother's live video stream exposed an unpaved village road behind an 'NRI exclusive' 6% rental pitch.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone mounted on a gimbal stabilizer recording a bumpy road, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 recording indicator accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "poa-document-gap",
+          "title": "The POA management vs sale gap",
+          "desc": "Two POA documents side by side revealing 'management' highlighted while 'sale' authority was blank.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two legal Power of Attorney documents side by side, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 highlighted clause line accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "key-courier-moment",
+          "title": "The brass key in bubble wrap",
+          "desc": "Receiving the brass apartment key and consulate clearance token couriered to his Dubai office.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a brass house key nestled inside a bubble-wrap envelope, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 key ring accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "I'm trusting a WhatsApp video and my brother's gut.",
+          "author": "— Arjun"
+        },
+        {
+          "text": "Buy where we'd actually live if we return in 2028.",
+          "author": "— Meera"
+        },
+        {
+          "text": "Bro, the road is unpaved and the sales office is a tent.",
+          "author": "— Vinod (Brother)"
+        },
+        {
+          "text": "Trips verify, process decides.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Arjun",
+          "avatar": "/journals/the-3000-miles-home-journal/arjun.png",
+          "text": "Riya, I'm 3,000 kilometers away. Every broker says 'sir 100% verified'. How do I know if the POA is legit before transferring ₹2.5 crore?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Arjun, remote confidence requires process over promises. We check consulate attestation, Section 195 TDS challans, and single-owner Drive folders first. Trips verify; process decides.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Clock4",
+          "title": "Repricing Cost of Waiting",
+          "description": "3BHK priced at ₹1.9 Cr in 2023 escalated to ₹2.5–2.7 Cr in 2026."
+        },
+        {
+          "icon": "ShieldAlert",
+          "title": "POA Authority Gaps",
+          "description": "Resale POA documents often grant management rights but lack sale authorization."
+        },
+        {
+          "icon": "Video",
+          "title": "Assured Rental Traps",
+          "description": "High-yield NRI schemes often hide poor access roads or unapproved layouts."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "NRE TDS & Repatriation",
+          "description": "Section 195 TDS on NRI seller purchases requires legal clearance before wire."
+        },
+        {
+          "icon": "Heart",
+          "title": "Empty Flat Anxiety",
+          "description": "Unrented distant properties cause operational stress without professional management."
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating brand-developer towers across Whitefield, Hennur, and Hebbal with direct airport corridor access.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH STRATEGY",
+          "value": "Remote Verification"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDORS EXPLORED",
+          "value": "Whitefield • Hennur • Hebbal"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "SHORTLISTED OPTIONS",
+          "value": "3 Brand Towers"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "NON-NEGOTIABLES",
+          "value": "Consulate POA & RERA"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Whitefield (Chosen)",
+          "description": "Prestige / Sobha brand towers (~₹14–18K/sqft), metro connectivity, high tenant demand, and return family appeal.",
+          "projects": 4,
+          "siteVisits": 6,
+          "imageSrc": "/journals/the-3000-miles-home-journal/whitefield.png",
+          "imagegenerationprompt": "A modern architectural vector landscape of Whitefield Bengaluru showing high-rise brand towers and metro flyovers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hennur Road",
+          "description": "Puravankara developments with fast airport connectivity, quiet residential character, and competitive pricing.",
+          "projects": 3,
+          "siteVisits": 4,
+          "imageSrc": "/journals/the-3000-miles-home-journal/hennur.png",
+          "imagegenerationprompt": "A modern architectural vector landscape of Hennur Road residential towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hebbal Airport Belt",
+          "description": "Established luxury corridor with high resale benchmarks and swift airport transit.",
+          "projects": 3,
+          "siteVisits": 5,
+          "imageSrc": "/journals/the-3000-miles-home-journal/hebbal.png",
+          "imagegenerationprompt": "A sleek architectural view of Hebbal flyover and high-rise luxury apartment towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Devanahalli • Sarjapur Road • Yelahanka",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "3,000 MILE DISTANCE",
+          "value": "Zero Physical Access",
+          "description": "Buying from Dubai relying entirely on WhatsApp video calls and relative's gut feel.",
+          "icon": "Globe"
+        },
+        {
+          "title": "POA & LEGAL GAPS",
+          "value": "Co-Owner Delays",
+          "description": "Consulate POA notarization delays and un-regularized balcony extension risks.",
+          "icon": "FileText"
+        },
+        {
+          "title": "SECTION 195 NRI TDS",
+          "value": "Complex Tax Math",
+          "description": "Buyer-side NRI tax compliance hurdles differing from standard domestic rules.",
+          "icon": "Receipt"
+        },
+        {
+          "title": "2028 RETURN WINDOW",
+          "value": "Repricing Fear",
+          "description": "Daughter's Grade 6 school return date creating an expiring commitment window.",
+          "icon": "CalendarAlert"
+        }
+      ],
+      "filtersFooterLabel": "Arjun was searching for remote confidence, airtight title chain, and family return flexibility.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Arjun wasn't persuaded by glossy NRI brochures or promised 6% yields. He was looking at consulate attestation seals, single-owner Drive folders, and his brother's live video feed of the access road. He was buying peace of mind across 3,000 miles.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya holding a tablet showing remote video diligence feeds and legal POA checklists, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating primary brand developments and single-owner NRI resale options across North & East Bengaluru.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "3,000 Miles Home"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "EVALUATED STOCK",
+          "value": "Primary & Clean Resale"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED SCHEMES",
+          "value": "6% Assured Schemes"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "SELECTED HOME",
+          "value": "Whitefield 3BHK Brand Tower"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "ShieldCheck",
+          "title": "RERA & Brand Record",
+          "subtitle": "flawless execution"
+        },
+        {
+          "icon": "Video",
+          "title": "12-Point Video Check",
+          "subtitle": "live remote audit"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Clean POA Authority",
+          "subtitle": "sale clause verified"
+        },
+        {
+          "icon": "HeartHandshake",
+          "title": "Property Management",
+          "subtitle": "6% managed rental care"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "2028 Return Option",
+          "subtitle": "Grade 6 school target"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Arjun",
+          "avatar": "/journals/the-3000-miles-home-journal/arjun.png",
+          "text": "A brand developer tower costs 7% more, but having a single accountable corporate counterparty eliminates 90% of my Gulf anxiety."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Spot on, Arjun. That 7% is not a luxury markup — it's your remote insurance policy.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-3000-miles-home-journal/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of North & East Bengaluru highlighting Whitefield, Hennur, and Hebbal in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "4 core options",
+      "projects": [
+        {
+          "title": "Prestige Lakeside Habitat",
+          "name": "Prestige Lakeside Habitat",
+          "price": "₹1.8–2.8 Cr",
+          "possession": "Ready",
+          "psf": "₹11,500–12,800/sqft",
+          "location": "Varthur / Whitefield",
+          "imageSrc": "/journals/the-3000-miles-home-journal/projects/1.png"
+        },
+        {
+          "title": "Brigade Cornerstone Utopia",
+          "name": "Brigade Cornerstone Utopia",
+          "price": "₹1.15–1.65 Cr",
+          "possession": "Ready",
+          "psf": "₹9,000–11,500/sqft",
+          "location": "Whitefield / Varthur Rd",
+          "imageSrc": "/journals/the-3000-miles-home-journal/projects/2.png"
+        },
+        {
+          "title": "Sobha Dream Acres",
+          "name": "Sobha Dream Acres",
+          "price": "₹1.25–1.85 Cr",
+          "possession": "Ready",
+          "psf": "₹12,750–13,150/sqft",
+          "location": "Balagere–Panathur",
+          "imageSrc": "/journals/the-3000-miles-home-journal/projects/3.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ShieldAlert",
+          "title": "POA Authority Gap on Resale",
+          "count": "1 resale collapse"
+        },
+        {
+          "icon": "Video",
+          "title": "Unpaved Access Road",
+          "count": "1 assured rental scheme"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Stalled Construction History",
+          "count": "2 unbranded towers"
+        },
+        {
+          "icon": "Clock",
+          "title": "Unverified Title Chain",
+          "count": "3 speculative land pitches"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Arjun's decision to lock a 3BHK unit in a tier-1 Whitefield brand development with a single NRI owner and complete Drive folder documentation balanced remote execution safety, NRE repatriation rules, and a 2028 family return option.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for non-resident Indian buyers managing high-ticket real estate purchases across borders.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Trips Verify, Process Decides"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Brand Developer Remote Insurance"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Over-relying on Unplanned Trips"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "12-Point Video Checklist"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Trips verify, process decides.",
+          "description": "Rushing 9 site visits in 6 days yielded zero decisions. Establishing a 12-point video checklist with his brother Vinod created remote clarity.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a 12-point video inspection checklist card with a smartphone, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 checkmark accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Audit Power of Attorney clauses before legal fees.",
+          "description": "A ₹40K legal fee was wasted on a resale unit when the POA permitted management but lacked explicit sale authority. Verify POA scope first.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of two legal POA documents highlighting the sale clause line, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Brand developer markup is remote insurance.",
+          "description": "Paying a 5-8% brand premium to a tier-1 developer eliminates multi-party title tracing and provides clear RERA recourse.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/lesson-3.png",
+          "imagegenerationprompt": "A vector graphic showing a corporate developer brand seal beside a RERA certificate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Professional property management preserves Gulf peace of mind.",
+          "description": "Enrolling in a 6% managed rental care program turns a distant 3,000 km property into a passive, tenant-ready asset.",
+          "imageSrc": "/journals/the-3000-miles-home-journal/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a key handover box and property management agreement, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 key accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Video",
+          "text": "WhatsApp videos from brokers are sufficient diligence"
+        },
+        {
+          "icon": "Calendar",
+          "text": "A 6-day vacation trip will solve all property decisions"
+        },
+        {
+          "icon": "FileText",
+          "text": "Any POA document gives full right to execute sale"
+        },
+        {
+          "icon": "Clock",
+          "text": "Delaying purchase costs nothing while staying in Dubai"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileCheck2",
+          "text": "12-point structured video protocol executed by trusted proxy"
+        },
+        {
+          "icon": "Zap",
+          "text": "Trips verify details; established process makes decisions"
+        },
+        {
+          "icon": "ShieldCheck",
+          "text": "Consulate-attested POA with explicit sale clause required"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Repricing cost of waiting escalated 3BHK by ₹60L in 3 years"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Video",
+          "title": "Standardize video visits early",
+          "description": "Using a 12-point video checklist from Month 1 would have saved 3 months of unorganized phone calls."
+        },
+        {
+          "icon": "FileText",
+          "title": "Verify POA scope on Day 1",
+          "description": "Checking for explicit 'sale' authorization before paying lawyer fees avoids wasted legal costs."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Stick strictly to brand developers",
+          "description": "Direct primary brand purchases eliminate title chain complexity for overseas buyers."
+        },
+        {
+          "icon": "HeartHandshake",
+          "title": "Engage property management early",
+          "description": "Pre-booking tenant management ensures immediate rental income upon possession."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Arjun",
+          "avatar": "/journals/the-3000-miles-home-journal/arjun.png",
+          "text": "Trusting a WhatsApp video and my brother's gut worked because we built a 12-point process around it. Process decides."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Exactly, Arjun. Distance doesn't weaken diligence when your protocol is airtight.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for NRI home-buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Dubai video calling, brother site visiting, consulate POA signing, and key handover, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For NRI investors 3,000 miles away, confidence comes from structured video protocols, consulate-attested POA verification, and choosing brand developers with proven delivery records. Arjun proved that remote home buying succeeds when process leads and trips merely verify.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The Power of Attorney (POA) is the project",
+          "body": "Drafting, notarizing, and consular apostilling the POA takes longer than shortlisting — start it first.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Quarterly RERA portal progress tracking reveals real speed",
+          "body": "Comparing RERA filings across 4 quarters revealed which developer actually pours concrete on schedule.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Video-visit protocol resolves spreadsheet vs gut feel conflicts",
+          "body": "When spreadsheet and brother's gut feel disagreed, asking \"Which of us has stood in the flat?\" resolved it.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "NRI Section 195 TDS mechanics require primary developer flow",
+          "body": "Buyer-side tax compliance rules for NRIs differ significantly from resale individual seller rules.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 8",
+          "headline": "Optimized for verifiability over perfect specs from 3,000 km",
+          "body": "From abroad, documentation verifiability and brand developer track record are the true metrics of value.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you are buying from abroad and relying on family video calls, let Riya build your remote verification protocol.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your NRE savings, preferred corridors, and return timeline.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer typing NRE corpus budget and Bengaluru corridor choices into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya evaluates brand developer delivery records, POA clauses, and NRE TDS compliance.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing consulate POA attestation seals, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom 3,000-mile home journal and 12-point video visit checklist are generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive remote-verified brand project suggestions matching your return deadline.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified NRI project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "12-Point Video Inspection Protocol",
+          "description": "Standardize your proxy's site visits with a structured live video checklist.",
+          "icon": "Video"
+        },
+        {
+          "id": 2,
+          "title": "Consulate POA & Legal Audit",
+          "description": "Verify POA sale clauses and NRE TDS rules before paying booking deposits.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 3,
+          "title": "Brand Developer Safety Net",
+          "description": "Choose tier-1 brand developers to eliminate title tracing & delivery risk.",
+          "icon": "Building2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You are buying in Bengaluru from another country, and every decision passes through one trusted relative.",
+        "You will pay a known premium for a brand developer because dispute resolution from abroad is impossible.",
+        "You read RERA filings at midnight in your timezone, and you trust documents over site visits you can't make.",
+        "The flat is simultaneously an investment, a return-option, and proof the years abroad added up — and you haven't ranked the three.",
+        "A family deadline (school, parents) gives your decision a real expiry date.",
+        "You've watched the market reprice between your visits home, and waiting again frightens you more than committing."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "s1-nre-three-tabs",
+      "stage": "S1",
+      "type": "stage",
+      "title": "S1: Three-Tab NRE Sheet",
+      "desc": "Return / Rent / Regret spreadsheet in Dubai; AED savings ready for deployment.",
+      "icon": "Globe",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s2-corridor-triage",
+      "stage": "S2",
+      "type": "stage",
+      "title": "S2: Corridor Triage",
+      "desc": "2 weeks triaging Whitefield vs Hennur vs Hebbal; brand developer rule set.",
+      "icon": "Compass",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "detour-high-yield-resale",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "DETOUR: High-Yield Resale",
+      "desc": "3 weeks Kadubeesanahalli unit with un-regularized balcony extension.",
+      "icon": "AlertTriangle",
+      "x": 540,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "s2-video-protocol-loop",
+      "stage": "S2",
+      "type": "loop",
+      "title": "S2 LOOP: Video Protocol",
+      "desc": "2 weeks building 12-point WhatsApp video-visit protocol with brother in Bengaluru.",
+      "icon": "Video",
+      "loopText": "Video Protocol Loop",
+      "x": 760,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s3-s2-trip-home-regression",
+      "stage": "S3",
+      "type": "regression",
+      "targetNodeId": "s2-corridor-triage",
+      "title": "S3 → S2: Trip Home Regression",
+      "desc": "9 site visits in 6 days, zero decisions made; 'trips verify, process decides'.",
+      "icon": "PlaneTakeoff",
+      "loopText": "S3 → S2 Regression (-3)",
+      "x": 880,
+      "y": 320,
+      "width": 190
+    },
+    {
+      "id": "s5-s3-seller-hike-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "s2-video-protocol-loop",
+      "title": "S5 → S3 BOUNCE: Price Hike",
+      "desc": "6 weeks bounce: first PLH seller raised price by ₹15L after verbal token agreement.",
+      "icon": "TrendingUp",
+      "loopText": "S5 → S3 Bounce (6 wks)",
+      "x": 600,
+      "y": 420,
+      "width": 190
+    },
+    {
+      "id": "s5-second-plh-unit",
+      "stage": "S5",
+      "type": "stage",
+      "title": "S5: Second PLH Unit",
+      "desc": "3 weeks: single NRI owner unit with complete Drive folder before asking.",
+      "icon": "FileCheck",
+      "x": 340,
+      "y": 420,
+      "width": 180
+    },
+    {
+      "id": "s7-consulate-poa-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "S7: Consulate POA Close",
+      "desc": "4 weeks: Consulate POA, Section 195 TDS & NRE wire complete at ₹2.5 Cr.",
+      "icon": "CheckCircle2",
+      "x": 100,
+      "y": 420,
+      "width": 180
+    }
+  ]
+}

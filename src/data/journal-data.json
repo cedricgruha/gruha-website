@@ -1,7 +1,8 @@
 {
   "article": {
     "tags": [
-      "JOURNAL • BENGALURU"
+      "JOURNAL",
+      "BENGALURU"
     ],
     "title": "Outer Sarjapur Road was their final choice.",
     "description": "The story of Pavan & Shruti Kulal's first home purchase journey in Bengaluru — a young couple navigating budget, fear, and a future built together.",
@@ -23,780 +24,804 @@
       }
     ]
   },
-  "profile": {
-    "aboutLabel": "ABOUT",
-    "title": "Who they are",
-    "description": "Getting to know Pavan & Shruti -- their world, their dreams, and what matters most.",
-    "buyers": [
-      {
-        "name": "Pavan",
-        "age": 29,
-        "role": "Senior Engineer",
-        "tags": [
-          "Responsible",
-          "Practical",
-          "Calm"
-        ],
-        "image": "/journals/pavan.png"
-      },
-      {
-        "name": "Shruti",
-        "age": 28,
-        "role": "QA",
-        "tags": [
-          "Thoughtful",
-          "Organised",
-          "Empathetic"
-        ],
-        "image": "/journals/shruti.png"
-      }
-    ],
-    "sharedVisionTitle": "Shared vision",
-    "sharedVisionDescription": "Create a safe, comfortable home before their baby arrives. A place where every milestone begins with a sense of belonging, from bringing their newborn home for the first time to celebrating birthdays, festivals and everyday moments together.",
-    "sharedVisionImage": "/journals/living-room-sketch.png",
-    "stats": [
-      {
-        "icon": "Briefcase",
-        "label": "BUYER PROFILE",
-        "value": "Young Professionals & First-Timers",
-        "tag": "Age 29 & 28"
-      },
-      {
-        "icon": "TrendingUp",
-        "label": "THEIR REALITY",
-        "value": "₹1 Cr dream → ₹1.5 Cr reality",
-        "tag": "Emotional"
-      },
-      {
-        "icon": "Heart",
-        "label": "LIFE STAGE",
-        "value": "Newly married(2 years)",
-        "tag": "Expecting first child"
-      },
-      {
-        "icon": "Sparkles",
-        "label": "SEARCH STAGE",
-        "value": "Actively exploring",
-        "tag": "11 site explored"
-      },
-      {
-        "icon": "Hourglass",
-        "label": "TIMELINE",
-        "value": "Before the baby arrives",
-        "tag": "< 8 months"
-      },
-      {
-        "icon": "CheckCircle2",
-        "label": "TRANSACTION FOCUS",
-        "value": "Under Construction (RERA)",
-        "tag": "Primary purchase"
-      }
-    ],
-    "prioritiesTitle": "Top priorities right now",
-    "priorities": [
-      {
-        "image": "/journals/1/1.1.png",
-        "title": "Budget friendly, but future ready",
-        "scorePercentage": 95,
-        "scoreLabel": "9.5/10",
-        "description": "Making a wrong financial decision that impacts our future."
-      },
-      {
-        "image": "/journals/1/2.png",
-        "title": "Good connectivity to work",
-        "scorePercentage": 90,
-        "scoreLabel": "9/10",
-        "description": "Daily commute should be easy and stress free."
-      },
-      {
-        "image": "/journals/1/3.png",
-        "title": "Safe & family friendly neighborhood",
-        "scorePercentage": 75,
-        "scoreLabel": "7.5/10",
-        "description": "A secure environment for our child to grow."
-      },
-      {
-        "image": "/journals/1/4.png",
-        "title": "Enough space for their lifestyle",
-        "scorePercentage": 80,
-        "scoreLabel": "8/10",
-        "description": "Room to grow, work and create memories."
-      }
-    ]
-  },
-  "journey": {
-    "title": "How their journey actually unfolded.",
-    "description": "Months of conversations, weekend visits, changing budgets and countless trade-offs brought Pavan & Shruti to where they are today.",
-    "metrics": [
-      {
-        "icon": "Briefcase",
-        "label": "JOURNEY STAGE",
-        "value": "Actively exploring"
-      },
-      {
-        "icon": "TrendingUp",
-        "label": "SITE VISITS",
-        "value": "11 Projects"
-      },
-      {
-        "icon": "Calendar",
-        "label": "TIMELINE",
-        "value": "≤ 8 Months"
-      },
-      {
-        "icon": "IndianRupee",
-        "label": "BUDGET STRETCH",
-        "value": "₹1 Cr → ₹1.5 Cr"
-      }
-    ],
-    "roadmapNodes": [
-      {
-        "id": "dream-begins",
-        "title": "Dream Begins",
-        "desc": "They dreamed of owning their first home soon after marriage, before feeling financially ready.",
-        "icon": "CalendarDays",
-        "x": 130,
-        "y": 110,
-        "width": 190
-      },
-      {
-        "id": "research",
-        "title": "Research",
-        "desc": "Late-night searches, YouTube reviews, builder websites, and discussions turned curiosity into a plan.",
-        "icon": "Search",
-        "x": 340,
-        "y": 160,
-        "width": 190
-      },
-      {
-        "id": "site-visits",
-        "title": "Site Visits",
-        "desc": "Eleven weekend visits across Sarjapur, Hosa Road, and nearby areas helped them grasp the market.",
-        "icon": "TrendingUp",
-        "x": 560,
-        "y": 150,
-        "width": 190
-      },
-      {
-        "id": "first-shortlist",
-        "title": "First Shortlist",
-        "desc": "A few projects finally felt right, balancing budget, location and future family needs.",
-        "icon": "BadgeCheck",
-        "x": 740,
-        "y": 130,
-        "width": 190
-      },
-      {
-        "id": "budget-shock",
-        "title": "Budget Shock",
-        "desc": "The ₹95L home vanished; similar ones now start at ₹1.35 Cr.",
-        "icon": "CircleDollarSign",
-        "x": 880,
-        "y": 290,
-        "width": 180
-      },
-      {
-        "id": "compare-reevaluate",
-        "title": "Compare & Re-evaluate",
-        "desc": "Each option had trade-offs in budget, location, builder credibility, and timelines.",
-        "icon": "Compass",
-        "x": 710,
-        "y": 400,
-        "width": 190
-      },
-      {
-        "id": "family-advice",
-        "title": "Family Advice",
-        "desc": "Parents, relatives and friends all had opinions, making every decision a little more complicated.",
-        "icon": "UserPlus",
-        "x": 510,
-        "y": 430,
-        "width": 190
-      },
-      {
-        "id": "back-to-research",
-        "title": "Back to Research",
-        "desc": "New info, changing prices, and fresh recommendations made them compare again.",
-        "icon": "FileSearch",
-        "x": 330,
-        "y": 450,
-        "width": 190
-      },
-      {
-        "id": "shortlist-again",
-        "title": "Shortlist Again",
-        "desc": "After removing unsuitable projects, few remained worth considering.",
-        "icon": "LayoutList",
-        "x": 150,
-        "y": 580,
-        "width": 190
-      },
-      {
-        "id": "builder-delays",
-        "title": "Builder Delays",
-        "desc": "Possession dates and construction progress became critical as their family timeline drew closer.",
-        "icon": "Clock3",
-        "x": 320,
-        "y": 710,
-        "width": 190
-      },
-      {
-        "id": "current-position",
-        "title": "Current Position",
-        "desc": "Today they’re weighing their best options, balancing confidence and caution before a major purchase.",
-        "icon": "Heart",
-        "x": 530,
-        "y": 740,
-        "width": 190
-      }
-    ],
-    "timelineTitle": "Where they stand today",
-    "timelineSteps": [
-      {
-        "id": "planning",
-        "label": "Planning",
-        "icon": "Lightbulb"
-      },
-      {
-        "id": "exploring",
-        "label": "Exploring",
-        "icon": "Feather"
-      },
-      {
-        "id": "comparing",
-        "label": "Comparing",
-        "icon": "ArrowLeftRight",
-        "active": true,
-        "tag": "You are here"
-      },
-      {
-        "id": "negotiating",
-        "label": "Negotiating",
-        "icon": "MessageSquare"
-      },
-      {
-        "id": "post-booking",
-        "label": "Post-booking",
-        "icon": "CalendarPlus"
-      },
-      {
-        "id": "buying",
-        "label": "Buying",
-        "icon": "Banknote"
-      }
-    ],
-    "momentsTitle": "Moments that changed everything",
-    "moments": [
-      {
-        "id": "budget-shift",
-        "title": "The budget shift",
-        "desc": "Their ₹1 Cr dream became a ₹1.5 Cr reality as prices rose faster than their savings.",
-        "imageSrc": "/journals/2/1.png"
-      },
-      {
-        "id": "baby-deadline",
-        "title": "The baby deadline",
-        "desc": "With their first child arriving next year, delaying the decision was no longer an option.",
-        "imageSrc": "/journals/2/2.png"
-      },
-      {
-        "id": "sunday-ritual",
-        "title": "The Sunday Ritual",
-        "desc": "Every Sunday meant one site visit, one Excel update, one argument and one make-up dosa.",
-        "imageSrc": "/journals/2/3.png"
-      },
-      {
-        "id": "why-it-matters",
-        "title": "Why It Matters",
-        "desc": "This isn't simply buying property. It's about creating a stable beginning for the next chapter of their family.",
-        "imageSrc": "/journals/2/4.png"
-      }
-    ],
-    "voicesTitle": "Voices around them",
-    "quotes": [
-      {
-        "text": "Buy a site. Land never loses value.",
-        "author": "— Dad"
-      },
-      {
-        "text": "Find a home close to a temple and good schools.",
-        "author": "— Mom"
-      },
-      {
-        "text": "Don't rush. Wait for ready-to-move projects.",
-        "author": "— Friend"
-      },
-      {
-        "text": "Prices are increasing every quarter.",
-        "author": "— Builder"
-      }
-    ],
-    "chatMessages": [
-      {
-        "sender": "Pavan",
-        "avatar": "/journals/pavan.png",
-        "text": "Every Sunday became one site visit, one Excel update, one argument... and one make-up dosa."
-      },
-      {
-        "sender": "Riya",
-        "avatar": "/journals/avatar-riya.png",
-        "text": "It wasn't really about the projects anymore. You were trying to convince yourselves that you were ready for this next chapter.",
-        "isRiya": true
-      }
-    ],
-    "realityChecksTitle": "Reality checks along the way",
-    "realityChecks": [
-      {
-        "icon": "Clock4",
-        "title": "Prices Kept Rising",
-        "description": "The market appreciated faster than they could save."
-      },
-      {
-        "icon": "Banknote",
-        "title": "Budget Increased",
-        "description": "Their planned budget stretched by nearly ₹35–40 lakhs."
-      },
-      {
-        "icon": "Car",
-        "title": "Countless Visits",
-        "description": "11 site visits across communities before narrowing list."
-      },
-      {
-        "icon": "Frown",
-        "title": "Decision Fatigue",
-        "description": "More options caused more comparisons and overthinking."
-      },
-      {
-        "icon": "Hourglass",
-        "title": "Still Searching",
-        "description": "They're closer than ever, waiting for the perfect home."
-      }
-    ]
-  },
-  "search": {
-    "tagline": "THE SEARCH",
-    "title": "Where they looked and what they found.",
-    "description": "From defining non-negotiables to comparing communities and projects, every search brought them one step closer to understanding what truly mattered.",
-    "metrics": [
-      {
-        "icon": "Search",
-        "label": "SEARCH STRATEGY",
-        "value": "Focused Search"
-      },
-      {
-        "icon": "LayoutGrid",
-        "label": "SEARCH COVERAGE",
-        "value": "3 Corridors"
-      },
-      {
-        "icon": "ArrowLeftRight",
-        "label": "PROJECTS COMPARED",
-        "value": "19 Projects"
-      },
-      {
-        "icon": "FileCheck2",
-        "label": "NON-NEGOTIABLES",
-        "value": "Budget • Timeline"
-      }
-    ],
-    "exploredAreasTitle": "Areas they explored",
-    "exploredAreas": [
-      {
-        "title": "Outer Sarjapur Road (Top Choice)",
-        "description": "Strong social infrastructure, growing employment hubs and communities designed for young families.",
-        "projects": 5,
-        "siteVisits": 4,
-        "imageSrc": "/journals/sarjapur.png"
-      },
-      {
-        "title": "Hosa Road",
-        "description": "Balanced connectivity, improving infrastructure and better value within their target budget.",
-        "projects": 4,
-        "siteVisits": 4,
-        "imageSrc": "/journals/hosa-road.png"
-      },
-      {
-        "title": "Chandapura–Attibele Fringe",
-        "description": "Larger homes within budget, but longer commute and fewer ready social conveniences.",
-        "projects": 2,
-        "siteVisits": 3,
-        "imageSrc": "/journals/attibele.png"
-      }
-    ],
-    "consideredAreasLabel": "Other areas they considered Kanakapura Road • Electronic City • Whitefield",
-    "filtersTitle": "What they filtered for",
-    "filters": [
-      {
-        "icon": "IndianRupee",
-        "title": "Budget Filter",
-        "value": "₹1.35 – ₹1.55 Cr",
-        "description": "Stretching budget without compromising stability."
-      },
-      {
-        "icon": "MapPin",
-        "title": "Location",
-        "value": "Outer Sarjapur Road",
-        "description": "Good schools, hospitals and workplace connectivity."
-      },
-      {
-        "icon": "Calendar",
-        "title": "Home Configuration",
-        "value": "2 / 2.5 BHK",
-        "description": "1050-1200 sqft"
-      },
-      {
-        "icon": "Link2",
-        "title": "Builder Preference",
-        "value": "Transparent developers",
-        "description": "Transparent documentation and reliable delivery history.",
-        "isReraVerified": true
-      }
-    ],
-    "filtersFooterLabel": "They were searching for the right place to begin their family's next chapter with confidence.",
-    "insightTitle": "What I noticed while we were searching",
-    "insightDescription": "“Every time I suggested a lower-priced option, both of you kept returning to communities with trusted builders, better schools and realistic possession timelines. That's when I realized you weren't searching for the cheapest home. You were searching for peace of mind.”",
-    "insightImage": "/journals/advisor.png"
-  },
-  "projects": {
-    "tagline": "THE PROJECTS",
-    "title": "Where they looked and what they found.",
-    "description": "From defining non-negotiables to comparing communities and projects, every search brought them one step closer to understanding what truly mattered.",
-    "metrics": [
-      {
-        "icon": "Search",
-        "label": "SEARCH INTENT",
-        "value": "Family-First Living"
-      },
-      {
-        "icon": "LayoutGrid",
-        "label": "COMMUNITIES EVALUATED",
-        "value": "3 Corridors"
-      },
-      {
-        "icon": "ArrowLeftRight",
-        "label": "PROJECTS ELIMINATED",
-        "value": "17 Projects"
-      },
-      {
-        "icon": "FileCheck",
-        "label": "FINAL SHORTLIST",
-        "value": "2 Communities"
-      }
-    ],
-    "prioritiesTitle": "What mattered most in their search",
-    "priorities": [
-      {
-        "icon": "Lock",
-        "title": "Safety & security",
-        "subtitle": "for family"
-      },
-      {
-        "icon": "GraduationCap",
-        "title": "Good schools",
-        "subtitle": "nearby"
-      },
-      {
-        "icon": "ShieldCheck",
-        "title": "Trusted builders",
-        "subtitle": "& quality"
-      },
-      {
-        "icon": "IndianRupee",
-        "title": "Value of money",
-        "subtitle": "& future growth"
-      },
-      {
-        "icon": "Hourglass",
-        "title": "Possession timeline",
-        "subtitle": "before baby arrives"
-      }
-    ],
-    "riyaConclusionTitle": "Why Riya concluded this",
-    "riyaConclusionImage": "/journals/riya.png",
-    "chatMessages": [
-      {
-        "sender": "Pavan",
-        "avatar": "/journals/pavan.png",
-        "text": "“Every Sunday became one site visit, one Excel update, one argument... and one make-up dosa.”"
-      },
-      {
-        "sender": "Riya",
-        "avatar": "/journals/avatar-riya.png",
-        "text": "It wasn't really about the projects anymore. You were trying to convince yourselves that you were ready for this next chapter.",
-        "isRiya": true
-      }
-    ],
-    "audioLabel": "Hear entire conversation (94 sec)",
-    "audioDurationLabel": "1:32",
-    "whereTheySearchedTitle": "Where they searched",
-    "mapImageSrc": "/journals/search-map.png",
-    "projectsTitle": "Projects they explored",
-    "projectsCountBadge": "19 projects",
-    "projects": [
-      {
-        "title": "Greenwood Meadows",
-        "imageSrc": "/journals/greenwood-meadows.png"
-      },
-      {
-        "title": "Sattva Aeropolis",
-        "imageSrc": "/journals/sattva-aeropolis.png"
-      },
-      {
-        "title": "Brigade Sanctuary",
-        "imageSrc": "/journals/brigade-sanctuary.png"
-      },
-      {
-        "title": "Greenwood meadows",
-        "imageSrc": "/journals/greenwood-meadows1.png",
-        "isOverlay": true,
-        "overlayText": "+16",
-        "overlaySubtext": "more"
-      }
-    ],
-    "rejectedTitle": "Why some projects didn't make the cut",
-    "rejectedReasons": [
-      {
-        "icon": "MapPin",
-        "title": "Location didn't align",
-        "count": "6 projects"
-      },
-      {
-        "icon": "IndianRupee",
-        "title": "Budget not suitable",
-        "count": "5 projects"
-      },
-      {
-        "icon": "Hourglass",
-        "title": "Possession timeline",
-        "count": "3 projects"
-      },
-      {
-        "icon": "Building2",
-        "title": "Amenities not matching",
-        "count": "2 projects"
-      },
-      {
-        "icon": "MoreHorizontal",
-        "title": "Other reasons",
-        "count": "1 projects"
-      }
-    ],
-    "suggestionTitle": "Riya's suggestion",
-    "suggestionDescription": "After reviewing their search journey, I noticed that Pavan and Shruti rarely chose the lowest-priced option. Instead, they consistently returned to projects that balanced trusted builders, family-friendly neighbourhoods and a realistic possession timeline before their baby's arrival.",
-    "suggestionImageSrc": "/journals/advisor.png"
-  },
-  "learnings": {
-    "tagline": "LEARNINGS",
-    "title": "What this journey teaches us.",
-    "description": "Every home-buying journey leaves behind lessons. Some come from difficult decisions, others from mistakes they never want to repeat. These are the insights Pavan and Shruti wish they had known before beginning their search, and the lessons that might help someone else make a more confident decision.",
-    "metrics": [
-      {
-        "icon": "Lightbulb",
-        "label": "BIGGEST LESSON",
-        "value": "Start earlier"
-      },
-      {
-        "icon": "HeartHandshake",
-        "label": "BIGGEST PRIORITY",
-        "value": "Family before perfection"
-      },
-      {
-        "icon": "Triangle",
-        "label": "BIGGEST MISTAKE",
-        "value": "Waiting too long"
-      },
-      {
-        "icon": "Zap",
-        "label": "BIGGEST WIN",
-        "value": "Clear priorities"
-      }
-    ],
-    "lessonsTitle": "Lessons they learned",
-    "lessons": [
-      {
-        "title": "Markets don't wait.",
-        "description": "Their ₹1 Cr budget seemed realistic initially. Within two years, property prices rose to ₹1.35–1.55 Cr. Starting earlier would have offered more flexibility and choices.",
-        "imageSrc": "/journals/3/1.png"
-      },
-      {
-        "title": "Shortlists beat browsing.",
-        "description": "After comparing many listings and projects, they found more options didn't help. Focusing on a few well-matched communities made decisions easier.",
-        "imageSrc": "/journals/3/2.png"
-      },
-      {
-        "title": "Builder trust matters.",
-        "description": "Price wasn't the only factor. Quality, clear documentation, RERA compliance, and delivery history mattered as much as the floor plan.",
-        "imageSrc": "/journals/3/3.png"
-      },
-      {
-        "title": "Buy for tomorrow, not today.",
-        "description": "Their priorities shifted after learning they would become parents. Schools, hospitals, safety and convenience became more valuable than luxury.",
-        "imageSrc": "/journals/3/4.png"
-      }
-    ],
-    "beforeTitle": "BEFORE",
-    "beforeItems": [
-      {
-        "icon": "Home",
-        "text": "Bigger homes are always better"
-      },
-      {
-        "icon": "TrendingUp",
-        "text": "The lowest EMI is the safest decision"
-      },
-      {
-        "icon": "LayoutGrid",
-        "text": "Amenities decide everything."
-      },
-      {
-        "icon": "LayoutList",
-        "text": "More options reduce risk."
-      }
-    ],
-    "afterTitle": "AFTER",
-    "afterItems": [
-      {
-        "icon": "Home",
-        "text": "Better neighbourhoods build lasting value."
-      },
-      {
-        "icon": "TrendingUp",
-        "text": "Sustainable payments matter most."
-      },
-      {
-        "icon": "Smile",
-        "text": "Daily convenience drives happiness."
-      },
-      {
-        "icon": "ArrowLeftRight",
-        "text": "Better comparisons build confidence."
-      }
-    ],
-    "differentlyTitle": "What they'd do differently",
-    "differentlyCards": [
-      {
-        "icon": "PiggyBank",
-        "title": "Start saving earlier",
-        "description": "A stronger financial cushion would have reduced last-minute compromises."
-      },
-      {
-        "icon": "Search",
-        "title": "Visit better projects",
-        "description": "They'd focus on projects that genuinely matched their priorities."
-      },
-      {
-        "icon": "MessageSquare",
-        "title": "Talk to residents",
-        "description": "Real conversations often reveal more than sales presentations."
-      },
-      {
-        "icon": "FileCheck2",
-        "title": "Read documents",
-        "description": "Understanding approvals and RERA details earlier would have saved time."
-      },
-      {
-        "icon": "IndianRupee",
-        "title": "Compare future value",
-        "description": "The cheapest option isn't always the smartest investment."
-      }
-    ],
-    "riyaConclusionTitle": "Looking back",
-    "riyaConclusionImage": "/journals/riya.png",
-    "chatMessages": [
-      {
-        "sender": "Pavan",
-        "avatar": "/journals/pavan.png",
-        "text": "If we had to start all over again..."
-      },
-      {
-        "sender": "Riya",
-        "avatar": "/journals/avatar-riya.png",
-        "text": "What would you do differently?",
-        "isRiya": true
-      },
-      {
-        "sender": "Pavan",
-        "avatar": "/journals/pavan.png",
-        "text": "I'd stop chasing perfect projects and start trusting our priorities much earlier."
-      }
-    ],
-    "audioLabel": "Hear entire conversation (94 sec)",
-    "audioDurationLabel": "1:32",
-    "adviceTitle": "Advice for people like them",
-    "adviceStoryboardImage": "/journals/journey-storyboard.png",
-    "adviceDescription": "Every decision in their journey became a lesson. Looking back, Pavan and Shruti realised that confidence didn't come from visiting more projects or chasing the lowest price. It came from understanding their priorities, comparing thoughtfully and planning for the life they wanted to build. These lessons are the experiences they hope every future homebuyer can learn before beginning their own journey."
-  },
-  "startHere": {
-    "tagline": "START HERE",
-    "title": "What if this journal was about you?",
-    "description": "Every home-buying journey leaves behind lessons. Some come from difficult decisions, others from mistakes they never want to repeat. These are the insights Pavan and Shruti wish they had known before beginning their search, and the lessons that might help someone else make a more confident decision.",
-    "stepsTitle": "Your conversation becomes your journal",
-    "steps": [
-      {
-        "id": 1,
-        "title": "You",
-        "description": "Share your plans, family needs, lifestyle, budget and expectations.",
-        "imageSrc": "/journals/4/1.png"
-      },
-      {
-        "id": 2,
-        "title": "Riya listens",
-        "description": "Riya understands your priorities, asks meaningful questions and discovers what truly matters to you.",
-        "imageSrc": "/journals/4/2.png"
-      },
-      {
-        "id": 3,
-        "title": "Journal created",
-        "description": "Your conversations are transformed into a personalized home-buying journal with insights and recommendations.",
-        "imageSrc": "/journals/4/3.png"
-      },
-      {
-        "id": 4,
-        "title": "Better recommendations",
-        "description": "Receive project suggestions that fit your priorities, not just your filters.",
-        "imageSrc": "/journals/4/4.png"
-      }
-    ],
-    "valuePropsTitle": "What mattered most in their search",
-    "valueProps": [
-      {
-        "id": 1,
-        "title": "Understand your priorities",
-        "description": "Discover what truly matters to your family before comparing properties.",
-        "icon": "HeartHandshake"
-      },
-      {
-        "id": 2,
-        "title": "True budget clarity",
-        "description": "Understand your real buying capacity, future commitments and sustainable budget.",
-        "icon": "IndianRupee"
-      },
-      {
-        "id": 3,
-        "title": "Best areas for you",
-        "description": "Explore neighbourhoods that match your lifestyle, commute and long-term plans.",
-        "icon": "ShieldCheck"
-      },
-      {
-        "id": 4,
-        "title": "Builder analysis",
-        "description": "Compare trusted builders, project quality, delivery history and construction confidence.",
-        "icon": "BadgeCheck"
-      },
-      {
-        "id": 5,
-        "title": "Your personal journal",
-        "description": "A beautifully organized journal capturing your conversations, comparisons, insights and next steps.",
-        "icon": "BookOpen"
-      }
-    ],
-    "blankTitle": "This page is still blank.",
-    "blankDescription": "But it won't stay that way for long. Every conversation you have with Riya becomes part of a journal that reflects your unique home-buying journey, helping you understand your priorities before making one of life's biggest decisions.",
-    "blankActionText": "Let's write it together.",
-    "blankImageSrc": "/journals/open-book-illustration.png",
-    "ctaTitle": "Ready to write your story?",
-    "ctaDescription": "Let Riya understand your goals and, together with Kabir, create a personalized journal that guides you toward the right home with confidence",
-    "ctaButtonText": "Copy Journal",
-    "ctaCharacterImage": "/journals/riya-full-character.png"
-  }
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Pavan & Shruti -- their world, their dreams, and what matters most.",
+      "buyers": [
+        {
+          "name": "Pavan",
+          "age": 29,
+          "role": "Senior Engineer",
+          "description": "A steady, practical planner who does the math twice before deciding. Stays calm under pressure and leans on logic over impulse.",
+          "tags": [
+            "Responsible",
+            "Practical",
+            "Calm"
+          ],
+          "image": "/journals/pavan.png"
+        },
+        {
+          "name": "Shruti",
+          "age": 28,
+          "role": "QA",
+          "description": "Detail-oriented and empathetic, she notices what others miss. Organised by nature, she keeps the family's plans grounded.",
+          "tags": [
+            "Thoughtful",
+            "Organised",
+            "Empathetic"
+          ],
+          "image": "/journals/shruti.png"
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Create a safe, comfortable home before their baby arrives. A place where every milestone begins with a sense of belonging, from bringing their newborn home for the first time to celebrating birthdays, festivals and everyday moments together.",
+      "sharedVisionImage": "/journals/living-room-sketch.png",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "Buyer profile",
+          "value": "First-timers"
+        },
+        {
+          "icon": "Heart",
+          "label": "Life stage",
+          "value": "Newly married"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "Search stage",
+          "value": "Active explorer"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "Timeline",
+          "value": "Before the baby"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/1/1.1.png",
+          "title": "Budget friendly, but future ready",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Making a wrong financial decision that impacts our future."
+        },
+        {
+          "image": "/journals/1/2.png",
+          "title": "Good connectivity to work",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Daily commute should be easy and stress free."
+        },
+        {
+          "image": "/journals/1/3.png",
+          "title": "Safe & family friendly neighborhood",
+          "scorePercentage": 75,
+          "scoreLabel": "7.5/10",
+          "description": "A secure environment for our child to grow."
+        },
+        {
+          "image": "/journals/1/4.png",
+          "title": "Enough space for their lifestyle",
+          "scorePercentage": 80,
+          "scoreLabel": "8/10",
+          "description": "Room to grow, work and create memories."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "Months of conversations, weekend visits, changing budgets and countless trade-offs brought Pavan & Shruti to where they are today.",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Actively exploring"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SITE VISITS",
+          "value": "11 Projects"
+        },
+        {
+          "icon": "Calendar",
+          "label": "TIMELINE",
+          "value": "≤ 8 Months"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "BUDGET STRETCH",
+          "value": "₹1 Cr → ₹1.5 Cr"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "dream-begins",
+          "title": "Dream Begins",
+          "desc": "They dreamed of owning their first home soon after marriage, before feeling financially ready.",
+          "icon": "CalendarDays",
+          "x": 130,
+          "y": 110,
+          "width": 190
+        },
+        {
+          "id": "research",
+          "title": "Research",
+          "desc": "Late-night searches, YouTube reviews, builder websites, and discussions turned curiosity into a plan.",
+          "icon": "Search",
+          "x": 340,
+          "y": 160,
+          "width": 190
+        },
+        {
+          "id": "site-visits",
+          "title": "Site Visits",
+          "desc": "Eleven weekend visits across Sarjapur, Hosa Road, and nearby areas helped them grasp the market.",
+          "icon": "TrendingUp",
+          "x": 560,
+          "y": 150,
+          "width": 190
+        },
+        {
+          "id": "first-shortlist",
+          "title": "First Shortlist",
+          "desc": "A few projects finally felt right, balancing budget, location and future family needs.",
+          "icon": "BadgeCheck",
+          "x": 740,
+          "y": 130,
+          "width": 190
+        },
+        {
+          "id": "budget-shock",
+          "title": "Budget Shock",
+          "desc": "The ₹95L home vanished; similar ones now start at ₹1.35 Cr.",
+          "icon": "CircleDollarSign",
+          "x": 880,
+          "y": 290,
+          "width": 180
+        },
+        {
+          "id": "compare-reevaluate",
+          "title": "Compare & Re-evaluate",
+          "desc": "Each option had trade-offs in budget, location, builder credibility, and timelines.",
+          "icon": "Compass",
+          "x": 710,
+          "y": 400,
+          "width": 190
+        },
+        {
+          "id": "family-advice",
+          "title": "Family Advice",
+          "desc": "Parents, relatives and friends all had opinions, making every decision a little more complicated.",
+          "icon": "UserPlus",
+          "x": 510,
+          "y": 430,
+          "width": 190
+        },
+        {
+          "id": "back-to-research",
+          "title": "Back to Research",
+          "desc": "New info, changing prices, and fresh recommendations made them compare again.",
+          "icon": "FileSearch",
+          "x": 330,
+          "y": 450,
+          "width": 190
+        },
+        {
+          "id": "shortlist-again",
+          "title": "Shortlist Again",
+          "desc": "After removing unsuitable projects, few remained worth considering.",
+          "icon": "LayoutList",
+          "x": 150,
+          "y": 580,
+          "width": 190
+        },
+        {
+          "id": "builder-delays",
+          "title": "Builder Delays",
+          "desc": "Possession dates and construction progress became critical as their family timeline drew closer.",
+          "icon": "Clock3",
+          "x": 320,
+          "y": 710,
+          "width": 190
+        },
+        {
+          "id": "current-position",
+          "title": "Current Position",
+          "desc": "Today they’re weighing their best options, balancing confidence and caution before a major purchase.",
+          "icon": "Heart",
+          "x": 530,
+          "y": 740,
+          "width": 190
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight",
+          "active": true,
+          "tag": "You are here"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "post-booking",
+          "label": "Post-booking",
+          "icon": "CalendarPlus"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "budget-shift",
+          "title": "The budget shift",
+          "desc": "Their ₹1 Cr dream became a ₹1.5 Cr reality as prices rose faster than their savings.",
+          "imageSrc": "/journals/2/1.png"
+        },
+        {
+          "id": "baby-deadline",
+          "title": "The baby deadline",
+          "desc": "With their first child arriving next year, delaying the decision was no longer an option.",
+          "imageSrc": "/journals/2/2.png"
+        },
+        {
+          "id": "sunday-ritual",
+          "title": "The Sunday Ritual",
+          "desc": "Every Sunday meant one site visit, one Excel update, one argument and one make-up dosa.",
+          "imageSrc": "/journals/2/3.png"
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Buy a site. Land never loses value.",
+          "author": "— Dad"
+        },
+        {
+          "text": "Find a home close to a temple and good schools.",
+          "author": "— Mom"
+        },
+        {
+          "text": "Don't rush. Wait for ready-to-move projects.",
+          "author": "— Friend"
+        },
+        {
+          "text": "Prices are increasing every quarter.",
+          "author": "— Builder"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/pavan.png",
+          "text": "Every Sunday became one site visit, one Excel update, one argument... and one make-up dosa."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "It wasn't really about the projects anymore. You were trying to convince yourselves that you were ready for this next chapter.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Clock4",
+          "title": "Prices Kept Rising",
+          "description": "The market appreciated faster than they could save."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Budget Increased",
+          "description": "Their planned budget stretched by nearly ₹35–40 lakhs."
+        },
+        {
+          "icon": "Car",
+          "title": "Countless Visits",
+          "description": "11 site visits across communities before narrowing list."
+        },
+        {
+          "icon": "Frown",
+          "title": "Decision Fatigue",
+          "description": "More options caused more comparisons and overthinking."
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Still Searching",
+          "description": "They're closer than ever, waiting for the perfect home."
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "From defining non-negotiables to comparing communities and projects, every search brought them one step closer to understanding what truly mattered.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH STRATEGY",
+          "value": "Focused Search"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "SEARCH COVERAGE",
+          "value": "3 Corridors"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "PROJECTS COMPARED",
+          "value": "19 Projects"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "NON-NEGOTIABLES",
+          "value": "Budget • Timeline"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Outer Sarjapur Road (Top Choice)",
+          "description": "Strong social infrastructure, growing employment hubs and communities designed for young families.",
+          "projects": 5,
+          "siteVisits": 4,
+          "imageSrc": "/journals/sarjapur.png"
+        },
+        {
+          "title": "Hosa Road",
+          "description": "Balanced connectivity, improving infrastructure and better value within their target budget.",
+          "projects": 4,
+          "siteVisits": 4,
+          "imageSrc": "/journals/hosa-road.png"
+        },
+        {
+          "title": "Chandapura–Attibele Fringe",
+          "description": "Larger homes within budget, but longer commute and fewer ready social conveniences.",
+          "projects": 2,
+          "siteVisits": 3,
+          "imageSrc": "/journals/attibele.png"
+        }
+      ],
+      "consideredAreasLabel": "Other areas they considered Kanakapura Road • Electronic City • Whitefield",
+      "filtersTitle": "The Cost of Searching",
+      "filters": [
+        {
+          "icon": "IndianRupee",
+          "title": "Budget Filter",
+          "value": "₹1.35 – ₹1.55 Cr",
+          "description": "Stretching budget without compromising stability."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Location",
+          "value": "Outer Sarjapur Road",
+          "description": "Good schools, hospitals and workplace connectivity."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Home Configuration",
+          "value": "2 / 2.5 BHK",
+          "description": "1050-1200 sqft"
+        },
+        {
+          "icon": "Link2",
+          "title": "Builder Preference",
+          "value": "Transparent developers",
+          "description": "Transparent documentation and reliable delivery history.",
+          "isReraVerified": true
+        }
+      ],
+      "filtersFooterLabel": "They were searching for the right place to begin their family's next chapter with confidence.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Every time I suggested a lower-priced option, both of you kept returning to communities with trusted builders, better schools and realistic possession timelines. That's when I realized you weren't searching for the cheapest home. You were searching for peace of mind.”",
+      "insightImage": "/journals/advisor.png"
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "From defining non-negotiables to comparing communities and projects, every search brought them one step closer to understanding what truly mattered.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Family-First Living"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "COMMUNITIES EVALUATED",
+          "value": "3 Corridors"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "PROJECTS ELIMINATED",
+          "value": "17 Projects"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "FINAL SHORTLIST",
+          "value": "2 Communities"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Lock",
+          "title": "Safety & security",
+          "subtitle": "for family"
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Good schools",
+          "subtitle": "nearby"
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Trusted builders",
+          "subtitle": "& quality"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Value of money",
+          "subtitle": "& future growth"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Possession timeline",
+          "subtitle": "before baby arrives"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/pavan.png",
+          "text": "“Every Sunday became one site visit, one Excel update, one argument... and one make-up dosa.”"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "It wasn't really about the projects anymore. You were trying to convince yourselves that you were ready for this next chapter.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (94 sec)",
+      "audioDurationLabel": "1:32",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/search-map.png",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "19 projects",
+      "projects": [
+        {
+          "title": "Greenwood Meadows",
+          "imageSrc": "/journals/greenwood-meadows.png"
+        },
+        {
+          "title": "Sattva Aeropolis",
+          "imageSrc": "/journals/sattva-aeropolis.png"
+        },
+        {
+          "title": "Brigade Sanctuary",
+          "imageSrc": "/journals/brigade-sanctuary.png"
+        },
+        {
+          "title": "Greenwood meadows",
+          "imageSrc": "/journals/greenwood-meadows1.png",
+          "isOverlay": true,
+          "overlayText": "+16",
+          "overlaySubtext": "more"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "MapPin",
+          "title": "Location didn't align",
+          "count": "6 projects"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Budget not suitable",
+          "count": "5 projects"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Possession timeline",
+          "count": "3 projects"
+        },
+        {
+          "icon": "Building2",
+          "title": "Amenities not matching",
+          "count": "2 projects"
+        },
+        {
+          "icon": "MoreHorizontal",
+          "title": "Other reasons",
+          "count": "1 projects"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "After reviewing their search journey, I noticed that Pavan and Shruti rarely chose the lowest-priced option. Instead, they consistently returned to projects that balanced trusted builders, family-friendly neighbourhoods and a realistic possession timeline before their baby's arrival.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Every home-buying journey leaves behind lessons. Some come from difficult decisions, others from mistakes they never want to repeat. These are the insights Pavan and Shruti wish they had known before beginning their search, and the lessons that might help someone else make a more confident decision.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Start earlier"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Family before perfection"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Waiting too long"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Clear priorities"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Markets don't wait.",
+          "description": "Their ₹1 Cr budget seemed realistic initially. Within two years, property prices rose to ₹1.35–1.55 Cr. Starting earlier would have offered more flexibility and choices.",
+          "imageSrc": "/journals/3/1.png"
+        },
+        {
+          "title": "Shortlists beat browsing.",
+          "description": "After comparing many listings and projects, they found more options didn't help. Focusing on a few well-matched communities made decisions easier.",
+          "imageSrc": "/journals/3/2.png"
+        },
+        {
+          "title": "Builder trust matters.",
+          "description": "Price wasn't the only factor. Quality, clear documentation, RERA compliance, and delivery history mattered as much as the floor plan.",
+          "imageSrc": "/journals/3/3.png"
+        },
+        {
+          "title": "Buy for tomorrow, not today.",
+          "description": "Their priorities shifted after learning they would become parents. Schools, hospitals, safety and convenience became more valuable than luxury.",
+          "imageSrc": "/journals/3/4.png"
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "Bigger homes are always better"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The lowest EMI is the safest decision"
+        },
+        {
+          "icon": "LayoutGrid",
+          "text": "Amenities decide everything."
+        },
+        {
+          "icon": "LayoutList",
+          "text": "More options reduce risk."
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Home",
+          "text": "Better neighbourhoods build lasting value."
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Sustainable payments matter most."
+        },
+        {
+          "icon": "Smile",
+          "text": "Daily convenience drives happiness."
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "text": "Better comparisons build confidence."
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "PiggyBank",
+          "title": "Start saving earlier",
+          "description": "A stronger financial cushion would have reduced last-minute compromises."
+        },
+        {
+          "icon": "Search",
+          "title": "Visit better projects",
+          "description": "They'd focus on projects that genuinely matched their priorities."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Talk to residents",
+          "description": "Real conversations often reveal more than sales presentations."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Read documents",
+          "description": "Understanding approvals and RERA details earlier would have saved time."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Compare future value",
+          "description": "The cheapest option isn't always the smartest investment."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/pavan.png",
+          "text": "If we had to start all over again..."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "What would you do differently?",
+          "isRiya": true
+        },
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/pavan.png",
+          "text": "I'd stop chasing perfect projects and start trusting our priorities much earlier."
+        }
+      ],
+      "audioLabel": "Hear entire conversation (94 sec)",
+      "audioDurationLabel": "1:32",
+      "adviceTitle": "Advice for people like them",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceDescription": "Every decision in their journey became a lesson. Looking back, Pavan and Shruti realised that confidence didn't come from visiting more projects or chasing the lowest price. It came from understanding their priorities, comparing thoughtfully and planning for the life they wanted to build. These lessons are the experiences they hope every future homebuyer can learn before beginning their own journey."
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "Every home-buying journey leaves behind lessons. Some come from difficult decisions, others from mistakes they never want to repeat. These are the insights Pavan and Shruti wish they had known before beginning their search, and the lessons that might help someone else make a more confident decision.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You",
+          "description": "Share your plans, family needs, lifestyle, budget and expectations.",
+          "imageSrc": "/journals/4/1.png"
+        },
+        {
+          "id": 2,
+          "title": "Riya listens",
+          "description": "Riya understands your priorities, asks meaningful questions and discovers what truly matters to you.",
+          "imageSrc": "/journals/4/2.png"
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your conversations are transformed into a personalized home-buying journal with insights and recommendations.",
+          "imageSrc": "/journals/4/3.png"
+        },
+        {
+          "id": 4,
+          "title": "Better recommendations",
+          "description": "Receive project suggestions that fit your priorities, not just your filters.",
+          "imageSrc": "/journals/4/4.png"
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Understand your priorities",
+          "description": "Discover what truly matters to your family before comparing properties.",
+          "icon": "HeartHandshake"
+        },
+        {
+          "id": 2,
+          "title": "True budget clarity",
+          "description": "Understand your real buying capacity, future commitments and sustainable budget.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "Best areas for you",
+          "description": "Explore neighbourhoods that match your lifestyle, commute and long-term plans.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 4,
+          "title": "Builder analysis",
+          "description": "Compare trusted builders, project quality, delivery history and construction confidence.",
+          "icon": "BadgeCheck"
+        },
+        {
+          "id": 5,
+          "title": "Your personal journal",
+          "description": "A beautifully organized journal capturing your conversations, comparisons, insights and next steps.",
+          "icon": "BookOpen"
+        }
+      ],
+      "blankTitle": "This page is still blank.",
+      "blankDescription": "But it won't stay that way for long. Every conversation you have with Riya becomes part of a journal that reflects your unique home-buying journey, helping you understand your priorities before making one of life's biggest decisions.",
+      "blankActionText": "Let's write it together.",
+      "blankImageSrc": "/journals/open-book-illustration.png",
+      "ctaTitle": "Ready to write your story?",
+      "ctaDescription": "Let Riya understand your goals and, together with Kabir, create a personalized journal that guides you toward the right home with confidence",
+      "ctaButtonText": "Copy Journal",
+      "ctaCharacterImage": "/journals/riya-full-character.png"
+    }
+  ]
 }

@@ -1,0 +1,930 @@
+{
+  "article": {
+    "tags": [
+      "INVESTORS & WEALTH",
+      "NORTH BENGALURU"
+    ],
+    "title": "The Capital Compounding Journal",
+    "description": "Nikhil Menon's ₹2.5 Cr capital compounding journey across Hebbal, Thanisandra & Devanahalli — balancing launch-window IRR against 11 months of analysis paralysis.",
+    "quote": "\"Show me the IRR, not the clubhouse.\"",
+    "readTime": "14 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "TrendingUp",
+        "text": "Target 12%+ XIRR with early-bird launch margins"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "Tendered infra & tier-1 RERA track records only"
+      },
+      {
+        "icon": "Clock",
+        "text": "Decide on written mandate rules to beat analysis costs"
+      }
+    ],
+    "heroImage": "/journals/cover/2.png",
+    "heroTitle": "The Capital Compounding Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Nikhil Menon -- his 47-tab spreadsheet, ₹2.5 Cr ready capital, and search for high-IRR North Bengaluru real estate.",
+      "buyers": [
+        {
+          "name": "Nikhil Menon",
+          "age": 41,
+          "role": "VP of Engineering (Fintech)",
+          "description": "Analytical, detail-oriented fintech engineering VP in Bellandur with ₹2.5 Cr ready capital. Balancing 12%+ XIRR targets against analysis paralysis.",
+          "tags": [
+            "Data-First",
+            "IRR-Focused",
+            "Analytical"
+          ],
+          "image": "/journals/nikhil.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 41-year-old South Indian male tech executive named Nikhil with short curly black hair and a neat trim beard, wearing a dark navy button-down shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Deploy ₹2.5 Cr ready equity (plus optional ₹1 Cr leverage) into high-IRR North Bengaluru growth assets — securing early-bird pre-launch margins at tier-1 developments while honoring Deepa's rule of 'not a second job.'",
+      "sharedVisionImage": "/journals/the-spreadsheet-deployer/capital-sketch.png",
+      "imagegenerationprompt": "An architectural concept sketch of a modern high-rise residential tower in Hebbal North Bengaluru with flying cranes on the horizon and wide airport highway flyovers, clean blueprint & watercolor aesthetic, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Fintech Exec"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Mid-career"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Re-evaluating"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "This quarter"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-spreadsheet-deployer/priority-1.png",
+          "imagegenerationprompt": "A clean flat vector graphic illustrating financial compound growth curves and early-bird launch margin documents on a dark wood desk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "12%+ XIRR & Early-Bird Margin",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Capture developer early-bird margins (8–12%) at launch window rather than paying resale premium."
+        },
+        {
+          "image": "/journals/the-spreadsheet-deployer/priority-2.png",
+          "imagegenerationprompt": "A clean flat vector illustration showing highway infrastructure maps, satellite ring road tenders, and official government infrastructure stamps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Hard Infrastructure Catalysts",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Tendered projects (STRR, Satellite Ring Road, Foxconn effect), not unverified proposals."
+        },
+        {
+          "image": "/journals/the-spreadsheet-deployer/priority-3.png",
+          "imagegenerationprompt": "A clean flat vector illustration of RERA certificate documents, developer track record seals, and a 6-month exit liquidity chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Tier-1 RERA Track Record",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Pristine execution record with clear exit liquidity under 6 months."
+        },
+        {
+          "image": "/journals/the-spreadsheet-deployer/priority-4.png",
+          "imagegenerationprompt": "A clean flat vector graphic showing a peaceful kitchen counter with a framed investment mandate card and house keys, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Deepa's 'Not a Second Job' Rule",
+          "scorePercentage": 80,
+          "scoreLabel": "8/10",
+          "description": "Hands-off asset that does not demand ongoing operational effort or family tension."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a 47-tab spreadsheet and a ₹35L cost of analysis to framed kitchen mandates and a secured east-facing mid-floor unit in Thanisandra.",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Secured Mid-Floor Unit"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.5 Cr Equity + ₹1 Cr Loan"
+        },
+        {
+          "icon": "Calendar",
+          "label": "POSSESSION",
+          "value": "2029 Target"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "ANALYSIS COST",
+          "value": "₹35L Foregone Apprec."
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "s1-spreadsheet-loop",
+          "stage": "S1",
+          "type": "loop",
+          "title": "S1: 47-Tab Spreadsheet",
+          "desc": "11-month analysis loop; ₹35L cost of delay added as its own spreadsheet column.",
+          "icon": "FileSpreadsheet",
+          "loopText": "11-Month Analysis Loop",
+          "x": 110,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s2-raintree-benchmark",
+          "stage": "S2",
+          "type": "stage",
+          "title": "S2: Raintree Benchmark",
+          "desc": "4 weeks calibrating delivered Hebbal premium (₹18K-20K/sqft) exit ceiling.",
+          "icon": "TrendingUp",
+          "x": 340,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "detour-land-syndicate",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "DETOUR: Land Syndicate",
+          "desc": "3 weeks on 22% IRR pitch deck with no RERA or title packet; killed by lawyer.",
+          "icon": "AlertTriangle",
+          "x": 570,
+          "y": 220,
+          "width": 180
+        },
+        {
+          "id": "s3-kitchen-mandate",
+          "stage": "S3",
+          "type": "stage",
+          "title": "S3: Kitchen Mandate",
+          "desc": "4 weeks framing 4 written commit conditions at breakfast to stop over-analysis.",
+          "icon": "FileText",
+          "x": 800,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s5-eoi-bad-allotment-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "s3-kitchen-mandate",
+          "title": "S5 BOUNCE: EOI Refund",
+          "desc": "1 week bounce: allotment day offered low road-facing floor; exercised EOI refund clause.",
+          "icon": "RotateCcw",
+          "loopText": "S5 → S3 Bounce (EOI Refund)",
+          "x": 740,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "s5-nikoo-unit-secured",
+          "stage": "S5",
+          "type": "stage",
+          "title": "S5: East Mid-Floor Secured",
+          "desc": "3 weeks: secured prime east-facing mid-floor in Nikoo Homes new phase.",
+          "icon": "CheckCircle2",
+          "x": 440,
+          "y": 380,
+          "width": 180
+        },
+        {
+          "id": "s6-rera-progress-ritual",
+          "stage": "S6",
+          "type": "stage",
+          "title": "S6: RERA Progress Ritual",
+          "desc": "Quarterly RERA progress tracking ritual to 2029; Deepa's non-second-job audit.",
+          "icon": "CalendarCheck",
+          "x": 140,
+          "y": 380,
+          "width": 180
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "post-booking",
+          "label": "Post-booking",
+          "icon": "CalendarPlus",
+          "active": true,
+          "tag": "EOI Secured"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "analysis-cost-column",
+          "title": "The ₹35L spreadsheet column",
+          "desc": "Nikhil added a new column calculating the exact price appreciation missed during 11 months of analysis.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/moment-1.png",
+          "imagegenerationprompt": "A laptop screen showing a complex Google Sheet with a highlighted green column titled 'Cost of Analysis: ₹35,00,000' beside a cup of black coffee on a dark wooden desk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "kitchen-mandate-card",
+          "title": "The framed kitchen mandate",
+          "desc": "Four written conditions for committing capital, framed and placed in the kitchen to enforce action.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/moment-2.png",
+          "imagegenerationprompt": "A clean wooden picture frame on a kitchen wall displaying a neatly printed 4-rule investment mandate document, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "eoi-refund-exercise",
+          "title": "Exercising the refundable EOI",
+          "desc": "Walking away on allotment day when offered low road-facing floors — proving the system worked.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/moment-3.png",
+          "imagegenerationprompt": "A stamped refunded EOI receipt stapled over a floorplan chart highlighting road-facing apartment units, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "tower-matrix-selected",
+          "title": "East-facing mid-floor unit",
+          "desc": "Securing the ideal unit in Bhartiya Nikoo's new phase after the second window opened.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/moment-4.png",
+          "imagegenerationprompt": "A modern architectural tower matrix chart with an east-facing mid-floor unit highlighted with a green checkmark, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Show me the IRR, not the clubhouse.",
+          "author": "— Nikhil"
+        },
+        {
+          "text": "This money must not become a second job.",
+          "author": "— Deepa"
+        },
+        {
+          "text": "Proposed infra is a story; tendered with a contractor name is a catalyst.",
+          "author": "— Riya"
+        },
+        {
+          "text": "You've said your four conditions eleven times. The twelfth time, we write them down and you sign.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Nikhil",
+          "avatar": "/journals/nikhil.png",
+          "text": "Riya, I added a column yesterday. Cost of my own analysis: ₹35 lakhs. Eleven months of being 'two weeks from deciding.'"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You computed it yourself — that's rarer than you think. What would make you act? A mandate against yourself. Kitchens are where mandates survive.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Clock4",
+          "title": "Analysis Paralysis Cost",
+          "description": "11 months of delay cost ~₹35L in market price escalation."
+        },
+        {
+          "icon": "ShieldAlert",
+          "title": "Unregistered Syndicates",
+          "description": "Land syndicate pitches lacked RERA registration and title clarity."
+        },
+        {
+          "icon": "FileText",
+          "title": "Allotment Floor Trap",
+          "description": "First EOI window offered only road-facing low floors; required refund exit."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Launch-to-Delivered Spread",
+          "description": "Hebbal delivered stock (₹18K–20K/sqft) vs pre-launch (₹12K/sqft) validated the trade."
+        },
+        {
+          "icon": "Heart",
+          "title": "Family Governance Filter",
+          "description": "Deepa's 'not a second job' rule filtered out high-maintenance assets."
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Tracking infrastructure tenders and price sheets across Thanisandra Main Road, Hebbal, and the Devanahalli airport belt.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH STRATEGY",
+          "value": "Compounding IRR"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "SEARCH COVERAGE",
+          "value": "Airport Corridor Arc"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "PROJECTS EVALUATED",
+          "value": "4 Core Candidates"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "NON-NEGOTIABLES",
+          "value": "Tendered Infra & RERA"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Thanisandra Main Rd (Chosen)",
+          "description": "Bhartiya City Nikoo Homes phase window (~₹11,950–12,100/sqft), township scale and early-bird margin.",
+          "projects": 3,
+          "siteVisits": 5,
+          "imageSrc": "/journals/thanisandra.png",
+          "imagegenerationprompt": "A modern architectural vector landscape of Thanisandra Main Road showing new township developments and landscaped boulevards, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hebbal Corridor",
+          "description": "L&T Raintree Boulevard benchmark (₹17.5K–20.4K/sqft) showing corridor premium once delivered.",
+          "projects": 4,
+          "siteVisits": 6,
+          "imageSrc": "/journals/hebbal.png",
+          "imagegenerationprompt": "A sleek architectural view of Hebbal flyover and high-rise luxury apartment towers in North Bengaluru, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Devanahalli Plotted Arc",
+          "description": "Plotted land options (₹2,100–8,500/sqft) near Foxconn hub and Satellite Town Ring Road (STRR).",
+          "projects": 3,
+          "siteVisits": 4,
+          "imageSrc": "/journals/devanahalli.png",
+          "imagegenerationprompt": "A wide aerial view of plotted development layouts near Devanahalli airport corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Yelahanka • Hennur Road • Bagalur",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "ANALYSIS PARALYSIS",
+          "value": "₹35L Cost of Delay",
+          "description": "11 months lost in a 47-tab spreadsheet while market repriced ₹35L higher.",
+          "icon": "Clock"
+        },
+        {
+          "title": "INFRASTRUCTURE HYPE",
+          "value": "Stories vs Tenders",
+          "description": "Differentiating proposed infrastructure stories from real tendered contractor progress.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "title": "ALLOTMENT TRAPS",
+          "value": "Road-Facing Units",
+          "description": "Pre-launch early-bird pricing offset by low road-facing floor allotments.",
+          "icon": "RotateCcw"
+        },
+        {
+          "title": "TIME DILUTION",
+          "value": "Deepa's Rule Breach",
+          "description": "Real estate search turning into a second full-time job violating family mandates.",
+          "icon": "FileX"
+        }
+      ],
+      "filtersFooterLabel": "Nikhil was searching for capital compounding and early-bird alpha, backed by hard tendered infrastructure.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Nikhil didn't care about swimming pools or clubhouse marble. He cared about contractor tender names, RERA delivery dates, and the launch-to-delivered price spread. He was buying a capital compounding trade, not a lifestyle brochure.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A modern portrait of Riya holding a tablet with RERA tracking feeds and XIRR spreadsheets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating pre-launches, benchmark delivered towers, and plotted developments across North Bengaluru.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Capital Compounding"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "EVALUATED STOCK",
+          "value": "Pre-launch & Plots"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED OPTIONS",
+          "value": "1 Syndicate Detour"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "SELECTED HOME",
+          "value": "Bhartiya City Nikoo"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "TrendingUp",
+          "title": "12%+ XIRR Target",
+          "subtitle": "over 7-year horizon"
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Tendered Infra",
+          "subtitle": "contractor named"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Tier-1 RERA Track",
+          "subtitle": "clean delivery history"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Refundable EOI",
+          "subtitle": "unit quality gate"
+        },
+        {
+          "icon": "Heart",
+          "title": "Low Operational Effort",
+          "subtitle": "Deepa's family rule"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Nikhil",
+          "avatar": "/journals/nikhil.png",
+          "text": "If the launch is tier-one, RERA filed, land title clean, and early-bird margin is eight percent plus... I commit."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "When Nikoo's next phase opens and your four conditions are green — the EOI goes. Kitchens are where mandates survive.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (92 sec)",
+      "audioDurationLabel": "1:32",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/search-map.png",
+      "mapImagePrompt": "A stylized vector map of North Bengaluru highlighting Hebbal flyover, Thanisandra Main Road, and Devanahalli airport corridor.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "4 core options",
+      "projects": [
+        {
+          "title": "Bhartiya City Nikoo Homes",
+          "name": "Bhartiya City Nikoo Homes",
+          "price": "₹1.31–2.9 Cr",
+          "possession": "2029",
+          "psf": "₹11,950–12,100/sqft",
+          "location": "Thanisandra Main Rd",
+          "imageSrc": "/journals/the-spreadsheet-deployer/projects/1.jpg"
+        },
+        {
+          "title": "L&T Raintree Boulevard",
+          "name": "L&T Raintree Boulevard",
+          "price": "₹2.4–3.53 Cr",
+          "possession": "Ready",
+          "psf": "₹17,500–20,400/sqft",
+          "location": "Hebbal",
+          "imageSrc": "/journals/the-spreadsheet-deployer/projects/2.jpg"
+        },
+        {
+          "title": "Devanahalli Plots",
+          "name": "Devanahalli Plots",
+          "price": "₹38–45L",
+          "possession": "Ready",
+          "psf": "₹2,100–8,500/sqft",
+          "location": "Devanahalli",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ShieldAlert",
+          "title": "Unregistered / No RERA",
+          "count": "1 land syndicate"
+        },
+        {
+          "icon": "Frown",
+          "title": "Road-Facing Low Floor Allotment",
+          "count": "1 EOI bounce"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Repriced Resale Ceiling",
+          "count": "2 delivered towers"
+        },
+        {
+          "icon": "Clock",
+          "title": "Unverified Infra Proposals",
+          "count": "3 projects"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Nikhil's decision to lock an east-facing mid-floor unit in Bhartiya City Nikoo Homes balanced early-bird launch margin (~₹12K/sqft vs Hebbal's ₹18K–20K/sqft delivered benchmark) with tier-1 RERA compliance and zero operational burden.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for data-driven investors balancing pre-launch upside against delivery risk and analysis costs.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Decide via Written Mandate"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Early-Bird Launch Margin"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Analysis Paralysis (₹35L Cost)"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Refundable EOI Exit"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "'Tendered with contractor name' is the only real catalyst.",
+          "description": "Proposed infrastructure is just marketing story. Filtering for tendered projects with named contractors instantly eliminated half the speculative list.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/lesson-1.png",
+          "imagegenerationprompt": "A vector graphic showing a government infrastructure tender document stamped with a contractor name, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Early-bird pricing compensates for delivery risk.",
+          "description": "8–12% pre-launch discounts are not free money; they are compensation for 2029 completion timelines. Price the risk before signing.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/lesson-2.png",
+          "imagegenerationprompt": "A vector illustration showing a price sheet discount calculation beside a construction delivery timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Corridors arrive late. Always.",
+          "description": "Back-testing 2021 predictions showed being right on direction but wrong on timing by 2+ years. Build buffer for delays.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/lesson-3.png",
+          "imagegenerationprompt": "A vector chart comparing predicted vs actual infrastructure completion timelines, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Decide on written mandate rules to beat analysis cost.",
+          "description": "Every month of over-analyzing cost ₹1.4L in foregone appreciation. Write down decision conditions and obey them.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/lesson-4.png",
+          "imagegenerationprompt": "A vector illustration of a framed 4-rule mandate card on a kitchen table, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Deepa's rule is an investment filter.",
+          "description": "Any real estate asset requiring weekly operational management fails the family's core mandate.",
+          "imageSrc": "/journals/the-spreadsheet-deployer/lesson-5.png",
+          "imagegenerationprompt": "A vector graphic of a peaceful home office with a closed laptop and a balance sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileSpreadsheet",
+          "text": "47-tab spreadsheet equals thorough diligence"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Proposed infra announcements guarantee fast gains"
+        },
+        {
+          "icon": "Home",
+          "text": "Clubhouse & luxury specs drive long-term alpha"
+        },
+        {
+          "icon": "Clock",
+          "text": "Delaying decisions costs nothing while analyzing"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileText",
+          "text": "4 written mandate rules beat 47 spreadsheet tabs"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "Only tendered infrastructure with contractor names counts"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Launch-window entry margin & 12%+ XIRR matter most"
+        },
+        {
+          "icon": "Zap",
+          "text": "Analysis paralysis cost ₹35L in foregone growth"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "FileText",
+          "title": "Write decision rules early",
+          "description": "Forming a 4-condition mandate in Month 1 would have saved 11 months of analysis."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Demand RERA & title on day 1",
+          "description": "Checking RERA registration immediately filters out unbacked syndicate pitches."
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "Enforce refundable EOI terms",
+          "description": "Exercising EOI refund when allotment fails guarantees unit quality."
+        },
+        {
+          "icon": "CalendarCheck",
+          "title": "Audit against family rules",
+          "description": "Ensure the asset never turns into a second job."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Nikhil",
+          "avatar": "/journals/nikhil.png",
+          "text": "Show me the IRR, not the clubhouse. Seriyaanu. A mandate against myself."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Good. Kitchens are where mandates survive.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (92 sec)",
+      "audioDurationLabel": "1:32",
+      "adviceTitle": "Advice for data-first investors",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing spreadsheet modeling, kitchen mandate framing, EOI refunding, and final tower unit booking.",
+      "adviceDescription": "For analytical investors, confidence comes from written decision mandates, tendered infrastructure verification, and strict RERA compliance. Nikhil proved that overcoming analysis paralysis with a clear 4-rule mandate delivers true compounding alpha.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 2",
+          "headline": "\"Proposed\" infrastructure is a story; \"tendered\" is a catalyst",
+          "body": "Filtering for hard tendered contracts with contractor names eliminated half the speculative shortlist.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Early-bird launch pricing compensates for delivery risk",
+          "body": "The 8–12% pre-launch discount is compensation for construction wait, not free market upside. Price the risk.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "Corridor appreciation timing arrives later than spreadsheets predict",
+          "body": "Back-tested predictions proved right on direction but wrong on timing by 2+ years. Corridors arrive late.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 9",
+          "headline": "Foregone appreciation cost: ₹35L lost to analysis loop",
+          "body": "Decided on a hard decision rule: write down the 4 commit conditions and execute when green.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 11",
+          "headline": "Deepa's rule (\"not a second job\") is the ultimate filter",
+          "body": "Any real estate asset requiring weekly management fails the family's core investment mandate.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you have ready capital and a spreadsheet that's been 'two weeks from final' for months, let Riya build your decision mandate.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your capital, XIRR targets, corridor preferences, and non-negotiables.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer typing property criteria and corpus budget into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya evaluates early-bird pricing, RERA track record, and delivery timelines.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing property OC numbers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom compounding journal and 4-rule decision mandate are generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified launch recommendations matching your XIRR math.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Written Decision Mandate",
+          "description": "Establish 4 hard rules before starting your search to prevent analysis paralysis.",
+          "icon": "FileText"
+        },
+        {
+          "id": 2,
+          "title": "Tendered Infrastructure Filter",
+          "description": "Focus only on infrastructure projects with active tenders and named contractors.",
+          "icon": "TrendingUp"
+        },
+        {
+          "id": 3,
+          "title": "RERA Track Record Diligence",
+          "description": "Verify developer past delivery records and exit liquidity history.",
+          "icon": "ShieldCheck"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You have capital ready and a spreadsheet that has been \"two weeks from final\" for most of a year.",
+        "You compare every property to an index-fund benchmark, out loud, at site visits.",
+        "Launch-window pricing excites you more than ready inventory — you want the developer's early-bird margin, not the resale market's.",
+        "You track infrastructure tenders the way others track cricket scores.",
+        "You know your analysis is partly fear, and you'd rather not discuss it.",
+        "Your spouse has one rule for this money, and you're quietly testing its edges."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "s1-spreadsheet-loop",
+      "stage": "S1",
+      "type": "loop",
+      "title": "S1: 47-Tab Spreadsheet",
+      "desc": "11-month analysis loop; ₹35L cost of delay added as its own spreadsheet column.",
+      "icon": "FileSpreadsheet",
+      "loopText": "11-Month Analysis Loop",
+      "x": 110,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s2-raintree-benchmark",
+      "stage": "S2",
+      "type": "stage",
+      "title": "S2: Raintree Benchmark",
+      "desc": "4 weeks calibrating delivered Hebbal premium (₹18K-20K/sqft) exit ceiling.",
+      "icon": "TrendingUp",
+      "x": 340,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "detour-land-syndicate",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "DETOUR: Land Syndicate",
+      "desc": "3 weeks on 22% IRR pitch deck with no RERA or title packet; killed by lawyer.",
+      "icon": "AlertTriangle",
+      "x": 570,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "s3-kitchen-mandate",
+      "stage": "S3",
+      "type": "stage",
+      "title": "S3: Kitchen Mandate",
+      "desc": "4 weeks framing 4 written commit conditions at breakfast to stop over-analysis.",
+      "icon": "FileText",
+      "x": 800,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s5-eoi-bad-allotment-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "s3-kitchen-mandate",
+      "title": "S5 BOUNCE: EOI Refund",
+      "desc": "1 week bounce: allotment day offered low road-facing floor; exercised EOI refund clause.",
+      "icon": "RotateCcw",
+      "loopText": "S5 → S3 Bounce (EOI Refund)",
+      "x": 740,
+      "y": 380,
+      "width": 190
+    },
+    {
+      "id": "s5-nikoo-unit-secured",
+      "stage": "S5",
+      "type": "stage",
+      "title": "S5: East Mid-Floor Secured",
+      "desc": "3 weeks: secured prime east-facing mid-floor in Nikoo Homes new phase.",
+      "icon": "CheckCircle2",
+      "x": 440,
+      "y": 380,
+      "width": 180
+    },
+    {
+      "id": "s6-rera-progress-ritual",
+      "stage": "S6",
+      "type": "stage",
+      "title": "S6: RERA Progress Ritual",
+      "desc": "Quarterly RERA progress tracking ritual to 2029; Deepa's non-second-job audit.",
+      "icon": "CalendarCheck",
+      "x": 140,
+      "y": 380,
+      "width": 180
+    }
+  ]
+}
