@@ -61,7 +61,7 @@ function TabNav({
               className="w-10 h-10 rounded-lg object-cover flex-none border border-slate-100 shadow-xs"
             />
             <span
-              className="text-[13px] font-semibold leading-[1.25] text-[#111821] flex-none max-w-[130px] truncate"
+              className="text-[13px] font-semibold leading-[1.25] text-[#111821] flex-none max-w-[130px] "
               style={{ fontFamily: fu }}
             >
               {title ? title.split(":")[0] : "Homebuyer's Journal"}
@@ -126,6 +126,13 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
     acc[tab.id] = tab;
     return acc;
   }, {});
+
+  useEffect(() => {
+    // Reset scroll position to top on mount
+    if (typeof window !== "undefined") {
+      window.scrollTo(0, 0);
+    }
+  }, []);
 
   useEffect(() => {
     const observers: IntersectionObserver[] = [];

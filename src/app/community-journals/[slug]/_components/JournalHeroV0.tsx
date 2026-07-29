@@ -74,14 +74,14 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
           Home
         </a>
         <span className="text-slate-300">/</span>
-        <a href="/community-journals" className="text-slate-400 hover:text-slate-700 transition-colors">Community Journals</a>
+        <a href="/community-journals" className="text-slate-400 hover:text-slate-700 transition-colors">All Journals</a>
         <span className="text-slate-300">/</span>
         <span className="font-semibold text-slate-900 truncate max-w-[280px] md:max-w-[420px]">
           {displayTitle.replace("\n", " ")}
         </span>
       </nav>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-12 pt-8">
+      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-12 pt-8 bg-white">
         {/* Col 1 — Hero Image (Widescreen Landscape) */}
         <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-[10/16] max-h-[350px] border border-slate-200/80 shadow-md w-full max-w-[460px] mx-auto sm:mx-0 flex-none">
           <img

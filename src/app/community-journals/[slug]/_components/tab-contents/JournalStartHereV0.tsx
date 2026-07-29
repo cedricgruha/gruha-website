@@ -111,7 +111,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
               return (
                 <div key={i} className="flex items-start gap-3">
                   <Icons.BadgeCheck size={15} className="mt-0.5 flex-none" style={{ color: "#DD5128" }} />
-                  <span className="text-[13.5px] leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
+                  <span className="text-[13px] leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
                     {text}
                   </span>
                 </div>

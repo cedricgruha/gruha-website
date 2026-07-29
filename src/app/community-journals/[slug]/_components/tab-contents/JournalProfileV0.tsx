@@ -196,7 +196,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
             <p className="text-[19px] font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
               {sharedVisionTitle}
             </p>
-            <p className="mt-3 text-[13.5px] leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
+            <p className="mt-3 text-[13px] leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
               {sharedVisionDescription}
             </p>
           </div>

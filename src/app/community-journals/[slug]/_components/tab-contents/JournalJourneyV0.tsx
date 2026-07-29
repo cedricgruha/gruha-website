@@ -335,7 +335,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
   const displayRiyaQuote = riyaChatMessage || "Every time I suggested a lower-priced option, both of you kept returning to communities with trusted builders, better schools and realistic possession timelines. That's when I realized you weren't searching for the cheapest home. You were searching for peace of mind.";
 
   return (
-    <section id="section-journey" className="pt-10  w-full text-slate-900">
+    <section id="section-journey" className="w-full space-y-6 sm:space-y-12 text-slate-900">
       <div className="w-full space-y-10">
 
         {/* -- Header ---------------------------------------------------- */}
@@ -772,7 +772,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
           >
             {/* Left Column: Take on Journey & Audio Player */}
-            <div className="p-8 sm:p-10 flex flex-col justify-between space-y-6">
+            <div className="p-5 sm:p-10 flex flex-col justify-between space-y-4 sm:space-y-6">
               <div className="space-y-4">
                 <p
                   className="text-[9.5px] font-semibold tracking-[0.14em] uppercase"
@@ -811,22 +811,20 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
         {quotes && quotes.length > 0 && (
           <div className="w-full">
             <div
-              className="bg-white border p-8"
+              className="bg-white border p-5 sm:p-8"
               style={{
                 borderRadius: 14,
                 borderColor: "#E4E9EF",
-                // boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",
-                // borderradius: "14px", 
                 boxShadow: "rgba(17, 24, 33, 0.04) 0px 1px 2px, rgba(17, 24, 33, 0.05) 0px 8px 24px"
               }}
             >
               <p
-                className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-6"
+                className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-4 sm:mb-6"
                 style={{ fontFamily: fu, color: "#8A94A1" }}
               >
                 {voicesTitle}
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
                 {quotes.map((q: any, idx: number) => {
                   const quoteText = typeof q === "string" ? q : (q.text || "");
                   const quoteAuthor = typeof q === "string" ? "" : (q.author || q.speaker || "");
@@ -834,18 +832,18 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                   return (
                     <div
                       key={quoteAuthor || idx}
-                      className="rounded-xl border border-slate-100 p-7 flex flex-col justify-between gap-6"
+                      className="rounded-xl border border-slate-100 p-4 sm:p-7 flex flex-col justify-between gap-3 sm:gap-6"
                       style={{ background: "#f8fafc" }}
                     >
                       <p
-                        className="text-[20px] leading-[1.5] italic"
+                        className="text-[16px] sm:text-[20px] leading-[1.45] sm:leading-[1.5] italic"
                         style={{ fontFamily: fd, color: "#2D3748" }}
                       >
                         "{quoteText}"
                       </p>
                       {quoteAuthor && (
                         <p
-                          className="text-[14px] font-semibold"
+                          className="text-[13px] sm:text-[14px] font-semibold"
                           style={{ fontFamily: fu, color: "#DD5128" }}
                         >
                           {quoteAuthor}

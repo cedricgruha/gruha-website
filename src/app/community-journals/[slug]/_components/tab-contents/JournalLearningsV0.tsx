@@ -240,7 +240,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                       <h4 className="text-[18px] leading-[1.3] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                         {item.headline || item.title}
                       </h4>
-                      <p className="text-[13.5px] leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
+                      <p className="text-[13px] leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
                         {item.body || item.description}
                       </p>
                     </div>

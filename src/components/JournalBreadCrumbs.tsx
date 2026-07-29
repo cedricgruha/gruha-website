@@ -26,7 +26,7 @@ const JournalBreadCrumbs: React.FC<JournalBreadCrumbsProps> = ({
     // Default breadcrumb hierarchy if custom items are not provided
     const defaultItems: BreadcrumbItem[] = [
         { label: 'Home', href: '/' },
-        { label: 'Community Journals', href: '/' },
+        { label: 'All Journals', href: '/' },
     ];
 
     const breadcrumbs = items || defaultItems;
@@ -70,7 +70,7 @@ const JournalBreadCrumbs: React.FC<JournalBreadCrumbsProps> = ({
                         ))}
 
                         {/* Active Breadcrumb Title */}
-                        <span className="font-semibold text-slate-900 truncate max-w-[280px] md:max-w-[420px]">
+                        <span className="font-semibold text-slate-900  max-w-[280px] md:max-w-[420px]">
                             {activeLabel}
                         </span>
                     </nav>
