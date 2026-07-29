@@ -247,7 +247,7 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
 
           {/* Right Column: Sticky Sidebar - Starts at Hero, Stops at end of Learnings (just before Start Here) */}
           {sidebar && (
-            <div className="hidden lg:block h-full pt-10">
+            <div className="hidden lg:block h-full pt-12">
               <div className="sticky top-20 z-40">
                 {sidebar}
               </div>

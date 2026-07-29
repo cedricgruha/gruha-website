@@ -396,7 +396,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
         )}
 
         {/* -- Dynamic Roadmap SVG ---------------------------------------- */}
-        <div className="w-full border border-[#F1F5F9] rounded-[24px] bg-white overflow-hidden pb-6 shadow-[0_1px_2px_rgba(17,24,33,.04),0_8px_24px_rgba(17,24,33,.05)]">
+        <div className="w-full border border-[#F1F5F9] rounded-[24px] bg-white overflow-hidden pb-0 shadow-[0_1px_2px_rgba(17,24,33,.04),0_8px_24px_rgba(17,24,33,.05)]">
           <div className="px-8 pt-7 pb-2">
             <p
               className="text-[9.5px] font-semibold tracking-[0.14em] uppercase"
@@ -542,7 +542,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 
             return (
               <div
-                className="hidden md:block relative w-full pb-12 mb-4"
+                className="hidden md:block relative w-full py-10 my-4"
                 style={{ aspectRatio: `1000 / ${viewBoxHeight}` }}
               >
                 <svg

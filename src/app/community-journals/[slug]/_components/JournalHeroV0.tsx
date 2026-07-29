@@ -81,7 +81,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </span>
       </nav>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-12 pt-8">
         {/* Col 1 — Hero Image (Widescreen Landscape) */}
         <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-[10/16] max-h-[350px] border border-slate-200/80 shadow-md w-full max-w-[460px] mx-auto sm:mx-0 flex-none">
           <img
@@ -104,7 +104,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
             {displayDescription}
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-start mt-2">
+          <div className="grid grid-cols-1  gap-6 items-start mt-2">
             <div>
               <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-3" style={{ fontFamily: fu, color: "#8A94A1" }}>
                 {learningsLabel}
@@ -113,7 +113,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
                 {displayLearnings.map((item: any, i: number) => {
                   const text = typeof item === "string" ? item : item.text;
                   return (
-                    <div key={i} className="flex items-start gap-3">
+                    <div key={i} className="flex items-start gap-3 w-full">
                       <span className="text-[11px] font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
                         {String(i + 1).padStart(2, "0")}
                       </span>

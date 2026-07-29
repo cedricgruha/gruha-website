@@ -205,7 +205,15 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
         <section className="relative px-6 md:px-12 pt-10 pb-6 max-w-[1400px] mx-auto overflow-hidden">
 
           {/* Top Row: Left Header vs Middle Search & Far Right 3D Illustration */}
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 relative z-10">
+          <div
+            className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 relative z-10"
+            style={{
+              backgroundImage: "url('/community-listing-header.png')",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "right center",
+              backgroundSize: "contain",
+            }}
+          >
 
             {/* Left Header Title & Subtitle */}
             <div className="flex flex-col gap-1.5 max-w-xl shrink-0">
@@ -235,63 +243,6 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                   Every journal captures a unique journey, challenge, and insight.
                 </p>
               </div>
-            </div>
-
-            {/* Middle Search & Popular Searches Block */}
-            <div className="flex flex-col gap-3.5 w-full lg:w-[480px] xl:w-[540px]">
-
-              {/* White Pill Search Input */}
-              <div className="relative w-full">
-                <svg
-                  className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="11" cy="11" r="8" strokeWidth="2" />
-                  <path d="M21 21l-4.35-4.35" strokeWidth="2" strokeLinecap="round" />
-                </svg>
-                <input
-                  type="text"
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                  placeholder="Search journals, personas, locations..."
-                  className="w-full bg-white border border-slate-200/90 rounded-2xl py-3.5 pl-11 pr-4 text-[13.5px] outline-none shadow-2xs transition-all focus:border-[#DD5128] focus:ring-2 focus:ring-[#DD5128]/10 placeholder:text-slate-400 font-inter"
-                />
-              </div>
-
-              {/* Popular Searches Row */}
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-[12px] font-medium text-slate-500 shrink-0 font-inter">
-                  Popular searches:
-                </span>
-                <div className="flex items-center gap-1.5 flex-wrap">
-                  {POPULAR_SEARCHES.map((tag) => (
-                    <button
-                      key={`pop-${tag}`}
-                      onClick={() => {
-                        setActiveFilter(tag);
-                        setSearch("");
-                      }}
-                      className="px-3 py-1 rounded-full text-[11px] font-medium text-slate-700 bg-white border border-slate-200/80 shadow-2xs hover:bg-slate-50 hover:border-slate-300 transition-all cursor-pointer font-inter whitespace-nowrap"
-                    >
-                      {tag}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Far Right 3D Book Illustration with #FAFAF8 Color Blend Filter */}
-            <div className="hidden xl:block shrink-0 w-[220px] h-[200px] relative pointer-events-none bg-[#FAFAF8] overflow-hidden">
-              <Image
-                src="/community-listing-header.png"
-                alt="Community Journals Book"
-                fill
-                className="object-contain mix-blend-multiply opacity-95"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#FAFAF8] via-transparent to-[#FAFAF8]/50 pointer-events-none" />
             </div>
           </div>
 
@@ -326,19 +277,7 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
               })}
             </div>
 
-            {/* Right Controls: Sort by Dropdown */}
-            <div className="flex items-center gap-2 shrink-0 self-end md:self-auto">
-              <span className="text-[12.5px] font-medium text-slate-500 font-inter">Sort by:</span>
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="bg-white border border-slate-200/90 rounded-full px-3.5 py-2 text-[12.5px] font-semibold text-slate-800 outline-none cursor-pointer font-inter shadow-2xs"
-              >
-                <option value="Most Recent">Most Recent</option>
-                <option value="Most Popular">Most Popular</option>
-                <option value="Views">Highest Views</option>
-              </select>
-            </div>
+
           </div>
         </section>
 
