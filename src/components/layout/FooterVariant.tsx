@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 export const FooterVariant = () => {
   return (
-    <footer className="bg-white pt-16 pb-12 text-black overflow-hidden">
-      <div className="container mx-auto px-6 md:px-12 max-w-6xl">
-        
+    <footer className="bg-white pt-16 pb-12 text-black overflow-hidden ">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 ">
+
         {/* Top Info Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          
+
           {/* Logo Column */}
           <div className="flex flex-col items-start justify-start">
             <Link href="/" className="inline-block">
@@ -60,16 +60,16 @@ export const FooterVariant = () => {
         {/* Illustration Section */}
         <div className="relative w-full flex flex-col items-center">
           <div className="w-full max-w-6xl relative aspect-[16/9] md:aspect-[21/9]">
-            <Image 
-              src="/assets/footer-group.png" 
-              alt="Gruha Specialists Team" 
+            <Image
+              src="/assets/footer-group.png"
+              alt="Gruha Specialists Team"
               fill
               priority
               className="object-contain"
               sizes="(max-width: 768px) 100vw, 1400px"
             />
           </div>
-          
+
           <div className="text-center -mt-6 md:-mt-12 relative z-10">
             <h3 className="font-inter text-lg md:text-xl lg:text-2xl leading-[1.1] tracking-[-0.03em] text-[#1A1A1A] font-bold max-w-sm">
               Together, we make <br className="md:hidden" /> your perfect home happen

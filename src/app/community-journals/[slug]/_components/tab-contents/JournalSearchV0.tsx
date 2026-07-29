@@ -415,13 +415,12 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       onMouseLeave={() => setHoveredAreaId(null)}
                     >
                       <div
-                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full shadow-md backdrop-blur-md transition-all duration-300 cursor-pointer ${
-                          isSelected
-                            ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white"
-                            : isHovered
+                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full shadow-md backdrop-blur-md transition-all duration-300 cursor-pointer ${isSelected
+                          ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white"
+                          : isHovered
                             ? "bg-[#111827] text-white scale-110 shadow-xl border-2"
                             : "bg-white/95 text-slate-800 hover:scale-105 border border-slate-200"
-                        }`}
+                          }`}
                         style={{ borderColor: !isSelected && isHovered ? dotColor : undefined }}
                       >
                         <span
@@ -481,19 +480,18 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
-                      className={`group relative rounded-xl p-3.5 transition-all duration-200 cursor-pointer border ${
-                        isSelected
-                          ? "bg-white border-[#DD5128] shadow-lg ring-2 ring-[#DD5128]/20 -translate-y-0.5"
-                          : isHovered
+                      className={`group relative rounded-xl p-3.5 transition-all duration-200 cursor-pointer border ${isSelected
+                        ? "bg-white-100 border-[#DD5128] shadow-lg ring-2 ring-[#DD5128]/20 -translate-y-0.5"
+                        : isHovered
                           ? "bg-white border-[#DD5128] shadow-md -translate-y-0.5"
                           : "bg-white/80 hover:bg-white border-slate-200/70 shadow-2xs"
-                      }`}
+                        }`}
                     >
                       {/* Left color bar indicator */}
-                      <div
+                      {/* <div
                         className="absolute left-0 top-3 bottom-3 w-1 rounded-r-full transition-all"
                         style={{ backgroundColor: isSelected || isHovered ? "#DD5128" : dotColor }}
-                      />
+                      /> */}
 
                       <div className="pl-2">
                         {/* Top badge if present */}
@@ -631,13 +629,12 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                     >
                       {/* Polygon Centroid Pin Pill */}
                       <div
-                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full shadow-md backdrop-blur-md transition-all duration-300 cursor-pointer ${
-                          isSelected
-                            ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white"
-                            : isHovered
+                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full shadow-md backdrop-blur-md transition-all duration-300 cursor-pointer ${isSelected
+                          ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white"
+                          : isHovered
                             ? "bg-[#111827] text-white scale-110 shadow-xl border-2"
                             : "bg-white/95 text-slate-800 hover:scale-105 border border-slate-200"
-                        }`}
+                          }`}
                         style={{ borderColor: !isSelected && isHovered ? dotColor : undefined }}
                       >
                         <span

@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Header } from "@/components/layout/Header";
 import { FooterVariant } from "@/components/layout/FooterVariant";
 
@@ -20,69 +21,233 @@ interface JournalCard {
   path?: string;
 }
 
-const FILTERS = ["All", "Investors", "Families", "NRI", "Sustainability", "Young Professionals", "Seniors", "Plot Buyers"];
+const FILTERS = [
+  "All",
+  "First Home",
+  "Investment",
+  "Family Living",
+  "Premium",
+  "Gated Community",
+  "Under Construction",
+  "Villas",
+  "Renovation",
+];
 
-function normalizeSegment(segment: string): string {
-  const s = segment.toLowerCase();
-  if (s.includes("investor") || s.includes("wealth")) return "Investors";
-  if (s.includes("famil") || s.includes("legacy")) return "Families";
-  if (s.includes("nri")) return "NRI";
-  if (s.includes("sustain")) return "Sustainability";
-  if (s.includes("young") || s.includes("pro")) return "Young Professionals";
-  if (s.includes("senior")) return "Seniors";
-  if (s.includes("plot")) return "Plot Buyers";
-  return segment;
+const POPULAR_SEARCHES = [
+  "First Home",
+  "Investment",
+  "Family Living",
+  "Premium",
+  "Gated Community",
+  "Under Construction",
+  "Villas",
+  "Renovation",
+];
+
+// Helper to determine category tag badge string
+function getCategoryBadge(journal: JournalCard): { text: string; bg: string; color: string } {
+  const segment = (journal.segment || "").toLowerCase();
+  const tagsStr = (journal.tags || []).join(" ").toLowerCase();
+  const id = journal.id;
+
+  if (segment.includes("nri") || tagsStr.includes("nri") || id === 3 || id === 18) {
+    return { text: "PREMIUM", bg: "bg-white/95", color: "#6B21A8" };
+  }
+  if (segment.includes("investor") || tagsStr.includes("investor") || id === 1 || id === 2 || id === 5 || id === 7) {
+    return { text: "INVESTMENT", bg: "bg-[#FEF0EC]", color: "#DD5128" };
+  }
+  if (segment.includes("young") || segment.includes("first") || tagsStr.includes("first-timer") || id === 14 || id === 15) {
+    return { text: "FIRST HOME", bg: "bg-white/95", color: "#DD5128" };
+  }
+  if (segment.includes("family") || segment.includes("families") || tagsStr.includes("multigenerational") || id === 22 || id === 24) {
+    return { text: "FAMILY LIVING", bg: "bg-white/95", color: "#1D4ED8" };
+  }
+  if (segment.includes("plot") || tagsStr.includes("plot") || id === 4 || id === 9 || id === 12) {
+    return { text: "VILLAS", bg: "bg-white/95", color: "#B45309" };
+  }
+  if (segment.includes("primary") || tagsStr.includes("under construction") || id === 38 || id === 39) {
+    return { text: "UNDER CONSTRUCTION", bg: "bg-white/95", color: "#0369A1" };
+  }
+  if (segment.includes("senior") || tagsStr.includes("downsizing") || id === 29 || id === 30) {
+    return { text: "RENOVATION", bg: "bg-white/95", color: "#7E22CE" };
+  }
+
+  const defaults = [
+    { text: "FIRST HOME", bg: "bg-white/95", color: "#DD5128" },
+    { text: "INVESTMENT", bg: "bg-[#FEF0EC]", color: "#DD5128" },
+    { text: "FAMILY LIVING", bg: "bg-white/95", color: "#1D4ED8" },
+    { text: "LIFESTYLE", bg: "bg-white/95", color: "#047857" },
+    { text: "RENOVATION", bg: "bg-white/95", color: "#7E22CE" },
+    { text: "PREMIUM", bg: "bg-white/95", color: "#6B21A8" },
+  ];
+  return defaults[id % defaults.length];
+}
+
+// Helper to determine location string
+function getLocationName(journal: JournalCard): string {
+  const tagsStr = (journal.tags || []).join(" ").toLowerCase();
+  const subStr = (journal.subtitle || "").toLowerCase();
+
+  if (tagsStr.includes("whitefield") || subStr.includes("whitefield")) return "Whitefield";
+  if (tagsStr.includes("sarjapur") || subStr.includes("sarjapur")) return "Sarjapur Road";
+  if (tagsStr.includes("yelahanka") || subStr.includes("yelahanka")) return "Yelahanka";
+  if (tagsStr.includes("thanisandra") || subStr.includes("thanisandra")) return "Thanisandra";
+  if (tagsStr.includes("koramangala") || subStr.includes("koramangala")) return "Koramangala";
+  if (tagsStr.includes("hebbal") || subStr.includes("hebbal")) return "Hebbal";
+  if (tagsStr.includes("bellandur") || subStr.includes("bellandur")) return "Bellandur";
+  if (tagsStr.includes("jp nagar") || subStr.includes("jp nagar")) return "JP Nagar";
+  if (tagsStr.includes("hsr") || subStr.includes("hsr layout")) return "HSR Layout";
+  if (tagsStr.includes("frazer") || subStr.includes("frazer town")) return "Frazer Town";
+  if (tagsStr.includes("malleshwaram") || subStr.includes("malleshwaram")) return "Malleshwaram";
+  if (tagsStr.includes("basavanagudi") || subStr.includes("basavanagudi")) return "Basavanagudi";
+  if (tagsStr.includes("panathur") || subStr.includes("panathur")) return "Panathur";
+
+  const fallbackLocs = ["Whitefield", "Sarjapur Road", "Yelahanka", "Thanisandra", "Koramangala", "Hebbal", "Bellandur"];
+  return fallbackLocs[journal.id % fallbackLocs.length];
+}
+
+// Helper to get time ago string
+function getTimeAgo(idx: number): string {
+  if (idx === 0) return "New";
+  if (idx === 1) return "New";
+  const times = ["2d ago", "3d ago", "5d ago", "6d ago", "7d ago", "8d ago", "9d ago", "10d ago", "11d ago", "12d ago"];
+  return times[(idx - 2) % times.length];
+}
+
+// Helper to get comments count
+function getCommentsCount(journal: JournalCard): number {
+  const base = [124, 96, 142, 88, 73, 101, 88, 96, 95, 66, 77, 54, 112, 84, 92];
+  return base[journal.id % base.length];
+}
+
+// Helper to format views count
+function getFormattedViews(journal: JournalCard): string {
+  if (journal.views) {
+    if (journal.views >= 1000) {
+      return (journal.views / 1000).toFixed(1) + "K";
+    }
+    return journal.views.toString();
+  }
+  const base = [2.1, 1.8, 3.2, 1.6, 1.3, 2.4, 1.2, 2.0, 1.9, 1.1, 1.5, 0.98];
+  const val = base[journal.id % base.length];
+  return val >= 1 ? `${val}K` : "980";
 }
 
 function matchesFilter(journal: JournalCard, filter: string): boolean {
   if (filter === "All") return true;
-  const normalized = normalizeSegment(journal.segment);
-  return normalized === filter;
+
+  const catBadge = getCategoryBadge(journal).text.toLowerCase();
+  const filterLower = filter.toLowerCase();
+
+  if (catBadge === filterLower) return true;
+
+  const segment = (journal.segment || "").toLowerCase();
+  const tags = (journal.tags || []).map((t) => t.toLowerCase());
+
+  return segment.includes(filterLower) || tags.some((t) => t.includes(filterLower));
 }
 
 export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({ journals }) => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [search, setSearch] = useState("");
+  const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const [visibleCount, setVisibleCount] = useState(9);
+  const [sortBy, setSortBy] = useState("Most Recent");
+
+  const observerRef = useRef<HTMLDivElement | null>(null);
 
   const filtered = useMemo(() => {
     return journals.filter((j) => {
       const matchesSearch =
         !search ||
         j.title.toLowerCase().includes(search.toLowerCase()) ||
-        j.subtitle.toLowerCase().includes(search.toLowerCase());
+        j.subtitle.toLowerCase().includes(search.toLowerCase()) ||
+        getLocationName(j).toLowerCase().includes(search.toLowerCase());
       return matchesFilter(j, activeFilter) && matchesSearch;
     });
   }, [journals, activeFilter, search]);
 
+  const displayedJournals = useMemo(() => {
+    return filtered.slice(0, visibleCount);
+  }, [filtered, visibleCount]);
+
+  // Infinite Scroll / Lazy Load Observer Effect
+  useEffect(() => {
+    if (visibleCount >= filtered.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + 9, filtered.length));
+        }
+      },
+      { rootMargin: "200px" }
+    );
+
+    const currentTarget = observerRef.current;
+    if (currentTarget) {
+      observer.observe(currentTarget);
+    }
+
+    return () => {
+      if (currentTarget) {
+        observer.unobserve(currentTarget);
+      }
+    };
+  }, [visibleCount, filtered.length]);
+
   return (
     <>
       <Header forceSolid />
-      <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased pt-16">
+      <main className="min-h-screen bg-[#FAFAF8] text-[#111821] antialiased pt-20">
 
-        {/* Header Section */}
-        <section className="relative px-4 sm:px-8 py-16 sm:py-20 overflow-hidden">
-          <div className="absolute top-0 right-0 -mr-32 -mt-32 w-[500px] h-[500px] rounded-full pointer-events-none" style={{ background: "rgba(124,58,237,0.04)", filter: "blur(100px)" }} />
-          <div className="absolute bottom-0 left-0 -ml-32 -mb-32 w-[400px] h-[400px] rounded-full pointer-events-none" style={{ background: "rgba(221,81,40,0.04)", filter: "blur(80px)" }} />
+        {/* ── HERO SECTION ──────────────────────────────────────────────── */}
+        <section className="relative px-6 md:px-12 pt-10 pb-6 max-w-[1400px] mx-auto overflow-hidden">
 
-          <div className="relative z-10 max-w-[1400px] mx-auto flex flex-col md:flex-row md:items-end justify-between gap-8">
-            <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-3">
-                <span className="w-12 h-[1px] bg-[#DD5128]" />
-                <span className="text-[11px] font-bold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
-                  Curated Intelligence
-                </span>
-              </div>
-              <h1 className="text-[clamp(32px,5vw,48px)] font-semibold leading-[1.08] tracking-[-0.02em] max-w-2xl" style={{ fontFamily: fd }}>
-                Explore all <span className="italic" style={{ color: "#DD5128" }}>Community Journals</span>
-              </h1>
-              <p className="text-[16px] leading-[1.6] max-w-lg" style={{ fontFamily: fu, color: "#59636F" }}>
-                Real home-buying journeys from Bengaluru. Every journal captures a unique strategy, budget, and life stage.
+          {/* Top Row: Left Header vs Middle Search & Far Right 3D Illustration */}
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 relative z-10">
+
+            {/* Left Header Title & Subtitle */}
+            <div className="flex flex-col gap-1.5 max-w-xl shrink-0">
+              <p
+                className="text-[11px] font-extrabold tracking-[0.16em] uppercase"
+                style={{ fontFamily: fu, color: "#DD5128" }}
+              >
+                COMMUNITY JOURNALS
               </p>
+
+              <h1
+                className="text-[36px] sm:text-[44px] lg:text-[50px] font-bold leading-[1.05] tracking-[-0.03em] text-[#111827]"
+                style={{ fontFamily: fd }}
+              >
+                Explore all<br />
+                <span className="italic font-bold" style={{ color: "#DD5128" }}>
+                  Community
+                </span>{" "}
+                Journals
+              </h1>
+
+              <div className="mt-3 space-y-0.5 text-slate-600 font-inter">
+                <p className="text-[14px] sm:text-[15px] font-medium text-slate-700">
+                  Real stories. Real decisions. From Bengaluru.
+                </p>
+                <p className="text-[14px] sm:text-[15px] font-medium text-slate-700">
+                  Every journal captures a unique journey, challenge, and insight.
+                </p>
+              </div>
             </div>
 
-            <div className="flex flex-col gap-4 w-full md:w-96">
-              <div className="relative">
-                <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {/* Middle Search & Popular Searches Block */}
+            <div className="flex flex-col gap-3.5 w-full lg:w-[480px] xl:w-[540px]">
+
+              {/* White Pill Search Input */}
+              <div className="relative w-full">
+                <svg
+                  className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   <circle cx="11" cy="11" r="8" strokeWidth="2" />
                   <path d="M21 21l-4.35-4.35" strokeWidth="2" strokeLinecap="round" />
                 </svg>
@@ -90,134 +255,300 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                   type="text"
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  placeholder="Search journals..."
-                  className="w-full bg-white border border-slate-200 rounded-xl py-3 pl-12 pr-4 text-[14px] outline-none transition-all focus:border-[#DD5128] focus:ring-2 focus:ring-[#DD5128]/10 placeholder:text-slate-400"
-                  style={{ fontFamily: fu }}
+                  placeholder="Search journals, personas, locations..."
+                  className="w-full bg-white border border-slate-200/90 rounded-2xl py-3.5 pl-11 pr-4 text-[13.5px] outline-none shadow-2xs transition-all focus:border-[#DD5128] focus:ring-2 focus:ring-[#DD5128]/10 placeholder:text-slate-400 font-inter"
                 />
               </div>
-              <div className="flex flex-wrap gap-1.5">
-                {FILTERS.map((filter) => (
+
+              {/* Popular Searches Row */}
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-[12px] font-medium text-slate-500 shrink-0 font-inter">
+                  Popular searches:
+                </span>
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {POPULAR_SEARCHES.map((tag) => (
+                    <button
+                      key={`pop-${tag}`}
+                      onClick={() => {
+                        setActiveFilter(tag);
+                        setSearch("");
+                      }}
+                      className="px-3 py-1 rounded-full text-[11px] font-medium text-slate-700 bg-white border border-slate-200/80 shadow-2xs hover:bg-slate-50 hover:border-slate-300 transition-all cursor-pointer font-inter whitespace-nowrap"
+                    >
+                      {tag}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Far Right 3D Book Illustration with #FAFAF8 Color Blend Filter */}
+            <div className="hidden xl:block shrink-0 w-[220px] h-[200px] relative pointer-events-none bg-[#FAFAF8] overflow-hidden">
+              <Image
+                src="/community-listing-header.png"
+                alt="Community Journals Book"
+                fill
+                className="object-contain mix-blend-multiply opacity-95"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#FAFAF8] via-transparent to-[#FAFAF8]/50 pointer-events-none" />
+            </div>
+          </div>
+
+          {/* ── FILTER BAR SECTION ─────────────────────────────────────────── */}
+          <div className="mt-10 pt-6 border-t border-slate-200/80 flex flex-col md:flex-row md:items-center justify-between gap-4">
+
+            {/* Filter Pills List */}
+            <div className="flex items-center gap-2.5 overflow-x-auto hide-scrollbar pb-1">
+              <button
+                className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200/90 rounded-full text-[12.5px] font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 cursor-pointer shrink-0 font-inter"
+              >
+                <svg className="w-3.5 h-3.5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                Filter
+              </button>
+
+              {FILTERS.map((filter) => {
+                const isActive = activeFilter === filter;
+                return (
                   <button
                     key={filter}
                     onClick={() => setActiveFilter(filter)}
-                    className="px-3 py-1 rounded-full text-[9px] font-bold tracking-[0.1em] uppercase transition-colors cursor-pointer"
-                    style={{
-                      fontFamily: fu,
-                      background: activeFilter === filter ? "#DD5128" : "#FFFFFF",
-                      color: activeFilter === filter ? "#FFFFFF" : "#59636F",
-                      border: activeFilter === filter ? "none" : "1px solid #E2E8F0",
-                    }}
+                    className={`px-4 py-2 rounded-full text-[12.5px] font-medium transition-all cursor-pointer whitespace-nowrap font-inter ${isActive
+                      ? "bg-[#DD5128] text-white shadow-xs"
+                      : "bg-white text-slate-700 border border-slate-200/80 hover:border-slate-300 hover:text-slate-900"
+                      }`}
                   >
                     {filter}
                   </button>
-                ))}
-              </div>
+                );
+              })}
+            </div>
+
+            {/* Right Controls: Sort by Dropdown */}
+            <div className="flex items-center gap-2 shrink-0 self-end md:self-auto">
+              <span className="text-[12.5px] font-medium text-slate-500 font-inter">Sort by:</span>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="bg-white border border-slate-200/90 rounded-full px-3.5 py-2 text-[12.5px] font-semibold text-slate-800 outline-none cursor-pointer font-inter shadow-2xs"
+              >
+                <option value="Most Recent">Most Recent</option>
+                <option value="Most Popular">Most Popular</option>
+                <option value="Views">Highest Views</option>
+              </select>
             </div>
           </div>
         </section>
 
-        {/* Journal Grid */}
-        <section className="px-4 sm:px-8 pb-24 max-w-[1400px] mx-auto w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
-            {filtered.map((journal, idx) => {
-              const stagger = [0, 48, 0, -32, 48, 0, -48, 32];
-              const mt = stagger[idx % stagger.length];
-              const targetHref = journal.path ? (journal.path.startsWith("/") ? journal.path : `/${journal.path}`) : null;
+        {/* ── JOURNALS CARDS GRID ─────────────────────────────────────────── */}
+        <section className="px-6 md:px-12 pb-16 max-w-[1400px] mx-auto w-full">
+          {displayedJournals.length === 0 ? (
+            <div className="py-20 text-center bg-white rounded-3xl border border-slate-200/80 my-6">
+              <p className="text-lg font-semibold text-slate-800 font-serif">No journals found</p>
+              <p className="text-sm text-slate-500 mt-1 font-inter">Try searching for a different keyword or selecting another filter.</p>
+              <button
+                onClick={() => {
+                  setActiveFilter("All");
+                  setSearch("");
+                }}
+                className="mt-4 px-5 py-2 bg-[#DD5128] text-white rounded-full text-xs font-semibold uppercase tracking-wider font-inter cursor-pointer"
+              >
+                Reset Filters
+              </button>
+            </div>
+          ) : (
+            <div
+              className={
+                viewMode === "grid"
+                  ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                  : "flex flex-col gap-4"
+              }
+            >
+              {displayedJournals.map((journal, idx) => {
+                const targetHref = journal.path
+                  ? journal.path.startsWith("/")
+                    ? journal.path
+                    : `/${journal.path}`
+                  : null;
 
-              const cardContent = (
-                <div className="group relative flex flex-col cursor-pointer" style={{ marginTop: mt }}>
-                  {/* Card */}
-                  <div className="relative aspect-[16/9] rounded-lg overflow-hidden transition-transform duration-500 group-hover:-translate-y-2 shadow-xl bg-white">
-                    {/* Spine effect */}
-                    <div className="absolute left-0 top-0 bottom-0 w-6 z-20" style={{ background: "linear-gradient(to right, rgba(0,0,0,0.25), transparent)" }} />
+                const category = getCategoryBadge(journal);
+                const location = getLocationName(journal);
+                const timeAgo = getTimeAgo(idx);
+                const comments = getCommentsCount(journal);
+                const viewsStr = getFormattedViews(journal);
 
-                    {/* Gradient overlay */}
-                    <div className="absolute inset-0 z-10" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 35%, transparent 60%)" }} />
-
-                    {/* Image */}
+                const cardInner = (
+                  <div
+                    className="group relative flex flex-col rounded-[20px] overflow-hidden bg-slate-900 shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer w-full"
+                    style={{ aspectRatio: viewMode === "grid" ? "16 / 11" : "auto" }}
+                  >
+                    {/* Background Cover Image */}
                     <img
                       src={journal.image}
                       alt={journal.title}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
 
-                    {/* Content overlay */}
-                    <div className="absolute inset-0 z-30 p-8 flex flex-col justify-end">
-                      <div className="mb-4 space-y-2">
-                        {journal.segment && (
-                          <span
-                            className="inline-block px-2.5 py-0.5 rounded-md text-[10px] font-bold tracking-[0.1em] uppercase backdrop-blur-md"
-                            style={{ fontFamily: fu, background: "rgba(221,81,40,0.2)", color: "#FF8A65", border: "1px solid rgba(221,81,40,0.3)" }}
-                          >
-                            {journal.segment}
-                          </span>
-                        )}
-                        <h3 className="text-[18px] font-semibold leading-tight text-white" style={{ fontFamily: fd }}>
+                    {/* Dark Vignette Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-black/10 z-10" />
+
+                    {/* Card Content Wrapper */}
+                    <div className={`relative z-20 flex flex-col justify-between h-full p-5 sm:p-6 ${viewMode === "list" ? "min-h-[220px]" : ""}`}>
+
+                      {/* Top Header Row inside Card: Category Tag Pill + Time Badge */}
+                      <div className="flex items-center justify-between w-full">
+                        <span
+                          className={`px-2.5 py-1 rounded-md text-[9.5px] font-extrabold uppercase tracking-wider backdrop-blur-md shadow-xs ${category.bg}`}
+                          style={{ fontFamily: fu, color: category.color }}
+                        >
+                          {category.text}
+                        </span>
+
+                        <span
+                          className="px-2.5 py-0.5 rounded-full bg-black/40 text-white/90 border border-white/20 text-[10.5px] font-semibold backdrop-blur-md"
+                          style={{ fontFamily: fu }}
+                        >
+                          {timeAgo}
+                        </span>
+                      </div>
+
+                      {/* Bottom Content inside Card: Title, Excerpt, Location & Stats */}
+                      <div className="mt-auto pt-6">
+                        <h3
+                          className="text-[19px] sm:text-[21px] font-semibold text-white leading-snug tracking-[-0.01em] group-hover:text-amber-100 transition-colors"
+                          style={{ fontFamily: fd }}
+                        >
                           {journal.title}
                         </h3>
-                        <p className="text-[11px] leading-[1.5] text-white/70 line-clamp-2" style={{ fontFamily: fu }}>
+
+                        <p
+                          className="text-[12px] sm:text-[13px] text-white/80 line-clamp-2 mt-1.5 leading-relaxed"
+                          style={{ fontFamily: fu }}
+                        >
                           {journal.subtitle}
                         </p>
-                      </div>
-                      <div className="flex items-center gap-3 pt-4 border-t border-white/15">
-                        <span className="flex items-center gap-1.5 text-[10px] text-white/50" style={{ fontFamily: fu }}>
-                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" strokeWidth="2"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" strokeWidth="2"/></svg>
-                          {journal.views ? (journal.views / 1000).toFixed(1) + 'k' : ''}
-                        </span>
-                        <span className="flex items-center gap-1.5 text-[10px] text-white/50" style={{ fontFamily: fu }}>
-                          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" strokeWidth="2"/></svg>
-                          {journal.copies || ''}
-                        </span>
+
+                        {/* Bottom Metadata Row: Location + Comments & Views */}
+                        <div className="flex items-center justify-between pt-3.5 mt-3 border-t border-white/15 text-[11px] text-white/90 font-inter">
+                          <div className="flex items-center gap-1.5 font-medium">
+                            <svg className="w-3.5 h-3.5 text-white/80 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                              <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                            <span>{location}</span>
+                          </div>
+
+                          <div className="flex items-center gap-3">
+                            <span className="flex items-center gap-1 opacity-90">
+                              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                              </svg>
+                              {comments}
+                            </span>
+
+                            <span className="flex items-center gap-1 opacity-90">
+                              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="3" strokeWidth="2" />
+                                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                              </svg>
+                              {viewsStr}
+                            </span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+                );
 
-                  {/* Tags below card */}
-                  <div className="mt-4 flex gap-2">
-                    {journal.tags.slice(0, 3).map((tag) => (
-                      <span
-                        key={tag}
-                        className="text-[10px] font-bold tracking-[0.1em] uppercase px-2 py-0.5 rounded-md"
-                        style={{ fontFamily: fu, background: "#E8E0F5", color: "#5B21B6" }}
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              );
+                return targetHref ? (
+                  <Link key={journal.id} href={targetHref} className="block no-underline">
+                    {cardInner}
+                  </Link>
+                ) : (
+                  <React.Fragment key={journal.id}>{cardInner}</React.Fragment>
+                );
+              })}
+            </div>
+          )}
 
-              return targetHref ? (
-                <Link key={journal.id} href={targetHref} className="block no-underline">
-                  {cardContent}
-                </Link>
-              ) : (
-                <React.Fragment key={journal.id}>{cardContent}</React.Fragment>
-              );
-            })}
-          </div>
+          {/* ── LAZY LOADER SENTINEL & COUNTER ───────────────────────────── */}
+          {filtered.length > displayedJournals.length ? (
+            <div ref={observerRef} className="flex flex-col items-center justify-center mt-12 mb-6 gap-2.5 min-h-[80px]">
+              <div className="px-6 py-2.5 bg-white border border-slate-200/90 text-slate-800 text-[13px] font-semibold rounded-full shadow-2xs flex items-center gap-2.5 font-inter">
+                <svg className="w-4 h-4 text-[#DD5128] animate-spin" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
+                  <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                <span>Loading more journals...</span>
+              </div>
+
+              <span className="text-[12px] text-slate-400 font-medium font-inter">
+                Showing 1 – {displayedJournals.length} of {filtered.length} journals
+              </span>
+            </div>
+          ) : (
+            <div className="text-center mt-12 mb-6">
+              <span className="text-[12px] text-slate-400 font-medium font-inter">
+                Showing all {filtered.length} journals
+              </span>
+            </div>
+          )}
         </section>
 
-        {/* CTA Section */}
-        <section className="relative bg-white py-24 px-4 sm:px-8 overflow-hidden border-t border-slate-100">
-          <div className="max-w-[1400px] mx-auto flex flex-col items-center text-center gap-6 relative z-10">
-            <h2 className="text-[clamp(28px,4vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd }}>
-              Didn&apos;t find your Persona?
-            </h2>
-            <p className="text-[16px] leading-[1.6] max-w-xl" style={{ fontFamily: fu, color: "#59636F" }}>
-              Our AI can synthesize a custom Journal based on your unique investment DNA, financial goals, and lifestyle requirements.
-            </p>
+        {/* ── BOTTOM PERSONA CTA BANNER ───────────────────────────────────── */}
+        <section className="px-6 md:px-12 pb-20 max-w-[1400px] mx-auto w-full">
+          <div className="relative rounded-[24px] bg-gradient-to-r from-[#FFF5F2] via-[#FEF0EC] to-[#FFF7F5] border border-[#FDBA74]/40 p-8 sm:p-10 shadow-sm overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6">
+
+            {/* Left Notebook Graphic */}
+            <div className="hidden sm:block shrink-0 w-16 h-16 relative">
+              <Image
+                src="/assets/journal_notebook_icon.png"
+                alt="Notebook Icon"
+                fill
+                className="object-contain"
+              />
+            </div>
+
+            {/* Middle Content Text */}
+            <div className="flex flex-col gap-1 text-center md:text-left flex-1 max-w-xl">
+              <h3
+                className="text-[22px] sm:text-[26px] font-semibold text-[#111827] leading-tight"
+                style={{ fontFamily: fd }}
+              >
+                Didn&apos;t find your Persona?
+              </h3>
+              <p
+                className="text-[13px] sm:text-[14px] text-slate-600 leading-relaxed font-inter"
+              >
+                Our AI can synthesize a custom journal based on your unique investment DNA, lifestyle needs, and location preferences.
+              </p>
+            </div>
+
+            {/* CTA Button */}
             <button
-              className="group flex items-center gap-3 px-8 py-4 rounded-xl text-white font-bold text-[13px] tracking-[0.05em] uppercase transition-all hover:shadow-[0_0_20px_rgba(221,81,40,0.3)] hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-              style={{ background: "#DD5128", fontFamily: fu }}
+              className="px-5 py-3 rounded-xl bg-[#DD5128] hover:bg-[#C8441F] text-white font-medium text-[14px] flex items-center gap-2.5 shadow-2xs hover:shadow-xs transition-all shrink-0 cursor-pointer font-inter"
             >
-              Generate Custom Journal
-              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path d="M13 7l5 5m0 0l-5 5m5-5H6" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+              <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L13.8 8.2L20 10L13.8 11.8L12 18L10.2 11.8L4 10L10.2 8.2L12 2Z" />
+                <path d="M19 14L19.6 16.2L21.8 16.8L19.6 17.4L19 19.6L18.4 17.4L16.2 16.8L18.4 16.2L19 14Z" />
               </svg>
+              <span>Generate your own journal</span>
             </button>
+
+            {/* Right Homebuyers Group Graphic */}
+            <div className="hidden lg:block shrink-0 w-[220px] h-[100px] relative">
+              <Image
+                src="/assets/footer-group-trans.png"
+                alt="Gruha Homebuyers Team"
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
         </section>
+
       </main>
       <FooterVariant />
     </>

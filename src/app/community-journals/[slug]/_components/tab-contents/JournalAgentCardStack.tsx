@@ -190,15 +190,76 @@ export const AgentCardSlider: React.FC<AgentCardSliderProps> = ({
     });
   };
 
+  const prevSlide = () => {
+    if (isAnimating || n <= 1) return;
+    setIsAnimating(true);
+    setActiveIndex((prev) => (prev - 1 + n) % n);
+    setIsAnimating(false);
+  };
+
+  const handlePrevClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    prevSlide();
+  };
+
+  const handleNextClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    nextSlide();
+  };
+
   const fd = "'Newsreader', Georgia, serif";
   const fu = "'Inter Tight', system-ui, sans-serif";
 
   return (
     <div
-      className={`relative flex flex-col items-center justify-center w-full h-full min-h-[410px] p-4 overflow-hidden select-none cursor-pointer ${className}`}
+      className={`group relative flex flex-col items-center justify-center w-full h-full min-h-[410px] p-4 overflow-hidden select-none cursor-pointer ${className}`}
       onClick={nextSlide}
     >
       <div className="relative w-[235px] sm:w-[245px] h-[340px]" ref={containerRef}>
+        {/* Hover Navigation Arrows (Small White Round Buttons) */}
+        {n > 1 && (
+          <>
+            <button
+              type="button"
+              aria-label="Previous card"
+              onClick={handlePrevClick}
+              className="absolute -left-4 sm:-left-5 top-1/2 -translate-y-1/2 z-30 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 shadow-md hover:bg-white text-slate-700 hover:text-slate-900 border border-slate-200/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform hover:scale-110 active:scale-95 cursor-pointer"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </button>
+
+            <button
+              type="button"
+              aria-label="Next card"
+              onClick={handleNextClick}
+              className="absolute -right-4 sm:-right-5 top-1/2 -translate-y-1/2 z-30 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/95 shadow-md hover:bg-white text-slate-700 hover:text-slate-900 border border-slate-200/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform hover:scale-110 active:scale-95 cursor-pointer"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </button>
+          </>
+        )}
         {cardsToRender.map((card, index) => {
           const offset = (index - activeIndex + n) % n;
           const displayNum = offset + 1;

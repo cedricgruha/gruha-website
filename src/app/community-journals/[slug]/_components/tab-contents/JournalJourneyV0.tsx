@@ -445,27 +445,54 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             // Generous bottom margin space (240px offset) ensuring no node card text, badge, or bounce arc gets clipped
             const viewBoxHeight = Math.max(520, maxY + 240);
 
-            // 1. Main sequential connecting path
-            const mainPathD = roadmapNodes.reduce((acc, curr, idx) => {
-              if (idx === 0) return `M ${curr.x} ${curr.y}`;
-              const prev = roadmapNodes[idx - 1];
+            // 1. Main sequential connecting segments with node edge offset and precise arrowheads
+            const mainSegments: Array<{
+              id: string;
+              pathD: string;
+              toNode: RoadmapNode;
+            }> = [];
+
+            const nodeOffset = 32; // Offset from node center to outer icon edge
+
+            for (let i = 1; i < roadmapNodes.length; i++) {
+              const prev = roadmapNodes[i - 1];
+              const curr = roadmapNodes[i];
               const dx = curr.x - prev.x;
               const dy = curr.y - prev.y;
+              const dist = Math.hypot(dx, dy) || 1;
 
-              if (Math.abs(dx) > Math.abs(dy)) {
-                const cx1 = prev.x + dx * 0.5;
-                const cy1 = prev.y;
-                const cx2 = prev.x + dx * 0.5;
-                const cy2 = curr.y;
-                return `${acc} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${curr.x} ${curr.y}`;
+              const ux = dx / dist;
+              const uy = dy / dist;
+
+              const x1 = prev.x + ux * nodeOffset;
+              const y1 = prev.y + uy * nodeOffset;
+              const x2 = curr.x - ux * nodeOffset;
+              const y2 = curr.y - uy * nodeOffset;
+
+              const cdx = x2 - x1;
+              const cdy = y2 - y1;
+
+              let pathD = "";
+              if (Math.abs(cdx) > Math.abs(cdy)) {
+                const cx1 = x1 + cdx * 0.5;
+                const cy1 = y1;
+                const cx2 = x1 + cdx * 0.5;
+                const cy2 = y2;
+                pathD = `M ${x1} ${y1} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${x2} ${y2}`;
               } else {
-                const cx1 = prev.x;
-                const cy1 = prev.y + dy * 0.5;
-                const cx2 = curr.x;
-                const cy2 = prev.y + dy * 0.5;
-                return `${acc} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${curr.x} ${curr.y}`;
+                const cx1 = x1;
+                const cy1 = y1 + cdy * 0.5;
+                const cx2 = x2;
+                const cy2 = y1 + cdy * 0.5;
+                pathD = `M ${x1} ${y1} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${x2} ${y2}`;
               }
-            }, "");
+
+              mainSegments.push({
+                id: `seg-${prev.id}-${curr.id}`,
+                pathD,
+                toNode: curr,
+              });
+            }
 
             // 2. Identify loop & bounce/regression overlay arcs
             const overlayArcs: Array<{
@@ -501,7 +528,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                   const isTopArc = node.y > 300 && targetNode.y > 300;
                   const archY = isTopArc ? Math.min(node.y, targetNode.y) - 130 : Math.max(node.y, targetNode.y) + 120;
                   const midX = (node.x + targetNode.x) / 2;
-                  const bounceD = `M ${node.x} ${node.y - 25} C ${node.x} ${archY}, ${targetNode.x} ${archY}, ${targetNode.x} ${targetNode.y - 25}`;
+                  const bounceD = `M ${node.x} ${node.y - 28} C ${node.x} ${archY}, ${targetNode.x} ${archY}, ${targetNode.x} ${targetNode.y - 28}`;
                   overlayArcs.push({
                     id: `bounce-${node.id}`,
                     type: nodeType,
@@ -526,50 +553,74 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                 >
                   <defs>
                     <marker
-                      id="arrowhead-v0"
-                      markerWidth="7"
-                      markerHeight="7"
-                      refX="5"
-                      refY="3.5"
+                      id="arrowhead-main"
+                      markerUnits="userSpaceOnUse"
+                      markerWidth="12"
+                      markerHeight="12"
+                      refX="16"
+                      refY="6"
                       orient="auto"
                     >
                       <path
-                        d="M 1 1 L 6 3.5 L 1 6"
+                        d="M 2 2 L 8 6 L 2 10"
                         fill="none"
                         stroke="#94A3B8"
-                        strokeWidth="1.8"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </marker>
+                    <marker
+                      id="arrowhead-v0"
+                      markerUnits="userSpaceOnUse"
+                      markerWidth="12"
+                      markerHeight="12"
+                      refX="16"
+                      refY="6"
+                      orient="auto"
+                    >
+                      <path
+                        d="M 2 2 L 8 6 L 2 10"
+                        fill="none"
+                        stroke="#94A3B8"
+                        strokeWidth="1.6"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       />
                     </marker>
                     <marker
                       id="arrowhead-coral"
-                      markerWidth="7"
-                      markerHeight="7"
-                      refX="5"
-                      refY="3.5"
+                      markerUnits="userSpaceOnUse"
+                      markerWidth="12"
+                      markerHeight="12"
+                      refX="16"
+                      refY="6"
                       orient="auto"
                     >
                       <path
-                        d="M 1 1 L 6 3.5 L 1 6"
+                        d="M 2 2 L 8 6 L 2 10"
                         fill="none"
                         stroke="#DD5128"
-                        strokeWidth="2"
+                        strokeWidth="1.8"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       />
                     </marker>
                   </defs>
 
-                  {/* Base Connecting Path */}
-                  <path
-                    d={mainPathD}
-                    fill="none"
-                    stroke="#CBD5E1"
-                    strokeWidth="2.2"
-                    strokeDasharray="6 6"
-                    strokeLinecap="round"
-                  />
+                  {/* Base Connecting Segment Paths with Arrowheads */}
+                  {mainSegments.map((seg) => (
+                    <path
+                      key={seg.id}
+                      d={seg.pathD}
+                      fill="none"
+                      stroke="#CBD5E1"
+                      strokeWidth="2.2"
+                      strokeDasharray="6 6"
+                      strokeLinecap="round"
+                      markerEnd="url(#arrowhead-main)"
+                    />
+                  ))}
 
                   {/* Loop & Bounce Overlay Arcs */}
                   {overlayArcs.map((arc) => {
@@ -600,13 +651,12 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     }}
                   >
                     <span
-                      className={`px-2.5 py-1 rounded-full text-[10px] font-semibold tracking-wide border shadow-xs whitespace-nowrap ${
-                        arc.type === "bounce"
-                          ? "bg-[#FEF0EC] text-[#DD5128] border-[#FDBA74]"
-                          : arc.type === "regression"
+                      className={`px-2.5 py-1 rounded-full text-[10px] font-semibold tracking-wide border shadow-xs whitespace-nowrap ${arc.type === "bounce"
+                        ? "bg-[#FEF0EC] text-[#DD5128] border-[#FDBA74]"
+                        : arc.type === "regression"
                           ? "bg-purple-50 text-purple-700 border-purple-200"
                           : "bg-blue-50 text-blue-700 border-blue-200"
-                      }`}
+                        }`}
                       style={{ fontFamily: fu }}
                     >
                       {arc.label}
@@ -625,12 +675,12 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     nodeType === "bounce"
                       ? "bg-rose-500 text-white"
                       : nodeType === "regression"
-                      ? "bg-purple-600 text-white"
-                      : nodeType === "detour"
-                      ? "bg-amber-500 text-white"
-                      : nodeType === "loop"
-                      ? "bg-blue-600 text-white"
-                      : null;
+                        ? "bg-purple-600 text-white"
+                        : nodeType === "detour"
+                          ? "bg-amber-500 text-white"
+                          : nodeType === "loop"
+                            ? "bg-blue-600 text-white"
+                            : null;
 
                   return (
                     <div

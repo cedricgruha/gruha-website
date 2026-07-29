@@ -127,7 +127,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_220px] gap-8 items-start">
         {/* Left Column: Projects Carousel & Cards */}
         <div className="min-w-0">
           <div className="flex items-center justify-between mb-4">
