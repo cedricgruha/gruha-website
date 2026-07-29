@@ -117,7 +117,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
                       <span className="text-[11px] font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
                         {String(i + 1).padStart(2, "0")}
                       </span>
-                      <span className="text-[13.5px] leading-[1.45]" style={{ fontFamily: fu, color: "#374151" }}>
+                      <span className="text-[14.5px] leading-[1.45]" style={{ fontFamily: fu, color: "#374151" }}>
                         {text}
                       </span>
                     </div>

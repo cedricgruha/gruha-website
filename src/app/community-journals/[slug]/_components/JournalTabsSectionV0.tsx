@@ -42,11 +42,11 @@ function TabNav({
       ref={navRef}
       className="z-40 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs"
     >
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-8">
-        <nav className="flex items-center justify-start gap-1 overflow-x-hidden overflow-y-hidden">
-          {/* Brand Logo & Title (Reveals on the left when navbar sticks to the top) */}
+      <div className="max-w-[1400px] mx-auto px-3 sm:px-8">
+        <nav className="flex items-center justify-start gap-0.5 sm:gap-1 overflow-x-auto overflow-y-hidden scrollbar-hide" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
+          {/* Brand Logo & Title (Reveals on the left when navbar sticks — hidden on mobile) */}
           <div
-            className="flex items-center gap-2.5 shrink-0 transition-all ease-out overflow-hidden"
+            className="hidden sm:flex items-center gap-2.5 shrink-0 transition-all ease-out overflow-hidden"
             style={{
               maxWidth: showBrand ? 240 : 0,
               opacity: showBrand ? 1 : 0,
@@ -75,16 +75,16 @@ function TabNav({
                 type="button"
                 key={tab}
                 onClick={() => onTabClick(tab)}
-                className="relative shrink-0 px-4 py-6 transition-colors cursor-pointer"
+                className="relative shrink-0 px-2.5 sm:px-4 py-4 sm:py-6 transition-colors cursor-pointer"
               >
                 <span
-                  className="text-[13.5px] font-semibold tracking-tight"
+                  className="text-[12px] sm:text-[13.5px] font-semibold tracking-tight whitespace-nowrap"
                   style={{ fontFamily: fu, color: isActive ? "#111821" : "#8A94A1" }}
                 >
                   {tab}
                 </span>
                 <span
-                  className="absolute left-4 right-4 -bottom-px h-[2px] rounded-full transition-opacity"
+                  className="absolute left-2.5 right-2.5 sm:left-4 sm:right-4 -bottom-px h-[2px] rounded-full transition-opacity"
                   style={{ background: "#DD5128", opacity: isActive ? 1 : 0 }}
                 />
               </button>

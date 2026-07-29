@@ -206,13 +206,7 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
 
           {/* Top Row: Left Header vs Middle Search & Far Right 3D Illustration */}
           <div
-            className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 relative z-10"
-            style={{
-              backgroundImage: "url('/community-listing-header.png')",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "right center",
-              backgroundSize: "contain",
-            }}
+            className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 relative z-10 bg-none lg:bg-[url('/community-listing-header.png')] bg-no-repeat bg-[position:right_center] bg-contain"
           >
 
             {/* Left Header Title & Subtitle */}

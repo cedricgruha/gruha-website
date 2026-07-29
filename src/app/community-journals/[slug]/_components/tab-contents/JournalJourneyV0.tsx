@@ -542,7 +542,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 
             return (
               <div
-                className="hidden md:block relative w-full py-10 my-4"
+                className="hidden md:block relative w-full py-10 my-4 "
                 style={{ aspectRatio: `1000 / ${viewBoxHeight}` }}
               >
                 <svg
