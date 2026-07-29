@@ -40,7 +40,7 @@ function TabNav({
   return (
     <div
       ref={navRef}
-      className="z-20 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs"
+      className="z-40 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs"
     >
       <div className="max-w-[1400px] mx-auto px-4 sm:px-8">
         <nav className="flex items-center justify-start gap-1 overflow-x-hidden overflow-y-hidden">
@@ -102,6 +102,8 @@ export interface JournalTabsSectionV0Props {
   heroImgWrapRef?: RefObject<HTMLDivElement | null>;
   heroImage?: any;
   title?: string;
+  heroContent?: React.ReactNode;
+  sidebar?: React.ReactNode;
 }
 
 export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
@@ -109,6 +111,8 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   heroImgWrapRef,
   heroImage,
   title,
+  heroContent,
+  sidebar,
 }) => {
   const [activeTab, setActiveTab] = useState("Profile");
   const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
@@ -126,7 +130,8 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   useEffect(() => {
     const observers: IntersectionObserver[] = [];
     tabs.forEach((tab) => {
-      const el = sectionRefs.current[tab];
+      const targetId = `section-${tab.toLowerCase().replace(/\s+/g, "-")}`;
+      const el = sectionRefs.current[tab] || document.getElementById(targetId);
       if (!el) return;
       const observer = new IntersectionObserver(
         ([entry]) => {
@@ -172,64 +177,85 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
 
   return (
     <>
-      {/* Full Screenwidth Sticky TabNav Bar */}
-      <TabNav
-        active={activeTab}
-        showBrand={showNavBrand}
-        navRef={tabNavRef}
-        onTabClick={handleTabClick}
-        heroImage={heroImage}
-        title={title}
-      />
+      {/* Content Sections Container */}
+      <div ref={contentRef} id="journal-content" className="w-full min-w-0">
 
-      {/* Content Sections */}
-      <div ref={contentRef} id="journal-content" className="w-full min-w-0 pt-8 space-y-12">
-        {/* Profile Section */}
-        <div
-          ref={(el) => {
-            sectionRefs.current["Profile"] = el;
-          }}
-        >
-          <JournalProfileV0 {...tabsMap["profile"]} />
+        {/* 2-Column Grid: Hero + Main 5 Tabs on Left, Sticky Sidebar on Right */}
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_288px] gap-10">
+
+          {/* Left Column: Hero Content + Main 5 Tabs */}
+          <div className="min-w-0">
+            {heroContent}
+
+            {/* Full Screenwidth Sticky TabNav Bar */}
+            <TabNav
+              active={activeTab}
+              showBrand={showNavBrand}
+              navRef={tabNavRef}
+              onTabClick={handleTabClick}
+              heroImage={heroImage}
+              title={title}
+            />
+
+            <div className="pt-8 space-y-12">
+              {/* Profile Section */}
+              <div
+                ref={(el) => {
+                  sectionRefs.current["Profile"] = el;
+                }}
+              >
+                <JournalProfileV0 {...tabsMap["profile"]} />
+              </div>
+
+              {/* Journey Section */}
+              <div
+                ref={(el) => {
+                  sectionRefs.current["Journey"] = el;
+                }}
+              >
+                <JournalJourneyV0 {...tabsMap["journey"]} />
+              </div>
+
+              {/* Search Section */}
+              <div
+                ref={(el) => {
+                  sectionRefs.current["Search"] = el;
+                }}
+              >
+                <JournalSearchV0 {...tabsMap["search"]} />
+              </div>
+
+              {/* Projects Section */}
+              <div
+                ref={(el) => {
+                  sectionRefs.current["Projects"] = el;
+                }}
+              >
+                <JournalProjectsV0 {...tabsMap["projects"]} />
+              </div>
+
+              {/* Learnings Section */}
+              <div
+                ref={(el) => {
+                  sectionRefs.current["Learnings"] = el;
+                }}
+              >
+                <JournalLearningsV0 {...tabsMap["learnings"]} />
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column: Sticky Sidebar - Starts at Hero, Stops at end of Learnings (just before Start Here) */}
+          {sidebar && (
+            <div className="hidden lg:block h-full pt-10">
+              <div className="sticky top-20 z-40">
+                {sidebar}
+              </div>
+            </div>
+          )}
         </div>
 
-        {/* Journey Section */}
-        <div
-          ref={(el) => {
-            sectionRefs.current["Journey"] = el;
-          }}
-        >
-          <JournalJourneyV0 {...tabsMap["journey"]} />
-        </div>
-
-        {/* Search Section */}
-        <div
-          ref={(el) => {
-            sectionRefs.current["Search"] = el;
-          }}
-        >
-          <JournalSearchV0 {...tabsMap["search"]} />
-        </div>
-
-        {/* Projects Section */}
-        <div
-          ref={(el) => {
-            sectionRefs.current["Projects"] = el;
-          }}
-        >
-          <JournalProjectsV0 {...tabsMap["projects"]} />
-        </div>
-
-        {/* Learnings Section */}
-        <div
-          ref={(el) => {
-            sectionRefs.current["Learnings"] = el;
-          }}
-        >
-          <JournalLearningsV0 {...tabsMap["learnings"]} />
-        </div>
-
-        {/* Start Here Section */}
+        {/* Final Tab Section (Start Here) - Rendered outside 2-column grid */}
         <div
           ref={(el) => {
             sectionRefs.current["Start here"] = el;
@@ -237,6 +263,7 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
         >
           <JournalStartHereV0 {...tabsMap["start-here"] || tabsMap["startHere"]} />
         </div>
+
       </div>
     </>
   );

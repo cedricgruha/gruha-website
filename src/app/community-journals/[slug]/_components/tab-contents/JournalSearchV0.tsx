@@ -414,25 +414,36 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
                     >
+                      {/* Polygon Centroid Pin Pill */}
                       <div
-                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full shadow-md backdrop-blur-md transition-all duration-300 cursor-pointer ${isSelected
-                          ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white"
-                          : isHovered
-                            ? "bg-[#111827] text-white scale-110 shadow-xl border-2"
-                            : "bg-white/95 text-slate-800 hover:scale-105 border border-slate-200"
-                          }`}
+                        className={`flex items-center justify-center rounded-full shadow-md backdrop-blur-md transition-all duration-300 ease-in-out cursor-pointer border overflow-hidden ${
+                          isSelected
+                            ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white w-8 h-8 p-0 aspect-square"
+                            : isHovered
+                              ? "bg-[#111827] text-white scale-110 shadow-xl border-2 w-8 h-8 p-0 aspect-square"
+                              : "bg-white/95 text-slate-800 hover:scale-105 border-slate-200 w-auto h-8 px-3 py-1.5 gap-2"
+                        }`}
                         style={{ borderColor: !isSelected && isHovered ? dotColor : undefined }}
                       >
                         <span
                           className="w-2.5 h-2.5 rounded-full flex-none animate-pulse"
                           style={{ backgroundColor: isSelected ? "#FFFFFF" : dotColor }}
                         />
-                        <span className="text-[12px] font-semibold font-inter whitespace-nowrap">
-                          {areaName}
-                        </span>
-                        <span className="text-[10px] font-medium opacity-80 font-inter">
-                          ({projectsCount})
-                        </span>
+
+                        <div
+                          className={`flex items-center gap-1 transition-all duration-300 ease-in-out overflow-hidden whitespace-nowrap ${
+                            isHovered || isSelected
+                              ? "max-w-0 opacity-0 pointer-events-none"
+                              : "max-w-[220px] opacity-100"
+                          }`}
+                        >
+                          <span className="text-[12px] font-semibold font-inter">
+                            {areaName}
+                          </span>
+                          <span className="text-[10px] font-medium opacity-80 font-inter">
+                            ({projectsCount})
+                          </span>
+                        </div>
                       </div>
                     </div>
                   );
@@ -629,24 +640,34 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                     >
                       {/* Polygon Centroid Pin Pill */}
                       <div
-                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full shadow-md backdrop-blur-md transition-all duration-300 cursor-pointer ${isSelected
-                          ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white"
-                          : isHovered
-                            ? "bg-[#111827] text-white scale-110 shadow-xl border-2"
-                            : "bg-white/95 text-slate-800 hover:scale-105 border border-slate-200"
-                          }`}
+                        className={`flex items-center justify-center rounded-full shadow-md backdrop-blur-md transition-all duration-300 ease-in-out cursor-pointer border overflow-hidden ${
+                          isSelected
+                            ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white w-8 h-8 p-0 aspect-square"
+                            : isHovered
+                              ? "bg-[#111827] text-white scale-110 shadow-xl border-2 w-8 h-8 p-0 aspect-square"
+                              : "bg-white/95 text-slate-800 hover:scale-105 border-slate-200 w-auto h-8 px-3 py-1.5 gap-2"
+                        }`}
                         style={{ borderColor: !isSelected && isHovered ? dotColor : undefined }}
                       >
                         <span
                           className="w-2.5 h-2.5 rounded-full flex-none animate-pulse"
                           style={{ backgroundColor: isSelected ? "#FFFFFF" : dotColor }}
                         />
-                        <span className="text-[12px] font-semibold font-inter whitespace-nowrap">
-                          {areaName}
-                        </span>
-                        <span className="text-[10px] font-medium opacity-80 font-inter">
-                          ({projectsCount})
-                        </span>
+
+                        <div
+                          className={`flex items-center gap-1 transition-all duration-300 ease-in-out overflow-hidden whitespace-nowrap ${
+                            isHovered || isSelected
+                              ? "max-w-0 opacity-0 pointer-events-none"
+                              : "max-w-[220px] opacity-100"
+                          }`}
+                        >
+                          <span className="text-[12px] font-semibold font-inter">
+                            {areaName}
+                          </span>
+                          <span className="text-[10px] font-medium opacity-80 font-inter">
+                            ({projectsCount})
+                          </span>
+                        </div>
                       </div>
 
                       {/* Floating Callout Card on Hover/Selection */}

@@ -72,29 +72,22 @@ export default async function JournalSlugPageV0({
                 {/* -- 1. Full Screenwidth White Background Layer for Hero ------- */}
                 <div className="absolute top-0 left-0 right-0 h-[560px] bg-white border-b border-slate-200 pointer-events-none z-0" />
 
-                {/* -- 2. Page-Level 2-Column Grid (Spans Hero + Tabs) ---------- */}
-                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 grid grid-cols-1 lg:grid-cols-[1fr_288px] gap-10">
-                    {/* Left Column: Hero Content + Tabs Sections */}
-                    <div className="min-w-0">
-                        <JournalHeroV0
-                            title={article.title}
-                            description={article.description}
-                            learnings={article.learnings}
-                            heroImage={(article as any)?.heroImage || (article as any)?.image}
-                        />
-                        <JournalTabsSectionV0
-                            tabsData={journalData.tabs}
-                            heroImage={(article as any)?.heroImage}
-                            title={article?.title}
-                        />
-                    </div>
-
-                    {/* Right Column: THE ONLY STICKY CTA CARD ON THE ENTIRE PAGE */}
-                    <div className="hidden lg:block h-full pt-10">
-                        <div className="sticky top-20 z-40">
-                            <JournalSidebarCtaCardV0 />
-                        </div>
-                    </div>
+                {/* -- 2. Page Container ---------- */}
+                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8">
+                    <JournalTabsSectionV0
+                        tabsData={journalData.tabs}
+                        heroImage={(article as any)?.heroImage}
+                        title={article?.title}
+                        heroContent={
+                            <JournalHeroV0
+                                title={article.title}
+                                description={article.description}
+                                learnings={article.learnings}
+                                heroImage={(article as any)?.heroImage || (article as any)?.image}
+                            />
+                        }
+                        sidebar={<JournalSidebarCtaCardV0 />}
+                    />
                 </div>
             </main>
 
