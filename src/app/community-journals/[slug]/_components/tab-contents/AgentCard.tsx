@@ -1,4 +1,5 @@
 import React, { useState, useRef, useLayoutEffect } from 'react';
+import Image from 'next/image';
 import gsap from 'gsap';
 import { ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 
@@ -171,7 +172,7 @@ const ExactCardSlider: React.FC = () => {
                                 <div className="absolute inset-0 bg-white/20 blur-xl rounded-full scale-110" />
                                 <div className="relative w-44 h-44 rounded-full border-4 border-white/30 p-1">
                                     <div className="w-full h-full rounded-full overflow-hidden bg-slate-800 shadow-inner">
-                                        <img src={card.image} alt={card.name} className="w-full h-full object-cover" />
+                                        <Image src={card.image} alt={card.name} width={176} height={176} className="w-full h-full object-cover" />
                                     </div>
                                 </div>
                             </div>

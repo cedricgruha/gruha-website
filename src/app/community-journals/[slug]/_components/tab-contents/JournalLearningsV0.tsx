@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import * as Icons from "lucide-react";
 import imgClosure1 from "@/imports/1-1.png";
 import imgClosure2 from "@/imports/2-1.png";
@@ -290,8 +291,8 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
 
       {/* Closure cards */}
       <div className="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-4">
-        {displayLessons.slice(0, 3).map(({ img, imageSrc, title: cardTitle, body, description: desc }: any) => {
-          const imgSrc = getImgSrc(img || imageSrc || imgClosure1);
+        {displayLessons.slice(0, 3).map(({ img, imageSrc, title: cardTitle, body, description: desc }: any, idx: number) => {
+          const cardImg = img || imageSrc || (idx === 0 ? imgClosure1 : idx === 1 ? imgClosure2 : imgClosure3);
           const displayBody = body || desc || "";
           return (
             <div
@@ -299,8 +300,8 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               className="bg-white border overflow-hidden flex flex-col"
               style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
             >
-              <div className="h-[180px] overflow-hidden bg-slate-50 flex items-center justify-center p-4">
-                <img src={imgSrc} alt={cardTitle} className="w-full h-full object-contain rounded-lg" />
+              <div className="h-[180px] overflow-hidden bg-slate-50 flex items-center justify-center p-4 relative">
+                <Image src={cardImg} alt={cardTitle} fill className="object-contain rounded-lg p-4" />
               </div>
               <div className="px-6 py-5">
                 <h4 className="text-[19px] leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>

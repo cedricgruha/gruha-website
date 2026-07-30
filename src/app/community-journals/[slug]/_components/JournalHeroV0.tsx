@@ -1,6 +1,7 @@
 "use client";
 
 import React, { type RefObject } from "react";
+import Image from "next/image";
 import * as Icons from "lucide-react";
 import imgHero from "@/imports/testy.jpg";
 
@@ -84,10 +85,12 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
       <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-8 pt-0 md:pt-8 bg-white">
         {/* Col 1 — Hero Image (Widescreen Landscape) */}
         <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-[10/16] max-h-[350px] border border-slate-200/80 shadow-md w-full max-w-[460px] mx-auto sm:mx-0 flex-none">
-          <img
-            src={getImgSrc(displayHeroImage)}
+          <Image
+            src={displayHeroImage}
             alt={displayTitle.replace("\n", " ")}
-            className="absolute inset-0 w-full h-full object-cover object-center"
+            fill
+            className="object-cover object-center"
+            priority
           />
         </div>
 

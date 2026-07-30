@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import * as Icons from "lucide-react";
 import imgProj1 from "@/imports/image-1.png";
@@ -169,7 +170,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
               const projPrice = proj.price || proj.priceRange || "₹1.31–2.9 Cr";
               const projPossession = proj.possession || proj.status || "2029";
               const projPsf = proj.psf || proj.sqftRate || "₹11,950–12,500/sqft";
-              const projImg = getImgSrc(proj.img || proj.image || proj.imageSrc || imgProj1);
+              const projImgSrc = proj.img || proj.image || proj.imageSrc || imgProj1;
 
               return (
                 <div
@@ -178,7 +179,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                 >
                   {/* Card Image */}
                   <div className="h-52 relative bg-slate-100 overflow-hidden">
-                    <img src={projImg} alt={projName} className="w-full h-full object-cover" />
+                    <Image src={projImgSrc} alt={projName} fill className="object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     {proj.isOverlay && (
                       <div className="absolute inset-0 bg-black/65 backdrop-blur-[2px] flex flex-col items-center justify-center text-center p-4">

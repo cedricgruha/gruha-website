@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import imgRiya from "@/imports/signal-2026-07-23-17-18-39-504.jpg";
 
 const fd = "'Newsreader', Georgia, serif";
@@ -91,9 +92,11 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
               className="relative w-16 h-16 rounded-full overflow-hidden"
               style={{ border: "2px solid rgba(255,255,255,0.2)", padding: 2, background: "#111827" }}
             >
-              <img
-                src={getImgSrc(characterImage)}
+              <Image
+                src={characterImage || imgRiya}
                 alt="Riya"
+                width={64}
+                height={64}
                 className="w-full h-full object-cover object-top rounded-full"
               />
             </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import Image from "next/image";
 import * as Icons from "lucide-react";
 import imgSearchMap from "@/imports/Container.png";
 
@@ -312,8 +313,8 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                   </div>
 
                   {areaImage && (
-                    <div className="mt-3.5 h-[110px] rounded-xl overflow-hidden border border-slate-100 shadow-2xs">
-                      <img src={areaImage} alt={areaName} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <div className="mt-3.5 h-[110px] rounded-xl overflow-hidden border border-slate-100 shadow-2xs relative">
+                      <Image src={area.image || area.imageSrc || searchMapImage} alt={areaName} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                     </div>
                   )}
 
@@ -668,8 +669,8 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       {isHovered && (
                         <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-[220px] rounded-xl bg-white p-3 shadow-2xl border border-slate-100 z-40 animate-fadeIn pointer-events-none">
                           {areaImage && (
-                            <div className="h-[75px] rounded-lg overflow-hidden mb-2">
-                              <img src={areaImage} alt={areaName} className="w-full h-full object-cover" />
+                            <div className="h-[75px] rounded-lg overflow-hidden mb-2 relative">
+                              <Image src={area.image || area.imageSrc || searchMapImage} alt={areaName} fill className="object-cover" />
                             </div>
                           )}
                           <p className="text-[13px] font-semibold text-slate-900 leading-tight font-inter">

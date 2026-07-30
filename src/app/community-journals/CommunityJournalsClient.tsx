@@ -318,10 +318,11 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                     style={{ aspectRatio: viewMode === "grid" ? "16 / 14" : "auto" }}
                   >
                     {/* Background Cover Image */}
-                    <img
+                    <Image
                       src={journal.image}
                       alt={journal.title}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
                     />
 
                     {/* Dark Vignette Gradient Overlay */}

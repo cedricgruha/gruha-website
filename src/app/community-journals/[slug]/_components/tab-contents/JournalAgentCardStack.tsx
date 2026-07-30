@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useLayoutEffect } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import imgRiya from "@/imports/signal-2026-07-23-17-18-39-504.jpg";
 import imgKabir from "@/imports/signal-2026-07-23-17-32-02-937_005.jpg";
@@ -304,9 +305,11 @@ export const AgentCardSlider: React.FC<AgentCardSliderProps> = ({
                     boxShadow: "0 8px 24px rgba(0,0,0,0.2)",
                   }}
                 >
-                  <img
+                  <Image
                     src={card.image}
                     alt={card.name}
+                    width={100}
+                    height={100}
                     className="w-full h-full object-cover object-top"
                   />
                 </div>

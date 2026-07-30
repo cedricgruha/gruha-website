@@ -735,7 +735,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {moments.slice(0, 3).map((m: any, idx: number) => {
-                const imgSrc = getImgSrc(m.imageSrc || (idx === 0 ? imgMoment1 : idx === 1 ? imgMoment2 : imgMoment3));
+                const momentImg = m.imageSrc || (idx === 0 ? imgMoment1 : idx === 1 ? imgMoment2 : imgMoment3);
                 const bodyText = m.desc || m.description || "";
 
                 return (
@@ -744,8 +744,8 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     className="bg-white border overflow-hidden flex flex-col"
                     style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
                   >
-                    <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60">
-                      <img src={imgSrc} alt={m.title} className="w-full h-auto object-contain rounded-lg" />
+                    <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
+                      <Image src={momentImg} alt={m.title} fill className="object-contain rounded-lg p-5" />
                     </div>
                     <div className="px-6 py-5">
                       <p className="text-[11px] font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>

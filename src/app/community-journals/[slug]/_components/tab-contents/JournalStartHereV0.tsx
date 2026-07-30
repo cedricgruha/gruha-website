@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import * as Icons from "lucide-react";
 import imgStartHere1 from "@/imports/start-here-1.png";
 import imgStartHere2 from "@/imports/start-here-2.png";
@@ -129,7 +130,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
             {steps.map((step, idx) => {
               const displayNum = step.num || `0${idx + 1}`;
               const displayBody = step.body || step.description || "";
-              const imgSrc = getImgSrc(step.img || step.imageSrc || (idx === 0 ? imgStartHere1 : idx === 1 ? imgStartHere2 : idx === 2 ? imgStartHere3 : imgStartHere4));
+              const stepImg = step.img || step.imageSrc || (idx === 0 ? imgStartHere1 : idx === 1 ? imgStartHere2 : idx === 2 ? imgStartHere3 : imgStartHere4);
               const isHighlight = step.highlight || idx === 1;
 
               return (
@@ -145,8 +146,8 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                     background: isHighlight ? "linear-gradient(135deg, #F8F6FE 0%, #FFFFFF 100%)" : undefined,
                   }}
                 >
-                  <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60">
-                    <img src={imgSrc} alt={step.title} className="w-full h-auto object-contain rounded-lg" />
+                  <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
+                    <Image src={stepImg} alt={step.title} fill className="object-contain rounded-lg p-5" />
                   </div>
                   <div className="px-6 py-5">
                     <p className="text-[11px] font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
@@ -214,7 +215,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                 className="rounded-full overflow-hidden flex-none relative z-10"
                 style={{ width: 140, height: 140, border: "3px solid rgba(255,255,255,0.2)", boxShadow: "0 12px 32px rgba(0,0,0,0.3)" }}
               >
-                <img src={getImgSrc(imgRiya)} alt="Riya" className="w-full h-full object-cover object-top" />
+                <Image src={ctaCharacterImage || imgRiya} alt="Riya" width={140} height={140} className="w-full h-full object-cover object-top" />
               </div>
               {/* Green indicator */}
               <div className="absolute z-20" style={{ bottom: "22%", right: "28%", width: 20, height: 20, background: "#4ADE80", border: "4px solid #111827", borderRadius: "50%" }} />

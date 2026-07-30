@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import * as Icons from "lucide-react";
 import imgPavan from "@/imports/signal-2026-07-23-12-45-03-735_003.jpg";
 import imgShruti from "@/imports/signal-2026-07-23-12-45-03-735_002.jpg";
@@ -153,7 +154,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
       {/* Personas & Shared Vision */}
       {(() => {
         const renderPersonaCard = (p: any, idx: number) => {
-          const imgSrc = getImgSrc(p.image || p.img || (idx === 0 ? imgPavan : imgShruti));
+          const personaImg = p.image || p.img || (idx === 0 ? imgPavan : imgShruti);
           const displayDesc = p.description || (Array.isArray(p.tags) ? p.tags.join(", ") : p.tags) || "";
 
           return (
@@ -167,10 +168,11 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
               }}
             >
               <div className="w-[135px] h-[145px] sm:w-[150px] sm:h-[155px] rounded-2xl overflow-hidden flex-none bg-[#F7ECE1] relative">
-                <img
-                  src={imgSrc}
+                <Image
+                  src={personaImg}
                   alt={p.name}
-                  className="w-full h-full object-cover object-center"
+                  fill
+                  className="object-cover object-center"
                 />
               </div>
               <div className="flex-1 flex flex-col justify-center min-w-0">

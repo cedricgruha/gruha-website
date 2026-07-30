@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect, type RefObject } from "react";
+import Image from "next/image";
 import JournalProfileV0 from "./tab-contents/JournalProfileV0";
 import JournalJourneyV0 from "./tab-contents/JournalJourneyV0";
 import JournalSearchV0 from "./tab-contents/JournalSearchV0";
@@ -55,9 +56,11 @@ function TabNav({
               transitionDuration: showBrand ? "500ms" : "600ms",
             }}
           >
-            <img
-              src={getImgSrc(heroImage || imgHero)}
+            <Image
+              src={heroImage || imgHero}
               alt="Journal logo"
+              width={40}
+              height={40}
               className="w-10 h-10 rounded-lg object-cover flex-none border border-slate-100 shadow-xs"
             />
             <span
