@@ -70,12 +70,12 @@ export default async function JournalSlugPageV0({
             />
 
             <Header forceSolid />
-            <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased relative pt-16 pb-16 lg:pb-0">
+            <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased relative pt-16 pb-8 lg:pb-8">
                 {/* -- 1. Full Screenwidth White Background Layer for Hero ------- */}
-                <div className="absolute top-0 left-0 right-0 h-[560px] bg-white border-b border-slate-200 pointer-events-none z-0" />
+                <div className="absolute top-0 left-0 right-0 h-[860px] md:h-[720px] lg:h-[560px] bg-white border-b border-slate-200 pointer-events-none z-0" />
 
                 {/* -- 2. Page Container ---------- */}
-                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 bg-white">
+                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 ">
                     <JournalTabsSectionV0
                         tabsData={journalData.tabs}
                         heroImage={(article as any)?.heroImage}

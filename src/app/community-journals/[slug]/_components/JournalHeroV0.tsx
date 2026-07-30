@@ -125,28 +125,6 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
                 })}
               </div>
             </div>
-
-            {/* <div className="flex flex-col items-start gap-3">
-              <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-3 invisible hidden sm:block" aria-hidden="true">
-                Spacer
-              </p>
-              <button
-                type="button"
-                onClick={onStartJournal}
-                className="w-full sm:w-auto px-6 py-3 text-[14px] font-semibold rounded-xl text-white transition-all duration-200 hover:opacity-90 active:scale-[0.98] cursor-pointer"
-                style={{ background: "#DD5128", fontFamily: fu }}
-              >
-                {startJournalText}
-              </button>
-              <button
-                type="button"
-                onClick={onAdaptJournal}
-                className="w-full sm:w-auto px-6 py-3 text-[14px] font-semibold rounded-xl border transition-colors hover:bg-slate-50 active:scale-[0.98] cursor-pointer"
-                style={{ borderColor: "#E4E9EF", fontFamily: fu, color: "#111821" }}
-              >
-                {adaptJournalText}
-              </button>
-            </div> */}
           </div>
         </div>
       </div>

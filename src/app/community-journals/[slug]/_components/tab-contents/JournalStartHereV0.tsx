@@ -105,7 +105,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
           <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {checklistTitle}
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-8 gap-y-4">
             {displayChecklist.map((item: any, i: number) => {
               const text = typeof item === "string" ? item : (item?.title || item?.text || item?.desc || "");
               return (

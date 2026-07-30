@@ -315,7 +315,7 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                 const cardInner = (
                   <div
                     className="group relative flex flex-col rounded-[20px] overflow-hidden bg-slate-900 shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer w-full"
-                    style={{ aspectRatio: viewMode === "grid" ? "16 / 11" : "auto" }}
+                    style={{ aspectRatio: viewMode === "grid" ? "16 / 14" : "auto" }}
                   >
                     {/* Background Cover Image */}
                     <img
