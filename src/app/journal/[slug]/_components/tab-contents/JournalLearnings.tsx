@@ -138,10 +138,10 @@ export const JournalLearnings: React.FC<JournalLearningsProps> = ({
                   <Icon className="w-[17.45px] h-[17.45px] stroke-[1.5]" />
                 </div>
                 <div className="flex flex-col justify-center items-start gap-1 min-w-0 flex-1 font-inter">
-                  <span className="text-[10px] font-medium leading-[14px] tracking-[1px] text-[#4B5563] uppercase truncate w-full">
+                  <span className="text-[10px] font-medium leading-[14px] tracking-[1px] text-[#4B5563] uppercase  w-full">
                     {stat.label}
                   </span>
-                  <span className="text-[14px] font-medium leading-[20px] text-[#1F2937] truncate w-full">
+                  <span className="text-[14px] font-medium leading-[20px] text-[#1F2937]  w-full">
                     {stat.value}
                   </span>
                 </div>

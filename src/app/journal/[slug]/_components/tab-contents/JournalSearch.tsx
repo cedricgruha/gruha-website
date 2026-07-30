@@ -92,10 +92,10 @@ export const JournalSearch: React.FC<JournalSearchProps> = ({
                   <Icon className="w-[18px] h-[18px] stroke-[1.75]" />
                 </div>
                 <div className="flex flex-col gap-[2px] overflow-hidden text-left font-inter">
-                  <span className="text-[10px] leading-[14px] font-medium tracking-[1px] uppercase text-[#4B5563] truncate">
+                  <span className="text-[10px] leading-[14px] font-medium tracking-[1px] uppercase text-[#4B5563] ">
                     {item.label}
                   </span>
-                  <span className="text-[14px] leading-[20px] font-medium text-[#1F2937] truncate">
+                  <span className="text-[14px] leading-[20px] font-medium text-[#1F2937] ">
                     {item.value}
                   </span>
                 </div>

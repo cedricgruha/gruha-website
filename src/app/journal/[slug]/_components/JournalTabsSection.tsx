@@ -357,7 +357,7 @@ export const JournalTabsSection: React.FC = () => {
 
                     {/* Tab Label */}
                     <span
-                      className="relative z-20 font-inter text-[12px] sm:text-[14px] tracking-tight text-center truncate px-1 transition-all duration-300"
+                      className="relative z-20 font-inter text-[12px] sm:text-[14px] tracking-tight text-center  px-1 transition-all duration-300"
                       style={{
                         fontWeight: isActive ? 700 : 600,
                         color: isActive ? "#020617" : "#475569",

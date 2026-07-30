@@ -73,7 +73,7 @@ export default async function JournalSlugPageV0({
                 <div className="absolute top-0 left-0 right-0 h-[560px] bg-white border-b border-slate-200 pointer-events-none z-0" />
 
                 {/* -- 2. Page Container ---------- */}
-                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8">
+                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 bg-white">
                     <JournalTabsSectionV0
                         tabsData={journalData.tabs}
                         heroImage={(article as any)?.heroImage}

@@ -143,10 +143,10 @@ export const JournalProjects: React.FC<JournalProjectsProps> = ({
                   <Icon className="w-[18px] h-[18px] stroke-[1.75]" />
                 </div>
                 <div className="flex flex-col items-start gap-[2px] text-left overflow-hidden font-inter">
-                  <span className="text-[10px] leading-[14px] font-medium text-[#4B5563] tracking-[1px] uppercase truncate">
+                  <span className="text-[10px] leading-[14px] font-medium text-[#4B5563] tracking-[1px] uppercase ">
                     {item.label}
                   </span>
-                  <span className="text-[14px] leading-[20px] font-medium text-[#1F2937] truncate">
+                  <span className="text-[14px] leading-[20px] font-medium text-[#1F2937] ">
                     {item.value}
                   </span>
                 </div>
@@ -235,8 +235,8 @@ export const JournalProjects: React.FC<JournalProjectsProps> = ({
                     </div>
                     <div
                       className={`flex flex-col p-3 max-w-[320px] relative ${msg.isRiya
-                          ? "bg-[#8B5CF6] text-white rounded-2xl rounded-tr-none"
-                          : "bg-[#F2F2F7] text-[#2C2C2E] rounded-2xl rounded-tl-none"
+                        ? "bg-[#8B5CF6] text-white rounded-2xl rounded-tr-none"
+                        : "bg-[#F2F2F7] text-[#2C2C2E] rounded-2xl rounded-tl-none"
                         }`}
                     >
                       <span className="text-[14px] font-semibold leading-[14px] mb-1">
@@ -419,10 +419,10 @@ export const JournalProjects: React.FC<JournalProjectsProps> = ({
                     <Icon className="w-[17.45px] h-[17.45px] stroke-[1.5]" />
                   </div>
                   <div className="flex flex-col justify-center items-start gap-1 flex-1 min-w-0">
-                    <span className="text-[12px] font-semibold text-[#4B5563] leading-[14px] truncate w-full">
+                    <span className="text-[12px] font-semibold text-[#4B5563] leading-[14px]  w-full">
                       {item.title}
                     </span>
-                    <span className="text-[14px] font-medium text-[#1F2937] leading-[20px] truncate w-full">
+                    <span className="text-[14px] font-medium text-[#1F2937] leading-[20px]  w-full">
                       {item.count}
                     </span>
                   </div>

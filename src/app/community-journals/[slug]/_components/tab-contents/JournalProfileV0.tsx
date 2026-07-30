@@ -139,7 +139,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                   {cell.label}
                 </p>
                 <p
-                  className="text-[16.5px] font-[500] leading-tight truncate whitespace-nowrap"
+                  className="text-[16.5px] font-[500] leading-tight  whitespace-nowrap"
                   style={{ fontFamily: fd, color: idx === 0 ? "#DD5128" : "#111821" }}
                 >
                   {cell.value}
