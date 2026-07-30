@@ -289,12 +289,28 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                         1 Corridor Explored
                       </span>
                     </div>
-                    {area.isTopChoice && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-[#FE5B39]/10 text-[#DD5128] text-[10px] font-bold tracking-wider uppercase font-inter">
-                        <Icons.Sparkles className="w-3 h-3" />
-                        Top Choice
-                      </span>
-                    )}
+                    <div className="flex items-center gap-2">
+                      {area.isTopChoice && (
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-[#FE5B39]/10 text-[#DD5128] text-[10px] font-bold tracking-wider uppercase font-inter">
+                          <Icons.Sparkles className="w-3 h-3" />
+                          Top Choice
+                        </span>
+                      )}
+                      {selectedAreaId !== null && (
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setSelectedAreaId(null);
+                            setHoveredAreaId(null);
+                          }}
+                          className="w-5 h-5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center cursor-pointer transition-colors"
+                          aria-label="Close location view"
+                        >
+                          <Icons.X className="w-3 h-3" />
+                        </button>
+                      )}
+                    </div>
                   </div>
 
                   <div className="space-y-1.5">
@@ -358,7 +374,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                   </filter>
                 </defs>
 
-                {areasWithPoints.map((area: any, idx: number) => {
+                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
                   const areaId = area.areaId;
                   const isSelected = selectedAreaId === areaId;
                   const isHovered = hoveredAreaId === areaId || isSelected;
@@ -370,8 +386,13 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       key={`polygon-${areaId}`}
                       points={points}
                       onClick={() => {
-                        setSelectedAreaId(areaId);
-                        setHoveredAreaId(areaId);
+                        if (selectedAreaId === areaId) {
+                          setSelectedAreaId(null);
+                          setHoveredAreaId(null);
+                        } else {
+                          setSelectedAreaId(areaId);
+                          setHoveredAreaId(areaId);
+                        }
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
@@ -390,7 +411,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               </svg>
 
               <div className="absolute inset-0 z-20 pointer-events-none">
-                {areasWithPoints.map((area: any, idx: number) => {
+                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
                   const areaId = area.areaId;
                   const isSelected = selectedAreaId === areaId;
                   const isHovered = hoveredAreaId === areaId || isSelected;
@@ -409,8 +430,13 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-auto transition-all duration-300"
                       style={{ left: leftPercent, top: topPercent }}
                       onClick={() => {
-                        setSelectedAreaId(areaId);
-                        setHoveredAreaId(areaId);
+                        if (selectedAreaId === areaId) {
+                          setSelectedAreaId(null);
+                          setHoveredAreaId(null);
+                        } else {
+                          setSelectedAreaId(areaId);
+                          setHoveredAreaId(areaId);
+                        }
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
@@ -483,8 +509,13 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                     <div
                       key={areaId}
                       onClick={() => {
-                        setSelectedAreaId(areaId);
-                        setHoveredAreaId(areaId);
+                        if (selectedAreaId === areaId) {
+                          setSelectedAreaId(null);
+                          setHoveredAreaId(null);
+                        } else {
+                          setSelectedAreaId(areaId);
+                          setHoveredAreaId(areaId);
+                        }
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
@@ -577,7 +608,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                   </filter>
                 </defs>
 
-                {areasWithPoints.map((area: any, idx: number) => {
+                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
                   const areaId = area.areaId;
                   const isSelected = selectedAreaId === areaId;
                   const isHovered = hoveredAreaId === areaId || isSelected;
@@ -589,8 +620,13 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       key={`polygon-${areaId}`}
                       points={points}
                       onClick={() => {
-                        setSelectedAreaId(areaId);
-                        setHoveredAreaId(areaId);
+                        if (selectedAreaId === areaId) {
+                          setSelectedAreaId(null);
+                          setHoveredAreaId(null);
+                        } else {
+                          setSelectedAreaId(areaId);
+                          setHoveredAreaId(areaId);
+                        }
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
@@ -610,7 +646,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
               {/* Area Pin Badges & Floating Hover Callouts on Map */}
               <div className="absolute inset-0 z-20 pointer-events-none">
-                {areasWithPoints.map((area: any, idx: number) => {
+                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
                   const areaId = area.areaId;
                   const isSelected = selectedAreaId === areaId;
                   const isHovered = hoveredAreaId === areaId || isSelected;
@@ -629,8 +665,13 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-auto transition-all duration-300"
                       style={{ left: leftPercent, top: topPercent }}
                       onClick={() => {
-                        setSelectedAreaId(areaId);
-                        setHoveredAreaId(areaId);
+                        if (selectedAreaId === areaId) {
+                          setSelectedAreaId(null);
+                          setHoveredAreaId(null);
+                        } else {
+                          setSelectedAreaId(areaId);
+                          setHoveredAreaId(areaId);
+                        }
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
@@ -667,13 +708,25 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
                       {/* Floating Callout Card on Hover/Selection */}
                       {isHovered && (
-                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-[220px] rounded-xl bg-white p-3 shadow-2xl border border-slate-100 z-40 animate-fadeIn pointer-events-none">
+                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-[220px] rounded-xl bg-white p-3 shadow-2xl border border-slate-100 z-40 animate-fadeIn pointer-events-auto">
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setSelectedAreaId(null);
+                              setHoveredAreaId(null);
+                            }}
+                            className="absolute top-2 right-2 w-5.5 h-5.5 rounded-full bg-slate-900/70 hover:bg-slate-900 text-white flex items-center justify-center cursor-pointer transition-colors z-50 shadow-xs"
+                            aria-label="Close location view"
+                          >
+                            <Icons.X className="w-3 h-3" />
+                          </button>
                           {areaImage && (
                             <div className="h-[75px] rounded-lg overflow-hidden mb-2 relative">
                               <Image src={area.image || area.imageSrc || searchMapImage} alt={areaName} fill className="object-cover" />
                             </div>
                           )}
-                          <p className="text-[13px] font-semibold text-slate-900 leading-tight font-inter">
+                          <p className="text-[13px] font-semibold text-slate-900 leading-tight font-inter pr-5">
                             {areaName}
                           </p>
                           <p className="text-[13px] text-slate-500 mt-0.5 line-clamp-2 font-inter">
