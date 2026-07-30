@@ -467,7 +467,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               </div>
 
               {/* Sidebar Cards Scrollable Area */}
-              <div className="p-3.5 space-y-3.5 overflow-y-auto flex-1 hide-scrollbar">
+              <div className="p-3.5 grid grid-flow-col auto-cols-[68%] sm:auto-cols-[280px] md:block gap-3.5 md:gap-0 md:space-y-3.5 overflow-x-auto md:overflow-y-auto hide-scrollbar flex-1">
                 {areasWithPoints.map((area: any, idx: number) => {
                   const areaId = area.areaId;
                   const isSelected = selectedAreaId === areaId;
@@ -487,7 +487,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
-                      className={`  group relative rounded-xl p-3.5 transition-all duration-200 cursor-pointer border ${isSelected
+                      className={`w-full group relative rounded-xl p-3.5 transition-all duration-200 cursor-pointer border ${isSelected
                         ? "bg-white-100 border-[#DD5128] shadow-lg ring-2 ring-[#DD5128]/20 -translate-y-0.5"
                         : isHovered
                           ? "bg-white border-[#DD5128] shadow-md -translate-y-0.5"
