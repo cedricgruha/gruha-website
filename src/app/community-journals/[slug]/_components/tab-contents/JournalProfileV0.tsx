@@ -104,7 +104,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
     : description;
 
   return (
-    <section id="section-profile" className="pt-12 ">
+    <section id="section-profile" className="pt-0 ">
       {/* Section Header */}
       <div className="text-left mb-7">
         <p className="text-[11px] font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>

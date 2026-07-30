@@ -81,7 +81,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </span>
       </nav>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-12 pt-8 bg-white">
+      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-8 pt-0 md:pt-8 bg-white">
         {/* Col 1 — Hero Image (Widescreen Landscape) */}
         <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-[10/16] max-h-[350px] border border-slate-200/80 shadow-md w-full max-w-[460px] mx-auto sm:mx-0 flex-none">
           <img
@@ -92,7 +92,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </div>
 
         {/* Col 2 — Title, Subtitle, Learnings & Actions */}
-        <div className="flex flex-col gap-4 justify-center pt-1 min-w-0">
+        <div className="flex flex-col gap-4 justify-center  min-w-0">
           <h1
             className="text-[clamp(24px,2.2vw,38px)] font-semibold leading-[1.12] tracking-[-0.02em] whitespace-pre-line break-words"
             style={{ fontFamily: fd, color: "#111821" }}

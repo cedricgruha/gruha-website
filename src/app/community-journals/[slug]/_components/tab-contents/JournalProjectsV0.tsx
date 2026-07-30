@@ -114,7 +114,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
   const sectionTagline = tagline || eyebrow;
 
   return (
-    <section id="section-projects" className="pt-10">
+    <section id="section-projects" className="pt-0 sm:pt-10">
       <div className="text-left mb-7">
         <p className="text-[11px] font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}

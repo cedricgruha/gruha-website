@@ -85,7 +85,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
   const displayChecklist = checklistItems.length > 0 ? checklistItems : defaultChecklistItems;
 
   return (
-    <section id="section-start-here" className="w-full pt-10 pb-32">
+    <section id="section-start-here" className="w-full pt-0 sm:pt-10 ">
       <div className="flex flex-col items-start text-left">
         <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ fontFamily: fu, color: "#C45D3A" }}>
           {tagline}

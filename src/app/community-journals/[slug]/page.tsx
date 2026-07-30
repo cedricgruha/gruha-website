@@ -7,6 +7,8 @@ import { JournalSidebarCtaCardV0 } from "./_components/JournalSidebarCtaCardV0";
 import { getJournalBySlug } from "@/lib/journal";
 import { FooterVariant } from "@/components/layout/FooterVariant";
 
+import { MobileBottomCtaBar } from "./_components/MobileBottomCtaBar";
+
 interface JournalSlugPageProps {
     params: Promise<{ slug: string }>;
 }
@@ -68,7 +70,7 @@ export default async function JournalSlugPageV0({
             />
 
             <Header forceSolid />
-            <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased relative pt-16">
+            <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased relative pt-16 pb-16 lg:pb-0">
                 {/* -- 1. Full Screenwidth White Background Layer for Hero ------- */}
                 <div className="absolute top-0 left-0 right-0 h-[560px] bg-white border-b border-slate-200 pointer-events-none z-0" />
 
@@ -91,6 +93,7 @@ export default async function JournalSlugPageV0({
                 </div>
             </main>
 
+            <MobileBottomCtaBar />
             <FooterVariant />
         </>
     );

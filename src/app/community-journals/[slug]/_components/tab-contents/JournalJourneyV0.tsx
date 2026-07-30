@@ -712,7 +712,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                         <h4 className="font-semibold text-[14px] leading-[18px] text-[#334155] font-inter">
                           {stage.title}
                         </h4>
-                        <p className="font-medium text-[13px] leading-[17px] text-[#64748B] font-inter">
+                        <p className="text-[13px] leading-[17px] text-[#64748B] font-inter">
                           {stage.desc}
                         </p>
                       </div>

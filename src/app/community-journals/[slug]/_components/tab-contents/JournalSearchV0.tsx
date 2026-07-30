@@ -212,7 +212,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
     : ((costOfSearchStats && costOfSearchStats.length > 0) ? costOfSearchStats : defaultCostOfSearchStats);
 
   return (
-    <section id="section-search" className="pt-10">
+    <section id="section-search" className="pt-0 sm:pt-10">
       <div className="text-left mb-7">
         <p className="text-[11px] font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}
@@ -487,7 +487,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
                       onMouseLeave={() => setHoveredAreaId(null)}
-                      className={`group relative rounded-xl p-3.5 transition-all duration-200 cursor-pointer border ${isSelected
+                      className={`  group relative rounded-xl p-3.5 transition-all duration-200 cursor-pointer border ${isSelected
                         ? "bg-white-100 border-[#DD5128] shadow-lg ring-2 ring-[#DD5128]/20 -translate-y-0.5"
                         : isHovered
                           ? "bg-white border-[#DD5128] shadow-md -translate-y-0.5"

@@ -161,7 +161,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
     : defaultClosureLessons;
 
   return (
-    <section id="section-learnings" className="pt-10">
+    <section id="section-learnings" className="pt-0 sm:pt-10 pb-10">
       <div className="text-left mb-7">
         <p className="text-[11px] font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {eyebrow}
