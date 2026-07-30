@@ -255,7 +255,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
         </div>
 
         {/* Right Column: Non-Negotiables Criteria / Priorities List */}
-        <div className="pt-10 flex flex-col gap-6">
+        <div className="pt-0 md:pt-10 flex flex-col gap-6">
           <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {displayCriteriaTitle}
           </p>
