@@ -231,7 +231,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({
       />
 
       <p
-        className="text-sm font-semibold tracking-[0.14em] uppercase"
+        className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase"
         style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
       >
         {audioLabel} {duration > 0 ? `(${Math.round(duration)} SEC)` : "(92 SEC)"}
@@ -270,7 +270,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({
           })}
         </div>
 
-        <span className="text-sm font-medium text-slate-400 shrink-0 font-inter min-w-[70px] text-right">
+        <span className="text-sm sm:text-base font-medium text-slate-400 shrink-0 font-inter min-w-[70px] text-right">
           {formatTime(currentTime)} / {formatTime(duration)}
         </span>
       </div>
@@ -385,13 +385,13 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                   {/* Text block top-aligned so all 4 labels share the top row */}
                   <div className="min-w-0 flex-1">
                     <p
-                      className="text-sm font-semibold tracking-[0.10em] uppercase mb-1"
+                      className="text-sm sm:text-base font-semibold tracking-[0.10em] uppercase mb-1"
                       style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
                     >
                       {cell.label}
                     </p>
                     <p
-                      className="text-[17px] font-[500] leading-tight"
+                      className="text-sm sm:text-base font-[500] leading-tight"
                       style={{ fontFamily: fd, color: "rgb(17, 24, 33)" }}
                     >
                       {cell.value}
@@ -407,7 +407,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
         <div className="w-full border border-[#F1F5F9] rounded-[24px] bg-white overflow-hidden pb-0 shadow-[0_1px_2px_rgba(17,24,33,.04),0_8px_24px_rgba(17,24,33,.05)]">
           <div className="px-8 pt-7 pb-2">
             <p
-              className="text-sm font-semibold tracking-[0.14em] uppercase"
+              className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase"
               style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
             >
               {journeyFrameTitle}
@@ -438,7 +438,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     <h4 className="font-semibold text-[15px] leading-[20px] text-[#334155] font-inter">
                       {stage.title}
                     </h4>
-                    <p className="font-medium text-sm leading-[18px] text-[#64748B] font-inter">
+                    <p className="font-medium text-sm sm:text-base leading-[18px] text-[#64748B] font-inter">
                       {stage.desc}
                     </p>
                   </div>
@@ -659,7 +659,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     }}
                   >
                     <span
-                      className={`px-2.5 py-1 rounded-full text-sm font-semibold tracking-wide border shadow-xs whitespace-nowrap ${arc.type === "bounce"
+                      className={`px-2.5 py-1 rounded-full text-sm sm:text-base font-semibold tracking-wide border shadow-xs whitespace-nowrap ${arc.type === "bounce"
                         ? "bg-[#FEF0EC] text-[#DD5128] border-[#FDBA74]"
                         : arc.type === "regression"
                           ? "bg-purple-50 text-purple-700 border-purple-200"
@@ -736,7 +736,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
         {moments && moments.length > 0 && (
           <div className="w-full">
             <p
-              className="text-sm font-semibold tracking-[0.14em] uppercase mb-4"
+              className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-4"
               style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
             >
               {momentsTitle}
@@ -756,7 +756,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                       <Image src={momentImg} alt={m.title} fill className="object-contain rounded-lg p-5" />
                     </div>
                     <div className="px-6 pt-5 pb-1 flex-none">
-                        <p className="text-sm font-semibold" style={{ fontFamily: fu, color: "#DD5128" }}>
+                        <p className="text-sm sm:text-base font-semibold" style={{ fontFamily: fu, color: "#DD5128" }}>
                           {String(idx + 1).padStart(2, "0")}
                         </p>
                       </div>
@@ -770,7 +770,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                           {m.title}
                         </h4>
 
-                        <p className="text-sm leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>
+                        <p className="text-sm sm:text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>
                           {bodyText}
                         </p>
                       </div>
@@ -791,7 +791,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             <div className="p-5 sm:p-10 flex flex-col justify-between space-y-4 sm:space-y-6">
               <div className="space-y-4">
                 <p
-                  className="text-sm font-semibold tracking-[0.14em] uppercase"
+                  className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase"
                   style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
                 >
                   AI AGENTS ON THIS JOURNEY
@@ -835,7 +835,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
               }}
             >
               <p
-                className="text-sm font-semibold tracking-[0.14em] uppercase mb-4 sm:mb-6"
+                className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-4 sm:mb-6"
                 style={{ fontFamily: fu, color: "#8A94A1" }}
               >
                 {voicesTitle}
@@ -859,7 +859,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                       </p>
                       {quoteAuthor && (
                         <p
-                          className="text-xs sm:text-sm font-semibold"
+                          className="text-xs sm:text-sm sm:text-base font-semibold"
                           style={{ fontFamily: fu, color: "#DD5128" }}
                         >
                           {quoteAuthor}

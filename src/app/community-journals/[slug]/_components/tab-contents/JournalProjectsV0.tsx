@@ -197,7 +197,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                   <div className="p-5 flex-1 flex flex-col justify-between">
                     <div>
                       <h4
-                        className="text-[17px] font-medium leading-tight mb-1"
+                        className="text-sm sm:text-base font-medium leading-tight mb-1"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}

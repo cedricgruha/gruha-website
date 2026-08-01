@@ -179,10 +179,10 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 <h3 className="text-[20px] font-semibold leading-tight text-[#111821] mb-1" style={{ fontFamily: fd }}>
                   {p.name} ({p.age})
                 </h3>
-                <p className="text-sm font-medium text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
+                <p className="text-sm sm:text-base font-medium text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
                   {p.role}
                 </p>
-                <p className="text-sm leading-[1.6] text-[#59636F]" style={{ fontFamily: fu }}>
+                <p className="text-sm sm:text-base leading-[1.6] text-[#59636F]" style={{ fontFamily: fu }}>
                   {displayDesc}
                 </p>
               </div>
@@ -198,7 +198,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
             <p className="text-[19px] font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
               {sharedVisionTitle}
             </p>
-            <p className="mt-3 text-sm leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
+            <p className="mt-3 text-sm sm:text-base leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
               {sharedVisionDescription}
             </p>
           </div>
@@ -229,7 +229,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
           className="bg-white border p-5"
           style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
         >
-          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-4" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-4" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {prioritiesTitle}
           </p>
 
@@ -246,14 +246,14 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 >
                   <div>
                     <div className="flex items-start justify-between gap-2 mb-2">
-                      <h4 className="text-[15px] font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
+                      <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
                         {p.title}
                       </h4>
-                      <span className="text-[16px] font-semibold flex-none pt-0.5" style={{ fontFamily: fu, color: "#DD5128" }}>
+                      <span className="text-base font-semibold flex-none pt-0.5" style={{ fontFamily: fu, color: "#DD5128" }}>
                         {displayScore}
                       </span>
                     </div>
-                    <p className="text-sm leading-[1.5]" style={{ fontFamily: fu, color: "#59636F" }}>
+                    <p className="text-sm sm:text-base leading-[1.5]" style={{ fontFamily: fu, color: "#59636F" }}>
                       {displayWhy}
                     </p>
                   </div>

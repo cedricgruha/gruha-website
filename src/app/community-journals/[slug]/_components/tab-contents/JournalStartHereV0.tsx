@@ -103,7 +103,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
           className="w-full bg-white border px-6 sm:px-10 py-8 text-left"
           style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
         >
-          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {checklistTitle}
           </p>
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-8 gap-y-4">
@@ -150,7 +150,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                     <Image src={stepImg} alt={step.title} fill className="object-contain rounded-lg p-5" />
                   </div>
                   <div className="px-6 py-5">
-                    <p className="text-sm font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
+                    <p className="text-sm sm:text-base font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
                       {displayNum}
                     </p>
                     <h4 className="text-[16px] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
@@ -227,7 +227,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                   <path d="M6 1 L6.5 4.5 L10 5 L6.5 5.5 L6 9 L5.5 4.5 Z" fill="rgba(255,255,255,0.6)" stroke="rgba(255,255,255,0.6)" strokeWidth="0.6" strokeLinejoin="round" />
                 </svg>
-                <span className="text-sm font-semibold text-white/70" style={{ fontFamily: fu }}>
+                <span className="text-sm sm:text-base font-semibold text-white/70" style={{ fontFamily: fu }}>
                   {ctaBadgeText}
                 </span>
               </div>
