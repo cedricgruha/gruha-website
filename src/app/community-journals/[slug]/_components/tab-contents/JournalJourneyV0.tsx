@@ -341,7 +341,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
         {/* -- Header ---------------------------------------------------- */}
         <div className="text-left mb-7">
           <p
-            className="text-sm font-semibold tracking-[0.15em] uppercase"
+            className="text-md font-semibold tracking-[0.15em] uppercase"
             style={{ fontFamily: fu, color: "rgb(221, 81, 40)" }}
           >
             {displayEyebrow}
@@ -373,11 +373,19 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                   : cell.icon ? <cell.icon className="w-4 h-4 text-[#DD5128]" /> : getIcon("Briefcase", "Briefcase", { className: "w-4 h-4 text-[#DD5128]" });
 
               return (
-                <div key={cell.label || idx} className="flex items-center gap-4 px-6 sm:px-8 py-5 flex-1">
-                  <span className="flex-none text-[#DD5128]">{iconElement}</span>
-                  <div>
+                <div
+                  key={cell.label || idx}
+                  className="flex items-start gap-3.5 px-6 sm:px-8 py-5 flex-1 min-w-0"
+                >
+                  {/* Icon aligned with the first line of the value text */}
+                  <span className="flex-none text-[#DD5128] mt-[22px]">
+                    {iconElement}
+                  </span>
+
+                  {/* Text block top-aligned so all 4 labels share the top row */}
+                  <div className="min-w-0 flex-1">
                     <p
-                      className="text-sm font-semibold tracking-[0.13em] uppercase mb-1"
+                      className="text-sm font-semibold tracking-[0.10em] uppercase mb-1"
                       style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
                     >
                       {cell.label}

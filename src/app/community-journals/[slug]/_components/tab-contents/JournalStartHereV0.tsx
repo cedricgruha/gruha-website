@@ -88,7 +88,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
   return (
     <section id="section-start-here" className="w-full pt-0 sm:pt-10 ">
       <div className="flex flex-col items-start text-left">
-        <p className="text-sm font-semibold tracking-[0.18em] uppercase mb-5" style={{ fontFamily: fu, color: "#C45D3A" }}>
+        <p className="text-md font-semibold tracking-[0.18em] uppercase mb-5" style={{ fontFamily: fu, color: "#C45D3A" }}>
           {tagline}
         </p>
         <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-6 max-w-[720px]" style={{ fontFamily: fd, color: "#111821" }}>
@@ -146,7 +146,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                     background: isHighlight ? "linear-gradient(135deg, #F8F6FE 0%, #FFFFFF 100%)" : undefined,
                   }}
                 >
-                  <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
+                  <div className="flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
                     <Image src={stepImg} alt={step.title} fill className="object-contain rounded-lg p-5" />
                   </div>
                   <div className="px-6 py-5">

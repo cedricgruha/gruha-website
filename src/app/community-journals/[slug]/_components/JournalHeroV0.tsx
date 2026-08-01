@@ -117,7 +117,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
                   const text = typeof item === "string" ? item : item.text;
                   return (
                     <div key={i} className="flex items-start gap-3 w-full">
-                      <span className="text-sm font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
+                      <span className="text-base font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <span className="text-base leading-[1.45]" style={{ fontFamily: fu, color: "#59636F" }}>

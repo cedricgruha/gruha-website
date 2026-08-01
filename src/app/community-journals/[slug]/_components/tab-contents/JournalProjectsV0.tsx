@@ -117,7 +117,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
   return (
     <section id="section-projects" className="pt-0 sm:pt-10">
       <div className="text-left mb-7">
-        <p className="text-sm font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+        <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}
         </p>
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>

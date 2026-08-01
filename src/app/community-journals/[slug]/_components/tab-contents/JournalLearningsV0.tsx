@@ -164,7 +164,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
   return (
     <section id="section-learnings" className="pt-0 sm:pt-10 pb-10">
       <div className="text-left mb-7">
-        <p className="text-sm font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+        <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {eyebrow}
         </p>
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>
@@ -187,13 +187,24 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               : cell.icon;
 
           return (
-            <div key={cell.label} className="flex items-center gap-4 px-6 sm:px-8 py-5 flex-1">
-              <span className="flex-none text-[#DD5128]">{iconElement}</span>
-              <div>
-                <p className="text-sm font-semibold tracking-[0.13em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
+            <div key={cell.label} className="flex items-start gap-4 px-6 sm:px-8 py-5 flex-1 min-w-0">
+              {/* Icon aligned with the first line of the value text */}
+              <span className="flex-none text-[#DD5128] mt-[22px]">
+                {iconElement}
+              </span>
+
+              {/* Text block top-aligned so all labels share the top row */}
+              <div className="min-w-0 flex-1">
+                <p
+                  className="text-sm font-semibold tracking-[0.13em] uppercase mb-1"
+                  style={{ fontFamily: fu, color: "#8A94A1" }}
+                >
                   {cell.label}
                 </p>
-                <p className="text-[17px] font-[500] leading-tight" style={{ fontFamily: fd, color: "#111821" }}>
+                <p
+                  className="text-[17px] font-[500] leading-tight"
+                  style={{ fontFamily: fd, color: "#111821" }}
+                >
                   {cell.value}
                 </p>
               </div>

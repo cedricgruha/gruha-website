@@ -215,7 +215,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
   return (
     <section id="section-search" className="pt-0 sm:pt-10">
       <div className="text-left mb-7">
-        <p className="text-sm font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+        <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}
         </p>
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>
@@ -238,9 +238,10 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               : cell.icon;
 
           return (
-            <div key={cell.label} className="flex items-center gap-4 px-6 sm:px-8 py-5 flex-1">
-              <span className="flex-none text-[#DD5128]">{iconElement}</span>
-              <div>
+            <div key={cell.label} className="flex items-start gap-4 px-6 sm:px-8 py-5 flex-1 min-w-0">
+              <span className="flex-none text-[#DD5128] mt-[22px]">{iconElement}</span>
+
+              <div className="min-w-0 flex-1">
                 <p className="text-sm font-semibold tracking-[0.13em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
                   {cell.label}
                 </p>
@@ -765,16 +766,32 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               const itemDesc = item.description || item.subtext || "";
 
               return (
-                <div key={itemTitle + idx} className="rounded-xl border border-slate-100 p-5 flex flex-col gap-2 bg-[#f8fafc]">
-                  <span className="text-[#DD5128]">{iconElement}</span>
-                  <p className="text-sm font-semibold tracking-[0.12em] uppercase text-[#8A94A1]" style={{ fontFamily: fu }}>
-                    {itemTitle}
-                  </p>
-                  <p className="text-[16.5px] font-medium leading-snug text-[#111821]" style={{ fontFamily: fd }}>
+                <div key={itemTitle + idx} className="rounded-xl border border-slate-100 p-5 flex flex-col bg-[#f8fafc] h-full">
+                  <span className="text-[#DD5128] mb-2">{iconElement}</span>
+
+                  <div className="min-h-[2.5rem] flex items-start mb-1">
+                    <p
+                      className="text-sm font-semibold tracking-[0.12em] uppercase text-[#8A94A1]"
+                      style={{ fontFamily: fu }}
+                    >
+                      {itemTitle}
+                    </p>
+                  </div>
+
+
+                  <p
+                    className="text-[16.5px] font-medium leading-snug text-[#111821] mb-2"
+                    style={{ fontFamily: fd }}
+                  >
                     {itemValue}
                   </p>
+
+                  {/* Description */}
                   {itemDesc && (
-                    <p className="text-base leading-relaxed text-[#59636F] mt-1" style={{ fontFamily: fu }}>
+                    <p
+                      className="text-base leading-relaxed text-[#59636F]"
+                      style={{ fontFamily: fu }}
+                    >
                       {itemDesc}
                     </p>
                   )}
