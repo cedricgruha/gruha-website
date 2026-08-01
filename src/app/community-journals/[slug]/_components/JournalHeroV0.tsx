@@ -109,7 +109,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
 
           <div className="grid grid-cols-1  gap-6 items-start mt-2">
             <div>
-              <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-3" style={{ fontFamily: fu, color: "#8A94A1" }}>
+              <p className="text-base font-semibold tracking-[0.14em] uppercase mb-3" style={{ fontFamily: fu, color: "#8A94A1" }}>
                 {learningsLabel}
               </p>
               <div className="flex flex-col gap-2.5">

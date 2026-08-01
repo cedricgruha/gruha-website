@@ -755,17 +755,25 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
                       <Image src={momentImg} alt={m.title} fill className="object-contain rounded-lg p-5" />
                     </div>
-                    <div className="px-6 py-5">
-                      <p className="text-sm font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
-                        {String(idx + 1).padStart(2, "0")}
-                      </p>
-                      <h4 className="text-[16px] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
-                        {m.title}
-                      </h4>
-                      <p className="text-sm leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>
-                        {bodyText}
-                      </p>
-                    </div>
+                    <div className="px-6 pt-5 pb-1 flex-none">
+                        <p className="text-sm font-semibold" style={{ fontFamily: fu, color: "#DD5128" }}>
+                          {String(idx + 1).padStart(2, "0")}
+                        </p>
+                      </div>
+
+                      {/* 3. Independent Content Wrapper (Title + Body) */}
+                      <div className="px-6 pb-5 pt-0 flex-1 flex flex-col justify-start">
+                        <h4
+                          className="text-[16px] leading-snug mb-1.5"
+                          style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}
+                        >
+                          {m.title}
+                        </h4>
+
+                        <p className="text-sm leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>
+                          {bodyText}
+                        </p>
+                      </div>
                   </div>
                 );
               })}

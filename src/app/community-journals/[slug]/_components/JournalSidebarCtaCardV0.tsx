@@ -47,7 +47,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
       `}</style>
 
       <div
-        className="relative overflow-hidden z-100"
+        className="relative overflow-hidden"
         style={{
           borderRadius: 14,
           background: "rgba(17, 24, 39, 0.95)",
@@ -66,7 +66,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
           style={{ background: "rgba(59, 130, 246, 0.08)", filter: "blur(80px)" }}
         />
 
-        <div className="relative z-10 p-8 text-center">
+        <div className="relative z-20 p-8 text-center">
           {/* AI Aura & Avatar */}
           <div className="relative inline-block mb-5">
             {/* Animated gradient aura */}
@@ -109,7 +109,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
 
           {/* Content */}
           <p
-            className="text-gray-400 text-[13px] leading-relaxed mb-8 px-2"
+            className="text-gray-400 text-[13px] sm:text-sm leading-relaxed mb-8 px-2"
             style={{ fontFamily: fu }}
           >
             {description}

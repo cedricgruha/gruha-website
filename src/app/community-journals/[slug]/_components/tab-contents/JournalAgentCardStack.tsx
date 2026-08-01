@@ -326,7 +326,7 @@ export const AgentCardSlider: React.FC<AgentCardSliderProps> = ({
               {/* Role Pill */}
               <div className="flex justify-center mt-2">
                 <span
-                  className="flex items-center gap-1 text-[10px] font-medium px-3 py-1 rounded-full"
+                  className="flex items-center gap-1 text-[10px] sm:text-xs font-medium px-3 py-1 rounded-full"
                   style={{ background: "rgba(255,255,255,0.2)", color: "white", fontFamily: fu }}
                 >
                   <svg width="8" height="8" viewBox="0 0 10 10">
@@ -338,7 +338,7 @@ export const AgentCardSlider: React.FC<AgentCardSliderProps> = ({
 
               {/* Description */}
               <p
-                className="text-center text-[11.5px] leading-[1.55] mx-5 mt-3"
+                className="text-center text-[11.5px] sm:text-sm leading-[1.55] mx-5 mt-3"
                 style={{ fontFamily: fu, color: "rgba(255,255,255,0.8)" }}
               >
                 {card.description}

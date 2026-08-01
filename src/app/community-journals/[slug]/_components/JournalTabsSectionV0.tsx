@@ -41,7 +41,7 @@ function TabNav({
   return (
     <div
       ref={navRef}
-      className="z-40 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs"
+      className="z-30 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs"
     >
       <div className="max-w-[1400px] mx-auto px-3 sm:px-8">
         <nav className="flex items-center justify-start gap-0.5 sm:gap-1 overflow-x-auto overflow-y-hidden scrollbar-hide" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
@@ -64,7 +64,7 @@ function TabNav({
               className="w-10 h-10 rounded-lg object-cover flex-none border border-slate-100 shadow-xs"
             />
             <span
-              className="text-[13px] font-semibold leading-[1.25] text-[#111821] flex-none max-w-[130px] "
+              className="text-[16px] font-semibold leading-[1.25] text-[#111821] flex-none max-w-[165px] "
               style={{ fontFamily: fu }}
             >
               {title ? title.split(":")[0] : "Homebuyer's Journal"}
@@ -123,6 +123,7 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   const contentRef = useRef<HTMLDivElement>(null);
   const [showNavBrand, setShowNavBrand] = useState(false);
   const isScrollingRef = useRef(false);
+  const tabNavTopRef = useRef(0); // cached initial page-offset of TabNav
 
   // Map tabs array from JSON into a dictionary by tab id
   const tabsMap = (tabsData || []).reduce((acc: any, tab: any) => {
@@ -158,9 +159,20 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   }, []);
 
   useEffect(() => {
+    // Cache TabNav initial page-offset once on mount
+    if (tabNavRef.current) {
+      tabNavTopRef.current = tabNavRef.current.getBoundingClientRect().top + window.scrollY;
+    }
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => {
       // Reveal brand when user scrolls past 180px down the page
       setShowNavBrand(window.scrollY > 180);
+      // Direct DOM write — instant, no React render cycle
+      if (tabNavRef.current) {
+        tabNavRef.current.style.zIndex = window.scrollY >= tabNavTopRef.current ? '50' : '30';
+      }
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
@@ -191,7 +203,7 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
       <div ref={contentRef} id="journal-content" className="w-full min-w-0">
 
         {/* 2-Column Grid: Hero + Main 5 Tabs on Left, Sticky Sidebar on Right */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_288px] gap-10">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_288px] gap-10">
 
           {/* Left Column: Hero Content + Main 5 Tabs */}
           <div className="min-w-0">

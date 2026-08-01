@@ -136,7 +136,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 {iconElement}
               </span>
               <div className="min-w-0">
-                <p className="text-xs font-semibold tracking-[0.13em] uppercase mb-0.5" style={{ fontFamily: fu, color: "#8A94A1" }}>
+                <p className="text-xs font-semibold tracking-[0.13em] uppercase mb-1.5" style={{ fontFamily: fu, color: "#8A94A1" }}>
                   {cell.label}
                 </p>
                 <p
