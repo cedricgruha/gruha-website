@@ -114,7 +114,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>
           {sectionTitle}
         </h2>
-        <p className="mt-3 text-[17px] leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
+        <p className="mt-3 text-base leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
           {sectionDescription}
         </p>
       </div>
@@ -136,11 +136,11 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 {iconElement}
               </span>
               <div className="min-w-0">
-                <p className="text-[9.5px] font-semibold tracking-[0.13em] uppercase mb-0.5" style={{ fontFamily: fu, color: "#8A94A1" }}>
+                <p className="text-xs font-semibold tracking-[0.13em] uppercase mb-0.5" style={{ fontFamily: fu, color: "#8A94A1" }}>
                   {cell.label}
                 </p>
                 <p
-                  className="text-[16.5px] font-[500] leading-tight  whitespace-nowrap"
+                  className="text-base font-[500] leading-tight  whitespace-nowrap"
                   style={{ fontFamily: fd, color: idx === 0 ? "#DD5128" : "#111821" }}
                 >
                   {cell.value}
@@ -182,7 +182,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 <p className="text-[13px] font-medium text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
                   {p.role}
                 </p>
-                <p className="text-[13px] leading-[1.6] text-[#59636F]" style={{ fontFamily: fu }}>
+                <p className="text-sm leading-[1.6] text-[#59636F]" style={{ fontFamily: fu }}>
                   {displayDesc}
                 </p>
               </div>
@@ -198,7 +198,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
             <p className="text-[19px] font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
               {sharedVisionTitle}
             </p>
-            <p className="mt-3 text-[13px] leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
+            <p className="mt-3 text-sm leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
               {sharedVisionDescription}
             </p>
           </div>
@@ -229,7 +229,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
           className="bg-white border p-5"
           style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
         >
-          <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-4" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-4" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {prioritiesTitle}
           </p>
 
@@ -253,7 +253,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                         {displayScore}
                       </span>
                     </div>
-                    <p className="text-[12.5px] leading-[1.5]" style={{ fontFamily: fu, color: "#59636F" }}>
+                    <p className="text-sm leading-[1.5]" style={{ fontFamily: fu, color: "#59636F" }}>
                       {displayWhy}
                     </p>
                   </div>

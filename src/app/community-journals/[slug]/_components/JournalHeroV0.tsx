@@ -69,7 +69,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   return (
     <div className="w-full pb-0">
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-[13px] mt-6 mb-5" style={{ fontFamily: fu }}>
+      <nav className="flex items-center gap-2 text-base mt-6 mb-5" style={{ fontFamily: fu }}>
         <a href="/" className="flex items-center gap-1.5 text-slate-400 hover:text-slate-700 transition-colors">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" /></svg>
           Home
@@ -103,7 +103,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
             {displayTitle}
           </h1>
 
-          <p className="text-[14.5px] leading-[1.55]" style={{ fontFamily: fu, color: "#59636F", maxWidth: 520 }}>
+          <p className="text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F", maxWidth: 520 }}>
             {displayDescription}
           </p>
 
@@ -117,10 +117,10 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
                   const text = typeof item === "string" ? item : item.text;
                   return (
                     <div key={i} className="flex items-start gap-3 w-full">
-                      <span className="text-[11px] font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
+                      <span className="text-sm font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
                         {String(i + 1).padStart(2, "0")}
                       </span>
-                      <span className="text-[14.5px] leading-[1.45]" style={{ fontFamily: fu, color: "#59636F" }}>
+                      <span className="text-base leading-[1.45]" style={{ fontFamily: fu, color: "#59636F" }}>
                         {text}
                       </span>
                     </div>

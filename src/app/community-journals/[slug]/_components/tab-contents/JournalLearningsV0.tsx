@@ -164,13 +164,13 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
   return (
     <section id="section-learnings" className="pt-0 sm:pt-10 pb-10">
       <div className="text-left mb-7">
-        <p className="text-[11px] font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+        <p className="text-sm font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {eyebrow}
         </p>
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>
           {lessonsTitle || title}
         </h2>
-        <p className="mt-3 text-[17px] leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
+        <p className="mt-3 text-base leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
           {description}
         </p>
       </div>
@@ -190,7 +190,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
             <div key={cell.label} className="flex items-center gap-4 px-6 sm:px-8 py-5 flex-1">
               <span className="flex-none text-[#DD5128]">{iconElement}</span>
               <div>
-                <p className="text-[9.5px] font-semibold tracking-[0.13em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
+                <p className="text-sm font-semibold tracking-[0.13em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
                   {cell.label}
                 </p>
                 <p className="text-[17px] font-[500] leading-tight" style={{ fontFamily: fd, color: "#111821" }}>
@@ -209,7 +209,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
             className="bg-white border px-6 sm:px-10 py-8"
             style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
           >
-            <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-8" style={{ fontFamily: fu, color: "#8A94A1" }}>
+            <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-8" style={{ fontFamily: fu, color: "#8A94A1" }}>
               {monthlyLearningsTitle}
             </p>
 
@@ -229,11 +229,11 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                     </div>
                     <div className="flex-1 min-w-0" style={{ paddingTop: 1 }}>
                       <div className="flex items-center gap-3 mb-2">
-                        <p className="text-[9.5px] font-semibold tracking-[0.12em] uppercase" style={{ fontFamily: fu, color: item.turning ? "#DD5128" : "#8A94A1" }}>
+                        <p className="text-sm font-semibold tracking-[0.12em] uppercase" style={{ fontFamily: fu, color: item.turning ? "#DD5128" : "#8A94A1" }}>
                           {item.month || `LESSON 0${i + 1}`}
                         </p>
                         {item.turning && (
-                          <span className="text-[9px] font-semibold px-2 py-0.5 rounded-full tracking-wide" style={{ background: "#FEF0EC", color: "#DD5128", fontFamily: fu }}>
+                          <span className="text-xs font-semibold px-2 py-0.5 rounded-full tracking-wide" style={{ background: "#FEF0EC", color: "#DD5128", fontFamily: fu }}>
                             Turning point
                           </span>
                         )}
@@ -241,7 +241,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                       <h4 className="text-[18px] leading-[1.3] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                         {item.headline || item.title}
                       </h4>
-                      <p className="text-[13px] leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
+                      <p className="text-base leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
                         {item.body || item.description}
                       </p>
                     </div>
@@ -257,16 +257,16 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
           className="bg-white border px-6 sm:px-8 py-8"
           style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
         >
-          <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {thinkingChangedTitle}
           </p>
 
           <div className="grid grid-cols-[1fr_16px_1fr] gap-3 mb-4 pb-3 border-b border-slate-100">
-            <p className="text-[9.5px] font-semibold tracking-[0.12em] uppercase text-right" style={{ fontFamily: fu, color: "#8A94A1" }}>
+            <p className="text-sm font-semibold tracking-[0.12em] uppercase text-right" style={{ fontFamily: fu, color: "#8A94A1" }}>
               What they believed
             </p>
             <div />
-            <p className="text-[9.5px] font-semibold tracking-[0.12em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+            <p className="text-sm font-semibold tracking-[0.12em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
               What they know now
             </p>
           </div>
@@ -274,13 +274,13 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
           <div className="flex flex-col divide-y divide-slate-100">
             {displayThinking.map(({ before, after }: any) => (
               <div key={before} className="grid grid-cols-[1fr_16px_1fr] gap-3 items-center py-5">
-                <p className="text-[14px] leading-[1.4] text-right line-through decoration-slate-300" style={{ fontFamily: fd, color: "#94A3B8" }}>
+                <p className="text-base leading-[1.4] text-right line-through decoration-slate-300" style={{ fontFamily: fd, color: "#94A3B8" }}>
                   {before}
                 </p>
-                <p className="text-center text-[12px]" style={{ color: "#CBD5E1" }}>
+                <p className="text-center text-sm" style={{ color: "#CBD5E1" }}>
                   →
                 </p>
-                <p className="text-[14px] leading-[1.4]" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                <p className="text-base leading-[1.4]" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                   {after}
                 </p>
               </div>
@@ -307,7 +307,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                 <h4 className="text-[19px] leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                   {cardTitle}
                 </h4>
-                <p className="text-[13px] leading-[1.6]" style={{ fontFamily: fu, color: "#59636F" }}>
+                <p className="text-base leading-[1.6]" style={{ fontFamily: fu, color: "#59636F" }}>
                   {displayBody}
                 </p>
               </div>

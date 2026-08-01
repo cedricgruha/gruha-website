@@ -88,7 +88,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
   return (
     <section id="section-start-here" className="w-full pt-0 sm:pt-10 ">
       <div className="flex flex-col items-start text-left">
-        <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ fontFamily: fu, color: "#C45D3A" }}>
+        <p className="text-sm font-semibold tracking-[0.18em] uppercase mb-5" style={{ fontFamily: fu, color: "#C45D3A" }}>
           {tagline}
         </p>
         <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-6 max-w-[720px]" style={{ fontFamily: fd, color: "#111821" }}>
@@ -103,7 +103,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
           className="w-full bg-white border px-6 sm:px-10 py-8 text-left"
           style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
         >
-          <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {checklistTitle}
           </p>
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-8 gap-y-4">
@@ -112,7 +112,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
               return (
                 <div key={i} className="flex items-start gap-3">
                   <Icons.BadgeCheck size={15} className="mt-0.5 flex-none" style={{ color: "#DD5128" }} />
-                  <span className="text-[13px] leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
+                  <span className="text-base leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
                     {text}
                   </span>
                 </div>
@@ -123,7 +123,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
 
         {/* How it works cards */}
         <div className="mt-10 w-full text-left">
-          <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-base font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {stepsTitle}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -150,13 +150,13 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                     <Image src={stepImg} alt={step.title} fill className="object-contain rounded-lg p-5" />
                   </div>
                   <div className="px-6 py-5">
-                    <p className="text-[11px] font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
+                    <p className="text-sm font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
                       {displayNum}
                     </p>
                     <h4 className="text-[16px] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                       {step.title}
                     </h4>
-                    <p className="text-[13px] leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>
+                    <p className="text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>
                       {displayBody}
                     </p>
                   </div>
@@ -186,7 +186,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
                 <button
                   type="button"
-                  className="group relative w-full sm:w-auto px-6 py-3 text-[14px] font-bold rounded-xl text-white overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(242,90,43,0.4)] hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  className="group relative w-full sm:w-auto px-6 py-3 text-base font-bold rounded-xl text-white overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(242,90,43,0.4)] hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
                   style={{ background: "#f25a2b", fontFamily: fu }}
                 >
                   <span className="relative z-10">{ctaButtonText}</span>
@@ -195,7 +195,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                 </button>
                 <button
                   type="button"
-                  className="w-full sm:w-auto px-6 py-3 text-[14px] font-semibold rounded-xl transition-colors hover:bg-white/5 cursor-pointer"
+                  className="w-full sm:w-auto px-6 py-3 text-base font-semibold rounded-xl transition-colors hover:bg-white/5 cursor-pointer"
                   style={{ fontFamily: fu, color: "rgba(255,255,255,0.6)", border: "1px solid rgba(255,255,255,0.1)" }}
                 >
                   {ctaAdaptButtonText}
@@ -227,7 +227,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                   <path d="M6 1 L6.5 4.5 L10 5 L6.5 5.5 L6 9 L5.5 4.5 Z" fill="rgba(255,255,255,0.6)" stroke="rgba(255,255,255,0.6)" strokeWidth="0.6" strokeLinejoin="round" />
                 </svg>
-                <span className="text-[11px] font-semibold text-white/70" style={{ fontFamily: fu }}>
+                <span className="text-sm font-semibold text-white/70" style={{ fontFamily: fu }}>
                   {ctaBadgeText}
                 </span>
               </div>

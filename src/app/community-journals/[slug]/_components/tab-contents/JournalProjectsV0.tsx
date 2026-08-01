@@ -117,13 +117,13 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
   return (
     <section id="section-projects" className="pt-0 sm:pt-10">
       <div className="text-left mb-7">
-        <p className="text-[11px] font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+        <p className="text-sm font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}
         </p>
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>
           {title}
         </h2>
-        <p className="mt-3 text-[17px] leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
+        <p className="mt-3 text-base leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
           {description}
         </p>
       </div>
@@ -133,10 +133,10 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
         <div className="min-w-0">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-3">
-              <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase" style={{ fontFamily: fu, color: "#8A94A1" }}>
+              <p className="text-sm font-semibold tracking-[0.14em] uppercase" style={{ fontFamily: fu, color: "#8A94A1" }}>
                 {projectsTitle}
               </p>
-              <span className="text-[11px] font-semibold text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full" style={{ fontFamily: fu }}>
+              <span className="text-sm font-semibold text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full" style={{ fontFamily: fu }}>
                 {projectsCountBadge}
               </span>
             </div>
@@ -183,10 +183,10 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     {proj.isOverlay && (
                       <div className="absolute inset-0 bg-black/65 backdrop-blur-[2px] flex flex-col items-center justify-center text-center p-4">
-                        <span className="text-[12px] font-semibold tracking-wider uppercase text-[#FF8A65] mb-1 font-mono">
+                        <span className="text-sm font-semibold tracking-wider uppercase text-[#FF8A65] mb-1 font-mono">
                           {proj.overlayText || "Rejected"}
                         </span>
-                        <span className="text-[14px] font-medium text-white font-serif">
+                        <span className="text-base font-medium text-white font-serif">
                           {proj.overlaySubtext || "Unverified"}
                         </span>
                       </div>
@@ -208,13 +208,13 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                       <div className="flex items-start justify-between">
                         <div>
                           <p
-                            className="text-[9.5px] font-semibold tracking-[0.15em] uppercase mb-1"
+                            className="text-xs font-semibold tracking-[0.15em] uppercase mb-1"
                             style={{ fontFamily: fu, color: "#94A3B8" }}
                           >
                             PRICE RANGE
                           </p>
                           <p
-                            className="text-[16px] font-semibold leading-none"
+                            className="text-sm font-semibold leading-none"
                             style={{ fontFamily: fd, color: "#111821" }}
                           >
                             {projPrice}
@@ -224,13 +224,13 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                         {projPossession && (
                           <div className="text-right">
                             <p
-                              className="text-[9.5px] font-semibold tracking-[0.15em] uppercase mb-1"
+                              className="text-xs font-semibold tracking-[0.15em] uppercase mb-1"
                               style={{ fontFamily: fu, color: "#94A3B8" }}
                             >
                               POSSESSION
                             </p>
                             <p
-                              className="text-[15px] font-medium leading-none"
+                              className="text-sm font-medium leading-none"
                               style={{ fontFamily: fu, color: "#111821" }}
                             >
                               {projPossession}
@@ -241,7 +241,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
                       {projPsf && (
                         <p
-                          className="mt-2.5 text-[11px]"
+                          className="mt-2.5 text-sm"
                           style={{ fontFamily: fu, color: "#94A3B8" }}
                         >
                           {projPsf}
@@ -257,7 +257,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
         {/* Right Column: Non-Negotiables Criteria / Priorities List */}
         <div className="pt-0 md:pt-10 flex flex-col gap-6">
-          <p className="text-[9.5px] font-semibold tracking-[0.14em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {displayCriteriaTitle}
           </p>
 
@@ -280,7 +280,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                       {itemTitle}
                     </h5>
                     {itemSub && (
-                      <p className="text-[12px] mt-0.5 leading-tight" style={{ fontFamily: fu, color: "#8A94A1" }}>
+                      <p className="text-sm mt-0.5 leading-tight" style={{ fontFamily: fu, color: "#8A94A1" }}>
                         {itemSub}
                       </p>
                     )}
