@@ -21,7 +21,7 @@ export const FooterVariant = () => {
 
           {/* Email Column */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-[#888] text-[0.7rem] font-bold tracking-[0.15em] uppercase">Email</h4>
+            <h4 className="text-[#888] text-[0.9rem] font-bold tracking-[0.15em] uppercase">Email</h4>
             <Link href="mailto:homebuyers@gruha.ai" className="text-black font-inter font-semibold text-sm hover:opacity-70 transition-opacity">
               homebuyers@gruha.ai
             </Link>
@@ -29,7 +29,7 @@ export const FooterVariant = () => {
 
           {/* Quick Links Column */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-[#888] text-[0.7rem] font-bold tracking-[0.15em] uppercase">Quick Links</h4>
+            <h4 className="text-[#888] text-[0.9rem] font-bold tracking-[0.15em] uppercase">Quick Links</h4>
             <ul className="flex flex-col gap-3 text-black font-inter font-semibold text-sm">
               <li><Link href="/" className="hover:opacity-70 transition-opacity">Home</Link></li>
               <li><Link href="/about" className="hover:opacity-70 transition-opacity">About us</Link></li>
@@ -39,7 +39,7 @@ export const FooterVariant = () => {
 
           {/* Social Column */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-[#888] text-[0.7rem] font-bold tracking-[0.15em] uppercase">Social</h4>
+            <h4 className="text-[#888] text-[0.9rem] font-bold tracking-[0.15em] uppercase">Social</h4>
             <div className="flex items-center gap-3">
               <Link href="#" className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center hover:border-black transition-colors group">
                 <Image src="/assets/socialmedia/Vector.svg" alt="Facebook" width={12} height={12} className="opacity-50 group-hover:opacity-100 transition-opacity invert" />

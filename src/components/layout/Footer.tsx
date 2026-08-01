@@ -7,13 +7,13 @@ import { ArrowUpRight } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
 
 export const Footer = () => {
-  
+
   return (
     <footer className="bg-[#1C1C1E] pt-5 md:pt-24 pb-10 text-white">
       <div className="container mx-auto px-6 md:px-12 max-w-[1400px]">
         {/* Top Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
-          
+
           {/* Brand Column */}
           <div className="lg:col-span-4 pr-0 lg:pr-12">
             <Link href="/" className="inline-block mb-6">
@@ -22,14 +22,14 @@ export const Footer = () => {
               </div>
             </Link>
             <p className="text-[#A1A1AA] font-inter text-[0.9375rem] leading-[1.7] mb-10 max-w-[300px] hidden md:block">
-             
+
             </p>
-          
+
           </div>
 
           {/* Contact & Email Column */}
           <div className="lg:col-span-3 flex flex-col gap-10">
-            
+
             <div>
               <h4 className="text-[#888] text-xs font-bold tracking-[0.1em] uppercase mb-6">Email</h4>
               <Link href="mailto:homebuyers@gruha.ai" className="text-[#E4E4E7] font-inter text-[0.9375rem] hover:text-white underline underline-offset-[5px] decoration-gray-500 hover:decoration-white transition-colors">
@@ -50,7 +50,7 @@ export const Footer = () => {
 
           {/* Address & Social Column */}
           <div className="lg:col-span-3 flex flex-col gap-10">
-           
+
             <div>
               <h4 className="text-[#888] text-xs font-bold tracking-[0.1em] uppercase mb-6">Social</h4>
               <div className="flex items-center gap-3">
@@ -69,7 +69,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
 
         {/* Bottom Border and Copyright */}
@@ -78,7 +78,7 @@ export const Footer = () => {
             &copy; 2026 Gruha.ai
           </p>
         </div>
-        
+
       </div>
     </footer>
   );

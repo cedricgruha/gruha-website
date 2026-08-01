@@ -81,7 +81,7 @@ function TabNav({
                 className="relative shrink-0 px-2.5 sm:px-4 py-4 sm:py-6 transition-colors cursor-pointer"
               >
                 <span
-                  className="text-[12px] sm:text-[13.5px] font-semibold tracking-tight whitespace-nowrap"
+                  className="text-[12px] sm:text-[16px] font-semibold tracking-tight whitespace-nowrap"
                   style={{ fontFamily: fu, color: isActive ? "#111821" : "#8A94A1" }}
                 >
                   {tab}
