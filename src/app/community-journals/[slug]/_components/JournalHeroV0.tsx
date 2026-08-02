@@ -80,7 +80,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
       {/* Hero Banner Box */}
       <div
         ref={heroImgWrapRef}
-        className="relative w-full max-w-[1376px] min-h-[580px] rounded-[32px] overflow-hidden flex flex-col justify-between p-8 md:p-12 shadow-sm bg-white shrink-0 border-none"
+        className="relative w-full max-w-[1376px] min-h-[480px] rounded-[32px] overflow-hidden flex flex-col justify-between p-6 md:p-10 shadow-sm bg-white shrink-0 border-none"
       >
         {/* Background Cover Image */}
         <Image
@@ -92,10 +92,10 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         />
 
         {/* Dynamic White Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 via-35% to-transparent z-10 w-full pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 via-40% to-transparent z-10 w-full pointer-events-none" />
 
         {/* Top Header Bar */}
-        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full mb-6">
+        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full mb-4">
           {/* Category Badges */}
           <div className="flex items-center gap-2">
             <span
@@ -126,16 +126,16 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </div>
 
         {/* Main Content Body */}
-        <div className="relative z-20 max-w-xl pr-4 my-auto py-2">
+        <div className="relative z-20 max-w-[725px] pr-4 my-auto py-1">
           <h1
-            className="text-4xl sm:text-5xl lg:text-[52px] font-normal leading-[1.1] tracking-tight text-slate-900 mb-4 whitespace-pre-line"
+            className="text-4xl sm:text-5xl lg:text-[50px] font-normal leading-[1.08] tracking-tight text-slate-900 mb-3.5 whitespace-pre-line"
             style={{ fontFamily: fd }}
           >
             {displayTitle}
           </h1>
 
           <p
-            className="text-base leading-relaxed text-slate-700 font-normal mb-5 max-w-lg"
+            className="text-base leading-relaxed text-slate-700 font-normal mb-4 w-full"
             style={{ fontFamily: fu }}
           >
             {displayDescription}
@@ -148,7 +148,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </div>
 
         {/* Bottom Banner Card: What You'll Learn */}
-        <div className="relative z-20 w-full max-w-[725px] rounded-[12px] p-5 sm:p-6 backdrop-blur-[12px] bg-[linear-gradient(270.21deg,rgba(240,253,250,0.084)-34.81%,rgba(254,254,254,0.65)15.1%)] border border-white/60 shadow-xs mt-6">
+        <div className="relative z-20 w-full max-w-[725px] rounded-[12px] p-5 sm:p-6 backdrop-blur-[12px] bg-[linear-gradient(270.21deg,rgba(240,253,250,0.084)-34.81%,rgba(254,254,254,0.65)15.1%)] border border-white/60 shadow-xs mt-4">
           <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#FE5B39] leading-[17px] mb-3 font-inter">
             {learningsLabel}
           </h4>
