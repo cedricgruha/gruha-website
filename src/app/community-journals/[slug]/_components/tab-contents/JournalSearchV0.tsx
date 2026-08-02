@@ -238,11 +238,11 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               : cell.icon;
 
           return (
-            <div key={cell.label} className="flex items-start gap-4 px-6 sm:px-8 py-5 flex-1 min-w-0">
-              <span className="flex-none text-[#DD5128] mt-[22px]">{iconElement}</span>
+            <div key={cell.label} className="flex items-center gap-4 px-6 sm:px-8 py-5 flex-1 min-w-0">
+              <span className="flex-none text-[#DD5128]">{iconElement}</span>
 
               <div className="min-w-0 flex-1">
-                <p className="text-sm sm:text-base font-semibold tracking-[0.13em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
+                <p className="text-xs font-semibold tracking-[0.10em] uppercase mb-1.5" style={{ fontFamily: fu, color: "#8A94A1" }}>
                   {cell.label}
                 </p>
                 <p className="text-sm sm:text-base font-[500] leading-tight" style={{ fontFamily: fd, color: "#111821" }}>
@@ -771,7 +771,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
                   <div className="min-h-[2.5rem] flex items-start mb-1">
                     <p
-                      className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase text-[#8A94A1]"
+                      className="text-xs font-semibold tracking-[0.10em] uppercase text-[#8A94A1]"
                       style={{ fontFamily: fu }}
                     >
                       {itemTitle}
@@ -780,7 +780,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
 
                   <p
-                    className="text-[16.5px] font-medium leading-snug text-[#111821] mb-2"
+                    className="text-base font-medium leading-snug text-[#111821] mb-2"
                     style={{ fontFamily: fd }}
                   >
                     {itemValue}

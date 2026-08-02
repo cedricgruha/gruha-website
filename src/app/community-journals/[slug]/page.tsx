@@ -10,91 +10,97 @@ import { FooterVariant } from "@/components/layout/FooterVariant";
 import { MobileBottomCtaBar } from "./_components/MobileBottomCtaBar";
 
 interface JournalSlugPageProps {
-    params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateMetadata({
-    params,
+  params,
 }: JournalSlugPageProps): Promise<Metadata> {
-    const { slug } = await params;
-    const journalData = await getJournalBySlug(slug);
+  const { slug } = await params;
+  const journalData = await getJournalBySlug(slug);
 
-    if (!journalData) {
-        return {
-            title: "Journal Not Found",
-        };
-    }
-
+  if (!journalData) {
     return {
-        title:
-            journalData.article?.title ||
-            slug
-                .split("-")
-                .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-                .join(" "),
-        description:
-            journalData.article?.description ||
-            "A real home-buying journey on Gruha.ai — budgets, fears, and futures built together.",
+      title: "Journal Not Found",
     };
+  }
+
+  return {
+    title:
+      journalData.article?.title ||
+      slug
+        .split("-")
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" "),
+    description:
+      journalData.article?.description ||
+      "A real home-buying journey on Gruha.ai — budgets, fears, and futures built together.",
+  };
 }
 
 export default async function JournalSlugPageV0({
-    params,
+  params,
 }: JournalSlugPageProps) {
-    const { slug } = await params;
-    const journalData = await getJournalBySlug(slug);
+  const { slug } = await params;
+  const journalData = await getJournalBySlug(slug);
 
-    if (!journalData) {
-        notFound();
-    }
+  if (!journalData) {
+    notFound();
+  }
 
-    const article = {
-        ...journalData.article,
-        learnings: (journalData.article?.learnings || []).map((item: any) => ({
-            icon: item.icon,
-            text: typeof item === "string" ? item : item.text,
-        })),
-    };
+  const article = {
+    ...journalData.article,
+    learnings: (journalData.article?.learnings || []).map((item: any) => ({
+      icon: item.icon,
+      text: typeof item === "string" ? item : item.text,
+    })),
+  };
 
-    return (
-        <>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link
-                rel="preconnect"
-                href="https://fonts.gstatic.com"
-                crossOrigin="anonymous"
+  return (
+    <>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter+Tight:wght@400;500;600&display=swap"
+        rel="stylesheet"
+      />
+
+      <Header forceSolid />
+
+      {/* Main wrapper on light grey background */}
+      <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased pt-16 pb-8 lg:pb-8">
+
+        {/* Full-width white hero container */}
+        <div className="w-full bg-white border-b border-slate-200">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-8">
+            <JournalHeroV0
+              title={article.title}
+              description={article.description}
+              readTime={article.readTime}
+              updatedOn={article.updatedOn}
+              learnings={article.learnings}
+              heroImage={(article as any)?.heroImage || (article as any)?.image}
             />
-            <link
-                href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter+Tight:wght@400;500;600&display=swap"
-                rel="stylesheet"
-            />
+          </div>
+        </div>
 
-            <Header forceSolid />
-            <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased relative pt-16 pb-8 lg:pb-8">
-                {/* -- 1. Full Screenwidth White Background Layer for Hero ------- */}
-                <div className="absolute top-0 left-0 right-0 h-[860px] md:h-[720px] lg:h-[560px] bg-white border-b border-slate-200 pointer-events-none z-0" />
+        {/* Page Container for Sticky TabNav & Tabs Content */}
+        <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8">
+          <JournalTabsSectionV0
+            tabsData={journalData.tabs}
+            heroImage={(article as any)?.heroImage}
+            title={article?.title}
+            sidebar={<JournalSidebarCtaCardV0 />}
+          />
+        </div>
+      </main>
 
-                {/* -- 2. Page Container ---------- */}
-                <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 ">
-                    <JournalTabsSectionV0
-                        tabsData={journalData.tabs}
-                        heroImage={(article as any)?.heroImage}
-                        title={article?.title}
-                        heroContent={
-                            <JournalHeroV0
-                                title={article.title}
-                                description={article.description}
-                                learnings={article.learnings}
-                                heroImage={(article as any)?.heroImage || (article as any)?.image}
-                            />
-                        }
-                        sidebar={<JournalSidebarCtaCardV0 />}
-                    />
-                </div>
-            </main>
-
-            <MobileBottomCtaBar />
-            <FooterVariant />
-        </>
-    );
+      <MobileBottomCtaBar />
+      <FooterVariant />
+    </>
+  );
 }

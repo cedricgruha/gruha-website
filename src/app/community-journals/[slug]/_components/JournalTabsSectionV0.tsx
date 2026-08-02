@@ -11,15 +11,7 @@ import JournalStartHereV0 from "./tab-contents/JournalStartHereV0";
 import imgHero from "@/imports/testy.jpg";
 import ProgressBar from "@/components/ui/ProgressBar";
 
-const fd = "'Newsreader', Georgia, serif";
 const fu = "'Inter Tight', system-ui, sans-serif";
-
-const getImgSrc = (img: any): string => {
-  if (!img) return "";
-  if (typeof img === "string") return img;
-  if (typeof img === "object" && img.src) return img.src;
-  return String(img);
-};
 
 const tabs = ["Profile", "Journey", "Search", "Projects", "Learnings", "Start here"];
 
@@ -41,11 +33,14 @@ function TabNav({
   return (
     <div
       ref={navRef}
-      className="z-30 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs"
+      className="z-30 sticky top-0 w-screen relative left-0 right-1/2 -ml-[50vw] -mr-[50vw] bg-white border-b border-slate-200 shadow-xs mb-8"
     >
       <div className="max-w-[1400px] mx-auto px-3 sm:px-8">
-        <nav className="flex items-center justify-start gap-0.5 sm:gap-1 overflow-x-auto overflow-y-hidden scrollbar-hide" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
-          {/* Brand Logo & Title (Reveals on the left when navbar sticks — hidden on mobile) */}
+        <nav
+          className="flex items-center justify-start gap-0.5 sm:gap-1 overflow-x-auto overflow-y-hidden scrollbar-hide"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        >
+          {/* Brand Logo & Title (Reveals when sticky) */}
           <div
             className="hidden sm:flex items-center gap-2.5 shrink-0 transition-all ease-out overflow-hidden"
             style={{
@@ -64,7 +59,7 @@ function TabNav({
               className="w-10 h-10 rounded-lg object-cover flex-none border border-slate-100 shadow-xs"
             />
             <span
-              className="text-[16px] font-semibold leading-[1.25] text-[#111821] flex-none max-w-[165px] "
+              className="text-[16px] font-semibold leading-[1.25] text-[#111821] flex-none max-w-[165px]"
               style={{ fontFamily: fu }}
             >
               {title ? title.split(":")[0] : "Homebuyer's Journal"}
@@ -111,7 +106,6 @@ export interface JournalTabsSectionV0Props {
 
 export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   tabsData = [],
-  heroImgWrapRef,
   heroImage,
   title,
   heroContent,
@@ -123,16 +117,14 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   const contentRef = useRef<HTMLDivElement>(null);
   const [showNavBrand, setShowNavBrand] = useState(false);
   const isScrollingRef = useRef(false);
-  const tabNavTopRef = useRef(0); // cached initial page-offset of TabNav
+  const tabNavTopRef = useRef(0);
 
-  // Map tabs array from JSON into a dictionary by tab id
   const tabsMap = (tabsData || []).reduce((acc: any, tab: any) => {
     acc[tab.id] = tab;
     return acc;
   }, {});
 
   useEffect(() => {
-    // Reset scroll position to top on mount
     if (typeof window !== "undefined") {
       window.scrollTo(0, 0);
     }
@@ -159,7 +151,6 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
   }, []);
 
   useEffect(() => {
-    // Cache TabNav initial page-offset once on mount
     if (tabNavRef.current) {
       tabNavTopRef.current = tabNavRef.current.getBoundingClientRect().top + window.scrollY;
     }
@@ -167,11 +158,9 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
 
   useEffect(() => {
     const handleScroll = () => {
-      // Reveal brand when user scrolls past 180px down the page
       setShowNavBrand(window.scrollY > 180);
-      // Direct DOM write — instant, no React render cycle
       if (tabNavRef.current) {
-        tabNavRef.current.style.zIndex = window.scrollY >= tabNavTopRef.current ? '50' : '30';
+        tabNavRef.current.style.zIndex = window.scrollY >= tabNavTopRef.current ? "50" : "30";
       }
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -199,86 +188,87 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
 
   return (
     <>
-      {/* Content Sections Container */}
       <div ref={contentRef} id="journal-content" className="w-full min-w-0">
 
-        {/* 2-Column Grid: Hero + Main 5 Tabs on Left, Sticky Sidebar on Right */}
+        {/* 1. Full Width Hero Section (Above Grid & Above Tabs) */}
+        <div className="w-full min-w-0">
+          {heroContent}
+        </div>
+
+        {/* 2. Full Screenwidth Sticky Navigation Bar */}
+        <TabNav
+          active={activeTab}
+          showBrand={showNavBrand}
+          navRef={tabNavRef}
+          onTabClick={handleTabClick}
+          heroImage={heroImage}
+          title={title}
+        />
+
+        {/* 3. 2-Column Grid: Tabs Content on Left, Sticky Sidebar on Right */}
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_288px] gap-10">
 
-          {/* Left Column: Hero Content + Main 5 Tabs */}
-          <div className="min-w-0">
-            {heroContent}
+          {/* Left Column: 5 Main Content Tabs */}
+          <div className="min-w-0 space-y-12">
+            {/* Profile Section */}
+            <div
+              ref={(el) => {
+                sectionRefs.current["Profile"] = el;
+              }}
+            >
+              <JournalProfileV0 {...tabsMap["profile"]} />
+            </div>
 
-            {/* Full Screenwidth Sticky TabNav Bar */}
-            <TabNav
-              active={activeTab}
-              showBrand={showNavBrand}
-              navRef={tabNavRef}
-              onTabClick={handleTabClick}
-              heroImage={heroImage}
-              title={title}
-            />
+            {/* Journey Section */}
+            <div
+              ref={(el) => {
+                sectionRefs.current["Journey"] = el;
+              }}
+            >
+              <JournalJourneyV0 {...tabsMap["journey"]} />
+            </div>
 
-            <div className="pt-8 space-y-12">
-              {/* Profile Section */}
-              <div
-                ref={(el) => {
-                  sectionRefs.current["Profile"] = el;
-                }}
-              >
-                <JournalProfileV0 {...tabsMap["profile"]} />
-              </div>
+            {/* Search Section */}
+            <div
+              ref={(el) => {
+                sectionRefs.current["Search"] = el;
+              }}
+            >
+              <JournalSearchV0 {...tabsMap["search"]} />
+            </div>
 
-              {/* Journey Section */}
-              <div
-                ref={(el) => {
-                  sectionRefs.current["Journey"] = el;
-                }}
-              >
-                <JournalJourneyV0 {...tabsMap["journey"]} />
-              </div>
+            {/* Projects Section */}
+            <div
+              ref={(el) => {
+                sectionRefs.current["Projects"] = el;
+              }}
+            >
+              <JournalProjectsV0 {...tabsMap["projects"]} />
+            </div>
 
-              {/* Search Section */}
-              <div
-                ref={(el) => {
-                  sectionRefs.current["Search"] = el;
-                }}
-              >
-                <JournalSearchV0 {...tabsMap["search"]} />
-              </div>
-
-              {/* Projects Section */}
-              <div
-                ref={(el) => {
-                  sectionRefs.current["Projects"] = el;
-                }}
-              >
-                <JournalProjectsV0 {...tabsMap["projects"]} />
-              </div>
-
-              {/* Learnings Section */}
-              <div
-                ref={(el) => {
-                  sectionRefs.current["Learnings"] = el;
-                }}
-              >
-                <JournalLearningsV0 {...tabsMap["learnings"]} />
-              </div>
+            {/* Learnings Section */}
+            <div
+              ref={(el) => {
+                sectionRefs.current["Learnings"] = el;
+              }}
+            >
+              <JournalLearningsV0 {...tabsMap["learnings"]} />
             </div>
           </div>
 
-          {/* Right Column: Sticky Sidebar - Starts at Hero, Stops at end of Learnings (just before Start Here) */}
+          {/* Right Column: Sticky Sidebar — Starts below TabNav, sticks through Learnings */}
           {sidebar && (
-            <div className="hidden lg:block h-full pt-12">
-              <div className="sticky top-20 z-40">
+            <div className="hidden lg:block h-full">
+              <div className="sticky top-24 z-40">
                 {sidebar}
               </div>
             </div>
           )}
         </div>
 
-        {/* Final Tab Section (Start Here) - Rendered outside 2-column grid */}
+        {/* 4. Final Section ("Start Here") — Rendered Full Width Outside Grid */}
         <div
+          className="mt-16"
           ref={(el) => {
             sectionRefs.current["Start here"] = el;
           }}

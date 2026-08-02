@@ -109,7 +109,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
 
           {/* Content */}
           <p
-            className="text-gray-400 text-base sm:text-sm leading-relaxed mb-8 px-2"
+            className="text-gray-400 text-sm sm:text-base leading-relaxed mb-8 px-2"
             style={{ fontFamily: fu }}
           >
             {description}

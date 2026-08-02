@@ -196,13 +196,13 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               {/* Text block top-aligned so all labels share the top row */}
               <div className="min-w-0 flex-1">
                 <p
-                  className="text-sm sm:text-base font-semibold tracking-[0.13em] uppercase mb-1"
+                  className="text-xs font-semibold tracking-[0.10em] uppercase mb-1.5"
                   style={{ fontFamily: fu, color: "#8A94A1" }}
                 >
                   {cell.label}
                 </p>
                 <p
-                  className="text-[17px] font-[500] leading-tight"
+                  className="text-sm sm:text-base font-[500] leading-tight"
                   style={{ fontFamily: fd, color: "#111821" }}
                 >
                   {cell.value}
@@ -315,7 +315,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                 <Image src={cardImg} alt={cardTitle} fill className="object-contain rounded-lg p-4" />
               </div>
               <div className="px-6 py-5">
-                <h4 className="text-[19px] leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                <h4 className="text-base sm:text-lg leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                   {cardTitle}
                 </h4>
                 <p className="text-base leading-[1.6]" style={{ fontFamily: fu, color: "#59636F" }}>

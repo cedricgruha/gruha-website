@@ -112,19 +112,18 @@ export const JournalHeroSection: React.FC<JournalHeroProps> = ({
               </div>
             </div>
 
-            <div className="w-full max-w-[725px] rounded-[12px] p-5 sm:p-6 backdrop-blur-[12px] bg-[linear-gradient(270.21deg,rgba(240,253,250,0.084)-34.81%,rgba(254,254,254,0.65)15.1%)] border border-white/60 shadow-xs">
-
-              <h4 className="text-[14px] font-semibold text-[#FE5B39] leading-[17px] mb-3 font-inter">
+            <div className="w-full max-w-[725px] h-auto rounded-[12px] p-4 sm:p-6 backdrop-blur-[12px] bg-[linear-gradient(270.21deg,rgba(240,253,250,0.084)-34.81%,rgba(254,254,254,0.65)15.1%)] border border-white/60 shadow-xs">
+              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#FE5B39] leading-[17px] mb-3 font-inter">
                 {learningsLabel}
               </h4>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 items-start sm:items-center">
                 {learnings.map((item, idx) => (
-                  <div key={idx} className="flex items-start gap-3">
+                  <div key={idx} className="flex items-start gap-2.5 sm:gap-3">
                     <div className="flex h-5 w-5 shrink-0 items-center justify-center text-[#FF7E57] mt-0.5">
                       {item.icon}
                     </div>
-                    <span className="text-[13px] sm:text-[14px] font-semibold text-[#334155] leading-[1.3] font-inter">
+                    <span className="text-[12px] xs:text-[13px] sm:text-[14px] font-semibold text-[#334155] leading-[1.3] font-inter">
                       {item.text}
                     </span>
                   </div>

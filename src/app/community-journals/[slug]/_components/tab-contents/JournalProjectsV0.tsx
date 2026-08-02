@@ -195,9 +195,9 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
                   {/* Card Content */}
                   <div className="p-5 flex-1 flex flex-col justify-between">
-                    <div>
+                    <div className="mb-4">
                       <h4
-                        className="text-sm sm:text-base font-medium leading-tight mb-1"
+                        className="text-sm sm:text-base font-medium leading-normal"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}
@@ -208,13 +208,13 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                       <div className="flex items-start justify-between">
                         <div>
                           <p
-                            className="text-xs font-semibold tracking-[0.15em] uppercase mb-1"
+                            className="text-xs font-semibold tracking-[0.10em] uppercase mb-3"
                             style={{ fontFamily: fu, color: "#94A3B8" }}
                           >
                             PRICE RANGE
                           </p>
                           <p
-                            className="text-sm font-semibold leading-none"
+                            className="text-sm font-semibold leading-snug"
                             style={{ fontFamily: fd, color: "#111821" }}
                           >
                             {projPrice}
@@ -224,13 +224,13 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                         {projPossession && (
                           <div className="text-right">
                             <p
-                              className="text-xs font-semibold tracking-[0.15em] uppercase mb-1"
+                              className="text-xs font-semibold tracking-[0.10em] uppercase mb-3"
                               style={{ fontFamily: fu, color: "#94A3B8" }}
                             >
                               POSSESSION
                             </p>
                             <p
-                              className="text-sm font-medium leading-none"
+                              className="text-sm font-medium leading-snug"
                               style={{ fontFamily: fu, color: "#111821" }}
                             >
                               {projPossession}
@@ -241,7 +241,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
                       {projPsf && (
                         <p
-                          className="mt-2.5 text-sm"
+                          className="mt-1.5 text-sm font-medium"
                           style={{ fontFamily: fu, color: "#94A3B8" }}
                         >
                           {projPsf}
@@ -257,7 +257,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
         {/* Right Column: Non-Negotiables Criteria / Priorities List */}
         <div className="pt-0 md:pt-10 flex flex-col gap-6">
-          <p className="text-sm font-semibold tracking-[0.14em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p className="text-sm font-semibold tracking-[0.10em] uppercase mb-1" style={{ fontFamily: fu, color: "#8A94A1" }}>
             {displayCriteriaTitle}
           </p>
 
@@ -276,11 +276,11 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                 <div className="flex items-start gap-3">
                   <span className="mt-0.5 flex-none text-[#DD5128]">{iconElement}</span>
                   <div>
-                    <h5 className="text-[15px] font-medium leading-tight" style={{ fontFamily: fd, color: "#111821" }}>
+                    <h5 className="text-base font-medium leading-tight" style={{ fontFamily: fd, color: "#111821" }}>
                       {itemTitle}
                     </h5>
                     {itemSub && (
-                      <p className="text-sm mt-0.5 leading-tight" style={{ fontFamily: fu, color: "#8A94A1" }}>
+                      <p className="text-base mt-0.5 leading-tight" style={{ fontFamily: fu, color: "#8A94A1" }}>
                         {itemSub}
                       </p>
                     )}

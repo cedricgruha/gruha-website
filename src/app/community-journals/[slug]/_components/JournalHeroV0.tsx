@@ -8,13 +8,6 @@ import imgHero from "@/imports/testy.jpg";
 const fd = "'Newsreader', Georgia, serif";
 const fu = "'Inter Tight', system-ui, sans-serif";
 
-const getImgSrc = (img: any): string => {
-  if (!img) return "";
-  if (typeof img === "string") return img;
-  if (typeof img === "object" && img.src) return img.src;
-  return String(img);
-};
-
 export const getIcon = (
   name?: string,
   defaultName = "HelpCircle",
@@ -31,6 +24,8 @@ export interface JournalHeroV0Props {
   description?: string;
   learningsLabel?: string;
   learnings?: Array<{ icon?: string; text: string } | string>;
+  readTime?: string;
+  updatedOn?: string;
   heroImage?: any;
   startJournalText?: string;
   adaptJournalText?: string;
@@ -45,89 +40,140 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   description,
   learningsLabel = "What you'll learn from this journey",
   learnings = [],
+  readTime = "14 min read",
+  updatedOn = "Updated on July 2026",
   heroImage,
-  startJournalText = "Start your journal",
-  adaptJournalText = "Adapt this journal",
   heroImgWrapRef,
-  onStartJournal,
-  onAdaptJournal,
 }) => {
-  const displayTitle = heroTitle || title || "The Sixteenth Floor\nDream Journal.";
+  const displayTitle = heroTitle || title || "The Twelve Keys Journal";
   const displayDescription =
     description ||
-    "The story of Pavan & Shruti Kalsi's first home purchase journey in Bengaluru — a young couple navigating budget, fear, and a future built together.";
+    "Priyanka Bhat's (35) micro-stay portfolio expansion across HSR, Bellandur & Manyata — underwriting ready builder-held studios against 7%+ net yields, RWA bye-laws, and corporate demand.";
   const displayHeroImage = heroImage || imgHero;
 
   const defaultLearnings = [
-    { text: "Stretch your budget without regret" },
-    { text: "Decide between ready vs under construction" },
-    { text: "Manage home buying before becoming parents" },
+    { icon: "TrendingUp", text: "Underwrite net-yield at 7%+ post-OTA, housekeeping, and maintenance fees" },
+    { icon: "ShieldCheck", text: "Audit RWA bye-laws and last 3 AGM minutes before submitting token advance" },
+    { icon: "Layers", text: "Split inventory across ORR and Manyata corridors to cut hybrid-work concentration risk" },
   ];
 
   const displayLearnings = learnings.length > 0 ? learnings : defaultLearnings;
 
   return (
-    <div className="w-full pb-0">
-      {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-base mt-6 mb-5" style={{ fontFamily: fu }}>
-        <a href="/" className="flex items-center gap-1.5 text-slate-400 hover:text-slate-700 transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" /></svg>
+    <div className="w-full flex flex-col items-center pb-8">
+      {/* Breadcrumb Navigation (Constrained to 1376px) */}
+      <nav className="w-full max-w-[1376px] flex items-center gap-2 text-sm mt-5 mb-6 px-2" style={{ fontFamily: fu }}>
+        <a href="/" className="flex items-center gap-1.5 text-slate-500 hover:text-slate-800 transition-colors">
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 001 1m-6 0h6" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+          </svg>
           Home
         </a>
         <span className="text-slate-300">/</span>
-        <a href="/community-journals" className="text-slate-400 hover:text-slate-700 transition-colors">All Journals</a>
+        <a href="/community-journals" className="text-slate-500 hover:text-slate-800 transition-colors">All Journals</a>
         <span className="text-slate-300">/</span>
-        <span className="font-semibold text-slate-900  max-w-[280px] md:max-w-[420px]">
+        <span className="font-semibold text-slate-900 truncate max-w-[280px] md:max-w-[420px]">
           {displayTitle.replace("\n", " ")}
         </span>
       </nav>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-[460px_1fr] gap-8 md:gap-10 items-center pb-8 pt-0 md:pt-8 bg-white">
-        {/* Col 1 — Hero Image (Widescreen Landscape) */}
-        <div ref={heroImgWrapRef} className="relative rounded-2xl overflow-hidden aspect-[10/16] max-h-[350px] border border-slate-200/80 shadow-md w-full max-w-[460px] mx-auto sm:mx-0 flex-none">
-          <Image
-            src={displayHeroImage}
-            alt={displayTitle.replace("\n", " ")}
-            fill
-            className="object-cover object-center"
-            priority
-          />
+      {/* Hero Banner Box - Locked to 1376x768 Dimensions without outer border */}
+      <div
+        ref={heroImgWrapRef}
+        className="relative w-full max-w-[1376px] aspect-[1376/768] rounded-[32px] overflow-hidden flex flex-col justify-between p-8 md:p-12 shadow-sm bg-white shrink-0 border-none"
+      >
+        {/* Background Cover Image */}
+        <Image
+          src={displayHeroImage}
+          alt={displayTitle.replace("\n", " ")}
+          fill
+          className="object-cover object-right z-0"
+          priority
+        />
+
+        {/* Dynamic White Overlay: Smooth gradient that blends without a vertical seam */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 via-30% to-transparent z-10 w-full pointer-events-none" />
+
+        {/* Top Header Bar */}
+        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full">
+          {/* Category Badges */}
+          <div className="flex items-center gap-2">
+            <span
+              className="px-4 py-1.5 rounded-full text-xs font-semibold bg-black text-white"
+              style={{ fontFamily: fu }}
+            >
+              Community
+            </span>
+            <span
+              className="px-4 py-1.5 rounded-full text-xs font-semibold bg-black text-white"
+              style={{ fontFamily: fu }}
+            >
+              The First-EMI Family
+            </span>
+          </div>
+
+          {/* Read Time & Updated Date */}
+          <div className="flex items-center gap-2 text-xs font-medium text-slate-800">
+            <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md shadow-xs border border-white/80">
+              <Icons.Clock className="w-3.5 h-3.5 text-slate-700" />
+              <span>{readTime}</span>
+            </div>
+            <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md shadow-xs border border-white/80">
+              <Icons.Calendar className="w-3.5 h-3.5 text-slate-700" />
+              <span>{updatedOn}</span>
+            </div>
+          </div>
         </div>
 
-        {/* Col 2 — Title, Subtitle, Learnings & Actions */}
-        <div className="flex flex-col gap-4 justify-center  min-w-0">
+        {/* Main Content Body */}
+        <div className="relative z-20 my-auto max-w-xl pr-4">
           <h1
-            className="text-[clamp(24px,2.2vw,38px)] font-semibold leading-[1.12] tracking-[-0.02em] whitespace-pre-line break-words"
-            style={{ fontFamily: fd, color: "#111821" }}
+            className="text-4xl sm:text-5xl lg:text-[52px] font-normal leading-[1.12] tracking-tight text-slate-900 mb-5 whitespace-pre-line"
+            style={{ fontFamily: fd }}
           >
             {displayTitle}
           </h1>
 
-          <p className="text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F", maxWidth: 520 }}>
+          <p
+            className="text-base leading-relaxed text-slate-800 font-normal mb-6 max-w-lg"
+            style={{ fontFamily: fu }}
+          >
             {displayDescription}
           </p>
 
-          <div className="grid grid-cols-1  gap-6 items-start mt-2">
-            <div>
-              <p className="text-base font-semibold tracking-[0.14em] uppercase mb-3" style={{ fontFamily: fu, color: "#8A94A1" }}>
-                {learningsLabel}
-              </p>
-              <div className="flex flex-col gap-2.5">
-                {displayLearnings.map((item: any, i: number) => {
-                  const text = typeof item === "string" ? item : item.text;
-                  return (
-                    <div key={i} className="flex items-start gap-3 w-full">
-                      <span className="text-base font-semibold flex-none mt-0.5" style={{ fontFamily: fd, color: "#DD5128" }}>
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
-                      <span className="text-base leading-[1.45]" style={{ fontFamily: fu, color: "#59636F" }}>
-                        {text}
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
+          {/* Featured Quote */}
+          <div className="border-l-2 border-[#DD5128] pl-4 py-0.5 italic text-slate-800 text-lg font-serif">
+            "Everyone says buy. Nobody says how to stop being scared."
+          </div>
+        </div>
+
+        {/* Bottom Banner Card: What You'll Learn */}
+        <div className="relative z-20 w-full lg:max-w-[660px] bg-white/90 backdrop-blur-md rounded-2xl p-5 border border-white/80 shadow-sm">
+          <p
+            className="text-[12px] font-bold tracking-wider uppercase text-[#DD5128] mb-3"
+            style={{ fontFamily: fu }}
+          >
+            {learningsLabel}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {displayLearnings.map((item: any, i: number) => {
+              const text = typeof item === "string" ? item : item.text;
+              const iconName = typeof item === "object" ? item.icon : undefined;
+
+              return (
+                <div key={i} className="flex items-start gap-2.5">
+                  <div className="p-1.5 rounded-lg bg-orange-100/70 text-[#DD5128] shrink-0 mt-0.5">
+                    {getIcon(iconName, "Sparkles", { className: "w-4 h-4", strokeWidth: 2 })}
+                  </div>
+                  <span
+                    className="text-xs font-medium leading-snug text-slate-900"
+                    style={{ fontFamily: fu }}
+                  >
+                    {text}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

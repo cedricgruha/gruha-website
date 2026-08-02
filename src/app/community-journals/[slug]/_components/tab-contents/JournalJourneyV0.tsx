@@ -375,23 +375,23 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
               return (
                 <div
                   key={cell.label || idx}
-                  className="flex items-start gap-3.5 px-6 sm:px-8 py-5 flex-1 min-w-0"
+                  className="flex items-center gap-3.5 px-6 sm:px-8 py-5 flex-1 min-w-0"
                 >
                   {/* Icon aligned with the first line of the value text */}
-                  <span className="flex-none text-[#DD5128] mt-[22px]">
+                  <span className="flex-none text-[#DD5128]">
                     {iconElement}
                   </span>
 
                   {/* Text block top-aligned so all 4 labels share the top row */}
                   <div className="min-w-0 flex-1">
                     <p
-                      className="text-sm sm:text-base font-semibold tracking-[0.10em] uppercase mb-1"
+                      className="text-xs font-semibold tracking-[0.10em] uppercase mb-1.5"
                       style={{ fontFamily: fu, color: "rgb(138, 148, 161)" }}
                     >
                       {cell.label}
                     </p>
                     <p
-                      className="text-sm sm:text-base font-[500] leading-tight"
+                      className="text-base font-[500] leading-tight  whitespace-nowrap"
                       style={{ fontFamily: fd, color: "rgb(17, 24, 33)" }}
                     >
                       {cell.value}
@@ -852,14 +852,14 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                       style={{ background: "#f8fafc" }}
                     >
                       <p
-                        className="text-[16px] sm:text-[20px] leading-[1.45] sm:leading-[1.5] italic"
+                        className="text-base sm:text-lg leading-[1.45] sm:leading-[1.5] italic"
                         style={{ fontFamily: fd, color: "#2D3748" }}
                       >
                         "{quoteText}"
                       </p>
                       {quoteAuthor && (
                         <p
-                          className="text-xs sm:text-sm sm:text-base font-semibold"
+                          className="text-sm sm:text-base font-semibold text-right"
                           style={{ fontFamily: fu, color: "#DD5128" }}
                         >
                           {quoteAuthor}
