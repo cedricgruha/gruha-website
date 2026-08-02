@@ -38,7 +38,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   title,
   heroTitle,
   description,
-  learningsLabel = "What you'll learn from this journey",
+  learningsLabel = "WHAT YOU'LL LEARN FROM THIS JOURNEY",
   learnings = [],
   readTime = "14 min read",
   updatedOn = "Updated on July 2026",
@@ -61,7 +61,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
 
   return (
     <div className="w-full flex flex-col items-center pb-8">
-      {/* Breadcrumb Navigation (Constrained to 1376px) */}
+      {/* Breadcrumb Navigation */}
       <nav className="w-full max-w-[1376px] flex items-center gap-2 text-sm mt-5 mb-6 px-2" style={{ fontFamily: fu }}>
         <a href="/" className="flex items-center gap-1.5 text-slate-500 hover:text-slate-800 transition-colors">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,25 +77,25 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </span>
       </nav>
 
-      {/* Hero Banner Box - Locked to 1376x768 Dimensions without outer border */}
+      {/* Hero Banner Box */}
       <div
         ref={heroImgWrapRef}
-        className="relative w-full max-w-[1376px] aspect-[1376/768] rounded-[32px] overflow-hidden flex flex-col justify-between p-8 md:p-12 shadow-sm bg-white shrink-0 border-none"
+        className="relative w-full max-w-[1376px] min-h-[580px] rounded-[32px] overflow-hidden flex flex-col justify-between p-8 md:p-12 shadow-sm bg-white shrink-0 border-none"
       >
         {/* Background Cover Image */}
         <Image
           src={displayHeroImage}
           alt={displayTitle.replace("\n", " ")}
           fill
-          className="object-cover object-right z-0"
+          className="object-cover object-[82%_center] z-0"
           priority
         />
 
-        {/* Dynamic White Overlay: Smooth gradient that blends without a vertical seam */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 via-30% to-transparent z-10 w-full pointer-events-none" />
+        {/* Dynamic White Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 via-35% to-transparent z-10 w-full pointer-events-none" />
 
         {/* Top Header Bar */}
-        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full">
+        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full mb-6">
           {/* Category Badges */}
           <div className="flex items-center gap-2">
             <span
@@ -126,49 +126,44 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </div>
 
         {/* Main Content Body */}
-        <div className="relative z-20 my-auto max-w-xl pr-4">
+        <div className="relative z-20 max-w-xl pr-4 my-auto py-2">
           <h1
-            className="text-4xl sm:text-5xl lg:text-[52px] font-normal leading-[1.12] tracking-tight text-slate-900 mb-5 whitespace-pre-line"
+            className="text-4xl sm:text-5xl lg:text-[52px] font-normal leading-[1.1] tracking-tight text-slate-900 mb-4 whitespace-pre-line"
             style={{ fontFamily: fd }}
           >
             {displayTitle}
           </h1>
 
           <p
-            className="text-base leading-relaxed text-slate-800 font-normal mb-6 max-w-lg"
+            className="text-base leading-relaxed text-slate-700 font-normal mb-5 max-w-lg"
             style={{ fontFamily: fu }}
           >
             {displayDescription}
           </p>
 
           {/* Featured Quote */}
-          <div className="border-l-2 border-[#DD5128] pl-4 py-0.5 italic text-slate-800 text-lg font-serif">
+          <div className="border-l-2 border-[#FE5B39] pl-4 py-0.5 italic text-slate-800 text-lg font-serif">
             "Everyone says buy. Nobody says how to stop being scared."
           </div>
         </div>
 
         {/* Bottom Banner Card: What You'll Learn */}
-        <div className="relative z-20 w-full lg:max-w-[660px] bg-white/90 backdrop-blur-md rounded-2xl p-5 border border-white/80 shadow-sm">
-          <p
-            className="text-[12px] font-bold tracking-wider uppercase text-[#DD5128] mb-3"
-            style={{ fontFamily: fu }}
-          >
+        <div className="relative z-20 w-full max-w-[725px] rounded-[12px] p-5 sm:p-6 backdrop-blur-[12px] bg-[linear-gradient(270.21deg,rgba(240,253,250,0.084)-34.81%,rgba(254,254,254,0.65)15.1%)] border border-white/60 shadow-xs mt-6">
+          <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#FE5B39] leading-[17px] mb-3 font-inter">
             {learningsLabel}
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          </h4>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-start">
             {displayLearnings.map((item: any, i: number) => {
               const text = typeof item === "string" ? item : item.text;
               const iconName = typeof item === "object" ? item.icon : undefined;
 
               return (
                 <div key={i} className="flex items-start gap-2.5">
-                  <div className="p-1.5 rounded-lg bg-orange-100/70 text-[#DD5128] shrink-0 mt-0.5">
+                  <div className="p-1.5 rounded-lg bg-[#FFF2EE] text-[#FE5B39] shrink-0 mt-0.5">
                     {getIcon(iconName, "Sparkles", { className: "w-4 h-4", strokeWidth: 2 })}
                   </div>
-                  <span
-                    className="text-xs font-medium leading-snug text-slate-900"
-                    style={{ fontFamily: fu }}
-                  >
+                  <span className="text-[12px] sm:text-[13px] font-medium leading-snug text-[#334155] font-inter">
                     {text}
                   </span>
                 </div>
