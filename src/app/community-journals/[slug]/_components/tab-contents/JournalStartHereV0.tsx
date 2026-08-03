@@ -94,7 +94,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
         <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-6 max-w-[720px]" style={{ fontFamily: fd, color: "#111821" }}>
           {title}
         </h2>
-        <p className="text-[18px] leading-relaxed max-w-[560px] mb-10" style={{ fontFamily: fd, color: "#6B7280" }}>
+        <p className="text-base leading-relaxed max-w-[560px] mb-10" style={{ fontFamily: fd, color: "#6B7280" }}>
           {description}
         </p>
 
@@ -153,7 +153,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                     <p className="text-sm sm:text-base font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
                       {displayNum}
                     </p>
-                    <h4 className="text-[16px] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                    <h4 className="text-sm sm:text-base mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                       {step.title}
                     </h4>
                     <p className="text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>

@@ -353,7 +353,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             {title}
           </h2>
           <p
-            className="mt-3 text-[17px] leading-[1.55]"
+            className="mt-3 text-sm sm:text-base leading-[1.55]"
             style={{ fontFamily: fd, color: "rgb(89, 99, 111)" }}
           >
             {description}
@@ -412,12 +412,9 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             >
               {journeyFrameTitle}
             </p>
-            <h3
-              className="mt-1 text-[20px] font-semibold leading-tight"
-              style={{ fontFamily: fd, color: "rgb(17, 24, 33)" }}
-            >
+            <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
               {roadmapTitle}
-            </h3>
+            </h4>
           </div>
 
           {/* Mobile Vertical Nodes */}
@@ -763,10 +760,8 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 
                       {/* 3. Independent Content Wrapper (Title + Body) */}
                       <div className="px-6 pb-5 pt-0 flex-1 flex flex-col justify-start">
-                        <h4
-                          className="text-[16px] leading-snug mb-1.5"
-                          style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}
-                        >
+                        <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
+
                           {m.title}
                         </h4>
 

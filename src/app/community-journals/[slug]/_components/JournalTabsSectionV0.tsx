@@ -76,7 +76,7 @@ function TabNav({
                 className="relative shrink-0 px-2.5 sm:px-4 py-4 sm:py-6 transition-colors cursor-pointer"
               >
                 <span
-                  className="text-[12px] sm:text-[16px] font-semibold tracking-tight whitespace-nowrap"
+                  className="text-sm sm:text-base font-medium tracking-tight whitespace-nowrap"
                   style={{ fontFamily: fu, color: isActive ? "#111821" : "#8A94A1" }}
                 >
                   {tab}
@@ -268,7 +268,6 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
 
         {/* 4. Final Section ("Start Here") — Rendered Full Width Outside Grid */}
         <div
-          className="mt-16"
           ref={(el) => {
             sectionRefs.current["Start here"] = el;
           }}

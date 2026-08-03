@@ -92,7 +92,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         />
 
         {/* Dynamic White Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 via-40% to-transparent z-10 w-full pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 via-15% to-transparent z-10 w-full pointer-events-none" />
 
         {/* Top Header Bar */}
         <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full mb-4">

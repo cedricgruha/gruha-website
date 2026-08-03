@@ -249,7 +249,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                           </span>
                         )}
                       </div>
-                      <h4 className="text-[18px] leading-[1.3] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                      <h4 className="text-base leading-[1.3] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
                         {item.headline || item.title}
                       </h4>
                       <p className="text-base leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
@@ -273,7 +273,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
           </p>
 
           <div className="grid grid-cols-[1fr_16px_1fr] gap-3 mb-4 pb-3 border-b border-slate-100">
-            <p className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase text-right" style={{ fontFamily: fu, color: "#8A94A1" }}>
+            <p className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase text-right" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
               What they believed
             </p>
             <div />

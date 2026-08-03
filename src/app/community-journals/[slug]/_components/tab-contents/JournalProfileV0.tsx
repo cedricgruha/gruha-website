@@ -114,7 +114,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
         <h2 className="mt-2 text-[clamp(28px,3.6vw,40px)] font-semibold leading-[1.08] tracking-[-0.02em]" style={{ fontFamily: fd, color: "#111821" }}>
           {sectionTitle}
         </h2>
-        <p className="mt-3 text-md leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
+        <p className="mt-3 text-sm sm:text-base leading-[1.55]" style={{ fontFamily: fd, color: "#59636F" }}>
           {sectionDescription}
         </p>
       </div>
@@ -179,7 +179,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 <h3 className="text-[20px] font-semibold leading-tight text-[#111821] mb-1" style={{ fontFamily: fd }}>
                   {p.name} ({p.age})
                 </h3>
-                <p className="text-sm sm:text-base font-medium text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
+                <p className="text-base text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
                   {p.role}
                 </p>
                 <p className="text-sm sm:text-base leading-[1.6] text-[#59636F]" style={{ fontFamily: fu }}>
@@ -195,9 +195,10 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
             className="bg-white border rounded-2xl p-4 sm:p-5 flex flex-col justify-center"
             style={{ borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
           >
-            <p className="text-[19px] font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
+            <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
+
               {sharedVisionTitle}
-            </p>
+            </h4>
             <p className="mt-3 text-sm sm:text-base leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>
               {sharedVisionDescription}
             </p>

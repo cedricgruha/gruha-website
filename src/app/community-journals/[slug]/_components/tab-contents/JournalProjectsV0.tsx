@@ -133,7 +133,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
         <div className="min-w-0">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-3">
-              <p className="text-sm font-semibold tracking-[0.14em] uppercase" style={{ fontFamily: fu, color: "#8A94A1" }}>
+              <p className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase" style={{ fontFamily: fu, color: "#8A94A1" }}>
                 {projectsTitle}
               </p>
               <span className="text-sm font-semibold text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full" style={{ fontFamily: fu }}>
@@ -197,7 +197,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                   <div className="p-5 flex-1 flex flex-col justify-between">
                     <div className="mb-4">
                       <h4
-                        className="text-sm sm:text-base font-medium leading-normal"
+                        className="text-sm sm:text-base font-semibold leading-normal"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}

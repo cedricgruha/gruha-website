@@ -545,7 +545,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                         <div className="flex items-start justify-between gap-2">
                           <div>
                             <h3
-                              className="text-[15px] font-semibold leading-snug transition-colors group-hover:text-[#DD5128]"
+                              className="text-sm sm:text-base font-semibold leading-snug transition-colors group-hover:text-[#DD5128]"
                               style={{ fontFamily: fd, color: isSelected ? "#DD5128" : "#111821" }}
                             >
                               {areaName}
@@ -771,7 +771,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
                   <div className="min-h-[2.5rem] flex items-start mb-1">
                     <p
-                      className="text-xs font-semibold tracking-[0.10em] uppercase text-[#8A94A1]"
+                      className="text-sm font-medium tracking-[0.05em] uppercase text-[#8A94A1]"
                       style={{ fontFamily: fu }}
                     >
                       {itemTitle}
@@ -780,8 +780,8 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
 
                   <p
-                    className="text-base font-medium leading-snug text-[#111821] mb-2"
-                    style={{ fontFamily: fd }}
+                    className="text-base font-semibold leading-snug text-[#111821] mb-2"
+                    style={{ fontFamily: fd, color: "#111821" }}
                   >
                     {itemValue}
                   </p>
