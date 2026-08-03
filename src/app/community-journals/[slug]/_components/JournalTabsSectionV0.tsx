@@ -268,6 +268,7 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
 
         {/* 4. Final Section ("Start Here") — Rendered Full Width Outside Grid */}
         <div
+          className="mt-16"
           ref={(el) => {
             sectionRefs.current["Start here"] = el;
           }}

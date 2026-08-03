@@ -213,7 +213,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
     : ((costOfSearchStats && costOfSearchStats.length > 0) ? costOfSearchStats : defaultCostOfSearchStats);
 
   return (
-    <section id="section-search" className="pt-0 sm:pt-10">
+    <section id="section-search">
       <div className="text-left mb-7">
         <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}
@@ -566,12 +566,12 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                               className="w-2 h-2 rounded-full flex-none"
                               style={{ backgroundColor: dotColor }}
                             />
-                            <span>{projectsCount} Projects</span>
+                            <span className="text-xs sm:text-sm">{projectsCount} Projects</span>
                           </div>
                           <span>•</span>
                           <div className="flex items-center gap-1">
                             <Icons.Eye className="w-3 h-3 text-slate-400" />
-                            <span>{visitsCount} Site visits</span>
+                            <span className="text-xs sm:text-sm">{visitsCount} Site visits</span>
                           </div>
                         </div>
                       </div>
@@ -769,7 +769,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                 <div key={itemTitle + idx} className="rounded-xl border border-slate-100 p-5 flex flex-col bg-[#f8fafc] h-full">
                   <span className="text-[#DD5128] mb-2">{iconElement}</span>
 
-                  <div className="min-h-[2.5rem] flex items-start mb-1">
+                  <div className="flex items-start mb-1">
                     <p
                       className="text-sm font-medium tracking-[0.05em] uppercase text-[#8A94A1]"
                       style={{ fontFamily: fu }}

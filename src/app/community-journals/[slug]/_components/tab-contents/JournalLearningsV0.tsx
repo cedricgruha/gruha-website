@@ -162,7 +162,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
     : defaultClosureLessons;
 
   return (
-    <section id="section-learnings" className="pt-0 sm:pt-10 pb-10">
+    <section id="section-learnings">
       <div className="text-left mb-7">
         <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {eyebrow}
@@ -266,32 +266,58 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
         {/* How thinking changed */}
         <div
           className="bg-white border px-6 sm:px-8 py-8"
-          style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
+          style={{
+            borderRadius: 14,
+            borderColor: "#E4E9EF",
+            boxShadow:
+              "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",
+          }}
         >
-          <p className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p
+            className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-6"
+            style={{ fontFamily: fu, color: "#8A94A1" }}
+          >
             {thinkingChangedTitle}
           </p>
 
+          {/* Header Titles using Newsreader font (fd) */}
           <div className="grid grid-cols-[1fr_16px_1fr] gap-3 mb-4 pb-3 border-b border-slate-100">
-            <p className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase text-right" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+            <p
+              className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase text-right"
+              style={{ fontFamily: fd, color: "#111821" }}
+            >
               What they believed
             </p>
             <div />
-            <p className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
+            <p
+              className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase"
+              style={{ fontFamily: fd, color: "#DD5128" }}
+            >
               What they know now
             </p>
           </div>
 
+          {/* List Items using Normal font (fu) */}
           <div className="flex flex-col divide-y divide-slate-100">
             {displayThinking.map(({ before, after }: any) => (
-              <div key={before} className="grid grid-cols-[1fr_16px_1fr] gap-3 items-center py-5">
-                <p className="text-base leading-[1.4] text-right line-through decoration-slate-300" style={{ fontFamily: fd, color: "#94A3B8" }}>
+              <div
+                key={before}
+                className="grid grid-cols-[1fr_16px_1fr] gap-3 items-center py-5"
+              >
+                <p
+                  className="text-base leading-[1.4] text-right line-through decoration-slate-300"
+                  style={{ fontFamily: fu, color: "#94A3B8" }}
+                >
                   {before}
                 </p>
-                <p className="text-center text-sm sm:text-base" style={{ color: "#CBD5E1" }}>
+                <p className="text-center text-sm sm:text-base" style={{ fontFamily: fu, color: "#CBD5E1" }}
+                >
                   →
                 </p>
-                <p className="text-base leading-[1.4]" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                <p
+                  className="text-base leading-[1.4]"
+                  style={{ fontFamily: fu, color: "#111821", fontWeight: 500 }}
+                >
                   {after}
                 </p>
               </div>
@@ -312,7 +338,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
             >
               <div className="h-[180px] overflow-hidden bg-slate-50 flex items-center justify-center p-4 relative">
-                <Image src={cardImg} alt={cardTitle} fill className="object-contain rounded-lg p-4" />
+                <Image src={cardImg} alt={cardTitle} fill className="object-cover rounded-lg p-4" />
               </div>
               <div className="px-6 py-5">
                 <h4 className="text-base sm:text-lg leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>

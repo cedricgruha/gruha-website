@@ -179,7 +179,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                 <h3 className="text-[20px] font-semibold leading-tight text-[#111821] mb-1" style={{ fontFamily: fd }}>
                   {p.name} ({p.age})
                 </h3>
-                <p className="text-base text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
+                <p className="text-[15px] text-[#8A94A1] mb-3" style={{ fontFamily: fu }}>
                   {p.role}
                 </p>
                 <p className="text-sm sm:text-base leading-[1.6] text-[#59636F]" style={{ fontFamily: fu }}>

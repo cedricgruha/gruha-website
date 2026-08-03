@@ -5,170 +5,194 @@ import Image from "next/image";
 import * as Icons from "lucide-react";
 import imgHero from "@/imports/testy.jpg";
 
-const fd = "'Newsreader', Georgia, serif";
-const fu = "'Inter Tight', system-ui, sans-serif";
-
 export const getIcon = (
   name?: string,
   defaultName = "HelpCircle",
-  props: any = { className: "w-4 h-4", strokeWidth: 2 }
+  props: any = { className: "w-5 h-5 text-[#FF7E57]", strokeWidth: 2 }
 ) => {
   if (!name) return null;
   const Icon = (Icons as any)[name] || (Icons as any)[defaultName] || Icons.HelpCircle;
   return <Icon {...props} />;
 };
 
+export interface LearningItem {
+  icon?: string;
+  text: string;
+}
+
 export interface JournalHeroV0Props {
   title?: string;
   heroTitle?: string;
   description?: string;
   learningsLabel?: string;
-  learnings?: Array<{ icon?: string; text: string } | string>;
+  learnings?: LearningItem[];
   readTime?: string;
   updatedOn?: string;
   heroImage?: any;
-  startJournalText?: string;
-  adaptJournalText?: string;
+  quoteText?: string;
   heroImgWrapRef?: RefObject<HTMLDivElement | null>;
-  onStartJournal?: () => void;
-  onAdaptJournal?: () => void;
 }
 
 export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   title,
   heroTitle,
   description,
-  learningsLabel = "WHAT YOU'LL LEARN FROM THIS JOURNEY",
-  learnings = [],
-  readTime = "14 min read",
+  learningsLabel = "What you'll learn from this journey",
+  learnings,
+  readTime = "12 min read",
   updatedOn = "Updated on July 2026",
   heroImage,
+  quoteText = `"Everyone says buy. Nobody says how to stop being scared."`,
   heroImgWrapRef,
 }) => {
-  const displayTitle = heroTitle || title || "The Twelve Keys Journal";
+  const displayTitle = heroTitle || title || "The Sixteenth Floor\nDream Journal.";
   const displayDescription =
     description ||
-    "Priyanka Bhat's (35) micro-stay portfolio expansion across HSR, Bellandur & Manyata — underwriting ready builder-held studios against 7%+ net yields, RWA bye-laws, and corporate demand.";
+    "The story of Pavan & Shruti Kulal's first home purchase journey in Bengaluru — a young couple navigating budget, fear, and a future built together.";
   const displayHeroImage = heroImage || imgHero;
 
-  const defaultLearnings = [
-    { icon: "TrendingUp", text: "Underwrite net-yield at 7%+ post-OTA, housekeeping, and maintenance fees" },
-    { icon: "ShieldCheck", text: "Audit RWA bye-laws and last 3 AGM minutes before submitting token advance" },
-    { icon: "Layers", text: "Split inventory across ORR and Manyata corridors to cut hybrid-work concentration risk" },
+  const defaultLearnings: LearningItem[] = [
+    { icon: "Wallet", text: "Stretch your budget without regret" },
+    { icon: "Building2", text: "Decide between ready vs under construction" },
+    { icon: "Users", text: "Manage home buying before becoming parents" },
   ];
 
-  const displayLearnings = learnings.length > 0 ? learnings : defaultLearnings;
+  const displayLearnings = learnings && learnings.length > 0 ? learnings : defaultLearnings;
 
   return (
-    <div className="w-full flex flex-col items-center pb-8">
+    <div className="w-full flex flex-col items-center pb-8 font-['Inter']">
       {/* Breadcrumb Navigation */}
-      <nav className="w-full max-w-[1376px] flex items-center gap-2 text-sm mt-5 mb-6 px-2" style={{ fontFamily: fu }}>
+      <nav className="w-full max-w-[1225px] flex items-center gap-2 text-sm mt-5 mb-6 px-1">
         <a href="/" className="flex items-center gap-1.5 text-slate-500 hover:text-slate-800 transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 001 1m-6 0h6" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
-          </svg>
+          <Icons.Home className="w-4 h-4" />
           Home
         </a>
         <span className="text-slate-300">/</span>
-        <a href="/community-journals" className="text-slate-500 hover:text-slate-800 transition-colors">All Journals</a>
+        <a href="/community-journals" className="text-slate-500 hover:text-slate-800 transition-colors">
+          All Journals
+        </a>
         <span className="text-slate-300">/</span>
         <span className="font-semibold text-slate-900 truncate max-w-[280px] md:max-w-[420px]">
           {displayTitle.replace("\n", " ")}
         </span>
       </nav>
 
-      {/* Hero Banner Box */}
+      {/* Main Frame Outer Box */}
       <div
         ref={heroImgWrapRef}
-        className="relative w-full max-w-[1376px] min-h-[480px] rounded-[32px] overflow-hidden flex flex-col justify-between p-6 md:p-10 shadow-sm bg-white shrink-0 border-none"
+        className="relative w-full max-w-[1225px] h-auto min-h-[593px] rounded-[24px] overflow-hidden flex flex-col justify-between p-8 md:p-12 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
       >
-        {/* Background Cover Image */}
+        {/* Background Image */}
         <Image
           src={displayHeroImage}
           alt={displayTitle.replace("\n", " ")}
           fill
-          className="object-cover object-[82%_center] z-0"
+          className="object-cover object-right z-0"
           priority
         />
 
-        {/* Dynamic White Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 via-15% to-transparent z-10 w-full pointer-events-none" />
+        {/* 1. Backdrop Blur Layer (Fades blur out from left to right) */}
+        <div
+          className="absolute inset-0 z-[5] pointer-events-none backdrop-blur-[12px]"
+          style={{
+            WebkitMaskImage: "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 35%, rgba(0,0,0,0) 65%)",
+            maskImage: "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 35%, rgba(0,0,0,0) 65%)",
+          }}
+        />
 
-        {/* Top Header Bar */}
-        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full mb-4">
+        {/* 2. Soft Warm Gradient Tint Layer */}
+        <div
+          className="absolute inset-0 z-10 pointer-events-none"
+          style={{
+            background:
+              "linear-gradient(88.46deg, rgba(255, 249, 243, 0.75) 15%, rgba(255, 249, 243, 0.45) 40%, rgba(255, 249, 243, 0) 65%)",
+          }}
+        />
+
+        {/* Top Floating Tags Container */}
+        <div className="relative z-20 flex flex-wrap items-center justify-between gap-4 w-full mb-6">
           {/* Category Badges */}
           <div className="flex items-center gap-2">
-            <span
-              className="px-4 py-1.5 rounded-full text-xs font-semibold bg-black text-white"
-              style={{ fontFamily: fu }}
-            >
+            <span className="px-3 py-1 rounded-[48px] text-xs font-medium bg-black text-white leading-4">
               Community
             </span>
-            <span
-              className="px-4 py-1.5 rounded-full text-xs font-semibold bg-black text-white"
-              style={{ fontFamily: fu }}
-            >
+            <span className="px-3 py-1 rounded-[48px] text-xs font-medium bg-black text-white leading-4">
               The First-EMI Family
             </span>
           </div>
 
-          {/* Read Time & Updated Date */}
-          <div className="flex items-center gap-2 text-xs font-medium text-slate-800">
-            <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md shadow-xs border border-white/80">
-              <Icons.Clock className="w-3.5 h-3.5 text-slate-700" />
+          {/* Read Time & Updated Date Badges */}
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 px-3 py-2 rounded-[4px] bg-white/80 backdrop-blur-md text-xs font-semibold text-black shadow-xs">
+              <Icons.Clock className="w-4 h-4 text-[#334155]" />
               <span>{readTime}</span>
             </div>
-            <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md shadow-xs border border-white/80">
-              <Icons.Calendar className="w-3.5 h-3.5 text-slate-700" />
+            <div className="flex items-center gap-2 px-3 py-2 rounded-[4px] bg-white/80 backdrop-blur-md text-xs font-semibold text-black shadow-xs">
+              <Icons.CalendarCheck className="w-4 h-4 text-[#334155]" />
               <span>{updatedOn}</span>
             </div>
           </div>
         </div>
 
-        {/* Main Content Body */}
-        <div className="relative z-20 max-w-[725px] pr-4 my-auto py-1">
-          <h1
-            className="text-4xl sm:text-5xl lg:text-[50px] font-normal leading-[1.08] tracking-tight text-slate-900 mb-3.5 whitespace-pre-line"
-            style={{ fontFamily: fd }}
-          >
-            {displayTitle}
-          </h1>
+        {/* Center Main Content Container */}
+        <div className="relative z-20 max-w-[623px] flex flex-col gap-5 my-auto">
+          {/* Main Title & Description Wrapper */}
+          <div className="flex flex-col gap-3">
+            <h1
+              className="text-[40px] md:text-[48px] font-normal leading-[54px] text-black whitespace-pre-line"
+              style={{ fontFamily: "'Fraunces', Georgia, serif" }}
+            >
+              {displayTitle}
+            </h1>
 
-          <p
-            className="text-base leading-relaxed text-slate-700 font-normal mb-4 w-full"
-            style={{ fontFamily: fu }}
-          >
-            {displayDescription}
-          </p>
+            <p className="text-base leading-6 font-medium text-[#334155] max-w-[623px]">
+              {displayDescription}
+            </p>
+          </div>
 
           {/* Featured Quote */}
-          <div className="border-l-2 border-[#FE5B39] pl-4 py-0.5 italic text-slate-800 text-lg font-serif">
-            "Everyone says buy. Nobody says how to stop being scared."
-          </div>
+          {quoteText && (
+            <div className="pl-6 border-l-[4px] border-[#FF7E57] py-1">
+              <p
+                className="text-xl font-normal leading-[28px] italic text-[#334155] max-w-[343px]"
+                style={{ fontFamily: "'Fraunces', Georgia, serif" }}
+              >
+                {quoteText}
+              </p>
+            </div>
+          )}
         </div>
 
-        {/* Bottom Banner Card: What You'll Learn */}
-        <div className="relative z-20 w-full max-w-[725px] rounded-[12px] p-5 sm:p-6 backdrop-blur-[12px] bg-[linear-gradient(270.21deg,rgba(240,253,250,0.084)-34.81%,rgba(254,254,254,0.65)15.1%)] border border-white/60 shadow-xs mt-4">
-          <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#FE5B39] leading-[17px] mb-3 font-inter">
+        {/* Bottom Glassmorphic Card Container */}
+        <div
+          className="relative z-20 w-full max-w-[725px] rounded-[12px] p-6 flex flex-col gap-4 mt-8 border border-white/40 shadow-xs"
+          style={{
+            background:
+              "linear-gradient(270.21deg, rgba(240, 253, 250, 0.084) -34.81%, rgba(254, 254, 254, 0.6) 15.1%)",
+            backdropFilter: "blur(12px)",
+            WebkitBackdropFilter: "blur(12px)",
+          }}
+        >
+          {/* Header Title */}
+          <h4 className="text-sm font-semibold leading-[17px] text-[#FE5B39]">
             {learningsLabel}
           </h4>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-start">
-            {displayLearnings.map((item: any, i: number) => {
-              const text = typeof item === "string" ? item : item.text;
-              const iconName = typeof item === "object" ? item.icon : undefined;
-
-              return (
-                <div key={i} className="flex items-start gap-2.5">
-                  <div className="p-1.5 rounded-lg bg-[#FFF2EE] text-[#FE5B39] shrink-0 mt-0.5">
-                    {getIcon(iconName, "Sparkles", { className: "w-4 h-4", strokeWidth: 2 })}
-                  </div>
-                  <span className="text-[12px] sm:text-[13px] font-medium leading-snug text-[#334155] font-inter">
-                    {text}
-                  </span>
+          {/* Items Row Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 items-center">
+            {displayLearnings.map((item, i) => (
+              <div key={i} className="flex items-center gap-3">
+                <div className="flex items-center justify-center w-6 h-6 shrink-0">
+                  {getIcon(item.icon, "Sparkles", {
+                    className: "w-5 h-5 text-[#FF7E57]",
+                    strokeWidth: 2,
+                  })}
                 </div>
-              );
-            })}
+                <span className="text-sm font-semibold leading-[17px] text-[#334155]">
+                  {item.text}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

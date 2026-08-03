@@ -115,7 +115,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
   const sectionTagline = tagline || eyebrow;
 
   return (
-    <section id="section-projects" className="pt-0 sm:pt-10">
+    <section id="section-projects">
       <div className="text-left mb-7">
         <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>
           {sectionTagline}
@@ -141,24 +141,26 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
               </span>
             </div>
 
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={prev}
-                className="w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:bg-slate-50 active:scale-95 transition-all cursor-pointer shadow-2xs"
-                aria-label="Previous Project"
-              >
-                <ChevronLeft className="w-4 h-4" />
-              </button>
-              <button
-                type="button"
-                onClick={next}
-                className="w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:bg-slate-50 active:scale-95 transition-all cursor-pointer shadow-2xs"
-                aria-label="Next Project"
-              >
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
+            {displayProjects.length > 3 && (
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={prev}
+                  className="w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:bg-slate-50 active:scale-95 transition-all cursor-pointer shadow-2xs"
+                  aria-label="Previous Project"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={next}
+                  className="w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-600 hover:bg-slate-50 active:scale-95 transition-all cursor-pointer shadow-2xs"
+                  aria-label="Next Project"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            )}
           </div>
 
           {/* Cards Grid */}

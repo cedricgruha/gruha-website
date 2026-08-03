@@ -86,39 +86,77 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
   const displayChecklist = checklistItems.length > 0 ? checklistItems : defaultChecklistItems;
 
   return (
-    <section id="section-start-here" className="w-full pt-0 sm:pt-10 ">
+    <section id="section-start-here" className="w-full">
       <div className="flex flex-col items-start text-left">
-        <p className="text-md font-semibold tracking-[0.18em] uppercase mb-5" style={{ fontFamily: fu, color: "#C45D3A" }}>
+        <p className="text-md font-semibold tracking-[0.18em] uppercase mb-2" style={{ fontFamily: fu, color: "#C45D3A" }}>
           {tagline}
         </p>
-        <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-6 max-w-[720px]" style={{ fontFamily: fd, color: "#111821" }}>
+        <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-3 max-w-[720px]" style={{ fontFamily: fd, color: "#111821" }}>
           {title}
         </h2>
-        <p className="text-base leading-relaxed  mb-10" style={{ fontFamily: fd, color: "#6B7280" }}>
+        <p className="text-base leading-relaxed  mb-7" style={{ fontFamily: fd, color: "#6B7280" }}>
           {description}
         </p>
 
         {/* Checklist card */}
         <div
           className="w-full bg-white border px-6 sm:px-10 py-8 text-left"
-          style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
+          style={{
+            borderRadius: 14,
+            borderColor: "#E4E9EF",
+            boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",
+          }}
         >
-          <p className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-6" style={{ fontFamily: fu, color: "#8A94A1" }}>
+          <p
+            className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-6"
+            style={{ fontFamily: fu, color: "#8A94A1" }}
+          >
             {checklistTitle}
           </p>
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-8 gap-y-4">
-            {displayChecklist.map((item: any, i: number) => {
-              const text = typeof item === "string" ? item : (item?.title || item?.text || item?.desc || "");
+
+          {/* Split array into 2 halves for left and right columns */}
+          {(() => {
+            const midPoint = Math.ceil(displayChecklist.length / 2);
+            const leftColumn = displayChecklist.slice(0, midPoint);
+            const rightColumn = displayChecklist.slice(midPoint);
+
+            const renderItem = (item: any, i: number) => {
+              const text =
+                typeof item === "string"
+                  ? item
+                  : item?.title || item?.text || item?.desc || "";
+
               return (
                 <div key={i} className="flex items-start gap-3">
-                  <Icons.BadgeCheck size={15} className="mt-1.5 flex-none" style={{ color: "#DD5128" }} />
-                  <span className="text-base leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
+                  <Icons.BadgeCheck
+                    size={15}
+                    className="mt-1 flex-none"
+                    style={{ color: "#DD5128" }}
+                  />
+                  <span
+                    className="text-base leading-[1.65]"
+                    style={{ fontFamily: fu, color: "#59636F" }}
+                  >
                     {text}
                   </span>
                 </div>
               );
-            })}
-          </div>
+            };
+
+            return (
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-12 gap-y-5">
+                {/* Left Column Stack */}
+                <div className="flex flex-col gap-y-5">
+                  {leftColumn.map((item: any, i: number) => renderItem(item, i))}
+                </div>
+
+                {/* Right Column Stack */}
+                <div className="flex flex-col gap-y-5">
+                  {rightColumn.map((item: any, i: number) => renderItem(item, i))}
+                </div>
+              </div>
+            );
+          })()}
         </div>
 
         {/* How it works cards */}
@@ -147,7 +185,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                   }}
                 >
                   <div className="flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
-                    <Image src={stepImg} alt={step.title} fill className="object-contain rounded-lg p-5" />
+                    <Image src={stepImg} alt={step.title} fill className="object-cover rounded-lg p-5" />
                   </div>
                   <div className="px-6 py-5">
                     <p className="text-sm sm:text-base font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
