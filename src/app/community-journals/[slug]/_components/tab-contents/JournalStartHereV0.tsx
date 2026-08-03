@@ -94,7 +94,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
         <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-6 max-w-[720px]" style={{ fontFamily: fd, color: "#111821" }}>
           {title}
         </h2>
-        <p className="text-base leading-relaxed max-w-[560px] mb-10" style={{ fontFamily: fd, color: "#6B7280" }}>
+        <p className="text-base leading-relaxed  mb-10" style={{ fontFamily: fd, color: "#6B7280" }}>
           {description}
         </p>
 
