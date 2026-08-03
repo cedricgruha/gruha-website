@@ -185,7 +185,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                   }}
                 >
                   <div className="flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
-                    <Image src={stepImg} alt={step.title} fill className="object-cover rounded-lg p-5" />
+                    <Image src={stepImg} alt={step.title} fill className="object-cover rounded-lg" />
                   </div>
                   <div className="px-6 py-5">
                     <p className="text-sm sm:text-base font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>

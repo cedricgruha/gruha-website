@@ -10,6 +10,7 @@
     ],
     "segment": "INVESTORS & WEALTH",
     "image": "/journals/cover/1.jpg",
+    "imagePosition": "object-[right_center]",
     "views": 14292,
     "copies": 506,
     "path": "community-journals/the-quiet-crorepatis"
@@ -24,7 +25,8 @@
       "Bengaluru"
     ],
     "segment": "INVESTORS & WEALTH",
-    "image": "/journals/cover/2.png",
+    "image": "/journals/cover/2.jpg",
+    "imagePosition": "object-[right_center]",
     "views": 13422,
     "copies": 101,
     "path": "community-journals/the-spreadsheet-deployer"
@@ -54,7 +56,8 @@
       "Bengaluru"
     ],
     "segment": "INVESTORS & WEALTH",
-    "image": "/journals/cover/4.png",
+    "image": "/journals/cover/4.jpg",
+    "imagePosition": "object-[right_center]",
     "views": 5475,
     "copies": 191,
     "path": "community-journals/the-bhoomi-to-bengaluru-journal"
@@ -69,7 +72,8 @@
       "ORR"
     ],
     "segment": "INVESTORS & WEALTH",
-    "image": "/journals/cover/5.png",
+    "image": "/journals/cover/5.jpg",
+    "imagePosition": "object-[right_center]",
     "views": 21227,
     "copies": 514,
     "path": "community-journals/the-twelve-keys-journal"

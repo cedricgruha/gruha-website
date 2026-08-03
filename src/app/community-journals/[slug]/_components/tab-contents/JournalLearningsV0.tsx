@@ -338,7 +338,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
             >
               <div className="h-[180px] overflow-hidden bg-slate-50 flex items-center justify-center p-4 relative">
-                <Image src={cardImg} alt={cardTitle} fill className="object-cover rounded-lg p-4" />
+                <Image src={cardImg} alt={cardTitle} fill className="object-cover rounded-lg" />
               </div>
               <div className="px-6 py-5">
                 <h4 className="text-base sm:text-lg leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
