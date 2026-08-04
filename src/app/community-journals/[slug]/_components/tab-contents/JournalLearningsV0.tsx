@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+import BlurTintImage from "@/components/ui/BlurTintImage";
 import * as Icons from "lucide-react";
 import imgClosure1 from "@/imports/1-1.png";
 import imgClosure2 from "@/imports/2-1.png";
@@ -249,7 +249,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
                           </span>
                         )}
                       </div>
-                      <h4 className="text-base leading-[1.3] mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                      <h4 className="text-base leading-[1.3] mb-1.5 font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
                         {item.headline || item.title}
                       </h4>
                       <p className="text-base leading-[1.65]" style={{ fontFamily: fu, color: "#59636F" }}>
@@ -337,11 +337,14 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               className="bg-white border overflow-hidden flex flex-col"
               style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
             >
-              <div className="h-[180px] overflow-hidden bg-slate-50 flex items-center justify-center p-4 relative">
-                <Image src={cardImg} alt={cardTitle} fill className="object-cover rounded-lg" />
-              </div>
+              <BlurTintImage
+                src={cardImg}
+                alt={cardTitle}
+                height={180}
+                imageClassName=""
+              />
               <div className="px-6 py-5">
-                <h4 className="text-base sm:text-lg leading-tight mb-2" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                <h4 className="text-base sm:text-lg leading-tight mb-2 font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
                   {cardTitle}
                 </h4>
                 <p className="text-base leading-[1.6]" style={{ fontFamily: fu, color: "#59636F" }}>

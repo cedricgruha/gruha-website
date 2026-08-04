@@ -1,7 +1,7 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
+import React from "react";
 import * as Icons from "lucide-react";
 import imgStartHere1 from "@/imports/start-here-1.png";
 import imgStartHere2 from "@/imports/start-here-2.png";
@@ -185,13 +185,13 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                   }}
                 >
                   <div className="flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
-                    <Image src={stepImg} alt={step.title} fill className="object-cover rounded-lg" />
+                    <Image src={stepImg} alt={step.title} fill className="object-contain bg-white rounded-lg" />
                   </div>
                   <div className="px-6 py-5">
                     <p className="text-sm sm:text-base font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
                       {displayNum}
                     </p>
-                    <h4 className="text-sm sm:text-base mb-1.5" style={{ fontFamily: fd, color: "#111821", fontWeight: 500 }}>
+                    <h4 className="text-sm sm:text-base mb-1.5 font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
                       {step.title}
                     </h4>
                     <p className="text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>

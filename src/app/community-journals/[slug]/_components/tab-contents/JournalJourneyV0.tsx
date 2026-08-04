@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import Image from "next/image";
 import { Play, Pause } from "lucide-react";
 import * as Icons from "lucide-react";
 import imgMoment1 from "@/imports/1.png";
 import imgMoment2 from "@/imports/2.png";
 import imgMoment3 from "@/imports/3.png";
 import AgentCardSlider, { AgentCardItem } from "./JournalAgentCardStack";
+import BlurTintImage from "@/components/ui/BlurTintImage";
 
 const fd = "'Newsreader', Georgia, serif";
 const fu = "'Inter Tight', system-ui, sans-serif";
@@ -749,9 +749,12 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     className="bg-white border overflow-hidden flex flex-col"
                     style={{ borderRadius: 14, borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
                   >
-                    <div className="flex-1 flex items-center justify-center pt-5 px-5 bg-slate-50/60 relative min-h-[160px]">
-                      <Image src={momentImg} alt={m.title} fill className="object-cover rounded-lg" />
-                    </div>
+                    {/* Image tile with blurred self-tint backdrop */}
+                    <BlurTintImage
+                      src={momentImg}
+                      alt={bodyText}
+                      height={180}
+                    />
                     <div className="px-6 pt-5 pb-1 flex-none">
                         <p className="text-sm sm:text-base font-semibold" style={{ fontFamily: fu, color: "#DD5128" }}>
                           {String(idx + 1).padStart(2, "0")}

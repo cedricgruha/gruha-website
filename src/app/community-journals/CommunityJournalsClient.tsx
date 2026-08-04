@@ -16,7 +16,7 @@ interface JournalCard {
   tags: string[];
   segment: string;
   image: string;
-  imagePosition: string;
+  imagePosition?: string;
   views?: number;
   copies?: number;
   path?: string;
