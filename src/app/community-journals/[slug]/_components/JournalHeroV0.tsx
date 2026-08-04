@@ -63,24 +63,67 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
     <div className="w-full flex flex-col items-center pb-8 font-['Inter']">
       {/* Breadcrumb Navigation */}
       <nav className="w-full max-w-[1225px] flex items-center gap-2 text-sm mt-5 mb-6 px-1">
-        <a href="/" className="flex items-center gap-1.5 text-slate-500 hover:text-slate-800 transition-colors">
+        <a href="/" className="text-xs sm:text-sm flex items-center gap-1.5 text-slate-500 hover:text-slate-800 transition-colors">
           <Icons.Home className="w-4 h-4" />
           Home
         </a>
         <span className="text-slate-300">/</span>
-        <a href="/community-journals" className="text-slate-500 hover:text-slate-800 transition-colors">
+        <a href="/community-journals" className="text-xs sm:text-sm text-slate-500 hover:text-slate-800 transition-colors truncate max-w-[280px] md:max-w-[420px]">
           All Journals
         </a>
         <span className="text-slate-300">/</span>
-        <span className="font-semibold text-slate-900 truncate max-w-[280px] md:max-w-[420px]">
+        <span className="text-xs sm:text-sm font-semibold text-slate-900 truncate max-w-[280px] md:max-w-[420px]">
           {displayTitle.replace("\n", " ")}
         </span>
       </nav>
 
-      {/* Main Frame Outer Box */}
+      {/* Mobile View (Stacked Layout) */}
+      <div className="flex md:hidden flex-col w-full px-2 sm:px-4 gap-5 mb-6">
+        {/* Top Badges */}
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">Community</span>
+          <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">The First-EMI Family</span>
+          <div className="flex items-center gap-1 text-[11px] font-medium text-slate-500 ml-auto">
+            <Icons.Clock className="w-3.5 h-3.5 text-[#FF7E57]" />
+            <span>{readTime}</span>
+          </div>
+        </div>
+
+        {/* Title & Description */}
+        <h1
+          className="text-[32px] font-normal leading-[38px] text-black whitespace-pre-line"
+          style={{ fontFamily: "'Fraunces', Georgia, serif" }}
+        >
+          {displayTitle}
+        </h1>
+
+        <p className="text-sm leading-6 font-medium text-[#334155]">
+          {displayDescription}
+        </p>
+
+        {/* Cover Image */}
+        <div className="relative w-full h-[240px] rounded-2xl overflow-hidden shadow-sm">
+          <Image src={displayHeroImage} alt={displayTitle.replace("\n", " ")} fill className="object-cover" priority />
+        </div>
+
+        {/* Learnings Box */}
+        <div className="w-full rounded-2xl p-5 bg-[#FFF9F3] border border-[#FF7E57]/20 flex flex-col gap-3">
+          <h4 className="text-xs font-bold tracking-wider uppercase text-[#FE5B39]">{learningsLabel}</h4>
+          <div className="flex flex-col gap-3">
+            {displayLearnings.map((item, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <div className="shrink-0 mt-0.5">{getIcon(item.icon, "Sparkles", { className: "w-4 h-4 text-[#FF7E57]" })}</div>
+                <span className="text-xs font-semibold leading-relaxed text-[#334155]">{item.text}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Main Frame Outer Box (Desktop Layout - Untouched) */}
       <div
         ref={heroImgWrapRef}
-        className="relative w-full max-w-[1225px] h-auto min-h-[593px] rounded-[24px] overflow-hidden flex flex-col justify-between p-8 md:p-12 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
+        className="hidden md:flex relative w-full max-w-[1225px] h-auto min-h-[593px] rounded-[24px] overflow-hidden flex-col justify-between p-8 md:p-12 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
       >
         {/* Background Image */}
         <Image
