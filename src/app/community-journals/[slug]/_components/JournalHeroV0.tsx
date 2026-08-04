@@ -29,6 +29,7 @@ export interface JournalHeroV0Props {
   readTime?: string;
   updatedOn?: string;
   heroImage?: any;
+  imagePosition?: string;
   quoteText?: string;
   heroImgWrapRef?: RefObject<HTMLDivElement | null>;
 }
@@ -42,6 +43,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   readTime = "12 min read",
   updatedOn = "Updated on July 2026",
   heroImage,
+  imagePosition,
   quoteText = `"Everyone says buy. Nobody says how to stop being scared."`,
   heroImgWrapRef,
 }) => {
@@ -103,7 +105,13 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
 
         {/* Cover Image */}
         <div className="relative w-full h-[240px] rounded-2xl overflow-hidden shadow-sm">
-          <Image src={displayHeroImage} alt={displayTitle.replace("\n", " ")} fill className="object-cover" priority />
+          <Image
+            src={displayHeroImage}
+            alt={displayTitle.replace("\n", " ")}
+            fill
+            className={`object-cover ${imagePosition || "object-center"}`}
+            priority
+          />
         </div>
 
         {/* Learnings Box */}
