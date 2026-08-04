@@ -139,6 +139,8 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "title": "How their journey actually unfolded.",
       "description": "From 6.4% FD renewals and the 41-question ledger to walking away twice and closing Brigade Gardenia in 32 days.",
+      "journeyFrameTitle": "WALKED AWAY TWICE",
+      "roadmapTitle": "How quiet savers closed Brigade Gardenia in 32 days",
       "metrics": [
         {
           "icon": "Briefcase",

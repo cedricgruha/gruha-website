@@ -151,6 +151,8 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "title": "How their journey actually unfolded.",
       "description": "From 6 years of emotional stasis to a 90-day builder window, three time zones, and a unanimous Joint Development agreement.",
+      "journeyFrameTitle": "ONE HOUSE, THREE SHARES",
+      "roadmapTitle": "How three siblings split one house without rupture",
       "metrics": [
         {
           "icon": "Briefcase",
