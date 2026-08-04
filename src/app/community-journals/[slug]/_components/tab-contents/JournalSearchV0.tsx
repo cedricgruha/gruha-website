@@ -2,8 +2,12 @@
 
 import React, { useState, useMemo } from "react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import * as Icons from "lucide-react";
 import imgSearchMap from "@/imports/Container.png";
+
+// Leaflet must not run during SSR/static generation — load it client-only.
+const JournalMapV0 = dynamic(() => import("./JournalMapV0"), { ssr: false });
 
 const fd = "'Newsreader', Georgia, serif";
 const fu = "'Inter Tight', system-ui, sans-serif";
@@ -134,7 +138,9 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
     return filtered.length > 0 ? filtered : defaultExploredAreas;
   }, [exploredAreas]);
 
-  // Compute SVG canvas projected points, centroids, and bounding box center
+  // Attach a stable areaId + a geodesic hexagon (drawn as a Leaflet Polygon) to
+  // each explored area, and compute the bounding centre for the map default.
+  // Leaflet projects/renders the polygons so they stay glued at every zoom level.
   const { areasWithPoints, centerLat, centerLng } = useMemo(() => {
     if (exploredAreasList.length === 0) {
       return { areasWithPoints: [], centerLat: 12.9716, centerLng: 77.5946 };
@@ -142,54 +148,35 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
     const lats = exploredAreasList.map((a) => a.latlong.lat);
     const lngs = exploredAreasList.map((a) => a.latlong.lng);
+    const avgLat = (Math.min(...lats) + Math.max(...lats)) / 2;
+    const avgLng = (Math.min(...lngs) + Math.max(...lngs)) / 2;
 
-    const minLat = Math.min(...lats);
-    const maxLat = Math.max(...lats);
-    const minLng = Math.min(...lngs);
-    const maxLng = Math.max(...lngs);
-
-    const latSpan = maxLat - minLat || 0.04;
-    const lngSpan = maxLng - minLng || 0.04;
-
-    const paddedMinLat = minLat - latSpan * 0.3;
-    const paddedMaxLat = maxLat + latSpan * 0.3;
-    const paddedMinLng = minLng - lngSpan * 0.3;
-    const paddedMaxLng = maxLng + lngSpan * 0.3;
-
-    const avgLat = (minLat + maxLat) / 2;
-    const avgLng = (minLng + maxLng) / 2;
-
+    // ~1.2km “zone” radius, in degrees of latitude. Longitude is Mercator-
+    // stretched by 1/cos(lat) so the hexagon stays roughly circular on the map.
+    const rLat = 0.011;
+    const rLng = rLat / Math.max(0.2, Math.cos((avgLat * Math.PI) / 180));
     const angles = [0, 60, 120, 180, 240, 300];
     const offsets = [1.1, 0.85, 1.05, 0.9, 1.15, 0.95];
 
     const processed = exploredAreasList.map((area, idx) => {
       const lat = area.latlong.lat;
       const lng = area.latlong.lng;
-
-      // Project longitude to X (120 to 880 inside 1000 viewBox)
-      const cx = Math.round(
-        ((lng - paddedMinLng) / (paddedMaxLng - paddedMinLng)) * 740 + 130
-      );
-      // Project latitude to Y (500 to 120, inverted for SVG coordinate space)
-      const cy = Math.round(
-        500 - ((lat - paddedMinLat) / (paddedMaxLat - paddedMinLat)) * 380
-      );
-
-      const r = 54;
-      const polygonPoints = angles
-        .map((deg, i) => {
-          const rad = (deg * Math.PI) / 180;
-          const px = Math.round(cx + Math.cos(rad) * r * offsets[(i + idx) % offsets.length]);
-          const py = Math.round(cy + Math.sin(rad) * r * offsets[(i + idx + 2) % offsets.length]);
-          return `${px},${py}`;
-        })
-        .join(" ");
+      // Offset hexagon vertices (mirrors the old decorative wobble) in geo space
+      const polygonPoints = angles.map((deg, i) => {
+        const rad = (deg * Math.PI) / 180;
+        const offLat = offsets[(i + idx) % offsets.length];
+        const offLng = offsets[(i + idx + 2) % offsets.length];
+        return [
+          // lat/lng coordinates as lat, lng
+          lat + Math.cos(rad) * rLat * offLat,
+          lng + Math.sin(rad) * rLng * offLng,
+        ] as [number, number];
+      });
 
       return {
         ...area,
         areaId: area.id || area.name || area.title || idx,
-        computedCentroid: { x: cx, y: cy },
-        computedPolygonPoints: polygonPoints,
+        polygonPoints,
       };
     });
 
@@ -200,17 +187,31 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
     };
   }, [exploredAreasList]);
 
-  // Determine current map view center based on selected area or default bounding center
-  const selectedArea = areasWithPoints.find((a) => a.areaId === selectedAreaId);
-  const mapQuery = selectedArea
-    ? `${selectedArea.latlong.lat},${selectedArea.latlong.lng}`
-    : googleMapQuery || `${centerLat},${centerLng}`;
-  const mapZoom = selectedArea ? 14 : 12;
-
   const sectionTitle = filtersTitle || costOfSearchTitle || "The Cost of Searching";
   const displayFilterStats = (filters && filters.length > 0)
     ? filters
     : ((costOfSearchStats && costOfSearchStats.length > 0) ? costOfSearchStats : defaultCostOfSearchStats);
+
+  // Resolve the per-area dotColor exactly as the previous SVG layout did, so
+  // polygon + pin colours are identical per layout (bug fix only — UI kept).
+  const resolveLayoutColors = useMemo(
+    () => (isMulti: boolean) =>
+      areasWithPoints.map((area, idx) => ({
+        ...area,
+        dotColor:
+          area.dotColor ||
+          (isMulti
+            ? idx === 0
+              ? "#3B82F6"
+              : idx === 1
+                ? "#10B981"
+                : "#DD5128"
+            : "#DD5128"),
+      })),
+    [areasWithPoints]
+  );
+  const singleAreas = resolveLayoutColors(false);
+  const multiAreas = resolveLayoutColors(true);
 
   return (
     <section id="section-search">
@@ -350,131 +351,19 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               );
             })()}
 
-            {/* Full Width Google Map Canvas with Polygonal Overlay */}
+            {/* Interactive Leaflet Map (client-only) */}
             <div className="relative w-full h-full bg-[#E5E3DF] overflow-hidden">
-              <iframe
-                key={mapQuery}
-                title="Explored Areas Polygonal Google Map"
-                src={`https://maps.google.com/maps?q=${encodeURIComponent(mapQuery)}&t=m&z=${mapZoom}&output=embed&iwloc=near`}
-                className="absolute inset-0 w-full h-full border-none pointer-events-none transition-opacity duration-300"
-                style={{ filter: "grayscale(80%) contrast(95%) brightness(105%)", opacity: 0.9 }}
-                loading="lazy"
+              <JournalMapV0
+                areas={singleAreas}
+                selectedAreaId={selectedAreaId}
+                onSelect={(id) => {
+                  setSelectedAreaId(id);
+                  setHoveredAreaId(id);
+                }}
+                hoveredAreaId={hoveredAreaId}
+                onHover={setHoveredAreaId}
+                defaultCenter={{ lat: centerLat, lng: centerLng }}
               />
-
-              <div className="absolute inset-0 bg-white/10 pointer-events-none z-1" />
-
-              <svg
-                className="absolute inset-0 w-full h-full z-10 pointer-events-none"
-                viewBox="0 0 1000 600"
-                preserveAspectRatio="none"
-              >
-                <defs>
-                  <filter id="poly-glow-single" x="-20%" y="-20%" width="140%" height="140%">
-                    <feGaussianBlur stdDeviation="6" result="blur" />
-                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
-                  </filter>
-                </defs>
-
-                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
-                  const areaId = area.areaId;
-                  const isSelected = selectedAreaId === areaId;
-                  const isHovered = hoveredAreaId === areaId || isSelected;
-                  const points = area.computedPolygonPoints;
-                  const strokeColor = area.dotColor || "#DD5128";
-
-                  return (
-                    <polygon
-                      key={`polygon-${areaId}`}
-                      points={points}
-                      onClick={() => {
-                        if (selectedAreaId === areaId) {
-                          setSelectedAreaId(null);
-                          setHoveredAreaId(null);
-                        } else {
-                          setSelectedAreaId(areaId);
-                          setHoveredAreaId(areaId);
-                        }
-                      }}
-                      onMouseEnter={() => setHoveredAreaId(areaId)}
-                      onMouseLeave={() => setHoveredAreaId(null)}
-                      className="pointer-events-auto transition-all duration-300 cursor-pointer"
-                      style={{
-                        fill: strokeColor,
-                        fillOpacity: isSelected ? 0.45 : isHovered ? 0.35 : 0.18,
-                        stroke: isSelected ? "#DD5128" : strokeColor,
-                        strokeWidth: isSelected ? 4 : isHovered ? 3.5 : 2,
-                        strokeDasharray: isSelected || isHovered ? "none" : "6 4",
-                        filter: isSelected || isHovered ? "url(#poly-glow-single)" : "none",
-                      }}
-                    />
-                  );
-                })}
-              </svg>
-
-              <div className="absolute inset-0 z-20 pointer-events-none">
-                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
-                  const areaId = area.areaId;
-                  const isSelected = selectedAreaId === areaId;
-                  const isHovered = hoveredAreaId === areaId || isSelected;
-                  const centroid = area.computedCentroid;
-                  const areaName = area.name || area.title || "";
-                  const projectsCount = area.projectsCount || area.projects || 0;
-                  const dotColor = area.dotColor || "#DD5128";
-                  const areaImage = getImgSrc(area.image || area.imageSrc || searchMapImage);
-
-                  const leftPercent = `${(centroid.x / 1000) * 100}%`;
-                  const topPercent = `${(centroid.y / 600) * 100}%`;
-
-                  return (
-                    <div
-                      key={`pin-${areaId}`}
-                      className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-auto transition-all duration-300"
-                      style={{ left: leftPercent, top: topPercent }}
-                      onClick={() => {
-                        if (selectedAreaId === areaId) {
-                          setSelectedAreaId(null);
-                          setHoveredAreaId(null);
-                        } else {
-                          setSelectedAreaId(areaId);
-                          setHoveredAreaId(areaId);
-                        }
-                      }}
-                      onMouseEnter={() => setHoveredAreaId(areaId)}
-                      onMouseLeave={() => setHoveredAreaId(null)}
-                    >
-                      {/* Polygon Centroid Pin Pill */}
-                      <div
-                        className={`flex items-center justify-center rounded-full shadow-md backdrop-blur-md transition-all duration-300 ease-in-out cursor-pointer border overflow-hidden ${isSelected
-                          ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white w-8 h-8 p-0 aspect-square"
-                          : isHovered
-                            ? "bg-[#111827] text-white scale-110 shadow-xl border-2 w-8 h-8 p-0 aspect-square"
-                            : "bg-white/95 text-slate-800 hover:scale-105 border-slate-200 w-auto h-8 px-3 py-1.5 gap-2"
-                          }`}
-                        style={{ borderColor: !isSelected && isHovered ? dotColor : undefined }}
-                      >
-                        <span
-                          className="w-2.5 h-2.5 rounded-full flex-none animate-pulse"
-                          style={{ backgroundColor: isSelected ? "#FFFFFF" : dotColor }}
-                        />
-
-                        <div
-                          className={`flex items-center gap-1 transition-all duration-300 ease-in-out overflow-hidden whitespace-nowrap ${isHovered || isSelected
-                            ? "max-w-0 opacity-0 pointer-events-none"
-                            : "max-w-[220px] opacity-100"
-                            }`}
-                        >
-                          <span className="text-sm sm:text-base font-semibold font-inter">
-                            {areaName}
-                          </span>
-                          <span className="text-sm sm:text-base font-medium opacity-80 font-inter">
-                            ({projectsCount})
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
             </div>
           </div>
         ) : (
@@ -581,164 +470,19 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
               </div>
             </div>
 
-            {/* Right Column: Google Map Canvas with Polygonal Overlay */}
+            {/* Right Column: Interactive Leaflet Map (client-only) */}
             <div className="relative w-full h-[600px] bg-[#E5E3DF] overflow-hidden">
-              {/* Google Map iframe background focusing on selected area or center */}
-              <iframe
-                key={mapQuery}
-                title="Explored Areas Polygonal Google Map"
-                src={`https://maps.google.com/maps?q=${encodeURIComponent(mapQuery)}&t=m&z=${mapZoom}&output=embed&iwloc=near`}
-                className="absolute inset-0 w-full h-full border-none pointer-events-none transition-opacity duration-300"
-                style={{ filter: "grayscale(80%) contrast(95%) brightness(105%)", opacity: 0.9 }}
-                loading="lazy"
+              <JournalMapV0
+                areas={multiAreas}
+                selectedAreaId={selectedAreaId}
+                onSelect={(id) => {
+                  setSelectedAreaId(id);
+                  setHoveredAreaId(id);
+                }}
+                hoveredAreaId={hoveredAreaId}
+                onHover={setHoveredAreaId}
+                defaultCenter={{ lat: centerLat, lng: centerLng }}
               />
-
-              {/* Light Map Overlay */}
-              <div className="absolute inset-0 bg-white/10 pointer-events-none z-1" />
-
-              {/* Interactive SVG Layer for Polygonal Plots around latlong */}
-              <svg
-                className="absolute inset-0 w-full h-full z-10 pointer-events-none"
-                viewBox="0 0 1000 600"
-                preserveAspectRatio="none"
-              >
-                <defs>
-                  <filter id="poly-glow" x="-20%" y="-20%" width="140%" height="140%">
-                    <feGaussianBlur stdDeviation="6" result="blur" />
-                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
-                  </filter>
-                </defs>
-
-                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
-                  const areaId = area.areaId;
-                  const isSelected = selectedAreaId === areaId;
-                  const isHovered = hoveredAreaId === areaId || isSelected;
-                  const points = area.computedPolygonPoints;
-                  const strokeColor = area.dotColor || (idx === 0 ? "#3B82F6" : idx === 1 ? "#10B981" : "#DD5128");
-
-                  return (
-                    <polygon
-                      key={`polygon-${areaId}`}
-                      points={points}
-                      onClick={() => {
-                        if (selectedAreaId === areaId) {
-                          setSelectedAreaId(null);
-                          setHoveredAreaId(null);
-                        } else {
-                          setSelectedAreaId(areaId);
-                          setHoveredAreaId(areaId);
-                        }
-                      }}
-                      onMouseEnter={() => setHoveredAreaId(areaId)}
-                      onMouseLeave={() => setHoveredAreaId(null)}
-                      className="pointer-events-auto transition-all duration-300 cursor-pointer"
-                      style={{
-                        fill: strokeColor,
-                        fillOpacity: isSelected ? 0.45 : isHovered ? 0.35 : 0.18,
-                        stroke: isSelected ? "#DD5128" : strokeColor,
-                        strokeWidth: isSelected ? 4 : isHovered ? 3.5 : 2,
-                        strokeDasharray: isSelected || isHovered ? "none" : "6 4",
-                        filter: isSelected || isHovered ? "url(#poly-glow)" : "none",
-                      }}
-                    />
-                  );
-                })}
-              </svg>
-
-              {/* Area Pin Badges & Floating Hover Callouts on Map */}
-              <div className="absolute inset-0 z-20 pointer-events-none">
-                {areasWithPoints.filter((area: any) => !selectedAreaId || area.areaId === selectedAreaId).map((area: any, idx: number) => {
-                  const areaId = area.areaId;
-                  const isSelected = selectedAreaId === areaId;
-                  const isHovered = hoveredAreaId === areaId || isSelected;
-                  const centroid = area.computedCentroid;
-                  const areaName = area.name || area.title || "";
-                  const projectsCount = area.projectsCount || area.projects || 0;
-                  const dotColor = area.dotColor || (idx === 0 ? "#3B82F6" : idx === 1 ? "#10B981" : "#DD5128");
-                  const areaImage = getImgSrc(area.image || area.imageSrc || searchMapImage);
-
-                  const leftPercent = `${(centroid.x / 1000) * 100}%`;
-                  const topPercent = `${(centroid.y / 600) * 100}%`;
-
-                  return (
-                    <div
-                      key={`pin-${areaId}`}
-                      className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-auto transition-all duration-300"
-                      style={{ left: leftPercent, top: topPercent }}
-                      onClick={() => {
-                        if (selectedAreaId === areaId) {
-                          setSelectedAreaId(null);
-                          setHoveredAreaId(null);
-                        } else {
-                          setSelectedAreaId(areaId);
-                          setHoveredAreaId(areaId);
-                        }
-                      }}
-                      onMouseEnter={() => setHoveredAreaId(areaId)}
-                      onMouseLeave={() => setHoveredAreaId(null)}
-                    >
-                      {/* Polygon Centroid Pin Pill */}
-                      <div
-                        className={`flex items-center justify-center rounded-full shadow-md backdrop-blur-md transition-all duration-300 ease-in-out cursor-pointer border overflow-hidden ${isSelected
-                          ? "bg-[#DD5128] text-white scale-110 shadow-2xl border-2 border-white w-8 h-8 p-0 aspect-square"
-                          : isHovered
-                            ? "bg-[#111827] text-white scale-110 shadow-xl border-2 w-8 h-8 p-0 aspect-square"
-                            : "bg-white/95 text-slate-800 hover:scale-105 border-slate-200 w-auto h-8 px-3 py-1.5 gap-2"
-                          }`}
-                        style={{ borderColor: !isSelected && isHovered ? dotColor : undefined }}
-                      >
-                        <span
-                          className="w-2.5 h-2.5 rounded-full flex-none animate-pulse"
-                          style={{ backgroundColor: isSelected ? "#FFFFFF" : dotColor }}
-                        />
-
-                        <div
-                          className={`flex items-center gap-1 transition-all duration-300 ease-in-out overflow-hidden whitespace-nowrap ${isHovered || isSelected
-                            ? "max-w-0 opacity-0 pointer-events-none"
-                            : "max-w-[220px] opacity-100"
-                            }`}
-                        >
-                          <span className="text-sm sm:text-base font-semibold font-inter">
-                            {areaName}
-                          </span>
-                          <span className="text-sm sm:text-base font-medium opacity-80 font-inter">
-                            ({projectsCount})
-                          </span>
-                        </div>
-                      </div>
-
-                      {/* Floating Callout Card on Hover/Selection */}
-                      {isHovered && (
-                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-[220px] rounded-xl bg-white p-3 shadow-2xl border border-slate-100 z-40 animate-fadeIn pointer-events-auto">
-                          <button
-                            type="button"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setSelectedAreaId(null);
-                              setHoveredAreaId(null);
-                            }}
-                            className="absolute top-2 right-2 w-5.5 h-5.5 rounded-full bg-slate-900/70 hover:bg-slate-900 text-white flex items-center justify-center cursor-pointer transition-colors z-50 shadow-xs"
-                            aria-label="Close location view"
-                          >
-                            <Icons.X className="w-3 h-3" />
-                          </button>
-                          {areaImage && (
-                            <div className="h-[75px] rounded-lg overflow-hidden mb-2 relative">
-                              <Image src={area.image || area.imageSrc || searchMapImage} alt={areaName} fill className="object-cover" />
-                            </div>
-                          )}
-                          <p className="text-base font-semibold text-slate-900 leading-tight font-inter pr-5">
-                            {areaName}
-                          </p>
-                          <p className="text-[15px] text-slate-500 mt-0.5 line-clamp-2 font-inter">
-                            {area.desc || area.description}
-                          </p>
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
             </div>
           </div>
         )}
