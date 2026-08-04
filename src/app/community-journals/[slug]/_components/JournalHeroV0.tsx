@@ -135,7 +135,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </div>
 
         {/* Center Main Content Container */}
-        <div className="relative z-20 max-w-[623px] flex flex-col gap-5 my-auto">
+        <div className="relative z-20 max-w-[623px] flex flex-col gap-5">
           {/* Main Title & Description Wrapper */}
           <div className="flex flex-col gap-3">
             <h1
@@ -152,14 +152,12 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
 
           {/* Featured Quote */}
           {quoteText && (
-            <div className="pl-6 border-l-[4px] border-[#FF7E57] py-1">
-              <p
-                className="text-xl font-normal leading-[28px] italic text-[#334155] max-w-[343px]"
-                style={{ fontFamily: "'Fraunces', Georgia, serif" }}
-              >
-                {quoteText}
-              </p>
-            </div>
+            <p
+              className="text-base font-normal italic text-[#334155] border-l-[3px] border-[#FF7E57] pl-4 truncate max-w-[500px]"
+              style={{ fontFamily: "'Fraunces', Georgia, serif" }}
+            >
+              {quoteText}
+            </p>
           )}
         </div>
 

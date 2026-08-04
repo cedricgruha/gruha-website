@@ -340,7 +340,6 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               <BlurTintImage
                 src={cardImg}
                 alt={cardTitle}
-                height={180}
                 imageClassName=""
               />
               <div className="px-6 py-5">

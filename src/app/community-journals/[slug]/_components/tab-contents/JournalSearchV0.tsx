@@ -551,7 +551,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                               {areaName}
                             </h3>
                             <p
-                              className="text-base leading-relaxed mt-1 line-clamp-2"
+                              className="text-[15px] leading-relaxed mt-1 line-clamp-2"
                               style={{ fontFamily: fu, color: "#59636F" }}
                             >
                               {areaDesc}
@@ -730,7 +730,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
                           <p className="text-base font-semibold text-slate-900 leading-tight font-inter pr-5">
                             {areaName}
                           </p>
-                          <p className="text-base text-slate-500 mt-0.5 line-clamp-2 font-inter">
+                          <p className="text-[15px] text-slate-500 mt-0.5 line-clamp-2 font-inter">
                             {area.desc || area.description}
                           </p>
                         </div>

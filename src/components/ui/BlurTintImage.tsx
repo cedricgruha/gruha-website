@@ -4,15 +4,18 @@ import React from "react";
 import Image from "next/image";
 
 /* ---------------------------------------------------------------------------
- * BlurTintImage
+ * DynamicCardImage
  * ---------------------------------------------------------------------------
- * Renders an image on top of a soft blurred copy of itself — the classic
- * "blurred backdrop + crisp foreground" card-tile treatment. The blurred layer
- * fills the container (never crops) and gives the card a seamless, tinted aura
- * around the fully visible `object-contain` foreground image.
+ * Renders an image using Next.js intrinsic width/height ratio scaling.
+ *
+ * Key Features:
+ * - NO fixed heights or static pixel dimensions.
+ * - NO blurred backgrounds or overlay tints.
+ * - NO padding or unwanted spacing.
+ * - NO cropping (100% of the image subject is preserved).
+ * - Dynamically expands to fill card width while matching native aspect ratio.
  * ------------------------------------------------------------------------- */
 
-// Normalises both static imports ({ src }) and string URLs into a usable src.
 const toSrc = (img: unknown): string => {
   if (!img) return "";
   if (typeof img === "string") return img;
@@ -22,74 +25,37 @@ const toSrc = (img: unknown): string => {
   return "";
 };
 
-export interface BlurTintImageProps {
+export interface DynamicCardImageProps {
   /** The image: a static import (`{ src }`), a string URL, or undefined. */
   src?: unknown;
-  /** Accessible alt text for the visible foreground image. */
+  /** Accessible alt text for the image. */
   alt?: string;
-  /** Optional extra classes for the image element. */
+  /** Optional extra classes for the image element itself. */
   imageClassName?: string;
-  /** Optional extra classes for the outer container. */
+  /** Optional extra classes for the outer wrapper container. */
   className?: string;
-  /** Fixed height for the container (px number, or any CSS length/unit string). */
-  height?: number | string;
-  /** Background colour behind the image, shown before the blurred layer loads. */
-  backgroundColor?: string;
-  /** Extra classes for the blurred background layer (appended after defaults). */
-  backgroundClassName?: string;
-  /** Extra classes for the soft white gradient overlay. */
-  overlayClassName?: string;
 }
 
-/**
- * A card-tile image with a blurred self-portrait backdrop and a crisp,
- * never-cropped foreground image.
- */
-export const BlurTintImage: React.FC<BlurTintImageProps> = ({
+export const BlurTintImage: React.FC<DynamicCardImageProps> = ({
   src,
   alt = "",
   imageClassName = "",
   className = "",
-  height = 180,
-  backgroundColor = "#f3f4f6",
-  backgroundClassName = "",
-  overlayClassName = "",
 }) => {
   const resolvedSrc = toSrc(src);
 
+  if (!resolvedSrc) return null;
+
   return (
-    <div
-      className={`relative w-full overflow-hidden ${className}`}
-      style={{
-        backgroundColor,
-        height: typeof height === "number" ? `${height}px` : height,
-      }}
-    >
-      {resolvedSrc && (
-        <>
-          {/* Blurred background layer (decorative, hidden from assistive tech) */}
-          <Image
-            src={resolvedSrc}
-            fill
-            alt=""
-            aria-hidden
-            sizes="(max-width: 768px) 100vw, 33vw"
-            className={`object-cover scale-[1.8] blur-3xl brightness-95 opacity-40 ${backgroundClassName}`}
-          />
-          {/* Soft white gradient over the blurred backdrop */}
-          <div
-            className={`absolute inset-0 bg-gradient-to-b from-white/10 to-white/30 ${overlayClassName}`}
-          />
-          {/* Crisp foreground image (never cropped) */}
-          <Image
-            src={resolvedSrc}
-            fill
-            alt={alt}
-            sizes="(max-width: 768px) 100vw, 33vw"
-            className={`relative z-10 object-contain ${imageClassName}`}
-          />
-        </>
-      )}
+    <div className={`w-full overflow-hidden flex items-center justify-center bg-white ${className}`}>
+      <Image
+        src={resolvedSrc}
+        alt={alt}
+        width={0}
+        height={0}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        className={`w-full h-auto object-contain block ${imageClassName}`}
+      />
     </div>
   );
 };
