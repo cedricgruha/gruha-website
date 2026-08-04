@@ -6,6 +6,7 @@ import { JournalTabsSectionV0 } from "./_components/JournalTabsSectionV0";
 import { JournalSidebarCtaCardV0 } from "./_components/JournalSidebarCtaCardV0";
 import { getJournalBySlug } from "@/lib/journal";
 import { FooterVariant } from "@/components/layout/FooterVariant";
+import journals from "@/data/community-journals.json";
 
 import { MobileBottomCtaBar } from "./_components/MobileBottomCtaBar";
 
@@ -48,12 +49,17 @@ export default async function JournalSlugPageV0({
     notFound();
   }
 
+  const listing = (journals as any[]).find(
+    (j) => j?.path?.endsWith(slug) || j?.id?.toString() === slug
+  );
+
   const article = {
     ...journalData.article,
     learnings: (journalData.article?.learnings || []).map((item: any) => ({
       icon: item.icon,
       text: typeof item === "string" ? item : item.text,
     })),
+    imagePosition: (journalData.article as any)?.imagePosition || listing?.imagePosition,
   };
 
   return (
@@ -84,6 +90,7 @@ export default async function JournalSlugPageV0({
               updatedOn={article.updatedOn}
               learnings={article.learnings}
               heroImage={(article as any)?.heroImage || (article as any)?.image}
+              imagePosition={(article as any)?.imagePosition}
             />
           </div>
         </div>
