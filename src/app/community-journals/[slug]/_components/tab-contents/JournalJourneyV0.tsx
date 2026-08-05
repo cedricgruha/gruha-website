@@ -763,7 +763,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 
                       {/* 3. Independent Content Wrapper (Title + Body) */}
                       <div className="px-6 pb-5 pt-0 flex-1 flex flex-col justify-start">
-                        <h4 className="text-base font-semibold leading-[1.25] mb-2" style={{ fontFamily: fd, color: "#111821" }}>
+                        <h4 className="text-base sm:text-lg font-semibold leading-[1.25] mb-2" style={{ fontFamily: fd, color: "#111821" }}>
 
                           {m.title}
                         </h4>

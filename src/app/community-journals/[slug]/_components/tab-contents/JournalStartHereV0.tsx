@@ -191,7 +191,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                     <p className="text-sm sm:text-base font-semibold mb-1" style={{ fontFamily: fu, color: "#DD5128" }}>
                       {displayNum}
                     </p>
-                    <h4 className="text-sm sm:text-base mb-1.5 font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
+                    <h4 className="text-base sm:text-lg mb-1.5 font-semibold" style={{ fontFamily: fd, color: "#111821" }}>
                       {step.title}
                     </h4>
                     <p className="text-base leading-[1.55]" style={{ fontFamily: fu, color: "#59636F" }}>

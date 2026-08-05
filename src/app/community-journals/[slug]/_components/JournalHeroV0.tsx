@@ -64,7 +64,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   return (
     <div className="w-full flex flex-col items-center pb-8 font-['Inter']">
       {/* Breadcrumb Navigation */}
-      <nav className="w-full max-w-[1225px] flex items-center gap-2 text-sm mt-5 mb-6 px-1">
+      <nav className="w-full max-w-[1400px] flex items-center gap-2 text-sm mt-5 mb-6 px-1">
         <a href="/" className="text-xs sm:text-sm flex items-center gap-1.5 text-slate-500 hover:text-slate-800 transition-colors">
           <Icons.Home className="w-4 h-4" />
           Home
@@ -131,7 +131,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
       {/* Main Frame Outer Box (Desktop Layout - Untouched) */}
       <div
         ref={heroImgWrapRef}
-        className="hidden md:flex relative w-full max-w-[1225px] h-auto min-h-[593px] rounded-[24px] overflow-hidden flex-col justify-between p-8 md:p-12 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
+        className="hidden md:flex relative w-full max-w-[1400px] h-auto min-h-[593px] rounded-[24px] overflow-hidden flex-col justify-between p-8 md:p-12 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
       >
         {/* Background Image */}
         <Image

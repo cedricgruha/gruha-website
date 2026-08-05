@@ -524,7 +524,7 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
 
 
                   <p
-                    className="text-base font-semibold leading-snug text-[#111821] mb-2"
+                    className="text-base sm:text-lg font-semibold leading-snug text-[#111821] mb-2"
                     style={{ fontFamily: fd, color: "#111821" }}
                   >
                     {itemValue}

@@ -160,14 +160,18 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
           return (
             <div
               key={p.name}
-              className="bg-white border rounded-2xl overflow-hidden flex items-stretch gap-5 p-4 sm:p-5"
+              className="bg-white border rounded-2xl overflow-hidden block sm:flex sm:items-stretch sm:gap-5 p-4 sm:p-5"
               style={{
                 borderColor: "#E4E9EF",
                 boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",
                 minHeight: 180,
               }}
             >
-              <div className="w-[135px] h-[145px] sm:w-[150px] sm:h-[155px] rounded-2xl overflow-hidden flex-none bg-[#F7ECE1] relative">
+              {/* On mobile the image floats left so the text wraps beside it and,
+                once it exceeds the image height, fills below the image — like a
+                two-column magazine. From sm+ the float is removed and the text
+                sits side-by-side with the image (flex row). */}
+              <div className="float-left mr-4 mb-2 sm:float-none sm:mr-0 sm:mb-0 w-[135px] h-[145px] sm:w-[150px] sm:h-[155px] rounded-2xl overflow-hidden flex-none bg-[#F7ECE1] relative">
                 <Image
                   src={personaImg}
                   alt={p.name}
@@ -175,7 +179,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                   className="object-cover object-center"
                 />
               </div>
-              <div className="flex-1 flex flex-col justify-center min-w-0">
+              <div className="min-w-0 sm:flex-1 sm:flex sm:flex-col sm:justify-center">
                 <h3 className="text-[20px] font-semibold leading-tight text-[#111821] mb-1" style={{ fontFamily: fd }}>
                   {p.name} ({p.age})
                 </h3>
@@ -195,7 +199,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
             className="bg-white border rounded-2xl p-4 sm:p-5 flex flex-col justify-center"
             style={{ borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
           >
-            <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
+            <h4 className="text-base sm:text-lg font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
 
               {sharedVisionTitle}
             </h4>
