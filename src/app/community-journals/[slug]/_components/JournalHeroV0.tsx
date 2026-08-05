@@ -131,7 +131,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
       {/* Main Frame Outer Box (Desktop Layout - Untouched) */}
       <div
         ref={heroImgWrapRef}
-        className="hidden md:flex relative w-full max-w-[1400px] h-auto min-h-[593px] rounded-[24px] overflow-hidden flex-col justify-between p-8 md:p-12 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
+        className="hidden md:flex relative w-full max-w-[1400px] h-auto rounded-[24px] overflow-hidden flex-col gap-6 p-6 md:p-8 shadow-sm bg-[#FFF9F3] shrink-0 border-none"
       >
         {/* Background Image */}
         <Image
@@ -186,17 +186,17 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         </div>
 
         {/* Center Main Content Container */}
-        <div className="relative z-20 max-w-[623px] flex flex-col gap-5">
+        <div className="relative z-20 max-w-[623px] flex flex-col gap-3 my-2">
           {/* Main Title & Description Wrapper */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-2">
             <h1
-              className="text-[40px] md:text-[48px] font-normal leading-[54px] text-black whitespace-pre-line"
+              className="text-[36px] md:text-[42px] font-normal leading-[1.15] text-black whitespace-pre-line"
               style={{ fontFamily: "'Fraunces', Georgia, serif" }}
             >
               {displayTitle}
             </h1>
 
-            <p className="text-base leading-6 font-medium text-[#334155] max-w-[623px]">
+            <p className="text-sm md:text-base leading-relaxed font-medium text-[#334155] max-w-[623px]">
               {displayDescription}
             </p>
           </div>
@@ -204,7 +204,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
           {/* Featured Quote */}
           {quoteText && (
             <p
-              className="text-base font-normal italic text-[#334155] border-l-[3px] border-[#FF7E57] pl-4 truncate max-w-[500px]"
+              className="text-sm md:text-base font-normal italic text-[#334155] border-l-[3px] border-[#FF7E57] pl-4 truncate max-w-[500px] mt-1"
               style={{ fontFamily: "'Fraunces', Georgia, serif" }}
             >
               {quoteText}
@@ -214,7 +214,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
 
         {/* Bottom Glassmorphic Card Container */}
         <div
-          className="relative z-20 w-full max-w-[725px] rounded-[12px] p-6 flex flex-col gap-4 mt-8 border border-white/40 shadow-xs"
+          className="relative z-20 w-full max-w-[725px] rounded-[12px] p-4 md:p-5 flex flex-col gap-3 border border-white/40 shadow-xs"
           style={{
             background:
               "linear-gradient(270.21deg, rgba(240, 253, 250, 0.084) -34.81%, rgba(254, 254, 254, 0.6) 15.1%)",
