@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import {
   MapContainer,
   TileLayer,
   Marker,
-  Popup,
   Polygon,
   Tooltip,
   useMap,
@@ -76,39 +75,41 @@ const toSrc = (img: unknown): string => {
 // Mirrors the legacy pill: dot (with pulse) + name + (projects) by default,
 // collapsing to just the dot on hover/selection.
 //
-// IMPORTANT: Icons are cached by their markup hash so that a marker keeps the
-// *same L.divIcon object* unless its own state really changed. If we returned a
-// brand-new object every render, react-leaflet would call `marker.setIcon()` for
-// EVERY marker whenever ANY hover/selection changes — re-creating all of their
-// DOM and making the whole map visibly “shake”. Caching avoids that entirely.
+// IMPORTANT: Each area gets ONE stable L.divIcon object, cached by the area's
+// static colour/name (NOT by its transient selected/hovered state). Returning the
+// identical icon object every render means react-leaflet never calls
+// marker.setIcon() for a marker when unrelated pins change, so the marker's DOM
+// element persists and CSS transitions can actually animate the pill collapse,
+// scale and glow. The selected/hovered look is applied by toggling extra classes
+// on the persisted element (see StatefulMarker), never by swapping the icon
+// markup — swapping would recreate the DOM and interrupt every transition.
 const iconCache = new Map<string, L.DivIcon>();
 const dotSize = 12;
-// Left gutter of the dot inside the pill. Keeping this FIXED in every state
-// (selected / hovered / idle) means the dot never moves relative to the icon's
-// left edge, so the anchored dot stays glued to the coordinate when the label
-// collapses/expands — no positional drift, no shake.
-const gutterL = 8;
-const pillH = 22;
+// Left gutter of the dot inside the pill. Kept FIXED in every state so the dot
+// never moves relative to the icon's left edge — no positional drift, no shake.
+const gutterL = 10;
+const pillH = 32; // matches the original "h-8" (8 * 4px) pill height
+const labelPad = 8; // right padding so the rounded pill has breathing room
 const anchorX = gutterL + dotSize / 2; // dot’s horizontal centre
 const anchorY = pillH / 2; // vertical centre of the pill/dot
 
 function buildIcon(
   dotColor: string,
-  isSelected: boolean,
-  isHovered: boolean,
   name: string,
   projectsCount: string
 ): L.DivIcon {
-  const active = isSelected || isHovered;
+  // Always render the full pill + label exactly once per area. The dot keeps its
+  // pulse class in every state; the active state simply pauses it via CSS.
   const html = `
-    <div class="jmap-pin ${isSelected ? "jmap-pin--selected" : ""} ${
-    isHovered && !isSelected ? "jmap-pin--hover" : ""
-  }" style="${active ? `--bordercolor:${dotColor};` : ""}">
-      <span class="jmap-pin__dot jmap-pin__dot--pulse" style="background:${active ? "#fff" : dotColor}"></span>
-      ${active ? "" : `<span class="jmap-pin__label">${name}</span><span class="jmap-pin__count">(${projectsCount})</span>`}
+    <div class="jmap-pin" style="--bordercolor:${dotColor};">
+      <span class="jmap-pin__dot jmap-pin__dot--pulse" style="background:${dotColor}"></span>
+      <span class="jmap-pin__label">
+        <span class="jmap-pin__name">${name}</span>
+        <span class="jmap-pin__count">(${projectsCount})</span>
+      </span>
     </div>`;
-  const hash = html;
-  let icon = iconCache.get(hash);
+  const key = `${dotColor}:${name}:${projectsCount}`;
+  let icon = iconCache.get(key);
   if (!icon) {
     icon = L.divIcon({
       className: "jmap-icon-wrap",
@@ -116,12 +117,20 @@ function buildIcon(
       iconSize: undefined,
       iconAnchor: [anchorX, anchorY],
     });
-    iconCache.set(hash, icon);
+    iconCache.set(key, icon);
   }
   return icon;
 }
 
-/** Child that recentres + rezooms the map whenever the selection changes. */
+/**
+ * Child that recentres + rezooms the map when the selection changes.
+ *
+ * We intentionally depend ONLY on the selected area's primitive lat/lng values
+ * (not the `areas` array reference). `areas` is recreated on every parent render,
+ * so depending on it would re-run this effect whenever ANY hover/zoom changes and
+ * yank the map back onto the selected polygon even after the user has panned away
+ * to another region. Primitives only change when the actual selection changes.
+ */
 function FlyController({
   selected,
   areas,
@@ -130,13 +139,131 @@ function FlyController({
   areas: JournalArea[];
 }) {
   const map = useMap();
+  const target = areas.find((a) => a.areaId === selected);
+  const lat = target?.latlong?.lat;
+  const lng = target?.latlong?.lng;
   useEffect(() => {
-    const target = areas.find((a) => a.areaId === selected);
-    if (target) {
-      map.flyTo([target.latlong.lat, target.latlong.lng], 14, { duration: 0.8 });
-    }
-  }, [selected, areas, map]);
+    if (lat == null || lng == null) return;
+    // Ease-in-out pan + zoom focusing on the chosen region (smooth, parity with
+    // the old “fly to focused zone” feel rather than an abrupt jump).
+    map.flyTo([lat, lng], 14, {
+      duration: 0.9,
+      easeLinearity: 0.25, // smooth ease-in-out curve instead of the default
+    });
+  }, [lat, lng, map]);
   return null;
+}
+
+/**
+ * Renders one pin Marker + its floating callout card.
+ *
+ * The pin's visual state (idle / hovered / selected) is applied by toggling CSS
+ * classes on the marker's PERSISTED DOM element instead of swapping the icon.
+ * Because the icon object is stable (see buildIcon) react-leaflet never calls
+ * marker.setIcon(), so the DOM element stays the same and CSS transitions play
+ * the smooth pill collapse / scale / glow animations. If we baked the state into
+ * the icon markup, setIcon would recreate the element and every transition would
+ * jump instead of animating.
+ */
+function StatefulMarker({
+  area,
+  icon,
+  isSelected,
+  isHovered,
+  onSelect,
+  onHover,
+}: {
+  area: JournalArea;
+  icon: L.DivIcon;
+  isSelected: boolean;
+  isHovered: boolean;
+  onSelect?: (areaId: string | number | null) => void;
+  onHover?: (areaId: string | number | null) => void;
+}) {
+  const areaId = area.areaId;
+  const dotColor = area.dotColor || "#DD5128";
+  const areaName = area.name || area.title || "";
+  const projectsCount = area.projectsCount || area.projects || 0;
+  const visitsCount = area.visitsCount || area.siteVisits || 0;
+  const areaImage = toSrc(area.image ?? area.imageSrc);
+  const markerRef = useRef<L.Marker>(null);
+
+  // Keep the persisted pin element in sync with the selected/hovered state.
+  // The classes live on the OUTER leaflet element (.jmap-icon-wrap) and drive
+  // the pill's appearance via descendant selectors, so the same element animates.
+  useEffect(() => {
+    const el = markerRef.current?.getElement?.() as HTMLElement | null;
+    if (!el) return;
+    el.classList.toggle("jmap-icon-wrap--selected", !!isSelected);
+    el.classList.toggle("jmap-icon-wrap--hover", !!isHovered && !isSelected);
+  }, [isSelected, isHovered]);
+
+  return (
+    <Marker
+      ref={markerRef}
+      position={[area.latlong.lat, area.latlong.lng]}
+      icon={icon}
+      eventHandlers={{
+        click: () => {
+          if (onSelect) {
+            onSelect(isSelected ? null : areaId);
+          }
+        },
+        mouseover: () => onHover && onHover(areaId),
+        mouseout: () => onHover && onHover(null),
+      }}
+    >
+      {/* Floating callout card — shows on hover OR on selection-from-sidebar.
+          Parity with the old SVG overlay: the card appears whenever the
+          polygon/pin is active, regardless of whether the mouse is over it.
+          Driven by state (not Leaflet's hover-only tooltip). */}
+      {(isSelected || isHovered) && (
+        <Tooltip
+          permanent
+          direction="top"
+          offset={[0, -6]}
+          opacity={1}
+          className="jmap-callout"
+        >
+          <div className="jmap-callout__card">
+            <button
+              type="button"
+              className="jmap-callout__close"
+              aria-label="Close location view"
+              onMouseDown={(e) => e.stopPropagation()}
+              onMouseUp={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                if (onSelect) {
+                  onSelect(null);
+                  onHover && onHover(null);
+                }
+              }}
+            >
+              ✕
+            </button>
+            {areaImage ? (
+              <div className="jmap-callout__img">
+                <img src={areaImage} alt={areaName} />
+              </div>
+            ) : null}
+            <p className="jmap-callout__name">{areaName}</p>
+            {area.desc || area.description ? (
+              <p className="jmap-callout__desc">{area.desc || area.description}</p>
+            ) : null}
+            <div className="jmap-callout__meta">
+              <span>
+                <span className="jmap-popup__dot" style={{ background: dotColor }} />
+                {projectsCount} Projects
+              </span>
+              <span>•</span>
+              <span>{visitsCount} Site visits</span>
+            </div>
+          </div>
+        </Tooltip>
+      )}
+    </Marker>
+  );
 }
 
 export const JournalMapV0: React.FC<JournalMapV0Props> = ({
@@ -211,75 +338,26 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
         })}
 
         {safe.map((area) => {
-          const areaId = area.areaId;
-          const isSelected = selectedAreaId === areaId;
-          const isHovered = hoveredAreaId === areaId || isSelected;
-          const dotColor = area.dotColor || "#DD5128";
-          const areaName = area.name || area.title || "";
-          const projectsCount = area.projectsCount || area.projects || 0;
-          const visitsCount = area.visitsCount || area.siteVisits || 0;
-          const areaImage = toSrc(area.image ?? area.imageSrc);
-
-          const icon = buildIcon(dotColor, isSelected, isHovered, areaName, String(projectsCount));
+          const isSelected = selectedAreaId === area.areaId;
+          const isHovered = hoveredAreaId === area.areaId || isSelected;
+          // One stable icon per area (independent of state) so the marker's DOM
+          // persists and CSS transitions animate the collapse/scale/glow.
+          const icon = buildIcon(
+            area.dotColor || "#DD5128",
+            area.name || area.title || "",
+            String(area.projectsCount || area.projects || 0)
+          );
 
           return (
-            <Marker
-              key={`marker-${areaId}`}
-              position={[area.latlong.lat, area.latlong.lng]}
+            <StatefulMarker
+              key={`marker-${area.areaId}`}
+              area={area}
               icon={icon}
-              eventHandlers={{
-                click: () => {
-                  if (onSelect) {
-                    onSelect(isSelected ? null : areaId);
-                  }
-                },
-                mouseover: () => onHover && onHover(areaId),
-                mouseout: () => onHover && onHover(null),
-              }}
-            >
-              {/* Hover card (replaces the old floating callout) — shows on hover */}
-              <Tooltip direction="top" offset={[0, -6]} opacity={1} sticky={false} className="jmap-callout">
-                {areaImage ? (
-                  <div className="jmap-callout__img">
-                    <img src={areaImage} alt={areaName} />
-                  </div>
-                ) : null}
-                <p className="jmap-callout__name">{areaName}</p>
-                {area.desc || area.description ? (
-                  <p className="jmap-callout__desc">{area.desc || area.description}</p>
-                ) : null}
-                <div className="jmap-callout__meta">
-                  <span>
-                    <span className="jmap-popup__dot" style={{ background: dotColor }} />
-                    {projectsCount} Projects
-                  </span>
-                  <span>•</span>
-                  <span>{visitsCount} Site visits</span>
-                </div>
-              </Tooltip>
-
-              <Popup>
-                <div className="jmap-popup">
-                  {areaImage ? (
-                    <div className="jmap-callout__img">
-                      <img src={areaImage} alt={areaName} />
-                    </div>
-                  ) : null}
-                  <p className="jmap-popup__name">{areaName}</p>
-                  {area.desc || area.description ? (
-                    <p className="jmap-popup__desc">{area.desc || area.description}</p>
-                  ) : null}
-                  <div className="jmap-popup__meta">
-                    <span>
-                      <span className="jmap-popup__dot" style={{ background: dotColor }} />
-                      {projectsCount} Projects
-                    </span>
-                    <span>•</span>
-                    <span>{visitsCount} Site visits</span>
-                  </div>
-                </div>
-              </Popup>
-            </Marker>
+              isSelected={isSelected}
+              isHovered={isHovered}
+              onSelect={onSelect}
+              onHover={onHover}
+            />
           );
         })}
       </MapContainer>
@@ -298,8 +376,19 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
         .jmap-poly {
           cursor: pointer;
         }
+        /* Soft pulsing glow around the active polygon (parity with the old
+           highlighted-zone halo) — keyframed, not a static filter. */
+        @keyframes jmapPolyGlow {
+          0%,
+          100% {
+            filter: drop-shadow(0 0 4px rgba(221, 81, 40, 0.35));
+          }
+          50% {
+            filter: drop-shadow(0 0 10px rgba(221, 81, 40, 0.6));
+          }
+        }
         .jmap-poly--glow {
-          filter: drop-shadow(0 0 6px rgba(221, 81, 40, 0.45));
+          animation: jmapPolyGlow 2.2s ease-in-out infinite;
         }
         .jmap-icon-wrap {
           background: transparent;
@@ -311,14 +400,14 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
           /* Left-align so the dot keeps a FIXED left gutter in every state and
              never drifts relative to the coordinate when the label collapses. */
           justify-content: flex-start;
-          gap: 6px;
+          gap: 0;
           box-sizing: border-box;
           width: max-content;
           height: ${pillH}px;
           padding-left: ${gutterL}px;
-          padding-right: 8px;
+          padding-right: ${labelPad}px;
           border-radius: 9999px;
-          background: rgba(255, 255, 255, 0.9);
+          background: rgba(255, 255, 255, 0.95);
           backdrop-filter: blur(6px);
           -webkit-backdrop-filter: blur(6px);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
@@ -331,27 +420,43 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
           will-change: transform;
         }
         .jmap-pin:hover {
-          transform: scale(1.06);
+          transform: scale(1.05);
         }
-        .jmap-pin--selected {
+        /* The active look is applied to the persisted marker element via the
+           wrapper classes (see StatefulMarker), so the SAME element animates.
+           Collapse the pill to just the dot, scale up from its anchor, and swap
+           the background — all smooth because the element never gets recreated. */
+        .jmap-icon-wrap--selected .jmap-pin,
+        .jmap-icon-wrap--hover .jmap-pin {
+          /* Collapse to the square dot (mirrors old w-8 h-8) */
+          padding-right: 0;
+          transform: scale(1.1);
+        }
+        .jmap-icon-wrap--selected .jmap-pin {
           background: #dd5128;
           border: 2px solid #fff;
           color: #fff;
-          transform: scale(1.14);
           box-shadow: 0 6px 18px rgba(221, 81, 40, 0.45);
         }
-        .jmap-pin--hover {
+        .jmap-icon-wrap--hover .jmap-pin {
           background: #111827;
           border: 2px solid var(--bordercolor, rgb(226 232 240));
           color: #fff;
-          transform: scale(1.14);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.28);
+        }
+        /* White centre dot when active so it pops on the coral/navy pill. */
+        .jmap-icon-wrap--selected .jmap-pin__dot,
+        .jmap-icon-wrap--hover .jmap-pin__dot {
+          background: #fff;
+          margin-right: 0;
         }
         .jmap-pin__dot {
           width: ${dotSize}px;
           height: ${dotSize}px;
           border-radius: 9999px;
           flex: none;
+          margin-right: 6px;
+          transition: background-color 0.2s ease, margin-right 0.3s ease;
         }
         /* Restore the old animated (pulsing) centre dot */
         @keyframes jmapDotPulse {
@@ -368,19 +473,38 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
         .jmap-pin__dot--pulse {
           animation: jmapDotPulse 1.6s ease-in-out infinite;
         }
-        .jmap-pin--selected .jmap-pin__dot--pulse,
-        .jmap-pin--hover .jmap-pin__dot--pulse {
+        .jmap-icon-wrap--selected .jmap-pin__dot--pulse,
+        .jmap-icon-wrap--hover .jmap-pin__dot--pulse {
           animation: none;
           box-shadow: none;
         }
         .jmap-pin__label {
-          font-size: 12px;
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          overflow: hidden;
+          white-space: nowrap;
+          font-size: 14px;
           font-weight: 600;
           color: inherit;
           font-family: 'Inter Tight', system-ui, sans-serif;
+          /* Start fully expanded; active state retracts it to 0 via the wrapper
+             classes, and because the element persists this transition plays. */
+          max-width: 220px;
+          opacity: 1;
+          transition: max-width 0.3s ease, opacity 0.25s ease, padding 0.3s ease;
+        }
+        .jmap-icon-wrap--selected .jmap-pin__label,
+        .jmap-icon-wrap--hover .jmap-pin__label {
+          max-width: 0;
+          opacity: 0;
+          padding: 0;
+        }
+        .jmap-pin__name {
+          font-weight: 600;
         }
         .jmap-pin__count {
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 500;
           color: inherit;
           opacity: 0.8;
@@ -423,15 +547,16 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
           border-radius: 9999px;
           margin-right: 4px;
         }
-        /* Hover callout card (old floating callout equivalent) */
+        /* Hover callout card (old floating callout equivalent) — scales up and
+           fades in from its anchor (parity with the old card entrance). */
         @keyframes jmapFadeIn {
           from {
             opacity: 0;
-            transform: translateY(4px);
+            transform: translateY(4px) scale(0.95);
           }
           to {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateY(0) scale(1);
           }
         }
         .jmap-callout {
@@ -440,25 +565,63 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
           box-shadow: none;
         }
         .jmap-callout .leaflet-tooltip-content {
-          width: 200px;
+          width: 220px;
         }
         .jmap-callout .leaflet-tooltip-top:before {
           margin-left: -6px;
+          border-top-color: #fff;
         }
         .jmap-callout .leaflet-tooltip-content-wrapper {
           border-radius: 12px;
+          box-shadow: none;
+          border: none;
+          background: transparent;
+          padding: 0;
+        }
+        .jmap-callout__card {
+          position: relative;
+          border-radius: 12px;
+          background: #ffffff;
+          padding: 12px;
           box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
           border: 1px solid rgb(241 245 249);
           animation: jmapFadeIn 0.4s ease-out forwards;
+        }
+        .jmap-callout__close {
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          z-index: 10;
+          width: 22px;
+          height: 22px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 9999px;
+          background: rgba(15, 23, 42, 0.7);
+          color: #fff;
+          font-size: 12px;
+          line-height: 1;
+          cursor: pointer;
+          border: none;
+          transition: background-color 0.2s ease;
+        }
+        .jmap-callout__close:hover {
+          background: rgba(15, 23, 42, 0.9);
         }
         .jmap-callout {
           font-family: 'Inter Tight', system-ui, sans-serif;
         }
         .jmap-callout__name {
           margin: 0 0 4px;
-          font-size: 15px;
+          font-size: 14px;
           font-weight: 700;
           color: #111821;
+          padding-right: 20px; /* room for the ✕ close button */
+        }
+        .jmap-callout .jmap-callout__img {
+          height: 75px; /* matches the old floating callout */
+          margin: 0 0 8px;
         }
         .jmap-callout__img {
           width: 100%;
@@ -468,31 +631,16 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
           margin: 0 0 8px;
           background: #f1f5f9;
         }
-        .jmap-callout__img img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          display: block;
-        }
-        .jmap-popup .jmap-callout__img {
-          margin-bottom: 8px;
-        }
-        .jmap-callout__img {
-          width: 100%;
-          height: 76px;
-          border-radius: 8px;
-          overflow: hidden;
-          margin: 0 0 8px;
-          background: #f1f5f9;
+        /* Soft zoom micro-interaction on the card thumbnail (old group-hover). */
+        .jmap-callout__card:hover .jmap-callout__img img {
+          transform: scale(1.05);
         }
         .jmap-callout__img img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           display: block;
-        }
-        .jmap-popup .jmap-callout__img {
-          margin-bottom: 8px;
+          transition: transform 0.5s ease;
         }
         .jmap-callout__desc {
           margin: 0 0 6px;
