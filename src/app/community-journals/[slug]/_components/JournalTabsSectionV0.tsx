@@ -72,6 +72,7 @@ function TabNav({
               <button
                 type="button"
                 key={tab}
+                data-tab={tab.toLowerCase()}
                 onClick={() => onTabClick(tab)}
                 className="relative shrink-0 px-2.5 sm:px-4 py-4 sm:py-6 transition-colors cursor-pointer"
               >
@@ -130,7 +131,85 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
     }
   }, []);
 
+  // Mobile-only scroll-spy. Tracks the actual section elements by id and uses
+  // LIVE viewport rects on every scroll, so it always reflects reality and never
+  // flakes when layouts shift. The active tab is the section whose range contains
+  // a reference line just below the sticky nav. Deterministic in both directions.
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    const isMobile = window.innerWidth < 768;
+    if (!isMobile) return;
+
+    const resolve = () => {
+      if (isScrollingRef.current) return; // respect programmatic scroll
+      const nav = tabNavRef.current as HTMLElement | null;
+      const navH = nav ? nav.getBoundingClientRect().height : 0;
+      const line = navH + 100; // viewport coords, just below sticky nav
+
+      let activeIdx = 0;
+      tabs.forEach((tab, idx) => {
+        const targetId = `section-${tab.toLowerCase().replace(/\s+/g, "-")}`;
+        const el = sectionRefs.current[tab] || document.getElementById(targetId);
+        if (!el) return;
+        const rect = el.getBoundingClientRect();
+        // Whichever section contains the reference line is active. If several
+        // short/adjacent sections sit above the line, prefer the furthest one.
+        if (rect.top <= line && rect.bottom > line) {
+          activeIdx = idx;
+        } else if (rect.bottom <= line && idx > activeIdx) {
+          activeIdx = idx;
+        }
+      });
+      setActiveTab((prev) => {
+        const next = tabs[activeIdx];
+        return prev === next ? prev : next;
+      });
+    };
+
+    resolve();
+    window.addEventListener("scroll", resolve, { passive: true });
+    window.addEventListener("resize", resolve);
+    window.addEventListener("load", resolve);
+    return () => {
+      window.removeEventListener("scroll", resolve);
+      window.removeEventListener("resize", resolve);
+      window.removeEventListener("load", resolve);
+    };
+  }, []);
+
+  // Keep the active tab visible in the horizontal nav on narrow screens.
+  // When the pill moves to a tab scrolled out of view (e.g. "Start here" on a
+  // small phone), center it horizontally without touching vertical scroll.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (window.innerWidth >= 768) return; // desktop never overflows
+    const container = tabNavRef.current;
+    const nav = container?.querySelector<HTMLElement>("nav");
+    const btn = container?.querySelector<HTMLElement>(
+      `[data-tab="${activeTab.toLowerCase()}"]`
+    );
+    if (!nav || !btn) return;
+    // Positions relative to the nav's own content start (offsetParent-agnostic).
+    const navRect = nav.getBoundingClientRect();
+    const btnRect = btn.getBoundingClientRect();
+    const btnStart = btnRect.left - navRect.left + nav.scrollLeft;
+    const btnEnd = btnStart + btnRect.width;
+    const navEnd = nav.scrollLeft + nav.clientWidth;
+    // Only scroll when the active tab is actually outside the visible area.
+    if (btnStart < nav.scrollLeft || btnEnd > navEnd) {
+      nav.scrollTo({
+        left: btnStart - nav.clientWidth / 2 + btnRect.width / 2,
+        behavior: "smooth",
+      });
+    }
+  }, [activeTab]);
+
+  // Desktop/tablet only (mobile uses the scroll resolver above). Guard on
+  // `window.innerWidth` so the two mechanisms never both fight the active pill.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (window.innerWidth < 768) return;
+
     const observers: IntersectionObserver[] = [];
     tabs.forEach((tab) => {
       const targetId = `section-${tab.toLowerCase().replace(/\s+/g, "-")}`;
