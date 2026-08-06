@@ -5,6 +5,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import * as Icons from "lucide-react";
 import imgSearchMap from "@/imports/Container.png";
+import { getPolygonPoints } from "@/data/polygonPoints";
 
 // Leaflet must not run during SSR/static generation — load it client-only.
 const JournalMapV0 = dynamic(() => import("./JournalMapV0"), { ssr: false });
@@ -161,17 +162,28 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
     const processed = exploredAreasList.map((area, idx) => {
       const lat = area.latlong.lat;
       const lng = area.latlong.lng;
-      // Offset hexagon vertices (mirrors the old decorative wobble) in geo space
-      const polygonPoints = angles.map((deg, i) => {
-        const rad = (deg * Math.PI) / 180;
-        const offLat = offsets[(i + idx) % offsets.length];
-        const offLng = offsets[(i + idx + 2) % offsets.length];
-        return [
-          // lat/lng coordinates as lat, lng
-          lat + Math.cos(rad) * rLat * offLat,
-          lng + Math.sin(rad) * rLng * offLng,
-        ] as [number, number];
-      });
+      // Standard flow: each journal's JSON declares a `polygonKey`, which is resolved
+      // here to its boundary vertices via the registry (src/data/polygonPoints/index.ts).
+      // That registry imports the actual point arrays from polygonPoints*.ts files — so
+      // the coordinates live in TS only, and the JSON maps to them by key. If no key
+      // (or nothing registered), fall back to a journal-provided `polygonPoints`, then
+      // to the decorative offset-hexagon (mirrors the old SVG wobble).
+      const registered = getPolygonPoints(area.polygonKey);
+      const polygonPoints: Array<[number, number]> =
+        registered && registered.length >= 3
+          ? registered
+          : Array.isArray(area.polygonPoints) && area.polygonPoints.length >= 3
+            ? area.polygonPoints
+            : angles.map((deg, i) => {
+                const rad = (deg * Math.PI) / 180;
+                const offLat = offsets[(i + idx) % offsets.length];
+                const offLng = offsets[(i + idx + 2) % offsets.length];
+                return [
+                  // lat/lng coordinates as lat, lng
+                  lat + Math.cos(rad) * rLat * offLat,
+                  lng + Math.sin(rad) * rLng * offLng,
+                ] as [number, number];
+              });
 
       return {
         ...area,

@@ -421,6 +421,7 @@
       "exploredAreas": [
         {
           "title": "Outer Sarjapur Road (Top Choice)",
+          "polygonKey": "outerSarjapurRoad",
           "description": "Strong social infrastructure, growing employment hubs and communities designed for young families.",
           "projects": 5,
           "siteVisits": 4,
@@ -433,6 +434,7 @@
         },
         {
           "title": "Hosa Road",
+          "polygonKey": "hosaRoad",
           "description": "Balanced connectivity, improving infrastructure and better value within their target budget.",
           "projects": 4,
           "siteVisits": 4,
@@ -445,6 +447,7 @@
         },
         {
           "title": "Chandapura–Attibele Fringe",
+          "polygonKey": "chandapuraAttibeleFringe",
           "description": "Larger homes within budget, but longer commute and fewer ready social conveniences.",
           "projects": 2,
           "siteVisits": 3,
