@@ -356,7 +356,9 @@
           "title": "Family Consent Surface",
           "description": "Confirming whether next generation will actually reside in the chosen flat."
         }
-      ]
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-land-money-parker.mp3"
     },
     {
       "id": "search",

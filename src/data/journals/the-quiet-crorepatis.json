@@ -381,7 +381,9 @@
           "title": "Emergency Corpus Reserve",
           "description": "Keeping ₹1 Cr untouchable in liquid FDs preserves retirement security."
         }
-      ]
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-quiet-crorepatis.mp3"
     },
     {
       "id": "search",

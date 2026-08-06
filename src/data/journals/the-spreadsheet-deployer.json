@@ -356,7 +356,9 @@
           "title": "Family Governance Filter",
           "description": "Deepa's 'not a second job' rule filtered out high-maintenance assets."
         }
-      ]
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-spreadsheet-deployer.mp3"
     },
     {
       "id": "search",
