@@ -478,8 +478,12 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
 
         {/* Zone highlight polygons — drawn directly from each area's hand-verified
             polygonPoints stored in the journal JSON (no runtime geocoding). Rendered
-            beneath the pins so markers always sit on top. */}
-        {safe.map((area) => {
+            beneath the pins so markers always sit on top. When a selection is active,
+            only the selected area renders (matches the old iframe model) so hovering
+            other regions can't open unrelated callouts. */}
+        {safe
+          .filter((area) => !selectedAreaId || area.areaId === selectedAreaId)
+          .map((area) => {
           const verts = area.polygonPoints;
           if (!verts || verts.length < 3) return null;
           const isSelected = selectedAreaId === area.areaId;
@@ -518,7 +522,9 @@ export const JournalMapV0: React.FC<JournalMapV0Props> = ({
           onHover={onHover}
         />
 
-        {safe.map((area) => {
+        {safe
+          .filter((area) => !selectedAreaId || area.areaId === selectedAreaId)
+          .map((area) => {
           const isSelected = selectedAreaId === area.areaId;
           const isHovered = hoveredAreaId === area.areaId || isSelected;
           // One stable icon per area (independent of state) so the marker's DOM
