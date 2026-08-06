@@ -395,7 +395,6 @@
       "exploredAreas": [
         {
           "title": "Thanisandra Main Rd (Chosen)",
-          "polygonKey": "thanisandraMainRd",
           "description": "Bhartiya City Nikoo Homes phase window (~₹11,950–12,100/sqft), township scale and early-bird margin.",
           "projects": 3,
           "siteVisits": 5,
@@ -408,7 +407,6 @@
         },
         {
           "title": "Hebbal Corridor",
-          "polygonKey": "hebbalCorridor",
           "description": "L&T Raintree Boulevard benchmark (₹17.5K–20.4K/sqft) showing corridor premium once delivered.",
           "projects": 4,
           "siteVisits": 6,
@@ -421,7 +419,6 @@
         },
         {
           "title": "Devanahalli Plotted Arc",
-          "polygonKey": "devanahalliPlottedArc",
           "description": "Plotted land options (₹2,100–8,500/sqft) near Foxconn hub and Satellite Town Ring Road (STRR).",
           "projects": 3,
           "siteVisits": 4,

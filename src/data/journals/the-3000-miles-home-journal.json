@@ -409,7 +409,6 @@
       "exploredAreas": [
         {
           "title": "Whitefield (Chosen)",
-          "polygonKey": "whitefield",
           "description": "Prestige / Sobha brand towers (~₹14–18K/sqft), metro connectivity, high tenant demand, and return family appeal.",
           "projects": 4,
           "siteVisits": 6,
@@ -422,7 +421,6 @@
         },
         {
           "title": "Hennur Road",
-          "polygonKey": "hennurRoad",
           "description": "Puravankara developments with fast airport connectivity, quiet residential character, and competitive pricing.",
           "projects": 3,
           "siteVisits": 4,
@@ -435,7 +433,6 @@
         },
         {
           "title": "Hebbal Airport Belt",
-          "polygonKey": "hebbalAirportBelt",
           "description": "Established luxury corridor with high resale benchmarks and swift airport transit.",
           "projects": 3,
           "siteVisits": 5,
