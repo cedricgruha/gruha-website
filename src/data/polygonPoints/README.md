@@ -18,20 +18,37 @@ reads as the liveable, reachable catchment around the chosen micro-market, and t
 ## Data pipeline
 
 ```
-journal JSON                    index.ts                    polygonPoints/*.ts
-------------                    --------                    ------------------
-exploredAreas[]                 POLYGON_POINTS              export const <key>IsochronePoints
-  ├─ polygonKey ──────────────► getPolygonPoints(key) ───►  Array<[number, number]>
-  └─ latlong (pin, authoritative)
+journal JSON                        polygonData.ts                    map
+------------                        --------------                    ---
+exploredAreas[]                     POLYGON_POINTS               getPolygonPoints(key)
+  ├─ title ── areaKey() ─────────►  { <key>: [lat,lng], ... }  ──► Array<[number, number]>
+  └─ latlong (pin, authoritative)   (one entry per journal)
 ```
 
-1. Each `exploredAreas` entry in a journal JSON carries a `polygonKey` (e.g. `"whitefield"`).
-2. `src/data/polygonPoints/index.ts` maps that key to the imported TS export.
-3. The TS file `polygonPoints<Key>.ts` contains the `Array<[number, number]>` of `[lat, lng]` vertices.
-4. The map component calls `getPolygonPoints(area.polygonKey)` and feeds it to Leaflet.
+1. Each map `exploredAreas` entry in a journal JSON has a `title` (and a `latlong` pin).
+2. `src/data/polygonPoints/areaKey.ts` derives a stable key purely from that `title` — no
+   `key`/`polygonKey` field exists. Only status qualifiers like `(Chosen)` / `(Flat)` /
+   `(Plot)` / `(Top Choice)` are dropped; spatial parts in parentheses (e.g. `(Bellandur /
+   Ecospace)`) are kept so the key stays faithful to the title.
+3. `src/data/polygonPoints/polygonData.ts` holds the polygons **inline** (one entry per
+   area, keyed by the derived key) and exports `POLYGON_POINTS` + `getPolygonPoints`.
+4. `src/data/polygonPoints/index.ts` is a **fixed** forwarder — it only re-exports
+   `POLYGON_POINTS` and `getPolygonPoints` from `polygonData.ts`. It never gains new
+   imports when a journal is added.
+5. The map component calls `getPolygonPoints(areaKey(area))` and feeds it to Leaflet.
+
+> Only entries that carry a `title` are treated as map micro-markets. Journals that store
+> non-map scenario cards under `name` (no `title`) are skipped — they never get isochrones.
+
+> `polygonData.ts` is **auto-generated** — do not edit it by hand. Any
+> `generate-isochrone.mjs` run (single or `--batch`) rebuilds it automatically from the
+> per-area `polygon*.ts` source files in this folder (each exporting
+> `export const <key>IsochronePoints`). `index.ts` is also auto-generated, but is
+> **frozen** — it never grows per journal.
 
 Points live **only in TS** (never inlined into JSON) so there is a single source of truth
-and JSON stays human-readable.
+and JSON stays human-readable. Bundle size and lookup cost are identical to the old
+hand-written registry, so auto-generation has **no performance impact**.
 
 ## Regenerating a single area
 
@@ -72,9 +89,9 @@ node scripts/generate-isochrone.mjs --batch --denoise 0.2
 node scripts/generate-isochrone.mjs --batch --no-escalate  # disable auto-escalation
 ```
 
-The `--batch` mode reads the pins from the journal JSONs, maps each `polygonKey` to the
-wired TS file, and writes the smoothed shape directly, preserving the `<key>IsochronePoints`
-export name. When `--time` / `--generalize` / `--denoise` are omitted it defaults to the
+The `--batch` mode reads the pins from the journal JSONs, maps each derived area key to the
+wired source TS file, writes the smoothed shape, and rebuilds `polygonData.ts` + `index.ts`.
+When `--time` / `--generalize` / `--denoise` are omitted it defaults to the
 standard smoothing combo (`20` / `150` / `0.1`).
 
 ### Auto-escalation
@@ -102,10 +119,16 @@ This reports ring-closure, pin-inside, point count, and export-name consistency 
 
 ## Adding a new area
 
-1. Add `polygonKey` (+ the pin `latlong`) to the journal JSON's `exploredAreas`.
-2. Import the vertex array in `src/data/polygonPoints/index.ts` and register the key.
-3. Generate the TS file (`generate-isochrone.mjs --out src/data/polygonPoints/polygon<...>.ts --overwrite`).
-4. Run `node scripts/generate-isochrone.mjs --verify` and confirm `pinInside=true`.
+1. Add the area to the journal JSON's `search.exploredAreas` with a `title` and a `latlong`
+   pin. **No `polygonKey` or `key` needed** — the registry key is derived from the `title`
+   automatically (via `src/data/polygonPoints/areaKey.ts`, shared with the map).
+2. Run one command — it discovers the journal, generates the polygon source file, and
+   rebuilds the registry (`polygonData.ts` + the frozen `index.ts`):
+   `node scripts/generate-isochrone.mjs --batch --time 5`
+3. Run `node scripts/generate-isochrone.mjs --verify` and confirm `pinInside=true`.
+
+> You never hand-edit `src/data/polygonPoints/index.ts` or `polygonData.ts` — any
+> generation run rebuilds them. The map picks the area up with no code change.
 
 ## Note on the data source
 

@@ -407,7 +407,6 @@
       "exploredAreas": [
         {
           "title": "Outer Ring Road (Bellandur / Ecospace)",
-          "polygonKey": "outerRingRoadBellandur",
           "description": "High corporate demand, 85%+ occupancy, strict RWA audit required before token.",
           "projects": 6,
           "siteVisits": 8,
@@ -420,7 +419,6 @@
         },
         {
           "title": "Embassy TechVillage / Panathur Arc",
-          "polygonKey": "embassyTechvillagePanathur",
           "description": "Strong tech influx, high ADR potential, developer-led ready studio stock.",
           "projects": 5,
           "siteVisits": 6,
@@ -433,7 +431,6 @@
         },
         {
           "title": "Manyata Tech Park Corridor",
-          "polygonKey": "manyataTechParkCorridor",
           "description": "Lower entry price per sqft, developer-led ready studio stock, concentration risk hedge.",
           "projects": 4,
           "siteVisits": 5,

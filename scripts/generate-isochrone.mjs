@@ -70,14 +70,55 @@
  *     light and polite (a full --batch sweep is ~17 requests). For
  *     production/high-volume, run your own Valhalla/OSRM instance and swap
  *     VALHALLA_BASE below.
- *   - Points live in TS files only; journal JSONs reference them by polygonKey
- *     via src/data/polygonPoints/index.ts.
+ *   - Points live in TS files only; journal JSONs reference them by a key derived
+ *     from the area's `title` (see src/data/polygonPoints/areaKey.ts) and the
+ *     Registry is rebuilt into polygonData.ts (auto-generated, one entry per
+ *     journal) with a frozen index.ts re-export — adding a journal never requires
+ *     hand-editing code.
  * -----------------------------------------------------------------------------
  */
 
-import { writeFile, mkdir, access, readFile } from "node:fs/promises";
-import { dirname, resolve, join } from "node:path";
+import { writeFile, mkdir, access, readFile, readdir } from "node:fs/promises";
+import { dirname, resolve, join, basename } from "node:path";
 import { fileURLToPath } from "node:url";
+
+// ---------------------------------------------------------------------------
+// Shared key derivation. The browser client resolves an area's boundary via the
+// same rule (src/data/polygonPoints/areaKey.ts) — keep these two in sync.
+// The key is always derived from the area's `title` (real map micro-markets
+// carry a `title`); no `key`/`polygonKey` field exists in the JSON. Only
+// status-qualifier suffixes like "(Chosen)"/"(Flat)"/"(Plot)"/"(Top Choice)"
+// are stripped; spatial parenthetical parts e.g. "(Bellandur / Ecospace)" are
+// kept so the key stays faithful to the title. Entries WITHOUT a `title` (some
+// journals store non-map scenario cards under `name`) are skipped entirely.
+// ---------------------------------------------------------------------------
+function slugAreaTitle(raw) {
+  if (!raw) return "";
+  return raw
+    .replace(/\((Chosen|Flat|Plot|Top Choice)\)/gi, "") // status qualifiers
+    .replace(/[\(\)\,\/]/g, " ") // parens, slash -> space
+    .replace(/[\u2013\u2014-]/g, " ") // en/em dash + hyphen -> space
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2") // split camelCase (TechVillage)
+    .replace(/[^A-Za-z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w, i) =>
+      i === 0 ? w.toLowerCase() : w[0].toUpperCase() + w.slice(1).toLowerCase()
+    )
+    .join("");
+}
+
+function areaKey(area) {
+  if (!area) return "";
+  return slugAreaTitle(area.title || area.name);
+}
+
+/** True for a genuine map micro-market: has a `title` AND a numeric latlong. */
+function isMapArea(area) {
+  return !!area && !!area.title && area.latlong &&
+    typeof area.latlong.lat === "number" && typeof area.latlong.lng === "number";
+}
 
 // Public, keyless Valhalla demo. Swap for your own instance in production.
 const VALHALLA_BASE = "https://valhalla1.openstreetmap.de";
@@ -86,47 +127,128 @@ const JOURNAL_ROOT = join(ROOT, "src/data/journals");
 const POLY_ROOT = join(ROOT, "src/data/polygonPoints");
 
 // ---------------------------------------------------------------------------
-// Polygon registry wiring (polygonKey -> wired TS file). Must stay in sync with
-// src/data/polygonPoints/index.ts imports.
+// Dynamic discovery (replaces the old hardcoded JOURNAL_FILES / POLY_FILES lists).
+// Journals and output files are resolved from the filesystem at runtime so adding
+// a new journal JSON just works — no hand-edited list here.
 // ---------------------------------------------------------------------------
-const POLY_FILES = {
-  // the-3000-miles-home-journal
-  whitefield: "polygonPointsWhitefield",
-  hennurRoad: "polygonPointsHennurRoad",
-  hebbalAirportBelt: "polygonPointsHebbalAirportBelt",
-  // the-quiet-crorepatis
-  jpNagar7thPhase: "polygonQuietCrorepatisJPNagar",
-  jayanagar4thBlock: "polygonQuietCrorepatisJayanagar",
-  banashankari3rdStage: "polygonQuietCrorepatisBanashankari",
-  // the-spreadsheet-deployer
-  thanisandraMainRd: "polygonSpreadsheetThanisandra",
-  hebbalCorridor: "polygonSpreadsheetHebbal",
-  devanahalliPlottedArc: "polygonSpreadsheetDevanahalli", // excluded below
-  // the-bhoomi-to-bengaluru-journal
-  bellandurPanathur: "polygonBhoomiBellandur",
-  devanahalliAirportCorridor: "polygonBhoomiDevanahalli",
-  sarjapurRoad: "polygonBhoomiSarjapur",
-  // the-twelve-keys-journal
-  outerRingRoadBellandur: "polygonTwelveKeysOrr",
-  embassyTechvillagePanathur: "polygonTwelveKeysPanathur",
-  manyataTechParkCorridor: "polygonTwelveKeysManyata",
-  // the-first-emi-family
-  outerSarjapurRoad: "polygonEmiSarjapur",
-  hosaRoad: "polygonEmiHosa",
-  chandapuraAttibeleFringe: "polygonEmiChandapura",
-};
 
-// Journals that use the V0 Search tab map and carry `exploredAreas`.
-const JOURNAL_FILES = [
-  "the-3000-miles-home-journal",
-  "the-quiet-crorepatis",
-  "the-spreadsheet-deployer",
-  "the-bhoomi-to-bengaluru-journal",
-  "the-twelve-keys-journal",
-  "the-first-emi-family",
-];
+/** All journal slugs = every *.json in src/data/journals (minus default.json). */
+async function listJournalSlugs() {
+  const files = (await readdir(JOURNAL_ROOT)).filter((f) => f.endsWith(".json"));
+  return files
+    .map((f) => f.replace(/\.json$/, ""))
+    .filter((s) => s !== "default")
+    .sort();
+}
+
+/**
+ * Resolve the polygon TS file for a key: reuse an existing file that already
+ * exports `export const <key>IsochronePoints`, otherwise derive a stable new
+ * filename from the key. Returns the absolute path.
+ */
+async function resolvePolyFile(key) {
+  const files = (await readdir(POLY_ROOT))
+    .filter((f) => f.endsWith(".ts") && f !== "index.ts" && f !== "areaKey.ts" && f !== "polygonData.ts")
+    .sort();
+  for (const f of files) {
+    const src = await readFile(join(POLY_ROOT, f), "utf8");
+    if (src.includes(`export const ${key}IsochronePoints`)) {
+      return join(POLY_ROOT, f);
+    }
+  }
+  // New area with no existing file: derive a deterministic filename.
+  const base = "polygon" + key.charAt(0).toUpperCase() + key.slice(1);
+  return join(POLY_ROOT, `${base}.ts`);
+}
 
 // ---------------------------------------------------------------------------
+// Registry auto-sync.
+// src/data/polygonPoints/index.ts is a FIXED entrypoint that re-exports from
+// src/data/polygonPoints/polygonData.ts. The generator writes the polygon arrays
+// INLINE into polygonData.ts (no per-area imports), so adding a new journal
+// changes only that one data file — index.ts never grows and nothing is hand-edited.
+// (Next.js has no Vite `import.meta.glob`; inlining the arrays into a single data
+// module keeps an O(1) runtime lookup with zero per-journal imports.)
+// -----------------------------------------------------------------------------
+const INDEX_PATH = join(POLY_ROOT, "index.ts");
+const DATA_PATH = join(POLY_ROOT, "polygonData.ts");
+
+// Matches `export const <Key>IsochronePoints = [...]`
+const EXPORT_RE = /export\s+const\s+([A-Za-z_$][\w$]*IsochronePoints)\s*[:=]/;
+
+async function collectRegistryEntries() {
+  const files = (await readdir(POLY_ROOT))
+    .filter((f) => f.endsWith(".ts") && f !== "index.ts" && f !== "areaKey.ts" && f !== "polygonData.ts")
+    .sort();
+
+  const entries = [];
+  for (const file of files) {
+    const src = await readFile(join(POLY_ROOT, file), "utf8");
+    const match = src.match(EXPORT_RE);
+    if (!match) {
+      console.warn(`  [registry-skip] ${file}: no \`export const <key>IsochronePoints\` found`);
+      continue;
+    }
+    const exportName = match[1];
+    entries.push({
+      file,
+      key: exportName.replace(/IsochronePoints$/, ""),
+      exportName,
+      points: parsePoints(src), // inline the actual vertices into polygonData.ts
+    });
+  }
+  return entries;
+}
+
+/** Format a [lat, lng] vertex array as compact inline TS source. */
+function formatPoints(points) {
+  return points.map(([lat, lng]) => `  [${lat}, ${lng}],`).join("\n");
+}
+
+/** Build polygonData.ts — the single growing data file with arrays inline. */
+function buildPolygonData(entries) {
+  const header = `// AUTO-GENERATED by scripts/generate-isochrone.mjs — do not edit by hand.
+// Regenerate with any generate-isochrone.mjs run (single or --batch) — this file
+// grows one entry per journal area. The key is derived from each journal's
+// exploredAreas \`title\` (see areaKey.ts). No imports live here, so new journals
+// never touch index.ts.
+`;
+  const body = entries
+    .map((e) => `export const ${e.exportName}: Array<[number, number]> = [\n${formatPoints(e.points)}\n];`)
+    .join("\n\n");
+  const mapEntries = entries.map((e) => `  ${e.key}: ${e.exportName},`).join("\n");
+  return `${header}${body}\n\n/** Map of every derived area key to its boundary vertices. */\nexport const POLYGON_POINTS: Record<string, Array<[number, number]>> = {\n${mapEntries}\n};\n\n/** Resolve a journal's area key to its boundary vertices, or undefined. */\nexport function getPolygonPoints(\n  key?: string | null\n): Array<[number, number]> | undefined {\n  if (!key) return undefined;\n  return POLYGON_POINTS[key];\n}\n`;
+}
+
+/** Build index.ts — the FIXED thin re-export (never grows per journal). */
+function buildIndex() {
+  const header = `// AUTO-GENERATED by scripts/generate-isochrone.mjs — do not edit by hand.
+// Fixed forwarder: the polygon data lives in polygonData.ts (auto-generated,
+// one entry per journal). This file never gains new imports when journals are
+// added — it simply re-exports the entire data module.
+`;
+  return `${header}
+export { POLYGON_POINTS, getPolygonPoints } from \"./polygonData\";\n`;
+}
+
+/** Rebuild polygonData.ts + index.ts from the polygon files in POLY_ROOT. */
+async function syncPolygonRegistry(log = true) {
+  const entries = await collectRegistryEntries();
+  if (entries.length === 0) {
+    console.warn("[registry] No polygon files found — registry left unchanged.");
+    return 0;
+  }
+  await writeFile(DATA_PATH, buildPolygonData(entries), "utf8");
+  await writeFile(INDEX_PATH, buildIndex(), "utf8");
+  if (log) {
+    console.log(`\n[registry] Regenerated ${DATA_PATH} and ${INDEX_PATH}`);
+    for (const e of entries) {
+      console.log(`  key: ${e.key.padEnd(28)} <- ${e.file}`);
+    }
+    console.log(`[registry] ${entries.length} areas auto-registered.`);
+  }
+  return entries.length;
+}
 // arg parsing (no deps). Shared across single / batch / verify modes.
 // Boolean flags (overwrite, batch, dry-run, verify) consume no value token, so
 // they must NOT advance the index. Only value-taking flags skip the next token.
@@ -422,10 +544,6 @@ async function runSingle(args) {
 
   console.log(`\nWrote ${outPath}`);
   console.log(`  export const ${exportName}IsochronePoints (${closedPts.length} points @ ${usedTime} min)\n`);
-  console.log(
-    `Next: register it in src/data/polygonPoints/index.ts and point an area's ` +
-      `polygonKey at the camelized export name.\n`
-  );
 }
 
 // ---------------------------------------------------------------------------
@@ -433,13 +551,14 @@ async function runSingle(args) {
 // ---------------------------------------------------------------------------
 async function collectAreas() {
   const areas = [];
-  for (const jf of JOURNAL_FILES) {
+  for (const jf of await listJournalSlugs()) {
     const json = JSON.parse(await readFile(join(JOURNAL_ROOT, `${jf}.json`), "utf8"));
     const search = json.tabs?.find((t) => t.id === "search");
     for (const a of search?.exploredAreas || []) {
-      if (a.polygonKey && a.latlong) {
-        areas.push({ key: a.polygonKey, title: a.title, lat: a.latlong.lat, lng: a.latlong.lng, journal: jf });
-      }
+      // Only genuine map micro-markets (carry a `title`) become isochrones.
+      // Journals that hold non-map scenario cards under `name` are skipped.
+      if (!isMapArea(a)) continue;
+      areas.push({ key: areaKey(a), title: a.title, lat: a.latlong.lat, lng: a.latlong.lng, journal: jf });
     }
   }
   return areas;
@@ -454,19 +573,15 @@ async function runBatch(args) {
 
   const results = [];
   for (const area of areas) {
-    const file = POLY_FILES[area.key];
-
-    if (!file) {
-      results.push({ ...area, ok: false, reason: "no mapped file" });
-      continue;
-    }
-
-    const outPath = join(POLY_ROOT, `${file}.ts`);
+    // Resolve the output path dynamically: reuse the existing file whose export
+    // matches this key (if any), otherwise derive a fresh filename. No POLY_FILES.
+    const outPath = await resolvePolyFile(area.key);
+    const displayFile = basename(outPath);
     // buildTs() already appends the "IsochronePoints" suffix, so pass the bare key.
     const exportName = area.key;
 
     if (args.dryRun) {
-      console.log(`  [dry] ${area.key.padEnd(26)} ${area.title}  -> ${file}.ts  (${area.lat},${area.lng})`);
+      console.log(`  [dry] ${area.key.padEnd(26)} ${area.title}  -> ${displayFile}  (${area.lat},${area.lng})`);
       results.push({ ...area, ok: true, dryRun: true, reason: "dry run" });
       continue;
     }
@@ -489,7 +604,7 @@ async function runBatch(args) {
       await mkdir(dirname(outPath), { recursive: true });
       await writeFile(outPath, content, "utf8");
       results.push({ ...area, ok: true, pts: pts.length, time: usedTime });
-      console.log(`  OK ${area.key.padEnd(24)} ${file}.ts  (${pts.length} pts @ ${usedTime} min)`);
+      console.log(`  OK ${area.key.padEnd(24)} ${displayFile}  (${pts.length} pts @ ${usedTime} min)`);
     } catch (e) {
       results.push({ ...area, ok: false, reason: e.message });
       console.error(`  FAIL ${area.key.padEnd(22)} ${e.message}`);
@@ -513,14 +628,21 @@ function parsePoints(src) {
 
 async function runVerify() {
   const results = [];
-  for (const jf of JOURNAL_FILES) {
+  for (const jf of await listJournalSlugs()) {
     const json = JSON.parse(await readFile(join(JOURNAL_ROOT, `${jf}.json`), "utf8"));
     const search = json.tabs?.find((t) => t.id === "search");
     for (const a of search?.exploredAreas || []) {
-      if (!a.polygonKey || !a.latlong) continue;
-      const file = POLY_FILES[a.polygonKey];
-      if (!file) { results.push({ key: a.polygonKey, error: "no mapped file" }); continue; }
-      const src = await readFile(join(POLY_ROOT, `${file}.ts`), "utf8");
+      if (!isMapArea(a)) continue;
+      const key = areaKey(a);
+      const outPath = await resolvePolyFile(key);
+      if (!outPath) { results.push({ key, error: "no mapped file" }); continue; }
+      let src;
+      try {
+        src = await readFile(outPath, "utf8");
+      } catch {
+        results.push({ key, error: `missing file ${basename(outPath)}` });
+        continue;
+      }
       const pts = parsePoints(src);
       const ringClosed =
         pts.length > 1 &&
@@ -531,10 +653,10 @@ async function runVerify() {
       // (Keeps the file in sync with src/data/polygonPoints/index.ts and catches
       // any accidental double-suffix / renames from past generator bugs.)
       const exportOk = new RegExp(
-        `export const ${a.polygonKey}IsochronePoints\\s*:`
+        `export const ${key}IsochronePoints\\s*:`
       ).test(src);
       results.push({
-        key: a.polygonKey,
+        key,
         pts: pts.length,
         closed: ringClosed,
         pinInside: pin,
@@ -570,8 +692,14 @@ async function main() {
     if (!args.denoiseSet) args.denoise = 0.1;
   }
   if (args.verify) return runVerify();
-  if (args.batch) return runBatch(args);
-  return runSingle(args);
+
+  // Single or batch generation writes polygon files. After any write we
+  // rebuild src/data/polygonPoints/index.ts automatically so the map sees the
+  // new/updated area without anyone hand-editing the registry.
+  if (args.batch) await runBatch(args);
+  else await runSingle(args);
+
+  await syncPolygonRegistry(true);
 }
 
 main().catch((err) => {

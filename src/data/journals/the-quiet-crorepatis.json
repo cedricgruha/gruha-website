@@ -422,7 +422,6 @@
       "exploredAreas": [
         {
           "title": "JP Nagar 7th Phase (Chosen)",
-          "polygonKey": "jpNagar7thPhase",
           "description": "Established residential township belt with Brigade Gardenia & Millennium (~₹11.8K/sqft).",
           "projects": 4,
           "siteVisits": 5,
@@ -435,7 +434,6 @@
         },
         {
           "title": "Jayanagar 4th Block",
-          "polygonKey": "jayanagar4thBlock",
           "description": "Premium heritage residential hub with 24-unit boutique apartments (~₹15-21K/sqft).",
           "projects": 3,
           "siteVisits": 4,
@@ -448,7 +446,6 @@
         },
         {
           "title": "Banashankari 3rd Stage",
-          "polygonKey": "banashankari3rdStage",
           "description": "Quiet South Bengaluru locality explored during post-walkaway re-evaluations.",
           "projects": 3,
           "siteVisits": 3,

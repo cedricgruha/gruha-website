@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import * as Icons from "lucide-react";
 import imgSearchMap from "@/imports/Container.png";
 import { getPolygonPoints } from "@/data/polygonPoints";
+import { areaKey } from "@/data/polygonPoints/areaKey";
 
 // Leaflet must not run during SSR/static generation — load it client-only.
 const JournalMapV0 = dynamic(() => import("./JournalMapV0"), { ssr: false });
@@ -162,13 +163,13 @@ export const JournalSearchV0: React.FC<JournalSearchV0Props> = ({
     const processed = exploredAreasList.map((area, idx) => {
       const lat = area.latlong.lat;
       const lng = area.latlong.lng;
-      // Standard flow: each journal's JSON declares a `polygonKey`, which is resolved
-      // here to its boundary vertices via the registry (src/data/polygonPoints/index.ts).
-      // That registry imports the actual point arrays from polygonPoints*.ts files — so
-      // the coordinates live in TS only, and the JSON maps to them by key. If no key
-      // (or nothing registered), fall back to a journal-provided `polygonPoints`, then
-      // to the decorative offset-hexagon (mirrors the old SVG wobble).
-      const registered = getPolygonPoints(area.polygonKey);
+      // Standard flow: the boundary key is derived from the area's `title` via
+      // areaKey() (src/data/polygonPoints/areaKey.ts) and resolved through the
+      // registry (src/data/polygonPoints/index.ts). The registry imports the
+      // point arrays from polygonPoints*.ts files — so coordinates live in TS
+      // only. If nothing is registered, fall back to a journal-provided
+      // `polygonPoints`, then to the decorative offset-hexagon.
+      const registered = getPolygonPoints(areaKey(area));
       const polygonPoints: Array<[number, number]> =
         registered && registered.length >= 3
           ? registered
