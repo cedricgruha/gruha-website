@@ -395,6 +395,7 @@
       "exploredAreas": [
         {
           "title": "Bellandur - Panathur (Flat)",
+          "polygonKey": "bellandurPanathur",
           "description": "Sobha Dream Acres corridor near his son's Microsoft workplace (~₹12.8-13.2K/sqft).",
           "projects": 4,
           "siteVisits": 6,
@@ -407,6 +408,7 @@
         },
         {
           "title": "Devanahalli Airport Corridor (Plot)",
+          "polygonKey": "devanahalliAirportCorridor",
           "description": "Gated plotted developments with DC conversion and A-khata status (~₹7-9K/sqft premium band).",
           "projects": 3,
           "siteVisits": 5,
@@ -419,6 +421,7 @@
         },
         {
           "title": "Sarjapur Road",
+          "polygonKey": "sarjapurRoad",
           "description": "Explored alternative 3BHK options with strong rental demand from tech parks.",
           "projects": 3,
           "siteVisits": 4,
