@@ -313,7 +313,7 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
                 sectionRefs.current["Search"] = el;
               }}
             >
-              <JournalSearchV0 {...tabsMap["search"]} />
+              <JournalSearchV1 {...tabsMap["search"]} />
             </div>
 
             {/* Projects Section */}

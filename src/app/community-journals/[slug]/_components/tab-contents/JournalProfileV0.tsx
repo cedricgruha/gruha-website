@@ -254,17 +254,13 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                       <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
                         {p.title}
                       </h4>
-                      <span className="text-base font-semibold flex-none pt-0.5" style={{ fontFamily: fu, color: "#DD5128" }}>
-                        {displayScore}
-                      </span>
+                     
                     </div>
                     <p className="text-sm sm:text-base leading-[1.5]" style={{ fontFamily: fu, color: "#59636F" }}>
                       {displayWhy}
                     </p>
                   </div>
-                  <div className="mt-4 h-[3px] rounded-full bg-slate-100 overflow-hidden">
-                    <div className="h-full rounded-full" style={{ width: `${displayPct}%`, background: "#DD5128", opacity: 0.4 }} />
-                  </div>
+                 
                 </div>
               );
             })}
