@@ -1,0 +1,103 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Soft Ambient Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F3F4F6" />
+      <stop offset="100%" stop-color="#E5E7EB" />
+    </radialGradient>
+
+    <!-- Face Skin Gradient (Monochrome Pearl) -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+
+    <!-- Hair & Beard Gradient -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <!-- Clothing Charcoal Gradient -->
+    <linearGradient id="clothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+
+    <!-- Coral Accent Gradient -->
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B4A" />
+      <stop offset="100%" stop-color="#DD5128" />
+    </linearGradient>
+
+    <!-- Soft Drop Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+    
+    <filter id="avatarShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle Base -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" stroke="#E2E8F0" stroke-width="2" />
+  
+  <!-- Subtle Outer Accent Ring -->
+  <circle cx="200" cy="200" r="176" fill="none" stroke="#DD5128" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="8 6" />
+
+  <!-- Avatar Character Group -->
+  <g filter="url(#avatarShadow)">
+    <!-- Shoulders & Torso (Charcoal Turtleneck) -->
+    <path d="M 90 350 C 90 280, 140 250, 200 250 C 260 250, 310 280, 310 350 L 310 400 L 90 400 Z" fill="url(#clothGrad)" />
+    
+    <!-- Turtleneck Collar Overlay -->
+    <path d="M 160 235 C 160 230, 240 230, 240 235 L 245 265 C 245 275, 155 275, 155 265 Z" fill="#1E293B" stroke="#475569" stroke-width="1" />
+
+    <!-- Warm Coral Focal Accent Lapel Badge -->
+    <circle cx="265" cy="300" r="14" fill="url(#coralGrad)" filter="url(#shadow)" />
+    <path d="M 260 300 L 264 304 L 271 296" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Neck Base -->
+    <path d="M 172 210 L 228 210 L 232 245 C 232 255, 168 255, 168 245 Z" fill="#CBD5E1" />
+
+    <!-- Head / Face Oval -->
+    <path d="M 140 150 C 140 90, 260 90, 260 150 C 260 205, 235 232, 200 232 C 165 232, 140 205, 140 150 Z" fill="url(#skinGrad)" />
+
+    <!-- Ears -->
+    <circle cx="138" cy="155" r="12" fill="#CBD5E1" />
+    <circle cx="262" cy="155" r="12" fill="#CBD5E1" />
+
+    <!-- Hair (Styled 3D Vector Slick-Back Tech Crop) -->
+    <path d="M 136 142 C 136 85, 165 60, 200 60 C 235 60, 264 85, 264 142 C 255 120, 235 110, 200 110 C 165 110, 145 120, 136 142 Z" fill="url(#hairGrad)" />
+
+    <!-- Neat Trimmed Beard & Mustache -->
+    <path d="M 152 175 C 152 215, 248 215, 248 175 C 248 218, 232 228, 200 228 C 168 228, 152 218, 152 175 Z" fill="#1E293B" opacity="0.85" />
+
+    <!-- Eyebrows -->
+    <path d="M 160 135 Q 175 130 185 135" stroke="#0F172A" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <path d="M 215 135 Q 225 130 240 135" stroke="#0F172A" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+    <!-- Glasses (Tech Executive Spectacles in Dark Slate + Coral Accent Rim) -->
+    <!-- Left Lens Frame -->
+    <rect x="154" y="138" width="38" height="28" rx="8" fill="none" stroke="#0F172A" stroke-width="3" />
+    <!-- Right Lens Frame -->
+    <rect x="208" y="138" width="38" height="28" rx="8" fill="none" stroke="#0F172A" stroke-width="3" />
+    <!-- Glasses Bridge -->
+    <path d="M 192 148 L 208 148" stroke="#DD5128" stroke-width="3" stroke-linecap="round" />
+    <!-- Glasses Arms -->
+    <path d="M 154 148 L 138 145" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 246 148 L 262 145" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Eyes (Refined Minimalist Dots Behind Lenses) -->
+    <circle cx="173" cy="152" r="3.5" fill="#0F172A" />
+    <circle cx="227" cy="152" r="3.5" fill="#0F172A" />
+
+    <!-- Nose -->
+    <path d="M 200 152 L 197 168 L 203 168" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Subtle Smile -->
+    <path d="M 188 186 Q 200 194 212 186" fill="none" stroke="#475569" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>

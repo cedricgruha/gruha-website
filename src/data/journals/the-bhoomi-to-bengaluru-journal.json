@@ -1,0 +1,945 @@
+{
+  "article": {
+    "tags": [
+      "INVESTORS & WEALTH",
+      "SECTION 54F",
+      "BENGALURU"
+    ],
+    "title": "The Bhoomi to Bengaluru Journal",
+    "description": "Venkata Ramana Chowdary's ₹3.75 Cr reinvestment journey from Guntur land sale into Bengaluru real estate — balancing Section 54F tax deadlines, independent legal verification, and family consent.",
+    "quote": "\"Land money should go back into land. Or at least into concrete.\"",
+    "readTime": "16 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Calendar",
+        "text": "Section 54F deadlines require backward-planned registration timelines"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "Independent lawyer verification must override community WhatsApp word"
+      },
+      {
+        "icon": "Scale",
+        "text": "Developer price sheets move at quarter-end through sales heads"
+      }
+    ],
+    "heroImage": "/journals/cover/4.jpg",
+    "heroTitle": "The Bhoomi to Bengaluru Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Venkata Ramana Chowdary -- 52-year-old agri-business owner from Guntur district with ₹3.75 Cr from an Amaravati land sale, a Section 54F tax clock, and a son working at Microsoft in Bellandur.",
+      "buyers": [
+        {
+          "name": "Venkata Ramana Chowdary",
+          "age": 52,
+          "role": "Agri-Business Owner (Guntur)",
+          "description": "Pragmatic, relationship-driven agri-business owner deploying ₹3.75 Cr land sale proceeds into Bengaluru residential assets while navigating Section 54F deadlines and Kannada legal paperwork.",
+          "tags": [
+            "Land-Investor",
+            "Section-54F",
+            "Value-Focused"
+          ],
+          "image": "/journals/the-bhoomi-to-bengaluru-journal/ramana.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 52-year-old South Indian male agri-business owner named Venkata Ramana Chowdary with neat grey hair and a dignified warm expression, wearing a crisp white cotton shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Deploy ₹3.75 Cr Amaravati land proceeds into two solid Bengaluru assets — a 3BHK near his son in Bellandur–Sarjapur (Sobha Dream Acres) and a gated villa plot on the Devanahalli airport corridor within the Section 54F tax window.",
+      "sharedVisionImage": "/journals/the-bhoomi-to-bengaluru-journal/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a modern residential high-rise tower alongside a landscaped gated plot layout with boundary stones, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the boundary line, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Agri Business"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Reinvestment"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "8 Months"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-bhoomi-to-bengaluru-journal/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a calendar with a red-ringed Section 54F tax deadline date beside tax calculation documents, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the 54F deadline ring, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Section 54F Reinvestment Window",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Hard CA deadline requiring backwards-planned registration dates for capital gains tax exemption."
+        },
+        {
+          "image": "/journals/the-bhoomi-to-bengaluru-journal/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an official DC-conversion certificate and A-khata land record seal, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the khata seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "DC-Converted A-Khata Plot",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Clear legal title and boundary walls for the airport corridor villa plot leg."
+        },
+        {
+          "image": "/journals/the-bhoomi-to-bengaluru-journal/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a developer price sheet with quarter-end discount calculations, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the discount percentage line, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Direct Brand Developer Purchase",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Primary transaction from a top-tier developer to eliminate multi-party resale title risks."
+        },
+        {
+          "image": "/journals/the-bhoomi-to-bengaluru-journal/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an encumbrance certificate document with a yellow highlighter line, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the highlighted text, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Independent Legal Verification",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Hiring an independent lawyer to audit Kannada records over community WhatsApp recommendations."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From Amaravati land sale proceeds and community WhatsApp shortlists to catching rajakaluve plot issues and registering both assets inside 54F.",
+      "journeyFrameTitle": "FROM LAND TO 54F",
+      "roadmapTitle": "How Amaravati proceeds became two Bengaluru assets",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Double Registration Close"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹3.75 Cr (Flat + Plot)"
+        },
+        {
+          "icon": "Calendar",
+          "label": "TAX WINDOW",
+          "value": "54F Deadline Met"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "LEGAL AUDIT",
+          "value": "Lawyer First, Bhojanam After"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "s1-54f-tax-clock",
+          "stage": "S1",
+          "type": "stage",
+          "title": "S1: 54F Tax Clock Starts",
+          "desc": "3 weeks: Guntur land sale closing starts 8-month Section 54F tax reinvestment deadline.",
+          "icon": "Clock",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s2-community-network-deals",
+          "stage": "S2",
+          "type": "stage",
+          "title": "S2: Trust Network Deals",
+          "desc": "5 weeks evaluating community WhatsApp deals across North Bengaluru & Bellandur.",
+          "icon": "Users",
+          "x": 340,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s4-ec-shadow-regression",
+          "stage": "S4",
+          "type": "regression",
+          "targetNodeId": "s2-community-network-deals",
+          "title": "S4 REGRESSION: EC Shadow",
+          "desc": "2 weeks regression: 'great deal' plot killed by lawyer's EC check; rajakaluve shadow.",
+          "icon": "AlertOctagon",
+          "loopText": "S4 → S2 Regression (EC Shadow)",
+          "x": 620,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "s3-dual-asset-thesis",
+          "stage": "S3",
+          "type": "stage",
+          "title": "S3: Dual Asset Strategy",
+          "desc": "3 weeks structuring capital split: 3BHK flat near son + Devanahalli land plot.",
+          "icon": "Layers",
+          "x": 820,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "s5-flat-sobha-dream-acres",
+          "stage": "S5",
+          "type": "stage",
+          "title": "S5: 3BHK Flat Secured",
+          "desc": "3 weeks: Sobha Dream Acres 3BHK flat near son in Bellandur registered.",
+          "icon": "Home",
+          "x": 640,
+          "y": 420,
+          "width": 180
+        },
+        {
+          "id": "s5-plot-devanahalli-gated",
+          "stage": "S5",
+          "type": "stage",
+          "title": "S5: A-Khata Plot Secured",
+          "desc": "4 weeks: Devanahalli premium gated plot with A-Khata & DC conversion verified.",
+          "icon": "Map",
+          "x": 370,
+          "y": 420,
+          "width": 180
+        },
+        {
+          "id": "s7-54f-window-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "S7: 54F Window Closed",
+          "desc": "Both flat and plot registered inside Section 54F tax reinvestment window.",
+          "icon": "CheckCircle2",
+          "x": 110,
+          "y": 420,
+          "width": 180
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "post-booking",
+          "label": "Post-booking",
+          "icon": "CalendarPlus"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote",
+          "active": true,
+          "tag": "Completed"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "ca-calendar-moment",
+          "title": "The CA's red-ringed calendar",
+          "desc": "The CA's backward-planned calendar with the Section 54F deadline ringed in red set the hard timeline.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/moment-1.png",
+          "imagegenerationprompt": "A desk calendar with a red marker circle around a 54F tax deadline date, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 marker circle accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "whatsapp-shortlist-moment",
+          "title": "The 14-times forwarded shortlist",
+          "desc": "A community WhatsApp shortlist printed and stapled, representing collective Telugu-belt land wisdom.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a printed paper shortlist document with a smartphone showing a WhatsApp forward tag, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 forward badge accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "ec-highlighter-moment",
+          "title": "The lawyer's yellow EC highlighter",
+          "desc": "The encumbrance certificate printout with the rajakaluve shadow marked in yellow, saving ₹1.5 crore.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an Encumbrance Certificate with a highlighted buffer zone, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 highlighted line accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "two-receipts-moment",
+          "title": "Two receipts and two sweets boxes",
+          "desc": "Two registration receipts fanned out beside sweets from two different shops after meeting the 54F window.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of two official property registration receipts beside a box of traditional Indian sweets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 stamp accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Land money should go back into land. Or at least into concrete.",
+          "author": "— Ramana"
+        },
+        {
+          "text": "Appa, buy what you like, but I may not live there.",
+          "author": "— Son (Microsoft Engineer)"
+        },
+        {
+          "text": "You trust them for the introduction, garu. You trust the EC for the boundary.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Lawyer first, bhojanam after.",
+          "author": "— Ramana"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Ramana",
+          "avatar": "/journals/the-bhoomi-to-bengaluru-journal/ramana.png",
+          "text": "Riya garu, in Guntur we settle price over bhojanam. Here the boy shows me a laminated sheet — 'price is fixed'. How do we negotiate?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Ramana garu, the sheet is the opening move, not the closing one. Negotiation happens at quarter-end, on unsold inventory, through the sales head. But lawyer checks papers first!",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Clock4",
+          "title": "Section 54F Tax Deadline",
+          "description": "Capital gains reinvestment clock requires backward-planned registration dates."
+        },
+        {
+          "icon": "ShieldAlert",
+          "title": "Rajakaluve & Buffer Zones",
+          "description": "Community-recommended plots can hide stormwater drain encumbrances."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Quarter-End Negotiation",
+          "description": "Developer price sheets move 4-6% at quarter-end through senior sales heads."
+        },
+        {
+          "icon": "Building2",
+          "title": "Language Barrier in Records",
+          "description": "Kannada land records require independent legal verification over informal word."
+        },
+        {
+          "icon": "Heart",
+          "title": "Family Consent Surface",
+          "description": "Confirming whether next generation will actually reside in the chosen flat."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-land-money-parker.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating 3BHK brand apartments near Bellandur–Panathur and gated plot layouts on the Devanahalli airport corridor.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH DUALITY",
+          "value": "Flat + Villa Plot"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR PAIR",
+          "value": "Bellandur • Devanahalli"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED PLOTS",
+          "value": "Rajakaluve Shadow Plot"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "VERIFICATION",
+          "value": "Independent Lawyer First"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Bellandur - Panathur (Flat)",
+          "description": "Sobha Dream Acres corridor near his son's Microsoft workplace (~₹12.8-13.2K/sqft).",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.939868,
+            "lng": 77.699285
+          },
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/bellandur.png",
+          "imagegenerationprompt": "A modern architectural vector landscape of Bellandur Panathur tech corridor with high-rise apartment towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Devanahalli Airport Corridor (Plot)",
+          "description": "Gated plotted developments with DC conversion and A-khata status (~₹7-9K/sqft premium band).",
+          "projects": 3,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.211489,
+            "lng": 77.695624
+          },
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/devanahalli.png",
+          "imagegenerationprompt": "An aerial vector illustration of a gated plot layout with landscaped internal roads near Devanahalli airport, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Sarjapur Road",
+          "description": "Explored alternative 3BHK options with strong rental demand from tech parks.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.910796,
+            "lng": 77.684470
+          },
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/sarjapur.png",
+          "imagegenerationprompt": "A modern architectural vector landscape of Sarjapur Road residential developments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Whitefield • Yelahanka • Thanisandra",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "SECTION 54F DEADLINE",
+          "value": "8-Month Tax Clock",
+          "description": "Hard capital gains tax reinvestment deadline running since Guntur land closing.",
+          "icon": "Hourglass"
+        },
+        {
+          "title": "ENCUMBRANCE SHADOWS",
+          "value": "Rajakaluve Title Risk",
+          "description": "Community \"great deals\" hiding rajakaluve shadows and un-cleared EC records.",
+          "icon": "ShieldAlert"
+        },
+        {
+          "title": "FIXED PRICE THEATRE",
+          "value": "Laminated Site Sheets",
+          "description": "Navigating rigid site office price sheets that only move at quarter-end via sales heads.",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "INTER-STATE DILIGENCE",
+          "value": "Network Dependency",
+          "description": "Transitioning from Guntur walk-the-land trust to Bengaluru independent legal audits.",
+          "icon": "FileCheck"
+        }
+      ],
+      "filtersFooterLabel": "Ramana was balancing Section 54F tax deadlines with strict legal verification.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Ramana garu brought deep land wisdom from Guntur, but he quickly realized that Bengaluru real estate runs on Kannada paperwork, not handshakes over meals. When his lawyer caught the rajakaluve shadow on a community-recommended plot, he established a new rule: Lawyer first, bhojanam after.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing Kannada land records and DC conversion certificates on a tablet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating primary brand developer towers and gated plotted developments across Bengaluru.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH DUALITY",
+          "value": "Flat + Gated Plot"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "FLAT SELECTION",
+          "value": "Sobha Dream Acres 3BHK"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "PLOT SELECTION",
+          "value": "Devanahalli Gated Plot"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "54F DEADLINE",
+          "value": "Double Registration Met"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Clock",
+          "title": "Section 54F Reinvestment",
+          "subtitle": "8-month tax window"
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "DC Conversion & Khata",
+          "subtitle": "independent legal check"
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Quarter-End Price Sheets",
+          "subtitle": "senior sales head deal"
+        },
+        {
+          "icon": "Building2",
+          "title": "Community-Validated Brand",
+          "subtitle": "Sobha / tier-1 record"
+        },
+        {
+          "icon": "HeartHandshake",
+          "title": "Family Alignment",
+          "subtitle": "son's workplace proximity"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ramana",
+          "avatar": "/journals/the-bhoomi-to-bengaluru-journal/ramana.png",
+          "text": "The lawyer's ₹60K fee saved me ₹1.5 crore on that rajakaluve plot. Community word is good for intro, lawyer is good for title."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Wisdom, Ramana garu. Different tools for different jobs.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-bhoomi-to-bengaluru-journal/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of South-East & North Bengaluru highlighting Panathur and Devanahalli in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Sobha Dream Acres",
+          "name": "Sobha Dream Acres",
+          "price": "₹2.23–2.56 Cr",
+          "possession": "Ready",
+          "psf": "₹12,750–13,150/sqft",
+          "location": "Balagere–Panathur",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/projects/1.jpg"
+        },
+        {
+          "title": "Devanahalli Gated Plot",
+          "name": "Devanahalli Gated Plot",
+          "price": "₹1.2–1.8 Cr",
+          "possession": "Ready",
+          "psf": "₹2,100–8,500/sqft",
+          "location": "Airport Corridor",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "North Fringe Layout",
+          "name": "North Fringe Layout",
+          "price": "₹85L–1.2 Cr",
+          "possession": "Ready",
+          "psf": "₹4,500/sqft",
+          "location": "North Fringe",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ShieldAlert",
+          "title": "Rajakaluve Buffer Zone Shadow",
+          "count": "1 community plot"
+        },
+        {
+          "icon": "Clock",
+          "title": "Delayed Construction Timeline",
+          "count": "2 unbranded towers"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Unapproved Layout Status",
+          "count": "1 B-khata scheme"
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Unrealistic Price Demands",
+          "count": "2 individual resale sellers"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Splitting the ₹3.75 Cr capital into a 3BHK at Sobha Dream Acres for immediate rental near his son and a verified DC-converted gated plot in Devanahalli satisfied Section 54F tax rules, preserved land capital, and protected legal title.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key insights for land investors reinvesting capital across state boundaries.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Lawyer First, Bhojanam After"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Section 54F Reinvestment Clock"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Trusting Community Over EC"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Quarter-End Sales Negotiation"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The Section 54F clock works backward.",
+          "description": "Registration dates, not agreement dates, govern capital gains tax exemptions. Work backward from the CA's calendar deadline.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a CA tax planning calendar with a red deadline ring, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Independent lawyers pay for themselves fifty-fold.",
+          "description": "A ₹60K independent legal fee caught a rajakaluve drain issue on a community plot, saving ₹1.5 crore in trapped capital.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an Encumbrance Certificate with a yellow highlighter line on buffer zones, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Developer price sheets move at quarter-end.",
+          "description": "Negotiation in Bengaluru happens through senior sales heads on quarter-end unsold inventory (4-6% movement), not at site tables.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a developer price sheet with quarter-end discount notes, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Community groups source; documents verify.",
+          "description": "WhatsApp groups are excellent for deal sourcing, but only legal EC checks confirm boundary and title safety.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone displaying a community group chat beside legal land records, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Surface family consent early.",
+          "description": "Confirming whether children will actually live in the chosen apartment prevents silent assumption mismatches.",
+          "imageSrc": "/journals/the-bhoomi-to-bengaluru-journal/lesson-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a family floorplan review session, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Users",
+          "text": "Community WhatsApp word is enough to confirm title"
+        },
+        {
+          "icon": "MessageSquare",
+          "text": "Prices must be negotiated face-to-face over meals"
+        },
+        {
+          "icon": "Calendar",
+          "text": "Agreement signing satisfies capital gains tax timeline"
+        },
+        {
+          "icon": "Home",
+          "text": "Son will naturally move into whatever flat is bought"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "ShieldCheck",
+          "text": "Lawyer first, bhojanam after — independent EC check mandatory"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Quarter-end sales head choreography yields 4-6% discounts"
+        },
+        {
+          "icon": "Clock",
+          "text": "Registration completion date governs Section 54F compliance"
+        },
+        {
+          "icon": "Heart",
+          "text": "Explicit family conversation clarifies usage intent"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Hire independent lawyer on Day 1",
+          "description": "Auditing legal documents before visiting sites prevents wasted travel and emotional attachment."
+        },
+        {
+          "icon": "Clock",
+          "title": "Work backward from 54F deadline",
+          "description": "Mapping registration steps with the CA earlier creates a calmer shopping schedule."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Time visits around quarter-end",
+          "description": "Aligning final negotiations with developer financial quarters secures maximum price flexibility."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Ask next generation directly",
+          "description": "Openly discussing living preferences with his son avoided misplaced expectations."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ramana",
+          "avatar": "/journals/the-bhoomi-to-bengaluru-journal/ramana.png",
+          "text": "In Guntur, land is measured in acres and handshakes. In Bengaluru, it's measured in A-khatas and EC lines. Adapting kept our money safe."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Well said, Ramana garu. Honoring your land wisdom while enforcing local diligence is how legacies compound.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for inter-state land investors",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Guntur land sale, CA 54F calendar planning, lawyer EC checking, and double registration, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For buyers reinvesting land capital across states under Section 54F, success requires pairing community sourcing with independent legal verification. Venkata Ramana Chowdary proved that when legal diligence leads, inter-state capital deployment succeeds seamlessly.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Section 54F tax reinvestment clock dictates schedule",
+          "body": "Closing the Guntur land sale started the 54F calendar; CA's timeline defined the hard 8-month window.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Independent lawyer check saved ₹3.75 Cr from rajakaluve shadow",
+          "body": "Community WhatsApp \"super deals\" require independent title and EC runs before any advance is paid.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Laminated price sheets move at quarter-end via sales heads",
+          "body": "In-person negotiation works in Bengaluru — but through quarter-end sales heads rather than site executives.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "Two-asset split satisfies both family and long-term land wealth",
+          "body": "Parking ₹3.75 Cr into a 3BHK flat near son in Bellandur plus a gated plot near airport balanced both goals.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 7",
+          "headline": "Absorbed son's independence with grace to close in window",
+          "body": "Accepting the son's choice to stay in Bellandur allowed both registrations to complete inside the 54F deadline.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you are reinvesting capital gains under Section 54F or navigating Kannada land records, let Riya build your custom plan.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your land sale proceeds, Section 54F deadline, and asset preferences.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer typing 54F tax corpus and corridor choices into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya evaluates DC conversion status, A-khata records, and 54F backward registration timelines.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing DC conversion certificates and EC reports, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Bhoomi to Bengaluru journal and 54F compliance roadmap are generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive legally verified 3BHK flat and gated plot options matching your tax window.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified flat and plot recommendations, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 recommendation badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Section 54F Backward Calendar",
+          "description": "Structure your registration dates to guarantee tax exemption compliance.",
+          "icon": "Calendar"
+        },
+        {
+          "id": 2,
+          "title": "Independent Legal Verification",
+          "description": "Audit Kannada land records & rajakaluve buffers before paying deposits.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 3,
+          "title": "Dual Asset Allocation (Flat + Plot)",
+          "description": "Balance immediate rental income near family with long-term land appreciation.",
+          "icon": "Building2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You sold agricultural or land assets, realized significant capital, and have a Section 54F tax reinvestment clock running.",
+        "Equity markets feel like rumor; land and concrete feel like solid facts.",
+        "You operate through trusted community networks first, but have learned to demand independent title verification.",
+        "You prefer buying directly from brand developers or established gated plotted developments where pricing is clear.",
+        "You want multiple assets: a flat near your children and a plot for long-term land wealth.",
+        "You negotiate hard in person, face-to-face, and value developer relationships over portal listings."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "s1-54f-tax-clock",
+      "stage": "S1",
+      "type": "stage",
+      "title": "S1: 54F Tax Clock Starts",
+      "desc": "3 weeks: Guntur land sale closing starts 8-month Section 54F tax reinvestment deadline.",
+      "icon": "Clock",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s2-community-network-deals",
+      "stage": "S2",
+      "type": "stage",
+      "title": "S2: Trust Network Deals",
+      "desc": "5 weeks evaluating community WhatsApp deals across North Bengaluru & Bellandur.",
+      "icon": "Users",
+      "x": 340,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s4-ec-shadow-regression",
+      "stage": "S4",
+      "type": "regression",
+      "targetNodeId": "s2-community-network-deals",
+      "title": "S4 REGRESSION: EC Shadow",
+      "desc": "2 weeks regression: 'great deal' plot killed by lawyer's EC check; rajakaluve shadow.",
+      "icon": "AlertOctagon",
+      "loopText": "S4 → S2 Regression (EC Shadow)",
+      "x": 620,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "s3-dual-asset-thesis",
+      "stage": "S3",
+      "type": "stage",
+      "title": "S3: Dual Asset Strategy",
+      "desc": "3 weeks structuring capital split: 3BHK flat near son + Devanahalli land plot.",
+      "icon": "Layers",
+      "x": 820,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s5-flat-sobha-dream-acres",
+      "stage": "S5",
+      "type": "stage",
+      "title": "S5: 3BHK Flat Secured",
+      "desc": "3 weeks: Sobha Dream Acres 3BHK flat near son in Bellandur registered.",
+      "icon": "Home",
+      "x": 640,
+      "y": 420,
+      "width": 180
+    },
+    {
+      "id": "s5-plot-devanahalli-gated",
+      "stage": "S5",
+      "type": "stage",
+      "title": "S5: A-Khata Plot Secured",
+      "desc": "4 weeks: Devanahalli premium gated plot with A-Khata & DC conversion verified.",
+      "icon": "Map",
+      "x": 370,
+      "y": 420,
+      "width": 180
+    },
+    {
+      "id": "s7-54f-window-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "S7: 54F Window Closed",
+      "desc": "Both flat and plot registered inside Section 54F tax reinvestment window.",
+      "icon": "CheckCircle2",
+      "x": 110,
+      "y": 420,
+      "width": 180
+    }
+  ]
+}

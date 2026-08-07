@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "title": "The Quiet Crorepatis",
+    "subtitle": "How Suresh & Veena Kulkarni turned a retired banker's ledger habit into a capital-protection playbook for south Bengaluru.",
+    "tags": [
+      "Conservative",
+      "Investor",
+      "Bengaluru"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/1.jpg",
+    "imagePosition": "object-[right_center]",
+    "views": 14292,
+    "copies": 506,
+    "path": "community-journals/the-quiet-crorepatis"
+  },
+  {
+    "id": 2,
+    "title": "The Spreadsheet Deployer",
+    "subtitle": "How Nikhil Menon spent eleven months building the perfect model — and what it cost him.",
+    "tags": [
+      "Investor",
+      "Pre-Launch",
+      "Bengaluru"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/2.jpg",
+    "imagePosition": "object-[right_center]",
+    "views": 13422,
+    "copies": 101,
+    "path": "community-journals/the-spreadsheet-deployer"
+  },
+  {
+    "id": 3,
+    "title": "The NRI Buying on a Video Call",
+    "subtitle": "How Arjun Nair shortlisted three Bengaluru projects from Dubai — one RERA filing at a time.",
+    "tags": [
+      "NRI",
+      "Investor",
+      "Bengaluru"
+    ],
+    "segment": "INVESTORS & WEALTH / NRI",
+    "image": "/journals/cover/3.png",
+    "views": 6654,
+    "copies": 497,
+    "path": "community-journals/the-3000-miles-home-journal"
+  },
+  {
+    "id": 4,
+    "title": "The Land-Money Parker",
+    "subtitle": "How Venkata Ramana Chowdary is moving three generations of Guntur land wealth into Bengaluru — one document at a time.",
+    "tags": [
+      "Investor",
+      "Plot Buyer",
+      "Bengaluru"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/4.jpg",
+    "imagePosition": "object-[right_center]",
+    "views": 5475,
+    "copies": 191,
+    "path": "community-journals/the-bhoomi-to-bengaluru-journal"
+  },
+  {
+    "id": 5,
+    "title": "The Micro-Stay Operator",
+    "subtitle": "How Priyanka Bhat turned hotel-industry revenue logic into a six-unit short-stay portfolio — and why units seven and eight are harder.",
+    "tags": [
+      "Investor",
+      "Short-Stay",
+      "ORR"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/5.jpg",
+    "imagePosition": "object-[right_center]",
+    "views": 21227,
+    "copies": 514,
+    "path": "community-journals/the-twelve-keys-journal"
+  },
+  {
+    "id": 7,
+    "title": "The Second-Income Builder",
+    "subtitle": "How Shobha Hegde is hunting for a corner site in south Bengaluru — where a pharmacy downstairs and two 1BHKs above fund her family's old age.",
+    "tags": [
+      "Investor",
+      "Rental Income",
+      "South Bengaluru"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/7.png",
+    "views": 19686,
+    "copies": 438
+  },
+  {
+    "id": 9,
+    "title": "The Double-Plot Patriarch",
+    "subtitle": "How Bhaskar Reddy is negotiating adjacent plots on the Sarjapur corridor to rebuild three generations under one compound wall.",
+    "tags": [
+      "Plot Buyer",
+      "Multigenerational",
+      "Sarjapur"
+    ],
+    "segment": "PLOT BUYERS",
+    "image": "/journals/cover/9.png",
+    "views": 3732,
+    "copies": 532
+  },
+  {
+    "id": 11,
+    "title": "The BDA Allotment Veteran",
+    "subtitle": "H.N. Sridhar waited 25 years for his NPKL site. Now the hardest decision is what to do with it.",
+    "tags": [
+      "Plot Buyer",
+      "BDA",
+      "Bengaluru"
+    ],
+    "segment": "PLOT BUYERS",
+    "image": "/journals/cover/11.png",
+    "views": 5144,
+    "copies": 547
+  },
+  {
+    "id": 12,
+    "title": "The Plot, the Plan, and the Bilimbi Tree",
+    "subtitle": "How Tania & Rohan D'Souza shortlisted three layouts, hired a structural engineer, and wrote their walk-away number on a card.",
+    "tags": [
+      "Plot Buyers",
+      "Self-Build",
+      "Bengaluru"
+    ],
+    "segment": "PLOT BUYERS",
+    "image": "/journals/cover/12.png",
+    "views": 20141,
+    "copies": 69
+  },
+  {
+    "id": 14,
+    "title": "The First-EMI Family",
+    "subtitle": "How Pavan & Shruti Kulal navigated eleven site visits, a repriced market, and a baby deadline — one RERA registration at a time.",
+    "tags": [
+      "First-Timers",
+      "Under Construction",
+      "Sarjapur"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/14.png",
+    "views": 15947,
+    "copies": 111,
+    "path": "community-journals/the-first-emi-family"
+  },
+  {
+    "id": 15,
+    "title": "The Solo Signature",
+    "subtitle": "How Divya Raghavan audited security desks at 11 pm, ran her own numbers, and bought a 2BHK in JP Nagar — entirely in her own name.",
+    "tags": [
+      "Solo Buyer",
+      "First-Timer",
+      "Bengaluru"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/15.png",
+    "views": 19546,
+    "copies": 109
+  },
+  {
+    "id": 16,
+    "title": "The Reformed Rent-Forever Economist",
+    "subtitle": "How Aditya Krishnan spent a decade proving renting wins — then bought anyway, on his own terms.",
+    "tags": [
+      "First-Timer",
+      "Analytical",
+      "HSR Layout"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/16.png",
+    "views": 19244,
+    "copies": 116
+  },
+  {
+    "id": 18,
+    "title": "The Home That Had to Hold Two Timezones",
+    "subtitle": "How Neel & Mahima Shenoy returned from Seattle, narrowed four north Bengaluru projects, and stress-tested every rupee against the salary-reset scenario.",
+    "tags": [
+      "NRI Returnee",
+      "Remote Work",
+      "Bengaluru"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS / NRI RETURNEES",
+    "image": "/journals/cover/18.png",
+    "views": 18121,
+    "copies": 173
+  },
+  {
+    "id": 20,
+    "title": "The Leash-Count Buyers",
+    "subtitle": "How Kavya & Arnav Bhandari turned dog-walking hours into the sharpest due-diligence tool in Bengaluru's pet-hostile market.",
+    "tags": [
+      "Pet Household",
+      "First-Time",
+      "Bengaluru"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/20.png",
+    "views": 22772,
+    "copies": 396
+  },
+  {
+    "id": 22,
+    "title": "The Architecture of Dignity",
+    "subtitle": "How Rajesh & Sunita Pillai searched for a floor plan that could hold Amma's independence, the teenagers' privacy, and their own sanity — all under one roof.",
+    "tags": [
+      "Multigenerational",
+      "Families",
+      "Bengaluru"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/22.png",
+    "views": 4534,
+    "copies": 156
+  },
+  {
+    "id": 24,
+    "title": "The Vaastu-Anchored Family",
+    "subtitle": "How Lakshmi & Raghavendra Murthy mapped the 15% compliant subset — and why a new launch inverted their problem.",
+    "tags": [
+      "Vaastu",
+      "Families",
+      "South Bengaluru"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/24.png",
+    "views": 22451,
+    "copies": 156
+  },
+  {
+    "id": 25,
+    "title": "The Jodi-Flat Equation",
+    "subtitle": "How the Jhunjhunwala family is hunting two adjacent 3BHKs in Frazer Town — and negotiating the deed structure nobody wants to discuss.",
+    "tags": [
+      "Joint Family",
+      "Jodi Flat",
+      "Frazer Town"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/25.png",
+    "views": 21685,
+    "copies": 217
+  },
+  {
+    "id": 26,
+    "title": "The Traffic Refugee",
+    "subtitle": "How Suhas Kamath is selling a villa past Whitefield to buy back 540 hours a year — one OC-verified 3BHK at a time.",
+    "tags": [
+      "Families",
+      "Commute",
+      "ORR"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/26.png",
+    "views": 19120,
+    "copies": 470
+  },
+  {
+    "id": 27,
+    "title": "The Fresh-Start Buyer",
+    "subtitle": "How Shalini Krishnamurthy engineered her first solo home — one name, one income, zero possession risk.",
+    "tags": [
+      "Single Mother",
+      "OC Only",
+      "Bengaluru"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/27.png",
+    "views": 3885,
+    "copies": 174
+  },
+  {
+    "id": 29,
+    "title": "The Basavanagudi Downsizers",
+    "subtitle": "How Nagaraj & Sharadamma Rao are trading three floors and a jackfruit tree for a lighter, freer life — one careful decision at a time.",
+    "tags": [
+      "Seniors",
+      "Downsizing",
+      "Basavanagudi"
+    ],
+    "segment": "SENIORS & DOWNSIZERS",
+    "image": "/journals/cover/29.png",
+    "views": 9957,
+    "copies": 347
+  },
+  {
+    "id": 30,
+    "title": "The Senior-Living Pioneers",
+    "subtitle": "How Col. Arvind & Indira Khanna chose aging infrastructure at 70 — deliberately, before crisis chose for them.",
+    "tags": [
+      "Seniors",
+      "Downsizers",
+      "Bengaluru"
+    ],
+    "segment": "SENIORS & DOWNSIZERS",
+    "image": "/journals/cover/30.png",
+    "views": 18951,
+    "copies": 72
+  },
+  {
+    "id": 31,
+    "title": "The Parade-Ground Pensioner",
+    "subtitle": "How Brig. Mohan Kulkarni shortlisted one permanent address after thirty-six years of postings — with a four-page snag list and a rebuilt decision matrix.",
+    "tags": [
+      "Senior",
+      "Veteran",
+      "Bengaluru"
+    ],
+    "segment": "SENIORS & DOWNSIZERS",
+    "image": "/journals/cover/31.png",
+    "views": 22632,
+    "copies": 137
+  },
+  {
+    "id": 32,
+    "title": "The Last Bungalow on the Lane",
+    "subtitle": "How Patricia & Neville D'Costa are searching for a flat that doesn't feel like leaving the Cantonment.",
+    "tags": [
+      "Seniors",
+      "Cantonment",
+      "Resale"
+    ],
+    "segment": "SENIORS & DOWNSIZERS",
+    "image": "/journals/cover/32.png",
+    "views": 16636,
+    "copies": 144
+  },
+  {
+    "id": 34,
+    "title": "The House That Must Become Three",
+    "subtitle": "How the Hampanna siblings turned one inherited Malleshwaram house into three fair futures — without rupturing the family.",
+    "tags": [
+      "Legacy",
+      "Siblings",
+      "Inheritance"
+    ],
+    "segment": "FAMILIES / LEGACY",
+    "image": "/journals/cover/34.png",
+    "views": 14575,
+    "copies": 376
+  },
+  {
+    "id": 37,
+    "title": "The Launch-Day Hunter",
+    "subtitle": "How Anirudh Shetty reads RERA filings before hoardings exist — and buys before the city knows a project is live.",
+    "tags": [
+      "Pre-Launch",
+      "Primary",
+      "Bengaluru"
+    ],
+    "segment": "PRIMARY PURCHASE SPECIALISTS",
+    "image": "/journals/cover/37.png",
+    "views": 16963,
+    "copies": 186
+  },
+  {
+    "id": 38,
+    "title": "The Long Middle",
+    "subtitle": "How Sneha & Manoj Deshpande are navigating twenty months of rent, pre-EMI, and slab-by-slab faith in Panathur.",
+    "tags": [
+      "Under Construction",
+      "CLP",
+      "Bengaluru"
+    ],
+    "segment": "PRIMARY PURCHASE SPECIALISTS",
+    "image": "/journals/cover/38.png",
+    "views": 10543,
+    "copies": 69
+  },
+  {
+    "id": 39,
+    "title": "The 147-Item Possession",
+    "subtitle": "How Ramya & Aakash Srinivasan turned a possession notice into a negotiation — and won.",
+    "tags": [
+      "Possession",
+      "Primary",
+      "Bengaluru"
+    ],
+    "segment": "PRIMARY PURCHASE SPECIALISTS",
+    "image": "/journals/cover/39.png",
+    "views": 14351,
+    "copies": 330
+  },
+  {
+    "id": 40,
+    "title": "The Second-Allottee",
+    "subtitle": "How Gautham Prabhu entered sold-out towers almost-first — through the assignment market's side door.",
+    "tags": [
+      "Assignment",
+      "Primary",
+      "Shortlisting"
+    ],
+    "segment": "PRIMARY PURCHASE SPECIALISTS",
+    "image": "/journals/cover/40.png",
+    "views": 12328,
+    "copies": 418
+  }
+]
