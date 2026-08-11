@@ -1,0 +1,947 @@
+{
+  "article": {
+    "tags": [
+      "SENIORS & DOWNSIZERS",
+      "CANTONMENT LOYALISTS",
+      "COOKE TOWN • RICHARDS TOWN"
+    ],
+    "title": "The Rain Tree Avenue Journal",
+    "description": "Patricia (64, retired teacher) & Neville D'Costa's (67, retired, church organist) Cantonment-loyal downsizing — a forty-building map, a boutique redevelopment with genuine monkey-tops, and a dignity fund explained once and never discussed again.",
+    "quote": "\"We're not against new Bengaluru. We just don't want to live there.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Church",
+        "text": "The map is measured in lanes and hymns — the triangle boundary (walkable to St. Andrew's and Thom's) is the only corridor that exists"
+      },
+      {
+        "icon": "Scale",
+        "text": "Old low-rise due diligence has its own physics — the repair history divided by eight owners is the real price of 'characterful'"
+      },
+      {
+        "icon": "ClipboardList",
+        "text": "Some funds are explained once — the ₹55L dignity fund got its sentence, a ₹10L augmentation, and then was never discussed again"
+      }
+    ],
+    "heroImage": "/journals/cover/32.jpg",
+    "heroTitle": "The Rain Tree Avenue Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Patricia (64, retired Bishop Cotton's teacher of thirty-one years) & Neville D'Costa (67, retired from wine-and-spirits distribution, organist at St. Andrew's) — selling the family bungalow-share on a Cooke Town lane after a decade of Sunday-lunch diplomacy, seeking the impossible: a flat that doesn't feel like leaving the Cantonment.",
+      "buyers": [
+        {
+          "name": "Patricia D'Costa",
+          "age": 64,
+          "role": "Retired Teacher (31 Years, Bishop Cotton's)",
+          "description": "The tribe's keeper of Christmas cake orders and the East Parade bazaar; her dignity fund — ₹55L, unexplained and unquestioned — is load-bearing. Presses Neville's hand at every site visit on the grave of a house they knew.",
+          "tags": [
+            "Dignity-Fund Keeper",
+            "Tribe Custodian",
+            "Hand-Presser"
+          ],
+          "image": "/journals/the-rain-tree-avenue/patricia.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 64-year-old Anglo-Indian woman named Patricia wearing an elegant blouse, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm composed expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Neville D'Costa",
+          "age": 67,
+          "role": "Retired, Wine-and-Spirits; Organist, St. Andrew's",
+          "description": "The map-maker and the elegist — his hand-inked forty-building map is annotated, struck through, and watched like a hawk. Annotates new-tower brochures 'lift: yes. manners: no.' and prepared a speech against new construction with footnotes, then fell silent at the ceiling heights.",
+          "tags": [
+            "Forty-Building Cartographer",
+            "Brochure Annotator",
+            "Speech-Prepared, Silenced"
+          ],
+          "image": "/journals/the-rain-tree-avenue/neville.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 67-year-old Anglo-Indian man named Neville wearing a collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry gentle expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Stay inside the old Cantonment's fabric — a 2–3BHK in an 8–16 unit low-rise (nothing above four floors) within walking distance of St. Andrew's, Thom's, and the thirty remaining households of the tribe — high ceilings, cross-ventilation, a deep balcony for the orchids, and a lift, the one modernity accepted.",
+      "sharedVisionImage": "/journals/the-rain-tree-avenue/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an elegant older couple on a deep balcony of a low-rise heritage-style building, monkey-top window frames, orchids and a gin-and-lime on a wicker table, a rain tree avenue below with a church spire and an old bakery's striped awning, late-afternoon golden light, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the monkey-top window, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Cantonment Loyalists"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "The Tribe's Last Stand"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "18 Months of Patience"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-rain-tree-avenue/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with a triangle boundary drawn around a church spire and a bakery awning, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the boundary, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Triangle: Walkable to St. Andrew's + Thom's",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "The only corridor that exists — the walking distance to the church, the bakery counter where they're greeted by name, and the thirty households of the tribe."
+        },
+        {
+          "image": "/journals/the-rain-tree-avenue/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a low-rise building under four floors with a ceiling-height annotation and cross-ventilation arrows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the arrows, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "≤4 Floors, High Ceilings, Cross-Ventilation",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "'We don't want to live in the sky above our own neighbourhood' — ceiling heights and ventilation that respect how this climate was always handled."
+        },
+        {
+          "image": "/journals/the-rain-tree-avenue/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a lift shaft in a heritage-style building lobby with a single modernity badge, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the badge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A Lift — The One Modernity",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Accepted with the grace of people who've earned it — the single concession to the knees, in a building that otherwise keeps the old manners."
+        },
+        {
+          "image": "/journals/the-rain-tree-avenue/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a deep east balcony with orchid pots and morning light, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the orchids, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A Deep Balcony for the Orchids",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Neville's orchids vote with the knee — the deep east balcony carried the redevelopment over the old low-rise, and the lane's manners came with it."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From the siblings' assembly offer and a forty-building map, to a new-tower detour at the children's urging, a boutique redevelopment's surprise, and a close the knee and the orchids both voted for.",
+      "journeyFrameTitle": "THE TRIANGLE, HELD",
+      "roadmapTitle": "How the Cantonment loyalists stayed — one monkey-top at a time",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Boutique Redevelopment"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.2–2.5 Cr, No Loan"
+        },
+        {
+          "icon": "Church",
+          "label": "THE BOUNDARY",
+          "value": "St. Andrew's + Thom's Walk"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE FUND",
+          "value": "₹55L, Explained Once"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-siblings-clock",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Siblings' Clock",
+          "desc": "The assembly offer lands; a ₹3 Cr share becomes an ultimatum dressed as opportunity — the bungalow's sale funded by the same force they mourn.",
+          "icon": "Home",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-forty-building-map",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Forty-Building Map",
+          "desc": "Every acceptable low-rise in the triangle, hand-inked and watched like a hawk — two entries struck through this year, supply shrinking annually.",
+          "icon": "MapPin",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-new-tower-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The New-Tower Tour",
+          "desc": "At the children's urging, a 'senior-friendly tower' — lift redundancy noted, lane manners absent; declined with thanks, annotated 'lift: yes. manners: no.'",
+          "icon": "Eye",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-boutique-redevelopment",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Surprising Redevelopment",
+          "desc": "A boutique redevelopment inside the triangle tours well — conservation-architect facade, cross-ventilation, genuine monkey-top quotations from the original bungalow.",
+          "icon": "Building2",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-knee-vs-orchids-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The Knee vs the Orchids",
+          "desc": "Old-low-rise soul vs new-boutique economics — the repair-history-divided-by-eight arithmetic and a knee-consult letter settle it: the knee votes redevelopment, the orchids vote for the east balcony.",
+          "icon": "Scale",
+          "loopText": "3-Week Knee-vs-Soul Loop — Repair ÷ 8 Settles It",
+          "x": 880,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l6-dignity-fund-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Dignity-Fund Close",
+          "desc": "2BHK in the boutique redevelopment closed (~₹19–25K/sqft corridor); the dignity fund explained once, augmented by Neville, never discussed again.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "mapping",
+          "label": "Mapping",
+          "icon": "MapPin"
+        },
+        {
+          "id": "touring",
+          "label": "Touring",
+          "icon": "Building2"
+        },
+        {
+          "id": "debating",
+          "label": "Debating",
+          "icon": "Scale"
+        },
+        {
+          "id": "deciding",
+          "label": "Deciding",
+          "icon": "Church"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "The Triangle, Held"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "assembly-letter-moment",
+          "title": "The inheritance letter on the letterhead habit",
+          "desc": "The siblings' assembly offer printed on the old bungalow's letterhead habit — the ultimatum dressed as opportunity, closing a decade of Sunday-lunch diplomacy.",
+          "imageSrc": "/journals/the-rain-tree-avenue/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an assembly offer letter printed on old bungalow letterhead beside a calendar of Sunday lunches, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "forty-map-moment",
+          "title": "The hand-inked forty-building map",
+          "desc": "The forty-building map, hand-inked, two entries struck through this year — a living document of a shrinking tribe's habitat, watched like a hawk.",
+          "imageSrc": "/journals/the-rain-tree-avenue/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-inked map with forty building markers and two struck through, annotated in fountain pen, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "annotated-brochure-moment",
+          "title": "'Lift: yes. Manners: no.'",
+          "desc": "The new-tower brochure annotated in Neville's hand — lift redundancy noted with respect, lane manners found absent, declined with thanks.",
+          "imageSrc": "/journals/the-rain-tree-avenue/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a glossy new-tower brochure annotated 'lift: yes. manners: no.' in fountain pen, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "monkey-top-drawing-moment",
+          "title": "The facade drawing with genuine quotations",
+          "desc": "The boutique redevelopment's facade drawing with genuine monkey-top quotations from the original bungalow — the architect kept the drawings, and the lane keeps its memory.",
+          "imageSrc": "/journals/the-rain-tree-avenue/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a conservation-architect facade drawing with genuine monkey-top window quotations and a note 'drawings kept from the original bungalow', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "dignity-fund-moment",
+          "title": "The dignity fund's one line",
+          "desc": "The dignity fund's single explanatory line, finally written — the care-and-choices reserve for whichever of them is alone last; augmented, and never discussed again.",
+          "imageSrc": "/journals/the-rain-tree-avenue/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a single handwritten line explaining a dignity fund on one card, beside a deep east balcony with orchids, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We're not against new Bengaluru. We just don't want to live there.",
+          "author": "— Patricia & Neville"
+        },
+        {
+          "text": "Lift: yes. Manners: no.",
+          "author": "— Neville's annotation on the new-tower brochure"
+        },
+        {
+          "text": "To new buildings… with old manners.",
+          "author": "— Neville, raising an imaginary glass"
+        },
+        {
+          "text": "Some funds are explained once.",
+          "author": "— Patricia, on the dignity fund"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Neville",
+          "avatar": "/journals/the-rain-tree-avenue/neville.png",
+          "text": "Riya, my dear, we've toured your boutique redevelopment twice now. And I'm obliged to report… it's rather good. Which is terribly inconvenient, because I'd prepared a whole speech against new construction. Footnotes and all."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then let me argue your abandoned side so it's argued: the old building on Wheeler Road has soul, forty years of neighbours… and no sinking fund, one lift, and a roof that is — being generous — 'characterful.' The knee votes for the redevelopment, the orchids vote for the deep east balcony, and the monkey-tops are quoted from the original bungalow on that plot. The lane keeps its memory; you keep your lift.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "MapPin",
+          "title": "The Shrinking Map",
+          "description": "Their criteria describe perhaps forty buildings in three square kilometres, in a micro-market where builders assemble plots faster than boutique low-rises get built — every year of searching shrinks the supply and ages the knees."
+        },
+        {
+          "icon": "Scale",
+          "title": "The Repair-History-÷-Eight Arithmetic",
+          "description": "No sinking fund means the roof is a shared future expense — the last decade of repair history, divided by eight owners, is the real price of 'characterful.'"
+        },
+        {
+          "icon": "Church",
+          "title": "The Tribe's Thinning",
+          "description": "Nineteen of thirty households will plausibly remain in ten years — the number reframed the purchase from 'preserving everything' to 'choosing which losses to refuse.'"
+        },
+        {
+          "icon": "Building2",
+          "title": "New Construction Inside the Old Fabric",
+          "description": "The developer hired a conservation architect as a selling point — high ceilings, cross-ventilation, monkey-top quotations. No longer an oxymoron; a premium product."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Dignity Fund",
+          "description": "₹55L, the care-and-choices reserve for whichever of them is alone last — explained once, augmented by Neville with ₹10L, never discussed again."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-rain-tree-avenue.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "The triangle — Cooke Town, Richards Town, Benson Town, Cox Town's quieter lanes — measured in lanes and hymns, priced at ₹19–25K/sqft for the lane as much as the flat.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Boutique Low-Rise 2–3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "The Triangle — 3 sq km"
+        },
+        {
+          "icon": "Church",
+          "label": "THE BOUNDARY",
+          "value": "St. Andrew's + Thom's Walk"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Boutique Redevelopment 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "The triangle they explored",
+      "exploredAreas": [
+        {
+          "title": "Cooke Town (Chosen)",
+          "description": "The heart of the map — the bungalow lane they're leaving, the boutique redevelopment they're entering, and the thirty households that anchor the tribe.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.0025621,
+            "lng": 77.6227126
+          },
+          "imageSrc": "/journals/the-rain-tree-avenue/cooke-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Cooke Town's rain tree avenues with heritage bungalows and low-rise buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Richards Town",
+          "description": "The triangle's leafy west — quiet lanes and older low-rises, watched for the rare listing that survives the annual assembly wave.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0061468,
+            "lng": 77.6119702
+          },
+          "imageSrc": "/journals/the-rain-tree-avenue/richards-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Richards Town's quiet lanes with heritage-era buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Benson Town",
+          "description": "The triangle's northern edge — bungalow-lined streets and small walk-ups, kept on the map for the rare low-rise that fits the four-floor rule.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 13.0020702,
+            "lng": 77.5846267
+          },
+          "imageSrc": "/journals/the-rain-tree-avenue/benson-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Benson Town's bungalow-lined streets with small walk-ups, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Cox Town's Quieter Lanes",
+          "description": "The triangle's quiet south — the lane where the friends within a furlong live, and where the map's patience is most rewarded.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9963777,
+            "lng": 77.6188998
+          },
+          "imageSrc": "/journals/the-rain-tree-avenue/cox-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Cox Town's quieter lanes with low-rise homes and trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the new-Bengaluru 'senior-friendly' tower (detour — lift: yes, manners: no) • every high-rise over four floors, refused on principle",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE UNINDEXED GEOGRAPHY",
+          "value": "Lanes and Hymns, Not Corridors",
+          "description": "Their world runs on a geography no portal indexes — walking distance to St. Andrew's, Thom's counter, the Frazer Town Wednesday market, friends within a furlong.",
+          "icon": "Church"
+        },
+        {
+          "title": "THE SHRINKING MAP",
+          "value": "Forty Buildings, Two Listings a Year",
+          "description": "Supply appears twice a year and moves in weeks — scarcity this concrete makes patience a strategy, not a mood.",
+          "icon": "MapPin"
+        },
+        {
+          "title": "THE ASSEMBLY IRONY",
+          "value": "Beneficiary and Mourner",
+          "description": "The bungalow's sale funds the future and finances exactly the redevelopment they mourn — victims and beneficiaries of the same transaction, answered with one act of preservation.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE NO-SINKING-FUND PHYSICS",
+          "value": "Character, Priced Honestly",
+          "description": "The boutique buildings they love have aging plumbing and informal RWAs — the repair history divided by eight owners is the real due diligence.",
+          "icon": "FileX"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for the triangle boundary, four floors or fewer, cross-ventilation, long-tenured neighbours, and a lift — the one modernity.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The D'Costas are the keepers of a Bengaluru that exists now in pockets — and their map is measured in lanes and hymns, not corridors. Forty acceptable buildings in three square kilometres, struck through annually, watched like hawks. The uncomfortable irony — funded by the same assembly economics they mourn — was acknowledged and answered with one act of preservation: the church organ fund. And the boutique redevelopment surprised them: high ceilings, cross-ventilation, genuine monkey-tops quoted from the original bungalow, because the developer hired a conservation architect as a selling point. The knee voted redevelopment; the orchids voted for the east balcony. 'To new buildings… with old manners.' The dignity fund got its one line, and was never discussed again.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a hand-inked forty-building map beside a boutique redevelopment facade drawing, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The cast stays unnamed by policy — small-count buildings and privacy — but the pattern is the purchase: boutique low-rise stock at ₹19–25K/sqft, and the rare redevelopment that keeps the lane.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Boutique Low-Rise 2–3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Redevelopment 2BHK"
+        },
+        {
+          "icon": "Church",
+          "label": "THE PRESERVATION ACT",
+          "value": "Church Organ Fund"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.2–2.5 Cr, No Loan"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Church",
+          "title": "The Triangle Boundary",
+          "subtitle": "St. Andrew's + Thom's walk"
+        },
+        {
+          "icon": "Building2",
+          "title": "≤4 Floors, High Ceilings",
+          "subtitle": "old manners, old climate"
+        },
+        {
+          "icon": "Scale",
+          "title": "Repair-History-÷-Eight",
+          "subtitle": "character, priced honestly"
+        },
+        {
+          "icon": "Flower2",
+          "title": "The Deep East Balcony",
+          "subtitle": "the orchids' vote"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Dignity Fund",
+          "subtitle": "explained once, closed"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Patricia",
+          "avatar": "/journals/the-rain-tree-avenue/patricia.png",
+          "text": "The knee votes for the redevelopment, my dear. And the orchids vote for that deep east balcony. The monkey-tops on the facade — genuine, or pastiche?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Quoted from the original bungalow on that plot, ma'am — the architect kept the drawings. The lane keeps its memory; you keep your lift. And the dignity fund gets its one line in the file: for whichever of you is alone last. Explained once.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-rain-tree-avenue/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Cooke Town, Richards Town, Benson Town and Cox Town triangle with a walkability ring around St. Andrew's and Thom's in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "Boutique micro-market",
+      "projects": [
+        {
+          "title": "The Chosen Redevelopment",
+          "name": "Boutique Redevelopment (unnamed)",
+          "price": "₹2.2–2.5 Cr 2BHK",
+          "possession": "New construction, old fabric",
+          "psf": "~₹26K/sqft when it surfaces",
+          "location": "Cooke Town belt",
+          "imageSrc": "/journals/the-rain-tree-avenue/projects/1.jpg"
+        },
+        {
+          "title": "The Market Itself",
+          "name": "Cooke Town–Richards Town Boutique Stock",
+          "price": "₹19–25K/sqft",
+          "possession": "Forty buildings, shrinking",
+          "psf": "Priced for the lane as much as the flat",
+          "location": "Old Cantonment triangle",
+          "imageSrc": "/journals/the-rain-tree-avenue/projects/2.jpg"
+        },
+        {
+          "title": "The New-Tower Detour",
+          "name": "The 'Senior-Friendly' Tower",
+          "price": "Premium band",
+          "possession": "Ready",
+          "psf": "Lift: yes. Manners: no.",
+          "location": "New Bengaluru",
+          "imageSrc": "/journals/the-rain-tree-avenue/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Building2",
+          "title": "The 'Senior-Friendly' Tower",
+          "count": "1 detour — lift: yes, manners: no"
+        },
+        {
+          "icon": "Scale",
+          "title": "Failed the Repair-÷-Eight Arithmetic",
+          "count": "every characterful roof with no sinking fund"
+        },
+        {
+          "icon": "MapPin",
+          "title": "Outside the Triangle",
+          "count": "refused on principle, every time"
+        },
+        {
+          "icon": "Home",
+          "title": "The Wheeler Road Low-Rise",
+          "count": "1 soulful building, one lift, knee-vetoed"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the boutique redevelopment 2BHK delivered new construction inside the old fabric — genuine monkey-tops quoted from the original bungalow, cross-ventilation, a deep east balcony for the orchids, and a lift for the knee — funded by the same assembly economics they mourn, answered with the church organ fund. The dignity fund got its one line. The triangle held.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for heritage-quarter buyers — the living map, the repair arithmetic, the tribe-count, and the dignity fund's single sentence.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Scarcity Makes Patience Strategy"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Triangle, Held"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Wheeler Road Infatuation"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Dignity Fund's One Line"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The forty-building map is a living document.",
+          "description": "Two buildings left it this year (one assembly, one structural decline), one entered (a boutique redevelopment's launch) — scarcity this concrete makes patience a strategy, not a mood.",
+          "imageSrc": "/journals/the-rain-tree-avenue/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-inked map with building markers, two struck through and one newly added in ink, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "New construction inside the old fabric is now a premium product.",
+          "description": "High ceilings, cross-ventilation, monkey-top quotations — the developer hired a conservation architect as a selling point. The oxymoron dissolved into the purchase.",
+          "imageSrc": "/journals/the-rain-tree-avenue/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a boutique redevelopment facade drawing with monkey-top quotations and cross-ventilation arrows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "No sinking fund means the roof is a shared future expense.",
+          "description": "The last decade of repair history, divided by eight owners, is the real due diligence — the arithmetic that priced 'characterful' honestly and settled the knee-vs-soul debate.",
+          "imageSrc": "/journals/the-rain-tree-avenue/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a repair-history ledger divided by eight owner columns with a knee-consult letter beside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Some funds are explained once.",
+          "description": "The dignity fund's single sentence — the care-and-choices reserve for whichever of them is alone last — was written, augmented by Neville with ₹10L, and never discussed again. Load-bearing, and closed.",
+          "imageSrc": "/journals/the-rain-tree-avenue/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a single handwritten sentence on a card explaining a dignity fund, with a small augmentation note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "The bungalow-share arrangement would outlast the siblings' patience"
+        },
+        {
+          "icon": "Building2",
+          "text": "A new building cannot carry the old manners"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A charismatic building's charm covers its future costs"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "A reserve fund needs no explanation if it's never touched"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Church",
+          "text": "The triangle boundary is the only corridor that exists"
+        },
+        {
+          "icon": "Building2",
+          "text": "Monkey-tops quoted from the original drawings — old manners, new walls"
+        },
+        {
+          "icon": "Scale",
+          "text": "Repair history divided by eight is the honest price of character"
+        },
+        {
+          "icon": "ClipboardList",
+          "text": "The dignity fund: explained once, augmented, closed"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "MapPin",
+          "title": "Draw the map in month one, not month two",
+          "description": "The forty-building census arrived late — a month of unfiltered touring could have been eliminated with the boundary drawn first."
+        },
+        {
+          "icon": "Scale",
+          "title": "Run the repair-÷-eight arithmetic before falling in love",
+          "description": "The Wheeler Road infatuation cost three weeks — the no-sinking-fund math should have preceded the charm, not followed it."
+        },
+        {
+          "icon": "Church",
+          "title": "Count the tribe in the first month",
+          "description": "The nineteen-of-thirty count reframed everything at month five — the honest tribe census should have been the first document."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Write the dignity fund's sentence in the needs card",
+          "description": "The one line arrived at month six — the fund's purpose should have been written into the original brief, load-bearing from the start."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Patricia",
+          "avatar": "/journals/the-rain-tree-avenue/patricia.png",
+          "text": "The balcony faces east, the monkey-tops are genuine, and Thom's is a seven-minute walk. The fund has its sentence. I think we've finally kept a house without leaving home."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You didn't leave the Cantonment, ma'am — you carried it into a building with old manners and new walls. The lane keeps its memory; the tribe keeps its address; and the organ fund keeps the irony bearable. To new buildings with old manners.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for heritage-quarter buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Neville inking the forty-building map, annotating the new-tower brochure, studying the monkey-top facade drawing, and writing the dignity fund's one line, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For heritage-quarter buyers, the edge is in treating scarcity as data: draw the living map, count the tribe honestly, and run the repair-history-divided-by-eight arithmetic before the charm. Accept that new construction inside the old fabric is now a premium product — and that the assembly economics that fund the move can be answered with one act of preservation. Let the knee and the orchids both vote, write the dignity fund's sentence once, and remember the purchase is about choosing which losses to refuse. The D'Costas proved the Cantonment travels — in monkey-tops, hymns, and a seven-minute walk to the bakery.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 2",
+          "headline": "The forty-building map is a living document",
+          "body": "Two buildings left it this year (one assembly, one structural decline), and one entered (a boutique redevelopment's launch). Scarcity this concrete makes patience a strategy, not a mood.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The boutique redevelopment surprised them",
+          "body": "High ceilings, cross-ventilation, monkey-top quotations in the facade — the developer had hired a conservation architect as a selling point. New construction inside the old fabric is no longer an oxymoron; it's a premium product.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Old low-rise due diligence has its own physics",
+          "body": "No sinking fund means the roof is a shared future expense — they now ask for the building's last decade of repair history and divide by eight owners before falling in love.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The tribe-count was done honestly",
+          "body": "Nineteen households of the thirty will plausibly remain in ten years. The number hurt and helped — it reframed the purchase from 'preserving everything' to 'choosing which losses to refuse.'",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "Patricia explained the dignity fund — to Neville, finally",
+          "body": "The care-and-choices reserve for whichever of them is alone last. He added ₹10L to it and they never discussed it again. Some funds are explained once.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If your neighbourhood is a culture and the housing stock is its endangered habitat, let Riya build your heritage-quarter roadmap — the living map, the repair arithmetic, and the redevelopment watch.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the boundaries that matter (the church, the bakery, the tribe), the floor and fabric rules, and the budget the sale provides.",
+          "imageSrc": "/journals/32/1.png",
+          "imagegenerationprompt": "An elegant older couple entering their heritage-quarter boundaries into a smartphone app with a church-spire icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the boutique inventory watch, runs the aging-building due-diligence pack, and models the old-vs-redevelopment comparison with the next fifteen years of knees.",
+          "imageSrc": "/journals/32/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing a hand-inked building map beside a repair-history ledger and a redevelopment model, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Rain Tree Avenue journal — living map, due-diligence pack, and redevelopment-watch alerts — is generated.",
+          "imageSrc": "/journals/32/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a building map and an aging-building due-diligence checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive boutique low-rise listings and redevelopment launches the week they surface — with the due-diligence pack attached for each.",
+          "imageSrc": "/journals/32/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing boutique low-rise alerts with due-diligence badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Boutique Inventory Watch",
+          "description": "Low-rise listings and redevelopment launches in the triangle, alerted the week they surface — because supply moves in weeks.",
+          "icon": "MapPin"
+        },
+        {
+          "id": 2,
+          "title": "Aging-Building Due Diligence",
+          "description": "Structure, repair history, informal RWA health, and what no sinking fund really costs over a decade — character, priced honestly.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The Old-vs-Redevelopment Model",
+          "description": "A charming 40-year-old low-rise against a new boutique at a premium — compared honestly, including the knees' next fifteen years.",
+          "icon": "Building2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your neighbourhood is a culture, not a location, and the housing stock is its endangered habitat.",
+        "You will trade lift redundancy and clubhouses for ceiling height and a lane's manners.",
+        "Your search radius is three square kilometres and shrinking, and you've made peace with the patience required.",
+        "You are simultaneously the beneficiary and the mourner of the same redevelopment economics.",
+        "A fund exists in your plan that you haven't explained to anyone, and it's load-bearing.",
+        "The tribe you're staying for is itself thinning, and you're staying anyway."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-siblings-clock",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Siblings' Clock",
+      "desc": "The assembly offer lands; a ₹3 Cr share becomes an ultimatum dressed as opportunity — the bungalow's sale funded by the same force they mourn.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-forty-building-map",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Forty-Building Map",
+      "desc": "Every acceptable low-rise in the triangle, hand-inked and watched like a hawk — two entries struck through this year, supply shrinking annually.",
+      "icon": "MapPin",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-new-tower-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The New-Tower Tour",
+      "desc": "At the children's urging, a 'senior-friendly tower' — lift redundancy noted, lane manners absent; declined with thanks, annotated 'lift: yes. manners: no.'",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-boutique-redevelopment",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Surprising Redevelopment",
+      "desc": "A boutique redevelopment inside the triangle tours well — conservation-architect facade, cross-ventilation, genuine monkey-top quotations from the original bungalow.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-knee-vs-orchids-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The Knee vs the Orchids",
+      "desc": "Old-low-rise soul vs new-boutique economics — the repair-history-divided-by-eight arithmetic and a knee-consult letter settle it: the knee votes redevelopment, the orchids vote for the east balcony.",
+      "icon": "Scale",
+      "loopText": "3-Week Knee-vs-Soul Loop — Repair ÷ 8 Settles It",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-dignity-fund-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Dignity-Fund Close",
+      "desc": "2BHK in the boutique redevelopment closed (~₹19–25K/sqft corridor); the dignity fund explained once, augmented by Neville, never discussed again.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

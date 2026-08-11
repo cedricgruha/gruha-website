@@ -1,0 +1,989 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES / UPGRADERS",
+      "THE SPACE UPGRADERS",
+      "VARTHUR–PANATHUR–WHITEFIELD ARC"
+    ],
+    "title": "The One More Room Journal",
+    "description": "Nithin (38, engineering manager) & Divya Prasad's (36, senior data scientist) pandemic outgrowth — a 2.5BHK that became two desks, a villa detour priced like a pressed flower, a buyer who ghosted two links up the chain, and a PLH 4BHK closed with the reversibility thesis: office today, bedroom tomorrow.",
+    "quote": "\"The dining table has been two desks for three years. We surrender.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "DoorOpen",
+        "text": "The home-office audit — door, light, LAN, call-acoustics — disqualified two 4BHKs whose fourth 'bedroom' was a corridor with a window; square footage lies, floor plans under-lie, site visits at call-time tell the truth"
+      },
+      {
+        "icon": "ArrowUpDown",
+        "text": "Upgrade chains fail two links away — their buyer ghosted after token, so never let your purchase depend on your sale's buyer's sale; keep-and-leverage became the pivot"
+      },
+      {
+        "icon": "Scale",
+        "text": "The keep-or-sell fork has a third prong — keep-and-leverage — which only appears once you model rent against LTV honestly; two loans, stress-tested, the tenant's rent out of the math on paper"
+      }
+    ],
+    "heroImage": "/journals/cover/41.jpg",
+    "heroTitle": "The One More Room Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Nithin, 38, engineering manager at a SaaS firm (3 days office, Bellandur); Divya, 36, senior data scientist (fully remote since 2021). Two children, 7 and 3. They bought a 2.5BHK in Sobha Dream Acres in 2019 — a correct decision the pandemic quietly outgrew — and the whole search runs on one firm sentence: 'we need two more rooms, and one of them must be an office with a door.'",
+      "buyers": [
+        {
+          "name": "Nithin Prasad",
+          "age": 38,
+          "role": "Engineering Manager, SaaS Firm",
+          "description": "The numbers half: runs the keep-vs-sell-vs-leverage models, the two-loan stress tests, and the school-and-shuttle maps. Performs the site-visit door, light, and LAN checks; invented the scream test after two corridor-alcove 'fourth bedrooms'.",
+          "tags": [
+            "Two-Loan Stress-Tester",
+            "Door-Light-LAN Auditor",
+            "Scream-Test Inventor"
+          ],
+          "image": "/journals/the-one-more-room/nithin.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old Indian man named Nithin wearing smart business casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, efficient second-time-buyer expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Divya Prasad",
+          "age": 36,
+          "role": "Senior Data Scientist, Remote",
+          "description": "The remote-work half: three years at the dining table, now the office-audit's acoustics authority and the family's 'never house-poor again' rule-keeper. Her east-light mornings are the non-negotiable of bedroom three.",
+          "tags": [
+            "Acoustics Authority",
+            "Never-House-Poor Rule-Keeper",
+            "Dining-Table Survivor"
+          ],
+          "image": "/journals/the-one-more-room/divya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 36-year-old Indian woman named Divya wearing smart creative casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm determined expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Two more rooms, one of them a genuine office — a 4BHK in the Varthur–Whitefield arc's established townships, school unchanged, community fabric kept, and the old flat kept as a tenanted launchpad: reversibility as the whole thesis, and an empty fourth room that is finally big enough for both careers and both children.",
+      "sharedVisionImage": "/journals/the-one-more-room/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a family of four in an airy new fourth room at golden hour — one parent closing a laptop at a real desk by a north window, the other unpacking a box of books, two children drawing plans on the floor with crayons, a doorframe prominent, the old smaller flat visible as a tender pencil sketch pinned to the wall, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the north window light, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "The Space Upgraders"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Second-Time, Two Kids"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting — 4BHK Finalists"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6–8 Months, School-Locked"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-one-more-room/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an office-audit card with door, north-light, LAN conduit and decibel reading checkboxes all ticked, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the door checkbox, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A Real Home Office (Not a Corridor Alcove)",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Door that closes, north light, LAN conduit, call acoustics — two 4BHKs failed on 'study = corridor with a window'; square footage lies, site visits at call-time tell the truth."
+        },
+        {
+          "image": "/journals/the-one-more-room/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a school calendar and a shuttle map beside a floor plan, with the school-year deadline circled, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the circled date, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "School Unchanged",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The school run and the shuttle maps are fixed points; the floor plan is the variable — the elder child's next school year is the deadline that set the timeline."
+        },
+        {
+          "image": "/journals/the-one-more-room/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a township evening scene with children playing under trees and parents on benches, a kids' evening ecosystem, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Township With a Kids' Evening Ecosystem",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The Dream Acres community raised their firstborn and the neighbours became godparents — the upgrade must not surrender the fabric they actually love."
+        },
+        {
+          "image": "/journals/the-one-more-room/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a signed tenant agreement beside a new-EMI calendar with the tenant-start date before the first EMI date, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the signed agreement, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Tenant Signed Before the New EMI",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The 2.5BHK's ₹45K rent nets the effective outflow to ~34% — the tenant was signed before the new EMI started, converting the ghosting into the leverage pivot."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a dining table that became two desks to a villa detour priced like a pressed flower, a ghosting buyer two links up the chain, an office audit that exposed corridor alcoves — and an empty fourth room at golden hour.",
+      "journeyFrameTitle": "TWO MORE ROOMS, ONE WITH A DOOR",
+      "roadmapTitle": "How a pandemic-outgrown family upgraded from a 2.5BHK to a 4BHK with a reversibility thesis",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Shortlisting — 4BHK Finalists"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "ALL-IN BUDGET",
+          "value": "₹3.4–3.8 Cr, Two-Loan Structure"
+        },
+        {
+          "icon": "DoorOpen",
+          "label": "THE SPEC",
+          "value": "Two Offices, One With a Door"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6–8 Months, School-Locked"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-two-desks",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Two-Desks Breaking Point",
+          "desc": "The 2.5BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
+          "icon": "Laptop",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-keep-sell-fork",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Keep-Vs-Sell Fork",
+          "desc": "Sell (down payment power) vs rent out (₹45K/month, but LTV and two-property nerves) — the model with the third prong, keep-and-leverage, circled.",
+          "icon": "Scale",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-villa-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Villa Dream",
+          "desc": "PLH villas toured after a Sunday reel — ₹5.42–6.5 Cr; three weeks of 'what if we stretch' before the school-fees-plus-EMI math restores the 4BHK thesis.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-4bhk-shortlist",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The 4BHK Shortlist",
+          "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2027 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
+          "icon": "Building2",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-ghosted-buyer",
+          "stage": "S4",
+          "type": "bounce",
+          "title": "L5: The Ghosted Sale",
+          "desc": "Their 2.5BHK buyer ghosts after token (his own upgrade chain collapsed upstream); pivot: rent it out instead, rework the loan at higher LTV.",
+          "icon": "ArrowUpDown",
+          "loopText": "Chain Failure — Buyer Ghosted After Token, Converted to Keep-and-Leverage",
+          "targetNodeId": "l2-keep-sell-fork",
+          "x": 440,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l6-office-audit",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L6: The Office Audit Sharpens",
+          "desc": "North light, door that closes, LAN conduit, call-acoustics — a ROOM, not a niche; two units fail on 'study = corridor alcove.'",
+          "icon": "DoorOpen",
+          "loopText": "The Office Audit — Door, Light, LAN, and the Scream Test",
+          "x": 660,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l7-fourth-room-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L7: The Empty Fourth Room",
+          "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
+          "icon": "Home",
+          "x": 880,
+          "y": 320,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "twodesks",
+          "label": "Two-Desks Breaking Point",
+          "icon": "Laptop"
+        },
+        {
+          "id": "modelling",
+          "label": "Keep-Vs-Sell Modelling",
+          "icon": "Scale"
+        },
+        {
+          "id": "shortlisting",
+          "label": "4BHK Shortlisting",
+          "icon": "Building2"
+        },
+        {
+          "id": "auditing",
+          "label": "Office-Auditing",
+          "icon": "DoorOpen"
+        },
+        {
+          "id": "pivoting",
+          "label": "The Leverage Pivot",
+          "icon": "KeyRound"
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "icon": "Home",
+          "active": true,
+          "tag": "The Empty Fourth Room"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "two-desks-moment",
+          "title": "The dining table as two desks",
+          "desc": "Headsets, a sippy cup among spreadsheets, three years deep — two careers × two calls + one homework table + one toddler, running on a staggered-schedule spreadsheet taped inside the kitchen cabinet.",
+          "imageSrc": "/journals/the-one-more-room/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a dining table repurposed as two desks with two headsets, a sippy cup among spreadsheets and a staggered-schedule note taped to the wall, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "villa-math-moment",
+          "title": "The pressed-flower villa math",
+          "desc": "PLH's ₹5.42–6.5 Cr villas toured after one Sunday reel — three weeks of 'what if we stretch' before the EMI-plus-fees line crossed 55% and the corpus buffer died: 'the garden costs the airbag.'",
+          "imageSrc": "/journals/the-one-more-room/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa brochure preserved in a someday sheet like a pressed flower beside a spreadsheet where the EMI-plus-fees line crosses a 55% threshold, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "ghosted-buyer-moment",
+          "title": "The ghosting buyer's last-seen",
+          "desc": "Their 2.5BHK buyer ghosted after token — his own upgrade chain had collapsed upstream; the tenant agreement was drafted the same fortnight, and 'keep and leverage' replaced 'sell to fund.'",
+          "imageSrc": "/journals/the-one-more-room/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a phone chat showing a buyer's last-seen timestamp beside a tenant agreement being signed the same fortnight, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "empty-fourth-room-moment",
+          "title": "The empty fourth room at golden hour",
+          "desc": "One desk chair placed, everyone barefoot on new floor — the walkthrough ends in the empty fourth room where both offices finally exist; the reversibility thesis: a bedroom again in an afternoon.",
+          "imageSrc": "/journals/the-one-more-room/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an empty bright fourth room at golden hour with one desk chair placed near a north window and a family of four barefoot on new flooring, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The dining table has been two desks for three years. We surrender.",
+          "author": "— Nithin & Divya"
+        },
+        {
+          "text": "We need two more rooms, and one of them must be an office with a door.",
+          "author": "— The one sentence that runs the search"
+        },
+        {
+          "text": "The garden costs the airbag.",
+          "author": "— The villa detour's verdict"
+        },
+        {
+          "text": "Never let your purchase depend on your sale's buyer's sale.",
+          "author": "— The ghosting lesson"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Divya",
+          "avatar": "/journals/the-one-more-room/divya.png",
+          "text": "Riya, we're standing in the 'fourth bedroom' of the second PLH unit. Nithin is doing the thing."
+        },
+        {
+          "sender": "Nithin",
+          "avatar": "/journals/the-one-more-room/nithin.png",
+          "text": "The door closes — actual door, solid. North light till about two pm. LAN conduit behind the switchplate, checked. Now the real test. Divya, go to the corridor and be a seven-year-old. …Faint. Genuinely faint, kada. This wall has actual masonry self-respect."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the first unit of six to pass the scream test. So let's talk about what passing means: this one is three-point-six-two all-in; with the tenant continuing at forty-five, your net outflow lands at thirty-four percent — inside your own rule. Bedroom three takes a desk with east light — mornings are yours, Divya — and the day one of you stops remote work, it's a bedroom again in an afternoon. That reversibility is the whole 4BHK thesis. The two-loan stress test holds — I ran it while Divya was screaming. I'll draft the offer.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Scale",
+          "title": "The Third Prong: Keep-and-Leverage",
+          "description": "The keep-or-sell fork has a third prong that only appears once you model rent against LTV honestly — the CA meeting was worth ten portal sessions."
+        },
+        {
+          "icon": "DoorOpen",
+          "title": "The Office Audit",
+          "description": "Door, light, LAN, call-acoustics — two 4BHKs failed on 'fourth bedroom = corridor alcove'; square footage lies, floor plans under-lie, site visits at call-time tell the truth."
+        },
+        {
+          "icon": "ArrowUpDown",
+          "title": "The Upgrade-Chain Lesson",
+          "description": "Their buyer ghosted after token — his own chain collapsed upstream; upgrade chains fail two links away, so never let your purchase depend on your sale's buyer's sale."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Two-Loan Structure",
+          "description": "Two loans, one family — a structure that works precisely until one income hiccups; the tenant's rent flows straight into the EMI math in practice, and they know it."
+        },
+        {
+          "icon": "Sun",
+          "title": "The Reversibility Thesis",
+          "description": "The fourth room is an office today and a bedroom again in an afternoon — that reversibility is the whole 4BHK thesis, and it's what made 'enough' feel like enough."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-one-more-room.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "The Varthur–Panathur–Whitefield arc — school continuity and both employers' shuttle maps — with PLH's large apartments as the chosen township, Neopolis as the new-build option, Utopia as the value floor, and Dream Acres as the tenanted launchpad.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "4BHK With a Real Office"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Varthur • Panathur • Whitefield Arc"
+        },
+        {
+          "icon": "DoorOpen",
+          "label": "THE AUDIT",
+          "value": "Door, Light, LAN, Acoustics"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "PLH 4BHK, ~2,700 sqft"
+        }
+      ],
+      "exploredAreasTitle": "The upgrade corridor they explored",
+      "exploredAreas": [
+        {
+          "title": "Varthur — PLH Township (Chosen)",
+          "description": "The 102-acre township — 4BHK resales at ~₹3.4–3.9 Cr; the 2,700 sqft unit that passed the scream test and closed at ~₹3.6 Cr.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9345689,
+            "lng": 77.733566
+          },
+          "imageSrc": "/journals/the-one-more-room/plh.png",
+          "imagegenerationprompt": "A modern architectural vector view of Prestige Lakeside Habitat's large-apartment towers in a 102-acre township, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Panathur — Sobha Neopolis (New-Build Option)",
+          "description": "~₹15,600/sqft 4BHKs, newer and better-specified — but possession 2027 loses to a 7-year-old starting a school year in a home that exists.",
+          "projects": 3,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.9385408,
+            "lng": 77.7081414
+          },
+          "imageSrc": "/journals/the-one-more-room/neopolis.png",
+          "imagegenerationprompt": "A modern architectural vector view of Sobha Neopolis's new towers as the new-build shortlist option, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Whitefield–Varthur Rd — Utopia (Value Option)",
+          "description": "Brigade Cornerstone Utopia's largest ready units at ~₹9–11.5K/sqft — the value floor of the shortlist.",
+          "projects": 3,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.9345691,
+            "lng": 77.7412909
+          },
+          "imageSrc": "/journals/the-one-more-room/utopia.png",
+          "imagegenerationprompt": "A modern architectural vector view of Brigade Cornerstone Utopia's ready township as the value-floor option, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Balagere — Dream Acres (The Launchpad, Kept)",
+          "description": "Their 2.5BHK — the community that raised their firstborn, now kept and tenanted at ₹45K/month after the sale fell through.",
+          "projects": 2,
+          "siteVisits": 1,
+          "latlong": {
+            "lat": 12.9368954,
+            "lng": 77.7208908
+          },
+          "imageSrc": "/journals/the-one-more-room/dream-acres.png",
+          "imagegenerationprompt": "A modern architectural vector view of Sobha Dream Acres as the tenanted launchpad flat that raised the family's firstborn, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: PLH villas (the detour — ₹5.42–6.5 Cr of garden priced, parked on the 'someday' sheet) • every corridor without school continuity or shuttle access",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE PANDEMIC OUTGROWTH",
+          "value": "Two Desks, One Dining Table",
+          "description": "Two careers × two calls + one homework table + one toddler = a home that works only on a staggered-schedule spreadsheet taped inside the kitchen cabinet — three years of negotiating before the surrender.",
+          "icon": "Laptop"
+        },
+        {
+          "title": "THE 'FOURTH BEDROOM' LIE",
+          "value": "A Corridor With a Window",
+          "description": "Two 4BHKs exposed: fourth 'bedrooms' that are alcoves with ambitions — square footage lies; floor plans under-lie; site visits at call-time tell the truth.",
+          "icon": "DoorOpen"
+        },
+        {
+          "title": "THE GHOSTED SALE",
+          "value": "Last-Seen, Upstream Collapse",
+          "description": "Their buyer ghosted after token — his own upgrade chain had collapsed two links away; the purchase had depended on a stranger's sale, and never would again.",
+          "icon": "ArrowUpDown"
+        },
+        {
+          "title": "THE TWO-LOAN NERVES",
+          "value": "One Family, Two EMIs",
+          "description": "Two loans work precisely until one income hiccups — stress-tested, the tenant's rent kept out of the EMI math on paper (and flowing in in practice, as they know).",
+          "icon": "IndianRupee"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for a genuine office room (door, light, LAN, acoustics), school and shuttle continuity, a kids' evening ecosystem, and a tenant signed before the new EMI starts.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Nithin and Divya taught me that the pandemic's most common real-estate aftershock is the family whose home stopped matching its floor plan in 2020 — and the search runs on one firm sentence: two more rooms, one of them an office with a door. The office audit (door, light, LAN, call-acoustics) disqualified two 4BHKs whose fourth 'bedroom' was a corridor with a window — square footage lies, floor plans under-lie, site visits at call-time tell the truth. The villa detour's real value was a written boundary: EMI plus fees at 45%, which ended every future stretch conversation in one line. And the hinge was the ghosting: their buyer disappeared after token because his own chain collapsed upstream — the lesson structural: never let your purchase depend on your sale's buyer's sale. They kept the flat, signed a tenant at forty-five thousand, reworked the loan at higher LTV, and closed a PLH 4BHK at three-point-six. The walkthrough ended in the empty fourth room — one desk chair, everyone barefoot — because the reversibility thesis is the whole 4BHK: an office today, a bedroom again in an afternoon.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing an office-audit card with a decibel reading beside a keep-vs-sell-vs-leverage model and a signed tenant agreement, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The chosen township, the parked villa dream, the new-build clock, the value floor, and the tenanted launchpad — the upgrader's full cast.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "4BHK With a Real Office"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "PLH 4BHK, ~2,700 sqft"
+        },
+        {
+          "icon": "DoorOpen",
+          "label": "THE AUDIT",
+          "value": "Door, Light, LAN, Acoustics"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹3.4–3.8 Cr + Kept 2.5BHK"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "DoorOpen",
+          "title": "The Office Audit",
+          "subtitle": "door, light, LAN, acoustics"
+        },
+        {
+          "icon": "Scale",
+          "title": "Keep-Vs-Sell-Vs-Leverage",
+          "subtitle": "the third prong, modelled"
+        },
+        {
+          "icon": "ArrowUpDown",
+          "title": "Chain-Risk Discipline",
+          "subtitle": "never depend on a stranger's sale"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Two-Loan Stress Test",
+          "subtitle": "one income interrupted, written"
+        },
+        {
+          "icon": "Sun",
+          "title": "The Reversibility Thesis",
+          "subtitle": "office today, bedroom tomorrow"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Divya",
+          "avatar": "/journals/the-one-more-room/divya.png",
+          "text": "The scream test passed, the two-loan stress test held, and the tenant's rent is already landing. PLH 4BHK closed at three-point-six-two — and the empty fourth room has one desk chair, waiting for my east-light mornings."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the upgrade done right, Divya — infrastructure, not aspiration: school unchanged, community kept, the launchpad tenanted, and a room that's an office today and a bedroom again in an afternoon. The reversibility thesis held. The dining table can finally retire.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-one-more-room/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Varthur–Panathur–Whitefield arc with PLH, Neopolis, Utopia and Dream Acres marked in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "5 tracked options",
+      "projects": [
+        {
+          "title": "The Chosen Home",
+          "name": "Prestige Lakeside Habitat (4BHK)",
+          "price": "~₹3.4–3.9 Cr resale",
+          "possession": "Ready township",
+          "psf": "2,600–2,830 sqft class",
+          "location": "Varthur",
+          "imageSrc": "/journals/the-one-more-room/projects/1.jpg"
+        },
+        {
+          "title": "The Villa Detour (Parked)",
+          "name": "PLH Villas",
+          "price": "₹5.42–6.5 Cr",
+          "possession": "Ready",
+          "psf": "The garden that cost the airbag",
+          "location": "Varthur",
+          "imageSrc": "/journals/the-one-more-room/projects/2.jpg"
+        },
+        {
+          "title": "The New-Build Option",
+          "name": "Sobha Neopolis (4BHK)",
+          "price": "~₹15,600/sqft",
+          "possession": "2027 — vs a school year",
+          "psf": "Newer, better-specified",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-one-more-room/projects/3.jpg"
+        },
+        {
+          "title": "The Value Floor",
+          "name": "Brigade Cornerstone Utopia",
+          "price": "~₹9–11.5K/sqft",
+          "possession": "Ready township",
+          "psf": "Largest units, resale",
+          "location": "Whitefield–Varthur Rd",
+          "imageSrc": "/journals/the-one-more-room/projects/4.jpg"
+        },
+        {
+          "title": "The Launchpad (Kept)",
+          "name": "Their Sobha Dream Acres 2.5BHK",
+          "price": "₹12,750–13,150/sqft",
+          "possession": "Tenanted, ₹45K/month",
+          "psf": "The community that raised their firstborn",
+          "location": "Balagere",
+          "imageSrc": "/journals/the-one-more-room/projects/5.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "DoorOpen",
+          "title": "The Corridor-Alcove 4BHKs",
+          "count": "2 units failed the office audit"
+        },
+        {
+          "icon": "Sun",
+          "title": "The Villa Detour",
+          "count": "1 detour — ₹5.6 Cr, the airbag chosen"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Neopolis 2027 Possession",
+          "count": "lost to a 7-year-old's school year"
+        },
+        {
+          "icon": "ArrowUpDown",
+          "title": "The Ghosted Buyer",
+          "count": "1 bounce — converted to keep-and-leverage"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "The upgrader's sequence: model keep-vs-sell-vs-leverage with the third prong before any viewing; audit every 'fourth bedroom' as an office — door, light, LAN, acoustics, the scream test; keep the villa on the 'someday' sheet with its math preserved; never let the purchase depend on the sale's buyer's sale; and sign the tenant before the new EMI starts. PLH's 2,700 sqft 4BHK closed at ₹3.6 Cr with the old flat tenanted at ₹45K — the net outflow at 34% inside their own rule, and an empty fourth room where both offices finally exist.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for upgraders — the third prong, the written villa boundary, chain-failure discipline, and the office audit that tells the truth.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Never Depend on a Stranger's Chain"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Reversibility Thesis"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Villa Detour"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Keep-and-Leverage Pivot"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The keep-or-sell fork has a third prong — keep-and-leverage.",
+          "description": "It only appears once you model rent against LTV honestly; the CA meeting was worth ten portal sessions, and the kept flat's ₹45K rent re-founded the whole structure.",
+          "imageSrc": "/journals/the-one-more-room/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a keep-vs-sell-vs-leverage model with the third prong circled and a rent-against-LTV comparison, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The villa detour's real value was the written boundary.",
+          "description": "Three weekends and a 'someday' sheet — the EMI-plus-fees-at-45% line ended every future stretch conversation in one sentence: the garden costs the airbag.",
+          "imageSrc": "/journals/the-one-more-room/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa brochure preserved like a pressed flower beside a one-line boundary note reading EMI plus fees at 45 percent, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Upgrade chains fail two links away.",
+          "description": "Their buyer ghosted after token because his own chain collapsed upstream — never let your purchase depend on your sale's buyer's sale; the tenant agreement was drafted the same fortnight.",
+          "imageSrc": "/journals/the-one-more-room/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a chain diagram with a broken link two positions upstream beside a tenant agreement being signed, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Square footage lies; the office audit tells the truth.",
+          "description": "Door, light, LAN, call-acoustics — two 4BHKs failed on 'fourth bedroom = corridor with a window'; site visits at call-time are the only floor plan that matters.",
+          "imageSrc": "/journals/the-one-more-room/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an office-audit card with door, light, LAN and a decibel reading beside a floor plan with a corridor-alcove circled, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Laptop",
+          "text": "The dining table is a permanent office surface"
+        },
+        {
+          "icon": "Hourglass",
+          "text": "The purchase funds from the sale, whenever it lands"
+        },
+        {
+          "icon": "Eye",
+          "text": "A 4BHK's fourth room is a room by square footage"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The bigger the house, the better the upgrade"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "DoorOpen",
+          "text": "The office audit decides: door, light, LAN, acoustics"
+        },
+        {
+          "icon": "ArrowUpDown",
+          "text": "The purchase never depends on the sale's buyer's sale"
+        },
+        {
+          "icon": "Scale",
+          "text": "Keep-and-leverage is the third prong, modelled honestly"
+        },
+        {
+          "icon": "Sun",
+          "text": "Reversibility is the thesis — office today, bedroom tomorrow"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Scale",
+          "title": "Model the third prong before the first viewing",
+          "description": "Keep-and-leverage appeared at month 2 — modelling it in month 1 would have armored the search against the ghosting from the start."
+        },
+        {
+          "icon": "DoorOpen",
+          "title": "Run the office audit on the first shortlist",
+          "description": "Two corridor-alcove 4BHKs were toured at months 4–5 — the audit card from month 1 would have skipped both."
+        },
+        {
+          "icon": "ArrowUpDown",
+          "title": "Stress-test the chain, not just the loan",
+          "description": "The ghosting was a chain failure, not a buyer failure — the two-loan stress test should have had a chain-failure scenario from the start."
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Price the villa boundary on the first Sunday",
+          "description": "The 45% line was written in month 3 — writing it at the first 'what if we stretch' would have saved the detour's three weekends."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Nithin",
+          "avatar": "/journals/the-one-more-room/nithin.png",
+          "text": "The two-desks table is retiring, the tenant's rent is landing, and the empty fourth room has one desk chair and a lot of north light. The 2.5BHK did its job; the 4BHK starts its own."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the whole arc, Nithin — the pandemic rewrote the job description, and you wrote the specification: two more rooms, one with a door that closes. Infrastructure, not aspiration — and a reversibility thesis that means 'enough' stays enough for a decade.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for space upgraders",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing the dining table as two desks, the villa brochure being pressed into the someday sheet, the buyer's last-seen timestamp, and the office-audit card with its decibel reading, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For upgraders, the sequence is: model keep-vs-sell-vs-leverage with the third prong before any viewing — the CA meeting is worth ten portal sessions. Audit every 'fourth bedroom' as an office: door, light, LAN, call-acoustics, and the scream test at site-visit time — square footage lies, floor plans under-lie. Keep the villa on the 'someday' sheet with its math preserved; a written EMI-plus-fees boundary ends every stretch conversation in one line. Never let your purchase depend on your sale's buyer's sale — upgrade chains fail two links away. And sign the tenant before the new EMI starts. First resales from original owners in a township you already know are the upgrader's sweet spot: seasoned documents, nil GST, a proven community, and sellers who remember being you. The fourth room is an office today and a bedroom again in an afternoon — that reversibility is the whole 4BHK thesis.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The 2.5BHK's breaking point was comically specific",
+          "body": "Two careers × two calls + one homework table + one toddler; the same 11 am slot shortlisted three days running and the daycare closed for Dasara — the surrender became a brief.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The keep-or-sell fork has a third prong — keep-and-leverage",
+          "body": "It only appears once you model rent against LTV honestly; the CA meeting was worth ten portal sessions.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The villa detour's real value was a written boundary",
+          "body": "EMI plus fees at 45% ended every future stretch conversation in one line; the garden costs the airbag.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Upgrade chains fail two links away",
+          "body": "Their buyer ghosted after token because his own chain collapsed upstream; the tenant agreement was drafted the same fortnight, and keep-and-leverage replaced sell-to-fund.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "Square footage lies; the office audit tells the truth",
+          "body": "Door, light, LAN, acoustics — two 4BHKs failed on 'fourth bedroom = corridor with a window'; site visits at call-time are the only floor plan that matters.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If your home stopped matching its floor plan, let Riya build your one-more-room system — the leverage models, the office audits, and the chain discipline that keep the upgrade from becoming a gamble.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your current floor plan's breaking point, the rooms you need, the school-and-shuttle fixed points — and the keep-or-sell question on your current flat.",
+          "imageSrc": "/journals/41/1.png",
+          "imagegenerationprompt": "A person entering their breaking point and room requirements into a smartphone app with a door-and-desk icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya models keep-vs-sell-vs-leverage with the two-loan stress test, audits floor plans for the office spec, and benchmarks large-unit resales on your arc.",
+          "imageSrc": "/journals/41/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing a keep-vs-sell-vs-leverage model beside an office-audit card and a two-loan stress-test sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom One More Room journal — leverage models, office audits, and upgrade-chain discipline — is generated.",
+          "imageSrc": "/journals/41/3.png",
+          "imagegenerationprompt": "An open home search journal displaying an office-audit checklist and a leverage-model page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the 4BHK shortlist with office-audit verdicts, the tenant-timing plan for your current flat, and the offer structure for each finalist.",
+          "imageSrc": "/journals/41/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing 4BHK options with office-audit verdicts and tenant-timing badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Keep-Vs-Sell-Vs-Leverage Model",
+          "description": "The third prong, the two-loan stress test, and the tenant-timing rule — funding architecture that survives a ghosting.",
+          "icon": "Scale"
+        },
+        {
+          "id": 2,
+          "title": "The Home-Office Audit",
+          "description": "Door, light, LAN, acoustics, the scream test — the standard that exposes corridor alcoves and defends your call schedule.",
+          "icon": "DoorOpen"
+        },
+        {
+          "id": 3,
+          "title": "The Upgrade-Chain Playbook",
+          "description": "Why your purchase must not depend on your sale's buyer's sale — and the first-resale sweet spots from original owners.",
+          "icon": "ArrowUpDown"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your current home was right when you bought it and the pandemic rewrote its job description.",
+        "At least one career in the house is permanently remote, and the dining table has been a desk for years.",
+        "You need two more rooms and one must be a genuine office — door, light, acoustics — not an alcove with ambitions.",
+        "You're an upgrader: selling or leveraging one flat to buy the next, which makes you both supply and demand in someone's chain.",
+        "The school run and the community fabric are fixed points; the floor plan is the variable.",
+        "You've toured the villa, done the math, and chosen the airbag over the garden — or you're one reel away from that tour."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-two-desks",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Two-Desks Breaking Point",
+      "desc": "The 2.5BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
+      "icon": "Laptop",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-keep-sell-fork",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Keep-Vs-Sell Fork",
+      "desc": "Sell (down payment power) vs rent out (₹45K/month, but LTV and two-property nerves) — the model with the third prong, keep-and-leverage, circled.",
+      "icon": "Scale",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-villa-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Villa Dream",
+      "desc": "PLH villas toured after a Sunday reel — ₹5.42–6.5 Cr; three weeks of 'what if we stretch' before the school-fees-plus-EMI math restores the 4BHK thesis.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-4bhk-shortlist",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The 4BHK Shortlist",
+      "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2027 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-ghosted-buyer",
+      "stage": "S4",
+      "type": "bounce",
+      "title": "L5: The Ghosted Sale",
+      "desc": "Their 2.5BHK buyer ghosts after token (his own upgrade chain collapsed upstream); pivot: rent it out instead, rework the loan at higher LTV.",
+      "icon": "ArrowUpDown",
+      "loopText": "Chain Failure — Buyer Ghosted After Token, Converted to Keep-and-Leverage",
+      "targetNodeId": "l2-keep-sell-fork",
+      "x": 440,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-office-audit",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L6: The Office Audit Sharpens",
+      "desc": "North light, door that closes, LAN conduit, call-acoustics — a ROOM, not a niche; two units fail on 'study = corridor alcove.'",
+      "icon": "DoorOpen",
+      "loopText": "The Office Audit — Door, Light, LAN, and the Scream Test",
+      "x": 660,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l7-fourth-room-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L7: The Empty Fourth Room",
+      "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
+      "icon": "Home",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    }
+  ]
+}

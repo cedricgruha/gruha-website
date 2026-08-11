@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect, type RefObject } from "react";
 import Image from "next/image";
 import JournalProfileV0 from "./tab-contents/JournalProfileV0";
 import JournalJourneyV0 from "./tab-contents/JournalJourneyV0";
-import JournalSearchV0 from "./tab-contents/JournalSearchV0";
+import JournalSearchV1 from "./tab-contents/JournalSearchV1";
 import JournalProjectsV0 from "./tab-contents/JournalProjectsV0";
 import JournalLearningsV0 from "./tab-contents/JournalLearningsV0";
 import JournalStartHereV0 from "./tab-contents/JournalStartHereV0";

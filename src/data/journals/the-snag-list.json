@@ -1,0 +1,933 @@
+{
+  "article": {
+    "tags": [
+      "PRIMARY PURCHASE SPECIALISTS",
+      "THE POSSESSION-DAY PERFECTIONISTS",
+      "KANAKAPURA ROAD METRO BELT"
+    ],
+    "title": "The Snag List Journal",
+    "description": "Ramya (34, QA lead) & Aakash Srinivasan's (35, finance manager) possession-stage endgame — an OC verified as a document, a 147-item severity-graded snag list, a 'defect liability' deflection decoded, and the 7 am no-checklist walk that found the line between deliverable and home.",
+    "quote": "\"The builder's last impression is our first wall. We're checking everything.\"",
+    "readTime": "14 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "ClipboardList",
+        "text": "The 147-item severity-graded snag list — third-party inspected, moisture-metered, severity-tabbed like a medical chart; instruments end arguments"
+      },
+      {
+        "icon": "Scale",
+        "text": "Buyer leverage peaks between possession notice and registration — the final 5% and your signature are the only currencies the builder still wants; severity-1/2 in writing with dates, before you register"
+      },
+      {
+        "icon": "Landmark",
+        "text": "The collective amenity negotiation found its instrument — a bank-guarantee-backed completion commitment; builders respect instruments they use themselves"
+      }
+    ],
+    "heroImage": "/journals/cover/39.jpg",
+    "heroTitle": "The Snag List Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Ramya, 34, QA lead at a SaaS company (the profession is not a coincidence — the snag list has severity levels); Aakash, 35, finance manager. Their under-construction marathon is ending: OC received, possession notice issued, and the discovery that possession is not a ceremony — it's a negotiation.",
+      "buyers": [
+        {
+          "name": "Ramya Srinivasan",
+          "age": 34,
+          "role": "QA Lead, SaaS Company",
+          "description": "The severity-matrix author: professionally incapable of accepting a release without testing it — 147 items across three severity levels, moisture-metered, severity-tabbed like a medical chart. The document the sales office now refers to with respect.",
+          "tags": [
+            "Severity-Matrix Author",
+            "Moisture-Meter Bearer",
+            "Interiors-Board Rehabilitated"
+          ],
+          "image": "/journals/the-snag-list/ramya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 34-year-old Indian woman named Ramya wearing smart business casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, sharp meticulous expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Aakash Srinivasan",
+          "age": 35,
+          "role": "Finance Manager",
+          "description": "The numbers half: registration costs computed to the rupee months ago, the defect-liability provision read in the original and quoted calmly, and the sequencing map — what to demand before registration and what defect liability actually covers after.",
+          "tags": [
+            "Registration Math, To the Rupee",
+            "Sequencing-Map Keeper",
+            "Spreadsheet Tone, Ramya-Edited"
+          ],
+          "image": "/journals/the-snag-list/aakash.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 35-year-old Indian man named Aakash wearing smart formal casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm measured expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Land well: the OC verified as a document, the 147-item snag list resolved in writing before registration, the defect-liability rights understood and quoted calmly — and the line between deliverable and home found consciously, with a brass key, dry walls, and the walnut wardrobe timed correctly.",
+      "sharedVisionImage": "/journals/the-snag-list/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a couple in a brand-new empty apartment flooded with morning light, she with a clipboard checking a window's level, he holding paint-swatch cards and a single brass key on a ribbon, a long checklist on the wall with most items ticked, moving boxes by the door, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the brass key, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "The Possession-Day Perfectionists"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "OC Received, Inspecting"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Possession & Moving In"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Registration in 6 Weeks"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-snag-list/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an OC document with its registration number and floors-covered checklist verified with ticks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the OC number, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "OC Verified — The Document, Not the Claim",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Partial OCs are a Bengaluru classic — they pulled the document and checked the floors covered. Theirs covered all towers; two nearby projects' buyers weren't so lucky."
+        },
+        {
+          "image": "/journals/the-snag-list/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a snag-resolution agreement with severity-1 and severity-2 items listed with commitment dates and signatures, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the dates, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Snag Resolution in Writing, Before Registration",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "'Will be resolved under defect liability' translates to 'after you've paid everything and your leverage is gone.' Severity-1/2 fixes with dates, before the registration signature."
+        },
+        {
+          "image": "/journals/the-snag-list/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a RERA defect-liability provision page with the five-year structural-defect clause highlighted and annotated in the margin, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clause, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Defect-Liability Clause, Understood",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "RERA's five-year structural-defect provision, read in the original and quoted calmly — the rights that survive registration, mapped against what must be won before it."
+        },
+        {
+          "image": "/journals/the-snag-list/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a moisture meter reading eleven percent on a corner-bedroom wall with a seepage stain circled, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the reading, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Corner-Bedroom Seepage, Explained",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Moisture reading eleven percent last Thursday — the stain is the line item that must be resolved in writing, not in assurances; wardrobes go into dry walls."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From three inspection bookings where a celebration was expected to a 147-item severity list, a decoded CRM sentence, a Pinterest-board detour caught in the act — and a 7 am walk that found the line between deliverable and home.",
+      "journeyFrameTitle": "THE LAST 5%, WON SEVERITY BY SEVERITY",
+      "roadmapTitle": "How a QA lead and a finance manager turned possession into a negotiation",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Possession & Moving In — OC Received"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL PAID",
+          "value": "₹2.1 Cr + ₹14L Registration"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE SNAG LIST",
+          "value": "147 Items, 3 Severity Levels"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "THE LEVERAGE WINDOW",
+          "value": "6 Weeks, Priced Consciously"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-notice-to-inspections",
+          "stage": "S7",
+          "type": "start",
+          "title": "L1: The Notice, Answered with Inspections",
+          "desc": "The 30-day registration push answered with three inspection bookings and a ₹15K third-party inspector — possession started as a test, not a ceremony.",
+          "icon": "FileCheck2",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-147-item-list",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L2: The 147-Item Severity List",
+          "desc": "Moisture meters end arguments opinions couldn't — the severity-tabbed list that the sales office now refers to with respect.",
+          "icon": "ClipboardList",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-defect-liability-decode",
+          "stage": "S7",
+          "type": "loop",
+          "title": "L3: The 'Defect Liability' Decode",
+          "desc": "'Resolved under defect liability, ma'am' decoded: leverage peaks between notice and registration; severity-1/2 fixes demanded in writing, with dates.",
+          "icon": "Scale",
+          "loopText": "The Leverage-Window Decode — Fixes in Writing, Dates Attached",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-interiors-detour",
+          "stage": "S7",
+          "type": "detour",
+          "title": "L4 DETOUR: The Interiors Board",
+          "desc": "The Pinterest board threatens to negotiate on the builder's behalf ('just register, we want to start the wardrobe work'); caught, named, parked — walnut waitlist noted.",
+          "icon": "Eye",
+          "x": 760,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l5-bank-guarantee-instrument",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L5: The Bank-Guarantee Instrument",
+          "desc": "The buyers'-group's amenity instrument: a bank-guarantee-backed clubhouse completion commitment, proposed by a project-finance member.",
+          "icon": "Landmark",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l6-7am-walk",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The 7 am Walk",
+          "desc": "No checklist, coffee, planning furniture — two severity-2 items reclassified 'we'll live'; registration dated; the line between deliverable and home found consciously.",
+          "icon": "Sun",
+          "x": 880,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "inspecting",
+          "label": "Inspecting",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "severitylisting",
+          "label": "Severity-Listing",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "Scale"
+        },
+        {
+          "id": "instrumenting",
+          "label": "Instrumenting",
+          "icon": "Landmark"
+        },
+        {
+          "id": "deciding",
+          "label": "The 7 am Walk",
+          "icon": "Sun"
+        },
+        {
+          "id": "registering",
+          "label": "Registering",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "After Snags Converge"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "inspection-slots-moment",
+          "title": "Three inspection slots, not a celebration",
+          "desc": "The 30-day registration push answered with three inspection bookings and a ₹15K third-party inspector — possession started as a test, not a ceremony.",
+          "imageSrc": "/journals/the-snag-list/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a possession notice with a 30-day deadline beside three booked inspection slots and a third-party inspection contract, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the inspection slots, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "severity-list-moment",
+          "title": "The severity-tabbed list",
+          "desc": "147 items across severity levels, moisture meters ending arguments opinions couldn't — the document the sales office now refers to with respect.",
+          "imageSrc": "/journals/the-snag-list/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a long snag list with severity tabs in three colors like a medical chart, beside a moisture meter and a plumb tool, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the severity tabs, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "decoded-sentence-moment",
+          "title": "The decoded CRM sentence",
+          "desc": "'Resolved under defect liability, ma'am' transcribed and decoded in the margin: after you've paid everything and your leverage is gone.",
+          "imageSrc": "/journals/the-snag-list/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a builder's email sentence transcribed on paper with a margin decode annotating 'after your leverage is gone', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the margin note, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "7am-walk-moment",
+          "title": "The 7 am no-checklist walk",
+          "desc": "Two severity-2 items reclassified 'we'll live' — the line between deliverable and home found consciously, with coffee, no checklist, and furniture plans starting to happen.",
+          "imageSrc": "/journals/the-snag-list/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an empty bright apartment at 7 am with two coffee cups on the floor, a severity list with two items reclassified 'we'll live', and a brass key on a ribbon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the key, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The builder's last impression is our first wall. We're checking everything.",
+          "author": "— Ramya & Aakash"
+        },
+        {
+          "text": "Possession is not a ceremony; it's a negotiation.",
+          "author": "— The discovery"
+        },
+        {
+          "text": "Instruments end arguments.",
+          "author": "— Week 2's lesson"
+        },
+        {
+          "text": "The waitlist will survive two weeks. The seepage, left alone, survives forever.",
+          "author": "— Riya, on the walnut vs the corner bedroom"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Aakash",
+          "avatar": "/journals/the-snag-list/aakash.png",
+          "text": "Riya, we have an internal situation. My wife — QA lead, severity-matrix author, terror of the builder's CRM — spent last night on Pinterest and this morning said, quote, 'maybe we just register, the wardrobe people need three weeks' lead time.'"
+        },
+        {
+          "sender": "Ramya",
+          "avatar": "/journals/the-snag-list/ramya.png",
+          "text": "The walnut finish has a WAITLIST, okay? I'm human, pa."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Noted, both of you. And Ramya — the walnut waitlist is real, but here's the sequence it's negotiating against. Your leverage — the final five percent and your registration signature — expires the day you register. Seventeen severity-one and severity-two items are still open, including the corner-bedroom seepage. Wardrobes go INTO walls, seri? Dry walls. This week: builder commits severity-one fixes in writing, with dates. THEN registration. Then walnut. The waitlist will survive two weeks. The seepage, left alone, survives forever.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileCheck2",
+          "title": "The OC Is a Document, Not a Claim",
+          "description": "They pulled the OC and checked the floors covered — partial OCs are a Bengaluru classic; theirs covered all towers, but two nearby buyers'-group projects weren't so lucky."
+        },
+        {
+          "icon": "Ruler",
+          "title": "Instruments End Arguments",
+          "description": "The ₹15K third-party inspection found moisture readings and plumb deviations no walkthrough would — the builder's team disputed nothing measured, only things opined."
+        },
+        {
+          "icon": "Scale",
+          "title": "The Leverage Window",
+          "description": "Buyer leverage peaks between possession notice and registration — the final 5% and the registration timing are the only currencies the builder still wants; 'resolved under defect liability' means after your leverage is gone."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Instruments They Respect",
+          "description": "The collective amenity negotiation found its instrument: a bank-guarantee-backed completion commitment, proposed by a buyers'-group member who does project finance — builders respect instruments they use themselves."
+        },
+        {
+          "icon": "Sun",
+          "title": "The Line Between Deliverable and Home",
+          "description": "The 7 am no-checklist walk caught them planning furniture — two severity-2 items reclassified 'we'll live,' and registration got a date; the finish line deserves both rigor and joy."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-snag-list.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Committed to the Kanakapura Road metro belt — the journal's geography is their tower's inspection table, the delivered-township benchmark of what 'done' looks like, and the corridor's comparable stock.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "End-Stage — Land Well, Anywhere"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Kanakapura Rd Metro Belt"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE AUDIT",
+          "value": "147 Items, Severity-Graded"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "3BHK, 9th Floor — Inspected"
+        }
+      ],
+      "exploredAreasTitle": "The possession-stage geography",
+      "exploredAreas": [
+        {
+          "title": "Kanakapura Road Metro Belt (Committed)",
+          "description": "Their project's corridor — the possession theatre: OC received, pre-registration inspections underway, the snag list live and severity-tabbed.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9719359,
+            "lng": 77.5911468
+          },
+          "imageSrc": "/journals/the-snag-list/kanakapura.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Kanakapura Road metro belt with a newly completed tower and metro line, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Prestige Falcon City (Ready Comparable)",
+          "description": "The corridor's delivered-township benchmark for what 'done' looks like — studied as the yardstick for their own handover.",
+          "projects": 3,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.8859675,
+            "lng": 77.5510824
+          },
+          "imageSrc": "/journals/the-snag-list/falcon-city.png",
+          "imagegenerationprompt": "A modern architectural vector view of Prestige Falcon City's delivered township as the benchmark for a completed handover, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Konanakunte Cross",
+          "description": "The delivered-township micro-market around Falcon City — the reference stock that prices the corridor's 'done'.",
+          "projects": 3,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.8859671,
+            "lng": 77.5510824
+          },
+          "imageSrc": "/journals/the-snag-list/konanakunte.png",
+          "imagegenerationprompt": "A modern architectural vector view of Konanakunte Cross's delivered residential micro-market, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: none — committed at possession; the journal's geography is the inspection table, the delivered benchmark, and the corridor's comparable stock",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE 30-DAY REGISTRATION PUSH",
+          "value": "Congratulatory Tone, Firm Deadline",
+          "description": "The possession notice arrived with a congratulatory tone and a 30-day push — answered with three inspection bookings and a ₹15K third-party inspector where a celebration was expected.",
+          "icon": "Hourglass"
+        },
+        {
+          "title": "THE BROCHURE-VS-DELIVERED GAP",
+          "value": "Granite, Not Imported Marble",
+          "description": "The promised 'imported marble lobby' rendered in local granite; EV charging points existing as conduit stubs — the gap has line items, and they've photographed them.",
+          "icon": "FileX"
+        },
+        {
+          "title": "THE 'DEFECT LIABILITY' DEFLECTION",
+          "value": "'After You've Paid Everything'",
+          "description": "'Snags will be resolved under defect liability, ma'am' decodes to: after your leverage is gone. Severity-1/2 written commitments with dates became the only acceptable structure.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE MAINTENANCE-DEPOSIT AMBUSH",
+          "value": "₹4.2L, Demanded at Possession",
+          "description": "Maintenance deposits and corpus charges demanded at possession — standard, negotiable in composition, and priced line by line before the demand letter.",
+          "icon": "IndianRupee"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for verified OC numbers, severity-graded snag resolution in writing before registration, defect-liability rights understood after it, and an enforceable amenity instrument for the buyers' group.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Ramya and Aakash taught me that possession is not a ceremony, it's a negotiation — and the buyer's leverage peaks in the narrow window between possession notice and registration. The OC is a document with a number; they pulled it and checked the floors covered. The ₹15K third-party inspection found moisture readings and plumb deviations no walkthrough would — instruments end arguments. 'Will be resolved under defect liability' was decoded to mean 'after you've paid everything and your leverage is gone,' so severity-1 and -2 resolutions in writing with dates became the only acceptable structure. Even the interiors Pinterest board tried to negotiate for the builder — the wardrobe waitlist almost overrode seventeen open severity items, until the sequence was re-ordered: fixes in writing, then registration, then walnut. And the collective amenity fight found its instrument — a bank-guarantee-backed completion commitment, because builders respect instruments they use themselves. The finish line deserves both rigor and joy: the 7 am no-checklist walk found the line between deliverable and home, and registration got a date.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a severity-tabbed snag list beside a bank-guarantee draft and an OC document, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The possession theatre, the delivered benchmark, and the corridor's comparable stock — the geography of a handover done right.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "End-Stage — Land Well, Anywhere"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "3BHK, 9th Floor — Inspected"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE SNAG LIST",
+          "value": "147 Items, Severity-Graded"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.1 Cr + ₹14L End-Game"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "FileCheck2",
+          "title": "OC, Verified",
+          "subtitle": "floors covered, checked"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The 147-Item List",
+          "subtitle": "severity-tabbed, metered"
+        },
+        {
+          "icon": "Scale",
+          "title": "Written Commitments",
+          "subtitle": "severity-1/2, dated, pre-registration"
+        },
+        {
+          "icon": "Landmark",
+          "title": "The BG Instrument",
+          "subtitle": "bank-guaranteed clubhouse"
+        },
+        {
+          "icon": "Sun",
+          "title": "The 7 am Walk",
+          "subtitle": "deliverable → home, consciously"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ramya",
+          "avatar": "/journals/the-snag-list/ramya.png",
+          "text": "Severity matrix, moisture meters, a bank-guarantee draft — and yesterday, the 7 am walk with no checklist. We caught ourselves planning furniture, pa. Registration's got a date."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the handover done right, Ramya: the OC verified, the snags written with dates, the group's amenity instrumented — and the line between deliverable and home found with coffee, not exhaustion. Ship the snag list, then ship the furniture. The walnut waitlist will survive; dry walls are forever.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-snag-list/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Kanakapura Road metro belt with the committed project and the Prestige Falcon City delivered benchmark marked in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 tracked options",
+      "projects": [
+        {
+          "title": "The Possession Theatre",
+          "name": "Their Project (Kanakapura Rd)",
+          "price": "₹2.1 Cr paid",
+          "possession": "OC received — inspecting",
+          "psf": "Unnamed by policy (snag narrative)",
+          "location": "Kanakapura Rd metro belt",
+          "imageSrc": "/journals/the-snag-list/projects/1.jpg"
+        },
+        {
+          "title": "The Delivered Benchmark",
+          "name": "Prestige Falcon City",
+          "price": "Delivered-township band",
+          "possession": "Ready, lived-in",
+          "psf": "The yardstick for 'done'",
+          "location": "Konanakunte Cross",
+          "imageSrc": "/journals/the-snag-list/projects/2.jpg"
+        },
+        {
+          "title": "The Corridor Comparable",
+          "name": "Kanakapura Rd Ready Stock",
+          "price": "Comparable band",
+          "possession": "Ready",
+          "psf": "What the corridor trades at",
+          "location": "Kanakapura Rd belt",
+          "imageSrc": "/journals/the-snag-list/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Scale",
+          "title": "The 'Defect Liability' Deflection",
+          "count": "every severity-1/2 item deferred to after-registration"
+        },
+        {
+          "icon": "FileX",
+          "title": "The Brochure-Vs-Delivered Gap",
+          "count": "imported marble → local granite, EV stubs"
+        },
+        {
+          "icon": "Eye",
+          "title": "The Interiors-Board Detour",
+          "count": "1 week — caught negotiating for the builder"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "The 30-Day Push",
+          "count": "the registration clock, re-owned by them"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "The sequencing map is the gift: verify the OC as a document, hire the third-party inspection, grade every snag by severity, and demand written commitments with dates for severity-1/2 items BEFORE registration — because the final 5% and your signature are the only leverage you'll have. Price the possession-stage charges line by line (maintenance corpus, club activation, khata). Take the group's amenity fight to its instrument — a bank-guarantee-backed completion commitment. And schedule the no-checklist walk: the line between deliverable and home is found consciously, not at exhaustion. Fixes in writing, then registration, then walnut.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for possession-stage buyers — the OC as a document, instruments over opinions, the leverage-window sequencing, and the line found consciously.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Leverage Peaks Pre-Registration"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Written Commitments, Dated"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Interiors-Board Detour"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The 7 am Walk"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The OC is a document with a number — pull it and check the floors covered.",
+          "description": "Partial OCs are a Bengaluru classic; theirs covered all towers, but two nearby buyers'-group projects weren't so lucky. Verification starts with the document.",
+          "imageSrc": "/journals/the-snag-list/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an OC document with its registration number and a floors-covered checklist verified, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Instruments end arguments.",
+          "description": "The ₹15K third-party inspection found moisture readings and plumb deviations no walkthrough would — the builder's team disputed nothing measured, only things opined.",
+          "imageSrc": "/journals/the-snag-list/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a moisture meter reading and a plumb tool against a wall with a seepage stain, beside an inspection report, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "'Will be resolved under defect liability' means after your leverage is gone.",
+          "description": "Severity-1 and -2 resolution before registration, in writing with dates, became the only acceptable structure — the final 5% and the signature are the only currencies the builder still wants.",
+          "imageSrc": "/journals/the-snag-list/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a builder's email decoded in the margin beside a written commitment letter with severity-1/2 items and dates, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The line between deliverable and home is found consciously.",
+          "description": "The 7 am no-checklist walk caught them planning furniture — two severity-2 items reclassified 'we'll live,' and registration got a date. The finish line deserves both rigor and joy.",
+          "imageSrc": "/journals/the-snag-list/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a bright empty apartment at 7 am with coffee cups, a severity list with two items marked 'we'll live', and a brass key on a ribbon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Possession is the finish line — a ceremony"
+        },
+        {
+          "icon": "Eye",
+          "text": "A walkthrough's eye is enough to judge the handover"
+        },
+        {
+          "icon": "MessageSquare",
+          "text": "A verbal 'we'll fix it' is a commitment"
+        },
+        {
+          "icon": "Hourglass",
+          "text": "Register fast; the key's the goal"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileCheck2",
+          "text": "Possession is a negotiation — leverage peaks pre-registration"
+        },
+        {
+          "icon": "Ruler",
+          "text": "Instruments end arguments — moisture meters, plumb checks"
+        },
+        {
+          "icon": "Scale",
+          "text": "Written commitments with dates, before the signature"
+        },
+        {
+          "icon": "Sun",
+          "text": "The no-checklist walk finds the line: deliverable → home"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "FileCheck2",
+          "title": "Inspect before the possession notice arrives",
+          "description": "The ₹15K third-party inspection was booked in week 1 of the window — a dry-run inspection pre-notice would have given them a two-week head start on the leverage clock."
+        },
+        {
+          "icon": "Scale",
+          "title": "Sequence the leverage in writing from the first letter",
+          "description": "The 'defect liability' decode happened at week 3 — the sequencing map should have been drafted the day the OC was applied for."
+        },
+        {
+          "icon": "Eye",
+          "title": "Name the interiors pull early",
+          "description": "The Pinterest board nearly negotiated for the builder at week 4 — naming 'the interiors pull' as a known pressure point in week 1 would have armored it."
+        },
+        {
+          "icon": "Landmark",
+          "title": "Draft the group instrument before the amenity audit",
+          "description": "The bank-guarantee draft appeared at week 5 — the buyers' group could have commissioned it with the first OC discussion."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Aakash",
+          "avatar": "/journals/the-snag-list/aakash.png",
+          "text": "OC checked, 147 items tabled, seventeen severity ones and twos written with dates, a bank-guarantee draft in the group chat — and a 7 am walk with no checklist. The marriage survived as a release process. We ship on Friday."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then ship, Aakash — snags written, leverage spent deliberately, and the line found consciously. The last box on the checklist stays unticked on purpose: that's the one marked 'start living.' Congratulations. You've earned the brass key.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for possession-stage buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing the OC document being checked, the severity-tabbed snag list being written, the CRM sentence being decoded in the margin, and the 7 am no-checklist walk with coffee and a brass key, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For possession-stage buyers, the sequence is everything: verify the OC as a document — the number, the floors covered, the towers it actually covers. Hire the third-party inspection; instruments end arguments, and the builder will dispute nothing measured. Grade every snag by severity and demand written commitments with dates for severity-1 and -2 items BEFORE registration — your final payment and your signature are the only leverage you'll ever have; 'resolved under defect liability' means after your leverage is gone. Price the possession-stage charges line by line — maintenance corpus, club activation, khata costs — and negotiate composition, not just amounts. Take the buyers' group's amenity fight to its instrument: a bank-guarantee-backed completion commitment, because builders respect instruments they use themselves. And schedule the no-checklist walk: with coffee, no clipboard, planning furniture — that's where the line between deliverable and home announces itself. The finish line deserves both rigor and joy.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "WEEK 1",
+          "headline": "The OC is a document with a number — they pulled it and checked the floors covered",
+          "body": "Partial OCs are a Bengaluru classic; theirs covered all towers, but two nearby buyers'-group projects weren't so lucky.",
+          "turning": false
+        },
+        {
+          "month": "WEEK 2",
+          "headline": "Third-party inspection found what no walkthrough would — instruments end arguments",
+          "body": "The ₹15K moisture-metered inspection produced readings the builder's team disputed nothing of; only opinions get disputed.",
+          "turning": true
+        },
+        {
+          "month": "WEEK 3",
+          "headline": "'Resolved under defect liability' translates to 'after you've paid everything'",
+          "body": "Severity-1 and -2 resolution before registration, in writing with dates, became the only acceptable structure.",
+          "turning": false
+        },
+        {
+          "month": "WEEK 5",
+          "headline": "The collective amenity fight found its instrument — a bank-guarantee-backed completion commitment",
+          "body": "Proposed by a buyers'-group member who does project finance — builders respect instruments they use themselves.",
+          "turning": false
+        },
+        {
+          "month": "WEEK 6",
+          "headline": "The 7 am no-checklist walk found the line between deliverable and home",
+          "body": "Two severity-2 items got reclassified to 'we'll live,' and registration got a date — the finish line deserves both rigor and joy.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If your possession notice has arrived, let Riya build your snag-list system — OC verification, severity frameworks, and the leverage-window sequencing before registration.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your possession notice, your OC number, the charges you've been asked to pay — and the snags you've already spotted.",
+          "imageSrc": "/journals/39/1.png",
+          "imagegenerationprompt": "A person entering their OC number and possession charges into a smartphone app with a clipboard icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya verifies the OC's coverage, builds your severity framework, and sequences the demands — what must be in writing before registration, what defect liability covers after.",
+          "imageSrc": "/journals/39/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing an OC document beside a severity-graded snag framework and a leverage-window timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Snag List journal — severity templates, charge audits, and the leverage-window playbook — is generated.",
+          "imageSrc": "/journals/39/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a severity-graded snag template and a possession-charge audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the possession-to-registration sequence, the negotiable-charges list, and the group's amenity-instrument draft.",
+          "imageSrc": "/journals/39/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing a possession-to-registration sequence with severity badges and a bank-guarantee draft icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Severity Framework",
+          "description": "OC verification, snag templates, and the inspector's toolkit — instruments end arguments, and the builder disputes nothing measured.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 2,
+          "title": "The Leverage-Window Playbook",
+          "description": "What to demand in writing before registration, what defect liability covers after, and how to price severity-2 items against rent-weeks.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The Amenity Instruments",
+          "description": "Bank-guarantee-backed completion commitments and the charges that are actually negotiable — composition, not just amounts.",
+          "icon": "Landmark"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your possession notice arrived and you booked inspections instead of celebrations.",
+        "You know (or just learned) that buyer leverage peaks between possession notice and registration.",
+        "A snag list with severity levels exists in your household, possibly in a spreadsheet.",
+        "The brochure-vs-delivered gap has line items at your project, and you've photographed them.",
+        "You can quote the defect-liability provision and have reserved your registration costs to the rupee.",
+        "You are simultaneously exhausted, proud, and aware that you're the one delaying your own key."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-notice-to-inspections",
+      "stage": "S7",
+      "type": "start",
+      "title": "L1: The Notice, Answered with Inspections",
+      "desc": "The 30-day registration push answered with three inspection bookings and a ₹15K third-party inspector — possession started as a test, not a ceremony.",
+      "icon": "FileCheck2",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-147-item-list",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L2: The 147-Item Severity List",
+      "desc": "Moisture meters end arguments opinions couldn't — the severity-tabbed list that the sales office now refers to with respect.",
+      "icon": "ClipboardList",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-defect-liability-decode",
+      "stage": "S7",
+      "type": "loop",
+      "title": "L3: The 'Defect Liability' Decode",
+      "desc": "'Resolved under defect liability, ma'am' decoded: leverage peaks between notice and registration; severity-1/2 fixes demanded in writing, with dates.",
+      "icon": "Scale",
+      "loopText": "The Leverage-Window Decode — Fixes in Writing, Dates Attached",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-interiors-detour",
+      "stage": "S7",
+      "type": "detour",
+      "title": "L4 DETOUR: The Interiors Board",
+      "desc": "The Pinterest board threatens to negotiate on the builder's behalf ('just register, we want to start the wardrobe work'); caught, named, parked — walnut waitlist noted.",
+      "icon": "Eye",
+      "x": 760,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l5-bank-guarantee-instrument",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L5: The Bank-Guarantee Instrument",
+      "desc": "The buyers'-group's amenity instrument: a bank-guarantee-backed clubhouse completion commitment, proposed by a project-finance member.",
+      "icon": "Landmark",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l6-7am-walk",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The 7 am Walk",
+      "desc": "No checklist, coffee, planning furniture — two severity-2 items reclassified 'we'll live'; registration dated; the line between deliverable and home found consciously.",
+      "icon": "Sun",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

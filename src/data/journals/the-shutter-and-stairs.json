@@ -1,0 +1,1018 @@
+{
+  "article": {
+    "tags": [
+      "INVESTORS & WEALTH",
+      "SOUTH BENGALURU",
+      "RENTAL INCOME"
+    ],
+    "title": "The Shutter & Stairs Journal",
+    "description": "Shobha & Ganesh Hegde's second-income search across Uttarahalli, Kathriguppe and the Kengeri arc — buying corner sites and small rented buildings where a shop's rent pays for the house above it.",
+    "quote": "\"Rent from the shop pays for the house above it.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Store",
+        "text": "Count footfall twice — Tuesday 11 am and Sunday 6 pm — before a single broker call"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "A neat rent ledger is only as good as the tenancy paperwork beneath it"
+      },
+      {
+        "icon": "PiggyBank",
+        "text": "A tenant LOI and a vacancy stress-test protect the second-income thesis"
+      }
+    ],
+    "heroImage": "/journals/cover/12.jpg",
+    "heroTitle": "The Shutter & Stairs Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Shobha Hegde (48, school administrator) and her husband Ganesh (printing business owner) — deploying ₹95L savings and ₹85L loan capacity into a shop-over-flat corner building that outlives their salaries.",
+      "buyers": [
+        {
+          "name": "Shobha Hegde",
+          "age": 48,
+          "role": "School Administrator",
+          "description": "Grew up watching her grandmother in Shivamogga collect rent from two shops attached to the family house — small money that arrived every month, every monsoon. That model imprinted on her. Walks the commercial cross-roads of Banashankari and Kathriguppe on Sunday mornings, counting shutters and noting which bakeries survive.",
+          "tags": [
+            "Thrifty",
+            "Proudly Old-School",
+            "Landlady-In-Training"
+          ],
+          "image": "/journals/the-shutter-and-stairs/shobha.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 48-year-old South Indian woman school administrator named Shobha with neat pulled-back black hair streaked with grey, wearing a plain cotton kurti, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm determined smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Ganesh Hegde",
+          "age": 52,
+          "role": "Printing Business Owner",
+          "description": "Runs a small printing business and knows the economics of shopfronts and footfall from the supplier side. Patient about weekends spent on footfall counts; less patient about three years of construction chaos — a tension that quietly shapes the build-versus-buy decision.",
+          "tags": [
+            "Practical",
+            "Supplier-Side Savvy",
+            "Build-Sceptic"
+          ],
+          "image": "/journals/the-shutter-and-stairs/ganesh.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 52-year-old South Indian man entrepreneur named Ganesh with short greying hair and a neat trimmed moustache, wearing a plain button-down shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, steady patient smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy a corner site or small rented building where a pharmacy or condiments shop pays ~₹60,000 downstairs, two 1BHKs pay ₹24,000 each upstairs, and their old age becomes a ledger of rent receipts rather than a request to their daughter.",
+      "sharedVisionImage": "/journals/the-shutter-and-stairs/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a south Bengaluru corner building with an open-shutter shop on the ground floor and rental balconies with money plants above, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the open shop shutter, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Second-income builders",
+          "tag": "Age 48 + Ganesh"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "THEIR REALITY",
+          "value": "₹1.8 Cr ceiling",
+          "tag": "95L cash + 85L loan"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Layering income",
+          "tag": "For retirement"
+        },
+        {
+          "icon": "Sparkles",
+          "label": "SEARCH STAGE",
+          "value": "Actively exploring",
+          "tag": "Sunday field visits"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "12–18 Months",
+          "tag": "Worth the wait"
+        },
+        {
+          "icon": "CheckCircle2",
+          "label": "TRANSACTION FOCUS",
+          "value": "Secondary asset",
+          "tag": "Corner sites / bldgs"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-shutter-and-stairs/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-drawn tally notebook with two columns headed 'Tue 11am' and 'Sun 6pm', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 tally-mark accents, Scandinavian minimalism, clean white background.",
+          "title": "Two-Slot Footfall Census",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Counted in person — Tuesday 11 am AND Sunday 6 pm — before a single broker call."
+        },
+        {
+          "image": "/journals/the-shutter-and-stairs/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a property khata document with an official conversion stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 stamp accent, Scandinavian minimalism, clean white background.",
+          "title": "Commercial Khata / Convertibility",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Legal capacity to run a shop-cum-residence, or a clear path to conversion."
+        },
+        {
+          "image": "/journals/the-shutter-and-stairs/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an aged rent ledger with forty years of neat ink entries and a separate tenancy agreement clipped beneath, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tenancy-clip accent, Scandinavian minimalism, clean white background.",
+          "title": "Ledger Backed by Paper",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Sitting tenants only if the tenancy agreements behind forty neat years actually hold."
+        },
+        {
+          "image": "/journals/the-shutter-and-stairs/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a signed tenant letter of intent lying on a negotiation table, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 signature accent, Scandinavian minimalism, clean white background.",
+          "title": "Tenant LOI Before Bidding",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "A talking tenant — sourced by her, not the broker — changes the whole negotiation."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a two-slot Sunday footfall census to a beautiful rent-ledger bounce — and back to corners with an LOI-first rule.",
+      "journeyFrameTitle": "AN OPEN, CONTINUING HUNT",
+      "roadmapTitle": "How a thrifty landlady-in-training built a second income, one shutter at a time",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "BUDGET STRETCH",
+          "value": "₹1.8 Cr Ceiling"
+        },
+        {
+          "icon": "Calendar",
+          "label": "TIMELINE",
+          "value": "12–18 Months"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TARGET INCOME",
+          "value": "₹1.08L / Month"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-footfall-census",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Footfall Census Formalized",
+          "desc": "Two-slot census — Tuesday 11 am and Sunday 6 pm — per candidate corner, tallied like stitches into the notebook.",
+          "icon": "FileText",
+          "x": 110,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-corners-price-out",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: Banashankari Corners Price Out",
+          "desc": "The corners she admired now command ₹2.5 Cr+; the hunt moves outward to Uttarahalli–Kengeri.",
+          "icon": "TrendingUp",
+          "x": 320,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-guaranteed-tenant-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "DETOUR: Guaranteed-Tenant",
+          "desc": "Broker's 'bank-branch tenant' corner — the bank's regional office never heard of it; walked.",
+          "icon": "Compass",
+          "x": 560,
+          "y": 220,
+          "width": 180
+        },
+        {
+          "id": "l4-build-vs-buy",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Build-vs-Buy Shortlist",
+          "desc": "One 20x30 corner site vs one existing building with sitting tenants and a visible rent ledger.",
+          "icon": "ArrowLeftRight",
+          "x": 790,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l5-quotes-rise",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: Construction Quotes +12%",
+          "desc": "Construction quotes move 12% in six months; the build-it-yourself plan loses to the buy-the-ledger plan.",
+          "icon": "TrendingUp",
+          "loopText": "Build-vs-Buy Decision Loop",
+          "x": 900,
+          "y": 320,
+          "width": 180
+        },
+        {
+          "id": "l6-tenant-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l4-build-vs-buy",
+          "title": "L6 BOUNCE: Sitting-Tenant",
+          "desc": "Tenancy predates every agreement on file; lawyer advises pass on the beautiful building.",
+          "icon": "UserPlus",
+          "loopText": "S5 → S3 Bounce",
+          "x": 640,
+          "y": 420,
+          "width": 190
+        },
+        {
+          "id": "l7-loi-first",
+          "stage": "S3",
+          "type": "loop",
+          "title": "L7: Open — LOI-First Hunting",
+          "desc": "Back to corners with LOI-stage tenant conversations done by her, not brokers; the journey continues.",
+          "icon": "MessageSquare",
+          "loopText": "Open Loop — Continuing",
+          "x": 360,
+          "y": 440,
+          "width": 190
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight",
+          "active": true,
+          "tag": "Ongoing"
+        },
+        {
+          "id": "financing",
+          "label": "Financing",
+          "icon": "Banknote"
+        },
+        {
+          "id": "diligence",
+          "label": "Diligence",
+          "icon": "FileSearch"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "CheckCircle2"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "footfall-notebook",
+          "title": "The two-column footfall notebook",
+          "desc": "Sunday counts formalized into a notebook — 'Tue 11am / Sun 6pm' — tallies added like stitches.",
+          "imageSrc": "/journals/the-shutter-and-stairs/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-drawn tally notebook with two columns headed 'Tue 11am' and 'Sun 6pm', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 tally accents, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "grandmother-reckoning",
+          "title": "The priced dream, beside her grandmother",
+          "desc": "A ₹2.5 Cr+ corner listing printout set beside her grandmother's Shivamogga shop photograph — the model priced in every sense.",
+          "imageSrc": "/journals/the-shutter-and-stairs/moment-2.png",
+          "imagegenerationprompt": "An old sepia photograph of a modest corner shop in Shivamogga beside a new ₹2.5 Cr listing printout, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 listing-price accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "ledger-bounce",
+          "title": "The beautiful ledger, closed",
+          "desc": "The forty-year rent ledger she loved, closed, after tenancy predated every agreement on file.",
+          "imageSrc": "/journals/the-shutter-and-stairs/moment-3.png",
+          "imagegenerationprompt": "A beautiful aged rent ledger closed shut with a lawyer's note on tenancy paper clipped to its cover, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 note accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "loi-first",
+          "title": "The LOI template in her hand",
+          "desc": "A tenant LOI template in her own handwriting, a bhajan-group contact list open beside it — her network as diligence.",
+          "imageSrc": "/journals/the-shutter-and-stairs/moment-4.png",
+          "imagegenerationprompt": "A hand-written tenant letter-of-intent template on a desk beside a laminated contact list, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 signature accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Good handwriting hiding bad paper — the neat ledger was the trap, alva.",
+          "author": "— Shobha"
+        },
+        {
+          "text": "The ledger was real, madam. The problem was underneath it.",
+          "author": "— Riya"
+        },
+        {
+          "text": "If you ever needed the shop back… you'd be in court, not in business.",
+          "author": "— Riya"
+        },
+        {
+          "text": "My bhajan group is worth more than your database.",
+          "author": "— Shobha"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Shobha",
+          "avatar": "/journals/the-shutter-and-stairs/shobha.png",
+          "text": "Riya, nija helbeku — I liked that building too much. Rent ledger was so neat, ree. Forty years of entries. My grandmother would have cried seeing it."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The ledger was real, madam. The problem was underneath — the tenancy predates every agreement on file. Now, this time, you talk to the pharmacy chain before we bid. An LOI from a tenant changes your whole negotiation.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileText",
+          "title": "Two-Slot Footfall Census",
+          "description": "Count corners in person — Tuesday 11 am AND Sunday 6 pm — before a broker call."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Commercial Khata / Convertibility",
+          "description": "Run a shop-cum-residence only where the khata legally allows it or converts cleanly."
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Tenancy-Paper Diligence",
+          "description": "A rent ledger is only as good as the tenancy agreements beneath it."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Tenant LOI Before Bidding",
+          "description": "A talking tenant, sourced by you, upends the whole negotiation."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Vacancy Stress-Test",
+          "description": "If the shop sits empty six months and one unit turns over, do the numbers survive?"
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-shutter-and-stairs.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Walking the commercial cross-roads of south-western Bengaluru — counting shutters, noting which tenants survive, and hunting corners within a 20-minute scooter radius of home.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH STRATEGY",
+          "value": "Second Income"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "SEARCH COVERAGE",
+          "value": "Uttarahalli–Kengeri"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "TARGET ASSET",
+          "value": "Corner Site / Building"
+        },
+        {
+          "icon": "ShieldCheck",
+          "label": "NON-NEGOTIABLES",
+          "value": "Footfall + Khata"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Uttarahalli (The Hunt)",
+          "description": "Corner sites at ₹1.3–1.5 Cr on proven-footfall roads with shop rents ₹50–65K; the realistic price point.",
+          "projects": 5,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9085244,
+            "lng": 77.5376284
+          },
+          "imageSrc": "/journals/the-shutter-and-stairs/uttarahalli.png",
+          "imagegenerationprompt": "A modern architectural vector view of an Uttarahalli corner market with open-shutter shop fronts and footfall, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Kathriguppe Fringe",
+          "description": "High footfall fringes where Shobha counts shutters on Sunday mornings, just outside the premium core.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9296549,
+            "lng": 77.5504522
+          },
+          "imageSrc": "/journals/the-shutter-and-stairs/kathriguppe.png",
+          "imagegenerationprompt": "A modern architectural vector view of a Kathriguppe cross-road market with a neighbourhood pharmacy and condiments store, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Kengeri Arc",
+          "description": "The outward corridor beyond Kathriguppe's fringes where entry price still buys a corner with proven-footfall commercial frontage.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9005622,
+            "lng": 77.4405614
+          },
+          "imageSrc": "/journals/the-shutter-and-stairs/kengeri.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Kengeri arc corridor with growing residential catchment and commercial frontage, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Padmanabhanagar Fringe",
+          "description": "A lower-rent fringe of the same south-west belt, where 20x30 corners surface slowly within her 20-minute scooter radius.",
+          "projects": 2,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9166083,
+            "lng": 77.5365259
+          },
+          "imageSrc": "/journals/the-shutter-and-stairs/padmanabhanagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of a Padmanabhanagar fringe corner with a mix of residential and shop frontages, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "GoodEarth Malhar (Kengeri)",
+          "description": "The 50-acre eco-village whose established catchment anchors her shop thesis — she scouted its corner catchments for footfall.",
+          "projects": 1,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.88027,
+            "lng": 77.46256
+          },
+          "imageSrc": "/journals/the-shutter-and-stairs/goodearth-malhar.png",
+          "imagegenerationprompt": "A modern architectural vector view of the GoodEarth Malhar eco-village 50-acre catchment with landscaped residential blocks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Banashankari 3rd Stage (home base, corners now ₹2.5 Cr+)",
+      "filtersTitle": "Search pain points & frustrations",
+      "filters": [
+        {
+          "icon": "TrendingUp",
+          "title": "The Corner Premium",
+          "value": "₹2.5 Cr+ Banashankari",
+          "description": "Every corner that guarantees a pharmacy tenant costs exactly what the pharmacy's rent justifies; the market is not stupid.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "Compass",
+          "title": "Sitting-Tenant Risk",
+          "value": "Paper Beneath the Ledger",
+          "description": "A beautiful rent ledger can hide tenancy that predates every agreement on file.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Build Cost Drift",
+          "value": "Quotes +12% in 6 mo",
+          "description": "A build plan without a locked contractor rate is a wish, not a budget.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Khata & Licence Maze",
+          "value": "Commercial Conversion",
+          "description": "Trade-license and khata limits decide whether the corner can legally be a shop-cum-residence.",
+          "isReraVerified": false
+        }
+      ],
+      "filtersFooterLabel": "Shobha was filtering for personally-counted footfall, commercial khata, and a corner within a 20-minute scooter radius of home.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Shobha counted footfall herself — Tuesday 11 am, then Sunday 6 pm — before she'd take a single broker call. She wasn't projecting her grandmother's Shivamogga street onto Bengaluru; she was insisting the street prove itself. The bounce taught her the rest: a rent ledger is only as good as the tenancy paperwork beneath it.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a two-column footfall notebook and a tenancy agreement on a tablet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tally accent, Scandinavian minimalism, clean white background."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Real corners and small rented buildings; price bands from public listings and market sources, mid-2026. Projects criticized on diligence or delay grounds stay unnamed by policy.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Second Income"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "EVALUATED BUILDS",
+          "value": "Corners + Buildings"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "WALK-AWAYS",
+          "value": "1 Tenant Bounce"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TARGET CEILING",
+          "value": "₹1.8 Cr"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "FileText",
+          "title": "Footfall Census",
+          "subtitle": "counted twice-weekly, in person"
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Commercial Khata",
+          "subtitle": "or clean convertibility"
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Tenancy-Paper Ledger",
+          "subtitle": "paper behind the receipts"
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Tenant LOI",
+          "subtitle": "sourced before bidding"
+        },
+        {
+          "icon": "MapPin",
+          "title": "20-Min Radius",
+          "subtitle": "scooter distance from home"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Shobha",
+          "avatar": "/journals/the-shutter-and-stairs/shobha.png",
+          "text": "The ledger was so neat, ree. Forty years. It turned out to be the trap — good handwriting hiding bad paper."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Beautifully said, madam. Now for the corners we're back to — this time you talk to the pharmacy chain and the condiments man first. An LOI from a tenant changes your whole negotiation.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-shutter-and-stairs/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of south-western Bengaluru highlighting Uttarahalli, Kathriguppe and the Kengeri arc in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Assets they explored",
+      "projectsCountBadge": "3 real options",
+      "projects": [
+        {
+          "title": "Uttarahalli Corner Site",
+          "name": "20x30 Corner Site",
+          "price": "₹1.3–1.5 Cr",
+          "possession": "Vacant Site",
+          "psf": "₹45–55L build phased over 3 yrs",
+          "location": "Uttarahalli–Kengeri",
+          "imageSrc": "/journals/the-shutter-and-stairs/projects/1.jpg"
+        },
+        {
+          "title": "Sitting-Tenant Building (Bounce)",
+          "name": "Existing Rented Building",
+          "price": "Within ₹1.8 Cr",
+          "possession": "Tenanted",
+          "psf": "Unnamed by policy",
+          "location": "Kathriguppe fringe",
+          "imageSrc": "/journals/the-shutter-and-stairs/projects/2.jpg"
+        },
+        {
+          "title": "Kengeri Corridor Anchor",
+          "name": "GoodEarth Malhar Context",
+          "price": "Catchment context",
+          "possession": "50-Acre Community",
+          "psf": "Established catchment",
+          "location": "Kengeri",
+          "imageSrc": "/journals/the-shutter-and-stairs/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "How the corner-scarcity loop stalls the hunt",
+      "rejectedReasons": [
+        {
+          "icon": "TrendingUp",
+          "title": "₹2.5 Cr+ Banashankari Corners",
+          "count": "priced outside the thesis"
+        },
+        {
+          "icon": "Compass",
+          "title": "Guaranteed-Tenant Detour",
+          "count": "bank never heard of the plan"
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Sitting-Tenant Paperwork",
+          "count": "tenancy predates agreements"
+        },
+        {
+          "icon": "MapPin",
+          "title": "Perfect-but-Far Kengeri Deal",
+          "count": "broke the 20-minute radius rule"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Stay on corners where you have personally counted footfall, source the tenant LOI yourself — your bajan-group network is worth more than a broker's database — and buy a smaller proven corner over a bigger speculative one. A managed asset would be kinder to future-Shobha, but it wouldn't be hers.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for rental-income builders buying small corners and rented buildings for a second income.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Paper Behind the Ledger"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Counted Footfall"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Loving a Neat Ledger"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "LOI-First Hunting"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The corner premium is brutally efficient.",
+          "description": "Every location that guarantees a pharmacy tenant costs exactly what the pharmacy's rent justifies. The market has already done her math; her edge must be patience, not discovery.",
+          "imageSrc": "/journals/the-shutter-and-stairs/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a corner premium priced exactly in line with a pharmacy's justified rent, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 price accents, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "A rent ledger is only as good as its paperwork.",
+          "description": "Sitting tenants are an asset and a legal fact — read the tenancy agreements and rent-control history before falling in love with a ledger.",
+          "imageSrc": "/journals/the-shutter-and-stairs/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an aged rent ledger with a magnifying glass over the tenancy agreement beneath it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 magnifier accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "A locked contractor rate is the only budget.",
+          "description": "Construction quotes moved 12% in six months. A build plan without a locked rate is a wish, not a budget — favour buy-built when quotes inflate.",
+          "imageSrc": "/journals/the-shutter-and-stairs/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two construction quotes six months apart with the 12% jump bracketed, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 bracket accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Your radius rule is often wiser than you are.",
+          "description": "The 20-minute scooter rule eliminated a 'perfect' Kengeri deal — and a week later, Shobha knew the rule had been the wiser of the two of them.",
+          "imageSrc": "/journals/the-shutter-and-stairs/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a scooter-mapped radius circle around a south Bengaluru home with a corner pin outside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 radius ring accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "TrendingUp",
+          "text": "A shop-corner that looks busy is busy"
+        },
+        {
+          "icon": "Heart",
+          "text": "A neat rent ledger means a safe building"
+        },
+        {
+          "icon": "Wrench",
+          "text": "Building ourselves saves the most money"
+        },
+        {
+          "icon": "Compass",
+          "text": "Any promising corner near home will do"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileText",
+          "text": "Footfall is counted twice-weekly, in person, per corner"
+        },
+        {
+          "icon": "FileSearch",
+          "text": "Tenancy paperwork behind the ledger is the real asset"
+        },
+        {
+          "icon": "Home",
+          "text": "Buy-built with visible rent receipts often beats building"
+        },
+        {
+          "icon": "MapPin",
+          "text": "The radius rule usually knows better than the buyer"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "FileText",
+          "title": "Run the two-slot census on day one",
+          "description": "Counting Tuesday 11 am and Sunday 6 pm before a broker call filters corners faster than any list."
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Audit tenancy paper before the ledger",
+          "description": "Reading agreements and rent-control history first prevents falling in love with beautiful, hollow entries."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Source the tenant LOI yourself",
+          "description": "A talking tenant, found through her own network, is worth more than a broker's pitch."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Lock the contractor rate early",
+          "description": "A build plan without a locked rate is a wish; quotes moved 12% in six months."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Meet three bankers early",
+          "description": "Commercial-cum-residential underwriting differs — lower LTV, higher rate — so know it before the next offer."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Shobha",
+          "avatar": "/journals/the-shutter-and-stairs/shobha.png",
+          "text": "Hakki mele, Riya — the neat ledger was the trap. Good handwriting hiding bad paper. My grandmother's model was right; I just needed paper to back the receipts."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And that is exactly how a second income is built, madam — one shutter with a signed LOI, one corner with counted footfall, at a time.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for rental-income builders",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Shobha counting footfall in a notebook, reading a tenancy agreement, sourcing a tenant LOI, and signing a corner purchase, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For families building a second income from shop-over-flat property, the thriftiest path is counted footfall, paper-backed ledgers, tenant LOIs sourced personally, and banks known before offers. Shobha proved that patience is the strategy — and that a covered radius rule usually knows more than the buyer.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 2",
+          "headline": "The corner premium is brutally efficient",
+          "body": "Every corner guaranteeing a pharmacy tenant costs exactly what the pharmacy's rent justifies. The market has done her math; her edge must be patience, not discovery.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Sitting tenants are an asset and a legal fact",
+          "body": "She learned to read tenancy agreements and rent-control history before falling in love with a ledger.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "Construction quotes moved 12% in six months",
+          "body": "A build plan without a locked contractor rate is a wish, not a budget — the build-it-yourself plan loses to buy-the-ledger.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 8",
+          "headline": "The 20-minute radius rule was the wiser one",
+          "body": "Eliminating a 'perfect' Kengeri deal outside the radius turned out to be the right call within a week.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 10",
+          "headline": "Meet three banks before the next offer",
+          "body": "Banks underwrite commercial-cum-residential differently — lower LTV, higher rate — so she met three bankers before negotiating again.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you want income-producing property you manage yourself within scooter distance — a shop that pays for the house above it — let Riya stress-test your second-income thesis.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your cash, loan capacity, corridor radius, and the tenants you can already count on.",
+          "imageSrc": "/journals/the-shutter-and-stairs/step-1.png",
+          "imagegenerationprompt": "A vector illustration of a second-income buyer entering cash and loan capacity into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya runs the census",
+          "description": "Riya builds your two-slot footfall method and a commercial-khata / trade-license checklist.",
+          "imageSrc": "/journals/the-shutter-and-stairs/step-2.png",
+          "imagegenerationprompt": "A vector illustration of Riya the AI real estate guide reviewing a footfall notebook and khata documents, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your Shutter & Stairs journal is generated with a vacancy stress-test and an LOI-first mandate.",
+          "imageSrc": "/journals/the-shutter-and-stairs/step-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an open home search journal with a vacancy stress-test table, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Clear recommendations",
+          "description": "Receive verified corner sites or rented buildings matching your ceiling and radius.",
+          "imageSrc": "/journals/the-shutter-and-stairs/step-4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified corner-site suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Two-Slot Footfall Census",
+          "description": "Count corners in person on a weekday and a Sunday before any broker call.",
+          "icon": "FileText"
+        },
+        {
+          "id": 2,
+          "title": "Commercial Khata & Licences",
+          "description": "Confirm trade-license and khata legality before you fall for a storefront.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 3,
+          "title": "Tenancy-Paper Audit",
+          "description": "Read the agreements behind a neat rent ledger before you trust it.",
+          "icon": "FileSearch"
+        },
+        {
+          "id": 4,
+          "title": "Vacancy Stress-Test",
+          "description": "Model what happens to EMI cover if the shop sits empty and a unit turns over.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 5,
+          "title": "Your personal journal",
+          "description": "A beautifully kept record of corners, tenure, and your second-income thesis.",
+          "icon": "BookOpen"
+        }
+      ],
+      "blankTitle": "This page is still blank.",
+      "blankDescription": "Begin your conversation with Riya to build a rental-income roadmap for your corner property and tenants.",
+      "blankActionText": "Let's write it together.",
+      "blankImageSrc": "/journals/the-shutter-and-stairs/open-book-illustration.png",
+      "blankImagePrompt": "A 3D vector illustration of an open ruled ledger notebook with a shop-shutter key resting on it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 key accent, Scandinavian minimalism, clean white background.",
+      "ctaTitle": "Ready to build your second income?",
+      "ctaDescription": "Let Riya help you stress-test a shop-over-flat corner that pays rent that outlives your salary.",
+      "ctaButtonText": "Copy Journal",
+      "ctaCharacterImage": "/journals/the-shutter-and-stairs/riya-full-character.png",
+      "ctaCharacterImagePrompt": "A full-length character illustration of Riya the AI real estate guide holding a digital tablet and a corner-property key in an 80% greyscale monochrome outfit with a Warm Coral #FF8A65 screen accent, Scandinavian minimalism, clean studio backdrop."
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-footfall-census",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Footfall Census Formalized",
+      "desc": "Two-slot census — Tuesday 11 am and Sunday 6 pm — per candidate corner, tallied like stitches into the notebook.",
+      "icon": "FileText",
+      "x": 110,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-corners-price-out",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: Banashankari Corners Price Out",
+      "desc": "The corners she admired now command ₹2.5 Cr+; the hunt moves outward to Uttarahalli–Kengeri.",
+      "icon": "TrendingUp",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-guaranteed-tenant-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "DETOUR: Guaranteed-Tenant",
+      "desc": "Broker's 'bank-branch tenant' corner — the bank's regional office never heard of it; walked.",
+      "icon": "Compass",
+      "x": 560,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "l4-build-vs-buy",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Build-vs-Buy Shortlist",
+      "desc": "One 20x30 corner site vs one existing building with sitting tenants and a visible rent ledger.",
+      "icon": "ArrowLeftRight",
+      "x": 790,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l5-quotes-rise",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: Construction Quotes +12%",
+      "desc": "Construction quotes move 12% in six months; the build-it-yourself plan loses to the buy-the-ledger plan.",
+      "icon": "TrendingUp",
+      "loopText": "Build-vs-Buy Decision Loop",
+      "x": 900,
+      "y": 320,
+      "width": 180
+    },
+    {
+      "id": "l6-tenant-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l4-build-vs-buy",
+      "title": "L6 BOUNCE: Sitting-Tenant",
+      "desc": "Tenancy predates every agreement on file; lawyer advises pass on the beautiful building.",
+      "icon": "UserPlus",
+      "loopText": "S5 → S3 Bounce",
+      "x": 640,
+      "y": 420,
+      "width": 190
+    },
+    {
+      "id": "l7-loi-first",
+      "stage": "S3",
+      "type": "loop",
+      "title": "L7: Open — LOI-First Hunting",
+      "desc": "Back to corners with LOI-stage tenant conversations done by her, not brokers; the journey continues.",
+      "icon": "MessageSquare",
+      "loopText": "Open Loop — Continuing",
+      "x": 360,
+      "y": 440,
+      "width": 190
+    }
+  ]
+}

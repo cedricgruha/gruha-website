@@ -1,0 +1,915 @@
+{
+  "article": {
+    "tags": [
+      "SPECIAL CONVICTIONS",
+      "THE REGENERATIVE BUILDER",
+      "KENGERI • SARJAPUR • MAGADI ARC"
+    ],
+    "title": "The Mud, Sun & Slab Journal",
+    "description": "Ishaan Bhargava's (38, climate-tech founder) real arithmetic of sustainability — embodied carbon, water neutrality, passive cooling, solar primacy — a Malhar resale closed through community-network membership, and a Magadi-arc site held as Plan 2031.",
+    "quote": "\"My house should compost, harvest, and breathe. Ideally before it impresses anyone.\"",
+    "readTime": "14 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Leaf",
+        "text": "Green communities trade on networks, not portals — he joined two residents' sustainability groups as a volunteer auditor: genuine, and the best waitlist position in the city"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "Performance data before floor plans — the communities that share their electricity bills proudly are the real ones; a mood board is not a spec sheet"
+      },
+      {
+        "icon": "Zap",
+        "text": "The bandwidth audit decided it — 11 hrs/week × 18 months of self-build decisions vs the startup's same 18 months; conviction can be phased: Plan 2031"
+      }
+    ],
+    "heroImage": "/journals/cover/36.jpg",
+    "heroTitle": "The Mud, Sun & Slab Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Ishaan, 38, climate-tech founder (battery analytics; one modest exit), single by bandwidth, evangelical by temperament — a sustainability conviction quantified, audited, and personally binding, torn between buying the rare proven thing and building the pure thing.",
+      "buyers": [
+        {
+          "name": "Ishaan Bhargava",
+          "age": 38,
+          "role": "Climate-Tech Founder, Battery Analytics",
+          "description": "Runs the real arithmetic — embodied carbon, water neutrality, passive cooling, solar primacy — and asks for electricity bills before floor plans. His own life-carbon framework judged his self-build dream; he appealed the verdict twice and lost both times.",
+          "tags": [
+            "Performance-Data Demander",
+            "Bandwidth-Audited",
+            "Plan 2031 Hold"
+          ],
+          "image": "/journals/the-mud-sun-and-slab/ishaan.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old Indian man named Ishaan wearing smart casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, earnest analytical expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "A genuinely sustainable Bengaluru home — real performance data, not badges: near-zero electricity bills, water independence most months, passive cooling before panels — in a verified green community now, with a solar-oriented Magadi-arc site held for a CSEB build later. Plan 2031.",
+      "sharedVisionImage": "/journals/the-mud-sun-and-slab/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a mud-block CSEB home with a solar-panel roof, rain chains feeding a recharge well, a vegetable garden and compost bay, beside a green community's utility bills pinned on a wall like art, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the near-zero electricity bill, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "The Regenerative Builder"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Single by Bandwidth"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Stuck & Re-Evaluating"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Series-A-Timed, 18 Months"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-mud-sun-and-slab/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a near-zero electricity bill beside a floor plan, with a verification tick on the bill, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tick, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Performance Data, Not Badges",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Electricity bills before floor plans — the communities that share them proudly are the real ones. A mood board is not a spec sheet, and a vertical garden bolted on a tower is a billboard, not a building."
+        },
+        {
+          "image": "/journals/the-mud-sun-and-slab/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a water-independence engineering diagram with RWH sizing, greywater recycling and recharge wells, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the recharge well, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Water Independence Engineering",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "RWH sized to actual roof area and rainfall data, greywater recycling, recharge wells — he can recite Bengaluru's annual rainfall and the absurdity of its simultaneous floods and shortages."
+        },
+        {
+          "image": "/journals/the-mud-sun-and-slab/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a solar-orientation diagram with a roof paying rent in kilowatt-hours and passive-cooling arrows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the solar panels, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Solar Orientation & Passive Design",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Passive design before panels; panels before everything. A roof that pays rent in kilowatt-hours — near-zero electricity bills as the operating thesis, and the running-cost inflation hedge nobody prices."
+        },
+        {
+          "image": "/journals/the-mud-sun-and-slab/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a mud-block wall detail and a builder's portfolio page from the earth-building lineage, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the CSEB block, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "An Architect From the Earth-Building Lineage",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "CSEB homes need a builder who speaks the lineage — the city's eco-architecture pioneers, the ZED-type developments, the off-grid homesteads — not a contractor with a render."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a framework that turned on its author to a volunteer-auditor badge that became the best waitlist position in the city — and a dream that didn't die but phased into Plan 2031.",
+      "journeyFrameTitle": "CONVICTION, PHASED",
+      "roadmapTitle": "How a regenerative builder bought presence and held the purity dream",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Malhar + Plan 2031"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.1–2.6 Cr, Split Decision"
+        },
+        {
+          "icon": "Zap",
+          "label": "THE BANDWIDTH AUDIT",
+          "value": "11 Hrs/Wk × 18 Months"
+        },
+        {
+          "icon": "Leaf",
+          "label": "THE HOLD",
+          "value": "Magadi Site, Plan 2031"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-framework-on-self",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Framework, Run on Its Author",
+          "desc": "Total life-carbon including commute, deliveries, and isolation-driven flights — the edge-of-city build loses to its own math; the author appeals the verdict, twice.",
+          "icon": "Scale",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-volunteer-auditor",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Volunteer-Auditor Waitlist",
+          "desc": "GoodEarth Malhar joined as volunteer auditor in two residents' sustainability groups — genuine, and the best waitlist position in the city.",
+          "icon": "Leaf",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-net-zero-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The 'Net-Zero Villas' Render",
+          "desc": "Asks for performance data, receives a mood board; declined with thanks. Project unnamed by policy — render ≠ data.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-bandwidth-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L4: The Bandwidth Audit",
+          "desc": "11 hrs/week × 18 months of self-build decisions vs the startup's same 18 months — Path A's premium renamed 'the price of focus'.",
+          "icon": "Zap",
+          "loopText": "Purity-vs-Bandwidth Loop — Judged by His Own Spreadsheet, Twice",
+          "x": 880,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l5-malhar-resale",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L5: The Network Resale",
+          "desc": "A Malhar resale surfaces through the community network before any portal; performance bills verify — near-zero electricity months.",
+          "icon": "Home",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l6-plan-2031-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: Malhar Closed, 2031 Held",
+          "desc": "Malhar home closed; the Magadi-arc site bought at a layout launch as 'Plan 2031' — conviction, phased, with the Lucknow speech on one card.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "auditing",
+          "label": "Auditing",
+          "icon": "Scale"
+        },
+        {
+          "id": "networking",
+          "label": "Network-Building",
+          "icon": "Leaf"
+        },
+        {
+          "id": "dataverifying",
+          "label": "Data-Verifying",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "bandwidthing",
+          "label": "Bandwidth-Testing",
+          "icon": "Zap"
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "icon": "Home"
+        },
+        {
+          "id": "holding",
+          "label": "Holding 2031",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Malhar Now, Magadi Later"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "verdict-page-moment",
+          "title": "The verdict page",
+          "desc": "His own framework's verdict: the edge-build losing to its author's commute — total life-carbon including isolation-flights. He appealed twice; the spreadsheet won both times.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a spreadsheet verdict page comparing an edge-of-city build with a green-community flat, with a commute line annotated in red, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the verdict, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "utility-bills-moment",
+          "title": "The proudly shared utility bills",
+          "desc": "Two electricity bills shared by Malhar's residents — near-zero electricity months, the proof greenwashes can't fake. The best waitlist position in the city came with evidence.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of two electricity bills showing near-zero consumption, pinned beside a volunteer-auditor badge, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the meter reading, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "mood-board-moment",
+          "title": "The mood board instead of data",
+          "desc": "The 'net-zero villas' launch delivered a mood board where performance data was requested — the tell that ended the detour in two weeks.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a glossy mood board with a vertical-garden render sitting where a data sheet was requested, with a rejection stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the stamp, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "plan-2031-moment",
+          "title": "The Plan 2031 allotment",
+          "desc": "The Magadi-arc site's launch allotment labelled 'Plan 2031' — the dream phased, held at land-appreciation carry, with the one-minute Lucknow speech on a single card.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a layout-launch allotment document labelled Plan 2031 beside a handwritten note card with a Hindi sentence, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the label, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "My house should compost, harvest, and breathe. Ideally before it impresses anyone.",
+          "author": "— Ishaan"
+        },
+        {
+          "text": "A tower with a vertical garden bolted on is a billboard, not a building.",
+          "author": "— Ishaan's framework"
+        },
+        {
+          "text": "The communities that share their bills proudly are the real ones.",
+          "author": "— Ishaan's tell"
+        },
+        {
+          "text": "Conviction with a release schedule. The dream doesn't die. It just phases.",
+          "author": "— Riya, on Plan 2031"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Ishaan",
+          "avatar": "/journals/the-mud-sun-and-slab/ishaan.png",
+          "text": "Riya, I did your bandwidth audit. Self-build needs eleven hours a week for eighteen months. My startup needs… all the hours. Including some that don't exist, yaar. And my own life-carbon spreadsheet says the Malhar flat beats my dream CSEB build — I appealed the verdict twice. Lost both times."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Appealing your own spreadsheet is very on-brand, Ishaan. Here's what I'd add: buy the Magadi site at the layout launch, hold it as 'Plan 2031.' The dream doesn't die — it just phases, like any good rollout. And for Lucknow, one minute, no jargon: 'Main ek aisa ghar le raha hoon jahan bijli ka bill lagbhag zero hai, hawa saaf hai — aur ek plot bhi rakha hai, jahan aapke liye ghar banaunga. Baad mein. Pukka.' Your mother will cry, in the good way.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Leaf",
+          "title": "Green Communities Trade on Networks",
+          "description": "Resales move through community networks before portals — membership precedes listings. Joining as a volunteer auditor is both genuine and the best waitlist position in the city."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Performance Bills Before Floor Plans",
+          "description": "The test that survives the journey: ask for electricity bills before floor plans — the communities that share them proudly are the real ones; a mood board is not a spec sheet."
+        },
+        {
+          "icon": "Zap",
+          "title": "The Bandwidth Audit",
+          "description": "Self-build needs ~11 hours/week of decisions for 18 months; the startup needs the same 18 months. Path A's premium is partly a bandwidth purchase — and should be priced that way."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Thin Resale Market",
+          "description": "A CSEB home is a masterpiece with a thin resale market — banks under-lend on it, valuers shrug at it. Permanence cuts both ways; the exit is measured in years."
+        },
+        {
+          "icon": "Sun",
+          "title": "Conviction, Phased",
+          "description": "Path B survives as Plan 2031 — the site held at land-appreciation carry, the build deferred to a post-startup life. The dream doesn't die; it releases on a schedule."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-mud-sun-and-slab.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Path A's rare green communities and Path B's peri-urban arc — GoodEarth Malhar's eco-village, Sarjapur's quieter side, the Magadi arc — screened for solar orientation, water table, and the bandwidth to build.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Verified Green Home, or Site + Build"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Kengeri • Sarjapur • Magadi Arc"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "THE VERIFICATION",
+          "value": "Bills, Not Badges"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Malhar Resale + Plan 2031"
+        }
+      ],
+      "exploredAreasTitle": "The corridors they explored",
+      "exploredAreas": [
+        {
+          "title": "GoodEarth Malhar (Chosen)",
+          "description": "The 50-acre eco-village in Kengeri — 500 families, phased communities, resales rare and network-routed. Performance bills verified: near-zero electricity months.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.8856141,
+            "lng": 77.4619203
+          },
+          "imageSrc": "/journals/the-mud-sun-and-slab/malhar.png",
+          "imagegenerationprompt": "A modern architectural vector view of GoodEarth Malhar's eco-village with earth-toned homes and tree-lined avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Sarjapur's Quieter Side",
+          "description": "Path B's primary option — 30x40 plots at ₹1.1–1.3 Cr on quiet lanes away from the IT corridor's noise; the self-build's candidate before the bandwidth audit re-ranked it.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8539623,
+            "lng": 77.7786213
+          },
+          "imageSrc": "/journals/the-mud-sun-and-slab/sarjapur.png",
+          "imagegenerationprompt": "A modern architectural vector view of Sarjapur's quieter side with quiet plotted lanes and mature trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Magadi Road Arc (Plan 2031)",
+          "description": "The west arc's launching layouts — 30x40 sites screened for solar orientation and water table, bought at launch as the held dream: Plan 2031.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9755,
+            "lng": 77.5552
+          },
+          "imageSrc": "/journals/the-mud-sun-and-slab/magadi.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Magadi Road arc with launching plotted layouts and solar-orientation markers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the 'net-zero villas' launch (detour — render ≠ data) • every green-washed tower that answered a performance question with a mood board",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE GREENWASH FLOOD",
+          "value": "A Billboard, Not a Building",
+          "description": "A tower with a vertical garden bolted on is a billboard, not a building — every brochure leaf on the city's towers is a claim to be audited, not admired.",
+          "icon": "Leaf"
+        },
+        {
+          "title": "THE RENDER ≠ DATA PROBLEM",
+          "value": "Mood Boards Where Specs Belong",
+          "description": "Asking for performance data and receiving a mood board is the tell — the 'net-zero villas' launch ended in two weeks on exactly that exchange.",
+          "icon": "FileX"
+        },
+        {
+          "title": "THE WAITLIST ECONOMICS",
+          "value": "Nobody Leaves Green Communities",
+          "description": "The city's genuinely green communities have repriced like the heritage assets they functionally are — ₹16–19K/sqft with waitlists, because nobody leaves.",
+          "icon": "Hourglass"
+        },
+        {
+          "title": "THE BANDWIDTH CONSTRAINT",
+          "value": "11 Hrs/Wk × 18 Months",
+          "description": "The self-build needs eighteen months of decisions from a founder whose startup needs the same eighteen months — the honest constraint was bandwidth, not values.",
+          "icon": "Zap"
+        }
+      ],
+      "filtersFooterLabel": "He was filtering for real performance data (bills, not badges), solar orientation, water-independence engineering, e-bike distance to a metro terminus, and an architect from the earth-building lineage.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Ishaan taught me that green communities trade on networks, not portals — he joined two residents' sustainability groups as a volunteer auditor, which is both genuine and the best waitlist position in the city. His test survived the journey: ask for electricity bills before floor plans; the communities that share them proudly are the real ones. And the bandwidth audit was the decider — the self-build needs ~11 hours a week of decisions for eighteen months, and the startup needs the same eighteen months. So Path A's premium got renamed 'the price of focus,' and Path B didn't die — it phased into Plan 2031: the Magadi-arc site held at launch, the build deferred to a post-startup life. Conviction, it turns out, can be phased like any good rollout.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing two near-zero electricity bills beside a layout-launch allotment labelled Plan 2031, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The audited options — a network-routed resale in a 50-acre eco-village, a held site on the Magadi arc, and a render that failed the data test.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Verified Green Home, or Site + Build"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Malhar Resale + Plan 2031"
+        },
+        {
+          "icon": "Leaf",
+          "label": "THE DETOUR FAIL",
+          "value": "1 Mood-Board Villas Launch"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.1–2.6 Cr, Split Decision"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Leaf",
+          "title": "Performance Data, Not Badges",
+          "subtitle": "bills before floor plans"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Water Independence",
+          "subtitle": "RWH sized, recharge wells"
+        },
+        {
+          "icon": "Sun",
+          "title": "Solar Orientation",
+          "subtitle": "a roof that pays rent"
+        },
+        {
+          "icon": "Zap",
+          "title": "The Bandwidth Audit",
+          "subtitle": "11 hrs/wk × 18 months"
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Plan 2031",
+          "subtitle": "conviction, phased"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ishaan",
+          "avatar": "/journals/the-mud-sun-and-slab/ishaan.png",
+          "text": "The Malhar resale came through the group before any portal, and the bills verified it — near-zero electricity months. And the Magadi site's allotment is labelled 'Plan 2031.' The dream didn't die; it just… phased."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the file complete: the audited bills, the network position, and a site held like a seed. Malhar now, Magadi later — conviction with a release schedule. Lucknow approved, jargon retired.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-mud-sun-and-slab/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Kengeri, Sarjapur and Magadi Road arc corridors with solar-orientation and water-table overlays in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 audited options",
+      "projects": [
+        {
+          "title": "GoodEarth Malhar (Chosen)",
+          "name": "GoodEarth Malhar",
+          "price": "Resale band, ₹16–19K/sqft",
+          "possession": "Ready eco-village",
+          "psf": "50-acre, network-routed resale",
+          "location": "Kengeri",
+          "imageSrc": "/journals/the-mud-sun-and-slab/projects/1.jpg"
+        },
+        {
+          "title": "The 2031 Site (Held)",
+          "name": "Magadi Rd Arc Launch Layout",
+          "price": "30x40 sites, ₹95L–1.2 Cr",
+          "possession": "Layout launch",
+          "psf": "Solar orientation + water-table screened",
+          "location": "West arc",
+          "imageSrc": "/journals/the-mud-sun-and-slab/projects/2.jpg"
+        },
+        {
+          "title": "The Render Detour",
+          "name": "The 'Net-Zero Villas' Launch",
+          "price": "Premium band",
+          "possession": "Launch",
+          "psf": "Mood board ≠ data",
+          "location": "Periphery",
+          "imageSrc": "/journals/the-mud-sun-and-slab/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The 'Net-Zero Villas' Render",
+          "count": "1 detour — mood board in place of data"
+        },
+        {
+          "icon": "FileX",
+          "title": "The Greenwash Towers",
+          "count": "every vertical-garden billboard without bills"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Self-Build, Re-Ranked",
+          "count": "the bandwidth audit's verdict, appealed twice"
+        },
+        {
+          "icon": "Map",
+          "title": "Sarjapur's Quieter Side",
+          "count": "the edge-build losing to its author's commute"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "The split decision delivered both halves: a Malhar resale closed through the community network with performance bills verifying near-zero electricity months, and a Magadi-arc site bought at a layout launch as Plan 2031 — the dream held at land-appreciation carry, the build deferred to a post-startup life. Conviction, phased.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for regenerative buyers — performance data before floor plans, network membership before listings, the bandwidth audit, and conviction phased into Plan 2031.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Bills Before Floor Plans"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Verified Performance"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Net-Zero Render Detour"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Plan 2031 — Phased Conviction"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The framework, run on himself, was the first honest reckoning.",
+          "description": "Total life-carbon including commute, deliveries, and isolation-driven flights scored the green-community flat above the edge-of-city build — the author appealed the verdict twice before accepting it.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a life-carbon spreadsheet with a commute line and a red verdict annotation, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Green-community resales move through networks before portals.",
+          "description": "He joined two residents' sustainability groups as a volunteer auditor — genuine, and the best waitlist position in the city. Membership preceded the listing.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a volunteer-auditor badge beside two sustainability-group membership cards and a near-zero electricity bill, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The bandwidth audit was the decider.",
+          "description": "Self-build needs ~11 hours/week of decisions for 18 months; the startup needs the same 18 months. Path A's premium got renamed 'the price of focus' and stopped hurting.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a bandwidth audit sheet showing 11 hours a week drawn against a Series A calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Conviction can be phased — Plan 2031.",
+          "description": "The Magadi-arc site bought at a layout launch holds the dream at land-appreciation carry, the build deferred to a post-startup life. And the one-minute Lucknow version, in Hindi, won the parents over: jargon was the obstacle all along.",
+          "imageSrc": "/journals/the-mud-sun-and-slab/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a launch allotment labelled Plan 2031 beside a one-card Hindi note to parents, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The brochure's green credentials are a data point"
+        },
+        {
+          "icon": "Leaf",
+          "text": "A self-built CSEB home is the purest possible choice, full stop"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The best property is the one with the best render"
+        },
+        {
+          "icon": "Hourglass",
+          "text": "Bandwidth is a lifestyle constraint, not a purchase constraint"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileCheck2",
+          "text": "Electricity bills before floor plans — data, not badges"
+        },
+        {
+          "icon": "Scale",
+          "text": "Life-carbon including the commute decides; the framework judged its author"
+        },
+        {
+          "icon": "Zap",
+          "text": "The bandwidth audit prices focus — Path A's premium renamed honestly"
+        },
+        {
+          "icon": "Sun",
+          "text": "Conviction phased: Malhar now, Magadi as Plan 2031"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Scale",
+          "title": "Run the framework on yourself first",
+          "description": "The verdict page appeared at month one — had the life-carbon audit run pre-search, the self-build romance would have been priced from the very first site visit."
+        },
+        {
+          "icon": "Zap",
+          "title": "Audit the bandwidth before the site",
+          "description": "The 11-hours-a-week × 18-months truth emerged at month four — the site purchase would have been cleaner if the bandwidth constraint had been written into the needs card."
+        },
+        {
+          "icon": "FileX",
+          "title": "Ask for the bills at the first hello",
+          "description": "The 'net-zero villas' detour lasted two weeks — one performance-data question at the first meeting would have ended it in one."
+        },
+        {
+          "icon": "Leaf",
+          "title": "Write the community membership into the plan",
+          "description": "The volunteer-auditor role was a discovery, not a plan — joining two groups as a genuine contributor should have been month one, not month two."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ishaan",
+          "avatar": "/journals/the-mud-sun-and-slab/ishaan.png",
+          "text": "The Malhar bills are pinned on the wall like art — near-zero electricity months. And the Magadi allotment says 'Plan 2031.' The house I live in and the house I'll build. Both real, both mine."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the whole method, Ishaan: the audited bills, the network position, and a site held like a seed. Performance data displayed like art — the gallery aesthetic of a zero bill. Lucknow approved, and so did the spreadsheet you appealed twice.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for regenerative buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Ishaan auditing electricity bills, joining the Malhar sustainability group as a volunteer auditor, receiving a mood board in place of data, and holding the Plan 2031 allotment, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For regenerative buyers, the arithmetic is the advocacy: ask for electricity bills before floor plans — the communities that share them proudly are the real ones. Join green communities as a contributor before you need them as a buyer; membership precedes listings. Run the bandwidth audit honestly — the self-build's 11 hours a week for eighteen months is a decision cost, and paying a premium to skip it is not a compromise, it's procurement. And when the pure path doesn't fit your current life, phase it: hold the site, defer the build, give conviction a release schedule. The most persuasive sustainability looks like an ordinary, beautiful, very comfortable house — and only reveals its bills later.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The framework, run on himself honestly, scored the flat above the edge-build",
+          "body": "Total life-carbon including commute, deliveries, and isolation-driven travel — the author appealed the verdict twice before accepting it.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Green-community resales move through networks before portals",
+          "body": "He joined two residents' sustainability groups as a volunteer auditor — genuine, and the best waitlist position in the city.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The render test ended the detour in two weeks",
+          "body": "Asking for performance data and receiving a mood board is the tell — the 'net-zero villas' launch declined itself.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The bandwidth audit renamed Path A's premium 'the price of focus'",
+          "body": "11 hours/week × 18 months of decisions vs the startup's same 18 months — the premium stopped hurting once it was priced honestly.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Plan 2031: conviction, phased",
+          "body": "The Magadi-arc site bought at launch holds the dream at land-appreciation carry; the one-minute Lucknow version, in Hindi, won the parents over — jargon was the obstacle all along.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If quantified sustainability is your conviction, let Riya build your regenerative roadmap — the performance-data audit, the green-community network, and the bandwidth check before any site.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your sustainability thresholds — the bills you'd want to see, the corridors you can accept, the bandwidth you actually have for a build.",
+          "imageSrc": "/journals/36/1.png",
+          "imagegenerationprompt": "A person entering sustainability thresholds into a smartphone app with a leaf and solar-panel icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya audits performance claims against real utility data, maps the green-community networks, and runs the bandwidth audit before any site talk.",
+          "imageSrc": "/journals/36/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing near-zero electricity bills beside a sustainability-group membership plan and a bandwidth audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Mud, Sun & Slab journal — performance-data checklist, network-entry plan, and a phased conviction roadmap — is generated.",
+          "imageSrc": "/journals/36/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a performance-data checklist and a phased conviction roadmap, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the verified green-community shortlist and the hold-the-dream site options, each with its data and its bandwidth price.",
+          "imageSrc": "/journals/36/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing green-community shortlist options with utility-bill and solar-orientation badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Performance-Data Audit",
+          "description": "Electricity bills before floor plans — how to verify green claims with utility data, and why the communities that share proudly are the real ones.",
+          "icon": "Leaf"
+        },
+        {
+          "id": 2,
+          "title": "The Green-Community Network",
+          "description": "Membership precedes listings — how to enter the sustainability groups as a genuine contributor and become the best waitlist position in the city.",
+          "icon": "HeartHandshake"
+        },
+        {
+          "id": 3,
+          "title": "The Bandwidth & Phasing Toolkit",
+          "description": "The 11-hours-a-week × 18-months audit, and how to hold the pure path as a phased plan — conviction with a release schedule.",
+          "icon": "Zap"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your environmental convictions are quantified, audited, and personally binding.",
+        "You ask for electricity bills before floor plans, and the communities that share them proudly are your tell.",
+        "You're torn between buying the rare proven thing and building the pure thing.",
+        "Your actual bandwidth — not your values — is the binding constraint, and admitting it took a while.",
+        "The peri-urban purity option quietly prices in an isolation you preach against.",
+        "You want the house to persuade people, and you suspect comfort persuades better than argument."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-framework-on-self",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Framework, Run on Its Author",
+      "desc": "Total life-carbon including commute, deliveries, and isolation-driven flights — the edge-of-city build loses to its own math; the author appeals the verdict, twice.",
+      "icon": "Scale",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-volunteer-auditor",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Volunteer-Auditor Waitlist",
+      "desc": "GoodEarth Malhar joined as volunteer auditor in two residents' sustainability groups — genuine, and the best waitlist position in the city.",
+      "icon": "Leaf",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-net-zero-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The 'Net-Zero Villas' Render",
+      "desc": "Asks for performance data, receives a mood board; declined with thanks. Project unnamed by policy — render ≠ data.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-bandwidth-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L4: The Bandwidth Audit",
+      "desc": "11 hrs/week × 18 months of self-build decisions vs the startup's same 18 months — Path A's premium renamed 'the price of focus'.",
+      "icon": "Zap",
+      "loopText": "Purity-vs-Bandwidth Loop — Judged by His Own Spreadsheet, Twice",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l5-malhar-resale",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L5: The Network Resale",
+      "desc": "A Malhar resale surfaces through the community network before any portal; performance bills verify — near-zero electricity months.",
+      "icon": "Home",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l6-plan-2031-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: Malhar Closed, 2031 Held",
+      "desc": "Malhar home closed; the Magadi-arc site bought at a layout launch as 'Plan 2031' — conviction, phased, with the Lucknow speech on one card.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

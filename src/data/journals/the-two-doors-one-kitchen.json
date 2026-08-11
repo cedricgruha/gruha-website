@@ -1,0 +1,954 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "JOINT-FAMILY COMBINERS",
+      "FRAZER TOWN • BENSON TOWN"
+    ],
+    "title": "The Two Doors, One Kitchen Journal",
+    "description": "The Jhunjhunwala family's three-generation hunt — two adjacent 3BHKs in Frazer Town–Benson Town, a builder-executed combination, a deed summit over right-of-first-refusal, and one dinner table that seats sixty.",
+    "quote": "\"Buy two flats. Break one wall. Keep one kitchen. That's the whole architecture.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "DoorOpen",
+        "text": "Jodi-pair availability is a launch-week phenomenon — adjacency exists only before the first sales weekend, so the channels are relationship managers, not portals"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "Builder-executed combination beats buy-two-break-later — the only version that survives BBMP legality, loan structure, and the CA's blessing"
+      },
+      {
+        "icon": "Scale",
+        "text": "Defined shares with right-of-first-refusal — partition-proofing nobody wants and everybody needs; hated discussing, sleeping better since"
+      }
+    ],
+    "heroImage": "/journals/cover/25.jpg",
+    "heroTitle": "The Two Doors, One Kitchen Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know the Jhunjhunwala family — Kishorebhai (68, the patriarch who built the textile-trading business from a Chickpet gaddi), sons Manish (43) and Nitin (39), their wives Ritu and Payal, four grandchildren, and one non-negotiable: the family eats dinner together.",
+      "buyers": [
+        {
+          "name": "Kishorebhai Jhunjhunwala",
+          "age": 68,
+          "role": "Patriarch, Textile-Trading Business",
+          "description": "Built the business from a Chickpet gaddi; his room must sit where the grandchildren pass daily, and the Diwali table seats sixty — it will NOT be split across two floors. The deed summit paper felt like an insult until he remembered the eleven-year Jodhpur haveli fight.",
+          "tags": [
+            "Dinner-Table Non-Negotiable",
+            "Card-Party Networker",
+            "Sixty-Seat Host"
+          ],
+          "image": "/journals/the-two-doors-one-kitchen/kishorebhai.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 68-year-old Indian patriarch named Kishorebhai wearing a simple kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, dignified commanding expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Manish Jhunjhunwala",
+          "age": 43,
+          "role": "Co-Owner, Textile Wholesale + Online B2B",
+          "description": "Runs the business with brother Nitin; the diplomat who scheduled the deed summit with the CA and without lunch. His line to his father: 'that's what we were thinking, Papa.'",
+          "tags": [
+            "Summit Scheduler",
+            "Family Diplomat",
+            "First-Refusal Believer"
+          ],
+          "image": "/journals/the-two-doors-one-kitchen/manish.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 43-year-old Indian man named Manish wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm diplomatic expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Ritu Jhunjhunwala",
+          "age": 38,
+          "role": "Co-Lead, Online B2B Arm",
+          "description": "Co-proposed the kitchen resolution with Payal: one main kitchen with staff, one breakfast kitchen upstairs — symbol preserved, careers preserved. The family's modernity and its kitchen renegotiated each other, architecturally.",
+          "tags": [
+            "Kitchen Negotiator",
+            "Career-Buffer Architect",
+            "Breakfast-Kitchen Proposer"
+          ],
+          "image": "/journals/the-two-doors-one-kitchen/ritu.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old Indian woman named Ritu wearing a smart kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm capable expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy two adjacent 3BHKs (or a combinable 4+3) at a Frazer Town–Benson Town launch — combined at the living areas under a builder-executed, sanctioned plan, with the kitchen unified, Kishorebhai's room where the grandchildren pass daily, and a dinner table that seats sixty on Diwali.",
+      "sharedVisionImage": "/journals/the-two-doors-one-kitchen/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a cutaway of two apartment units merged into one glowing home — a long dinner table at the center crowded with three generations, one large kitchen with two women orchestrating, a patriarch's armchair positioned where children run past, marigold garlands on the doorframe, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the dinner table, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Three-Generation Joint Family"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Jodhpur Heritage, Bengaluru Present"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "18 Months — Aligned to a Launch"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-two-doors-one-kitchen/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of two adjacent floor plans with a shared lintel and a sanctioned combination arrow, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the shared lintel, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Same-Floor Adjacency, Builder-Sanctioned",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Adjacent on the same floor with a builder-executed, sanctioned-plan combination — the only version that survives BBMP legality, loan structure, and the CA."
+        },
+        {
+          "image": "/journals/the-two-doors-one-kitchen/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a lift lobby and a parking row with three car bays and a van bay marked, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the van bay, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Lift Access + Parking ×3 + Van",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Kishorebhai's knees and the family's festival logistics — three car bays plus the van bay are infrastructure, not conveniences."
+        },
+        {
+          "image": "/journals/the-two-doors-one-kitchen/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a long dinner table set for sixty with marigold garlands in a festival-lit hall, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the garlands, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Festival-Tolerant Culture + The Dinner Table",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Diwali seats sixty and the table is NOT split across two floors — the festival calendar is a floor-plan requirement, and the dinner table is the load-bearing wall."
+        },
+        {
+          "image": "/journals/the-two-doors-one-kitchen/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a kitchen plan marked 'main' downstairs and 'breakfast' upstairs with a staff note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the labels, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "One Main Kitchen + Breakfast Kitchen",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The unified kitchen symbolizes unity but runs on a labor model the family's own modernity is dissolving — Ritu and Payal's resolution: main kitchen with staff, breakfast kitchen upstairs."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a two-year clock started by the landlord's NRI grandchildren, to jodi-flat education, a deed summit over right-of-first-refusal, a lost Benson Town pair, and a double-door close.",
+      "journeyFrameTitle": "TWO DOORS, ONE LINTEL",
+      "roadmapTitle": "How a joint family secured the jodi pair — and the paper nobody wanted",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — 3+3BHK Jodi Pair"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹7.5–8.5 Cr Combined"
+        },
+        {
+          "icon": "DoorOpen",
+          "label": "THE STRATEGY",
+          "value": "Launch-Window Adjacency"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE HARDEST DOCUMENT",
+          "value": "Right-of-First-Refusal, Signed"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-two-year-clock",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Two-Year Clock",
+          "desc": "The landlord's NRI grandchildren inherit; thirty years of bungalow-portion life gets a two-year clock — the hunt is no longer optional.",
+          "icon": "Home",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-jodi-education",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Jodi-Flat Education",
+          "desc": "Builder-executed combination vs buy-two-break-later — only the former survives the CA: BBMP legality, loan structure, and resale all differ enormously.",
+          "icon": "DoorOpen",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-launch-calendars-loop",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L3: The Launch-Calendar Network",
+          "desc": "Three relationship managers' launch calendars merged by hand over card-table chai — a network Kishorebhai built across two card parties.",
+          "icon": "Calendar",
+          "loopText": "Launch-Calendar Loop — Card-Party Network, Not Portals",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-deed-summit",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L4: The Deed Summit",
+          "desc": "Defined shares with right-of-first-refusal between brothers — the paper nobody wanted and everybody needs. Hated discussing; sleeping better since.",
+          "icon": "Scale",
+          "loopText": "The Unsaid Structure Talk — 3 Weeks, CA-Mediated",
+          "x": 760,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l5-benson-town-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l3-launch-calendars-loop",
+          "title": "L5 BOUNCE: The Lost Benson Town Pair",
+          "desc": "A boutique launch's adjacent pair goes to a faster family — grief brief, the network doubled, the launch-window lesson priced in.",
+          "icon": "Undo2",
+          "loopText": "2-Week Lost-Pair Bounce — Network Doubled",
+          "x": 620,
+          "y": 420,
+          "width": 200
+        },
+        {
+          "id": "l6-double-door-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Double-Door Close",
+          "desc": "Adjacent 3+3BHK pair secured at a Frazer Town-belt boutique launch; one main kitchen with staff, one breakfast kitchen upstairs — governance as architecture.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "educating",
+          "label": "Educating",
+          "icon": "DoorOpen"
+        },
+        {
+          "id": "networking",
+          "label": "Networking",
+          "icon": "Calendar"
+        },
+        {
+          "id": "structuring",
+          "label": "Structuring",
+          "icon": "Scale"
+        },
+        {
+          "id": "securing",
+          "label": "Securing",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "One Lintel, One Kitchen"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "nri-email-moment",
+          "title": "The NRI grandchildren's email",
+          "desc": "The landlord's NRI grandchildren's email and a two-year clock started — thirty years of bungalow-portion life, rendered in one polite paragraph.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a landlord's email printout beside a wall calendar with a two-year mark, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the calendar mark, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "jodi-education-moment",
+          "title": "The jodi-education sheet",
+          "desc": "Builder-combined vs break-later — the CA's tick on one side settled the structure: sanctioned plan, single deed logic, loan and resale that survive.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an education sheet comparing builder-executed combination with buy-two-break-later and a CA's tick beside one column, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tick, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "merged-calendars-moment",
+          "title": "The merged launch calendars",
+          "desc": "Three relationship managers' launch calendars merged by hand over card-table chai — the family's channel was the network Kishorebhai built across two card parties.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of three launch calendars merged by hand onto one sheet with chai glasses beside them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the merged dates, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "deed-summit-moment",
+          "title": "The deed summit's one-page outcome",
+          "desc": "Defined shares with right-of-first-refusal — one austere legal page at the center of the festive planning, hated discussing and slept-better-for.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a one-page deed-summit outcome with defined shares and right-of-first-refusal clauses, placed at the center of a festive planning table, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the legal page, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "toran-moment",
+          "title": "One toran spanning two doorframes",
+          "desc": "A toran spanning two doorframes; a kitchen plan marked 'main + breakfast' — the double-door close, governance as architecture, Diwali's table intact.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a marigold toran spanning two adjacent doorframes with a kitchen floor plan marked 'main + breakfast' below, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the toran, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Buy two flats. Break one wall. Keep one kitchen. That's the whole architecture.",
+          "author": "— The family's founding line"
+        },
+        {
+          "text": "Separate bedrooms are modernity; separate kitchens are divorce.",
+          "author": "— The family's official position"
+        },
+        {
+          "text": "That's not planning the separation. That's making the separation impossible to profit from.",
+          "author": "— Riya, on the right-of-first-refusal paper"
+        },
+        {
+          "text": "Same floor, adjoining, builder-executed combination — sanctioned plan and all, ji. The dinner table survives.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Kishorebhai",
+          "avatar": "/journals/the-two-doors-one-kitchen/kishorebhai.png",
+          "text": "Riya beta, yesterday the CA made my sons sign a paper that plans for the family… separating. In MY time, such a paper would be an insult. Ghar ka apmaan."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Kishorebhai-ji, what I saw in that paper was two brothers who agreed, in writing, to give each other first refusal — so that if life ever pulls them apart, the home stays in the family. That's not planning the separation. That's making the separation impossible to profit from.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "DoorOpen",
+          "title": "Launch-Window Only",
+          "description": "Jodi-pair availability is a launch-week phenomenon — builders hold adjacent pairs only until the first sales push. The family's channels are relationship managers and card-party networks, not portals."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Builder-Executed Combination",
+          "description": "One sale-deed structure with a sanctioned plan modification versus buy-two-and-break-later — BBMP legality, loan structure, and resale differ enormously; only the former got the CA's blessing."
+        },
+        {
+          "icon": "Scale",
+          "title": "The Deed Structure",
+          "description": "Whose names, what shares, how it survives growth and the unspeakable — Kishorebhai wants one name on everything; the CA, diplomatically, disagrees."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Bespoke-Asset Liquidity",
+          "description": "A 3,800 sqft jodi-unit has a buyer pool of approximately other joint families — comparable units took 12–20 months to sell, and the CA recorded the liquidity risk in writing."
+        },
+        {
+          "icon": "UtensilsCrossed",
+          "title": "The Kitchen's Labor Model",
+          "description": "The unified kitchen symbolizes unity but runs on a labor model the family's modernity is dissolving — the resolution: one main kitchen with staff, one breakfast kitchen upstairs."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-two-doors-one-kitchen.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Mapped across the Frazer Town–Benson Town–Cooke Town triangle — land assembly is slow, launches are rare and instantly contested, and jodi pairs exist only at launch.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Adjacent 3+3BHK Jodi"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Frazer Town • Benson Town • Cooke Town"
+        },
+        {
+          "icon": "Calendar",
+          "label": "THE CHANNEL",
+          "value": "Launch Calendars, Merged"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "3+3BHK, One Lintel"
+        }
+      ],
+      "exploredAreasTitle": "The Cantonment triangle they explored",
+      "exploredAreas": [
+        {
+          "title": "Frazer Town (Chosen)",
+          "description": "The family's thirty-year home ground — new launches at ₹18–24K/sqft when they appear at all, and the belt where the 3+3 pair finally secured.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9959008,
+            "lng": 77.6028211
+          },
+          "imageSrc": "/journals/the-two-doors-one-kitchen/frazer-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Frazer Town's heritage streets with boutique apartment buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Benson Town",
+          "description": "The western edge of the triangle — the boutique launch whose adjacent pair was lost to a faster family, and where the network doubled afterwards.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0020707,
+            "lng": 77.593811
+          },
+          "imageSrc": "/journals/the-two-doors-one-kitchen/benson-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Benson Town's bungalow-lined streets with boutique launches, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Cooke Town Triangle",
+          "description": "The triangle's third vertex — school-adjacent and caterer-adjacent, watched for the rare launch that makes adjacency possible at all.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0036813,
+            "lng": 77.6189895
+          },
+          "imageSrc": "/journals/the-two-doors-one-kitchen/cooke-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Cooke Town triangle's heritage residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Richards Town (under protest) • the Cox Town investment flat (sold, funding the hunt) • every resale with no adjacency",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE TWO-YEAR CLOCK",
+          "value": "NRI Grandchildren Inherited",
+          "description": "Thirty years of bungalow-portion life got a two-year clock — the arrangement that made sense with a family-friend landlord stopped making sense when his NRI grandchildren inherited.",
+          "icon": "Home"
+        },
+        {
+          "title": "SCARCITY PRICING",
+          "value": "₹18–24K/sqft, Rarely Available",
+          "description": "Land assembly in the triangle is slow, so launches are rare and instantly contested — the 3,800 sqft combined spec costs ₹7.5–8.5 Cr before the combination works.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "ADJACENCY, LAUNCH-WEEK ONLY",
+          "value": "Jodi Pairs Don't Exist in Resale",
+          "description": "Builders hold adjacent pairs only until the first sales push — the family's entire channel strategy rebuilt around relationship managers and card-party networks.",
+          "icon": "DoorOpen"
+        },
+        {
+          "title": "THE UNSAID STRUCTURE TALK",
+          "value": "Years, Compressed to 3 Weeks",
+          "description": "Whose names, what shares, what survives a partition — the conversation everyone scheduled around, broken by the CA-mediated summit.",
+          "icon": "Scale"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for same-floor adjacency with builder-sanctioned combination, lift access, three parking bays plus a van, festival-tolerant culture, and the dinner table that seats sixty.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Joint-family buying is launch-window buying — adjacency exists only before the first sales weekend, and the Jhunjhunwalas built their channel accordingly: three relationship managers' calendars merged by hand over card-table chai, a network the patriarch built across two card parties. Their hardest document was never the builder's — it was their own: defined shares with right-of-first-refusal, partition-proofing nobody wanted and everybody needs. Kishorebhai called it ghar ka apmaan until he remembered the eleven-year Jodhpur haveli fight. And the kitchen resolution — one main kitchen with staff, one breakfast kitchen upstairs — was governance, expressed as architecture. The dinner table was always the load-bearing wall.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing merged launch calendars beside a one-page deed outcome, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The cast is a micro-market — small-count boutique launches in the triangle stay unnamed for privacy, and the pattern is the purchase: adjacency, sanctioned combination, and the launch-week window.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Adjacent 3+3BHK Jodi"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Frazer-Town 3+3 Pair"
+        },
+        {
+          "icon": "Undo2",
+          "label": "THE LOST PAIR",
+          "value": "1 Benson Town Launch"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹7.5–8.5 Cr Combined"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "DoorOpen",
+          "title": "Same-Floor Adjacency",
+          "subtitle": "builder-sanctioned combination"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Sanctioned Plan Treatment",
+          "subtitle": "the CA's blessing"
+        },
+        {
+          "icon": "Scale",
+          "title": "Deed Structure + ROFR",
+          "subtitle": "defined shares, hated & needed"
+        },
+        {
+          "icon": "UtensilsCrossed",
+          "title": "One Kitchen, Two Scales",
+          "subtitle": "main + breakfast"
+        },
+        {
+          "icon": "Users",
+          "title": "The Sixty-Seat Table",
+          "subtitle": "festival floor-plan test"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Kishorebhai",
+          "avatar": "/journals/the-two-doors-one-kitchen/kishorebhai.png",
+          "text": "Theek hai, theek hai. The paper stays. But the launch pair in Frazer Town — same floor, wall-to-wall. Pakka? My Diwali table seats sixty, and it will NOT be split across two floors."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Same floor, adjoining, builder-executed combination — sanctioned plan and all, ji. The dinner table survives. That was always the real requirement in the file.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-two-doors-one-kitchen/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Frazer Town, Benson Town and Cooke Town triangle with adjacency rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "Boutique micro-market",
+      "projects": [
+        {
+          "title": "The Chosen Jodi Pair",
+          "name": "Frazer Town-Belt Boutique Launch",
+          "price": "₹7.5–8.5 Cr Combined",
+          "possession": "Launch-window secured",
+          "psf": "₹18–24K/sqft corridor",
+          "location": "Frazer Town belt",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/projects/1.jpg"
+        },
+        {
+          "title": "The Lost Benson Town Pair",
+          "name": "Benson Town Boutique Launch",
+          "price": "Adjacent pair, lost",
+          "possession": "Gone to a faster family",
+          "psf": "Same corridor band",
+          "location": "Benson Town",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/projects/2.jpg"
+        },
+        {
+          "title": "The Funding Side",
+          "name": "Cox Town Investment Flat (Sold)",
+          "price": "₹4 Cr Reserve + Sale",
+          "possession": "Closed",
+          "psf": "Long-held, exited",
+          "location": "Cox Town",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Undo2",
+          "title": "Lost to a Faster Family",
+          "count": "1 Benson Town adjacent pair"
+        },
+        {
+          "icon": "Home",
+          "title": "The Two-Year Rental Clock",
+          "count": "bungalow-portion, now timeboxed"
+        },
+        {
+          "icon": "FileX",
+          "title": "Buy-Two-Break-Later Structure",
+          "count": "CA vetoed on legality and loan"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Bespoke-Asset Thinness",
+          "count": "12–20 month resale reality, recorded"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the adjacent 3+3BHK pair at a Frazer Town-belt boutique launch delivered the same-floor, builder-executed combination with sanctioned plan treatment — the kitchen unified as main-plus-breakfast, the sixty-seat Diwali table intact, and the deed structured with defined shares and right-of-first-refusal. The dinner table was always the load-bearing wall; the architecture finally matches it.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for joint-family buyers — launch-window adjacency, the sanctioned combination, the deed summit, and governance expressed as architecture.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Adjacency Is Launch-Week"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Dinner Table"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Lost Benson Town Pair"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Right-of-First-Refusal Paper"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Jodi-flat availability is a launch-week phenomenon.",
+          "description": "Builders hold adjacent pairs only until the first sales push — the family now gets launch calendars from three developers' relationship managers, a network built over two card parties.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of three merged launch calendars with a launch-week window highlighted beside chai glasses, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Builder-executed combination is the only version that survives.",
+          "description": "One sale-deed structure with a sanctioned plan modification versus buy-two-and-break-later — BBMP legality, loan structure, and resale differ enormously, and only the former got the CA's blessing.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a sanctioned-plan modification document with the CA's approval tick beside a crossed-out break-later alternative, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The deed summit — partition-proofing nobody wants and everybody needs.",
+          "description": "Defined shares with right-of-first-refusal between brothers: hated discussing, sleeping better since. The paper that makes the separation impossible to profit from.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a one-page deed outcome with defined shares and right-of-first-refusal beside a sleeping family home at night, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Governance can be architectural — one kitchen, two scales.",
+          "description": "Ritu and Payal's resolution: one main kitchen with staff, one breakfast kitchen upstairs. Symbol preserved, careers preserved, and the patriarch got his dinner table.",
+          "imageSrc": "/journals/the-two-doors-one-kitchen/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a kitchen plan marked 'main' and 'breakfast' with two women's silhouettes orchestrating and a long dinner table beyond, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "A rented bungalow-portion is a permanent arrangement"
+        },
+        {
+          "icon": "Building2",
+          "text": "Two flats bought separately can be combined later, easily"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "The deed's structure is a private family matter, settled by trust"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A bespoke 3,800 sqft jodi-unit resells like any flat"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "DoorOpen",
+          "text": "Adjacency exists only at launch — the network is the channel"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "The sanctioned, builder-executed combination is the only version"
+        },
+        {
+          "icon": "Scale",
+          "text": "Right-of-first-refusal makes the separation impossible to profit from"
+        },
+        {
+          "icon": "UtensilsCrossed",
+          "text": "One kitchen with staff, one breakfast kitchen — governance as architecture"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Calendar",
+          "title": "Merge the launch calendars in month one",
+          "description": "The network existed by month three — had the card-party channel been activated at month one, the Benson Town pair might not have been lost."
+        },
+        {
+          "icon": "Scale",
+          "title": "Hold the deed summit before the first launch",
+          "description": "The structure talk happened in month four — doing it before any launch would have let them bid with the deed already settled."
+        },
+        {
+          "icon": "UtensilsCrossed",
+          "title": "Design the kitchen resolution into the brief",
+          "description": "The main-plus-breakfast answer arrived at month five — the two-kitchen spec should have been in the needs card from the start."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Verify the combination policy before touring",
+          "description": "Asking each builder's sanctioned-combination policy on the first call would have filtered launches where jodi was never truly possible."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Manish",
+          "avatar": "/journals/the-two-doors-one-kitchen/manish.png",
+          "text": "One toran across two doors, one kitchen with two scales, and a paper that made Papa's haveli fight impossible to repeat. The dinner table seats sixty — tested last Diwali."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The architecture was always governance in disguise — the wall you broke was the one the market wouldn't sell you. Three generations, one lintel, one kitchen, one table. That's the whole journal.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for joint-family buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing the Jhunjhunwalas reading the NRI grandchildren's email, merging launch calendars over chai, signing the deed-summit page, and hanging one toran across two doors, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For joint-family buyers, the edge is treating the family's structure as the load-bearing wall: launch-window adjacency through relationship networks, builder-executed combination with sanctioned plan treatment, and the deed summit held before the first launch — defined shares with right-of-first-refusal, the paper nobody wants and everybody needs. Let the kitchen's labor model be renegotiated architecturally, and let the dinner table decide the floor plan. The Jhunjhunwalas proved two doors and one kitchen is not a compromise — it's the whole architecture.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Jodi-flat availability is a launch-week phenomenon",
+          "body": "Builders hold adjacent pairs only until the first sales push — the family now gets launch calendars from three developers' relationship managers, a network Kishorebhai built over two card parties.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Builder-executed combination versus buy-two-break-later",
+          "body": "The two versions differ enormously in BBMP legality, loan structure, and resale — the former is the only one their CA would bless, and the education sheet settled the structure.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The combined unit's resale thinness got priced — and recorded",
+          "body": "Comparable jodi units in the triangle took 12–20 months to sell. The family's answer — 'we are not building this to sell' — is true, and the CA recorded it in writing next to the liquidity risk anyway.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The deed summit happened — with the CA and without lunch",
+          "body": "Outcome: defined shares with right-of-first-refusal between brothers — partition-proofing that everyone hated discussing and everyone sleeps better for.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Ritu and Payal resolved the kitchen — one main, one breakfast",
+          "body": "Symbol preserved, careers preserved, and Kishorebhai got his dinner table. Governance, it turns out, can be architectural.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If your family's housing unit is the joint family, let Riya build your combiners' roadmap — launch-window adjacency, sanctioned combination, and the deed summit held before the first launch.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the generations under one lintel, the corridor, the combined budget, and the one non-negotiable (the dinner table, the festival, the pooja).",
+          "imageSrc": "/journals/25/1.png",
+          "imagegenerationprompt": "A family entering their joint-family requirements and corridor into a smartphone app with two door icons, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya maps launch calendars for adjacent combinable units, verifies sanctioned-combination policies, and schedules the deed summit with your CA.",
+          "imageSrc": "/journals/25/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing merged launch calendars beside a sanctioned-combination policy document, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Two Doors journal — jodi-pair tracker, combination-policy checklist, and deed-structure template — is generated.",
+          "imageSrc": "/journals/25/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a jodi-pair tracker and deed-structure template, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive launch alerts where adjacent combinable units exist, with each builder's combination policy and sanctioned-plan treatment attached.",
+          "imageSrc": "/journals/25/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing jodi-pair launch alerts with combination-policy badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Launch-Window Jodi Tracking",
+          "description": "Adjacent combinable units by builder and launch — because jodi pairs exist only before the first sales weekend.",
+          "icon": "Calendar"
+        },
+        {
+          "id": 2,
+          "title": "Structural-Combination Guides",
+          "description": "Sanctioned-plan notes, BBMP treatment, and loan structures — the only versions that survive the CA's review.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 3,
+          "title": "Partition-Proofing Frameworks",
+          "description": "HUF and family-deed structuring with right-of-first-refusal — nobody wants it, everybody needs it.",
+          "icon": "Scale"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your family's housing unit is the joint family, and the market sells to nuclear ones.",
+        "Separate bedrooms are modernity; separate kitchens are divorce — or at least that's the official position under negotiation.",
+        "You need adjacency, which means launch-stage purchases: jodi pairs don't exist in resale.",
+        "The deed structure is a harder conversation than the price.",
+        "Your festival calendar is a floor-plan requirement.",
+        "The kitchen's labor model and the family's modernity are quietly renegotiating each other."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-two-year-clock",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Two-Year Clock",
+      "desc": "The landlord's NRI grandchildren inherit; thirty years of bungalow-portion life gets a two-year clock — the hunt is no longer optional.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-jodi-education",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Jodi-Flat Education",
+      "desc": "Builder-executed combination vs buy-two-break-later — only the former survives the CA: BBMP legality, loan structure, and resale all differ enormously.",
+      "icon": "DoorOpen",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-launch-calendars-loop",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L3: The Launch-Calendar Network",
+      "desc": "Three relationship managers' launch calendars merged by hand over card-table chai — a network Kishorebhai built across two card parties.",
+      "icon": "Calendar",
+      "loopText": "Launch-Calendar Loop — Card-Party Network, Not Portals",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-deed-summit",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L4: The Deed Summit",
+      "desc": "Defined shares with right-of-first-refusal between brothers — the paper nobody wanted and everybody needs. Hated discussing; sleeping better since.",
+      "icon": "Scale",
+      "loopText": "The Unsaid Structure Talk — 3 Weeks, CA-Mediated",
+      "x": 760,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l5-benson-town-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l3-launch-calendars-loop",
+      "title": "L5 BOUNCE: The Lost Benson Town Pair",
+      "desc": "A boutique launch's adjacent pair goes to a faster family — grief brief, the network doubled, the launch-window lesson priced in.",
+      "icon": "Undo2",
+      "loopText": "2-Week Lost-Pair Bounce — Network Doubled",
+      "x": 620,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-double-door-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Double-Door Close",
+      "desc": "Adjacent 3+3BHK pair secured at a Frazer Town-belt boutique launch; one main kitchen with staff, one breakfast kitchen upstairs — governance as architecture.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

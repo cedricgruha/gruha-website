@@ -1,0 +1,937 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "INTER-CITY MOVER",
+      "WHITEFIELD • VARTHUR • BUDIGERE"
+    ],
+    "title": "The Two Cities Ledger",
+    "description": "Ravi Teja Varma's (34, engineering manager) relocation from Hyderabad's Financial District to Bengaluru's ORR — a ₹2.4 Cr budget that bought premium in Kokapet and decent in Whitefield, a Section 54 clock, and a spec-adjusted path to peace.",
+    "quote": "\"In Hyderabad this is 40% cheaper. I know. Everyone knows. Stop telling me.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Receipt",
+        "text": "Section 54 rewards under-construction primary purchases — the reinvestment timeline accommodates construction-linked payments if structured correctly"
+      },
+      {
+        "icon": "Scale",
+        "text": "Spec-adjusted comparison (UDS, parking, maintenance) narrows the '40% cheaper' headline to 28% — grief becomes accurate, which oddly helps"
+      },
+      {
+        "icon": "Calendar",
+        "text": "The premium is real and has a name: the job market that rescued his career twice — insurance has premiums"
+      }
+    ],
+    "heroImage": "/journals/cover/17.jpg",
+    "heroTitle": "The Two Cities Ledger"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Ravi Teja Varma (34, engineering manager) & Spandana (remote for a Hyderabad firm) — moving back to Bengaluru after four years in Hyderabad's Financial District, with a ₹2.4 Cr budget, a Section 54 clock, and a relocation ledger with two tabs: 'What We Gave Up' and 'Why We're Here Anyway.'",
+      "buyers": [
+        {
+          "name": "Ravi Teja Varma",
+          "age": 34,
+          "role": "Engineering Manager, ORR Product Company",
+          "description": "Four years in Hyderabad's Financial District, then relocated when his company consolidated on the ORR. His spreadsheet has a tab titled 'What We Gave Up' and every Bengaluru site visit happens with a Kokapet price-ghost in the room.",
+          "tags": [
+            "Comparison Shopper",
+            "Spreadsheet Grieving",
+            "Section 54 Aware"
+          ],
+          "image": "/journals/the-two-cities-ledger/ravi-teja.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 34-year-old Telugu professional man named Ravi Teja wearing a collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry analytical expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Spandana Varma",
+          "age": 32,
+          "role": "Remote Lead, Hyderabad Firm",
+          "description": "Works remote, so the relocation is entirely Ravi Teja's commute math — which gives her the cleanest eyes in the household. Delivered the one sentence the spreadsheet couldn't answer: 'wealth where we aren't, tenancy where we are.'",
+          "tags": [
+            "The Family Test",
+            "Remote-Anchor",
+            "Sentence-Writer"
+          ],
+          "image": "/journals/the-two-cities-ledger/spandana.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 32-year-old Telugu professional woman named Spandana wearing a simple elegant kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm assured expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Convert the Kokapet sale proceeds into a spec-honest Bengaluru home inside the Section 54 window — paying the premium for the job market it actually prices, with the relocation ledger's 'Why We're Here Anyway' tab finally growing non-financial rows: weather, Rangashankara, Cubbon at 8 am.",
+      "sharedVisionImage": "/journals/the-two-cities-ledger/shared-vision.png",
+      "imagegenerationprompt": "A split-composition architectural vector illustration of a man standing on a balanced beam between two stylized skylines — Hyderabad's Financial District towers on one side and Bengaluru's tree-lined tech corridor on the other — holding a glowing ledger, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the ledger, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Inter-City Movers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Relocated for Career"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Stuck & Re-evaluating"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Section 54: 8 Months"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-two-cities-ledger/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a calendar countdown with a Section 54 window highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the deadline, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Section 54 Reinvestment Window",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Registration-date math: 8 months to the deadline, and under-construction primary purchases with construction-linked payments are the deadline-compatible path."
+        },
+        {
+          "image": "/journals/the-two-cities-ledger/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a spec-adjust worksheet comparing UDS, parking and maintenance line by line, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the final figure, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Spec-Adjusted Value Rationality",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "UDS, parking, clubhouse load, maintenance — the headline 40% premium narrows to 28% once the specs normalize. Grief, made accurate."
+        },
+        {
+          "image": "/journals/the-two-cities-ledger/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a large 3BHK floor plan at 1,650+ sqft with a spacious living room, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the living room, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Space Standards: 1,650+ sqft",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Kokapet spoiled him — but the ledger row also remembers that space you commute 90 minutes from is just storage."
+        },
+        {
+          "image": "/journals/the-two-cities-ledger/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a price sheet annotated with a quarter-end discount, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the discount, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "An Exit From the Comparison Loop",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Quarter-end unsold-inventory discount hunting, plus a registration receipt inside the 54 window — the loop ends with a deed, not a debate."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a relocation ledger with two tabs to a spec-adjust worksheet that shrank 40% to 28%, a buy-there-rent-here model that died at dinner, and a Utopia close inside the Section 54 window.",
+      "journeyFrameTitle": "TWO CITIES, ONE DEADLINE",
+      "roadmapTitle": "How a Hyderabad comparison shopper closed inside the 54 window",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Inside 54 Window"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.9 Cr All-In (Under Cap)"
+        },
+        {
+          "icon": "Calendar",
+          "label": "THE CLOCK",
+          "value": "Section 54 — Beaten"
+        },
+        {
+          "icon": "Scale",
+          "label": "PREMIUM DECODED",
+          "value": "40% → 28% → Named"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-relocation-ledger",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Relocation Ledger",
+          "desc": "Two tabs open — 'What We Gave Up' and 'Why We're Here Anyway' — with ₹2.1 Cr of Kokapet sale proceeds as the budget and the grief itemized.",
+          "icon": "FileText",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-spec-adjust",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Spec-Adjust Worksheet",
+          "desc": "₹16,500/sqft Whitefield vs ₹9,500 Kokapet narrows to 28% once UDS, parking and maintenance normalize — grief becoming accurate, line by line.",
+          "icon": "Scale",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-buy-there-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: Buy-There, Rent-Here",
+          "desc": "The Hyderabad investment-flat model builds beautifully in Excel — and dies at dinner: 'wealth where we aren't, tenancy where we are.'",
+          "icon": "ArrowRightLeft",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-utopia-thesis",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Utopia Becomes the Thesis",
+          "desc": "Brigade Cornerstone Utopia — ready township at ₹9–11.5K/sqft, Kokapet-grade pricing inside Bengaluru's job market. The value thesis firms.",
+          "icon": "Building2",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-section54-regression",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-utopia-thesis",
+          "title": "L5 REGRESSION: The 54-Window Cut",
+          "desc": "The Section 54 clock forces schedule honesty — two under-construction candidates dropped for possession risk to the registration window.",
+          "icon": "Undo2",
+          "loopText": "S4 → S3 Regression (Schedule Honesty)",
+          "x": 620,
+          "y": 420,
+          "width": 200
+        },
+        {
+          "id": "l6-utopia-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The In-Window Close",
+          "desc": "Utopia 3BHK closed ~₹1.9 Cr all-in — under budget, spec-honest, registered inside the 54 window; the weather row finally admits Bengaluru wins.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Scale"
+        },
+        {
+          "id": "dreaming",
+          "label": "Dreaming",
+          "icon": "ArrowRightLeft"
+        },
+        {
+          "id": "shortlisting",
+          "label": "Shortlisting",
+          "icon": "Building2"
+        },
+        {
+          "id": "scheduling",
+          "label": "Scheduling",
+          "icon": "Calendar"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Inside 54 Window"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "ledger-moment",
+          "title": "The two-tab ledger",
+          "desc": "The relocation spreadsheet with its two tabs — 'What We Gave Up' and 'Why We're Here Anyway' — the entire city-change rendered as columns, with ₹2.1 Cr of sale proceeds as the bottom line.",
+          "imageSrc": "/journals/the-two-cities-ledger/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an open spreadsheet with two tabs labelled 'What We Gave Up' and 'Why We're Here Anyway', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tab names, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "spec-adjust-moment",
+          "title": "The spec-adjust worksheet, line by line",
+          "desc": "UDS, parking, maintenance, clubhouse load — the worksheet that shrank the 'Hyderabad is 40% cheaper' headline to 28%, and made the grief survivable by making it accurate.",
+          "imageSrc": "/journals/the-two-cities-ledger/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-annotated spec-adjust worksheet with UDS, parking and maintenance line items, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the final 28% figure, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "dinner-veto-moment",
+          "title": "Spandana's sentence across the model",
+          "desc": "The buy-there-rent-here model, beautiful in Excel, closed at dinner — 'wealth where we aren't, tenancy where we are' written across it in her voice.",
+          "imageSrc": "/journals/the-two-cities-ledger/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a printed financial model with one sentence scrawled across it in handwriting: 'wealth where we aren't, tenancy where we are', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the sentence, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "54-window-moment",
+          "title": "The Section 54 countdown",
+          "desc": "Two under-construction schedules crossed out against a Section 54 countdown — the tax window making the schedule honesty the heart couldn't.",
+          "imageSrc": "/journals/the-two-cities-ledger/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of two crossed-out construction schedules beside a calendar countdown with the Section 54 deadline ringed, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the countdown, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "playbill-moment",
+          "title": "The playbill in the registration folder",
+          "desc": "The registration receipt inside the 54 window — and a Rangashankara playbill sharing the folder, the ledger's weather row finally admitting Bengaluru wins.",
+          "imageSrc": "/journals/the-two-cities-ledger/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a registration receipt beside a Rangashankara theatre playbill inside a folder, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the playbill, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "In Hyderabad this is 40% cheaper. I know. Everyone knows. Stop telling me.",
+          "author": "— Ravi Teja"
+        },
+        {
+          "text": "Wealth where we aren't, tenancy where we are.",
+          "author": "— Spandana"
+        },
+        {
+          "text": "Your model wins on XIRR, Ravi. It loses on address — the place your daughter says when someone asks where she's from.",
+          "author": "— Riya"
+        },
+        {
+          "text": "The premium's real name is the job market that rescued your career twice.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Ravi Teja",
+          "avatar": "/journals/the-two-cities-ledger/ravi-teja.png",
+          "text": "Riya, asalu listen to this model, it's beautiful. Buy in Kokapet — nine-five per square foot, my home market, I KNOW those streets — rent here in Whitefield. Arbitrage, kada?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "It's a clean model. Can I add one row your spreadsheet is missing? Row forty-seven: 'Spandana's answer.' Wealth where we aren't, tenancy where we are. Your model wins on XIRR — it loses on address.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Scale",
+          "title": "Spec-Adjusted City Comparison",
+          "description": "Headline '40% cheaper' narrows to 28% once UDS, parking and maintenance normalize — still real, but grief made accurate is grief made manageable."
+        },
+        {
+          "icon": "Receipt",
+          "title": "Section 54 Mechanics",
+          "description": "The reinvestment timeline rewards under-construction primary purchases — construction-linked payments fit the window when structured correctly; his CA's one-pager beat three months of forum reading."
+        },
+        {
+          "icon": "Building2",
+          "title": "The Premium Has a Name",
+          "description": "₹7,000/sqft isn't all bubble — a fraction is the price of a deeper product-company job market that rescued his career twice. Insurance has premiums."
+        },
+        {
+          "icon": "Calendar",
+          "title": "The Deadline Decides",
+          "description": "Tax law is about to make the decision if he doesn't — Section 54's window closes on registration date, not emotional readiness."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Read Inventory Before Price",
+          "description": "Quarter-end, on a tower with 30% unsold inventory, the sheet moved 5.5% plus stamp-duty absorption — discounts live where the unsold inventory does."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-two-cities-ledger.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating under-construction and ready stock across Whitefield, Varthur, and Budigere Cross — with Section 54 schedule compatibility as the filter that outranked the price sheet.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Spec-Honest 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Whitefield • Varthur • Budigere"
+        },
+        {
+          "icon": "Calendar",
+          "label": "THE CLOCK",
+          "value": "Section 54 — 8 Months"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Utopia 3BHK"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Whitefield (Chosen Belt)",
+          "description": "The corridor where Utopia's ready township at ₹9–11.5K/sqft finally matched Kokapet-grade pricing inside Bengaluru's job market.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9659003,
+            "lng": 77.7214593
+          },
+          "imageSrc": "/journals/the-two-cities-ledger/whitefield.png",
+          "imagegenerationprompt": "A modern architectural vector view of Whitefield's tech corridor with residential townships, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Varthur",
+          "description": "Premium benchmark territory — Prestige Lakeside Habitat's 102-acre township calibrates what Whitefield charges when it's Prestige.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9446228,
+            "lng": 77.7308286
+          },
+          "imageSrc": "/journals/the-two-cities-ledger/varthur.png",
+          "imagegenerationprompt": "A modern architectural vector view of Varthur's lakeside townships, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Budigere Cross",
+          "description": "Where 1,650+ sqft exists inside the budget — the space-max option, weighed against the office's gravity at Bellandur.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 13.064069,
+            "lng": 77.7438838
+          },
+          "imageSrc": "/journals/the-two-cities-ledger/budigere.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Budigere Cross corridor with new plotted and apartment developments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the Kokapet investment-flat strategy (detour, died at dinner) • Belathur (Godrej Splendour mid-market comparator)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE PRICE GHOST",
+          "value": "₹9,500/sqft Kokapet Memory",
+          "description": "Every Bengaluru visit haunted by Hyderabad pricing — ₹16,500 here vs ₹9,500 there for comparable spec, until the spec-adjust worksheet made the grief accurate.",
+          "icon": "ArrowRightLeft"
+        },
+        {
+          "title": "THE 54-WINDOW SCRAMBLE",
+          "value": "8 Months to Registration",
+          "description": "A capital-gains deadline making the decision the heart hasn't — schedule compatibility outranked the price sheet at every candidate.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "SPACE STANDARDS GRIEF",
+          "value": "Kokapet Spoiled Him",
+          "description": "1,650+ sqft at his budget means Budigere — and Kokapet's lesson was that space you commute 90 minutes from is just storage.",
+          "icon": "Building2"
+        },
+        {
+          "title": "THE BUBBLE OSCILLATION",
+          "value": "Alternating Tuesdays",
+          "description": "Buy in Bengaluru, rent and invest, or invest back in Hyderabad where instincts feel native — the three-way loop with no spreadsheet default.",
+          "icon": "TrendingUp"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for Section 54 schedule compatibility, spec-adjusted value, and a way out of the comparison loop — with the premium renamed as career insurance.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Ravi Teja wasn't comparing flats; he was comparing lives, and the spreadsheet had no tab for that. Every visit came with a Kokapet price-ghost in the room, so we priced the ghost: UDS, parking, maintenance — the 40% headline shrank to 28%, which is still real but survivable. And when the buy-there-rent-here model looked perfect, Spandana's one sentence ended it: wealth where we aren't, tenancy where we are. The premium wasn't bubble — it was the job market that rescued his career twice. Insurance has premiums. He paid it, inside the window, and the ledger's weather row finally wrote 'Bengaluru wins.'”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a spec-adjust worksheet beside a Section 54 countdown calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing ready townships and under-construction candidates in the Whitefield–Varthur–Budigere belt — Section 54 schedule compatibility, spec-adjusted value, and unsold-inventory discount hunting.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Spec-Honest 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Utopia 3BHK"
+        },
+        {
+          "icon": "Calendar",
+          "label": "54-WINDOW RESULT",
+          "value": "Registered Inside"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹1.9 Cr All-In (Under Cap)"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Receipt",
+          "title": "Section 54 Compatibility",
+          "subtitle": "registration-date math"
+        },
+        {
+          "icon": "Scale",
+          "title": "Spec-Adjusted Value",
+          "subtitle": "UDS • parking • maintenance"
+        },
+        {
+          "icon": "Building2",
+          "title": "Ready Township",
+          "subtitle": "auditable, like an auditor"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Unsold-Inventory Discounts",
+          "subtitle": "quarter-end hunting"
+        },
+        {
+          "icon": "Calendar",
+          "title": "Kokapet-Grade Pricing",
+          "subtitle": "₹9–11.5K/sqft inside the market"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ravi Teja",
+          "avatar": "/journals/the-two-cities-ledger/ravi-teja.png",
+          "text": "So I paid Bengaluru's premium after all — just, spec-adjusted, and inside the tax window. Feels like losing the argument and winning something better."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You paid the premium's actual name — the job market that rescued your career twice. That's not losing the argument; that's finally reading the price correctly.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-two-cities-ledger/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Whitefield, Varthur and Budigere Cross belt with a Section 54 countdown annotation in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Brigade Cornerstone Utopia (Chosen)",
+          "name": "Brigade Cornerstone Utopia",
+          "price": "₹1.9 Cr All-In",
+          "possession": "Ready",
+          "psf": "₹9–11.5K/sqft resale",
+          "location": "Whitefield / Varthur Rd",
+          "imageSrc": "/journals/the-two-cities-ledger/projects/1.jpg"
+        },
+        {
+          "title": "Premium Benchmark",
+          "name": "Prestige Lakeside Habitat",
+          "price": "Premium band",
+          "possession": "Ready",
+          "psf": "The Prestige calibration",
+          "location": "Varthur",
+          "imageSrc": "/journals/the-two-cities-ledger/projects/2.jpg"
+        },
+        {
+          "title": "Mid-Market Comparator",
+          "name": "Godrej Splendour",
+          "price": "2BHK from ~₹85L all-in",
+          "possession": "Ready",
+          "psf": "Mid-market band",
+          "location": "Belathur",
+          "imageSrc": "/journals/the-two-cities-ledger/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Calendar",
+          "title": "Possession Risk to the 54 Window",
+          "count": "2 under-construction drops"
+        },
+        {
+          "icon": "ArrowRightLeft",
+          "title": "The Buy-There-Rent-Here Model",
+          "count": "1 dinner-time veto"
+        },
+        {
+          "icon": "Building2",
+          "title": "Space at the Cost of Commute",
+          "count": "Budigere's 90-minute lesson"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Premium Without the Job-Market Name",
+          "count": "every sticker-priced tower"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the ready Utopia 3BHK at ~₹1.9 Cr all-in delivered Kokapet-grade pricing inside Bengaluru's job market, spec-adjusted value on UDS/parking/maintenance, and a registration inside the Section 54 window — with the relocation ledger's weather row finally recording the honest verdict: Bengaluru wins.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for inter-city movers and comparison shoppers — spec-adjusted grief, Section 54 mechanics, and the premium renamed as career insurance.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The Premium Has a Name"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Section 54 Window"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Buy-There-Rent-Here Model"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Spec-Adjusted Grief"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Section 54 rewards under-construction primary purchases.",
+          "description": "The reinvestment timeline accommodates construction-linked payments when structured correctly — his CA's one-pager beat three months of forum reading, and schedule compatibility became the first filter.",
+          "imageSrc": "/journals/the-two-cities-ledger/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a Section 54 reinvestment timeline chart with a construction-payment schedule aligned to it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Spec-adjusted comparison makes the grief accurate.",
+          "description": "UDS, parking, clubhouse load and maintenance narrowed the 'Hyderabad is 40% cheaper' headline to 28% — still real, but grief made accurate is grief made manageable.",
+          "imageSrc": "/journals/the-two-cities-ledger/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a spec-adjust worksheet with a 40%-to-28% figure circled, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The family test beats the finance test.",
+          "description": "The buy-there-rent-here model failed not on XIRR but on address — Spandana named it: 'wealth where we aren't, tenancy where we are.' The spreadsheet had no row for that.",
+          "imageSrc": "/journals/the-two-cities-ledger/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a printed financial model with 'wealth where we aren't, tenancy where we are' written across it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Read inventory before price.",
+          "description": "Quarter-end, on a tower with 30% unsold inventory, the price sheet moved 5.5% plus stamp-duty absorption — the discounts live where the unsold inventory does.",
+          "imageSrc": "/journals/the-two-cities-ledger/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an inventory dashboard showing unsold percentages beside a discounted price sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "ArrowRightLeft",
+          "text": "Hyderabad is 40% cheaper — that's the whole analysis"
+        },
+        {
+          "icon": "FileText",
+          "text": "The best model is the one that maximises XIRR"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A bubble stays a bubble until it pops"
+        },
+        {
+          "icon": "Building2",
+          "text": "Square footage is the same in any city"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Scale",
+          "text": "Spec-adjusted, the premium is 28%, and it has a name: the job market"
+        },
+        {
+          "icon": "Heart",
+          "text": "The family test outranks the finance test"
+        },
+        {
+          "icon": "Calendar",
+          "text": "Section 54 decides on registration date, not feelings"
+        },
+        {
+          "icon": "Home",
+          "text": "Space you commute 90 minutes from is just storage"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Scale",
+          "title": "Run the spec-adjust in month one",
+          "description": "Four weeks of 40%-premium grief could have been four weeks of accurate 28% grief — the worksheet should have preceded the site visits."
+        },
+        {
+          "icon": "Receipt",
+          "title": "Call the CA before the forums",
+          "description": "His CA's Section 54 one-pager beat three months of forum reading — the professional shortcut should have come first."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Map possession schedules to the window first",
+          "description": "Two under-construction candidates died on schedule honesty — filtering for window compatibility before falling for the projects would have saved a regression."
+        },
+        {
+          "icon": "Sun",
+          "title": "Let Bengaluru win earlier",
+          "description": "The weekend of Cubbon, Rangashankara and the weather did more for the decision than a month of price math — the non-financial ledger row should have been written first."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ravi Teja",
+          "avatar": "/journals/the-two-cities-ledger/ravi-teja.png",
+          "text": "We sold in Hyderabad, grieved in Whitefield, and closed in Utopia — inside the tax window, under budget. The spreadsheet finally has a weather row."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The ledger always had two tabs. Now they finally balance — what you gave up, and why you're here anyway. The weather row was the closing entry.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for inter-city movers and comparison shoppers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Ravi Teja opening the two-tab ledger, shrinking the premium with the spec-adjust worksheet, receiving Spandana's sentence at dinner, and registering Utopia inside the 54 window, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For inter-city movers, the grief is itemized before the decision — and that's an asset. Run the spec-adjusted comparison early so the pain is accurate, let the CA decode the Section 54 window before the forums do, and rename the city premium honestly: the deeper job market is career insurance with a premium, not a bubble to out-wait. Ravi Teja and Spandana proved that when the premium has a name, the comparison loop ends — and the deed gets registered inside the window.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Section 54 mechanics reward under-construction primary purchases",
+          "body": "The reinvestment timeline accommodates construction-linked payments if structured correctly — his CA's one-pager beat three months of forum reading on the deadline math.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Spec-adjusted comparison narrowed the 40% headline to 28%",
+          "body": "UDS, parking, clubhouse load, maintenance — the grief became more accurate, which oddly helped. Still real, but survivable.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The buy-there-rent-here model failed the family test, not the finance test",
+          "body": "Spandana named it — 'wealth where we aren't, tenancy where we are' — and the spreadsheet couldn't answer her. The detour died at dinner.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Quarter-end discounts live where the unsold inventory does",
+          "body": "On a tower with 30% unsold inventory, the price sheet moved 5.5% plus stamp-duty absorption — he now reads inventory before price.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "He let himself like Bengaluru — and the decision got easier the same week",
+          "body": "Cubbon at 8 am, a Rangashankara play, the weather doing its thing. The 'Why We're Here Anyway' tab got its first non-financial entry, and the flat followed.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you moved cities for work and your budget moved down a class, let Riya build your two-city reconciliation — Section 54 timeline, spec-adjusted comparison, and an exit from the price-ghost loop.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the city you left, the budget it bought there, your relocation date, and the Section 54 clock if one is running.",
+          "imageSrc": "/journals/17/1.png",
+          "imagegenerationprompt": "A professional man entering his old-city budget and new-city corridor into a smartphone app with two city pins, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the spec-adjusted comparison — UDS, parking, maintenance — and maps the Section 54 window against each project's schedule.",
+          "imageSrc": "/journals/17/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing a spec-adjust worksheet beside a Section 54 timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Two Cities Ledger — price-ghost decoder, window-compatible project map, and the family-test row — is generated.",
+          "imageSrc": "/journals/17/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a two-city comparison and Section 54 countdown, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive window-compatible under-construction options with current quarter discounts and unsold-inventory levels attached.",
+          "imageSrc": "/journals/17/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing Section 54-window-compatible project suggestions with discount badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Section 54 Window Mapping",
+          "description": "Registration-date math matched to each project's payment and possession schedule — the deadline decided, not the feelings.",
+          "icon": "Receipt"
+        },
+        {
+          "id": 2,
+          "title": "Spec-Adjusted City Comparison",
+          "description": "UDS, parking, maintenance, clubhouse load — the grief made accurate, the premium renamed as career insurance.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "Unsold-Inventory Discount Hunting",
+          "description": "Quarter-end sheets and inventory levels read before price, so the discounts find you instead of the other way around.",
+          "icon": "TrendingUp"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You moved cities for work and your budget moved down a class — the grief is itemized.",
+        "Every site visit happens with another city's price ghost in the room.",
+        "A capital-gains reinvestment deadline is making the decision your heart hasn't.",
+        "You're tempted to invest back where your instincts feel native and rent where you live.",
+        "You know the premium partly prices career optionality, and naming that helps on alternating Tuesdays.",
+        "Someone in your household needs the new city to feel like home, not like a posting."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-relocation-ledger",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Relocation Ledger",
+      "desc": "Two tabs open — 'What We Gave Up' and 'Why We're Here Anyway' — with ₹2.1 Cr of Kokapet sale proceeds as the budget and the grief itemized.",
+      "icon": "FileText",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-spec-adjust",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Spec-Adjust Worksheet",
+      "desc": "₹16,500/sqft Whitefield vs ₹9,500 Kokapet narrows to 28% once UDS, parking and maintenance normalize — grief becoming accurate, line by line.",
+      "icon": "Scale",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-buy-there-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: Buy-There, Rent-Here",
+      "desc": "The Hyderabad investment-flat model builds beautifully in Excel — and dies at dinner: 'wealth where we aren't, tenancy where we are.'",
+      "icon": "ArrowRightLeft",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-utopia-thesis",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Utopia Becomes the Thesis",
+      "desc": "Brigade Cornerstone Utopia — ready township at ₹9–11.5K/sqft, Kokapet-grade pricing inside Bengaluru's job market. The value thesis firms.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-section54-regression",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-utopia-thesis",
+      "title": "L5 REGRESSION: The 54-Window Cut",
+      "desc": "The Section 54 clock forces schedule honesty — two under-construction candidates dropped for possession risk to the registration window.",
+      "icon": "Undo2",
+      "loopText": "S4 → S3 Regression (Schedule Honesty)",
+      "x": 620,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-utopia-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The In-Window Close",
+      "desc": "Utopia 3BHK closed ~₹1.9 Cr all-in — under budget, spec-honest, registered inside the 54 window; the weather row finally admits Bengaluru wins.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

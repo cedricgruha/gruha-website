@@ -1,0 +1,828 @@
+{
+  "article": {
+    "tags": [
+      "PLOT BUYERS",
+      "NORTH BENGALURU",
+      "APPROVED LAYOUTS"
+    ],
+    "title": "The Khata & Compass Journal",
+    "description": "Mahesh Gowda's (39) hunt for a third plot on the Doddaballapur–Devanahalli arc — A-khata or DC-converted only, EC traced 30 years, and boundaries verified by a surveyor's ₹15K habit, not a seller's confidence.",
+    "quote": "Buildings depreciate. Mud doesn't.",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "LandPlot",
+        "text": "A-khata or DC-converted only, EC traced back 30 years, before any tender-token"
+      },
+      {
+        "icon": "Search",
+        "text": "The ₹15K private survey is the cheapest report in real estate — it's the one before registration"
+      },
+      {
+        "icon": "TrendingUp",
+        "text": "Launch-day primary pricing runs 10–15% below month-six broker pricing — that's where the edge lives"
+      }
+    ],
+    "heroImage": "/journals/cover/10.jpg",
+    "heroTitle": "The Khata & Compass Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who he is",
+      "description": "Getting to know Mahesh Gowda (39, sales director at an agri-inputs company) — a Mandya farming-family purist who owns zero apartments by conviction and is hunting a third plot on the north-Bengaluru STRR/airport arc.",
+      "buyers": [
+        {
+          "name": "Mahesh Gowda",
+          "age": 39,
+          "role": "Agri-Inputs Sales Director & Land Purist",
+          "description": "From a Mandya farming family, owns zero apartments by conviction. Runs his plot thesis like a field officer — driving corridors himself, photographing road-widening markers, and auditing his own 2018 corridor predictions annually. Scorns apartments, but his discipline is real.",
+          "tags": [
+            "Field-Boots Empirical",
+            "Land Purist",
+            "Base-Rate Disciplined"
+          ],
+          "image": "/journals/the-khata-and-compass/mahesh.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 39-year-old South Indian male agri-inputs sales director named Mahesh with a short crop and a rolled-sleeve checked cotton shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, confident grounded expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Never sell mud, never buy depreciation. A third A-khata plot on the north corridor where the next decade's appreciation lives — bought at launch, verified to the boundary stone, and held as the family's appreciating inheritance rather than a depreciating home.",
+      "sharedVisionImage": "/journals/the-khata-and-compass/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a man in rolled sleeves standing on open red-earth land at dawn placing a boundary stone while a faint blueprint skyline rises from the horizon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the surveyor's compass, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Land Purist"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Third Plot Hunt"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6-Month Purchase Window"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-khata-and-compass/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an A-khata document with an official conversion stamp beside a 30-year EC chain, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the khata seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A-Khata or DC-Converted + 30-Year EC",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "A-khata or DC-converted land only, with the encumbrance certificate traced cleanly back 30 years."
+        },
+        {
+          "image": "/journals/the-khata-and-compass/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a surveyor's sketch showing a small red-hatched boundary discrepancy beside a GPS pin photolocation, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the red hatch, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Survey-Sketch Verification",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Boundary stones photographed with GPS pins and re-verified by a private surveyor before any registration talk."
+        },
+        {
+          "image": "/journals/the-khata-and-compass/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a road-widening marker and a tendered-infrastructure signpost beside a village layout map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tendered signpost, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Tendered Infrastructure Within 4 km",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Only projects with a real tender — not a PowerPoint proposal — within 4 km of the site count."
+        },
+        {
+          "image": "/journals/the-khata-and-compass/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a plot sold sign with a 90-day calendar and an exit timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the 90-day ring, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Single-Transaction Exit in 90 Days",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Every plot must clear a single-transaction sale within 90 days — liquidity is the tax land charges for its purity."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How his journey actually unfolded.",
+      "description": "From Saturday corridor drives and a teaser killed at the base rate to a surveyor's ₹15K boundary kill and a BIAPPA launch allotment secured in first allotment.",
+      "journeyFrameTitle": "FIELD-BOOTS EMPIRICISM",
+      "roadmapTitle": "How a purist sized a corridor bet down to a 1,500 sqft launch",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Launch Allotment Secured"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.5 Cr (30% Loan)"
+        },
+        {
+          "icon": "Search",
+          "label": "THE SURVEY",
+          "value": "₹15K Boundary Kill"
+        },
+        {
+          "icon": "Fence",
+          "label": "THE HOLD",
+          "value": "Fence + Patrol (S6)"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-corridor-drives",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Saturday Corridor Drives",
+          "desc": "Weekly windshield surveys with GPS-pinned boundary-stone photos; the thesis notebook opens its third volume.",
+          "icon": "Car",
+          "x": 110,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-market-map",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The 4x Spread Mapped",
+          "desc": "Devanahalli–Doddaballapur plotted market priced ₹2,100–8,500/sqft — a 4x spread that IS the information.",
+          "icon": "Map",
+          "x": 320,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-strr-teaser",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3: STRR-Junction Teaser",
+          "desc": "A ₹3,900/sqft pre-launch whose junction turned out to be a proposal, not a tender; base-rate discipline killed it.",
+          "icon": "Compass",
+          "x": 560,
+          "y": 220,
+          "width": 180
+        },
+        {
+          "id": "l4-total-env-benchmark",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Premium Benchmark",
+          "desc": "Total Environment's Devanahalli plotted development toured as the premium against which his value picks calibrated.",
+          "icon": "Building2",
+          "x": 790,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l5-boundary-regression",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-total-env-benchmark",
+          "title": "L5 REGRESSION: The Three Feet",
+          "desc": "Private surveyor (₹15K) finds a 3-ft boundary discrepancy on his favourite site; the deal dies at the sketch stage.",
+          "icon": "Undo2",
+          "loopText": "S4 → S3 Regression (Boundary Kill)",
+          "x": 620,
+          "y": 420,
+          "width": 190
+        },
+        {
+          "id": "l6-launch-allotment",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L6: BIAPPA Launch Allotment",
+          "desc": "1,500 sqft secured at launch — first-allotment pricing, a corner pick, and khata issuance tracked from day one.",
+          "icon": "FileCheck",
+          "x": 360,
+          "y": 420,
+          "width": 180
+        },
+        {
+          "id": "l7-hold-fencing",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L7: The Hold (Fence + Patrol)",
+          "desc": "Fencing, painted boundary boards, a neighbour network — and the wife's home-upgrade conversation finally held.",
+          "icon": "Fence",
+          "loopText": "S6 Hold — Land Held, Not Keys",
+          "x": 120,
+          "y": 420,
+          "width": 180
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "tagline": "THE SEARCH",
+      "title": "Where he looked and what he found.",
+      "description": "Driving the Doddaballapur Road–Devanahalli arc and the Nandi foothills for BIAPPA/BDA-approved plotted layouts with clean khata and tendered infrastructure nearby.",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "A-Khata Appreciation Plot"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Doddaballapur–Devanahalli"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED DETOUR",
+          "value": "STRR-Junction Pre-Launch"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "SELECTED ASSET",
+          "value": "BIAPPA 1,500 sqft Site"
+        }
+      ],
+      "exploredAreasTitle": "Areas he explored",
+      "exploredAreas": [
+        {
+          "title": "Doddaballapur Road Arc",
+          "description": "The north corridor where the STRR promise echoes strongest — approved layouts price at ₹7–9.5K/sqft, and the BIAPPA launch he bought sits here.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.2387972,
+            "lng": 77.5536873
+          },
+          "imageSrc": "/journals/the-khata-and-compass/doddaballapur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Doddaballapur Road arc with approved plotted-layout gates and road-widening markers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Devanahalli (Airport Corridor)",
+          "description": "The premium top of the corridor band — Total Environment's plotted development benchmarked here, ₹2,100–8,500/sqft spread read as information.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.2453972,
+            "lng": 77.7032227
+          },
+          "imageSrc": "/journals/the-khata-and-compass/devanahalli.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Devanahalli airport corridor plotted developments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Nandi Foothills",
+          "description": "The scenic north-circling belt east of the arc, checked for approved layouts and for tendered rather than merely proposed infrastructure.",
+          "projects": 2,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 13.3862,
+            "lng": 77.7009
+          },
+          "imageSrc": "/journals/the-khata-and-compass/nandi.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Nandi foothills plateau with open approved-layout parcels, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Also considered: Total Environment Devanahalli plotted (premium benchmark) • Mysuru 30x40 and Bidadi site (existing holdings that drive the 90-day liquidity rule)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "icon": "TrendingUp",
+          "title": "THE REPRICING WINDOW",
+          "value": "Corridor Reprices Quarterly",
+          "description": "The ₹4.5K/sqft days ended around the airport's second terminal; the corridor moves faster than most buyers can match.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "Lock",
+          "title": "PROPOSAL VS TENDER",
+          "value": "Every PPT Reads as Treasure Map",
+          "description": "Government PowerPoints about upcoming roads are proposals, not tenders — base-rate discipline kills the romance.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "FileX",
+          "title": "BOUNDARY DISCREPANCIES",
+          "value": "The 3-Ft Survey Kill",
+          "description": "Layout maps hide boundary drift; a ₹15K survey caught a 3-ft discrepancy the seller's map showed complete confidence about.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "Home",
+          "title": "LIVED-IN VERSUS HELD",
+          "value": "The Wanted Home Upgrade",
+          "description": "Every rupee in mud is a rupee not in the live-in upgrade his wife stopped mentioning — the honest tension of the thesis.",
+          "isReraVerified": false
+        }
+      ],
+      "filtersFooterLabel": "Mahesh was filtering for A-khata or DC-conversion, 30-year ECs, tendered-not-proposed infrastructure within 4 km, and a single-transaction exit inside 90 days.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Mahesh didn't want my opinion on which corridor. He wanted me to run his own numbers back at him — of the five corridors he believed in in 2018, two delivered, one half-delivered, two are still PowerPoints. So we didn't kill the thesis; we sized the bet down like a man who's been forty percent wrong before. The plot shrank from 2,400 to 1,500 sqft, and the difference became a flat deposit.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya running a base-rate audit over a corridor price map and a surveyor's sketch with Mahesh, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "tagline": "THE PROJECTS",
+      "title": "Where he looked and what he found.",
+      "description": "BIAPPA/BDA-approved plotted developments across the north arc. Projects criticized on diligence or base-rate grounds stay unnamed by policy.",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "A-Khata Appreciation Plot"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "TARGET SITE",
+          "value": "1,200–2,400 sqft Approved"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED DETOUR",
+          "value": "STRR-Junction Pre-Launch"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "THE PURCHASE",
+          "value": "BIAPPA 1,500 sqft Corner"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in his search",
+      "priorities": [
+        {
+          "icon": "FileCheck",
+          "title": "A-Khata / DC-Conversion",
+          "subtitle": "30-year EC chain"
+        },
+        {
+          "icon": "LandPlot",
+          "title": "Approved-Layout Base",
+          "subtitle": "BIAPPA/BDA, not gram panchayat"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Tendered Infrastructure",
+          "subtitle": "within 4 km, real tender"
+        },
+        {
+          "icon": "Search",
+          "title": "Survey-Sketch Verification",
+          "subtitle": "the ₹15K habit"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "90-Day Exit Test",
+          "subtitle": "single-transaction feasibility"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Mahesh",
+          "avatar": "/journals/the-khata-and-compass/mahesh.png",
+          "text": "Nodi Riya, fifteen thousand I paid that surveyor, and he tells me the boundary is three feet inside. Three feet! The seller's map was showing full confidence, guru."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Confidence is free, Mahesh. Boundaries cost fifteen thousand. You just saved yourself a plot you'd have fought over for ten years.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where he searched",
+      "mapImageSrc": "/journals/the-khata-and-compass/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of north Bengaluru highlighting the Doddaballapur Road–Devanahalli arc and the Nandi foothills with boundary-stone plot pins, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Plotted developments he explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Total Environment Plotted Development",
+          "name": "Total Environment Devanahalli",
+          "price": "Top of Band",
+          "possession": "Premium Benchmark",
+          "psf": "₹2,100–8,500/sqft band top",
+          "location": "Devanahalli",
+          "imageSrc": "/journals/the-khata-and-compass/projects/1.jpg"
+        },
+        {
+          "title": "BIAPPA-Approved Launch Layout",
+          "name": "BIAPPA Launch Layout",
+          "price": "From ₹38–45L → ₹1.2 Cr+",
+          "possession": "The Purchase",
+          "psf": "₹7–9.5K/sqft (corridor)",
+          "location": "Doddaballapur Rd arc",
+          "imageSrc": "/journals/the-khata-and-compass/projects/2.jpg"
+        },
+        {
+          "title": "'STRR-Junction Pre-Launch'",
+          "name": "STRR-Junction Pre-Launch",
+          "price": "₹3,900/sqft Teaser",
+          "possession": "Killed at Base Rate",
+          "psf": "Proposal ≠ Tender",
+          "location": "North arc",
+          "imageSrc": "/journals/the-khata-and-compass/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Lock",
+          "title": "STRR Teaser, Proposal Not Tender",
+          "count": "1 base-rate kill"
+        },
+        {
+          "icon": "Undo2",
+          "title": "3-Foot Boundary Discrepancy",
+          "count": "1 surveyor's ₹15K kill"
+        },
+        {
+          "icon": "FileX",
+          "title": "Unapproved Gram Panchayat Layout",
+          "count": "skipped for A-khata/DC base"
+        },
+        {
+          "icon": "Banknote",
+          "title": "Beyond 90-Day Exit Test",
+          "count": "1 slow-resale site dropped"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Take the BIAPPA-approved 1,500 sqft corner at launch pricing — first-allotment rates, clean A-khata issuance, and khata tracked from day one — sized down from 2,400 sqft so the family gets the home-upgrade deposit they stopped asking for. Held, fenced, and patrolled, with a single-transaction exit that clears inside 90 days.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for plot buyers who believe land outlasts buildings, on the north-Bengaluru corridor.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The ₹15K Survey Is Cheapest"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "BIGGEST PRIORITY",
+          "value": "A-Khata + 30-Year EC"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Corridor Romance (Proposal ≠ Tender)"
+        },
+        {
+          "icon": "Fence",
+          "label": "BIGGEST WIN",
+          "value": "Land Held, Not Keys"
+        }
+      ],
+      "lessonsTitle": "Lessons he learned",
+      "lessons": [
+        {
+          "title": "The cheapest report in real estate is the one before registration.",
+          "description": "A ₹15K private survey found a 3-foot boundary discrepancy the layout map didn't show. The deal died at the sketch stage; the habit was born for every plot after.",
+          "imageSrc": "/journals/the-khata-and-compass/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a surveyor's sketch with a 3-foot boundary discrepancy hatched in red beside a GPS-pinned boundary-stone photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 hatch accent, Scandinavian minimalism, clean white background, editorial quality."
+        },
+        {
+          "title": "Launch-day pricing is where a plot buyer's edge actually lives.",
+          "description": "First-allotment rates at credible plotted developments ran 10–15% below month-six broker pricing. The edge was never 'finding undervalued corners' — it was being at launch.",
+          "imageSrc": "/journals/the-khata-and-compass/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a launch-morning price sheet with a first-allotment receipt and a corner-plot pick slip, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 launch-price accent, Scandinavian minimalism, clean white background, editorial quality."
+        },
+        {
+          "title": "Tendered infrastructure is a gate; proposed infrastructure is a treasure map.",
+          "description": "A ₹3,900/sqft 'STRR-junction' pre-launch died the moment the junction turned out to be a proposal, not a tender. Base-rate discipline decides which corridors get capital.",
+          "imageSrc": "/journals/the-khata-and-compass/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an STRR pre-launch flyer with 'proposal ≠ tender' written across it in field pencil beneath a roadmap marker, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pencil accent, Scandinavian minimalism, clean white background, editorial quality."
+        },
+        {
+          "title": "Liquidity is the tax land charges for its purity.",
+          "description": "His Bidadi exit closed 14 months after listing, 11% below his anchor price. Every future plot is now sized against what 'selling fast' really means.",
+          "imageSrc": "/journals/the-khata-and-compass/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a land sale timeline graph spanning 14 months with a price anchor marked 11% below target, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 anchor-line accent, Scandinavian minimalism, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Search",
+          "text": "Land appreciation is about finding the undervalued corner no one else sees"
+        },
+        {
+          "icon": "Map",
+          "text": "A 10-15% launch discount is a bonus, not the core thesis"
+        },
+        {
+          "icon": "ShieldCheck",
+          "text": "The layout map and the seller's word are enough before registration"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Every government road announcement is a buy signal worth chasing"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "LandPlot",
+          "text": "Base-rate discipline beats discovery — buy approved layouts at launch, sized to your own 40% miss rate"
+        },
+        {
+          "icon": "Calendar",
+          "text": "Launch-day first-allotment pricing is the entire edge; broker pricing by month six is 10–15% higher"
+        },
+        {
+          "icon": "Fence",
+          "text": "A ₹15K private survey and a tendered-vs-proposed filter gate every rupee"
+        },
+        {
+          "icon": "Scale",
+          "text": "Position-size the plot against liquidity — and leave room for the family's home the thesis almost forgot"
+        }
+      ],
+      "differentlyTitle": "What he'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Calendar",
+          "title": "Run the base-rate audit in month one",
+          "description": "Of the five corridors he believed in in 2018, only two delivered. Auditing his own miss rate earlier would have resized every position from the start."
+        },
+        {
+          "icon": "LandPlot",
+          "title": "Chase launch windows ahead of the corridor",
+          "description": "The STRR-teaser detour cost three weeks because he followed a proposal; staying on credible launch-calendars only would have saved it entirely."
+        },
+        {
+          "icon": "Fence",
+          "title": "Order the ₹15K survey before love,",
+          "description": "Running verification before falling for a favourite site would have saved the two-week grief of the 3-foot kill."
+        },
+        {
+          "icon": "Home",
+          "title": "Have the home-upgrade conversation earlier",
+          "description": "His wife had stopped mentioning the bigger house entirely. Holding that conversation in month two — not month six — changed the plot size with far less tension."
+        },
+        {
+          "icon": "Scale",
+          "title": "Price liquidity into every purchase",
+          "description": "The Bidadi exit's 14 months and 11% haircut should have been a headline line-item in every plot's internal rate, not a lesson learned at the exit."
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Mahesh",
+          "avatar": "/journals/the-khata-and-compass/mahesh.png",
+          "text": "Fifteen thousand I paid that surveyor, and he told me the boundary is three feet inside. The seller's map was showing full confidence, guru."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Confidence is free, Mahesh. Boundaries cost fifteen thousand. You just saved yourself a plot you'd have fought over for ten years.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for north-corridor plot buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing the thesis notebook with GPS pins, the red-hatched surveyor's sketch, a launch-morning pick slip, and a painted boundary board, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For plot buyers on the north corridor, the honest move is to buy A-khata or DC-converted land at launch — where first-allotment pricing beats month-six by 10–15% — gate every rupee behind a tendered-vs-proposed filter and a ₹15K private survey, and position-size against your own base rate. Mahesh proved the thesis could carry one smaller plot and still make room for the family's home.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Launch-day pricing is the real edge",
+          "body": "First-allotment rates at credible plotted developments ran 10–15% below month-six broker pricing — the primary window is where a plot buyer's edge actually lives.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "He audited his own base rate",
+          "body": "Of the five corridors he was bullish on in 2018, two delivered, one half-delivered, two remain PowerPoints. The thesis survived; the position sizing changed.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The ₹15K survey killed a favourite site",
+          "body": "A 3-foot boundary discrepancy the seller's map didn't show surfaced at the sketch stage. The deal died; the verification habit was born.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The Bidadi exit closed 11% below anchor",
+          "body": "14 months listed, 11% below his anchor price. Liquidity is the tax land charges for its purity — every future purchase is now sized against it.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "The plot shrank to make room for home",
+          "body": "The home-upgrade his wife stopped mentioning finally got its conversation. The third plot fell from 2,400 to 1,500 sqft; the difference became a flat deposit.",
+          "turning": true
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start Here",
+      "label": "Start Here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you believe buildings depreciate and land doesn't, and you're hunting an approved layout on the Doddaballapur–Devanahalli arc, let Riya track launches and gate every rupee behind tendered infrastructure and a private survey.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your plot budget, the corridors that pull you — Doddaballapur–Devanahalli or the Nandi foothills — and what you can honestly afford to hold till year fifteen.",
+          "imageSrc": "/journals/the-khata-and-compass/step-1.png",
+          "imagegenerationprompt": "A plot buyer entering a land budget and corridor preferences into a smartphone app beside a thesis notebook with GPS-pinned boundary photos, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone-screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya filters infrastructure, not romance",
+          "description": "Riya separates tendered infrastructure from announced PowerPoints, and flags BIAPPA/BDA-approved launches where first-allotment pricing is still available.",
+          "imageSrc": "/journals/the-khata-and-compass/step-2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing an infrastructure map with tendered markers separated from proposed markers on a plotted-launch calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tendered-marker accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Verification gated before love",
+          "description": "A-khata or DC-conversion, a 30-year EC, and a ₹15K private survey become your checklist before any site wins your heart.",
+          "imageSrc": "/journals/the-khata-and-compass/step-3.png",
+          "imagegenerationprompt": "An open home search journal showing an A-khata, a 30-year EC chain, and a surveyor's red-hatched sketch beside a boundary-stone photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 hatch accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Launch-stage plot options",
+          "description": "Receive launch-morning price sheets for approved layouts, sized against your own base rate — and a position that leaves room for the family's home.",
+          "imageSrc": "/journals/the-khata-and-compass/step-4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing BIAPPA-approved plot launches with launch price sheets and corner-plot badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 price-sheet accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in his search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "A-Khata & 30-Year EC",
+          "description": "A-khata or DC-converted land only, title traced cleanly back 30 years.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": 2,
+          "title": "Launch-Day Pricing",
+          "description": "First-allotment rates beat month-six broker pricing by 10–15%. The edge lives at launch.",
+          "icon": "TrendingUp"
+        },
+        {
+          "id": 3,
+          "title": "The ₹15K Survey Rule",
+          "description": "A private survey is the cheapest report in real estate — the one before registration.",
+          "icon": "Search"
+        },
+        {
+          "id": 4,
+          "title": "Position-Sized to the Family",
+          "description": "A 1,500 sqft plot held with confidence leaves room for the home-upgrade the thesis almost forgot.",
+          "icon": "Scale"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You believe buildings depreciate and land doesn't, and you hold this as identity, not just analysis.",
+        "You drive corridors on weekends and photograph road-widening markers for fun.",
+        "Your family's wealth story began (or broke) with a land decision, and it still drives you.",
+        "You'd walk away at the registration table if one document smelled wrong — and you have.",
+        "Your entire net worth rides one thesis, and you've never computed its failure case aloud.",
+        "Someone at home wants a bigger house now, and your plots are the reason there isn't one."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-corridor-drives",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Saturday Corridor Drives",
+      "desc": "Weekly windshield surveys with GPS-pinned boundary-stone photos; the thesis notebook opens its third volume.",
+      "icon": "Car",
+      "x": 110,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-market-map",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The 4x Spread Mapped",
+      "desc": "Devanahalli–Doddaballapur plotted market priced ₹2,100–8,500/sqft — a 4x spread that IS the information.",
+      "icon": "Map",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-strr-teaser",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3: STRR-Junction Teaser",
+      "desc": "A ₹3,900/sqft pre-launch whose junction turned out to be a proposal, not a tender; base-rate discipline killed it.",
+      "icon": "Compass",
+      "x": 560,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "l4-total-env-benchmark",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Premium Benchmark",
+      "desc": "Total Environment's Devanahalli plotted development toured as the premium against which his value picks calibrated.",
+      "icon": "Building2",
+      "x": 790,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l5-boundary-regression",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-total-env-benchmark",
+      "title": "L5 REGRESSION: The Three Feet",
+      "desc": "Private surveyor (₹15K) finds a 3-ft boundary discrepancy on his favourite site; the deal dies at the sketch stage.",
+      "icon": "Undo2",
+      "loopText": "S4 → S3 Regression (Boundary Kill)",
+      "x": 620,
+      "y": 420,
+      "width": 190
+    },
+    {
+      "id": "l6-launch-allotment",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L6: BIAPPA Launch Allotment",
+      "desc": "1,500 sqft secured at launch — first-allotment pricing, a corner pick, and khata issuance tracked from day one.",
+      "icon": "FileCheck",
+      "x": 360,
+      "y": 420,
+      "width": 180
+    },
+    {
+      "id": "l7-hold-fencing",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L7: The Hold (Fence + Patrol)",
+      "desc": "Fencing, painted boundary boards, a neighbour network — and the wife's home-upgrade conversation finally held.",
+      "icon": "Fence",
+      "loopText": "S6 Hold — Land Held, Not Keys",
+      "x": 120,
+      "y": 420,
+      "width": 180
+    }
+  ]
+}

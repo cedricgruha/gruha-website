@@ -1,0 +1,935 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "PET-HOUSEHOLD",
+      "SARJAPUR–HARLUR • WHITEFIELD"
+    ],
+    "title": "The Four Paws, Two Names Journal",
+    "description": "Kavya (30, veterinary-pharma PM) & Arnav Bhandari's (32, data scientist) pet-first home search — leash-counts at dawn, pet-group archives read like history, a named ₹15L pet-warmth premium, and an AGM-risk plan drafted before the deed.",
+    "quote": "\"If the community doesn't welcome Biscuit, it doesn't get us.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "PawPrint",
+        "text": "The leash-count at 7 am out-predicts every brochure — living pet culture diverges from written bye-laws in both directions"
+      },
+      {
+        "icon": "Stethoscope",
+        "text": "The 24-hour vet radius redraws the map more than any price line — Kanakapura's greenery sat 11 km from emergency care"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "One AGM can rewrite the bye-laws — the three-threshold plan (engage, organize, exit) is drafted before the deed"
+      }
+    ],
+    "heroImage": "/journals/cover/20.jpg",
+    "heroTitle": "The Four Paws, Two Names Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Kavya (30, veterinary-pharma product manager) & Arnav Bhandari (32, data scientist) — two adopted indies (Biscuit, anxious and vocal; Rani, escape artist), a foster rotation that scandalized two landlords, and a property search whose first filter isn't price or location: it's whether Biscuit can live there with dignity.",
+      "buyers": [
+        {
+          "name": "Kavya Bhandari",
+          "age": 30,
+          "role": "Product Manager, Veterinary Pharma",
+          "description": "Runs the harder math: the 24-hour vet radius that quietly rules out half the city's periphery, and the per-dog-year pricing of the pet-warmth premium. Her line: 'if the community doesn't welcome Biscuit, it doesn't get us.'",
+          "tags": [
+            "Vet-Radius Realist",
+            "Per-Dog-Year Pricer",
+            "Bye-Law Reader"
+          ],
+          "image": "/journals/the-four-paws-two-names/kavya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 30-year-old Indian professional woman named Kavya wearing a smart casual top, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm determined expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Arnav Bhandari",
+          "age": 32,
+          "role": "Data Scientist",
+          "description": "Runs the dawn and dusk leash-count census like a survey scientist — five dogs in the park at 7 am tells him more than any brochure. Owns the AGM-risk thresholds card.",
+          "tags": [
+            "Leash-Census Scientist",
+            "6:30 am / 8 pm Surveyor",
+            "Threshold-Card Owner"
+          ],
+          "image": "/journals/the-four-paws-two-names/arnav.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 32-year-old Indian man named Arnav wearing a casual collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm analytical expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Ownership as the only stable citizenship for a pet household — a 2.5–3 BHK in an established pet-warm community where written bye-laws match living culture, the 24-hour vet is within 4 km, the walking geography is shaded, and Biscuit and Rani pass the leash-count test twice.",
+      "sharedVisionImage": "/journals/the-four-paws-two-names/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a couple walking two happy indie dogs at dawn through a leafy apartment community's internal road, other dog-walkers waving in the distance, balconies with paw-print planters, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the leashes, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Pet-Household Duo"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Two Adopted Indies + Fosters"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6 Months — Before Renewal"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-four-paws-two-names/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a community bye-law document with a paw-print stamp beside a leash tally sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the paw-print, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Written Bye-Laws + Living Culture",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Rules on paper are one thing; the dawn leash-count is another — both verified, because living culture diverges from documents in both directions."
+        },
+        {
+          "image": "/journals/the-four-paws-two-names/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with a 24-hour vet hospital pin within a 4-km radius, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the pin, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "24-Hour Vet Within 4 km",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Biscuit's senior years are coming — midnight vet runs need to be minutes, not hours. The radius redraws the map more than any price line."
+        },
+        {
+          "image": "/journals/the-four-paws-two-names/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a shaded community walking path with trees arching overhead at dawn, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the path, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Shaded Walking Geography",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The walk is the day's anchor for an anxious, vocal indie — shaded loops, turf-adjacent paths, and other leashes at the same hours."
+        },
+        {
+          "image": "/journals/the-four-paws-two-names/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a tally sheet with dawn and dusk counts for four communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tally marks, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Leash-Count Test, Passed Twice",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Five dogs at 7 am beats any brochure — every candidate community visited at 6:30 am and 8 pm, dog-walking hours, with the count recorded."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From rental rejection #6 at the phone-call stage, to the dawn leash census, a vet-desert detour vetoed by Biscuit's senior years, and a low-floor close with grille mods approved pre-registration.",
+      "journeyFrameTitle": "LEASHES BEFORE BROCHURES",
+      "roadmapTitle": "How a pet household bought citizenship for Biscuit and Rani",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Grille Mods In"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.9–2.2 Cr + ₹15L Premium"
+        },
+        {
+          "icon": "PawPrint",
+          "label": "THE CENSUS",
+          "value": "Leash-Count, Passed Twice"
+        },
+        {
+          "icon": "Stethoscope",
+          "label": "VET RADIUS",
+          "value": "24-Hr Care Within 4 km"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-rental-radicalisation",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Rental Radicalisation",
+          "desc": "Rejection #6 at the phone-call stage — ownership becomes the only stable citizenship for a pet household. Six rejection texts stacked in one screenshot.",
+          "icon": "MessageSquare",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-leash-census",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Leash-Count Census",
+          "desc": "Candidate communities visited at 6:30 am and 8 pm; five dogs at 7 am beats any brochure. The tally becomes the first filter.",
+          "icon": "PawPrint",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-vet-desert-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Vet-Desert Greenery",
+          "desc": "A Kanakapura-greenery community reel — 11 km from the nearest 24-hr vet. Biscuit's senior years cast the veto; the reel gets parked.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-chirping-woods-leads",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Chirping Woods' Older Phase Leads",
+          "desc": "Active pet-owner group (three months of history read like an archive), turf-adjacent walking loops, and a leash census that passes twice.",
+          "icon": "Building2",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-agm-risk-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The AGM-Risk Plan",
+          "desc": "What if the community's mood turns? Fight, adapt, exit — three thresholds written on one card, before the deed, as 'uncle insurance.'",
+          "icon": "ShieldCheck",
+          "loopText": "2-Week AGM-Risk Loop — Three Thresholds Written",
+          "x": 880,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l6-grille-mods-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Grille-Mods Close",
+          "desc": "Low-floor 2.5BHK closed with balcony-grille modifications negotiated pre-registration; the ₹15L pet-warmth premium paid knowingly — priced per dog-year.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "censusing",
+          "label": "Censusing",
+          "icon": "PawPrint"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Building2"
+        },
+        {
+          "id": "planning-risk",
+          "label": "Risk-Planning",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Leash-Count Passed"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "rejection-screenshot-moment",
+          "title": "Six rejections, one screenshot",
+          "desc": "Rental rejection #6 at the phone-call stage — six texts stacked in one screenshot, a leash hanging by the door. Ownership stops being an option and becomes citizenship.",
+          "imageSrc": "/journals/the-four-paws-two-names/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone showing six stacked rental-rejection texts beside a leash hanging by a door, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the leash, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "leash-census-moment",
+          "title": "The dawn census tally",
+          "desc": "The leash census tally for four communities — 6:30 am and 8 pm counts in survey-scientist handwriting. Five dogs at 7 am was the data that moved the shortlist.",
+          "imageSrc": "/journals/the-four-paws-two-names/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-tallied leash census sheet with dawn and dusk columns for four communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tally marks, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "vet-desert-moment",
+          "title": "The reel paused 11 km from a vet",
+          "desc": "The Kanakapura greenery reel paused beside a map pin 11 km from the nearest 24-hour vet — Biscuit's senior years casting a veto on beauty.",
+          "imageSrc": "/journals/the-four-paws-two-names/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a greenery video reel paused beside a map showing a pin 11 km from a 24-hour vet marker, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the vet pin, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "agm-card-moment",
+          "title": "The three-threshold card",
+          "desc": "The AGM-risk plan on one card: circulars-and-grumbling → engage; bye-law amendment attempts → organize; harassment → exit. Drafted before the deed, filed as 'uncle insurance.'",
+          "imageSrc": "/journals/the-four-paws-two-names/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a single index card with three written thresholds labelled engage, organize and exit, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the thresholds, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "dogs-on-plan-moment",
+          "title": "Two indies asleep on the floor plan",
+          "desc": "Balcony grille drawings approved pre-registration — and two indies asleep on the new floor plan, oblivious that they'd just won a decade of citizenship.",
+          "imageSrc": "/journals/the-four-paws-two-names/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of an approved balcony-grille drawing with two dogs asleep curled on the floor plan beneath it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the grille drawing, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "If the community doesn't welcome Biscuit, it doesn't get us.",
+          "author": "— Kavya"
+        },
+        {
+          "text": "Five dogs at 7 am tells me more than any brochure.",
+          "author": "— Arnav"
+        },
+        {
+          "text": "You're paying one premium for Biscuit's decade and one insurance policy against uncles. Fifteen lakhs, honestly labelled.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Put it exactly like that in the file, Riya. 'Uncle insurance.' My CA will frame it.",
+          "author": "— Kavya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Kavya",
+          "avatar": "/journals/the-four-paws-two-names/kavya.png",
+          "text": "Riya, scenario planning time. Say we buy, and two years later some uncle becomes president and suddenly it's 'dogs in service lift only.' Matlab, what then? I've seen that movie, yaar."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then we write the sequel before buying. Three thresholds: circulars and grumbling — you engage. Bye-law amendment attempts — you organize, the older phase has 70+ pet-owner households. And if it crosses into harassment — you have an exit-grade flat in a liquid corridor. That's why liquidity matters for you two more than most.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "PawPrint",
+          "title": "Bye-Laws vs Living Culture",
+          "description": "Written pet bye-laws exist in maybe a third of communities — and living culture diverges from paper in both directions. The leash-count at 7 am out-predicted every document."
+        },
+        {
+          "icon": "Stethoscope",
+          "title": "The 24-Hour Vet Radius",
+          "description": "Proximity to emergency care is non-negotiable — Kanakapura's green options sat 11 km from a 24-hr vet, and Biscuit's senior years cast the deciding vote."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "One AGM Can Rewrite Everything",
+          "description": "Bye-laws can flip with one AGM and one incident — the three-threshold plan (engage, organize, exit) is the real risk management, written before the deed."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "The Pet-Group Archive Is the Diligence",
+          "description": "Thirty minutes of scrolling each community's pet-owner group history — incidents, AGM fights, adoption drives — was the deepest diligence they ran."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Premium, Priced Per Dog-Year",
+          "description": "₹15L extra for verified pet-warmth — roughly 7% of the purchase and, computed per dog-year of Biscuit and Rani's dignity, the best-value line item in the budget."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-four-paws-two-names.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating ready builder stock in established pet-warm communities — dawn and dusk leash censuses, pet-group archives, and the 24-hour vet radius as the map's true border.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Pet-Warm 2.5–3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Sarjapur–Harlur • Whitefield"
+        },
+        {
+          "icon": "PawPrint",
+          "label": "THE CENSUS",
+          "value": "2 Communities Passed"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Chirping Woods Low-Floor"
+        }
+      ],
+      "exploredAreasTitle": "The corridors they explored",
+      "exploredAreas": [
+        {
+          "title": "Sarjapur–Harlur (Chosen)",
+          "description": "The pet-warm belt — Chirping Woods' older phase at ₹14–16K/sqft, turf-adjacent loops, and a leash census that passed twice.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9105,
+            "lng": 77.685
+          },
+          "imageSrc": "/journals/the-four-paws-two-names/sarjapur-harlur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Sarjapur–Harlur residential belt with tree-lined internal roads, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Whitefield's Older Communities",
+          "description": "Mature communities with established pet cultures and large walking geographies — the second belt on the shortlist, weighed for vet radius and commute.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9698,
+            "lng": 77.7499
+          },
+          "imageSrc": "/journals/the-four-paws-two-names/whitefield.png",
+          "imagegenerationprompt": "A modern architectural vector view of Whitefield's older established communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Kanakapura Rd (Vet-Desert Detour)",
+          "description": "The beautiful green veto — 11 km from the nearest 24-hour vet. Biscuit's senior years cast the deciding vote against the greenery reel.",
+          "projects": 2,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.745448,
+            "lng": 77.4852967
+          },
+          "imageSrc": "/journals/the-four-paws-two-names/kanakapura.png",
+          "imagegenerationprompt": "A modern architectural vector view of Kanakapura Road's green corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Prestige Lakeside Habitat (open-space thesis, Varthur) • every launch-only project (pet culture cannot be verified in a brochure)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE RENTAL-MARKET HOSTILITY",
+          "value": "6 Rejections, 1 Eviction",
+          "description": "Asked to leave one rental and rejected from six others at the phone-call stage — the Bengaluru rental market radicalized them into ownership.",
+          "icon": "MessageSquare"
+        },
+        {
+          "title": "THE PAPER-VS-CULTURE GAP",
+          "value": "Bye-Laws vs Living Mood",
+          "description": "Societies with pet-friendly bye-laws on paper but low-grade lift-wars in practice — living culture diverges from documents in both directions.",
+          "icon": "FileCheck"
+        },
+        {
+          "title": "THE VET-DESERT PERIPHERY",
+          "value": "Half the City, Ruled Out",
+          "description": "The 24-hour vet radius quietly eliminates the greenest periphery — Kanakapura's beautiful options sat 11 km from emergency care.",
+          "icon": "Stethoscope"
+        },
+        {
+          "title": "THE AGM TAIL RISK",
+          "value": "One President, One Incident",
+          "description": "One AGM can rewrite the bye-laws — the 'children's safety' faction weaponizing circulars is the risk they plan for in writing.",
+          "icon": "ShieldCheck"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for written bye-laws AND living culture, vet proximity, shaded walking geography, and a leash-count test passed twice.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Kavya and Arnav shop communities the way biologists survey habitats: dawn and dusk censuses, three months of pet-group chat history read like an archive, and one metric that out-predicts every brochure — leashes. Their channels are pet-topology: rescue-network Telegram groups, community WhatsApp archives, and the 6:30 am walk. And they priced the whole thing with a clarity most buyers never reach: ₹15L of pet-warmth premium, honestly named, priced per dog-year of Biscuit and Rani's dignity — roughly 7% of the purchase, and the best-value line item in the budget. The AGM-risk card, drafted before the deed, is what every pet household should carry: engage, organize, exit.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a leash-census tally beside a community pet-group archive, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing ready builder stock in established pet-warm communities — where culture can be counted at 7 am, and where the ₹15L premium was verified before it was paid.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Pet-Warm 2.5–3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Chirping Woods Low-Floor"
+        },
+        {
+          "icon": "Stethoscope",
+          "label": "THE VET VETO",
+          "value": "1 Greenery Detour Killed"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹1.9–2.2 Cr + ₹15L Premium"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "PawPrint",
+          "title": "Dawn Leash-Count",
+          "subtitle": "data over promises"
+        },
+        {
+          "icon": "Stethoscope",
+          "title": "24-Hr Vet Within 4 km",
+          "subtitle": "Biscuit's senior years"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Pet Bye-Laws + History",
+          "subtitle": "three months of archive"
+        },
+        {
+          "icon": "Trees",
+          "title": "Shaded Walking Loops",
+          "subtitle": "turf-adjacent geography"
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "AGM-Risk Thresholds",
+          "subtitle": "engage • organize • exit"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Arnav",
+          "avatar": "/journals/the-four-paws-two-names/arnav.png",
+          "text": "So the pet-friendliness premium AND the liquidity premium. Bas, we're paying two premiums."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "One premium for Biscuit's decade, and one insurance policy against uncles. Fifteen lakhs, honestly labelled — and worth every dog-year of it.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-four-paws-two-names/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Sarjapur–Harlur and Whitefield belts with 24-hour vet radius rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Shriram Chirping Woods, Older Phase (Chosen)",
+          "name": "Shriram Chirping Woods",
+          "price": "2BHK from ~₹1.39 Cr; low-floor 2.5BHK",
+          "possession": "Ready",
+          "psf": "Pet-warm belt, ₹14–16K/sqft",
+          "location": "Harlur / Kasavanahalli",
+          "imageSrc": "/journals/the-four-paws-two-names/projects/1.jpg"
+        },
+        {
+          "title": "Open-Space Thesis",
+          "name": "Prestige Lakeside Habitat",
+          "price": "Premium band",
+          "possession": "Ready",
+          "psf": "102-acre walking geography",
+          "location": "Varthur",
+          "imageSrc": "/journals/the-four-paws-two-names/projects/2.jpg"
+        },
+        {
+          "title": "The Vet-Desert Detour",
+          "name": "Kanakapura-Greenery Community",
+          "price": "Greenery, 11 km from a vet",
+          "possession": "Ready",
+          "psf": "Named-lens withheld",
+          "location": "Kanakapura Road",
+          "imageSrc": "/journals/the-four-paws-two-names/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Stethoscope",
+          "title": "The Vet-Desert Veto",
+          "count": "1 greenery community, 11 km away"
+        },
+        {
+          "icon": "PawPrint",
+          "title": "Failed the Leash-Count Test",
+          "count": "2 communities, dawn and dusk"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Bye-Laws on Paper, Lift-Wars in Practice",
+          "count": "every paper-only pet policy"
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "The Anti-Pet Crusader's RWA",
+          "count": "rulings siding with process — or not"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the low-floor 2.5BHK in Chirping Woods' older phase delivered the pet-warmth premium verified at 7 am — written bye-laws matched by living culture, a 24-hour vet within 4 km, and balcony-grille modifications approved before registration. The ₹15L premium was paid knowingly, priced per dog-year; the AGM-risk card was filed as 'uncle insurance.' Biscuit and Rani got their citizenship.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for pet-household buyers — the dawn census, the vet radius, the pet-group archive, and the AGM-risk plan written before the deed.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Leash-Count Over Brochure"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Verified Pet-Warmth"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Trusting Paper Bye-Laws"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Named ₹15L Premium"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The leash-count at 7 am out-predicts every document.",
+          "description": "Written pet bye-laws exist in maybe a third of communities; living culture diverges from paper in both directions. Five dogs in the park at dawn was the data that moved the shortlist.",
+          "imageSrc": "/journals/the-four-paws-two-names/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a dawn park scene with five dogs on leashes beside a tally sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Established communities can be audited; launches cannot.",
+          "description": "For a pet household, the primary-market sweet spot is builder-held stock in a 4–8 year old project — verifiable culture plus a developer counterparty.",
+          "imageSrc": "/journals/the-four-paws-two-names/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a completed community's internal road with a builder-held stock sign, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The pet-group archive is the deepest diligence.",
+          "description": "Each shortlisted community's pet-owner WhatsApp group accepted them as visitors — thirty minutes of scrolling incidents, AGM fights and adoption drives said more than any amenity list.",
+          "imageSrc": "/journals/the-four-paws-two-names/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a phone scrolling a pet-owner group chat archive with incident and adoption posts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The 24-hour vet radius redraws the map.",
+          "description": "Kanakapura's beautiful green options sat 11 km from emergency care — Biscuit's senior years cast the deciding vote, and the map changed around the radius.",
+          "imageSrc": "/journals/the-four-paws-two-names/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with a 4-km vet radius ring and a green area outside it crossed out, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Pet-friendly bye-laws on paper mean a pet-friendly community"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A beautiful green location is worth a longer vet run"
+        },
+        {
+          "icon": "Building2",
+          "text": "A launch's pet promises are as good as any community's"
+        },
+        {
+          "icon": "Home",
+          "text": "One nice community meeting is enough due diligence"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "PawPrint",
+          "text": "The dawn leash-count out-predicts every document"
+        },
+        {
+          "icon": "Stethoscope",
+          "text": "The 24-hour vet radius redraws the map"
+        },
+        {
+          "icon": "FileCheck",
+          "text": "Three months of pet-group history is the real diligence"
+        },
+        {
+          "icon": "ShieldCheck",
+          "text": "The AGM-risk plan — engage, organize, exit — is drafted before the deed"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "PawPrint",
+          "title": "Run the leash census in week one",
+          "description": "The census became the first filter in month two — a month of paper-diligence on communities that failed the dawn test could have been saved."
+        },
+        {
+          "icon": "Stethoscope",
+          "title": "Draw the vet radius before the corridors",
+          "description": "Kanakapura's beauty consumed three weeks of detour — drawing the 4-km radius around 24-hr vets first would have eliminated it instantly."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Read the pet-group archive before the site visit",
+          "description": "The archive was the deepest diligence they ran — reading it before visiting would have made every site visit more productive."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Draft the AGM-risk card with the needs card",
+          "description": "The thresholds were written in month five — had the card existed at month one, the 'premium vs liquidity' debate would have resolved sooner."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Kavya",
+          "avatar": "/journals/the-four-paws-two-names/kavya.png",
+          "text": "Six rental rejections, one eviction, and a ₹15L premium — all so two indies can live with dignity. Worth it, yaar."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You didn't buy a flat — you bought citizenship, verified at dawn and defended on a card. Biscuit and Rani will never know what you did for them. That's the point.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for pet-household buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Kavya and Arnav stacking the rejection texts, running the dawn leash census, reading the pet-group archive, and signing the Chirping Woods deed with grille mods approved, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For pet households, the edge is in treating community culture as surveyable data: count leashes at dawn and dusk, read three months of the pet-group archive, draw the 24-hour vet radius before the corridors, and draft the AGM-risk plan before the deed. Kavya and Arnav proved the pet-warmth premium — named, priced per dog-year, and paid knowingly — is the best-value line item in the budget.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Written pet bye-laws exist in maybe a third of communities",
+          "body": "Living culture diverges from paper in both directions — the leash-count at 7 am out-predicted every document they read.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Established ready communities can be audited; launches cannot",
+          "body": "For a pet household, the primary-market sweet spot is builder-held stock in a 4–8 year old project — verifiable culture plus a developer counterparty.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The pet-owner WhatsApp archive was the deepest diligence they ran",
+          "body": "Accepted as visitors into each shortlisted group — thirty minutes of scrolling incidents, AGM fights and adoption drives said more than any amenity list.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The 24-hour vet radius redrew the map more than any price line",
+          "body": "Kanakapura's beautiful green options sat 11 km from emergency care — Biscuit's senior years cast the deciding vote.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Every community has one anti-pet crusader — the metric is the RWA's last three rulings",
+          "body": "Not the crusader's existence, but whether the RWA sided with process or with him — that pattern predicted the community's real temper.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If your search's first filter is a being who can't read the brochure, let Riya build your pet-warmth roadmap — leash censuses, vet-radius maps, and the AGM-risk card.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your pet family's composition, the foster rotation, the budget, and the vet radius that's non-negotiable.",
+          "imageSrc": "/journals/20/1.png",
+          "imagegenerationprompt": "A couple entering their pet family's details and budget into a smartphone app with a paw-print icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya runs the dawn and dusk census protocol, reads the pet-group archives, and draws the 24-hour vet radius around each shortlist.",
+          "imageSrc": "/journals/20/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing a leash-census tally beside a vet-radius map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Four Paws journal — bye-law verifier, leash-census template, and the three-threshold AGM-risk card — is generated.",
+          "imageSrc": "/journals/20/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a leash-census tally and an AGM-risk card, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified pet-warm communities with bye-laws, pet-group activity levels, and vet proximity for each — not just brochures.",
+          "imageSrc": "/journals/20/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified pet-warm community suggestions with leash-count badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Community Pet-Culture Reviews",
+          "description": "Leash-counts at dawn and dusk, bye-law archives, and AGM watch — the living index no brochure can fake.",
+          "icon": "PawPrint"
+        },
+        {
+          "id": 2,
+          "title": "Vet-Care Proximity Maps",
+          "description": "The 24-hour vet radius drawn before the corridors — because Biscuit's senior years are already in the plan.",
+          "icon": "Stethoscope"
+        },
+        {
+          "id": 3,
+          "title": "The AGM-Risk Card",
+          "description": "Engage, organize, exit — three written thresholds that turn 'what if the mood turns' into a plan, not a fear.",
+          "icon": "ShieldCheck"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your property search's first filter is a being who can't read the brochure.",
+        "You've been rejected by landlords at the phone-call stage for your family composition.",
+        "You visit communities at dog-walking hours and count leashes — data over promises.",
+        "You'd pay a named premium for verified pet-warmth, and you've actually named it.",
+        "One AGM flipping the bye-laws is your tail risk, and you have a plan for it.",
+        "Some version of fostering, rescue, or animal community work is non-negotiable identity, not hobby."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-rental-radicalisation",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Rental Radicalisation",
+      "desc": "Rejection #6 at the phone-call stage — ownership becomes the only stable citizenship for a pet household. Six rejection texts stacked in one screenshot.",
+      "icon": "MessageSquare",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-leash-census",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Leash-Count Census",
+      "desc": "Candidate communities visited at 6:30 am and 8 pm; five dogs at 7 am beats any brochure. The tally becomes the first filter.",
+      "icon": "PawPrint",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-vet-desert-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Vet-Desert Greenery",
+      "desc": "A Kanakapura-greenery community reel — 11 km from the nearest 24-hr vet. Biscuit's senior years cast the veto; the reel gets parked.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-chirping-woods-leads",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Chirping Woods' Older Phase Leads",
+      "desc": "Active pet-owner group (three months of history read like an archive), turf-adjacent walking loops, and a leash census that passes twice.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-agm-risk-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The AGM-Risk Plan",
+      "desc": "What if the community's mood turns? Fight, adapt, exit — three thresholds written on one card, before the deed, as 'uncle insurance.'",
+      "icon": "ShieldCheck",
+      "loopText": "2-Week AGM-Risk Loop — Three Thresholds Written",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-grille-mods-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Grille-Mods Close",
+      "desc": "Low-floor 2.5BHK closed with balcony-grille modifications negotiated pre-registration; the ₹15L pet-warmth premium paid knowingly — priced per dog-year.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

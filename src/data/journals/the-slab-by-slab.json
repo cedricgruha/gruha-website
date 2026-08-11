@@ -1,0 +1,960 @@
+{
+  "article": {
+    "tags": [
+      "PRIMARY PURCHASE SPECIALISTS",
+      "THE CLP MARATHONERS",
+      "PANATHUR–BALAGERE"
+    ],
+    "title": "The Slab by Slab Journal",
+    "description": "Sneha (32, product designer) & Manoj Deshpande's (34, cloud architect) twenty-month stint in the long middle — rent and pre-EMI in parallel, a slab-verification ritual with binoculars, a 1,400-member buyers' group with its own politics, and the word 'vesting' on the fridge.",
+    "quote": "\"We don't own a home yet. We own a payment schedule with a dream attached.\"",
+    "readTime": "14 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "FileCheck2",
+        "text": "Demand letters follow the architect's certificate, not the calendar — and the certificate can run ahead of your tower's actual concrete; verification is the buyer's unpaid job"
+      },
+      {
+        "icon": "Scale",
+        "text": "Pre-EMI versus full-EMI is a real choice with real math — pre-EMI eases the squeeze but builds no principal; the month-8 switch bought possession-day equity"
+      },
+      {
+        "icon": "TrendingUp",
+        "text": "The paper gain is real and unspendable — comparable resales at +20% over booking fund nothing until OC, but reframed the grind: vesting, not waiting"
+      }
+    ],
+    "heroImage": "/journals/cover/38.jpg",
+    "heroTitle": "The Slab by Slab Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Sneha, 32, product designer; Manoj, 34, cloud architect — booked their first home in early 2024 at launch, did everything right, and now live the strange middle of the primary journey: paying rent and pre-EMI simultaneously, photographing a concrete skeleton monthly, and discovering that booking-to-key is its own marathon nobody's content calendar covers.",
+      "buyers": [
+        {
+          "name": "Sneha Deshpande",
+          "age": 32,
+          "role": "Product Designer",
+          "description": "The system-owner of the long middle: tracks demand letters against slab counts, runs the buffer spreadsheet with the wedding-gift FD as the buffer's buffer, and drafts the group's collective letters — facts, not feelings.",
+          "tags": [
+            "Slab-Count Auditor",
+            "Collective-Letter Draftsman",
+            "Possession-Date Bettor (Mar '28)"
+          ],
+          "image": "/journals/the-slab-by-slab/sneha.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 32-year-old Indian woman named Sneha wearing smart creative casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, steady patient expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Manoj Deshpande",
+          "age": 34,
+          "role": "Cloud Architect",
+          "description": "The site-side half of the verification ritual — monthly binocular drives past tower 4, a tower-counting habit, and dated photographs that make the registered-post letters accurate. The exit-math skeptic who runs the numbers and talks them down.",
+          "tags": [
+            "Binocular Ritualist",
+            "Tower-4 Counter",
+            "Exit-Math Skeptic"
+          ],
+          "image": "/journals/the-slab-by-slab/manoj.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 34-year-old Indian man named Manoj wearing smart casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry enduring expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Survive the long middle and reach possession intact: a 3BHK in tower 4, 11th floor, east-facing — paid slab by verified slab, budgeted to the RERA date plus three, with the buffer, the marriage, and the possession-day goodwill all surviving the wait.",
+      "sharedVisionImage": "/journals/the-slab-by-slab/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a young couple on a rental balcony at dusk looking across the city at a distant half-built tower lit by crane lights, a calendar between them with slabs colored in like a savings chart and the unbuilt upper floors drawn in dotted lines, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tower lights, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "The CLP Marathoners"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Post-Booking, Long Middle"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Post-Booking — Slab 14 of 22"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "June '27 • Dec '27 • Mar '28"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-slab-by-slab/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a demand letter compared against a dated site photograph of a slab count, with a verification tick, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tick, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Every Demand Letter, Verified",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "The letter follows the architect's certificate, not the calendar — and the certificate can run ahead of actual concrete. Slab-count verification (site visit, photo, count) happens before every payment."
+        },
+        {
+          "image": "/journals/the-slab-by-slab/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a buffer spreadsheet with four months of parallel payments and a wedding-gift FD marked as the buffer's buffer, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the FD, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Buffer Survives",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Four months of parallel payments, rebuilt twice, currently healthy — with the wedding-gift FD quietly earmarked as the buffer's buffer. Budgeted to the RERA date +3, not the brochure date."
+        },
+        {
+          "image": "/journals/the-slab-by-slab/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an EMI switch worksheet comparing pre-EMI and full-EMI columns with equity chosen at month eight, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the equity column, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Possession-Day Equity",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The pre-EMI→full-EMI switch at month 8: pre-EMI eases the squeeze but builds no principal — they chose the harder month now for possession-day equity later."
+        },
+        {
+          "image": "/journals/the-slab-by-slab/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a snag-list framework and OC-verification checklist adopted early, with possession-date bets written on a fridge note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the checklist, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Possession Prep, Adopted Early",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The snag framework adopted from the playbook months early — OC verification, the collective ask before registration, and the flat treated as, in a sense, the easy part."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From an euphoric launch booking to a slab-verification ritual with binoculars, a 1,100-signature collective letter, a morale regression fixed by registered post — and the word 'vesting' on the fridge.",
+      "journeyFrameTitle": "THE LONG MIDDLE, RUN SLAB BY SLAB",
+      "roadmapTitle": "How a CLP couple survives the booking-to-key marathon",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Post-Booking — Slab 14 of 22"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DISBURSED",
+          "value": "₹1.1 Cr of ₹1.85 Cr"
+        },
+        {
+          "icon": "Receipt",
+          "label": "PARALLEL PAYMENTS",
+          "value": "₹42K Rent + ₹58K Pre-EMI"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "POSSESSION MATH",
+          "value": "Jun '27 • Dec '27 • Mar '28"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-launch-booking",
+          "stage": "S6",
+          "type": "start",
+          "title": "L1: The Launch Booking",
+          "desc": "Booked at launch: ₹1.85 Cr at ₹12.5K/sqft in a 1,400-unit Panathur-belt mega-project (unnamed by policy — delay narrative); CLP plan, euphoric weekend.",
+          "icon": "KeyRound",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-verification-ritual",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L2: The Verification Ritual",
+          "desc": "The first demand letter arrives ahead of visible progress — the slab-verification ritual begins: binoculars, tower count, dated photographs, before every payment.",
+          "icon": "Binoculars",
+          "loopText": "Verification Ritual — Binoculars, Photos, Slab Counts",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-emi-switch",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L3: The EMI Switch Decision",
+          "desc": "Pre-EMI vs full-EMI revisited; switched to full EMI at month 8 for possession-day equity — the harder month now, chosen deliberately.",
+          "icon": "Scale",
+          "loopText": "The EMI Decision — Pre-EMI vs Full, Month 8, Equity Chosen",
+          "x": 540,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-collective-letter",
+          "stage": "S6",
+          "type": "stage",
+          "title": "L4: The Collective Letter",
+          "desc": "The 1,100-signature collective letter (citing the RERA-filed amenity schedule) achieves in three weeks what five months of individual complaints didn't.",
+          "icon": "Users",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-slab-gap-regression",
+          "stage": "S6",
+          "type": "bounce",
+          "title": "L5: Tower 4's Slab Gap",
+          "desc": "Tower 4 runs two slabs behind demand letters; a registered-post letter citing the filed schedule resolves it; buffer re-budgeted to the RERA date +3.",
+          "icon": "ArrowUpDown",
+          "loopText": "Morale Regression — Tower 4 Two Behind, Fixed by Registered Post",
+          "targetNodeId": "l2-verification-ritual",
+          "x": 440,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l6-vesting-reframe",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L6: The Vesting Reframe",
+          "desc": "Comparable resales at +20% over booking pinned beside the word 'vesting' — the exit math run once, formally, and declined; the grind becomes accrual.",
+          "icon": "TrendingUp",
+          "loopText": "The Vesting Reframe — +20% Paper, Real, Unspendable",
+          "x": 660,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l7-possession-prep",
+          "stage": "S7",
+          "type": "loop",
+          "title": "L7: Possession Prep",
+          "desc": "The snag framework adopted from the playbook early; the buyers' group's founding politics already visible; possession-date bets on the fridge.",
+          "icon": "Home",
+          "loopText": "Possession Prep — Snag Framework Adopted, Date Bets on the Fridge",
+          "x": 880,
+          "y": 320,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "booking",
+          "label": "Booking",
+          "icon": "KeyRound"
+        },
+        {
+          "id": "verifying",
+          "label": "Slab-Verifying",
+          "icon": "Binoculars"
+        },
+        {
+          "id": "paying",
+          "label": "Parallel-Paying",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": "grouping",
+          "label": "Group-Politics",
+          "icon": "Users"
+        },
+        {
+          "id": "vesting",
+          "label": "Vesting",
+          "icon": "TrendingUp"
+        },
+        {
+          "id": "preparing",
+          "label": "Possession-Prep",
+          "icon": "Home",
+          "active": true,
+          "tag": "Budgeted to RERA +3"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "launch-receipt-moment",
+          "title": "The launch-day receipt",
+          "desc": "The ₹1.85 Cr booking at ₹12.5K/sqft and the happiest dosa of the journey — euphoria before the first demand letter taught them what the long middle actually is.",
+          "imageSrc": "/journals/the-slab-by-slab/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a launch-day booking receipt beside a dosa plate, celebration flags in the background, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the receipt, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "binoculars-moment",
+          "title": "The binoculars on the balcony rail",
+          "desc": "Tower-counting rituals: Manoj drives past monthly with binoculars and a camera — a bird-watcher of concrete — the slab-verification habit that made the letters accurate.",
+          "imageSrc": "/journals/the-slab-by-slab/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of binoculars resting on a rental balcony rail aimed at a distant half-built tower with a camera and chalk tallies beside them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the binoculars, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "collective-letter-moment",
+          "title": "The 1,100-signature letter",
+          "desc": "The collective letter citing the RERA-filed amenity schedule achieved in three weeks what five months of individual complaints didn't — the group as leverage, used for facts.",
+          "imageSrc": "/journals/the-slab-by-slab/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a long collective letter with 1,100 signatures and a RERA-filed amenity schedule cited, beside a group chat of Photographers and Lawyers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the signature count, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "vesting-fridge-moment",
+          "title": "The 'vesting' fridge note",
+          "desc": "Comparable resales at +20% pinned beside the word 'vesting', underlined — the reframe that converted the grind into accrual, with possession-date bets on the fridge.",
+          "imageSrc": "/journals/the-slab-by-slab/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a fridge door with a printed resale-comparable page, a handwritten note reading vesting underlined, and three possession-date bets written in chalk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the note, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We don't own a home yet. We own a payment schedule with a dream attached.",
+          "author": "— Sneha & Manoj"
+        },
+        {
+          "text": "Systems make fewer errors when the buyer photographs slabs.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Vesting. That word goes on the fridge, next to the possession-date bets.",
+          "author": "— Manoj"
+        },
+        {
+          "text": "You're not waiting for a flat; you're vesting into one.",
+          "author": "— The reframe"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Manoj",
+          "avatar": "/journals/the-slab-by-slab/manoj.png",
+          "text": "Riya, this month's demand letter came. Slab sixteen. But I was AT the site Sunday — with binoculars, like some bird-watcher of concrete. Tower four is on slab fourteen. Arre, fourteen!"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then the letter is ahead of the building, and that's not a payment request — it's a paperwork error you're entitled to correct. Registered post, citing the RERA-filed schedule and your own dated photographs. I'll draft it tonight; you sign, Sneha posts. And while I have you — the resale comparables in your project crossed twenty percent over your booking price this quarter. You're not stuck in a wait; you're vesting into a gain. Zhala?",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileCheck2",
+          "title": "The Certificate, Not the Concrete",
+          "description": "Demand letters follow the architect's certificate — and the certificate can run ahead of your tower's actual concrete. Verification (site visit, photo, slab count) is the buyer's unpaid job, and it matters."
+        },
+        {
+          "icon": "Receipt",
+          "title": "The Parallel-Payment Squeeze",
+          "description": "₹42K rent plus ₹58K pre-EMI while the disbursed loan grows, savings rebuilt between slab demands — budgeted for 24 months, running 38–44; the gap is the lesson."
+        },
+        {
+          "icon": "Scale",
+          "title": "The Pre-EMI vs Full-EMI Choice",
+          "description": "Pre-EMI eases the squeeze but builds no principal — the month-8 switch to full EMI costs more now and buys possession-day equity; the worksheet is on the wall."
+        },
+        {
+          "icon": "Users",
+          "title": "Leverage and Contagion",
+          "description": "The 1,400-member collective is power (the escalation waiver proved it) and anxiety contagion (every stalled-project repost costs a night's sleep) — take the leverage, ration the mood."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Vesting Reframe",
+          "description": "Comparable resales trade 20%+ above the booking price — unspendable until OC, but the reframe is real: not waiting for a flat; vesting into one."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-slab-by-slab.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Committed to Panathur–Balagere — the journal's geography is the corridor they chose, tracked through monthly binocular visits, and the comparables that price their vesting.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Committed — Surviving the Long Middle"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Panathur–Balagere"
+        },
+        {
+          "icon": "Receipt",
+          "label": "THE RITUAL",
+          "value": "Slab-Count Before Payment"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "THE CLOCK",
+          "value": "Three Possession Dates, One Budget"
+        }
+      ],
+      "exploredAreasTitle": "The committed corridor they track",
+      "exploredAreas": [
+        {
+          "title": "Panathur Belt (Committed)",
+          "description": "The committed corridor — the 1,400-unit mega-project's home ground, watched through monthly binocular visits and the 1,400-member buyers' group.",
+          "projects": 4,
+          "siteVisits": 12,
+          "latlong": {
+            "lat": 12.9364608,
+            "lng": 77.694137
+          },
+          "imageSrc": "/journals/the-slab-by-slab/panathur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Panathur belt with a large under-construction township and crane lights at dusk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Balagere Extension",
+          "description": "Where the mega-project's towers rise — slab counts photographed monthly, tower 4 tracked against the demand letters' claims with chalk tallies.",
+          "projects": 2,
+          "siteVisits": 12,
+          "latlong": {
+            "lat": 12.9384992,
+            "lng": 77.7093289
+          },
+          "imageSrc": "/journals/the-slab-by-slab/balagere.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Balagere extension with rising residential towers and a chalk tally of slab counts in the foreground, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Sobha Neopolis (The Comparable)",
+          "description": "The corridor's current-launch benchmark at ~₹15,600/sqft — the comparable that reprices their ₹12.5K booking into a +20% paper gain.",
+          "projects": 3,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.9385408,
+            "lng": 77.7081414
+          },
+          "imageSrc": "/journals/the-slab-by-slab/sobha-neopolis.png",
+          "imagegenerationprompt": "A modern architectural vector view of Sobha Neopolis's towers as the corridor's current-launch benchmark, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: none — committed at launch; the journal's geography is the corridor they chose and the comparables that price their vesting",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE FIRST DEMAND LETTER",
+          "value": "Ahead of Visible Progress",
+          "description": "The letter arrives ahead of visible slabs; the verification ritual begins — binoculars, tower count, dated photographs, and a registered-post correction when they diverge.",
+          "icon": "FileX"
+        },
+        {
+          "title": "THE PARALLEL-PAYMENT SQUEEZE",
+          "value": "Rent + EMI, Month After Month",
+          "description": "₹42K rent plus ₹58K pre-EMI while the disbursed loan grows — budgeted for 24 months, running 38–44, savings rebuilt between slab demands.",
+          "icon": "IndianRupee"
+        },
+        {
+          "title": "THE SLAB GAP",
+          "value": "Two Behind, and the Letter Says Sixteen",
+          "description": "Tower 4 ran two slabs behind the demand letters last March — one registered-post letter citing the RERA-filed schedule resolved it with surprising speed.",
+          "icon": "Binoculars"
+        },
+        {
+          "title": "THE ANXIETY CONTAGION",
+          "value": "Every Stalled Project, Reposted",
+          "description": "The Doomscrollers repost every stalled-project story in the city — the group is leverage and contagion; the skill is using it for facts, not feelings.",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for verification — every demand letter checked against actual slab progress, a buffer budgeted to the RERA date plus three months, and a possession prep that treats the flat as the easy part.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Sneha and Manoj taught me that the period between booking and key is its own financial, emotional, and marital marathon that nobody's content calendar covers. The demand letter follows the architect's certificate, not the calendar — and the certificate can run ahead of the tower's actual concrete. So verification became their ritual: monthly binocular visits, dated photographs, slab counts, and a registered-post correction when the letter ran two slabs ahead. The buyers' group became a parallel civilization — Photographers, Lawyers, Optimists, Doomscrollers — whose 1,100-signature collective letter achieved in three weeks what five months of individual complaints didn't. And the deepest reframe was the word they put on the fridge: vesting. Comparable resales at twenty percent over their booking price fund nothing until OC — but they stopped waiting for a flat and started accruing into one. The flat they'll get keys to is, in a sense, the easy part.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya comparing a demand letter against a dated slab-count photograph beside a buffer spreadsheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The committed project, the corridor's current-launch benchmark, and the repricer — the geography of a vesting paper gain.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Committed — Surviving the Long Middle"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Tower 4, 11th Floor, East"
+        },
+        {
+          "icon": "Receipt",
+          "label": "THE RITUAL",
+          "value": "Slab-Count Before Payment"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹1.85 Cr, CLP, 22 Slabs"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "FileCheck2",
+          "title": "Slab Verification",
+          "subtitle": "certificate ≠ concrete"
+        },
+        {
+          "icon": "Scale",
+          "title": "The EMI Switch",
+          "subtitle": "full EMI from month 8"
+        },
+        {
+          "icon": "Users",
+          "title": "The Collective Letter",
+          "subtitle": "1,100 signatures, filed schedule"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Buffer to RERA +3",
+          "subtitle": "March 2028, honestly"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Vesting Reframe",
+          "subtitle": "+20% paper, unspendable, real"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Manoj",
+          "avatar": "/journals/the-slab-by-slab/manoj.png",
+          "text": "Slab sixteen, tower four on fourteen — the letter was ahead of the building again, and the registered post fixed it in nine days. And 'vesting' is on the fridge, between the possession-date bets."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the long-middle method, Sneha and Manoj: verify every slab, budget to the RERA date, take the group's leverage and ration its mood. You're not waiting for a flat — you're vesting into one. I've got April on the possession-date bet; loser buys the housewarming misal.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-slab-by-slab/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Panathur–Balagere corridor with the mega-project site and the Sobha Neopolis benchmark marked in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 tracked options",
+      "projects": [
+        {
+          "title": "The Committed Project",
+          "name": "Panathur-Belt Mega-Project",
+          "price": "₹12.5K/sqft at launch",
+          "possession": "RERA: Dec '27; budget: Mar '28",
+          "psf": "1,400 units; unnamed by policy",
+          "location": "Panathur–Balagere",
+          "imageSrc": "/journals/the-slab-by-slab/projects/1.jpg"
+        },
+        {
+          "title": "The Corridor Benchmark",
+          "name": "Sobha Neopolis",
+          "price": "~₹15,600/sqft",
+          "possession": "Launch-to-ready arc",
+          "psf": "The comparable that prices their gain",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-slab-by-slab/projects/2.jpg"
+        },
+        {
+          "title": "The Second Release (Repricer)",
+          "name": "Same Project, Current Towers",
+          "price": "~₹15K/sqft release",
+          "possession": "Under construction",
+          "psf": "The paper-gain yardstick",
+          "location": "Panathur–Balagere",
+          "imageSrc": "/journals/the-slab-by-slab/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ArrowUpDown",
+          "title": "The 22% Exit Option",
+          "count": "1 formal run of the math — declined; home chosen over grind-end"
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "The Doomscroller Feed",
+          "count": "every stalled-project repost, rationed"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Deferred Life",
+          "count": "car, Vietnam trip, freelance energy — postponed once too often"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "The Brochure Possession Date",
+          "count": "budgeted to RERA +3 instead"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "The strategy is endurance with verification: pay only against certified slabs, budget the buffer to the RERA date plus three months, switch to full EMI early for possession-day equity, and use the buyers' group for facts, not feelings. The exit math was run once, formally, and declined — the paper gain is vesting, not a way out. Possession prep ahead: snag framework from the playbook, OC verification, and a collective ask before registration. The flat is the easy part.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for CLP buyers in the long middle — verification before payment, buffer math to the RERA date, the group as leverage, and the vesting reframe.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Verify Before You Pay"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Buffer Survives"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Brochure-Date Budgeting"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Vesting Reframe"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The demand letter follows the certificate, not the calendar.",
+          "description": "And the certificate can run ahead of your tower's actual concrete — verification (site visit, photo, slab count) is the buyer's unpaid job, and it matters.",
+          "imageSrc": "/journals/the-slab-by-slab/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a demand letter against a dated slab-count photograph with a verification tick and a registered-post envelope, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Pre-EMI versus full-EMI-from-start is a real choice.",
+          "description": "Pre-EMI eases the parallel-payment squeeze but builds no principal — the month-8 switch to full EMI costs more now and buys possession-day equity.",
+          "imageSrc": "/journals/the-slab-by-slab/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an EMI comparison worksheet with pre-EMI and full-EMI columns and an equity arrow growing to possession day, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The buyers' group is leverage — used for facts, not feelings.",
+          "description": "The 1,100-signature collective letter citing the RERA-filed amenity schedule achieved in three weeks what five months of individual complaints didn't.",
+          "imageSrc": "/journals/the-slab-by-slab/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a collective letter with 1,100 signatures and a group chat showing Photographers and Lawyers organizing with calm discipline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The paper gain is real and unspendable — until it's vesting.",
+          "description": "Comparable resales at 20%+ over booking fund exactly nothing until OC, but reframed the grind: not waiting for a flat; vesting into one.",
+          "imageSrc": "/journals/the-slab-by-slab/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a fridge door with a resale-comparable page, the word vesting underlined, and three chalk possession-date bets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The demand letter arrives when progress demands it"
+        },
+        {
+          "icon": "IndianRupee",
+          "text": "Rent plus pre-EMI is a short, sharp season"
+        },
+        {
+          "icon": "MessageSquare",
+          "text": "Complaints are private; patience is individual"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Paper gains are the exit door"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileCheck2",
+          "text": "The letter follows the certificate; verify the concrete"
+        },
+        {
+          "icon": "Hourglass",
+          "text": "The squeeze runs 38–44 months; budget the buffer to RERA +3"
+        },
+        {
+          "icon": "Users",
+          "text": "The collective letter is leverage — 1,100 signatures, three weeks"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Paper gains are vesting — real, unspendable, worth the wait"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Scale",
+          "title": "Run the exit math once, formally, early",
+          "description": "The 22% exit option was run at month 18 — running it at month 6 would have ended the monthly temptation years earlier."
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Budget to the RERA date from day one",
+          "description": "The buffer was re-budgeted at month 14 — the brochure date was always a hope, not a plan."
+        },
+        {
+          "icon": "Users",
+          "title": "Join the group's structure before the first letter",
+          "description": "The Photographers, Lawyers, and Optimists existed by month 9 — the group's leverage was a discovery, not a plan."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Photograph the slabs before the first payment",
+          "description": "The binocular ritual started with the first suspicious letter — dated site photos should have been the first habit, not the second."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Sneha",
+          "avatar": "/journals/the-slab-by-slab/sneha.png",
+          "text": "Binoculars, slab counts, the 1,100-signature letter, and 'vesting' on the fridge. The marathon's in month twenty, and for the first time it feels like training, not waiting."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Because it is, Sneha — you're building possession-day equity, a collective muscle, and a marriage that survived the buffer. Slab fourteen of twenty-two. Keep verifying, keep budgeting, keep the misal bet alive.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for CLP buyers in the long middle",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Manoj with binoculars counting tower 4's slabs, the demand letter compared against a dated photograph, the 1,100-signature collective letter being signed, and the word vesting going on the fridge, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For CLP buyers, the long middle is won on verification and budgeting: treat every demand letter as a claim about concrete, not a calendar — site visit, dated photos, slab count, and a registered-post correction citing the RERA-filed schedule when the claim runs ahead. Budget the buffer to the RERA date plus three months, not the brochure date. Decide pre-EMI versus full-EMI with the math in front of you — the switch that eases the squeeze now is the equity you forgo at possession. Join the buyers' group's structure early: the Photographers, the Lawyers, the Optimists — the collective letter is real leverage, and the Doomscrollers are a mood to be rationed. And run the exit math once, formally, so the monthly temptation meets an answered question. The paper gain is vesting — real, unspendable, and worth the wait. The flat you'll get keys to is, in a sense, the easy part.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 2",
+          "headline": "The demand letter follows the architect's certificate, not the calendar",
+          "body": "The certificate can run ahead of your tower's actual concrete — verification (site visit, photo, slab count) is the buyer's unpaid job, and it matters.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "Pre-EMI versus full-EMI-from-start is a real choice with real math",
+          "body": "Pre-EMI eases the parallel-payment squeeze but builds no principal — they switched to full EMI at month 8 for possession-day equity.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 9",
+          "headline": "The collective letter achieved in three weeks what five months of individual complaints didn't",
+          "body": "1,100 signatures citing the RERA-filed amenity schedule — the group is the leverage; the trick is using it for facts, not feelings.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 14",
+          "headline": "Buffer math must assume the delay",
+          "body": "They re-budgeted from the RERA date plus three months — the recalibration converted monthly disappointment into quarterly verification.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 18",
+          "headline": "The paper gain is real and unspendable — until it's vesting",
+          "body": "Comparable resales trade 20%+ above their booking price; it reframed the grind: they are not waiting for a flat; they are vesting into one.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you're in the long middle of a CLP purchase, let Riya build your slab-by-slab system — verification rituals, buffer math to the RERA date, and possession-prep playbooks.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your project's RERA details, your slab progress, your parallel-payment numbers — and the possession date you're honestly budgeting for.",
+          "imageSrc": "/journals/38/1.png",
+          "imagegenerationprompt": "A person entering their project's RERA details and slab progress into a smartphone app with a construction-crane icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya flags divergences between certified progress and the filed schedule, audits the CLP cash flow, and drafts the escalation letter when the letter runs ahead of the building.",
+          "imageSrc": "/journals/38/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide comparing a demand letter against a dated slab photograph beside a CLP cash-flow audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Slab by Slab journal — verification rituals, buffer math, and possession-prep playbooks — is generated.",
+          "imageSrc": "/journals/38/3.png",
+          "imagegenerationprompt": "An open home search journal displaying a slab-verification checklist and a buffer-to-RERA-plus-three chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the slab-by-slab payment plan to your realistic possession date, the group-ask drafts, and the snag framework for possession day.",
+          "imageSrc": "/journals/38/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing a slab-by-slab payment plan and a snag-framework checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Slab-Verification Toolkit",
+          "description": "Dated-photo rituals, slab-count methods, and the registered-post escalation letter — the certificate is not the concrete.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 2,
+          "title": "The Parallel-Payment Math",
+          "description": "Pre-EMI vs full-EMI, buffer budgets to RERA +3, and the end-game GST-and-registration reserve, reserved and untouchable.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The Possession-Prep Playbook",
+          "description": "Snag frameworks, OC verification, and the collective asks to make before registration — the flat is the easy part.",
+          "icon": "Users"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You've booked under construction and discovered the long middle nobody briefs you for.",
+        "You pay rent and pre-EMI in parallel and have rebuilt your buffer at least once.",
+        "You verify demand letters against actual slabs — or just learned you should.",
+        "A buyers' WhatsApp group has become a second society in your life, with politics.",
+        "Your possession date exists in three versions: promised, RERA-filed, and the one you actually budget for.",
+        "'How's the house coming?' is a question you answer differently depending on the week."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-launch-booking",
+      "stage": "S6",
+      "type": "start",
+      "title": "L1: The Launch Booking",
+      "desc": "Booked at launch: ₹1.85 Cr at ₹12.5K/sqft in a 1,400-unit Panathur-belt mega-project (unnamed by policy — delay narrative); CLP plan, euphoric weekend.",
+      "icon": "KeyRound",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-verification-ritual",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L2: The Verification Ritual",
+      "desc": "The first demand letter arrives ahead of visible progress — the slab-verification ritual begins: binoculars, tower count, dated photographs, before every payment.",
+      "icon": "Binoculars",
+      "loopText": "Verification Ritual — Binoculars, Photos, Slab Counts",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-emi-switch",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L3: The EMI Switch Decision",
+      "desc": "Pre-EMI vs full-EMI revisited; switched to full EMI at month 8 for possession-day equity — the harder month now, chosen deliberately.",
+      "icon": "Scale",
+      "loopText": "The EMI Decision — Pre-EMI vs Full, Month 8, Equity Chosen",
+      "x": 540,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l4-collective-letter",
+      "stage": "S6",
+      "type": "stage",
+      "title": "L4: The Collective Letter",
+      "desc": "The 1,100-signature collective letter (citing the RERA-filed amenity schedule) achieves in three weeks what five months of individual complaints didn't.",
+      "icon": "Users",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-slab-gap-regression",
+      "stage": "S6",
+      "type": "bounce",
+      "title": "L5: Tower 4's Slab Gap",
+      "desc": "Tower 4 runs two slabs behind demand letters; a registered-post letter citing the filed schedule resolves it; buffer re-budgeted to the RERA date +3.",
+      "icon": "ArrowUpDown",
+      "loopText": "Morale Regression — Tower 4 Two Behind, Fixed by Registered Post",
+      "targetNodeId": "l2-verification-ritual",
+      "x": 440,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-vesting-reframe",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L6: The Vesting Reframe",
+      "desc": "Comparable resales at +20% over booking pinned beside the word 'vesting' — the exit math run once, formally, and declined; the grind becomes accrual.",
+      "icon": "TrendingUp",
+      "loopText": "The Vesting Reframe — +20% Paper, Real, Unspendable",
+      "x": 660,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l7-possession-prep",
+      "stage": "S7",
+      "type": "loop",
+      "title": "L7: Possession Prep",
+      "desc": "The snag framework adopted from the playbook early; the buyers' group's founding politics already visible; possession-date bets on the fridge.",
+      "icon": "Home",
+      "loopText": "Possession Prep — Snag Framework Adopted, Date Bets on the Fridge",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    }
+  ]
+}

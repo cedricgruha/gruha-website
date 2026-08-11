@@ -1,0 +1,935 @@
+{
+  "article": {
+    "tags": [
+      "NRI RETURNEE",
+      "REMOTE-WORK FAMILY",
+      "HENNUR • THANISANDRA • JAKKUR"
+    ],
+    "title": "The Fiber & Frangipani Journal",
+    "description": "Neel (36, remote staff engineer, US payroll) & Mahima Shenoy's (34, UX lead) return from Seattle to a Hennur base camp — inverted requirements, fiber-panel verification, a named ₹1 Cr conviction premium, and a Raintree Boulevard close on two timezones.",
+    "quote": "\"We left Seattle for this. The Wi-Fi better hold.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Wifi",
+        "text": "'Dual fiber available' survives only 40% of verification calls — the photographed ISP panel is the only document that counts"
+      },
+      {
+        "icon": "Scale",
+        "text": "Stress-test every rupee against the India-salary reset — the named ₹1 Cr 'conviction premium' was written down and chosen, not drifted into"
+      },
+      {
+        "icon": "ClipboardList",
+        "text": "Audit whose career each option optimizes — three of four shortlist decisions had silently favored Neel's home office over Mahima's commute"
+      }
+    ],
+    "heroImage": "/journals/cover/18.jpg",
+    "heroTitle": "The Fiber & Frangipani Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Neel (36, staff engineer retained remotely by his Seattle employer) & Mahima Shenoy (34, UX lead at a Bengaluru design studio) — eight months back from Seattle, renting in Hennur, buying permanence for two careers, one toddler, and a household that runs on two timezones.",
+      "buyers": [
+        {
+          "name": "Neel Shenoy",
+          "age": 36,
+          "role": "Staff Engineer, Remote (US Payroll)",
+          "description": "Works 6 pm–2 am on Pacific time from Hennur; needs a genuinely soundproofable home office because daycare drop-off happens during his REM cycle. His commute is a staircase; the fiber panel is his sales office.",
+          "tags": [
+            "Night-Shift Engineer",
+            "ISP-First Buyer",
+            "USD-Anchor"
+          ],
+          "image": "/journals/the-fiber-and-frangipani/neel.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 36-year-old South Indian man named Neel wearing a casual smart shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm tired-friendly expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Mahima Shenoy",
+          "age": 34,
+          "role": "UX Lead, Bengaluru Design Studio",
+          "description": "The commute-real one — against traffic to Indiranagar. Ran the career-optimization audit that revealed whose career the house kept optimizing, and rebalanced the shortlist in her direction.",
+          "tags": [
+            "Commute-Real",
+            "Audit-Driven",
+            "Studio-First"
+          ],
+          "image": "/journals/the-fiber-and-frangipani/mahima.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 34-year-old South Indian woman named Mahima wearing a smart casual top, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm confident expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Return from Seattle and buy permanence in the north Bengaluru arc — a spacious home where a night-shift office, a studio career, a toddler, and the grandparents' monthly visit all fit — with dual fiber, 100% power backup, and the conviction premium named, written down, and chosen.",
+      "sharedVisionImage": "/journals/the-fiber-and-frangipani/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a house cutaway at night — upstairs a man in a glowing home office on a video call while the city sleeps, downstairs a woman and toddler asleep, a frangipani tree against the balcony, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the glowing office window, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "NRI Returnees"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Two Careers + Toddler"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Before Next School Year"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-fiber-and-frangipani/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a photographed fiber optic panel with two ISP cables labelled, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the cables, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Dual Fiber ISPs, Photographed",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Not 'available' — photographed. Six buildings' fiber panels captured; 60% of dual-ISP claims died on verification calls."
+        },
+        {
+          "image": "/journals/the-fiber-and-frangipani/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a power backup generator room with a logbook, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the generator, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "100% Power Backup",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "A 2 am US call cannot meet a Bengaluru voltage dip — generator logs requested from every finalist, like the auditor they've become."
+        },
+        {
+          "image": "/journals/the-fiber-and-frangipani/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a soundproofed home office with acoustic panels and a door seal, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the acoustic panels, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Soundproofable Office Room",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Daycare drop-off happens during Neel's REM cycle — the office must genuinely absorb a 6 pm–2 am shift and a toddler's morning."
+        },
+        {
+          "image": "/journals/the-fiber-and-frangipani/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a pediatric care map pin within a 2-km radius beside a toddler's bicycle, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the pin, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Toddler-Family Infrastructure",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Pediatric care within 2 km, an evening-cycling toddler gang, and a school-run rehearsed at 7:40 am — the real non-negotiables."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a Hennur base camp with packing boxes and a dual-line fiber router, to fiber-panel verification, a villa-reel detour, and a Raintree close with grandparents' weekends calendared like school.",
+      "journeyFrameTitle": "TWO TIMEZONES, ONE ADDRESS",
+      "roadmapTitle": "How Seattle returnees closed on the north arc with one foot on the boat",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Raintree 4BHK"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.4–3.53 Cr Band"
+        },
+        {
+          "icon": "Wifi",
+          "label": "THE FIRST FILTER",
+          "value": "Dual Fiber, Photographed"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE PREMIUM NAMED",
+          "value": "₹1 Cr Conviction Gap"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-return-executed",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Return Executed",
+          "desc": "Hennur rental becomes base camp; requirements inverted — space, fiber, power, air over commute. The return is done; the permanence isn't.",
+          "icon": "Home",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-isp-first",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: ISP-Before-Sales-Office",
+          "desc": "Buildings shortlisted by photographed fiber panels; 60% of 'dual ISP available' claims die on verification calls. The protocol is born.",
+          "icon": "Wifi",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-villa-reel-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Villa Reel",
+          "desc": "A gated-villa reel promising 'Cupertino vibes' — 4 km of red-earth approach road in the monsoon; the gimbal-less version of every NRI lesson. Parked.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-three-finalists",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Three Finalists",
+          "desc": "Raintree Boulevard (Hebbal park township) vs Nikoo Homes (Thanisandra scale) vs Purva Palm Beach (Hennur value) — career-audit sheet clipped on top.",
+          "icon": "Building2",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-conviction-premium-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The Conviction-Premium Loop",
+          "desc": "The India-salary stress test names a ₹1 Cr gap; the career audit moves one option up for Mahima's studio run. USD comfort vs INR resilience, chosen in writing.",
+          "icon": "Scale",
+          "loopText": "2-Week Two-Ledger Loop — ₹1 Cr Gap Named & Chosen",
+          "x": 880,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l6-raintree-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Raintree Close",
+          "desc": "Raintree Boulevard 4BHK-class unit closed within the USD-comfort band; grandparents' weekends calendared like school — architecture instead of intention.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "auditing",
+          "label": "Auditing",
+          "icon": "Wifi"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Building2"
+        },
+        {
+          "id": "stress-testing",
+          "label": "Stress-Testing",
+          "icon": "Scale"
+        },
+        {
+          "id": "rebalancing",
+          "label": "Rebalancing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Two Timezones"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "fiber-panels-moment",
+          "title": "The photographed fiber panels",
+          "desc": "Six buildings' fiber panels photographed from inside the riser — four crossed out. The building's actual ISP panel is the only document that counts.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of six photographed fiber optic panels on a sheet, four crossed out in red, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the crossed-out photos, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "villa-reel-moment",
+          "title": "The reel paused on red earth",
+          "desc": "The gated-villa reel paused on a 4 km red-earth approach road, monsoon date stamped — every NRI lesson compressed into one 30-second clip.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a video reel paused on a red-earth approach road with a monsoon date stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the date stamp, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "two-ledger-moment",
+          "title": "The two-ledger budget",
+          "desc": "USD comfort on one page, INR resilience on the other — the ₹1 Cr gap between them named aloud, written down, and chosen as the conviction premium.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two parallel budget ledger pages with a ₹1 Cr gap bracketed between them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the bracket, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "career-audit-moment",
+          "title": "The career-audit tally",
+          "desc": "Three of four shortlist decisions had silently optimized Neel's home office; Mahima's commute got a 'nice-ish' drive. The tally, said out loud, rebalanced the list.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a career-audit sheet tallying commute minutes for two people across four options, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tally, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "grandparent-calendar-moment",
+          "title": "Grandparent weekends, calendared",
+          "desc": "The Mysuru grandparents' room spec'd as real architecture — ground-floor-equivalent access, attached bath — and the monthly visit drawn into the calendar like school.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a calendar with recurring grandparent-weekend blocks beside a room floor plan with an attached bath, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the calendar blocks, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We left Seattle for this. The Wi-Fi better hold.",
+          "author": "— Neel"
+        },
+        {
+          "text": "Three of our four shortlist decisions optimized Neel's home office. Mine got a 'nice-ish' drive to Indiranagar.",
+          "author": "— Mahima"
+        },
+        {
+          "text": "It happened silently, which is how it always happens. Nobody chose it. The house kept choosing it.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Load-bearing careers get load-bearing addresses. Both of them.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Mahima",
+          "avatar": "/journals/the-fiber-and-frangipani/mahima.png",
+          "text": "Riya, I did the exercise you gave us. The commute audit, for BOTH careers. Three of our four shortlist decisions optimized Neel's home office. Mine got a 'nice-ish' drive."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's what the data says — and it happened silently, which is how it always happens. Nobody chose it; the house kept choosing it. So: Raintree Boulevard. Twenty minutes closer to Mahima's studio, the park for Neel's dawn walks, and a residents' book club with four returnee-founder women.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Wifi",
+          "title": "The Fiber-Panel Test",
+          "description": "'Dual fiber available' survives about 40% of verification calls — the building's actual ISP panel, photographed from the riser, is the only document that counts."
+        },
+        {
+          "icon": "Scale",
+          "title": "The India-Salary Stress Test",
+          "description": "The flat must make sense if Neel's payroll becomes Indian — and on that math the ceiling drops a full crore. The gap is the named 'conviction premium.'"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Career-Optimization Audit",
+          "description": "Tally whose commute each option optimizes — three of four decisions silently favored the remote career over the commuter's. The house kept choosing; now they choose."
+        },
+        {
+          "icon": "Banknote",
+          "title": "The USD Runway Fund",
+          "description": "12 months of USD kept as a hedge against the US-layoff scenario — honest hedging, or incomplete arrival? They've decided it's the former, and priced accordingly."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Grandparent-Drive Honesty",
+          "description": "The Mysuru grandparents are 3.5 hours away — the monthly visit was drawn into the calendar as a recurring block, and the guest room became real architecture."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-fiber-and-frangipani.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating ready and nearing-possession premium towers across the Hennur–Thanisandra–Jakkur arc — fiber panels photographed, generator logs requested, school-run rehearsed at 7:40 am.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Infrastructure-First 4BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Hennur • Thanisandra • Jakkur"
+        },
+        {
+          "icon": "Wifi",
+          "label": "THE FIRST FILTER",
+          "value": "Photographed Fiber Panels"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Raintree 4BHK-Class"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Hennur (Base Camp)",
+          "description": "The rental base camp's own corridor — Purva Palm Beach's value alternative at ~₹13.5–14K/sqft, and the community they already know at 7:40 am.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 13.035324,
+            "lng": 77.6335273
+          },
+          "imageSrc": "/journals/the-fiber-and-frangipani/hennur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Hennur residential corridor with morning school-run traffic, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Thanisandra",
+          "description": "Scale alternative territory — Nikoo Homes' ₹1.31–2.9 Cr range and township scale, weighed against the family's infrastructure checklist.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0582032,
+            "lng": 77.6144357
+          },
+          "imageSrc": "/journals/the-fiber-and-frangipani/thanisandra.png",
+          "imagegenerationprompt": "A modern architectural vector view of Thanisandra's large township developments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Jakkur Arc",
+          "description": "The quieter arc — premium towers at ₹14–17K/sqft, where the perfect-for-Neel home adds 50 minutes to Mahima's day. The career audit demoted it.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0744,
+            "lng": 77.6055
+          },
+          "imageSrc": "/journals/the-fiber-and-frangipani/jakkur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Jakkur arc with premium towers and lakeside greenery, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the gated-villa reel (detour, unnamed) • Mysuru (grandparent orbit, kept as calendared visits, not a move)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "'DUAL FIBER AVAILABLE'",
+          "value": "60% Die on Calls",
+          "description": "The single most-lied-about sentence in Bengaluru real estate — verification calls killed most claims before a single site visit.",
+          "icon": "Wifi"
+        },
+        {
+          "title": "THE INVERTED SHORTLIST",
+          "value": "Space Over Commute",
+          "description": "Standard buyers filter by commute; they filter by soundproofable rooms, power backup, and pediatric distance — every portal assumes the wrong priorities.",
+          "icon": "Zap"
+        },
+        {
+          "title": "THE CAREER-SILENT BIAS",
+          "value": "The House Kept Choosing",
+          "description": "Three of four shortlist decisions silently optimized Neel's home office — the audit that rebalanced the list was uncomfortable and necessary.",
+          "icon": "ClipboardList"
+        },
+        {
+          "title": "THE CONVICTION GAP",
+          "value": "₹1 Cr Between Two Ledgers",
+          "description": "USD comfort says ₹3.6 Cr; the India-salary stress test says ₹2.6 Cr — the gap was named, written down, and chosen with eyes open.",
+          "icon": "Scale"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for verified infrastructure, two-timezone architecture, and a home that survives the salary-reset scenario — with the grandparents' visit drawn as a recurring calendar block.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“These two came home with inverted requirements and the discipline to match: fiber panels photographed from the riser, generator logs requested in writing, the school run rehearsed at 7:40 am. But the real finding wasn't in the infrastructure — it was the career audit. Three of four shortlist decisions had silently optimized Neel's night-shift office over Mahima's studio commute. Nobody chose it; the house kept choosing it, the way it always does in a two-timezone marriage. The rebalance to Raintree — twenty minutes closer to her studio — was the single most important decision of the whole search. Load-bearing careers get load-bearing addresses. Both of them.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a fiber-panel verification sheet beside a career-audit tally, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing ready and nearing-possession premium towers on the north arc — fiber panels verified, generator logs audited, and one career-audit rebalance that moved Raintree to the top.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Infrastructure-First 4BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Raintree 4BHK-Class"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE AUDIT WIN",
+          "value": "Mahima's 20-Minute Gain"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.4–3.53 Cr Band"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Wifi",
+          "title": "Dual Fiber Verified",
+          "subtitle": "photographed, not promised"
+        },
+        {
+          "icon": "Zap",
+          "title": "100% Power Backup",
+          "subtitle": "2 am calls, no dips"
+        },
+        {
+          "icon": "Moon",
+          "title": "Soundproofable Office",
+          "subtitle": "REM-cycle protected"
+        },
+        {
+          "icon": "Baby",
+          "title": "Toddler-Family Density",
+          "subtitle": "evening-cycling gang"
+        },
+        {
+          "icon": "Calendar",
+          "title": "Grandparent Room as Spec",
+          "subtitle": "architecture, not intention"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Neel",
+          "avatar": "/journals/the-fiber-and-frangipani/neel.png",
+          "text": "My calls are at night anyway. My commute is a staircase. Hers is real. Run Raintree first."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Running it. And writing one line in your journal: 'Load-bearing careers get load-bearing addresses.' Both of them.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-fiber-and-frangipani/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Hennur, Thanisandra and Jakkur arc with fiber-panel verification pins in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "L&T Raintree Boulevard (Chosen)",
+          "name": "L&T Raintree Boulevard",
+          "price": "₹2.4–3.53 Cr",
+          "possession": "Ready",
+          "psf": "₹17.5K→20.4K/sqft Q4'25",
+          "location": "Hebbal",
+          "imageSrc": "/journals/the-fiber-and-frangipani/projects/1.jpg"
+        },
+        {
+          "title": "Scale Alternative",
+          "name": "Bhartiya City Nikoo Homes",
+          "price": "₹1.31–2.9 Cr",
+          "possession": "Newer phases 2029",
+          "psf": "~₹12,100/sqft",
+          "location": "Thanisandra",
+          "imageSrc": "/journals/the-fiber-and-frangipani/projects/2.jpg"
+        },
+        {
+          "title": "Value Alternative",
+          "name": "Purva Palm Beach",
+          "price": "₹1.15–1.65 Cr",
+          "possession": "Ready",
+          "psf": "~₹13.5–14K/sqft",
+          "location": "Hennur Road",
+          "imageSrc": "/journals/the-fiber-and-frangipani/projects/3.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Wifi",
+          "title": "Failed the Fiber-Panel Test",
+          "count": "4 of 6 buildings crossed out"
+        },
+        {
+          "icon": "Eye",
+          "title": "The Villa-Reel Red Earth",
+          "count": "1 monsoon approach road"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Career-Silent Optimisation",
+          "count": "3 options quietly favoured one career"
+        },
+        {
+          "icon": "Calendar",
+          "title": "Grandparent-Drive Dishonesty",
+          "count": "every 'just 3.5 hours away' project"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Raintree Boulevard 4BHK-class unit within the USD-comfort band delivered the infrastructure checklist — dual fiber verified, 100% backup, soundproofable office — and, after the career audit rebalanced the list, a home twenty minutes closer to Mahima's studio. The conviction premium was named, written down, and chosen; the grandparents' room became architecture instead of intention.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for NRI returnees and remote-work families — verified infrastructure, the salary-reset stress test, and the career audit that rebalances the silent bias.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Photograph the Fiber Panel"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Salary-Reset Test"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Silent Career Bias"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Named Conviction Premium"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The fiber panel, photographed, is the only document that counts.",
+          "description": "'Dual fiber available' survives about 40% of verification calls — six buildings' panels were photographed from the riser; four were crossed out before a single site visit.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a fiber optic panel photographed inside a building riser with a verification checkmark, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Top-floor and corner units are where developers hold negotiable stock.",
+          "description": "In ready projects, the premium spec they wanted overlapped with the inventory builders most wanted to move — the premium unit and the negotiable price were the same unit.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a tower cross-section with top-floor and corner units highlighted in the developer's inventory ledger, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The India-salary stress test names the real number.",
+          "description": "With Neel at ₹80L INR instead of USD, the ceiling dropped a full crore — the gap was named the 'conviction premium' and chosen in writing, which changed the family conversation entirely.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two budget ledger pages with a named ₹1 Cr gap bracket between them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Audit whose career the house is optimizing.",
+          "description": "Three of four shortlist decisions had silently favored Neel's office-at-home over Mahima's studio commute — the audit's tally, said out loud, moved the fourth project to the top.",
+          "imageSrc": "/journals/the-fiber-and-frangipani/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a career-audit tally sheet comparing two commute columns across four options, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "'Dual fiber available' on a brochure is as good as done"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "USD purchasing power is the honest budget"
+        },
+        {
+          "icon": "Building2",
+          "text": "The remote career's office comes first — obviously"
+        },
+        {
+          "icon": "Home",
+          "text": "The guest room can be whatever it becomes"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Wifi",
+          "text": "The photographed panel is the only document that counts"
+        },
+        {
+          "icon": "Scale",
+          "text": "The India-salary stress test names the real ceiling — and the gap is chosen, not drifted into"
+        },
+        {
+          "icon": "ClipboardList",
+          "text": "Load-bearing careers get load-bearing addresses — both of them"
+        },
+        {
+          "icon": "Calendar",
+          "text": "The grandparents' room is architecture — ground-floor access, attached bath, monthly visit"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Wifi",
+          "title": "Run the ISP verification before shortlisting",
+          "description": "Four of six buildings could have been eliminated in week one — the fiber-panel protocol should have been gate zero, not gate two."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Do the career audit before the first site visit",
+          "description": "Three decisions silently favored Neel's office — a month-one tally would have put Mahima's commute in the frame from the start."
+        },
+        {
+          "icon": "Scale",
+          "title": "Name the conviction premium in month one",
+          "description": "The ₹1 Cr gap was named in month five — writing it down earlier would have made every visit between feel less conflicted."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Spec the grandparents' room in the brief itself",
+          "description": "The room became real architecture in month six — putting 'grandparent-regular-visit spec' in the original needs card would have filtered projects sooner."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Mahima",
+          "avatar": "/journals/the-fiber-and-frangipani/mahima.png",
+          "text": "We came home for the grandparents and the toddler, and ended up buying twenty minutes closer to my studio. The audit changed the map."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The map was always going to change once the tally was said aloud. A house that fits two careers fits the family — that's the whole return, in one address.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for remote-work returnees",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Neel and Mahima photographing fiber panels, crossing out the villa-reel detour, tallying the career audit, and signing the Raintree deed with grandparent weekends on the calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For returnees buying on foreign savings and remote income, the edge is not the USD number — it's the verification discipline that outlasts it: fiber panels photographed, generator logs requested, and every rupee stress-tested against the India-salary reset. Name the conviction premium and choose it in writing; audit whose career each option optimizes and say the tally out loud. Neel and Mahima proved the house that fits both careers is the house that makes the return permanent.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "'Dual fiber available' survives about 40% of verification calls",
+          "body": "The building's actual ISP panel, photographed, is the only document that counts — six buildings' panels were captured from the riser; four were crossed out before a single site visit.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Top-floor and corner units were where the developer held negotiable stock",
+          "body": "In ready projects, the premium spec they wanted overlapped with the inventory builders most wanted to move — the premium unit and the negotiable price were the same unit.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The India-salary stress test produced a number ₹1 Cr below their USD-comfort budget",
+          "body": "They chose to pay the 'conviction premium' — but writing it down as a named, chosen risk changed the family conversation entirely.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The career-optimization audit was uncomfortable, and necessary",
+          "body": "Three of four shortlist decisions had silently favored Neel's office-at-home over Mahima's studio commute. The fourth project — twenty minutes closer to Indiranagar — moved to the top.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "The grandparents' room became architecture instead of intention",
+          "body": "Booked as a real spec — ground-floor-equivalent access, attached bath — rather than 'the guest room,' and the monthly Mysuru visit was calendared like school.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you returned (or are returning) with foreign savings and a remote job, let Riya build your repatriation roadmap — verified infrastructure, the two-ledger budget, and the career audit that rebalances the map.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the return date, the remote-payroll setup, the toddler's school timeline, and the corridor the grandparents' orbit requires.",
+          "imageSrc": "/journals/18/1.png",
+          "imagegenerationprompt": "A couple entering their return date and corridor into a smartphone app with two timezone clocks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya verifies fiber panels and power logs, runs the two-ledger budget — USD comfort versus INR resilience — and tallies the career audit.",
+          "imageSrc": "/journals/18/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide reviewing fiber-panel photos and a two-ledger budget beside a career-audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Fiber & Frangipani journal — infrastructure checklist, conviction-premium ledger, and career-audit template — is generated.",
+          "imageSrc": "/journals/18/3.png",
+          "imagegenerationprompt": "An open home search journal displaying an infrastructure checklist and two-ledger budget, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified ready and nearing-possession options on the specs that matter — fiber redundancy, power backup, soundproofable rooms, toddler density.",
+          "imageSrc": "/journals/18/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified returnee-family options with infrastructure ratings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Remote-Work Home Specs",
+          "description": "Fiber redundancy maps, power-backup audits, and soundproofing guides for the night-shift household.",
+          "icon": "Wifi"
+        },
+        {
+          "id": 2,
+          "title": "USD-INR Two-Ledger Budgeting",
+          "description": "Every rupee stress-tested against the salary-reset scenario, with the conviction premium named and chosen in writing.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The Career-Optimization Audit",
+          "description": "Commute math for both careers — so the house stops silently choosing whose life to optimize.",
+          "icon": "ClipboardList"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You returned (or are returning) with foreign savings and a remote job, and your requirements are inverted: space and infrastructure over commute.",
+        "Your household runs on two timezones, and the home must architecturally absorb that.",
+        "You stress-test every decision against the salary-reset scenario, quietly.",
+        "Grandparent proximity was the mission; the map keeps negotiating against it.",
+        "You call ISPs before sales offices.",
+        "One partner's career keeps getting optimized by default, and you've started auditing for it."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-return-executed",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Return Executed",
+      "desc": "Hennur rental becomes base camp; requirements inverted — space, fiber, power, air over commute. The return is done; the permanence isn't.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-isp-first",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: ISP-Before-Sales-Office",
+      "desc": "Buildings shortlisted by photographed fiber panels; 60% of 'dual ISP available' claims die on verification calls. The protocol is born.",
+      "icon": "Wifi",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-villa-reel-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Villa Reel",
+      "desc": "A gated-villa reel promising 'Cupertino vibes' — 4 km of red-earth approach road in the monsoon; the gimbal-less version of every NRI lesson. Parked.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-three-finalists",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Three Finalists",
+      "desc": "Raintree Boulevard (Hebbal park township) vs Nikoo Homes (Thanisandra scale) vs Purva Palm Beach (Hennur value) — career-audit sheet clipped on top.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-conviction-premium-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The Conviction-Premium Loop",
+      "desc": "The India-salary stress test names a ₹1 Cr gap; the career audit moves one option up for Mahima's studio run. USD comfort vs INR resilience, chosen in writing.",
+      "icon": "Scale",
+      "loopText": "2-Week Two-Ledger Loop — ₹1 Cr Gap Named & Chosen",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-raintree-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Raintree Close",
+      "desc": "Raintree Boulevard 4BHK-class unit closed within the USD-comfort band; grandparents' weekends calendared like school — architecture instead of intention.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}
