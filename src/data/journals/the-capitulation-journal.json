@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "PenLine",
-        "text": "Write the cap down on tab one — it's past-you doing present-you a favour when the showflat light is good"
+        "text": "Write the cap on tab one — past-you helping present-you"
       },
       {
         "icon": "IndianRupee",
-        "text": "The all-in number runs 31% over sticker — saying it aloud at every showflat horrified one sales head and clarified everything"
+        "text": "The all-in number runs 31% over sticker"
       },
       {
         "icon": "Sun",
-        "text": "Price the wobble in nouns — '₹40L for 40 minutes of seasonal light' ended the upgrade fantasy"
+        "text": "Price the wobble in nouns — '₹40L for 40 min of light'"
       }
     ],
-    "heroImage": "/journals/cover/16.jpg",
+    "heroImage": "/journals/cover/16.png",
     "heroTitle": "The Capitulation Journal"
   },
   "tabs": [
@@ -182,7 +182,7 @@
           "icon": "IndianRupee",
           "loopText": "All-In Cost Loop (Said Aloud, Every Visit)",
           "x": 540,
-          "y": 220,
+          "y": 100,
           "width": 190
         },
         {
@@ -192,8 +192,8 @@
           "title": "L4: School-Gravity Shortlist",
           "desc": "Kudlu–Haralur communities; Shriram Chirping Woods 3BHK leads — RWA financials disclosed in writing, on request.",
           "icon": "School",
-          "x": 760,
-          "y": 120,
+          "x": 860,
+          "y": 100,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "desc": "The better-light flat above cap: sun-path checked, '₹40L for 40 minutes of seasonal light' written into the cap tab. The wobble dies.",
           "icon": "Sun",
           "loopText": "2-Week Showflat Wobble — ₹40L/40min Ended It",
-          "x": 880,
-          "y": 320,
+          "x": 780,
+          "y": 420,
           "width": 200
         },
         {
@@ -215,8 +215,8 @@
           "title": "L6: The In-Cap Close",
           "desc": "Chirping Woods 3BHK inside the written cap; loan taken despite cash — the old thesis lives inside the new one; the 'I was wrong-ish' thread drafted pre-purchase.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 480,
+          "y": 420,
           "width": 200
         }
       ],
@@ -794,29 +794,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your equity corpus, the school's gravitational field, and the honest number you'll write at the top of tab one.",
-          "imageSrc": "/journals/16/1.png",
-          "imagegenerationprompt": "A professional man entering his price cap and school address into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya computes the true all-in cost of ownership versus continued renting near the school — opportunity cost included, no flattery.",
-          "imageSrc": "/journals/16/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a rent-vs-buy cost-of-ownership spreadsheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Capitulation journal — cap card, all-in decoder, and RWA-financials-in-writing checklist — is generated.",
-          "imageSrc": "/journals/16/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a written cap card and all-in cost decoder, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive verified OC-ready 3BHKs inside your cap, with each community's RWA financial health attached — not just the amenities.",
-          "imageSrc": "/journals/16/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified in-cap 3BHK suggestions with RWA financial health ratings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in his search",

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Landmark",
-        "text": "A 30-day no-decision rule is the cheapest insurance a windfall can buy"
+        "text": "A 30-day no-decision rule is windfall insurance"
       },
       {
         "icon": "MapPin",
-        "text": "Rent the dream neighbourhood before you buy it — due diligence on your own future"
+        "text": "Rent the dream neighbourhood before you buy it"
       },
       {
         "icon": "ShieldCheck",
-        "text": "Optionality is a defensible purchase; not every journey closes in nine months"
+        "text": "Optionality is a defensible purchase"
       }
     ],
-    "heroImage": "/journals/cover/11.jpg",
+    "heroImage": "/journals/cover/6.png",
     "heroTitle": "The ESOP Windfall"
   },
   "tabs": [
@@ -794,29 +794,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your windfall size, the corridors you browse at 1 am, and the plans your family and advisors are pushing.",
-          "imageSrc": "/journals/13/1.png",
-          "imagegenerationprompt": "A windfall buyer entering corpus amount and night-time browses into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya prices the fantasy",
           "description": "Riya turns ₹28–40K/sqft character listings and contradictory Plan A's into a spreadsheet that asks better questions.",
-          "imageSrc": "/journals/13/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a price-per-sqft spreadsheet and character-home listings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & reversibility map created",
           "description": "Your custom ESOP Windfall journal and a reversibility map — costs of changing your mind — are generated.",
-          "imageSrc": "/journals/13/3.png",
-          "imagegenerationprompt": "An open home search journal displaying structured tabs and a three-branch reversibility map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Optionality-first guidance",
           "description": "Receive rent-the-dream placements, exit-alumni interview prompts, and liquid-versus-roots frameworks that keep every door open.",
-          "imageSrc": "/journals/13/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing rent-the-dream suggestions and a keep-it-liquid framework, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

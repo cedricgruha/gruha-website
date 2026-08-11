@@ -13,15 +13,15 @@
     "learnings": [
       {
         "icon": "Video",
-        "text": "12-point video call protocol beats unguided site visits"
+        "text": "12-point video call protocol beats unguided visits"
       },
       {
         "icon": "ShieldCheck",
-        "text": "Verify NRE repatriation & consulate POA before paying booking fees"
+        "text": "Verify NRE POA before paying booking fees"
       },
       {
         "icon": "FileText",
-        "text": "Top-tier brand developers reduce remote execution & title risk"
+        "text": "Top-tier brands reduce remote execution risk"
       }
     ],
     "heroImage": "/journals/cover/3.png",
@@ -415,7 +415,7 @@
           "projects": 4,
           "siteVisits": 6,
           "latlong": {
-            "lat": 12.971480,
+            "lat": 12.97148,
             "lng": 77.737086
           },
           "imageSrc": "/journals/the-3000-miles-home-journal/whitefield.png",
@@ -427,7 +427,7 @@
           "projects": 3,
           "siteVisits": 4,
           "latlong": {
-            "lat": 13.020750,
+            "lat": 13.02075,
             "lng": 77.629932
           },
           "imageSrc": "/journals/the-3000-miles-home-journal/hennur.png",
@@ -813,14 +813,14 @@
           "title": "You share",
           "description": "Share your NRE savings, preferred corridors, and return timeline.",
           "imageSrc": "/journals/4/1.png",
-          "imagegenerationprompt": "A homebuyer typing NRE corpus budget and Bengaluru corridor choices into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya evaluates brand developer delivery records, POA clauses, and NRE TDS compliance.",
           "imageSrc": "/journals/4/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing consulate POA attestation seals, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
@@ -834,7 +834,7 @@
           "title": "Actionable recommendations",
           "description": "Receive remote-verified brand project suggestions matching your return deadline.",
           "imageSrc": "/journals/4/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified NRI project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

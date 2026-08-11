@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Leaf",
-        "text": "Green communities trade on networks, not portals — he joined two residents' sustainability groups as a volunteer auditor: genuine, and the best waitlist position in the city"
+        "text": "Green communities trade on networks, not portals"
       },
       {
         "icon": "FileCheck2",
-        "text": "Performance data before floor plans — the communities that share their electricity bills proudly are the real ones; a mood board is not a spec sheet"
+        "text": "Performance bills before floor plans"
       },
       {
         "icon": "Zap",
-        "text": "The bandwidth audit decided it — 11 hrs/week × 18 months of self-build decisions vs the startup's same 18 months; conviction can be phased: Plan 2031"
+        "text": "Conviction can be phased: Plan 2031"
       }
     ],
-    "heroImage": "/journals/cover/36.jpg",
+    "heroImage": "/journals/cover/36.png",
     "heroTitle": "The Mud, Sun & Slab Journal"
   },
   "tabs": [
@@ -786,29 +786,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your sustainability thresholds — the bills you'd want to see, the corridors you can accept, the bandwidth you actually have for a build.",
-          "imageSrc": "/journals/36/1.png",
-          "imagegenerationprompt": "A person entering sustainability thresholds into a smartphone app with a leaf and solar-panel icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya audits performance claims against real utility data, maps the green-community networks, and runs the bandwidth audit before any site talk.",
-          "imageSrc": "/journals/36/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing near-zero electricity bills beside a sustainability-group membership plan and a bandwidth audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Mud, Sun & Slab journal — performance-data checklist, network-entry plan, and a phased conviction roadmap — is generated.",
-          "imageSrc": "/journals/36/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a performance-data checklist and a phased conviction roadmap, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the verified green-community shortlist and the hold-the-dream site options, each with its data and its bandwidth price.",
-          "imageSrc": "/journals/36/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing green-community shortlist options with utility-bill and solar-orientation badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

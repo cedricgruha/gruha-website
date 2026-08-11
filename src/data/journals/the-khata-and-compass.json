@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "LandPlot",
-        "text": "A-khata or DC-converted only, EC traced back 30 years, before any tender-token"
+        "text": "A-khata or DC-converted only, EC traced 30 years"
       },
       {
         "icon": "Search",
-        "text": "The ₹15K private survey is the cheapest report in real estate — it's the one before registration"
+        "text": "The ₹15K private survey runs before registration"
       },
       {
         "icon": "TrendingUp",
-        "text": "Launch-day primary pricing runs 10–15% below month-six broker pricing — that's where the edge lives"
+        "text": "Launch-day pricing runs 10–15% under month-six"
       }
     ],
-    "heroImage": "/journals/cover/10.jpg",
+    "heroImage": "/journals/cover/10.png",
     "heroTitle": "The Khata & Compass Journal"
   },
   "tabs": [
@@ -204,9 +204,9 @@
           "desc": "Private surveyor (₹15K) finds a 3-ft boundary discrepancy on his favourite site; the deal dies at the sketch stage.",
           "icon": "Undo2",
           "loopText": "S4 → S3 Regression (Boundary Kill)",
-          "x": 620,
+          "x": 720,
           "y": 420,
-          "width": 190
+          "width": 290
         },
         {
           "id": "l6-launch-allotment",
@@ -215,7 +215,7 @@
           "title": "L6: BIAPPA Launch Allotment",
           "desc": "1,500 sqft secured at launch — first-allotment pricing, a corner pick, and khata issuance tracked from day one.",
           "icon": "FileCheck",
-          "x": 360,
+          "x": 460,
           "y": 420,
           "width": 180
         },
@@ -227,7 +227,7 @@
           "desc": "Fencing, painted boundary boards, a neighbour network — and the wife's home-upgrade conversation finally held.",
           "icon": "Fence",
           "loopText": "S6 Hold — Land Held, Not Keys",
-          "x": 120,
+          "x": 220,
           "y": 420,
           "width": 180
         }
@@ -680,29 +680,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your plot budget, the corridors that pull you — Doddaballapur–Devanahalli or the Nandi foothills — and what you can honestly afford to hold till year fifteen.",
-          "imageSrc": "/journals/the-khata-and-compass/step-1.png",
-          "imagegenerationprompt": "A plot buyer entering a land budget and corridor preferences into a smartphone app beside a thesis notebook with GPS-pinned boundary photos, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone-screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya filters infrastructure, not romance",
           "description": "Riya separates tendered infrastructure from announced PowerPoints, and flags BIAPPA/BDA-approved launches where first-allotment pricing is still available.",
-          "imageSrc": "/journals/the-khata-and-compass/step-2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing an infrastructure map with tendered markers separated from proposed markers on a plotted-launch calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tendered-marker accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Verification gated before love",
           "description": "A-khata or DC-conversion, a 30-year EC, and a ₹15K private survey become your checklist before any site wins your heart.",
-          "imageSrc": "/journals/the-khata-and-compass/step-3.png",
-          "imagegenerationprompt": "An open home search journal showing an A-khata, a 30-year EC chain, and a surveyor's red-hatched sketch beside a boundary-stone photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 hatch accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Launch-stage plot options",
           "description": "Receive launch-morning price sheets for approved layouts, sized against your own base rate — and a position that leaves room for the family's home.",
-          "imageSrc": "/journals/the-khata-and-compass/step-4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing BIAPPA-approved plot launches with launch price sheets and corner-plot badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 price-sheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in his search",

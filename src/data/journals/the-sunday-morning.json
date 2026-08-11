@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Stethoscope",
-        "text": "The nurse-specific home-loan scheme at bank two shaved 0.35% off the rate — every healthcare household should hunt the subsidy lines, not just the rate board"
+        "text": "Nurse-scheme loans shave the rate — hunt subsidy lines"
       },
       {
         "icon": "Moon",
-        "text": "Day-sleep due diligence is real — buildings auditioned at 10 am hear the water pumps, school vans, and a temple loudspeaker no brochure mentions"
+        "text": "Day-sleep due diligence hears what brochures omit"
       },
       {
         "icon": "ClipboardList",
-        "text": "The remittance line (₹15K, first position) is budgeted before the EMI — love and expectations in the same currency, the whole plan built under it"
+        "text": "The remittance line is budgeted before the EMI"
       }
     ],
-    "heroImage": "/journals/cover/28.jpg",
+    "heroImage": "/journals/cover/28.png",
     "heroTitle": "The Sunday Morning Journal"
   },
   "tabs": [
@@ -819,29 +819,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the hospital and workplace addresses, the shift pattern, the remittance commitment, and the school and parish anchors.",
-          "imageSrc": "/journals/28/1.png",
-          "imagegenerationprompt": "A nurse and her husband entering their shift pattern and hospital addresses into a smartphone app with a moon icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya compares the healthcare-worker loan schemes, runs the one-bad-month stress test, and maps the belt against the hospital, church, and schools.",
-          "imageSrc": "/journals/28/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing two bank rate letters beside a belt map and a one-bad-month stress test, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Sunday Morning journal — remittance-first budget, day-sleep audit, and slab-payment tracker — is generated.",
-          "imageSrc": "/journals/28/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a remittance-first budget and a slab-payment tracker, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive RERA-registered CLP 2BHKs under budget, mapped against the hospital, the church, and affordable schools.",
-          "imageSrc": "/journals/28/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing CLP 2BHK suggestions with hospital and church proximity badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

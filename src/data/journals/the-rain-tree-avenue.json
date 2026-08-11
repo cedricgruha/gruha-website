@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Church",
-        "text": "The map is measured in lanes and hymns — the triangle boundary (walkable to St. Andrew's and Thom's) is the only corridor that exists"
+        "text": "The map is lanes and hymns — the triangle boundary"
       },
       {
         "icon": "Scale",
-        "text": "Old low-rise due diligence has its own physics — the repair history divided by eight owners is the real price of 'characterful'"
+        "text": "Repair history ÷ eight owners is the real price"
       },
       {
         "icon": "ClipboardList",
-        "text": "Some funds are explained once — the ₹55L dignity fund got its sentence, a ₹10L augmentation, and then was never discussed again"
+        "text": "Some funds are explained once — the ₹55L dignity fund"
       }
     ],
-    "heroImage": "/journals/cover/32.jpg",
+    "heroImage": "/journals/cover/32.png",
     "heroTitle": "The Rain Tree Avenue Journal"
   },
   "tabs": [
@@ -818,29 +818,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the boundaries that matter (the church, the bakery, the tribe), the floor and fabric rules, and the budget the sale provides.",
-          "imageSrc": "/journals/32/1.png",
-          "imagegenerationprompt": "An elegant older couple entering their heritage-quarter boundaries into a smartphone app with a church-spire icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the boutique inventory watch, runs the aging-building due-diligence pack, and models the old-vs-redevelopment comparison with the next fifteen years of knees.",
-          "imageSrc": "/journals/32/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a hand-inked building map beside a repair-history ledger and a redevelopment model, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Rain Tree Avenue journal — living map, due-diligence pack, and redevelopment-watch alerts — is generated.",
-          "imageSrc": "/journals/32/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a building map and an aging-building due-diligence checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive boutique low-rise listings and redevelopment launches the week they surface — with the due-diligence pack attached for each.",
-          "imageSrc": "/journals/32/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing boutique low-rise alerts with due-diligence badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

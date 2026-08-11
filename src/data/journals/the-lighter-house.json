@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Scale",
-        "text": "The plot is the value; the building is 'free' — three JV offers evaluated and declined, the clean exit winning on simplicity per remaining decade"
+        "text": "The plot is the value; the building is 'free'"
       },
       {
         "icon": "Sprout",
-        "text": "The garden triage as inheritance — sixty plants to twelve, forty-eight gifted to named friends with visits attached, grief converted into a farewell tour"
+        "text": "Garden triage: sixty to twelve, gifted with visits"
       },
       {
         "icon": "Plane",
-        "text": "Book the first trip before the sale registers — the lock-and-leave freedom needs a first use or it becomes another empty room"
+        "text": "Book the first trip before the sale registers"
       }
     ],
-    "heroImage": "/journals/cover/29.jpg",
+    "heroImage": "/journals/cover/29.png",
     "heroTitle": "The Lighter House Journal"
   },
   "tabs": [
@@ -808,29 +808,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the house's story and value, the orbit you need to stay in, the children's geography, and the longevity math of your family.",
-          "imageSrc": "/journals/29/1.png",
-          "imagegenerationprompt": "An older couple entering their house details and orbit preferences into a smartphone app with a small key icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya prices the sale options at current land values, audits candidates against the senior-friendly checklist, and runs the longevity math at 94.",
-          "imageSrc": "/journals/29/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a plot-value valuation sheet beside a senior-friendly audit checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Lighter House journal — sale-option matrix, senior-friendly audit, and liberated-corpus plan — is generated.",
-          "imageSrc": "/journals/29/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a sale-option matrix and a senior-friendly audit, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive ready 2BHKs in your orbit that pass the audit — lifts, baths, age-mix, walkability — with the corpus structure attached.",
-          "imageSrc": "/journals/29/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing senior-audited 2BHK suggestions with lift-redundancy and age-mix badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "FileCheck2",
-        "text": "Demand letters follow the architect's certificate, not the calendar — and the certificate can run ahead of your tower's actual concrete; verification is the buyer's unpaid job"
+        "text": "Demand letters follow the certificate, not the calendar"
       },
       {
         "icon": "Scale",
-        "text": "Pre-EMI versus full-EMI is a real choice with real math — pre-EMI eases the squeeze but builds no principal; the month-8 switch bought possession-day equity"
+        "text": "Pre-EMI eases the squeeze but buys no principal"
       },
       {
         "icon": "TrendingUp",
-        "text": "The paper gain is real and unspendable — comparable resales at +20% over booking fund nothing until OC, but reframed the grind: vesting, not waiting"
+        "text": "The paper gain is real and unspendable — vesting"
       }
     ],
-    "heroImage": "/journals/cover/38.jpg",
+    "heroImage": "/journals/cover/38.png",
     "heroTitle": "The Slab by Slab Journal"
   },
   "tabs": [
@@ -815,29 +815,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your project's RERA details, your slab progress, your parallel-payment numbers — and the possession date you're honestly budgeting for.",
-          "imageSrc": "/journals/38/1.png",
-          "imagegenerationprompt": "A person entering their project's RERA details and slab progress into a smartphone app with a construction-crane icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya flags divergences between certified progress and the filed schedule, audits the CLP cash flow, and drafts the escalation letter when the letter runs ahead of the building.",
-          "imageSrc": "/journals/38/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide comparing a demand letter against a dated slab photograph beside a CLP cash-flow audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Slab by Slab journal — verification rituals, buffer math, and possession-prep playbooks — is generated.",
-          "imageSrc": "/journals/38/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a slab-verification checklist and a buffer-to-RERA-plus-three chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the slab-by-slab payment plan to your realistic possession date, the group-ask drafts, and the snag framework for possession day.",
-          "imageSrc": "/journals/38/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing a slab-by-slab payment plan and a snag-framework checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

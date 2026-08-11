@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Timer",
-        "text": "The schools premium cliffs at the 12–15 minute drive line, not at a distance — the 11-minute community at ₹2,400/sqft less was the actual find"
+        "text": "The school premium cliffs at the 12–15 min drive"
       },
       {
         "icon": "GraduationCap",
-        "text": "Selling and buying in the same market is a hedge, not a double exposure — once they saw it as a swap, the vertigo stopped"
+        "text": "Same-market sale-buy is a swap, not double exposure"
       },
       {
         "icon": "Bell",
-        "text": "Ask the school counselor what families regret — buying for the school and forgetting the child changes; the houses that work have a life beyond the gate"
+        "text": "Ask the counselor what families regret — not the gate"
       }
     ],
-    "heroImage": "/journals/cover/21.jpg",
+    "heroImage": "/journals/cover/21.png",
     "heroTitle": "The 8:10 AM Bell Journal"
   },
   "tabs": [
@@ -807,29 +807,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the school's address, the bell time, your current home's position, and the second-child question if it's pending.",
-          "imageSrc": "/journals/21/1.png",
-          "imagegenerationprompt": "A parent entering the school address and bell time into a smartphone app with a map pin, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya runs the 7:50 am drive census on each candidate, computes the schools premium, and models your sell-and-buy as one swap with bridging risk flagged.",
-          "imageSrc": "/journals/21/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a bell-hour drive log and a premium-vs-drive-time chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom 8:10 AM Bell journal — drive-census template, premium calculator, and chain-choreography checklist — is generated.",
-          "imageSrc": "/journals/21/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a drive-census template and premium calculator, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive nearing-possession projects inside the measured 12-minute radius, with price sheets and family-profile signals for each.",
-          "imageSrc": "/journals/21/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing school-radius project suggestions with drive-time badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

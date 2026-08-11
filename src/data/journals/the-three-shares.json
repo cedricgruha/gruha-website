@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Coffee",
-        "text": "The no-spouses meaning-call unlocked in three hours what six years of avoidance couldn't — 'what does the house mean to you' before any numbers"
+        "text": "The no-spouses call unlocked six years in 3 hours"
       },
       {
         "icon": "ClipboardList",
-        "text": "The unasked question is the only one that can break a family — the caretaker ledger (₹18L, off the top, documented) turned the asked question into an affordable one"
+        "text": "The unasked question is the family-breaker — ask it"
       },
       {
         "icon": "DoorOpen",
-        "text": "The objects were allocated before the percentages — the door to Ramesh's flat, the tulsi katte to Hubballi, the photographs commissioned: the inheritance was divisible after all"
+        "text": "Allocate the objects before the percentages"
       }
     ],
-    "heroImage": "/journals/cover/34.jpg",
+    "heroImage": "/journals/cover/34.png",
     "heroTitle": "The Three Shares Journal"
   },
   "tabs": [
@@ -822,29 +822,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the property, the siblings' geographies, the caretaker situation, and the builder's window if one is ticking.",
-          "imageSrc": "/journals/34/1.png",
-          "imagegenerationprompt": "Three siblings entering their inherited property details into a shared app with three timezone clocks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya models the three options at current values, sequences the meaning-call agenda, and drafts the caretaker-ledger line for the CA.",
-          "imageSrc": "/journals/34/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a three-option model beside a no-spouses call agenda and a ledger draft, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Three Shares journal — options model, meaning-call agenda, and object-allocation list — is generated.",
-          "imageSrc": "/journals/34/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a three-options model and an object-allocation list, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the sale-vs-JD-vs-buyout model with capital gains and NRI tax treatment per sibling, and the JD diligence pack.",
-          "imageSrc": "/journals/34/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing the three inheritance options with per-sibling tax treatments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

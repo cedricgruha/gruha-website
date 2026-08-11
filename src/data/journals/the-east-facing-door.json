@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Compass",
-        "text": "Launch-stage primary buying inverts the vaastu buyer's problem — selection from a full unit matrix instead of hunting a 15% resale subset"
+        "text": "Launch buying inverts the vaastu problem — full matrix"
       },
       {
         "icon": "Eye",
-        "text": "'100% vaastu-compliant' in a brochure usually means door direction — the consultant's ₹15K caught a northeast kitchen, the fee paying for itself four times"
+        "text": "'100% vaastu' usually means door direction — verify"
       },
       {
         "icon": "Music2",
-        "text": "The unbrochured requirement: forty students of veena and vocal found their answer in floor-plan geometry — bedrooms buffered by the kitchen core"
+        "text": "Bedrooms buffered by the kitchen core"
       }
     ],
-    "heroImage": "/journals/cover/24.jpg",
+    "heroImage": "/journals/cover/24.png",
     "heroTitle": "The East-Facing Door Journal"
   },
   "tabs": [
@@ -807,29 +807,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your ranked requirements 1–8, the belt you'll accept, the budget, and the consultant's verdict history if you have one.",
-          "imageSrc": "/journals/24/1.png",
-          "imagegenerationprompt": "A couple entering their ranked vaastu requirements into a smartphone app with a compass icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya flags launch matrices the week price sheets open, prices each requirement in your belt, and routes floor plans past your consultant's eye.",
-          "imageSrc": "/journals/24/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a launch unit matrix beside a floor-plan evaluation with a compass, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom East-Facing Door journal — ranked-requirements decoder, premium-pricing table, and the refundable-EOI clause — is generated.",
-          "imageSrc": "/journals/24/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a ranked-requirements list and a unit-matrix tracker, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive launch alerts with east/north-facing SE-kitchen units flagged before they sell, and floor-plan evaluations against your ranked list.",
-          "imageSrc": "/journals/24/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing launch matrix alerts with vaastu-compliant units flagged, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

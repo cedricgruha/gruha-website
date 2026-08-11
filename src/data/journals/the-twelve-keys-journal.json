@@ -22,15 +22,15 @@
     "learnings": [
       {
         "icon": "TrendingUp",
-        "text": "Underwrite net-yield at 7%+ post-OTA, housekeeping, and maintenance fees"
+        "text": "Underwrite net-yield at 7%+ post-OTA and fees"
       },
       {
         "icon": "ShieldCheck",
-        "text": "Audit RWA bye-laws and last 3 AGM minutes before submitting token advance"
+        "text": "Audit bye-laws and AGM minutes before the token"
       },
       {
         "icon": "Layers",
-        "text": "Split inventory across ORR and Manyata corridors to cut hybrid-work concentration risk"
+        "text": "Split inventory across corridors to cut risk"
       }
     ]
   },
@@ -46,8 +46,8 @@
         "Yield-Focused",
         "Decisive"
       ],
-      "avatar": "/journals/priyanka.png",
-      "image": "/journals/priyanka.png",
+      "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+      "image": "/journals/the-twelve-keys-journal/priyanka.png",
       "imagegenerationprompt": "A modern vector illustration of priyanka bhat, a confident 35-year-old Indian female entrepreneur with styled short dark hair, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
     }
   ],
@@ -100,8 +100,8 @@
             "Yield-Focused",
             "Decisive"
           ],
-          "avatar": "/journals/priyanka.png",
-          "image": "/journals/priyanka.png",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "image": "/journals/the-twelve-keys-journal/priyanka.png",
           "imagegenerationprompt": "A modern vector illustration of priyanka bhat avatar headshot with a confident warm smile, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }
       ],
@@ -336,7 +336,7 @@
       "chatMessages": [
         {
           "sender": "Priyanka",
-          "avatar": "/journals/priyanka.png",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
           "text": "Unit's perfect, price is workable — and yesterday the association WhatsApp starts discussing a short-stay ban. Draft circular only, but still. Simply my luck."
         },
         {
@@ -346,7 +346,7 @@
         },
         {
           "sender": "Priyanka",
-          "avatar": "/journals/priyanka.png",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
           "text": "The bye-law. Unit I can furnish in three weeks, marre. A hostile AGM I can't renovate."
         },
         {
@@ -356,7 +356,7 @@
         },
         {
           "sender": "Priyanka",
-          "avatar": "/journals/priyanka.png",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
           "text": "Done. Send the minutes. And Riya — add a column. \"Number of aunties on the committee who smiled at me.\" Don't laugh, it correlates."
         },
         {
@@ -715,28 +715,28 @@
           "title": "You share",
           "description": "Share your capital, target net yields, corridor preferences, and operating criteria.",
           "imageSrc": "/journals/4/1.png",
-          "imagegenerationprompt": "A modern vector illustration of a micro-stay operator typing occupancy targets into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya listens",
           "description": "Riya evaluates RWA bye-laws, developer inventory, and tech park travel demand.",
           "imageSrc": "/journals/4/2.png",
-          "imagegenerationprompt": "A modern vector illustration of Riya the AI guide sitting thoughtfully reviewing property AGM minutes and yield charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal created",
           "description": "Your custom micro-stay operator journal and bye-law vetting playbook are generated.",
           "imageSrc": "/journals/4/3.png",
-          "imagegenerationprompt": "A modern vector illustration of an open operator journal displaying yield metrics and micro-market maps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Better matches",
           "description": "Receive verified ready studio recommendations matching your 7%+ net yield gate.",
           "imageSrc": "/journals/4/4.png",
-          "imagegenerationprompt": "A modern vector illustration of a smartphone screen showing verified short-stay tolerant studio suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in her search",
@@ -761,7 +761,7 @@
       "ctaDescription": "Let Riya understand your operating goals and build a personalized home search journal.",
       "ctaButtonText": "Start your journal",
       "ctaAdaptButtonText": "Adapt this journal",
-      "ctaCharacterImage": "/journals/priyanka.png",
+      "ctaCharacterImage": "/journals/the-twelve-keys-journal/priyanka.png",
       "ctaBadgeText": "Real Estate Companion"
     }
   ]

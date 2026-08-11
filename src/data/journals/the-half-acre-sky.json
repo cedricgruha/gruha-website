@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Calendar",
-        "text": "Audit your real free weekends before you shop — the number that scares you is your usage forecast"
+        "text": "Audit your real free weekends before you shop"
       },
       {
         "icon": "Bug",
-        "text": "In managed farms the land rarely fails; the management company often does — check year-three usage"
+        "text": "The management company fails more than the land"
       },
       {
         "icon": "Trees",
-        "text": "Rent the dream before you buy it — a borrowed weekend corrects more than any reel"
+        "text": "Rent the dream before you buy it"
       }
     ],
-    "heroImage": "/journals/cover/13.jpg",
+    "heroImage": "/journals/cover/8.png",
     "heroTitle": "The Half-Acre Sky Journal"
   },
   "tabs": [
@@ -836,29 +836,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your budget cap, the weekends you actually have free, and the corridors — Kanakapura Road or the Doddaballapur arc — that pull you.",
-          "imageSrc": "/journals/14/1.png",
-          "imagegenerationprompt": "A weekend-farm dreamer entering a budget cap and a circled-free-weekends calendar into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone-screen calendar accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya audits the calendar",
           "description": "Riya turns real free weekends and farm-operator dossiers into an honest usage forecast, not a brochure.",
-          "imageSrc": "/journals/14/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a wall calendar and an operator's year-three owner photos, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 calendar-circle accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Water & title checks written down",
           "description": "Borewell records by taluk, gram thana khata and 'what do I own?' — title, structure, exit — become your checklist before any sapling.",
-          "imageSrc": "/journals/14/3.png",
-          "imagegenerationprompt": "An open home search journal showing borewell records by taluk and an ownership-structure checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 checklist-tick accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Rent-first guidance",
           "description": "Receive a rent-a-friend's-farm weekend test and operator year-three questions that keep the dream honest before the money moves.",
-          "imageSrc": "/journals/14/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing rent-first weekend suggestions and operator year-three usage questions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion-badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

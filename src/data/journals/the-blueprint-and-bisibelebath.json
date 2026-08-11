@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "LayoutGrid",
-        "text": "Layout occupancy is destiny — the 40%-built filter eliminated the cheapest options and every future regret at once"
+        "text": "Layout occupancy is destiny — 40%-built filter wins"
       },
       {
         "icon": "ChartLine",
-        "text": "Buy the site at the layout's launch (primary, from the developer) — 9% cheaper and three months cleaner on khata than a plot-flipper"
+        "text": "Buy at the layout's launch — 9% cheaper on khata"
       },
       {
         "icon": "Search",
-        "text": "The ₹18K soil test before registration is the cheapest report in real estate — it dodged a ₹7L foundation surprise"
+        "text": "The ₹18K soil test dodged a ₹7L foundation surprise"
       }
     ],
-    "heroImage": "/journals/cover/12.jpg",
+    "heroImage": "/journals/cover/12.png",
     "heroTitle": "The Blueprint & Bisibelebath Journal"
   },
   "tabs": [
@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The Khata-Costume Layout",
           "desc": "A 'designer layout' with impossible renders and a gram-panchayat khata wearing A-khata clothes — Tania reads the sanction plan herself; parked.",
           "icon": "Eye",
-          "x": 620,
-          "y": 220,
+          "x": 600,
+          "y": 120,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: Two Finalists",
           "desc": "30x40 near Hennur's action vs 40x60 where autos hesitate — the courtyard wants one, the social life the other.",
           "icon": "MapPin",
-          "x": 420,
-          "y": 340,
+          "x": 220,
+          "y": 380,
           "width": 180
         },
         {
@@ -217,8 +217,8 @@
           "desc": "Soil test (₹18K) on the favourite returns weak bearing strata — a ₹7L foundation surprise dodged; back to finalist two.",
           "icon": "Undo2",
           "loopText": "S4 → S3 Regression (Weak Bearing Strata)",
-          "x": 700,
-          "y": 340,
+          "x": 580,
+          "y": 380,
           "width": 190
         },
         {
@@ -228,8 +228,8 @@
           "title": "L6: The Launch-Day Primary Buy",
           "desc": "30x40 bought primary from the layout developer at launch — 9% cheaper than the flipper's resale next door; walk-away card unused, kept as a bookmark.",
           "icon": "FileCheck",
-          "x": 900,
-          "y": 220,
+          "x": 850,
+          "y": 380,
           "width": 190
         },
         {
@@ -240,8 +240,8 @@
           "desc": "Contractor vetting begins; the marriage stress-test scheduled with three pre-authorized 'small changes', each priced above the future build.",
           "icon": "Wrench",
           "loopText": "S6 18-Month Build — Change-Orders Pre-Priced",
-          "x": 900,
-          "y": 60,
+          "x": 800,
+          "y": 90,
           "width": 190
         }
       ],
@@ -478,7 +478,7 @@
       ],
       "filtersFooterLabel": "They searched for land worth designing on, not just the cheapest square foot — walk-away number written at breakfast, obeyed at the table.",
       "insightTitle": "What I noticed while we were searching",
-      "insightDescription": "\u201cInstagram feeds the dream; the sanction plan feeds the decision. Tania and Rohan know self-building is a contact sport — material swings, the contractor's nephew, the BWSSB saga — and they're walking in anyway, with a contingency line Tania keeps trying to raid for skylights. Their edge is that they'd rather fight their contractor than live in someone's template.”",
+      "insightDescription": "“Instagram feeds the dream; the sanction plan feeds the decision. Tania and Rohan know self-building is a contact sport — material swings, the contractor's nephew, the BWSSB saga — and they're walking in anyway, with a contingency line Tania keeps trying to raid for skylights. Their edge is that they'd rather fight their contractor than live in someone's template.”",
       "insightImage": "/journals/advisor.png",
       "imagegenerationprompt": "A digital portrait photo of Riya AI real estate guide in an 80% greyscale monochrome outfit with a Warm Coral #FF8A65 digital tablet accent, Scandinavian minimalism, soft ambient studio rim lighting, clean pearl white background."
     },
@@ -821,29 +821,29 @@
           "id": 1,
           "title": "You",
           "description": "Share your land budget, the corridors you can stomach, and your walk-away number.",
-          "imageSrc": "/journals/the-blueprint-and-bisibelebath/step-1.png",
-          "imagegenerationprompt": "A vector illustration of a homebuyer sketching a floor plan in a notebook in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pencil accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya listens",
           "description": "Riya filters for launching layouts with 40%+ occupancy, clean khata, and soil worth designing on.",
-          "imageSrc": "/journals/the-blueprint-and-bisibelebath/step-2.png",
-          "imagegenerationprompt": "A vector illustration of Riya the AI guide reviewing layout plans and a soil report in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal created",
           "description": "Your personalized self-build journal grows with the design, the budget, and the contractor vetting.",
-          "imageSrc": "/journals/the-blueprint-and-bisibelebath/step-3.png",
-          "imagegenerationprompt": "A 3D vector illustration of an open design-and-budget journal in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 bookmark ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Clear recommendations",
           "description": "Receive verified site picks, a milestone-linked build budget, and the contingency line your skylights can raid.",
-          "imageSrc": "/journals/the-blueprint-and-bisibelebath/step-4.png",
-          "imagegenerationprompt": "A 3D vector illustration of verified plot recommendation cards with a blueprint overlay in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 star badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What a self-build journal gets you",

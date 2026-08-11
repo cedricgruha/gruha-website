@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Map",
-        "text": "The public data stack — flood maps, lake buffers, valley lines — eliminates 60% of inventory in an afternoon; the commissioned hydrology report is for finalists, not the funnel"
+        "text": "Public data greys out 60% of inventory in an afternoon"
       },
       {
         "icon": "CloudRain",
-        "text": "The monsoon-visit protocol re-ranks shortlists — one 'high ground' approach road revealed itself as a valley's drain; access floods are still floods"
+        "text": "The monsoon-visit protocol re-ranks shortlists"
       },
       {
         "icon": "Sun",
-        "text": "The joy rule as the final gate — any property that passes the maps gets evaluated on light and life like a normal home: buying high ground, not a bunker"
+        "text": "The joy rule: high ground, not a bunker"
       }
     ],
-    "heroImage": "/journals/cover/35.jpg",
+    "heroImage": "/journals/cover/35.png",
     "heroTitle": "The High Ground Journal"
   },
   "tabs": [
@@ -799,29 +799,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the corridors you can accept, the water-security thresholds, the budget — and whether joy gets a vote in your process.",
-          "imageSrc": "/journals/35/1.png",
-          "imagegenerationprompt": "A couple entering their water-security thresholds into a smartphone app with a contour-map icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya screens under-construction projects against the flood-vulnerability stack, structures the hydrology commissioning, and builds the monsoon site-visit protocol.",
-          "imageSrc": "/journals/35/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a layer-stack map beside a hydrology report commissioning brief and a monsoon-visit checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom High Ground journal — layer-stack screen, hydrology-commissioning pack, and monsoon-protocol checklist — is generated.",
-          "imageSrc": "/journals/35/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a layer-stack screen and monsoon-protocol checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the high-ground shortlist with hydrology status, STP logs, and monsoon track records for each candidate.",
-          "imageSrc": "/journals/35/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing high-ground shortlist options with hydrology and STP-log badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

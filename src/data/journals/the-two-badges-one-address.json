@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Footprints",
-        "text": "Measure the 800m walk on foot with an app — '5 minutes from metro' in a brochure means 5 minutes by drone"
+        "text": "Measure the 800m walk on foot — '5 min' is drone-time"
       },
       {
         "icon": "AudioLines",
-        "text": "A 6:30 pm open-window decibel test beats four sales-office hours"
+        "text": "A 6:30 pm open-window decibel test beats sales hours"
       },
       {
         "icon": "Zap",
-        "text": "Verify in parallel, not in series — over-verification is a market price, and they paid it once"
+        "text": "Verify in parallel, not in series"
       }
     ],
-    "heroImage": "/journals/cover/13.jpg",
+    "heroImage": "/journals/cover/13.png",
     "heroTitle": "The Two Badges, One Address Journal"
   },
   "tabs": [
@@ -171,7 +171,7 @@
           "title": "L1: The Measured-Walk Epiphany",
           "desc": "Siddharth's 55 stationary minutes near Ibblur junction meets Ananya's concentric walking-rings map — the thesis is born: buy within 800 measured metres of a confirmed station.",
           "icon": "Route",
-          "x": 120,
+          "x": 100,
           "y": 120,
           "width": 180
         },
@@ -182,7 +182,7 @@
           "title": "L2: Ring-by-Ring Audits",
           "desc": "Every shortlisted tower visited at 9 am and 6:30 pm with a decibel app and a stopwatch — the map's concentric rings graded by measured walk and real noise.",
           "icon": "AudioLines",
-          "x": 360,
+          "x": 320,
           "y": 120,
           "width": 180
         },
@@ -193,9 +193,9 @@
           "title": "L3 DETOUR: The Neopolis Hoarding",
           "desc": "Sobha Neopolis' Greek renders and a possession date in 2027 fail the 'trains before keys' thesis — parked with respect from the car window.",
           "icon": "Eye",
-          "x": 620,
-          "y": 220,
-          "width": 190
+          "x": 590,
+          "y": 120,
+          "width": 180
         },
         {
           "id": "l4-dream-acres-leads",
@@ -204,33 +204,33 @@
           "title": "L4: Dream Acres Leads",
           "desc": "Ready-stock shortlist firms: Sobha Dream Acres (Balagere) leads — measured 800m-class walk, established community, tenant liquidity for the fallback model.",
           "icon": "Building2",
-          "x": 420,
-          "y": 340,
-          "width": 190
+          "x": 860,
+          "y": 90,
+          "width": 180
         },
         {
           "id": "l5-lost-to-speed",
-          "stage": "S4",
+          "stage": "S5",
           "type": "bounce",
           "targetNodeId": "l4-dream-acres-leads",
           "title": "L5 BOUNCE: Lost to Speed",
           "desc": "The east-facing unit is sold while they schedule a third noise-test — someone with worse data and better speed pays token after ONE visit. Over-verification priced.",
           "icon": "Timer",
           "loopText": "S5 → S3 Bounce (Lost to a Faster Buyer)",
-          "x": 700,
-          "y": 340,
-          "width": 190
+          "x": 620,
+          "y": 420,
+          "width": 290
         },
         {
           "id": "l6-parallel-protocol-close",
-          "stage": "S5",
+          "stage": "S7",
           "type": "stage",
           "title": "L6: The Parallel-Protocol Close",
           "desc": "East-facing Dream Acres 3BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
           "icon": "KeyRound",
-          "x": 900,
-          "y": 220,
-          "width": 200
+          "x": 220,
+          "y": 420,
+          "width": 270
         }
       ],
       "timelineTitle": "The metro-clock timeline",
@@ -466,7 +466,7 @@
       ],
       "filtersFooterLabel": "They measured everything and lost a flat to measuring; the recalibration — verify in parallel, not in series — became the journey's most transferable lesson.",
       "insightTitle": "What I noticed while we were searching",
-      "insightDescription": "\u201cThey're buying the metro before it runs, and they've done the maths twice — once for the upside, once for the timeline risk. Two badges, one address sounds romantic until you price the concentration. Their superpower wasn't the decibel app; it was writing the job-change scenario down and discovering the flat stays a keepable asset at a 3–3.5% rental yield. That's the permission to buy.”",
+      "insightDescription": "“They're buying the metro before it runs, and they've done the maths twice — once for the upside, once for the timeline risk. Two badges, one address sounds romantic until you price the concentration. Their superpower wasn't the decibel app; it was writing the job-change scenario down and discovering the flat stays a keepable asset at a 3–3.5% rental yield. That's the permission to buy.”",
       "insightImage": "/journals/advisor.png",
       "imagegenerationprompt": "A digital portrait photo of Riya AI real estate guide in an 80% greyscale monochrome outfit with a Warm Coral #FF8A65 digital tablet accent, Scandinavian minimalism, soft ambient studio rim lighting, clean pearl white background."
     },
@@ -810,29 +810,29 @@
           "id": 1,
           "title": "You",
           "description": "Share both office locations, the stations you can realistically walk from, and your rental-fallback tolerance.",
-          "imageSrc": "/journals/the-two-badges-one-address/step-1.png",
-          "imagegenerationprompt": "A vector illustration of a professional couple plotting their two commutes on a map in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pin accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya listens",
           "description": "She maps measured 800m walk-rings and filters tier-1 projects with near-possession dates inside them.",
-          "imageSrc": "/journals/the-two-badges-one-address/step-2.png",
-          "imagegenerationprompt": "A vector illustration of Riya the AI guide drawing walking rings on a metro map in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal created",
           "description": "Your personalised metro-clock journal tracks each candidate's measured walk, 6:30 pm noise, and possession against the line opening.",
-          "imageSrc": "/journals/the-two-badges-one-address/step-3.png",
-          "imagegenerationprompt": "A 3D vector illustration of an open commute-thesis journal in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 bookmark ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Clear recommendations",
           "description": "Receive verified candidates, the rent-it-out fallback math, and a parallel verification protocol that keeps you fast and thorough.",
-          "imageSrc": "/journals/the-two-badges-one-address/step-4.png",
-          "imagegenerationprompt": "A 3D vector illustration of verified metro-adjacent property recommendation cards in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 star badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What a metro-clock journal gets you",
@@ -897,7 +897,7 @@
       "title": "L1: The Measured-Walk Epiphany",
       "desc": "Siddharth's 55 stationary minutes near Ibblur junction meets Ananya's concentric walking-rings map — the thesis is born: buy within 800 measured metres of a confirmed station.",
       "icon": "Route",
-      "x": 120,
+      "x": 100,
       "y": 120,
       "width": 180
     },
@@ -908,7 +908,7 @@
       "title": "L2: Ring-by-Ring Audits",
       "desc": "Every shortlisted tower visited at 9 am and 6:30 pm with a decibel app and a stopwatch — the map's concentric rings graded by measured walk and real noise.",
       "icon": "AudioLines",
-      "x": 360,
+      "x": 320,
       "y": 120,
       "width": 180
     },
@@ -919,9 +919,9 @@
       "title": "L3 DETOUR: The Neopolis Hoarding",
       "desc": "Sobha Neopolis' Greek renders and a possession date in 2027 fail the 'trains before keys' thesis — parked with respect from the car window.",
       "icon": "Eye",
-      "x": 620,
+      "x": 540,
       "y": 220,
-      "width": 190
+      "width": 180
     },
     {
       "id": "l4-dream-acres-leads",
@@ -930,33 +930,33 @@
       "title": "L4: Dream Acres Leads",
       "desc": "Ready-stock shortlist firms: Sobha Dream Acres (Balagere) leads — measured 800m-class walk, established community, tenant liquidity for the fallback model.",
       "icon": "Building2",
-      "x": 420,
-      "y": 340,
-      "width": 190
+      "x": 760,
+      "y": 120,
+      "width": 180
     },
     {
       "id": "l5-lost-to-speed",
-      "stage": "S4",
+      "stage": "S5",
       "type": "bounce",
       "targetNodeId": "l4-dream-acres-leads",
       "title": "L5 BOUNCE: Lost to Speed",
       "desc": "The east-facing unit is sold while they schedule a third noise-test — someone with worse data and better speed pays token after ONE visit. Over-verification priced.",
       "icon": "Timer",
       "loopText": "S5 → S3 Bounce (Lost to a Faster Buyer)",
-      "x": 700,
-      "y": 340,
+      "x": 620,
+      "y": 420,
       "width": 190
     },
     {
       "id": "l6-parallel-protocol-close",
-      "stage": "S5",
+      "stage": "S7",
       "type": "stage",
       "title": "L6: The Parallel-Protocol Close",
       "desc": "East-facing Dream Acres 3BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
       "icon": "KeyRound",
-      "x": 900,
-      "y": 220,
-      "width": 200
+      "x": 120,
+      "y": 420,
+      "width": 180
     }
   ]
 }

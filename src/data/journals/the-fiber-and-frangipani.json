@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Wifi",
-        "text": "'Dual fiber available' survives only 40% of verification calls — the photographed ISP panel is the only document that counts"
+        "text": "'Dual fiber' survives 40% of verification calls"
       },
       {
         "icon": "Scale",
-        "text": "Stress-test every rupee against the India-salary reset — the named ₹1 Cr 'conviction premium' was written down and chosen, not drifted into"
+        "text": "Stress-test every rupee against the salary reset"
       },
       {
         "icon": "ClipboardList",
-        "text": "Audit whose career each option optimizes — three of four shortlist decisions had silently favored Neel's home office over Mahima's commute"
+        "text": "Audit whose career each option optimizes"
       }
     ],
-    "heroImage": "/journals/cover/18.jpg",
+    "heroImage": "/journals/cover/18.png",
     "heroTitle": "The Fiber & Frangipani Journal"
   },
   "tabs": [
@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The Villa Reel",
           "desc": "A gated-villa reel promising 'Cupertino vibes' — 4 km of red-earth approach road in the monsoon; the gimbal-less version of every NRI lesson. Parked.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 440,
+          "y": 320,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: Three Finalists",
           "desc": "Raintree Boulevard (Hebbal park township) vs Nikoo Homes (Thanisandra scale) vs Purva Palm Beach (Hennur value) — career-audit sheet clipped on top.",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
+          "x": 560,
+          "y": 60,
           "width": 190
         },
         {
@@ -216,8 +216,8 @@
           "desc": "The India-salary stress test names a ₹1 Cr gap; the career audit moves one option up for Mahima's studio run. USD comfort vs INR resilience, chosen in writing.",
           "icon": "Scale",
           "loopText": "2-Week Two-Ledger Loop — ₹1 Cr Gap Named & Chosen",
-          "x": 880,
-          "y": 320,
+          "x": 760,
+          "y": 70,
           "width": 200
         },
         {
@@ -227,8 +227,8 @@
           "title": "L6: The Raintree Close",
           "desc": "Raintree Boulevard 4BHK-class unit closed within the USD-comfort band; grandparents' weekends calendared like school — architecture instead of intention.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 780,
+          "y": 320,
           "width": 200
         }
       ],
@@ -806,29 +806,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the return date, the remote-payroll setup, the toddler's school timeline, and the corridor the grandparents' orbit requires.",
-          "imageSrc": "/journals/18/1.png",
-          "imagegenerationprompt": "A couple entering their return date and corridor into a smartphone app with two timezone clocks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya verifies fiber panels and power logs, runs the two-ledger budget — USD comfort versus INR resilience — and tallies the career audit.",
-          "imageSrc": "/journals/18/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing fiber-panel photos and a two-ledger budget beside a career-audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Fiber & Frangipani journal — infrastructure checklist, conviction-premium ledger, and career-audit template — is generated.",
-          "imageSrc": "/journals/18/3.png",
-          "imagegenerationprompt": "An open home search journal displaying an infrastructure checklist and two-ledger budget, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive verified ready and nearing-possession options on the specs that matter — fiber redundancy, power backup, soundproofable rooms, toddler density.",
-          "imageSrc": "/journals/18/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified returnee-family options with infrastructure ratings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

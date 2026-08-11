@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "ClipboardList",
-        "text": "Write the carrying-cost ledger before the brochure — ₹45–60K/month accepted in advance is what separates the glow-set from the regret-set"
+        "text": "Write the carrying-cost ledger before the brochure"
       },
       {
         "icon": "FileCheck2",
-        "text": "Retrading at agreement is a strategy, not a correction — the bank-valuation certificate is the only number that sells"
+        "text": "Retrading at agreement is a strategy, not a correction"
       },
       {
         "icon": "TreeDeciduous",
-        "text": "The mango tree was spec'd like plumbing — the one sentimental requirement allowed to be a requirement"
+        "text": "The mango tree was spec’d like plumbing"
       }
     ],
-    "heroImage": "/journals/cover/23.jpg",
+    "heroImage": "/journals/cover/23.png",
     "heroTitle": "The Second Front Door Journal"
   },
   "tabs": [
@@ -808,29 +808,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the launchpad flat's details, the verbs your family needs, the budget, and the one sentimental requirement running the show.",
-          "imageSrc": "/journals/23/1.png",
-          "imagegenerationprompt": "A couple entering their flat-sale details and villa requirements into a smartphone app with a small tree icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the carrying-cost ledger against real villa-owner data, prices the certificate-led sale, and audits villa-specific RERA histories.",
-          "imageSrc": "/journals/23/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a carrying-cost ledger beside a bank-valuation certificate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Second Front Door journal — carrying-cost ledger, Section 54 choreography, and villa-RERA checklist — is generated.",
-          "imageSrc": "/journals/23/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a carrying-cost ledger and Section 54 timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive villa launches with plot maps — NE-facing corners flagged, launch-day price sheets, and delivery histories attached.",
-          "imageSrc": "/journals/23/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing villa launch suggestions with plot-map flags and delivery-history badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

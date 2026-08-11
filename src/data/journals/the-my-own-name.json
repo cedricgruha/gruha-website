@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "FileCheck2",
-        "text": "Post-divorce purchase hygiene: lawyer before broker, sole-name deed, nomination with guardian-trustee, and a will drafted before the first site visit"
+        "text": "Sole-name deed, will, guardian — before the first visit"
       },
       {
         "icon": "Scale",
-        "text": "The EMI cap is set by a memory — tested against eligibility with worst-month arithmetic, the fortress held eleven months at 24% vs four and a half at 38%"
+        "text": "The EMI cap is set by a memory — worst-month math"
       },
       {
         "icon": "Sunrise",
-        "text": "Tara chose by one criterion no adult weighted — the balcony that could see the school van arrive; the morning-light kitchen and the van-visible balcony were the same flat"
+        "text": "Tara chose the van-visible balcony — and the light"
       }
     ],
-    "heroImage": "/journals/cover/27.jpg",
+    "heroImage": "/journals/cover/27.png",
     "heroTitle": "The My Own Name Journal"
   },
   "tabs": [
@@ -806,29 +806,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the settlement position, the child's school radius, the single-income reality, and the cap you've chosen over your eligibility.",
-          "imageSrc": "/journals/27/1.png",
-          "imagegenerationprompt": "A professional woman entering her settlement position and school radius into a smartphone app with a single-key icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the single-income fortress plan — 24% EMI cap, six-month buffer, protected education SIP — and runs the worst-month simulation on every candidate.",
-          "imageSrc": "/journals/27/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a fortress-arithmetic page beside an OC-only census and a nomination form, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom My Own Name journal — sole-ownership checklist, fortress calculator, and culture-check template — is generated.",
-          "imageSrc": "/journals/27/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a sole-ownership checklist and fortress calculator, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive ready-with-OC 2BHKs in established communities within the school radius, with culture checks and fortress math attached.",
-          "imageSrc": "/journals/27/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing ready-with-OC options with culture-check and buffer-month badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in her search",

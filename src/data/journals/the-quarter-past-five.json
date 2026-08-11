@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "ClipboardCheck",
-        "text": "Inspection rigor at ready-with-OC stage is leverage, not friction — the four-page snag list fixed eleven items pre-registration and became 'the Brigadier's standard'"
+        "text": "Ready-with-OC inspection rigor is leverage"
       },
       {
         "icon": "Scale",
-        "text": "Loan-free is a principle, not a calculation — at current prices it meant the third bedroom or the corner light, and Vasudha's initials settled it"
+        "text": "Loan-free is a principle — third bedroom or the light"
       },
       {
         "icon": "Users",
-        "text": "Six veteran households in one community dissolved the AWHO-vs-civilian question — brotherhood, it turns out, is portable"
+        "text": "Six veteran households dissolved the AWHO question"
       }
     ],
-    "heroImage": "/journals/cover/31.jpg",
+    "heroImage": "/journals/cover/31.png",
     "heroTitle": "The Quarter Past Five Journal"
   },
   "tabs": [
@@ -809,29 +809,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the corpus, the corridors, the ECHS dependency, and the household's true priorities — with everyone's weighting, including the spouse's.",
-          "imageSrc": "/journals/31/1.png",
-          "imagegenerationprompt": "An upright retired officer entering his corpus and corridor preferences into a smartphone app with a flag icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya compares AWHO availability against civilian projects, maps the ECHS radius, and runs the loan-free structure against the medical reserve.",
-          "imageSrc": "/journals/31/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing an AWHO-vs-civilian matrix beside an ECHS radius map and a snag checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Quarter Past Five journal — decision matrix, snag-inspection protocol, and loan-free structure — is generated.",
-          "imageSrc": "/journals/31/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a decision matrix and a snag-inspection checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive veteran-density and ECHS-proximity comparisons under budget, with the snag framework ready for every site visit.",
-          "imageSrc": "/journals/31/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing veteran-friendly project suggestions with ECHS and veteran-density badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Receipt",
-        "text": "Section 54 rewards under-construction primary purchases — the reinvestment timeline accommodates construction-linked payments if structured correctly"
+        "text": "Section 54 rewards under-construction primaries"
       },
       {
         "icon": "Scale",
-        "text": "Spec-adjusted comparison (UDS, parking, maintenance) narrows the '40% cheaper' headline to 28% — grief becomes accurate, which oddly helps"
+        "text": "Spec-adjusted math narrows '40% cheaper' to 28%"
       },
       {
         "icon": "Calendar",
-        "text": "The premium is real and has a name: the job market that rescued his career twice — insurance has premiums"
+        "text": "The premium is the job market, named correctly"
       }
     ],
-    "heroImage": "/journals/cover/17.jpg",
+    "heroImage": "/journals/cover/17.png",
     "heroTitle": "The Two Cities Ledger"
   },
   "tabs": [
@@ -38,7 +38,7 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "aboutLabel": "ABOUT",
       "title": "Who they are",
-      "description": "Getting to know Ravi Teja Varma (34, engineering manager) & Spandana (remote for a Hyderabad firm) — moving back to Bengaluru after four years in Hyderabad's Financial District, with a ₹2.4 Cr budget, a Section 54 clock, and a relocation ledger with two tabs: 'What We Gave Up' and 'Why We're Here Anyway.'",
+      "description": "Getting to know Ravi Teja Varma (34, engineering manager) — moving back to Bengaluru after four years in Hyderabad's Financial District, with a ₹2.4 Cr budget, a Section 54 clock, and a relocation ledger with two tabs: 'What We Gave Up' and 'Why We're Here Anyway.'",
       "buyers": [
         {
           "name": "Ravi Teja Varma",
@@ -52,19 +52,6 @@
           ],
           "image": "/journals/the-two-cities-ledger/ravi-teja.png",
           "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 34-year-old Telugu professional man named Ravi Teja wearing a collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry analytical expression, clean solid warm beige background (#F4EBE1), high quality character art."
-        },
-        {
-          "name": "Spandana Varma",
-          "age": 32,
-          "role": "Remote Lead, Hyderabad Firm",
-          "description": "Works remote, so the relocation is entirely Ravi Teja's commute math — which gives her the cleanest eyes in the household. Delivered the one sentence the spreadsheet couldn't answer: 'wealth where we aren't, tenancy where we are.'",
-          "tags": [
-            "The Family Test",
-            "Remote-Anchor",
-            "Sentence-Writer"
-          ],
-          "image": "/journals/the-two-cities-ledger/spandana.png",
-          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 32-year-old Telugu professional woman named Spandana wearing a simple elegant kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm assured expression, clean solid warm beige background (#F4EBE1), high quality character art."
         }
       ],
       "sharedVisionTitle": "Shared vision",
@@ -75,7 +62,7 @@
         {
           "icon": "Briefcase",
           "label": "BUYER PROFILE",
-          "value": "Inter-City Movers"
+          "value": "Inter-City Mover"
         },
         {
           "icon": "Heart",
@@ -194,7 +181,7 @@
           "desc": "The Hyderabad investment-flat model builds beautifully in Excel — and dies at dinner: 'wealth where we aren't, tenancy where we are.'",
           "icon": "ArrowRightLeft",
           "x": 540,
-          "y": 220,
+          "y": 120,
           "width": 190
         },
         {
@@ -205,7 +192,7 @@
           "desc": "Brigade Cornerstone Utopia — ready township at ₹9–11.5K/sqft, Kokapet-grade pricing inside Bengaluru's job market. The value thesis firms.",
           "icon": "Building2",
           "x": 760,
-          "y": 120,
+          "y": 190,
           "width": 190
         },
         {
@@ -217,7 +204,7 @@
           "desc": "The Section 54 clock forces schedule honesty — two under-construction candidates dropped for possession risk to the registration window.",
           "icon": "Undo2",
           "loopText": "S4 → S3 Regression (Schedule Honesty)",
-          "x": 620,
+          "x": 420,
           "y": 420,
           "width": 200
         },
@@ -807,29 +794,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the city you left, the budget it bought there, your relocation date, and the Section 54 clock if one is running.",
-          "imageSrc": "/journals/17/1.png",
-          "imagegenerationprompt": "A professional man entering his old-city budget and new-city corridor into a smartphone app with two city pins, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the spec-adjusted comparison — UDS, parking, maintenance — and maps the Section 54 window against each project's schedule.",
-          "imageSrc": "/journals/17/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a spec-adjust worksheet beside a Section 54 timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Two Cities Ledger — price-ghost decoder, window-compatible project map, and the family-test row — is generated.",
-          "imageSrc": "/journals/17/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a two-city comparison and Section 54 countdown, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive window-compatible under-construction options with current quarter discounts and unsold-inventory levels attached.",
-          "imageSrc": "/journals/17/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing Section 54-window-compatible project suggestions with discount badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

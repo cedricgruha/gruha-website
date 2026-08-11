@@ -13,15 +13,15 @@
     "learnings": [
       {
         "icon": "DoorOpen",
-        "text": "The home-office audit — door, light, LAN, call-acoustics — disqualified two 4BHKs whose fourth 'bedroom' was a corridor with a window; square footage lies, floor plans under-lie, site visits at call-time tell the truth"
+        "text": "Audit the office: door, light, LAN, acoustics"
       },
       {
         "icon": "ArrowUpDown",
-        "text": "Upgrade chains fail two links away — their buyer ghosted after token, so never let your purchase depend on your sale's buyer's sale; keep-and-leverage became the pivot"
+        "text": "Upgrade chains fail two links away"
       },
       {
         "icon": "Scale",
-        "text": "The keep-or-sell fork has a third prong — keep-and-leverage — which only appears once you model rent against LTV honestly; two loans, stress-tested, the tenant's rent out of the math on paper"
+        "text": "Keep-and-leverage is the fork’s third prong"
       }
     ],
     "heroImage": "/journals/cover/41.jpg",
@@ -847,29 +847,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your current floor plan's breaking point, the rooms you need, the school-and-shuttle fixed points — and the keep-or-sell question on your current flat.",
-          "imageSrc": "/journals/41/1.png",
-          "imagegenerationprompt": "A person entering their breaking point and room requirements into a smartphone app with a door-and-desk icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya models keep-vs-sell-vs-leverage with the two-loan stress test, audits floor plans for the office spec, and benchmarks large-unit resales on your arc.",
-          "imageSrc": "/journals/41/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a keep-vs-sell-vs-leverage model beside an office-audit card and a two-loan stress-test sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom One More Room journal — leverage models, office audits, and upgrade-chain discipline — is generated.",
-          "imageSrc": "/journals/41/3.png",
-          "imagegenerationprompt": "An open home search journal displaying an office-audit checklist and a leverage-model page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the 4BHK shortlist with office-audit verdicts, the tenant-timing plan for your current flat, and the offer structure for each finalist.",
-          "imageSrc": "/journals/41/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing 4BHK options with office-audit verdicts and tenant-timing badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

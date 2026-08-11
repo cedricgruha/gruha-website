@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Scale",
-        "text": "The undivided share (UDS) is the asset; the flat is the wrapper — compare UDS-per-rupee, not per-sqft"
+        "text": "The UDS is the asset; the flat is the wrapper"
       },
       {
         "icon": "HardHat",
-        "text": "The engineer's hesitation is data — a ₹30K structural assessment killed the prettiest option and its corroded reinforcement"
+        "text": "The engineer’s hesitation is data — a ₹30K assessment"
       },
       {
         "icon": "Wrench",
-        "text": "Renovation is the bridge between the street's permanence and the structure's decay — the waterproofing trifecta comes before aesthetics"
+        "text": "Waterproof before aesthetics in old buildings"
       }
     ],
-    "heroImage": "/journals/cover/19.jpg",
+    "heroImage": "/journals/cover/19.png",
     "heroTitle": "The Fifteen-Minute Life Journal"
   },
   "tabs": [
@@ -171,7 +171,7 @@
           "title": "L1: The Street Is Not Listed",
           "desc": "The realization lands: what they love — the anna, the raddiwala, the Sunday park — exists on no portal. A hand-drawn map becomes the brief.",
           "icon": "MapPin",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -182,7 +182,7 @@
           "title": "L2: UDS-Per-Rupee Math",
           "desc": "The old small-building hunt begins; the undivided share becomes the metric that makes the market legible; the structural engineer joins second visits.",
           "icon": "Scale",
-          "x": 320,
+          "x": 350,
           "y": 120,
           "width": 190
         },
@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The Tower Arithmetic",
           "desc": "A Sarjapur tower's 'double the space' seduces for three weekends — and ends with the verdict written across the brochure: 'the food court is not the anna.'",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 590,
+          "y": 120,
           "width": 190
         },
         {
@@ -204,7 +204,7 @@
           "title": "L4: The Bank-LTV Reality",
           "desc": "Three lenders, three LTVs on 35-year structures — the bank's appetite sets the real budget, and the paperwork-friendly building wins the best terms.",
           "icon": "Banknote",
-          "x": 760,
+          "x": 860,
           "y": 120,
           "width": 190
         },
@@ -217,9 +217,9 @@
           "desc": "The prettiest option fails — corroded reinforcement and a seepage history the seller 'forgot.' The plainest building, where the engineer hummed, is promoted.",
           "icon": "Undo2",
           "loopText": "S4 → S3 Regression (Corroded Reinforcement)",
-          "x": 620,
+          "x": 600,
           "y": 420,
-          "width": 200
+          "width": 300
         },
         {
           "id": "l6-plain-building-close",
@@ -228,7 +228,7 @@
           "title": "L6: The Plain Building Close",
           "desc": "2BHK in a 12-unit block closed at land-value logic; ₹24L renovation begins with waterproofing, not aesthetics — and the anna is still a two-minute walk.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 280,
           "y": 420,
           "width": 200
         }
@@ -819,29 +819,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the streets you love, the budget, and whether a stroller is in the fifteen-minute life.",
-          "imageSrc": "/journals/19/1.png",
-          "imagegenerationprompt": "A couple entering their favourite street names and budget into a smartphone app with a hand-drawn map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the UDS-per-rupee table, vets the title chain, and routes every finalist past a structural engineer.",
-          "imageSrc": "/journals/19/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a UDS table and structural report beside a street map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Fifteen-Minute Life journal — old-building due-diligence checklist and renovation ledger — is generated.",
-          "imageSrc": "/journals/19/3.png",
-          "imagegenerationprompt": "An open home search journal displaying an old-building diligence checklist and renovation ledger, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive small-building listings with building age, UDS share, and khata status up front — and alerts for boutique redevelopment launches.",
-          "imageSrc": "/journals/19/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified small-building listings with UDS and khata badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

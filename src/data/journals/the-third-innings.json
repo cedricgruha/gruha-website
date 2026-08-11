@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Library",
-        "text": "The 4 pm library test measures the only amenity that matters — a community that's actually alive between events; eleven people on a Tuesday settled the 'is it alive' question"
+        "text": "The 4 pm library test — alive between events?"
       },
       {
         "icon": "ClipboardList",
-        "text": "Resident children, phoned, are the unfiltered source — chef attrition, fee-hike history, decline-handling; two calls reshaped the ranking"
+        "text": "Resident children, phoned, are the unfiltered source"
       },
       {
         "icon": "Scale",
-        "text": "Purchase-vs-deposit is an estate-structure choice — the 'what does she actually inherit' tab made the daughter's thin-resale inheritance explicit, and told, twice, in writing"
+        "text": "Purchase-vs-deposit: what does she actually inherit?"
       }
     ],
-    "heroImage": "/journals/cover/30.jpg",
+    "heroImage": "/journals/cover/30.png",
     "heroTitle": "The Third Innings Journal"
   },
   "tabs": [
@@ -806,29 +806,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the home-sale position, the corridor preferences, the operator track-record bar, and the estate question for the heirs.",
-          "imageSrc": "/journals/30/1.png",
-          "imagegenerationprompt": "An older couple entering their sale position and senior-living preferences into a smartphone app with a campus icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the campus scorecard — track record, night ratios, care depth — and runs the purchase-vs-deposit estate model for each finalist.",
-          "imageSrc": "/journals/30/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a campus scorecard beside a purchase-vs-deposit spreadsheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Third Innings journal — evaluation rubric, unannounced-check list, and estate-modelling tab — is generated.",
-          "imageSrc": "/journals/30/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a campus evaluation rubric and an estate-modelling spreadsheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive senior-living comparisons by operator track record, care depth, night staffing, and fee-escalation history — purchase and deposit models side by side.",
-          "imageSrc": "/journals/30/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing senior-living comparisons with operator track-record and night-staffing badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

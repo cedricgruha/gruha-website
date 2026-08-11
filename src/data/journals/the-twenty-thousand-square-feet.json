@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "MapPin",
-        "text": "Adjacent-pair contiguity is a launch-window phenomenon — EOI-stage access is the only way in"
+        "text": "Adjacent-pair contiguity is a launch-window phenomenon"
       },
       {
         "icon": "LandPlot",
-        "text": "Amalgamation must be permitted in bye-laws and confirmed in writing by the planning authority"
+        "text": "Amalgamation needs bye-law and authority confirmation"
       },
       {
         "icon": "Users",
-        "text": "Bring the family constitution to the architecture table, not just the will's lawyers"
+        "text": "Bring the family constitution to the architecture table"
       }
     ],
-    "heroImage": "/journals/cover/9.jpg",
+    "heroImage": "/journals/cover/9.png",
     "heroTitle": "The Twenty Thousand Square Feet Journal"
   },
   "tabs": [
@@ -193,9 +193,9 @@
           "desc": "A 'reserved corner pair' evaporates as the developer re-prices phase 2 mid-conversation; he walks loudly, as policy.",
           "icon": "ArrowLeftRight",
           "loopText": "S4 → S3 Bounce (Walked Loudly)",
-          "x": 700,
+          "x": 800,
           "y": 300,
-          "width": 190
+          "width": 250
         },
         {
           "id": "l5-devanahalli-pair",
@@ -669,29 +669,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your land budget, the corridors that pull you — Sarjapur–Attibele or Devanahalli — and the guest list your compound must hold for Ugadi.",
-          "imageSrc": "/journals/19/1.png",
-          "imagegenerationprompt": "A double-plot buyer entering a land budget and corridor preferences into a smartphone app beside a graph-paper compound sketch, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone-screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya maps the launch calendars",
           "description": "Riya cross-references plotted-development launch calendars and flags EOI-stage windows where adjacent large pairs still exist unsold.",
-          "imageSrc": "/journals/19/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing overlapping plotted-launch calendars with adjacent-pair windows marked, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 calendar-window accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Amalgamation & structure checked first",
           "description": "Bye-laws, FAR, khata and the planning-authority amalgamation letter become your checklist — plus the family will and deed shares drafted with the architecture.",
-          "imageSrc": "/journals/19/3.png",
-          "imagegenerationprompt": "An open home search journal showing an amalgamation letter and a family-constitution checklist beside an architectural floorplan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 checklist-tick accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable launch-stage options",
           "description": "Receive EOI-stage plotted launches with adjacent pairs, a corner-pair or cul-de-sac shortlist, and the bridge-house plan to de-risk your build timeline.",
-          "imageSrc": "/journals/19/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing EOI-stage plotted launches with adjacent-pair badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pair-badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in his search",

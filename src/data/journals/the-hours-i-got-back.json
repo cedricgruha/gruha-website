@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Car",
-        "text": "Villa liquidity is its own project — list at the market's number, not the memory's; the flat purchase must survive the sale's timeline, not assume it"
+        "text": "Villa liquidity must survive the sale's timeline"
       },
       {
         "icon": "FileCheck2",
-        "text": "Sanction letter or nothing — 'pre-approval' from a villa buyer is a story, and the bank's valuation IS the price"
+        "text": "Sanction letter or nothing — valuation IS the price"
       },
       {
         "icon": "Volleyball",
-        "text": "The 540 recovered hours need a first line item — the 6:40 pm turf calendar entry, written small, was the whole point"
+        "text": "The 540 hours need a first use — the 6:40 pm entry"
       }
     ],
-    "heroImage": "/journals/cover/26.jpg",
+    "heroImage": "/journals/cover/26.png",
     "heroTitle": "The Hours I Got Back Journal"
   },
   "tabs": [
@@ -829,29 +829,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the commute audit, the house's location-era, each household member's stake, and the hours you'd buy back first.",
-          "imageSrc": "/journals/26/1.png",
-          "imagegenerationprompt": "A professional man entering his commute hours and household stakes into a smartphone app with a clock icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya maps verified 9 am drive times, prices the sell-side with a bank valuation, and builds the twin-track coordination with bridge options.",
-          "imageSrc": "/journals/26/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a twin-track workbook beside a drive-time map and bank-valuation certificate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Hours I Got Back journal — twin-track tabs, trade ledger, and the recovered-hours planner — is generated.",
-          "imageSrc": "/journals/26/3.png",
-          "imagegenerationprompt": "An open home search journal displaying twin-track tabs and a recovered-hours planner, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive ready-with-OC options ranked by verified drive time and teen-family density — with the garden audit for the other stakeholder.",
-          "imageSrc": "/journals/26/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing hours-for-space options with drive-time badges and garden-audit ratings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

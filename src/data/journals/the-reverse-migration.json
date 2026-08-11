@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "BookOpen",
-        "text": "The rental observatory is the returnee's best tool — eight months of renting in the target community before buying hands the purchase decision a completed audit"
+        "text": "The rental observatory: eight months of audit first"
       },
       {
         "icon": "Scale",
-        "text": "The honesty fund needs written triggers, not moods — three named lines converted the held breath into a clause, and dinner got easier"
+        "text": "The honesty fund needs written triggers, not moods"
       },
       {
         "icon": "Calendar",
-        "text": "Intention becomes calendar — the grandparent mission kept losing to logistics until Malleshwaram weekends were booked like school and the Kannada tutor was scheduled"
+        "text": "Intention becomes calendar — Malleshwaram weekends"
       }
     ],
-    "heroImage": "/journals/cover/33.jpg",
+    "heroImage": "/journals/cover/33.png",
     "heroTitle": "The Reverse Migration Journal"
   },
   "tabs": [
@@ -806,29 +806,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the return's real mission, the kids' school requirements, the corpus structure, and the partner's restart geography.",
-          "imageSrc": "/journals/33/1.png",
-          "imagegenerationprompt": "A couple entering their return mission and corpus structure into a smartphone app with two flags, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the landing-zone comparison, runs the India-salary two-ledger budget, and drafts the 'if this doesn't work' triggers in writing.",
-          "imageSrc": "/journals/33/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a two-ledger budget beside a page of written triggers and a landing-zone map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Reverse Migration journal — observatory protocol, two-ledger ceiling, and trigger clauses — is generated.",
-          "imageSrc": "/journals/33/3.png",
-          "imagegenerationprompt": "An open home search journal displaying an observatory protocol and two-ledger budget, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive established-community comparisons with school drives, returnee density, and the restart-corridor gains for each.",
-          "imageSrc": "/journals/33/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing landing-zone comparisons with school-drive and returnee-density badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

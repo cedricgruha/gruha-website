@@ -79,6 +79,21 @@
     "path": "community-journals/the-twelve-keys-journal"
   },
   {
+    "id": 6,
+    "title": "The ESOP Windfall",
+    "subtitle": "Mansur Nazimuddin's ₹4.8 Cr post-acquisition windfall journey — betting eight lean years on a startup, then deciding whether to convert risk into a home, an income, or both.",
+    "tags": [
+      "Windfall",
+      "Investor",
+      "Central Bengaluru"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/6.png",
+    "views": 13180,
+    "copies": 227,
+    "path": "community-journals/the-esop-windfall"
+  },
+  {
     "id": 7,
     "title": "The Second-Income Builder",
     "subtitle": "How Shobha Hegde is hunting for a corner site in south Bengaluru — where a pharmacy downstairs and two 1BHKs above fund her family's old age.",
@@ -90,7 +105,23 @@
     "segment": "INVESTORS & WEALTH",
     "image": "/journals/cover/7.png",
     "views": 19686,
-    "copies": 438
+    "copies": 438,
+    "path": "community-journals/the-shutter-and-stairs"
+  },
+  {
+    "id": 8,
+    "title": "The Half-Acre Sky",
+    "subtitle": "Vikram & Sanjana Rao's managed-farm search along Kanakapura Road and the Doddaballapur arc — buying a weekend of legitimacy under mango trees, one A-khata at a time.",
+    "tags": [
+      "Managed Farmland",
+      "Lifestyle",
+      "Kanakapura"
+    ],
+    "segment": "INVESTORS & WEALTH",
+    "image": "/journals/cover/8.png",
+    "views": 8642,
+    "copies": 318,
+    "path": "community-journals/the-half-acre-sky"
   },
   {
     "id": 9,
@@ -104,7 +135,23 @@
     "segment": "PLOT BUYERS",
     "image": "/journals/cover/9.png",
     "views": 3732,
-    "copies": 532
+    "copies": 532,
+    "path": "community-journals/the-twenty-thousand-square-feet"
+  },
+  {
+    "id": 10,
+    "title": "The Khata & Compass",
+    "subtitle": "Mahesh Gowda's hunt for a third plot on the Doddaballapur–Devanahalli arc — A-khata or DC-converted only, EC traced 30 years, and the compass as the final referee.",
+    "tags": [
+      "Plot Buyer",
+      "Approved Layouts",
+      "North Bengaluru"
+    ],
+    "segment": "PLOT BUYERS",
+    "image": "/journals/cover/10.png",
+    "views": 7281,
+    "copies": 142,
+    "path": "community-journals/the-khata-and-compass"
   },
   {
     "id": 11,
@@ -118,7 +165,8 @@
     "segment": "PLOT BUYERS",
     "image": "/journals/cover/11.png",
     "views": 5144,
-    "copies": 547
+    "copies": 547,
+    "path": "community-journals/the-long-wait-journal"
   },
   {
     "id": 12,
@@ -132,7 +180,23 @@
     "segment": "PLOT BUYERS",
     "image": "/journals/cover/12.png",
     "views": 20141,
-    "copies": 69
+    "copies": 69,
+    "path": "community-journals/the-blueprint-and-bisibelebath"
+  },
+  {
+    "id": 13,
+    "title": "The Two Badges, One Address",
+    "subtitle": "Ananya (Google ORR) & Siddharth (Intel Marathahalli)'s commute-equation search — a 3BHK within a measured walk of the Blue Line, both offices inside thirty-five minutes, and a guest room for the quarterly parent visit.",
+    "tags": [
+      "Commute",
+      "Metro Walk",
+      "First-Timer"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/13.png",
+    "views": 14276,
+    "copies": 251,
+    "path": "community-journals/the-two-badges-one-address"
   },
   {
     "id": 14,
@@ -161,7 +225,8 @@
     "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
     "image": "/journals/cover/15.png",
     "views": 19546,
-    "copies": 109
+    "copies": 109,
+    "path": "community-journals/the-one-name-on-the-deed"
   },
   {
     "id": 16,
@@ -175,7 +240,23 @@
     "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
     "image": "/journals/cover/16.png",
     "views": 19244,
-    "copies": 116
+    "copies": 116,
+    "path": "community-journals/the-capitulation-journal"
+  },
+  {
+    "id": 17,
+    "title": "The Two Cities Ledger",
+    "subtitle": "Ravi Teja Varma's relocation from Hyderabad's Financial District to Bengaluru's ORR — a ₹2.4 Cr budget that bought premium in Kokapet and decent in Whitefield, a Section 54 clock, and a spec-adjusted path to peace.",
+    "tags": [
+      "Inter-City Mover",
+      "Comparison Shopper",
+      "Section 54"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/17.png",
+    "views": 15943,
+    "copies": 196,
+    "path": "community-journals/the-two-cities-ledger"
   },
   {
     "id": 18,
@@ -189,7 +270,23 @@
     "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS / NRI RETURNEES",
     "image": "/journals/cover/18.png",
     "views": 18121,
-    "copies": 173
+    "copies": 173,
+    "path": "community-journals/the-fiber-and-frangipani"
+  },
+  {
+    "id": 19,
+    "title": "The Fifteen-Minute Life",
+    "subtitle": "Zoya & Imran Sait's hunt for old small-building flats inside Bengaluru's walkable cores — trading square footage for a life where everything is fifteen minutes away.",
+    "tags": [
+      "Walkable Cores",
+      "Old-Building",
+      "First-Timer"
+    ],
+    "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
+    "image": "/journals/cover/19.png",
+    "views": 11894,
+    "copies": 173,
+    "path": "community-journals/the-fifteen-minute-life"
   },
   {
     "id": 20,
@@ -203,7 +300,23 @@
     "segment": "YOUNG PROFESSIONALS & FIRST-TIMERS",
     "image": "/journals/cover/20.png",
     "views": 22772,
-    "copies": 396
+    "copies": 396,
+    "path": "community-journals/the-four-paws-two-names"
+  },
+  {
+    "id": 21,
+    "title": "The 8:10 AM Bell",
+    "subtitle": "Meera & Vikas Agarwal's relocation around their daughter's admission letter — a 7:50 am drive, a school-anchored geography, and a home chosen by the school run.",
+    "tags": [
+      "School-Anchored",
+      "Commute",
+      "Families"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/21.png",
+    "views": 12610,
+    "copies": 289,
+    "path": "community-journals/the-8-10-am-bell"
   },
   {
     "id": 22,
@@ -217,7 +330,23 @@
     "segment": "FAMILIES",
     "image": "/journals/cover/22.png",
     "views": 4534,
-    "copies": 156
+    "copies": 156,
+    "path": "community-journals/the-three-generations-one-roof"
+  },
+  {
+    "id": 23,
+    "title": "The Second Front Door",
+    "subtitle": "Prashanth & Deepa Reddy's upgrade from a 2014 Whitefield flat to a villa on the Sarjapur–Gunjur–Varthur arc — carrying a second front door into the family's next decade.",
+    "tags": [
+      "Villa Upgraders",
+      "Families",
+      "Sarjapur"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/23.png",
+    "views": 10157,
+    "copies": 224,
+    "path": "community-journals/the-second-front-door"
   },
   {
     "id": 24,
@@ -231,7 +360,8 @@
     "segment": "FAMILIES",
     "image": "/journals/cover/24.png",
     "views": 22451,
-    "copies": 156
+    "copies": 156,
+    "path": "community-journals/the-east-facing-door"
   },
   {
     "id": 25,
@@ -245,7 +375,8 @@
     "segment": "FAMILIES",
     "image": "/journals/cover/25.png",
     "views": 21685,
-    "copies": 217
+    "copies": 217,
+    "path": "community-journals/the-two-doors-one-kitchen"
   },
   {
     "id": 26,
@@ -259,7 +390,8 @@
     "segment": "FAMILIES",
     "image": "/journals/cover/26.png",
     "views": 19120,
-    "copies": 470
+    "copies": 470,
+    "path": "community-journals/the-hours-i-got-back"
   },
   {
     "id": 27,
@@ -273,7 +405,23 @@
     "segment": "FAMILIES",
     "image": "/journals/cover/27.png",
     "views": 3885,
-    "copies": 174
+    "copies": 174,
+    "path": "community-journals/the-my-own-name"
+  },
+  {
+    "id": 28,
+    "title": "The Sunday Morning",
+    "subtitle": "Jessy (cardiac ICU nurse) & Thomas Mathew's (lab supervisor) hospital-belt purchase — a nurse-scheme rate found at bank two, a remittance-tested budget, and Sundays that finally belong to the family.",
+    "tags": [
+      "Hospital Belt",
+      "Nurse-Scheme",
+      "Families"
+    ],
+    "segment": "FAMILIES",
+    "image": "/journals/cover/28.png",
+    "views": 9135,
+    "copies": 167,
+    "path": "community-journals/the-sunday-morning"
   },
   {
     "id": 29,
@@ -287,7 +435,8 @@
     "segment": "SENIORS & DOWNSIZERS",
     "image": "/journals/cover/29.png",
     "views": 9957,
-    "copies": 347
+    "copies": 347,
+    "path": "community-journals/the-lighter-house"
   },
   {
     "id": 30,
@@ -301,7 +450,8 @@
     "segment": "SENIORS & DOWNSIZERS",
     "image": "/journals/cover/30.png",
     "views": 18951,
-    "copies": 72
+    "copies": 72,
+    "path": "community-journals/the-third-innings"
   },
   {
     "id": 31,
@@ -315,7 +465,8 @@
     "segment": "SENIORS & DOWNSIZERS",
     "image": "/journals/cover/31.png",
     "views": 22632,
-    "copies": 137
+    "copies": 137,
+    "path": "community-journals/the-quarter-past-five"
   },
   {
     "id": 32,
@@ -329,7 +480,23 @@
     "segment": "SENIORS & DOWNSIZERS",
     "image": "/journals/cover/32.png",
     "views": 16636,
-    "copies": 144
+    "copies": 144,
+    "path": "community-journals/the-rain-tree-avenue"
+  },
+  {
+    "id": 33,
+    "title": "The Reverse Migration",
+    "subtitle": "Anand & Priya Venkatesh's return from sixteen Cupertino years — an eight-month rental observatory, a dollar-corpus honesty fund, and the bubble question turned into a dial, not a verdict.",
+    "tags": [
+      "NRI Returnee",
+      "Bay Area",
+      "Whitefield"
+    ],
+    "segment": "NRI & RETURNEES",
+    "image": "/journals/cover/33.png",
+    "views": 17294,
+    "copies": 341,
+    "path": "community-journals/the-reverse-migration"
   },
   {
     "id": 34,
@@ -343,7 +510,38 @@
     "segment": "FAMILIES / LEGACY",
     "image": "/journals/cover/34.png",
     "views": 14575,
-    "copies": 376
+    "copies": 376,
+    "path": "community-journals/the-three-shares"
+  },
+  {
+    "id": 35,
+    "title": "The High Ground",
+    "subtitle": "Farah & Salman Khureshi's post-2022 methodology — a public data stack that greys out 60% of the city, ₹50K hydrology reports per finalist, monsoon site visits, and a joy rule with veto-recovery power.",
+    "tags": [
+      "Climate",
+      "Flood-Safe",
+      "Special Convictions"
+    ],
+    "segment": "SPECIAL CONVICTIONS",
+    "image": "/journals/cover/35.png",
+    "views": 15287,
+    "copies": 402,
+    "path": "community-journals/the-high-ground"
+  },
+  {
+    "id": 36,
+    "title": "The Mud, Sun & Slab",
+    "subtitle": "Ishaan Bhargava's real arithmetic of sustainability — embodied carbon, water neutrality, passive cooling, solar primacy — a Malhar resale closed through community networks, and a Magadi-arc site held as Plan 2031.",
+    "tags": [
+      "Sustainability",
+      "Green Community",
+      "Special Convictions"
+    ],
+    "segment": "SPECIAL CONVICTIONS",
+    "image": "/journals/cover/36.png",
+    "views": 11042,
+    "copies": 188,
+    "path": "community-journals/the-mud-sun-and-slab"
   },
   {
     "id": 37,
@@ -357,7 +555,8 @@
     "segment": "PRIMARY PURCHASE SPECIALISTS",
     "image": "/journals/cover/37.png",
     "views": 16963,
-    "copies": 186
+    "copies": 186,
+    "path": "community-journals/the-eoi-window"
   },
   {
     "id": 38,
@@ -371,7 +570,8 @@
     "segment": "PRIMARY PURCHASE SPECIALISTS",
     "image": "/journals/cover/38.png",
     "views": 10543,
-    "copies": 69
+    "copies": 69,
+    "path": "community-journals/the-slab-by-slab"
   },
   {
     "id": 39,
@@ -385,7 +585,8 @@
     "segment": "PRIMARY PURCHASE SPECIALISTS",
     "image": "/journals/cover/39.png",
     "views": 14351,
-    "copies": 330
+    "copies": 330,
+    "path": "community-journals/the-snag-list"
   },
   {
     "id": 40,
@@ -399,6 +600,7 @@
     "segment": "PRIMARY PURCHASE SPECIALISTS",
     "image": "/journals/cover/40.png",
     "views": 12328,
-    "copies": 418
+    "copies": 418,
+    "path": "community-journals/the-almost-first-owner"
   }
 ]

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "ClipboardList",
-        "text": "The 147-item severity-graded snag list — third-party inspected, moisture-metered, severity-tabbed like a medical chart; instruments end arguments"
+        "text": "The 147-item severity list — instruments end arguments"
       },
       {
         "icon": "Scale",
-        "text": "Buyer leverage peaks between possession notice and registration — the final 5% and your signature are the only currencies the builder still wants; severity-1/2 in writing with dates, before you register"
+        "text": "Leverage peaks between notice and registration"
       },
       {
         "icon": "Landmark",
-        "text": "The collective amenity negotiation found its instrument — a bank-guarantee-backed completion commitment; builders respect instruments they use themselves"
+        "text": "Amenity fights need instruments — bank guarantees"
       }
     ],
-    "heroImage": "/journals/cover/39.jpg",
+    "heroImage": "/journals/cover/39.png",
     "heroTitle": "The Snag List Journal"
   },
   "tabs": [
@@ -804,29 +804,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your possession notice, your OC number, the charges you've been asked to pay — and the snags you've already spotted.",
-          "imageSrc": "/journals/39/1.png",
-          "imagegenerationprompt": "A person entering their OC number and possession charges into a smartphone app with a clipboard icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya verifies the OC's coverage, builds your severity framework, and sequences the demands — what must be in writing before registration, what defect liability covers after.",
-          "imageSrc": "/journals/39/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing an OC document beside a severity-graded snag framework and a leverage-window timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Snag List journal — severity templates, charge audits, and the leverage-window playbook — is generated.",
-          "imageSrc": "/journals/39/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a severity-graded snag template and a possession-charge audit sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the possession-to-registration sequence, the negotiable-charges list, and the group's amenity-instrument draft.",
-          "imageSrc": "/journals/39/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing a possession-to-registration sequence with severity badges and a bank-guarantee draft icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

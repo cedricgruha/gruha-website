@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "HeartPulse",
-        "text": "The 2 am hospital drive is the only amenity that matters at 2 am — timed from every finalist, at speed-breaker reality"
+        "text": "The 2 am hospital drive is the only amenity at 2 am"
       },
       {
         "icon": "Sunrise",
-        "text": "Ask the elder alone, unhurried — Amma chose the smaller east-window room over the bigger 'master' the family had been fighting about for a month"
+        "text": "Ask the elder alone — Amma chose the east-window room"
       },
       {
         "icon": "Scale",
-        "text": "Paper protects love — 'keep my name somewhere' became a registered share with a succession note, and the sibling call got easier"
+        "text": "'Keep my name somewhere' became a registered share"
       }
     ],
-    "heroImage": "/journals/cover/22.jpg",
+    "heroImage": "/journals/cover/22.png",
     "heroTitle": "The Three Generations, One Roof Journal"
   },
   "tabs": [
@@ -806,29 +806,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the generations under one roof, the elder's mobility reality, the hospital corridor, and the parent's contribution if one is on the table.",
-          "imageSrc": "/journals/22/1.png",
-          "imagegenerationprompt": "A family entering their multigenerational needs and hospital corridor into a smartphone app with three generation icons, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the dual-master decoder, times the 2 am hospital drives, and drafts the elder-alone consultation questions.",
-          "imageSrc": "/journals/22/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a dual-master decoder card beside a 2 am hospital drive log, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Three Generations journal — decoder card, hospital-gate tracker, and deed-structuring checklist — is generated.",
-          "imageSrc": "/journals/22/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a multigenerational decoder card and deed-structure checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive ready projects with genuine dual-master floor plans, ranked by your elder-checklist — not the brochure's — with the 2 am gate applied.",
-          "imageSrc": "/journals/22/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing multigenerational project suggestions with elder-checklist ratings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Map",
-        "text": "The builder's transfer desk is the entire game — assignments through it are clean re-originations; 'token' deals ahead of the NOC are unsecured loans to strangers"
+        "text": "The builder's transfer desk is the entire game"
       },
       {
         "icon": "ShieldCheck",
-        "text": "Resistance to verification is verification — the assignor who resists the CRM check answers the question by resisting it; every rupee on paper, or no deal"
+        "text": "Resistance to verification is verification itself"
       },
       {
         "icon": "FileCheck2",
-        "text": "The original agreement's clauses travel with the assignment — a 2023 escalation cap became ₹6L of found value; the premium benchmarked against the builder's current releases"
+        "text": "Inherited clauses are found value — a 2023 cap → ₹6L"
       }
     ],
-    "heroImage": "/journals/cover/40.jpg",
+    "heroImage": "/journals/cover/40.png",
     "heroTitle": "The Almost-First Owner Journal"
   },
   "tabs": [
@@ -787,29 +787,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the sold-out projects you're watching, the assignment offers you've seen, and the premium numbers on the table.",
-          "imageSrc": "/journals/40/1.png",
-          "imagegenerationprompt": "A person entering sold-out project names and assignment offers into a smartphone app with a relay-baton icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya maps the transfer-desk process, benchmarks the premium against current releases, and builds the assignor-verification and adverse-selection checklist.",
-          "imageSrc": "/journals/40/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a transfer-desk process map beside a premium benchmark formula and a CRM verification checklist, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Almost-First Owner journal — process maps, benchmark formulas, and clause-inheritance reviews — is generated.",
-          "imageSrc": "/journals/40/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a transfer-process map and an inherited-agreement clause review, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the verified assignment shortlist with premiums benchmarked, CRM status flags, and the inherited-agreement value for each.",
-          "imageSrc": "/journals/40/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing assignment options with premium-benchmark and CRM-status badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

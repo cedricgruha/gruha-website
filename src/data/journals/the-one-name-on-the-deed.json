@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "KeyRound",
-        "text": "One name on the deed — nomination, a will draft, and guardianship paperwork convert future anxieties into filed paper"
+        "text": "One name, nomination, will draft, guardianship filed"
       },
       {
         "icon": "Moon",
-        "text": "The 11 pm security-desk audit reveals more about a community than any price sheet"
+        "text": "The 11 pm security-desk audit beats any price sheet"
       },
       {
         "icon": "Flower2",
-        "text": "Resale-liquidity logic and personal-joy logic can be reconciled — with the 'what is each flat FOR' test"
+        "text": "'What is each flat FOR' reconciles logic and joy"
       }
     ],
-    "heroImage": "/journals/cover/15.jpg",
+    "heroImage": "/journals/cover/15.png",
     "heroTitle": "The One Name on the Deed Journal"
   },
   "tabs": [
@@ -158,7 +158,7 @@
           "title": "L1: The Broker Chat That Radicalised Her",
           "desc": "A broker asks her to bring her father on a video call to 'assure the owner.' Screenshotted and filed — her name, her deed, her door, decided that week.",
           "icon": "MessageSquare",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -181,7 +181,7 @@
           "desc": "A 'women-preferred community' pitch that means nothing operationally once you open the logbook; parked with an eye-roll.",
           "icon": "Eye",
           "x": 540,
-          "y": 220,
+          "y": 320,
           "width": 190
         },
         {
@@ -191,8 +191,8 @@
           "title": "L4: Two Finalists",
           "desc": "Prestige Song of the South (Begur Rd, ready, 2BHK ₹1.8 Cr) vs an older JP Nagar community at better value — floor plans labelled by hand.",
           "icon": "MapPin",
-          "x": 760,
-          "y": 120,
+          "x": 560,
+          "y": 30,
           "width": 190
         },
         {
@@ -203,8 +203,8 @@
           "desc": "The beige east-facing unit vs the charming terrace unit — she writes what each is FOR, and the loop resolves itself.",
           "icon": "RotateCcw",
           "loopText": "2-Week 'What Is Each Flat FOR' Loop",
-          "x": 880,
-          "y": 320,
+          "x": 780,
+          "y": 120,
           "width": 190
         },
         {
@@ -214,8 +214,8 @@
           "title": "L6: Song of the South Close",
           "desc": "2BHK closed on her own signature; nomination + will drafted in thirty lawyer-minutes; sixty potted plants of protest deployed on the winning balcony.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 780,
+          "y": 330,
           "width": 190
         }
       ],
@@ -793,29 +793,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your solo income, the corridor you want, and the non-negotiables — deed in your name, pet-possible, security culture intact.",
-          "imageSrc": "/journals/15/1.png",
-          "imagegenerationprompt": "A professional woman entering her solo home-buying preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya builds the community-culture audit, checks solo-loan sanction terms, and runs the EMI at 25–28% of take-home with full tax benefits.",
-          "imageSrc": "/journals/15/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a community-culture logbook and a solo-EMI spreadsheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Solo Signature journal — 11 pm audit checklist, FOR-test template, and legal essentials for single owners — is generated.",
-          "imageSrc": "/journals/15/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a solo-buyer audit checklist and FOR-test page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive verified ready-with-OC 2BHK options in 200+ unit communities, with each project's culture audit attached.",
-          "imageSrc": "/journals/15/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified solo-buyer 2BHK suggestions with community-culture ratings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in her search",

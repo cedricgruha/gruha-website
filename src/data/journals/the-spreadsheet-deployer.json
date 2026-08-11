@@ -49,7 +49,7 @@
             "IRR-Focused",
             "Analytical"
           ],
-          "image": "/journals/nikhil.png",
+          "image": "/journals/the-spreadsheet-deployer/nikhil.png",
           "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 41-year-old South Indian male tech executive named Nikhil with short curly black hair and a neat trim beard, wearing a dark navy button-down shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
         }
       ],
@@ -319,7 +319,7 @@
       "chatMessages": [
         {
           "sender": "Nikhil",
-          "avatar": "/journals/nikhil.png",
+          "avatar": "/journals/the-spreadsheet-deployer/nikhil.png",
           "text": "Riya, I added a column yesterday. Cost of my own analysis: ₹35 lakhs. Eleven months of being 'two weeks from deciding.'"
         },
         {
@@ -425,8 +425,8 @@
           "projects": 3,
           "siteVisits": 4,
           "latlong": {
-            "lat": 13.248940,
-            "lng": 77.657300
+            "lat": 13.24894,
+            "lng": 77.6573
           },
           "imageSrc": "/journals/devanahalli.png",
           "imagegenerationprompt": "A wide aerial view of plotted development layouts near Devanahalli airport corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
@@ -532,7 +532,7 @@
       "chatMessages": [
         {
           "sender": "Nikhil",
-          "avatar": "/journals/nikhil.png",
+          "avatar": "/journals/the-spreadsheet-deployer/nikhil.png",
           "text": "If the launch is tier-one, RERA filed, land title clean, and early-bird margin is eight percent plus... I commit."
         },
         {
@@ -737,7 +737,7 @@
       "chatMessages": [
         {
           "sender": "Nikhil",
-          "avatar": "/journals/nikhil.png",
+          "avatar": "/journals/the-spreadsheet-deployer/nikhil.png",
           "text": "Show me the IRR, not the clubhouse. Seriyaanu. A mandate against myself."
         },
         {
@@ -805,28 +805,28 @@
           "title": "You share",
           "description": "Share your capital, XIRR targets, corridor preferences, and non-negotiables.",
           "imageSrc": "/journals/4/1.png",
-          "imagegenerationprompt": "A homebuyer typing property criteria and corpus budget into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya evaluates early-bird pricing, RERA track record, and delivery timelines.",
           "imageSrc": "/journals/4/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing property OC numbers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom compounding journal and 4-rule decision mandate are generated.",
           "imageSrc": "/journals/4/3.png",
-          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive verified launch recommendations matching your XIRR math.",
           "imageSrc": "/journals/4/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

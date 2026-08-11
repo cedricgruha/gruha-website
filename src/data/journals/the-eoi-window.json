@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "Receipt",
-        "text": "EOI refundability 'as per company policy' is not refundability — ₹2L held hostage for eleven weeks taught him the rule: 'refundable within 14 days, in writing,' or no cheque"
+        "text": "EOI refundability 'as per policy' is not refundability"
       },
       {
         "icon": "FileCheck2",
-        "text": "RERA delivery records beat sales-head charm — the developer whose last three projects delivered within 4 months of promise got the booking; the one with the better renders is now 19 months late"
+        "text": "RERA delivery records beat sales-head charm"
       },
       {
         "icon": "Timer",
-        "text": "The OC-day exit window is the discipline — list three weeks before OC, close two weeks after, before fourteen neighbour listings crowd the market at 7% below his price"
+        "text": "The OC-window exit: list 3 weeks before, close 2 after"
       }
     ],
-    "heroImage": "/journals/cover/37.jpg",
+    "heroImage": "/journals/cover/37.png",
     "heroTitle": "The EOI Window Journal"
   },
   "tabs": [
@@ -787,29 +787,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the corridors you track, the developer criteria, the all-in budget with floor-rise and PLC — and the moments you want pre-committed against.",
-          "imageSrc": "/journals/37/1.png",
-          "imagegenerationprompt": "A person entering launch-corridor and developer criteria into a smartphone app with a RERA-feed icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya audits the launch pipeline from RERA filings, tears down the EOI terms, and builds the all-in price-sheet arithmetic before any token.",
-          "imageSrc": "/journals/37/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a RERA new-registration feed beside an EOI-terms teardown and an all-in price sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom EOI Window journal — launch checklist, delivery scorecards, and pre-commitment rules — is generated.",
-          "imageSrc": "/journals/37/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a launch checklist and a pre-commitment rule card, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive the RERA-filed pipeline with delivery histories, flagged EOI terms, and the exit model for your current holding.",
-          "imageSrc": "/journals/37/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing RERA-filed launch options with delivery-history and EOI-term badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

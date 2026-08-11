@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "FileCheck",
-        "text": "The RERA portal is genuinely readable — 20 minutes per project replaces hours of WhatsApp-forward anxiety"
+        "text": "The RERA portal is readable — 20 min per project"
       },
       {
         "icon": "IndianRupee",
-        "text": "GST on under-construction (5%) vs ready-with-OC (nil) changes comparison math more than any discount"
+        "text": "GST 5% vs nil changes the comparison math most"
       },
       {
         "icon": "Baby",
-        "text": "The 2 BHK with a convertible study won — the baby's room exists; the emergency airbag survives"
+        "text": "The convertible-study 2BHK won — airbag intact"
       }
     ],
-    "heroImage": "/journals/cover/14.jpg",
+    "heroImage": "/journals/cover/14.png",
     "heroTitle": "The Sixteenth Floor Dream Journal"
   },
   "tabs": [
@@ -831,29 +831,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your combined income, savings, the child's arrival date, and the location range your commute can survive.",
-          "imageSrc": "/journals/14/1.png",
-          "imagegenerationprompt": "A young couple on a shared smartphone entering their home budget and baby timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya reads the RERA portal, opens the all-in TRUTH column, and models the worst-month survival buffer — layoff, EMI, infant.",
-          "imageSrc": "/journals/14/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a RERA portal screen with a worst-month spreadsheet open, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom First-EMI journal with RERA checklist, TRUTH column, and construction-linked payment tracker is generated.",
-          "imageSrc": "/journals/14/3.png",
-          "imagegenerationprompt": "An open home search journal displaying RERA checklist and payment tracker, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive verified ready-with-OC 2BHK options matching your all-in budget and possession timeline, with GST math pre-computed.",
-          "imageSrc": "/journals/14/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified ready-with-OC 2BHK suggestions with GST comparison, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "DoorOpen",
-        "text": "Jodi-pair availability is a launch-week phenomenon — adjacency exists only before the first sales weekend, so the channels are relationship managers, not portals"
+        "text": "Jodi pairs exist only at launch — networks find them"
       },
       {
         "icon": "FileCheck2",
-        "text": "Builder-executed combination beats buy-two-break-later — the only version that survives BBMP legality, loan structure, and the CA's blessing"
+        "text": "Builder-executed combination beats break-later"
       },
       {
         "icon": "Scale",
-        "text": "Defined shares with right-of-first-refusal — partition-proofing nobody wants and everybody needs; hated discussing, sleeping better since"
+        "text": "Right-of-first-refusal — sleeping better since"
       }
     ],
-    "heroImage": "/journals/cover/25.jpg",
+    "heroImage": "/journals/cover/25.png",
     "heroTitle": "The Two Doors, One Kitchen Journal"
   },
   "tabs": [
@@ -67,17 +67,17 @@
           "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 43-year-old Indian man named Manish wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm diplomatic expression, clean solid warm beige background (#F4EBE1), high quality character art."
         },
         {
-          "name": "Ritu Jhunjhunwala",
-          "age": 38,
-          "role": "Co-Lead, Online B2B Arm",
-          "description": "Co-proposed the kitchen resolution with Payal: one main kitchen with staff, one breakfast kitchen upstairs — symbol preserved, careers preserved. The family's modernity and its kitchen renegotiated each other, architecturally.",
+          "name": "Nitin Jhunjhunwala",
+          "age": 39,
+          "role": "Co-Owner, Textile Wholesale + Online B2B",
+          "description": "Built the online B2B arm that grew the business beyond the Chickpet gaddi; runs it with brother Manish. His modernity — the online arm, co-run with his wife — quietly renegotiates the kitchen's labor model, and he backed the deed summit's right-of-first-refusal without hesitation.",
           "tags": [
-            "Kitchen Negotiator",
-            "Career-Buffer Architect",
-            "Breakfast-Kitchen Proposer"
+            "Online-B2B Builder",
+            "Modernity Carrier",
+            "First-Refusal Believer"
           ],
-          "image": "/journals/the-two-doors-one-kitchen/ritu.png",
-          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old Indian woman named Ritu wearing a smart kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm capable expression, clean solid warm beige background (#F4EBE1), high quality character art."
+          "image": "/journals/the-two-doors-one-kitchen/nitin.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 39-year-old Indian man named Nitin wearing a smart casual shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, sharp modern expression, clean solid warm beige background (#F4EBE1), high quality character art."
         }
       ],
       "sharedVisionTitle": "Shared vision",
@@ -822,29 +822,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share the generations under one lintel, the corridor, the combined budget, and the one non-negotiable (the dinner table, the festival, the pooja).",
-          "imageSrc": "/journals/25/1.png",
-          "imagegenerationprompt": "A family entering their joint-family requirements and corridor into a smartphone app with two door icons, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya maps launch calendars for adjacent combinable units, verifies sanctioned-combination policies, and schedules the deed summit with your CA.",
-          "imageSrc": "/journals/25/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing merged launch calendars beside a sanctioned-combination policy document, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 spreadsheet accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Two Doors journal — jodi-pair tracker, combination-policy checklist, and deed-structure template — is generated.",
-          "imageSrc": "/journals/25/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a jodi-pair tracker and deed-structure template, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive launch alerts where adjacent combinable units exist, with each builder's combination policy and sanctioned-plan treatment attached.",
-          "imageSrc": "/journals/25/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing jodi-pair launch alerts with combination-policy badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

@@ -13,18 +13,18 @@
     "learnings": [
       {
         "icon": "PawPrint",
-        "text": "The leash-count at 7 am out-predicts every brochure — living pet culture diverges from written bye-laws in both directions"
+        "text": "The 7 am leash-count out-predicts every brochure"
       },
       {
         "icon": "Stethoscope",
-        "text": "The 24-hour vet radius redraws the map more than any price line — Kanakapura's greenery sat 11 km from emergency care"
+        "text": "The 24-hour vet radius redraws the map"
       },
       {
         "icon": "ShieldCheck",
-        "text": "One AGM can rewrite the bye-laws — the three-threshold plan (engage, organize, exit) is drafted before the deed"
+        "text": "One AGM can rewrite bye-laws — plan three thresholds"
       }
     ],
-    "heroImage": "/journals/cover/20.jpg",
+    "heroImage": "/journals/cover/20.png",
     "heroTitle": "The Four Paws, Two Names Journal"
   },
   "tabs": [
@@ -171,7 +171,7 @@
           "title": "L1: Rental Radicalisation",
           "desc": "Rejection #6 at the phone-call stage — ownership becomes the only stable citizenship for a pet household. Six rejection texts stacked in one screenshot.",
           "icon": "MessageSquare",
-          "x": 100,
+          "x": 200,
           "y": 120,
           "width": 180
         },
@@ -182,7 +182,7 @@
           "title": "L2: The Leash-Count Census",
           "desc": "Candidate communities visited at 6:30 am and 8 pm; five dogs at 7 am beats any brochure. The tally becomes the first filter.",
           "icon": "PawPrint",
-          "x": 320,
+          "x": 500,
           "y": 120,
           "width": 190
         },
@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The Vet-Desert Greenery",
           "desc": "A Kanakapura-greenery community reel — 11 km from the nearest 24-hr vet. Biscuit's senior years cast the veto; the reel gets parked.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 740,
+          "y": 120,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: Chirping Woods' Older Phase Leads",
           "desc": "Active pet-owner group (three months of history read like an archive), turf-adjacent walking loops, and a leash census that passes twice.",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
+          "x": 860,
+          "y": 390,
           "width": 190
         },
         {
@@ -216,8 +216,8 @@
           "desc": "What if the community's mood turns? Fight, adapt, exit — three thresholds written on one card, before the deed, as 'uncle insurance.'",
           "icon": "ShieldCheck",
           "loopText": "2-Week AGM-Risk Loop — Three Thresholds Written",
-          "x": 880,
-          "y": 320,
+          "x": 580,
+          "y": 450,
           "width": 200
         },
         {
@@ -227,8 +227,8 @@
           "title": "L6: The Grille-Mods Close",
           "desc": "Low-floor 2.5BHK closed with balcony-grille modifications negotiated pre-registration; the ₹15L pet-warmth premium paid knowingly — priced per dog-year.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 280,
+          "y": 420,
           "width": 200
         }
       ],
@@ -806,29 +806,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your pet family's composition, the foster rotation, the budget, and the vet radius that's non-negotiable.",
-          "imageSrc": "/journals/20/1.png",
-          "imagegenerationprompt": "A couple entering their pet family's details and budget into a smartphone app with a paw-print icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya stress-tests",
           "description": "Riya runs the dawn and dusk census protocol, reads the pet-group archives, and draws the 24-hour vet radius around each shortlist.",
-          "imageSrc": "/journals/20/2.png",
-          "imagegenerationprompt": "Riya the AI real estate guide reviewing a leash-census tally beside a vet-radius map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal & mandate created",
           "description": "Your custom Four Paws journal — bye-law verifier, leash-census template, and the three-threshold AGM-risk card — is generated.",
-          "imageSrc": "/journals/20/3.png",
-          "imagegenerationprompt": "An open home search journal displaying a leash-census tally and an AGM-risk card, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Actionable recommendations",
           "description": "Receive verified pet-warm communities with bye-laws, pet-group activity levels, and vet proximity for each — not just brochures.",
-          "imageSrc": "/journals/20/4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified pet-warm community suggestions with leash-count badges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",

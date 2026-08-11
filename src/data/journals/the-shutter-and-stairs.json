@@ -6,25 +6,25 @@
       "RENTAL INCOME"
     ],
     "title": "The Shutter & Stairs Journal",
-    "description": "Shobha & Ganesh Hegde's second-income search across Uttarahalli, Kathriguppe and the Kengeri arc — buying corner sites and small rented buildings where a shop's rent pays for the house above it.",
+    "description": "Shobha Hegde's second-income search across Uttarahalli, Kathriguppe and the Kengeri arc — buying corner sites and small rented buildings where a shop's rent pays for the house above it.",
     "quote": "\"Rent from the shop pays for the house above it.\"",
     "readTime": "15 min read",
     "updatedOn": "Updated on July 2026",
     "learnings": [
       {
         "icon": "Store",
-        "text": "Count footfall twice — Tuesday 11 am and Sunday 6 pm — before a single broker call"
+        "text": "Count footfall twice — Tue 11 am and Sun 6 pm"
       },
       {
         "icon": "FileCheck2",
-        "text": "A neat rent ledger is only as good as the tenancy paperwork beneath it"
+        "text": "A neat rent ledger hides bad tenancy paper"
       },
       {
         "icon": "PiggyBank",
-        "text": "A tenant LOI and a vacancy stress-test protect the second-income thesis"
+        "text": "A tenant LOI protects the second-income thesis"
       }
     ],
-    "heroImage": "/journals/cover/12.jpg",
+    "heroImage": "/journals/cover/7.png",
     "heroTitle": "The Shutter & Stairs Journal"
   },
   "tabs": [
@@ -38,7 +38,7 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "aboutLabel": "ABOUT",
       "title": "Who they are",
-      "description": "Getting to know Shobha Hegde (48, school administrator) and her husband Ganesh (printing business owner) — deploying ₹95L savings and ₹85L loan capacity into a shop-over-flat corner building that outlives their salaries.",
+      "description": "Getting to know Shobha Hegde (48, school administrator) — deploying ₹95L savings and ₹85L loan capacity into a shop-over-flat corner building that outlives her salary.",
       "buyers": [
         {
           "name": "Shobha Hegde",
@@ -52,19 +52,6 @@
           ],
           "image": "/journals/the-shutter-and-stairs/shobha.png",
           "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 48-year-old South Indian woman school administrator named Shobha with neat pulled-back black hair streaked with grey, wearing a plain cotton kurti, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm determined smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
-        },
-        {
-          "name": "Ganesh Hegde",
-          "age": 52,
-          "role": "Printing Business Owner",
-          "description": "Runs a small printing business and knows the economics of shopfronts and footfall from the supplier side. Patient about weekends spent on footfall counts; less patient about three years of construction chaos — a tension that quietly shapes the build-versus-buy decision.",
-          "tags": [
-            "Practical",
-            "Supplier-Side Savvy",
-            "Build-Sceptic"
-          ],
-          "image": "/journals/the-shutter-and-stairs/ganesh.png",
-          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 52-year-old South Indian man entrepreneur named Ganesh with short greying hair and a neat trimmed moustache, wearing a plain button-down shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, steady patient smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
         }
       ],
       "sharedVisionTitle": "Shared vision",
@@ -75,8 +62,8 @@
         {
           "icon": "Briefcase",
           "label": "BUYER PROFILE",
-          "value": "Second-income builders",
-          "tag": "Age 48 + Ganesh"
+          "value": "Second-income builder",
+          "tag": "Age 48"
         },
         {
           "icon": "TrendingUp",
@@ -232,8 +219,8 @@
           "desc": "Construction quotes move 12% in six months; the build-it-yourself plan loses to the buy-the-ledger plan.",
           "icon": "TrendingUp",
           "loopText": "Build-vs-Buy Decision Loop",
-          "x": 900,
-          "y": 320,
+          "x": 850,
+          "y": 420,
           "width": 180
         },
         {
@@ -245,7 +232,7 @@
           "desc": "Tenancy predates every agreement on file; lawyer advises pass on the beautiful building.",
           "icon": "UserPlus",
           "loopText": "S5 → S3 Bounce",
-          "x": 640,
+          "x": 540,
           "y": 420,
           "width": 190
         },
@@ -257,7 +244,7 @@
           "desc": "Back to corners with LOI-stage tenant conversations done by her, not brokers; the journey continues.",
           "icon": "MessageSquare",
           "loopText": "Open Loop — Continuing",
-          "x": 360,
+          "x": 260,
           "y": 440,
           "width": 190
         }
@@ -862,29 +849,29 @@
           "id": 1,
           "title": "You share",
           "description": "Share your cash, loan capacity, corridor radius, and the tenants you can already count on.",
-          "imageSrc": "/journals/the-shutter-and-stairs/step-1.png",
-          "imagegenerationprompt": "A vector illustration of a second-income buyer entering cash and loan capacity into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 screen accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 2,
           "title": "Riya runs the census",
           "description": "Riya builds your two-slot footfall method and a commercial-khata / trade-license checklist.",
-          "imageSrc": "/journals/the-shutter-and-stairs/step-2.png",
-          "imagegenerationprompt": "A vector illustration of Riya the AI real estate guide reviewing a footfall notebook and khata documents, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 3,
           "title": "Journal created",
           "description": "Your Shutter & Stairs journal is generated with a vacancy stress-test and an LOI-first mandate.",
-          "imageSrc": "/journals/the-shutter-and-stairs/step-3.png",
-          "imagegenerationprompt": "A 3D vector illustration of an open home search journal with a vacancy stress-test table, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
         },
         {
           "id": 4,
           "title": "Clear recommendations",
           "description": "Receive verified corner sites or rented buildings matching your ceiling and radius.",
-          "imageSrc": "/journals/the-shutter-and-stairs/step-4.png",
-          "imagegenerationprompt": "A modern smartphone screen showing verified corner-site suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
       ],
       "valuePropsTitle": "What mattered most in their search",
