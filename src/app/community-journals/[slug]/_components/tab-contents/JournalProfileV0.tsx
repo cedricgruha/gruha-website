@@ -196,7 +196,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
 
         const renderSharedVisionCard = () => (
           <div
-            className="bg-white border rounded-2xl p-4 sm:p-5 flex flex-col justify-center"
+            className="bg-white border rounded-2xl p-4 sm:p-5 flex flex-col justify-start"
             style={{ borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
           >
             <h4 className="text-base sm:text-lg font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
@@ -254,13 +254,13 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                       <h4 className="text-base font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
                         {p.title}
                       </h4>
-                     
+
                     </div>
                     <p className="text-sm sm:text-base leading-[1.5]" style={{ fontFamily: fu, color: "#59636F" }}>
                       {displayWhy}
                     </p>
                   </div>
-                 
+
                 </div>
               );
             })}
