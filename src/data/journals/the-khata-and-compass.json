@@ -231,7 +231,137 @@
           "y": 420,
           "width": 180
         }
-      ]
+      ],
+      "timelineTitle": "The corridor clock",
+      "timelineSteps": [
+        {
+          "id": "driving",
+          "label": "Driving",
+          "icon": "Car"
+        },
+        {
+          "id": "mapping",
+          "label": "Mapping",
+          "icon": "Map"
+        },
+        {
+          "id": "verifying",
+          "label": "Verifying",
+          "icon": "Search"
+        },
+        {
+          "id": "allotting",
+          "label": "Allotting",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "holding",
+          "label": "Holding",
+          "icon": "Fence",
+          "active": true,
+          "tag": "S6 Land Held"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "thesis-notebook-moment",
+          "title": "The third volume of the thesis notebook",
+          "desc": "GPS-pinned boundary-stone photos tucked into a fresh notebook — the corridor thesis as a physical object, its third volume open on the passenger seat of a Saturday drive.",
+          "imageSrc": "/journals/the-khata-and-compass/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a field notebook opened to a third volume with GPS-pinned boundary-stone photographs tucked in, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on a GPS pin, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "strr-teaser-moment",
+          "title": "The STRR-teaser killed at the base rate",
+          "desc": "A ₹3,900/sqft pre-launch whose junction turned out to be a proposal, not a tender — 'proposal ≠ tender' written across the flyer in field pencil.",
+          "imageSrc": "/journals/the-khata-and-compass/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a pre-launch flyer with the words 'proposal ≠ tender' scrawled across it in pencil beside a roadmap marker, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the pencil line, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "surveyor-kill-moment",
+          "title": "The ₹15K boundary kill",
+          "desc": "The private surveyor's sketch showed a 3-foot boundary discrepancy the seller's map was confident about — the favourite site died at the sketch stage, the habit was born.",
+          "imageSrc": "/journals/the-khata-and-compass/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a surveyor's sketch with a 3-foot boundary discrepancy hatched in red beside a GPS-pinned boundary-stone photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the red hatch, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "launch-pick-moment",
+          "title": "The launch-morning pick slip",
+          "desc": "A BIAPPA-approved 1,500 sqft corner secured at first allotment — launch pricing, khata issuance tracked from day one, the corridor thesis sized to a family it had almost forgotten.",
+          "imageSrc": "/journals/the-khata-and-compass/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a launch-morning first-allotment receipt and a corner-plot pick slip beside a launch price sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the pick slip, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "boundary-board-moment",
+          "title": "The painted boundary board",
+          "desc": "Fencing up, a painted boundary board, a neighbour network — and the home-upgrade conversation finally held. The third plot shrank from 2,400 to 1,500 sqft; the difference became a flat deposit.",
+          "imageSrc": "/journals/the-khata-and-compass/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a painted boundary board with fencing and a small newly fenced plot at dusk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the board, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices from the journey",
+      "quotes": [
+        {
+          "text": "Buildings depreciate. Mud doesn't.",
+          "author": "— Mahesh"
+        },
+        {
+          "text": "Confidence is free. Boundaries cost fifteen thousand.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Of the five corridors you believed in, two delivered. Not mad. Just… size the bet like a man who's been forty percent wrong before.",
+          "author": "— Riya"
+        },
+        {
+          "text": "She stopped mentioning it, Mahesh. That's not the same as stopped wanting it.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Mahesh",
+          "avatar": "/journals/the-khata-and-compass/mahesh.png",
+          "text": "Nodi Riya, fifteen thousand I paid that surveyor, and he tells me the boundary is three feet inside. Three feet! The seller's map was showing full confidence, guru."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Confidence is free, Mahesh. Boundaries cost fifteen thousand. You just saved yourself a plot you'd have fought over for ten years. And while I have you — I ran your 2018 audit back at you. Two of five corridors delivered. So: not mad. Smaller plot, better layout, launch pricing. And the difference goes to the house your wife stopped mentioning.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "MapPin",
+          "title": "Proposal vs Tender",
+          "description": "A government PowerPoint about an upcoming road is a proposal, not a tender. The STRR-junction teaser died the moment the junction turned out to be announced, not tendered."
+        },
+        {
+          "icon": "Undo2",
+          "title": "The ₹15K Survey Is Cheapest",
+          "description": "A 3-foot boundary discrepancy the seller's map didn't show surfaced at the sketch stage. The cheapest report in real estate is the one before registration — run it before love."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Launch Pricing Beats Discovery",
+          "description": "First-allotment rates at credible plotted developments run 10–15% below month-six broker pricing. The edge lives at launch, not in 'finding the undervalued corner'."
+        },
+        {
+          "icon": "Scale",
+          "title": "Position-Size to the Base Rate",
+          "description": "Two of the five corridors he believed in in 2018 delivered. The thesis survived; the position sizing changed — a smaller plot, held with confidence."
+        },
+        {
+          "icon": "Home",
+          "title": "Liquidity Is the Tax of Purity",
+          "description": "The Bidadi exit closed 14 months after listing, 11% below anchor. Land's superpower is also its trap — every purchase is now sized against what 'selling fast' means."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-khata-and-compass.mp3"
     },
     {
       "id": "search",
@@ -797,9 +927,9 @@
       "desc": "Private surveyor (₹15K) finds a 3-ft boundary discrepancy on his favourite site; the deal dies at the sketch stage.",
       "icon": "Undo2",
       "loopText": "S4 → S3 Regression (Boundary Kill)",
-      "x": 620,
+      "x": 720,
       "y": 420,
-      "width": 190
+      "width": 290
     },
     {
       "id": "l6-launch-allotment",
@@ -808,7 +938,7 @@
       "title": "L6: BIAPPA Launch Allotment",
       "desc": "1,500 sqft secured at launch — first-allotment pricing, a corner pick, and khata issuance tracked from day one.",
       "icon": "FileCheck",
-      "x": 360,
+      "x": 460,
       "y": 420,
       "width": 180
     },
@@ -820,7 +950,7 @@
       "desc": "Fencing, painted boundary boards, a neighbour network — and the wife's home-upgrade conversation finally held.",
       "icon": "Fence",
       "loopText": "S6 Hold — Land Held, Not Keys",
-      "x": 120,
+      "x": 220,
       "y": 420,
       "width": 180
     }
