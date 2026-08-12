@@ -158,7 +158,7 @@
           "title": "L1: The Framework, Run on Its Author",
           "desc": "Total life-carbon including commute, deliveries, and isolation-driven flights — the edge-of-city build loses to its own math; the author appeals the verdict, twice.",
           "icon": "Scale",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -169,7 +169,7 @@
           "title": "L2: The Volunteer-Auditor Waitlist",
           "desc": "GoodEarth Malhar joined as volunteer auditor in two residents' sustainability groups — genuine, and the best waitlist position in the city.",
           "icon": "Leaf",
-          "x": 320,
+          "x": 360,
           "y": 120,
           "width": 190
         },
@@ -180,8 +180,8 @@
           "title": "L3 DETOUR: The 'Net-Zero Villas' Render",
           "desc": "Asks for performance data, receives a mood board; declined with thanks. Project unnamed by policy — render ≠ data.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 360,
+          "y": 360,
           "width": 190
         },
         {
@@ -192,8 +192,8 @@
           "desc": "11 hrs/week × 18 months of self-build decisions vs the startup's same 18 months — Path A's premium renamed 'the price of focus'.",
           "icon": "Zap",
           "loopText": "Purity-vs-Bandwidth Loop — Judged by His Own Spreadsheet, Twice",
-          "x": 880,
-          "y": 320,
+          "x": 720,
+          "y": 380,
           "width": 200
         },
         {
@@ -203,8 +203,8 @@
           "title": "L5: The Network Resale",
           "desc": "A Malhar resale surfaces through the community network before any portal; performance bills verify — near-zero electricity months.",
           "icon": "Home",
-          "x": 760,
-          "y": 120,
+          "x": 580,
+          "y": 80,
           "width": 190
         },
         {
@@ -215,7 +215,7 @@
           "desc": "Malhar home closed; the Magadi-arc site bought at a layout launch as 'Plan 2031' — conviction, phased, with the Lucknow speech on one card.",
           "icon": "KeyRound",
           "x": 880,
-          "y": 120,
+          "y": 80,
           "width": 200
         }
       ],

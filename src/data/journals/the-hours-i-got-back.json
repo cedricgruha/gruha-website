@@ -171,7 +171,7 @@
           "title": "L1: The 540-Hour Audit",
           "desc": "55 stationary minutes at Ibblur on his birthday, Dhruv's sentence, and the audit becomes the workbook's epigraph — 23 full days a year, priced.",
           "icon": "Car",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -194,7 +194,7 @@
           "desc": "Studied twice daily at crawl speed for forty commute-hours; possession 2027-28 kills it — 'almost bought a beautiful postponement.'",
           "icon": "Eye",
           "x": 540,
-          "y": 220,
+          "y": 90,
           "width": 190
         },
         {
@@ -205,7 +205,7 @@
           "desc": "Ferns Residency 3BHK agreed (₹2.92 Cr, contingent) + a villa buyer at ₹3.35 Cr, 'pre-approved' — the CHAIN sheet, eleven-day choreography drafted.",
           "icon": "Link",
           "x": 760,
-          "y": 120,
+          "y": 220,
           "width": 190
         },
         {
@@ -217,9 +217,9 @@
           "desc": "The buyer's loan valuation lands 12% under; Ferns exits to a firm buyer; both tabs red. Three permanent rules written from the wreckage.",
           "icon": "Undo2",
           "loopText": "Both Tabs Red — Collapse → 3 Permanent Rules",
-          "x": 540,
-          "y": 400,
-          "width": 200
+          "x": 440,
+          "y": 300,
+          "width": 290
         },
         {
           "id": "l6-palm-retreat-detour",
@@ -228,7 +228,7 @@
           "title": "L6 DETOUR: The Palm Retreat Stretch",
           "desc": "Adarsh Palm Retreat at ₹3.0–3.2 Cr — killed by buffer math and an architect's shadow study, not the price.",
           "icon": "Eye",
-          "x": 300,
+          "x": 120,
           "y": 400,
           "width": 190
         },
@@ -239,8 +239,8 @@
           "title": "L7: The Sell-Side Rebuilt",
           "desc": "Bank valuation pre-obtained, document pack up front — an NRI-returnee buyer at ₹3.38 Cr with a verified sanction letter.",
           "icon": "FileCheck2",
-          "x": 620,
-          "y": 400,
+          "x": 420,
+          "y": 580,
           "width": 190
         },
         {
@@ -250,8 +250,8 @@
           "title": "L8: The 6:40 pm Close",
           "desc": "Chirping Woods 3BHK at ₹2.85 Cr, 30-day close; 11-day dual-registration choreography; the turf calendar entry exists — 430 hours recovered, noted beside 540.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 400,
+          "x": 800,
+          "y": 500,
           "width": 200
         }
       ],

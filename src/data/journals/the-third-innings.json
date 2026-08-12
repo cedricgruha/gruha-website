@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The 'Senior Resort'",
           "desc": "A glossy hotel-branded pitch — its care continuum turns out to be a tie-up, not on-site. Declined; the asterisk magnified, the operator unnamed by policy.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 440,
+          "y": 400,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: Purchase vs Deposit",
           "desc": "Serene Urbana vs Serene Amara (same operator, Devanahalli) — two model spreadsheets with a 'what does she inherit' tab open in Indira's lecturer's hand.",
           "icon": "Scale",
-          "x": 760,
-          "y": 120,
+          "x": 560,
+          "y": 80,
           "width": 190
         },
         {
@@ -216,8 +216,8 @@
           "desc": "Four calls to residents' children — chef attrition, fee-hike history, decline-handling. Two calls reshape the ranking; the unfiltered source wins.",
           "icon": "Users",
           "loopText": "2-Week Interview Loop — Two Calls Reshape the Ranking",
-          "x": 880,
-          "y": 320,
+          "x": 760,
+          "y": 400,
           "width": 200
         },
         {
@@ -227,8 +227,8 @@
           "title": "L6: The Booked Third Innings",
           "desc": "Serene Urbana 2BHK purchased; the Indiranagar sale funds corpus and London trips; integration calendared like a posting — bridge-club waitlist form dated the same day.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 800,
+          "y": 80,
           "width": 200
         }
       ],

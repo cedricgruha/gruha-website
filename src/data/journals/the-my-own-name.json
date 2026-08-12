@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The 20%-Cheaper 8 km",
           "desc": "An '8 km away, 20% cheaper' community tempts the spreadsheet — vetoed by the school-continuity rule: the one thing the divorce didn't take.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 340,
+          "y": 380,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: The Introduced-Resident Check",
           "desc": "Two finalists; each RWA asked for a casual introduction to two resident single parents — one community produced them in a day with warmth, the other 'would check.'",
           "icon": "Users",
-          "x": 760,
-          "y": 120,
+          "x": 560,
+          "y": 400,
           "width": 190
         },
         {
@@ -216,7 +216,7 @@
           "desc": "The ₹1.85 Cr better layout tests the 24% cap; the worst-month simulation says no — eleven months of buffer vs four and a half. The cap teaches; it doesn't scar.",
           "icon": "Scale",
           "loopText": "2-Week Cap-vs-Layout Loop — Fortress Arithmetic Holds",
-          "x": 880,
+          "x": 760,
           "y": 320,
           "width": 200
         },
@@ -227,8 +227,8 @@
           "title": "L6: The Van-Visible Close",
           "desc": "2BHK closed in the defence-belt community; nomination to Tara with guardian-trustee; the van-visible balcony photographed at 7:45 am seals it.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 680,
+          "y": 50,
           "width": 200
         }
       ],

@@ -195,7 +195,7 @@
           "icon": "ClipboardCheck",
           "loopText": "Inspection Loop — Rigor as Leverage, Not Friction",
           "x": 540,
-          "y": 220,
+          "y": 180,
           "width": 190
         },
         {
@@ -206,8 +206,8 @@
           "desc": "Loan-free at current prices means the third bedroom or the corner light — Vasudha's initials on the light; the brothers get a sofa-bed.",
           "icon": "Sunrise",
           "loopText": "2-Week Space-vs-Light Loop — Vasudha Decides",
-          "x": 760,
-          "y": 220,
+          "x": 800,
+          "y": 120,
           "width": 190
         },
         {
@@ -219,9 +219,9 @@
           "desc": "The investor-seller retrades citing 'market moved' — the Brigadier's walk-out is instant and instructive: re-quote after closure, and the vendor is never used again.",
           "icon": "Undo2",
           "loopText": "1-Week Retrade Bounce — Instant Walk-Out",
-          "x": 560,
+          "x": 400,
           "y": 420,
-          "width": 200
+          "width": 290
         },
         {
           "id": "l6-royale-gardens-close",

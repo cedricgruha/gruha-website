@@ -171,7 +171,7 @@
           "title": "L1: The Notice, Answered with Inspections",
           "desc": "The 30-day registration push answered with three inspection bookings and a ₹15K third-party inspector — possession started as a test, not a ceremony.",
           "icon": "FileCheck2",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -182,7 +182,7 @@
           "title": "L2: The 147-Item Severity List",
           "desc": "Moisture meters end arguments opinions couldn't — the severity-tabbed list that the sales office now refers to with respect.",
           "icon": "ClipboardList",
-          "x": 320,
+          "x": 380,
           "y": 120,
           "width": 190
         },
@@ -194,8 +194,8 @@
           "desc": "'Resolved under defect liability, ma'am' decoded: leverage peaks between notice and registration; severity-1/2 fixes demanded in writing, with dates.",
           "icon": "Scale",
           "loopText": "The Leverage-Window Decode — Fixes in Writing, Dates Attached",
-          "x": 540,
-          "y": 220,
+          "x": 400,
+          "y": 430,
           "width": 190
         },
         {
@@ -206,7 +206,7 @@
           "desc": "The Pinterest board threatens to negotiate on the builder's behalf ('just register, we want to start the wardrobe work'); caught, named, parked — walnut waitlist noted.",
           "icon": "Eye",
           "x": 760,
-          "y": 220,
+          "y": 340,
           "width": 190
         },
         {
@@ -216,7 +216,7 @@
           "title": "L5: The Bank-Guarantee Instrument",
           "desc": "The buyers'-group's amenity instrument: a bank-guarantee-backed clubhouse completion commitment, proposed by a project-finance member.",
           "icon": "Landmark",
-          "x": 760,
+          "x": 630,
           "y": 120,
           "width": 190
         },

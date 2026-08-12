@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The Song of the South",
           "desc": "A colleague's housewarming leads to a ₹1.8 Cr 2BHK; two weeks of 'maybe with more shifts' before the remittance line restores order.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 200,
+          "y": 380,
           "width": 190
         },
         {
@@ -204,9 +204,9 @@
           "title": "L4: The Honest Shortlist",
           "desc": "Prabhavathi Bliss II and two similar mid-communities at the belt's honest level; day-sleep acoustics tested at 10 am with a decibel app on a bare bedroom floor.",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
-          "width": 190
+          "x": 460,
+          "y":420,
+          "width": 290
         },
         {
           "id": "l5-loudspeaker-regression",
@@ -218,7 +218,7 @@
           "icon": "Undo2",
           "loopText": "S4 → S3 Regression (Temple Loudspeaker)",
           "x": 560,
-          "y": 400,
+          "y": 100,
           "width": 200
         },
         {
@@ -228,7 +228,7 @@
           "title": "L6: The CLP Booking",
           "desc": "Under-construction 2BHK booked on a construction-linked plan (one slab always pre-saved); the parish confirms four congregation families in the same project.",
           "icon": "KeyRound",
-          "x": 780,
+          "x": 840,
           "y": 400,
           "width": 200
         },
@@ -240,8 +240,8 @@
           "desc": "Slab-by-slab verification visits after night shifts; the Kottayam video call shares the EMI spreadsheet — love and expectations in the same currency.",
           "icon": "ClipboardList",
           "loopText": "Ongoing S6 — Slab-Verified, Remittance Intact",
-          "x": 920,
-          "y": 220,
+          "x": 780,
+          "y": 120,
           "width": 200
         }
       ],

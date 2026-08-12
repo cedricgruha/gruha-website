@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The 'Lake-View' Reel",
           "desc": "A stunning lake-view launch — 'lake-facing' decoded as 'valley-adjacent'; the maps veto what the drone romanced. Project unnamed by policy.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 440,
+          "y": 320,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: The Commissioned Hydrology",
           "desc": "₹50K per finalist: Bhartiya Nikoo Homes' elevated phases vs Purva Palm Beach — audited against their tanker-dependence threshold, tabs marked in monsoon blue.",
           "icon": "FileCheck2",
-          "x": 760,
-          "y": 120,
+          "x": 560,
+          "y": 20,
           "width": 190
         },
         {
@@ -216,8 +216,8 @@
           "desc": "Each finalist in real rain, approach roads included — one 'high ground' road reveals itself as a drain; one basement ramp sheds rain like a design decision.",
           "icon": "CloudRain",
           "loopText": "Monsoon-Visit Loop — Approach Roads Included, One Fail",
-          "x": 880,
-          "y": 320,
+          "x": 760,
+          "y": 350,
           "width": 200
         },
         {
@@ -227,8 +227,8 @@
           "title": "L6: The Joy-Rule Close",
           "desc": "Under-construction unit on the verified ridge closed — basement drainage inspectable mid-build; Farah's joy rule passes it last: east light, an old mango on site.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
+          "x": 800,
+          "y": 20,
           "width": 200
         }
       ],

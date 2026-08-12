@@ -191,8 +191,8 @@
           "title": "L4: The Nikoo Target",
           "desc": "Bhartiya City Nikoo Homes' under-construction phases — sold-out towers, visible construction, an active transfer desk; the tower matrix shaded by transfer activity.",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
+          "x": 680,
+          "y": 50,
           "width": 190
         },
         {
@@ -204,9 +204,9 @@
           "icon": "ShieldCheck",
           "loopText": "Adverse-Selection Filter — Assignor Failed the CRM Check, Silence Was the Answer",
           "targetNodeId": "l2-transfer-mechanics",
-          "x": 880,
-          "y": 320,
-          "width": 200
+          "x": 800,
+          "y": 420,
+          "width": 290
         },
         {
           "id": "l6-clean-assignment",

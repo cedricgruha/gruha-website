@@ -184,8 +184,8 @@
           "title": "L1: Six Years End in One Month",
           "desc": "The tenant's notice, the builder's assembly offer, and Suma's Deepavali sentence land on one timeline — the family's unresolved sentence finally has a clock.",
           "icon": "Home",
-          "x": 100,
-          "y": 120,
+          "x": 120,
+          "y": 80,
           "width": 180
         },
         {
@@ -196,7 +196,7 @@
           "desc": "The 90-day deadline renegotiated to 60+60 with exclusivity — deadlines are negotiable when the plot is this scarce; panic is optional.",
           "icon": "Calendar",
           "loopText": "Deadline Renegotiation Loop — 60+60, Exclusivity Attached",
-          "x": 320,
+          "x": 370,
           "y": 120,
           "width": 190
         },
@@ -208,8 +208,8 @@
           "desc": "Three chairs, no spouses, Amma's filter coffee — 'what does the house mean to you' runs three hours; the structure conversation takes forty minutes after it.",
           "icon": "Coffee",
           "loopText": "3-Hour No-Spouses Call — Meaning Before Numbers",
-          "x": 540,
-          "y": 120,
+          "x": 640,
+          "y": 80,
           "width": 190
         },
         {
@@ -219,7 +219,7 @@
           "title": "L4: The Ledger Settled",
           "desc": "The caretaker ledger settled explicitly: ₹18L to Ramesh off the top — one line, three signatures, the CA's relief visible.",
           "icon": "ClipboardList",
-          "x": 760,
+          "x": 850,
           "y": 120,
           "width": 190
         },
@@ -231,8 +231,8 @@
           "desc": "The builder's two previous boutique projects visited, owners interviewed — 8 and 14 months late respectively, quality praised; penalty-and-exit clauses lawyered.",
           "icon": "Search",
           "loopText": "JD Diligence Loop — Prior Projects, Owner-Interviewed",
-          "x": 440,
-          "y": 320,
+          "x": 340,
+          "y": 440,
           "width": 200
         },
         {
@@ -244,8 +244,8 @@
           "desc": "Ramesh's buyout dream surfaces late — two lists written: 'buying' vs 'proving.' The second list is longer; the dream retires itself with dignity.",
           "icon": "Undo2",
           "loopText": "2-Week Buyout Wobble — Two Lists, Dignified Exit",
-          "x": 660,
-          "y": 320,
+          "x": 600,
+          "y": 420,
           "width": 200
         },
         {

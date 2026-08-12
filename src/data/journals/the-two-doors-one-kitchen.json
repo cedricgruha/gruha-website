@@ -208,7 +208,7 @@
           "icon": "Calendar",
           "loopText": "Launch-Calendar Loop — Card-Party Network, Not Portals",
           "x": 540,
-          "y": 220,
+          "y": 110,
           "width": 190
         },
         {
@@ -219,7 +219,7 @@
           "desc": "Defined shares with right-of-first-refusal between brothers — the paper nobody wanted and everybody needs. Hated discussing; sleeping better since.",
           "icon": "Scale",
           "loopText": "The Unsaid Structure Talk — 3 Weeks, CA-Mediated",
-          "x": 760,
+          "x": 780,
           "y": 220,
           "width": 190
         },
@@ -232,9 +232,9 @@
           "desc": "A boutique launch's adjacent pair goes to a faster family — grief brief, the network doubled, the launch-window lesson priced in.",
           "icon": "Undo2",
           "loopText": "2-Week Lost-Pair Bounce — Network Doubled",
-          "x": 620,
+          "x": 420,
           "y": 420,
-          "width": 200
+          "width": 290
         },
         {
           "id": "l6-double-door-close",
@@ -243,8 +243,8 @@
           "title": "L6: The Double-Door Close",
           "desc": "Adjacent 3+3BHK pair secured at a Frazer Town-belt boutique launch; one main kitchen with staff, one breakfast kitchen upstairs — governance as architecture.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 420,
+          "x": 780,
+          "y": 460,
           "width": 200
         }
       ],

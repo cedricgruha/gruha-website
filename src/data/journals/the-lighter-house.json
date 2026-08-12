@@ -194,7 +194,7 @@
           "desc": "A friend's rave leads to a Devanahalli campus visit — excellent, and 40 km from Vidyarthi Bhavan. Parked for later life, door left unrusted, revisit yearly.",
           "icon": "Eye",
           "x": 540,
-          "y": 220,
+          "y": 120,
           "width": 190
         },
         {
@@ -206,7 +206,7 @@
           "icon": "Scale",
           "loopText": "3-Week JV-vs-Clean-Exit Loop — Simplicity Wins",
           "x": 760,
-          "y": 220,
+          "y": 120,
           "width": 190
         },
         {
@@ -218,9 +218,9 @@
           "desc": "The first 2BHK agreement stalls — the seller's society-transfer file reveals pending dues; a polite exit, two weeks lost, the orbit search reopens.",
           "icon": "Undo2",
           "loopText": "2-Week Dues-Stall Bounce — Polite Exit",
-          "x": 560,
-          "y": 420,
-          "width": 200
+          "x": 300,
+          "y": 380,
+          "width": 260
         },
         {
           "id": "l6-lighter-house-close",
@@ -229,7 +229,7 @@
           "title": "L6: The Lighter House Close",
           "desc": "Sale at ₹9.5 Cr (plot value); 2BHK closed in a lift-redundant Jayanagar-orbit building; ₹1.5 Cr gifted warm; Singapore booked for the flat's first month.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 810,
           "y": 420,
           "width": 200
         }

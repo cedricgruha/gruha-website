@@ -171,7 +171,7 @@
           "title": "L1: The Consultant Retained",
           "desc": "₹15K per evaluation, engaged; brokers trained to send floor plans before visits — a small revolution in how this family's search runs.",
           "icon": "Compass",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -194,7 +194,7 @@
           "desc": "A '100% vaastu-compliant' claim; the consultant finds a northeast kitchen in tower 2 — the fee pays for itself a fourth time. Project unnamed by policy.",
           "icon": "Eye",
           "x": 540,
-          "y": 220,
+          "y": 100,
           "width": 190
         },
         {
@@ -217,7 +217,7 @@
           "desc": "Eleven vaastu-prime units on Friday, three by Monday — four days of deliberation costs the east-facing unit. Refundable-EOI-early becomes the rule.",
           "icon": "Undo2",
           "loopText": "1-Week Deliberation Loss — Cured by Refundable EOI",
-          "x": 620,
+          "x": 320,
           "y": 420,
           "width": 200
         },
@@ -228,8 +228,8 @@
           "title": "L6: The Two-Stamp Close",
           "desc": "East-facing 3BHK secured at Falcon City; Lakshmi's forty students get the kitchen-buffered living room; her name on the deed, proportionate. EOI and shastra, both stamped.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 420,
+          "x": 800,
+          "y": 360,
           "width": 200
         }
       ],

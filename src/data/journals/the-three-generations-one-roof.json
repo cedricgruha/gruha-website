@@ -194,7 +194,7 @@
           "desc": "Valmark Cityville's duplex format seduces with space — stairs-vs-knees reality ends it in one visit, a knee X-ray clipped beside the stair section.",
           "icon": "ArrowUpDown",
           "x": 540,
-          "y": 220,
+          "y": 50,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: Two Finalists on the Table",
           "desc": "Aqua Vista (ready 3BHK 2,209 sqft, ₹2.64 Cr) vs Windchimes (1,800–2,800 sqft, ₹2–3.6 Cr) — plans spread on the dining table, Amma's glasses on one.",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
+          "x": 360,
+          "y": 380,
           "width": 190
         },
         {
@@ -216,8 +216,8 @@
           "desc": "Asked alone and unhurried, Amma chooses the smaller east-window room with garden access — the family had optimized the wrong variable for a month.",
           "icon": "Sunrise",
           "loopText": "~4-Week Wrong-Optimization — Amma's Answer Re-Routes",
-          "x": 880,
-          "y": 320,
+          "x": 740,
+          "y": 360,
           "width": 200
         },
         {
@@ -227,9 +227,9 @@
           "title": "L6: The Registered-Share Close",
           "desc": "Aqua Vista closed; Amma's ₹75L structured with a registered share and a succession note; the Chennai call afterwards — 47 minutes, ending well.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 120,
-          "width": 200
+          "x": 800,
+          "y": 70,
+          "width": 290
         }
       ],
       "timelineTitle": "Where they stand today",

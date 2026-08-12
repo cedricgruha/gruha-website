@@ -193,8 +193,8 @@
           "title": "L3 DETOUR: The New-Tower Tour",
           "desc": "At the children's urging, a 'senior-friendly tower' — lift redundancy noted, lane manners absent; declined with thanks, annotated 'lift: yes. manners: no.'",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 500,
+          "y": 320,
           "width": 190
         },
         {
@@ -204,8 +204,8 @@
           "title": "L4: The Surprising Redevelopment",
           "desc": "A boutique redevelopment inside the triangle tours well — conservation-architect facade, cross-ventilation, genuine monkey-top quotations from the original bungalow.",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
+          "x": 600,
+          "y": 20,
           "width": 190
         },
         {
@@ -216,7 +216,7 @@
           "desc": "Old-low-rise soul vs new-boutique economics — the repair-history-divided-by-eight arithmetic and a knee-consult letter settle it: the knee votes redevelopment, the orchids vote for the east balcony.",
           "icon": "Scale",
           "loopText": "3-Week Knee-vs-Soul Loop — Repair ÷ 8 Settles It",
-          "x": 880,
+          "x": 780,
           "y": 320,
           "width": 200
         },
@@ -228,7 +228,7 @@
           "desc": "2BHK in the boutique redevelopment closed (~₹19–25K/sqft corridor); the dignity fund explained once, augmented by Neville, never discussed again.",
           "icon": "KeyRound",
           "x": 880,
-          "y": 120,
+          "y": 20,
           "width": 200
         }
       ],

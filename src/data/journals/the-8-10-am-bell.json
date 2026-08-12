@@ -171,7 +171,7 @@
           "title": "L1: The Admission Letter",
           "desc": "The letter lands; the 8:10 am bell becomes the family's fixed point; the Koramangala flat is priced for exit at ₹2.4 Cr.",
           "icon": "Bell",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -194,7 +194,7 @@
           "desc": "The stretch dream inside the radius — bookmarked, unbookmarked, re-bookmarked — killed by the maintenance ledger, not the price.",
           "icon": "Eye",
           "x": 540,
-          "y": 220,
+          "y": 120,
           "width": 190
         },
         {
@@ -217,9 +217,9 @@
           "desc": "The Koramangala buyer delays; the PLH seller won't hold — two weeks of hanging in the middle, bridged by a firm-price-for-longer-close negotiation.",
           "icon": "Undo2",
           "loopText": "2-Week Chain Wobble — Bridged by Certainty Trade",
-          "x": 620,
+          "x": 660,
           "y": 420,
-          "width": 200
+          "width": 290
         },
         {
           "id": "l6-plh-close",
@@ -228,7 +228,7 @@
           "title": "L6: The Radius Close",
           "desc": "PLH 3BHK closed ~₹3.1 Cr; Vikas's Chickpet route audited and accepted; the second-child question left honestly open; the van route gains one new stop.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 380,
           "y": 420,
           "width": 200
         }

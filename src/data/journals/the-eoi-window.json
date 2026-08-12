@@ -180,8 +180,8 @@
           "title": "L3 DETOUR: The 'Valid Today Only' Invitation",
           "desc": "An invitation pre-launch with pricing 'valid today only' — EOI refundability offered only 'as per company policy'; walked, on rule. Project unnamed by policy.",
           "icon": "Eye",
-          "x": 540,
-          "y": 220,
+          "x": 440,
+          "y": 300,
           "width": 190
         },
         {
@@ -192,7 +192,7 @@
           "desc": "Allotment day at one launch offers only road-facing low floors; the refundable EOI exercised — the system working as designed.",
           "icon": "ArrowUpDown",
           "loopText": "The System Working as Designed — Refundable EOI Exercised",
-          "x": 880,
+          "x": 780,
           "y": 320,
           "width": 200
         },
@@ -203,8 +203,8 @@
           "title": "L5: The Negotiated Booking",
           "desc": "East-facing mid-floor secured at the next credible launch; floor-rise and PLC negotiated at booking, when the cheque still has power.",
           "icon": "KeyRound",
-          "x": 760,
-          "y": 120,
+          "x": 540,
+          "y": 80,
           "width": 190
         },
         {
@@ -215,7 +215,7 @@
           "desc": "The OC-day exit discipline pre-written: list three weeks before OC, close two weeks after, before neighbour listings crowd.",
           "icon": "Timer",
           "loopText": "OC-Window Tracking — List 3 Weeks Pre-OC, Close 2 Post",
-          "x": 880,
+          "x": 760,
           "y": 120,
           "width": 200
         }

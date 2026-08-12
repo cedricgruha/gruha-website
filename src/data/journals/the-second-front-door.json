@@ -171,7 +171,7 @@
           "title": "L1: The Verbs Over the Budget",
           "desc": "The corridor cricket ball hits the TV again — garden, host, build, spread out get written above the budget. The launchpad has been outgrown.",
           "icon": "Home",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -195,7 +195,7 @@
           "icon": "Users",
           "loopText": "Friend-Couple Interview Loop — One Variable Apart",
           "x": 540,
-          "y": 220,
+          "y": 120,
           "width": 190
         },
         {
@@ -205,7 +205,7 @@
           "title": "L4: Two Villa Finalists",
           "desc": "PLH villas (₹5.42–6.5 Cr) vs The Prestige City's Aspen Greens (Sarjapur villa phase) — toured twice, carrying-cost ledger applied to both.",
           "icon": "Building2",
-          "x": 760,
+          "x": 800,
           "y": 120,
           "width": 190
         },
@@ -218,9 +218,9 @@
           "desc": "The flat's buyer retrades at agreement stage — 'market correction, sir.' Five weeks lost; the sale re-runs on a bank-valuation certificate, not memory.",
           "icon": "Undo2",
           "loopText": "5-Week Retrade Wobble — Cured by Certificate-Led Pricing",
-          "x": 620,
+          "x": 720,
           "y": 420,
-          "width": 200
+          "width": 290
         },
         {
           "id": "l6-plh-villa-close",
@@ -229,7 +229,7 @@
           "title": "L6: The Mango-Leaf Close",
           "desc": "PLH villa resale closed ~₹5.6 Cr; NE-facing plot with mango-viable garden; Deepa's mother approves the pooja corner in fifteen minutes.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 380,
           "y": 420,
           "width": 200
         }
