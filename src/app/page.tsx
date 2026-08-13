@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+import type { Metadata } from "next";
 import { Header } from "@/components/layout/Header";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { FeatureSection } from "@/components/sections/FeatureSection";
@@ -18,6 +19,12 @@ const FinalCtaSection = dynamic(() => import("@/components/sections/FinalCtaSect
 const SectionSix = dynamic(() => import("@/components/sections/SectionSix").then(mod => mod.SectionSix));
 const LastStepCta = dynamic(() => import("@/components/sections/LastStepCta").then(mod => mod.LastStepCta));
 const FooterVariant = dynamic(() => import("@/components/layout/FooterVariant").then(mod => mod.FooterVariant));
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   return (

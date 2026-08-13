@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/27.png",
-    "heroTitle": "The My Own Name Journal"
+    "heroTitle": "The My Own Name Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

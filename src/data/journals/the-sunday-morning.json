@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/28.png",
-    "heroTitle": "The Sunday Morning Journal"
+    "heroTitle": "The Sunday Morning Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {
@@ -205,7 +212,7 @@
           "desc": "Prabhavathi Bliss II and two similar mid-communities at the belt's honest level; day-sleep acoustics tested at 10 am with a decibel app on a bare bedroom floor.",
           "icon": "Building2",
           "x": 460,
-          "y":420,
+          "y": 420,
           "width": 290
         },
         {

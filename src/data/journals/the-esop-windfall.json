@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/6.png",
-    "heroTitle": "The ESOP Windfall"
+    "heroTitle": "The ESOP Windfall",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {
@@ -906,7 +913,7 @@
       "icon": "MessagesSquare",
       "loopText": "+1 Valence Loop",
       "x": 880,
-      "y": 320,
+      "y": 380,
       "width": 180
     },
     {
@@ -928,7 +935,7 @@
       "desc": "Decision deliberately parked; the journal ends mid-journey, honestly — optionality is the purchase.",
       "icon": "GitBranch",
       "loopText": "Open Loop — Parked Deliberately",
-      "x": 340,
+      "x": 300,
       "y": 420,
       "width": 190
     }

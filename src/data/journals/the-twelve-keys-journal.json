@@ -1,22 +1,10 @@
 {
-  "id": "the-twelve-keys-journal",
-  "name": "Priyanka Bhat",
-  "persona": "The Micro-Stay Operator",
-  "buyerName": "Priyanka Bhat",
-  "role": "Micro-Stay Operator & House-Hacker",
-  "tagline": "The Twelve Keys Journal",
-  "tags": [
-    "INVESTORS & WEALTH",
-    "MICRO-STAY OPERATOR",
-    "ORR CORRIDOR"
-  ],
   "article": {
     "title": "The Twelve Keys Journal",
     "heroTitle": "The Twelve Keys Journal",
     "description": "Priyanka Bhat's (35) micro-stay portfolio expansion across HSR, Bellandur & Manyata — underwriting ready builder-held studios against 7%+ net yields, RWA bye-laws, and corporate demand.",
     "quote": "\"Every flat should introduce itself with its occupancy rate.\"",
     "readTime": "14 min read",
-    "publishedDate": "Mid-2026",
     "heroImage": "/journals/cover/5.jpg",
     "imagegenerationprompt": "A modern vector illustration of a confident woman holding a ring of twelve keys with apartment building floorplan outlines, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
     "learnings": [
@@ -32,51 +20,21 @@
         "icon": "Layers",
         "text": "Split inventory across corridors to cut risk"
       }
-    ]
+    ],
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    },
+    "tags": [
+      "INVESTORS & WEALTH",
+      "MICRO-STAY OPERATOR",
+      "ORR CORRIDOR"
+    ],
+    "updatedOn": "Updated on July 2026"
   },
-  "buyers": [
-    {
-      "name": "Priyanka Bhat",
-      "age": 35,
-      "location": "Bengaluru",
-      "role": "Ex-Hotelier & Micro-Stay Operator",
-      "description": "A sharp ex-hotelier turned rental operator who underwrites apartments like yield-generating machines. Rigorous about RWA bye-laws, dynamic pricing, and P&Ls per unit.",
-      "tags": [
-        "Data-Driven",
-        "Yield-Focused",
-        "Decisive"
-      ],
-      "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
-      "image": "/journals/the-twelve-keys-journal/priyanka.png",
-      "imagegenerationprompt": "A modern vector illustration of priyanka bhat, a confident 35-year-old Indian female entrepreneur with styled short dark hair, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
-    }
-  ],
-  "sharedVisionTitle": "The Operating Machine",
-  "sharedVisionDescription": "Priyanka treats residential apartments as high-yield operating assets rather than passive homes. Every purchase is underwritten against occupancy rates, RWA short-stay regulations, and 7%+ net yields.",
-  "sharedVisionImage": "/journals/the-twelve-keys-journal/hero.png",
-  "imagegenerationprompt": "A modern vector illustration of a clean apartment key-fob rack with lit studio room cutaways and occupancy charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
-  "stats": [
-    {
-      "icon": "Briefcase",
-      "label": "BUYER PROFILE",
-      "value": "Micro-Stay Operator"
-    },
-    {
-      "icon": "Heart",
-      "label": "LIFE STAGE",
-      "value": "Units 7–8 Hunt"
-    },
-    {
-      "icon": "TrendingUp",
-      "label": "SEARCH STAGE",
-      "value": "Negotiating & Closing"
-    },
-    {
-      "icon": "Hourglass",
-      "label": "TIMELINE",
-      "value": "Opportunistic (2w)"
-    }
-  ],
   "tabs": [
     {
       "id": "profile",
@@ -371,7 +329,61 @@
       "adviceTitle": "Advice for micro-stay operators",
       "adviceStoryboardImage": "/journals/journey-storyboard.png",
       "adviceStoryboardImagePrompt": "A modern vector illustration of a vector storyboard showing AGM minutes auditing, bye-law filtering, developer stock negotiating, and key rack filling, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
-      "adviceDescription": "For rental operators and house-hackers, success comes from auditing RWA bye-laws before second visits, demanding GST-inclusive builder pricing, and hedging corridor concentration risk. Priyanka proved that when bye-law clearance leads, yield follows."
+      "adviceDescription": "For rental operators and house-hackers, success comes from auditing RWA bye-laws before second visits, demanding GST-inclusive builder pricing, and hedging corridor concentration risk. Priyanka proved that when bye-law clearance leads, yield follows.",
+      "title": "The micro-stay hunt reaches its final two keys.",
+      "description": "From six profitable units across HSR and Bellandur to the hunt for seven and eight — where entry yields had compressed ~150bps and the real asset to underwrite was no longer the unit, but the RWA's bye-laws.",
+      "timelineSteps": [
+        {
+          "id": "underwrite",
+          "label": "Underwrite",
+          "icon": "Calculator"
+        },
+        {
+          "id": "rwa-audit",
+          "label": "RWA audit",
+          "icon": "FileSearch"
+        },
+        {
+          "id": "stock",
+          "label": "Builder stock",
+          "icon": "Building2"
+        },
+        {
+          "id": "verify",
+          "label": "Verify yields",
+          "icon": "TrendingUp",
+          "active": true,
+          "tag": "7%+ net"
+        },
+        {
+          "id": "close",
+          "label": "Close keys 7–8",
+          "icon": "KeyRound"
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "ShieldCheck",
+          "title": "The Bye-Law Is the Asset",
+          "description": "The bye-law and last AGM minutes matter more than the floor plate — a hostile association can vote your business away the year after you buy."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Entry Yields Have Compressed",
+          "description": "ORR studios have risen to ₹15–17K/sqft and compressed entry yields ~150bps since 2021 — the operating edge is now the entire business, not the entry discount."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "GST-Inclusive Builder Stock",
+          "description": "Builder-held ready units came with GST but also negotiation room and a clean counterparty; all-in, the math beat the resale unit she almost bought."
+        },
+        {
+          "icon": "Layers",
+          "title": "Concentration Risk Is Real",
+          "description": "One tech park's hybrid mandate showed her how fragile single-zone exposure is — her next two units split deliberately between Manyata and the ORR."
+        }
+      ]
     },
     {
       "id": "search",
@@ -474,7 +486,10 @@
       "insightTitle": "What I noticed while we were searching",
       "insightDescription": "“Priyanka didn't care about swimming pools or clubhouse marble. She cared about RWA notice boards, AGM minutes, and GST-inclusive builder inventory. She was underwriting an operating machine, not a home.”",
       "insightImage": "/journals/advisor.png",
-      "imagegenerationprompt": "A modern vector illustration of Riya holding an iPad showing RWA bye-law checklists and occupancy yield spreadsheets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+      "imagegenerationprompt": "A modern vector illustration of Riya holding an iPad showing RWA bye-law checklists and occupancy yield spreadsheets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "tagline": "THE SEARCH",
+      "title": "Where she looked and what she found.",
+      "description": "Ready builder-held studios within 1.5 km of ORR and Manyata tech parks, underwritten at 70% occupancy and a ₹4,200 ADR — with an RWA-temperament audit ahead of every price check."
     },
     {
       "id": "projects",
@@ -515,7 +530,7 @@
           "imageSrc": "/journals/default.png"
         }
       ],
-      "prioritiesTitle": "NON-NEGOTIABLE CRITERIA",
+      "prioritiesTitle": "What mattered most in her search",
       "priorities": [
         {
           "title": "RWA Bye-Law Tolerance",
@@ -552,7 +567,53 @@
         }
       ],
       "suggestionTitle": "RIYA'S SUGGESTION",
-      "suggestionDescription": "Priyanka's edge lies in pairing strict RWA bye-law audits with direct developer inventory negotiation. By acquiring ready builder stock with GST included and splitting units between ORR and Manyata, she secured a resilient 7%+ net operating yield."
+      "suggestionDescription": "Priyanka's edge lies in pairing strict RWA bye-law audits with direct developer inventory negotiation. By acquiring ready builder stock with GST included and splitting units between ORR and Manyata, she secured a resilient 7%+ net operating yield.",
+      "tagline": "THE PROJECTS",
+      "title": "The towers she weighed.",
+      "description": "Ready builder-held studios and compact 1BHKs in completed ORR projects — each weighed on bye-laws, AGM minutes, net yield after all costs, and short-stay tolerance before price even entered the conversation.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Ready Studio 1BHK"
+        },
+        {
+          "icon": "Building2",
+          "label": "EVALUATED STOCK",
+          "value": "12 Sites"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "NET YIELD GATE",
+          "value": "≥7% Post-Fees"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "CLOSED THIS ROUND",
+          "value": "2 Units (Keys 7–8)"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "I'm not buying units anymore. I'm buying which associations let me run my machine in peace."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And that is exactly why keys seven and eight went into a short-stay-tolerant tower split across Manyata and the ORR — the bye-law cleared first, the yield followed.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the conclusion (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where she searched",
+      "mapImageSrc": "/journals/the-twelve-keys-journal/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Bengaluru's ORR and Manyata corridors with Warm Coral #FF8A65 tech-park pin markers and 1.5km proximity rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF), Scandinavian minimalism, clean white background.",
+      "suggestionImageSrc": "/journals/advisor.png"
     },
     {
       "id": "learnings",
@@ -577,6 +638,11 @@
           "icon": "ShieldCheck",
           "label": "RWA CLAUSE AUDIT",
           "value": "100% Clear"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "PORTFOLIO SIZE",
+          "value": "8 Units / 12 Keys"
         }
       ],
       "lessonsTitle": "Key takeaways from her journey",
@@ -686,7 +752,31 @@
           "body": "Distributing units across tech corridors protected portfolio against single-zone hybrid work shifts.",
           "turning": false
         }
-      ]
+      ],
+      "tagline": "LEARNINGS",
+      "title": "What the twelve keys taught her.",
+      "description": "Key takeaways for micro-stay operators and house-hackers — where yield, bye-laws, and corridor concentration decide what a flat is actually worth.",
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "The ugliest unit made the most money. Guests buy location and reliability; owners buy facades. I underwrite for guests now."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That is the whole lesson in one sentence. Underwrite the bye-law first, the guest second — and the yield follows.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the conclusion (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for micro-stay operators",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Priyanka auditing AGM minutes, underwriting at 70% occupancy, negotiating GST-inclusive builder stock, and splitting keys across Manyata and the ORR, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For rental operators and house-hackers, success comes from auditing RWA bye-laws before second visits, underwriting net yield at 7%+ after OTA and housekeeping fees, negotiating GST-inclusive builder stock, and splitting units across micro-markets. When bye-law clearance leads, yield follows."
     },
     {
       "id": "start-here",
@@ -744,25 +834,22 @@
         {
           "title": "RWA Bye-Law Tolerance",
           "description": "Audit AGM minutes to verify short-stay guest clearance before token.",
-          "icon": "ShieldCheck"
+          "icon": "ShieldCheck",
+          "id": 1
         },
         {
           "title": "7%+ Net Operating Yield",
           "description": "Underwrite post-OTA, housekeeping, and maintenance levies.",
-          "icon": "TrendingUp"
+          "icon": "TrendingUp",
+          "id": 2
         },
         {
           "title": "Dual Corridor Split",
           "description": "Hedge hybrid work shifts by spreading units between ORR and Manyata.",
-          "icon": "Layers"
+          "icon": "Layers",
+          "id": 3
         }
-      ],
-      "ctaTitle": "Ready to write your story?",
-      "ctaDescription": "Let Riya understand your operating goals and build a personalized home search journal.",
-      "ctaButtonText": "Start your journal",
-      "ctaAdaptButtonText": "Adapt this journal",
-      "ctaCharacterImage": "/journals/the-twelve-keys-journal/priyanka.png",
-      "ctaBadgeText": "Real Estate Companion"
+      ]
     }
   ]
 }

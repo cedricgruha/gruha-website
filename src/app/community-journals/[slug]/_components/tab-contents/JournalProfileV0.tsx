@@ -131,8 +131,8 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
               : cell.icon;
 
           return (
-            <div key={cell.label} className="group flex items-center gap-3.5 px-5 sm:px-6 py-4.5 flex-1 min-w-0 transition-colors">
-              <span className="flex-none text-[#DD5128]">
+            <div key={cell.label} className="group flex items-start gap-3.5 px-5 sm:px-6 py-4.5 flex-1 min-w-0 transition-colors">
+              <span className="flex-none mt-3.5 text-[#DD5128]">
                 {iconElement}
               </span>
               <div className="min-w-0">
@@ -140,7 +140,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
                   {cell.label}
                 </p>
                 <p
-                  className="text-base font-[500] leading-tight  whitespace-nowrap"
+                  className="text-base font-[500] leading-tight"
                   style={{ fontFamily: fd, color: idx === 0 ? "#DD5128" : "#111821" }}
                 >
                   {cell.value}
@@ -160,26 +160,24 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
           return (
             <div
               key={p.name}
-              className="bg-white border rounded-2xl overflow-hidden block sm:flex sm:items-stretch sm:gap-5 p-4 sm:p-5"
+              className="bg-white border overflow-hidden p-4 sm:p-5"
               style={{
                 borderColor: "#E4E9EF",
                 boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",
                 minHeight: 180,
               }}
             >
-              {/* On mobile the image floats left so the text wraps beside it and,
-                once it exceeds the image height, fills below the image — like a
-                two-column magazine. From sm+ the float is removed and the text
-                sits side-by-side with the image (flex row). */}
-              <div className="float-left mr-4 mb-2 sm:float-none sm:mr-0 sm:mb-0 w-[135px] h-[145px] sm:w-[150px] sm:h-[155px] rounded-2xl overflow-hidden flex-none bg-[#F7ECE1] relative">
+              {/* Image stays at the start; text wraps beside/below it like a
+                  two-column magazine on every persona (kept on all widths). */}
+              <div className="float-left mr-4 rounded-none overflow-hidden bg-[#F7ECE1] relative w-[135px] h-[145px] sm:w-[150px] sm:h-[155px] flex-none">
                 <Image
                   src={personaImg}
                   alt={p.name}
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-top"
                 />
               </div>
-              <div className="min-w-0 sm:flex-1 sm:flex sm:flex-col sm:justify-center">
+              <div className="min-w-0">
                 <h3 className="text-[20px] font-semibold leading-tight text-[#111821] mb-1" style={{ fontFamily: fd }}>
                   {p.name} ({p.age})
                 </h3>
@@ -200,7 +198,6 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
             style={{ borderColor: "#E4E9EF", boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)" }}
           >
             <h4 className="text-base sm:text-lg font-semibold leading-[1.25]" style={{ fontFamily: fd, color: "#111821" }}>
-
               {sharedVisionTitle}
             </h4>
             <p className="mt-3 text-sm sm:text-base leading-[1.6]" style={{ fontFamily: fu, color: "#6B7684" }}>

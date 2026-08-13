@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/7.png",
-    "heroTitle": "The Shutter & Stairs Journal"
+    "heroTitle": "The Shutter & Stairs Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {
@@ -906,6 +913,15 @@
           "description": "A beautifully kept record of corners, tenure, and your second-income thesis.",
           "icon": "BookOpen"
         }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You want income-producing property you personally manage, within scooter distance, forever.",
+        "A rent ledger excites you more than an appreciation chart.",
+        "You count footfall on Sunday mornings and know which bakeries survive.",
+        "Your retirement plan is rent receipts, not fund statements.",
+        "You’d rather buy a smaller proven corner than a bigger speculative one.",
+        "You intend to be the landlord your grandmother was — present, firm, and paid on the 5th."
       ],
       "blankTitle": "This page is still blank.",
       "blankDescription": "Begin your conversation with Riya to build a rental-income roadmap for your corner property and tenants.",

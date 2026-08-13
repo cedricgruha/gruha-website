@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/24.png",
-    "heroTitle": "The East-Facing Door Journal"
+    "heroTitle": "The East-Facing Door Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

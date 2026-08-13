@@ -156,7 +156,7 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
     const processed = exploredAreasList.map((area, idx) => {
       const areaName = area.name || area.title || `Area ${idx + 1}`;
       const derivedKey = areaKey(area);
-      
+
       // 1. Resolve registered polygon points from area name lookup
       const registered = getPolygonPoints(derivedKey);
 
@@ -272,8 +272,8 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
               : cell.icon;
 
           return (
-            <div key={cell.label} className="flex items-center gap-4 px-6 sm:px-8 py-5 flex-1 min-w-0">
-              <span className="flex-none text-[#DD5128]">{iconElement}</span>
+            <div key={cell.label} className="group flex items-start gap-3.5 px-5 sm:px-6 py-4.5 flex-1 min-w-0 transition-colors">
+              <span className="flex-none mt-[22px]  text-[#DD5128]">{iconElement}</span>
 
               <div className="min-w-0 flex-1">
                 <p className="text-xs font-semibold tracking-[0.10em] uppercase mb-1.5" style={{ fontFamily: fu, color: "#8A94A1" }}>

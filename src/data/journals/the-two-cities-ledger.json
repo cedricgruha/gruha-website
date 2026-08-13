@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/17.png",
-    "heroTitle": "The Two Cities Ledger"
+    "heroTitle": "The Two Cities Ledger",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

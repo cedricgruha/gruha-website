@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/41.jpg",
-    "heroTitle": "The One More Room Journal"
+    "heroTitle": "The One More Room Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

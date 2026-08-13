@@ -375,10 +375,10 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
               return (
                 <div
                   key={cell.label || idx}
-                  className="flex items-center gap-3.5 px-6 sm:px-8 py-5 flex-1 min-w-0"
+                  className="group flex items-start gap-3.5 px-5 sm:px-6 py-4.5 flex-1 min-w-0 transition-colors"
                 >
                   {/* Icon aligned with the first line of the value text */}
-                  <span className="flex-none text-[#DD5128]">
+                  <span className="flex-none mt-3.5 text-[#DD5128]">
                     {iconElement}
                   </span>
 
@@ -391,7 +391,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                       {cell.label}
                     </p>
                     <p
-                      className="text-base font-[500] leading-tight  whitespace-nowrap"
+                      className="text-base font-[500] leading-tight"
                       style={{ fontFamily: fd, color: "rgb(17, 24, 33)" }}
                     >
                       {cell.value}

@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/40.png",
-    "heroTitle": "The Almost-First Owner Journal"
+    "heroTitle": "The Almost-First Owner Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

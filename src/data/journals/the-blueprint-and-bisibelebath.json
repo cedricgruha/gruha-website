@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/12.png",
-    "heroTitle": "The Blueprint & Bisibelebath Journal"
+    "heroTitle": "The Blueprint & Bisibelebath Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

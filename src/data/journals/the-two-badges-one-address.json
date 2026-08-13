@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/13.png",
-    "heroTitle": "The Two Badges, One Address Journal"
+    "heroTitle": "The Two Badges, One Address Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {
@@ -171,24 +178,24 @@
           "title": "L1: The Measured-Walk Epiphany",
           "desc": "Siddharth's 55 stationary minutes near Ibblur junction meets Ananya's concentric walking-rings map — the thesis is born: buy within 800 measured metres of a confirmed station.",
           "icon": "Route",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
         {
           "id": "l2-ring-audits",
           "stage": "S2",
-          "type": "stage",
+          "type": "advance",
           "title": "L2: Ring-by-Ring Audits",
           "desc": "Every shortlisted tower visited at 9 am and 6:30 pm with a decibel app and a stopwatch — the map's concentric rings graded by measured walk and real noise.",
           "icon": "AudioLines",
-          "x": 320,
+          "x": 340,
           "y": 120,
           "width": 180
         },
         {
           "id": "l3-neopolis-detour",
-          "stage": "DETOUR",
+          "stage": "S2",
           "type": "detour",
           "title": "L3 DETOUR: The Neopolis Hoarding",
           "desc": "Sobha Neopolis' Greek renders and a possession date in 2027 fail the 'trains before keys' thesis — parked with respect from the car window.",
@@ -200,7 +207,7 @@
         {
           "id": "l4-dream-acres-leads",
           "stage": "S3",
-          "type": "stage",
+          "type": "advance",
           "title": "L4: Dream Acres Leads",
           "desc": "Ready-stock shortlist firms: Sobha Dream Acres (Balagere) leads — measured 800m-class walk, established community, tenant liquidity for the fallback model.",
           "icon": "Building2",
@@ -210,7 +217,7 @@
         },
         {
           "id": "l5-lost-to-speed",
-          "stage": "S5",
+          "stage": "S5→S3",
           "type": "bounce",
           "targetNodeId": "l4-dream-acres-leads",
           "title": "L5 BOUNCE: Lost to Speed",
@@ -223,8 +230,8 @@
         },
         {
           "id": "l6-parallel-protocol-close",
-          "stage": "S7",
-          "type": "stage",
+          "stage": "S5→S7",
+          "type": "advance",
           "title": "L6: The Parallel-Protocol Close",
           "desc": "East-facing Dream Acres 3BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
           "icon": "KeyRound",

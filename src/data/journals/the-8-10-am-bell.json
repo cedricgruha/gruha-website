@@ -25,7 +25,14 @@
       }
     ],
     "heroImage": "/journals/cover/21.png",
-    "heroTitle": "The 8:10 AM Bell Journal"
+    "heroTitle": "The 8:10 AM Bell Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {

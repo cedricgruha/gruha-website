@@ -23,7 +23,14 @@
         "text": "Manage home buying before becoming parents"
       }
     ],
-    "heroImage": "/journals/default/hero.png"
+    "heroImage": "/journals/default/hero.png",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
   },
   "tabs": [
     {
