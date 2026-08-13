@@ -5,7 +5,7 @@
       "CENTRAL BENGALURU",
       "WINDFALL"
     ],
-    "title": "The ESOP Windfall Journal",
+    "title": "The Sudden Money Journal",
     "description": "Mansur Nazimuddin's ₹4.8 Cr post-acquisition windfall journey — betting eight lean years on a startup, then deciding whether to convert risk into roots while the city does everything it can to unsettle the answer.",
     "quote": "\"The wire hit. Now everyone has advice.\"",
     "readTime": "15 min read",
@@ -24,8 +24,8 @@
         "text": "Optionality is a defensible purchase"
       }
     ],
-    "heroImage": "/journals/cover/6.png",
-    "heroTitle": "The ESOP Windfall",
+    "heroImage": "/journals/cover/6.jpg",
+    "heroTitle": "The Sudden Money Journal",
     "datePublished": "2026-03-14",
     "dateModified": "2026-07-08",
     "author": {
@@ -556,29 +556,27 @@
         {
           "title": "Indiranagar / Cooke Town Character Stock",
           "name": "Indiranagar / Cooke Town Character Homes",
-          "price": "₹28–40K/sqft",
+          "price": "₹8–9 Cr",
           "possession": "Character Resale",
           "psf": "₹28–40K/sqft",
           "location": "Central Bengaluru",
-          "imageSrc": "/journals/the-esop-windfall/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
-          "title": "Premium New Launch Nearby",
-          "name": "Premium New Launch",
-          "price": "In Budget Range",
+          "title": "Premium New Launch Nearby (Realistic Plan A)",
+          "name": "Premium New Launch / Cooke Town Duplex",
+          "price": "~₹3.5 Cr",
           "possession": "New Launch",
-          "psf": "Premium Corridor Pricing",
-          "location": "Near Indiranagar / Metro",
-          "imageSrc": "/journals/the-esop-windfall/projects/2.jpg"
+          "location": "Quiet Cooke Town lane / Metro",
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "Branded-Residences Launch",
           "name": "Branded-Residences Launch",
-          "price": "₹9 Cr Duplexes",
+          "price": "₹9 Cr",
           "possession": "Launch Preview",
-          "psf": "Unnamed by Policy",
           "location": "CBD Fringe",
-          "imageSrc": "/journals/the-esop-windfall/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

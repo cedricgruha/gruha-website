@@ -553,7 +553,7 @@
           "possession": "Pre-launch / EOI",
           "psf": "Township series, airport corridor",
           "location": "Devanahalli",
-          "imageSrc": "/journals/the-eoi-window/projects/1.jpg"
+          "imageSrc": "/journals/the-eoi-window/projects/Birla-Trimaya.webp"
         },
         {
           "title": "The Launch Case Study",
@@ -562,7 +562,7 @@
           "possession": "Launch-to-ready arc",
           "psf": "The model his entry trades",
           "location": "Panathur",
-          "imageSrc": "/journals/the-eoi-window/projects/2.jpg"
+          "imageSrc": "/journals/the-eoi-window/projects/Sobha-Neopolis.png"
         },
         {
           "title": "The Refundability Detour",
@@ -571,7 +571,7 @@
           "possession": "Invitation only",
           "psf": "Refundability 'as per policy'",
           "location": "Unnamed",
-          "imageSrc": "/journals/the-eoi-window/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

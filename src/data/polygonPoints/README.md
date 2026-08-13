@@ -46,6 +46,16 @@ exploredAreas[]                     POLYGON_POINTS               getPolygonPoint
 > `export const <key>IsochronePoints`). `index.ts` is also auto-generated, but is
 > **frozen** — it never grows per journal.
 
+> **Shared-micro-market keys are resolved automatically — no skip-list.** When several
+> journals describe the *same* geographic micro-market with slightly different display
+> titles that collapse to one derived key, the batch generator fetches one isochrone per
+> key and keeps it only if it can contain **every** journal's pin (see the
+> "Shared keys" section below). If any pin falls outside, the key is skipped and any
+> stale polygon file for it is removed; those areas render with the pin-centered decorative
+> hexagon instead (the same fallback every unregistered area uses). Currently skipped:
+> `devanahalliAirportCorridor` (shared by the bhoomi / eoi-window / khata-and-compass
+> journals, whose pins are ~4.6 km apart).
+
 Points live **only in TS** (never inlined into JSON) so there is a single source of truth
 and JSON stays human-readable. Bundle size and lookup cost are identical to the old
 hand-written registry, so auto-generation has **no performance impact**.
@@ -117,6 +127,35 @@ node scripts/generate-isochrone.mjs --verify
 
 This reports ring-closure, pin-inside, point count, and export-name consistency for every area.
 
+## Shared keys: automatic skip on pin divergence
+
+Several journals can use the **same derived area key** for the same micro-market (e.g. three
+journals describe the Devanahalli airport corridor; two describe Whitefield). Each journal
+still has its **own pin**. A single drive-time polygon is anchored on one pin, so it is only
+honest when it can actually contain **every** journal's pin for that key.
+
+The batch generator handles this automatically — no hand-maintained skip-list:
+
+- It **groups areas by key** and fetches one isochrone per key (anchored at the group's first
+  pin).
+- It only **writes** the shared polygon if it contains **all** of that key's journal pins
+  (`polygonCoversAllPins`). Co-located keys (e.g. Cooke Town, pins 0 m apart) keep a single
+  shared polygon; nearby keys keep their shared zone.
+- If any pin falls outside, the key is **skipped** (no file written) and printed as `SKIP`.
+  The generator also **deletes any stale polygon file** that previously registered the key,
+  so the rebuilt registry (`polygonData.ts`) won't keep serving a shape that only honestly
+  covers one journal's pin. Every journal in that group then falls back to its own
+  pin-centered hexagon at runtime (see `JournalSearchV0.tsx`) — exactly what was previously
+  hardcoded, but now discovered from geometry, so a future journal with the same pattern
+  needs no code change.
+
+`--verify` treats a missing file for a multi-journal key as an **expected skip** (printed
+`OK(↑skip)`) rather than a failure, and only hard-fails single-journal keys with no polygon.
+
+New collision caught automatically, no edits needed. If you truly want a few journals to
+render a real shared isochrone instead of the hexagon fallback, make their pins converge
+(within one reachable zone) or give them distinct-facing titles so they resolve to separate keys.
+
 ## Adding a new area
 
 1. Add the area to the journal JSON's `search.exploredAreas` with a `title` and a `latlong`
@@ -134,5 +173,5 @@ This reports ring-closure, pin-inside, point count, and export-name consistency 
 
 The `generate-isochrone.mjs` script talks to the public, community-run demo server at
 `https://valhalla1.openstreetmap.de`. It is free and keyless but rate-limited — keep batch
-runs modest (the current full sweep is ~17 requests). For production/CI, run your own
-Valhalla or OSRM instance and point `VALHALLA_BASE` at it.
+runs modest (the full sweep is one request per derived key, ~120 areas). For production/CI,
+run your own Valhalla or OSRM instance and point `VALHALLA_BASE` at it.

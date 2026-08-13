@@ -573,7 +573,7 @@
           "possession": "Newer releases",
           "psf": "Launch-stage unit-matrix selection",
           "location": "Konanakunte Cross",
-          "imageSrc": "/journals/the-east-facing-door/projects/1.jpg"
+          "imageSrc": "/journals/the-east-facing-door/projects/Prestige-Falcon-City.webp"
         },
         {
           "title": "Resale Comparator",
@@ -582,7 +582,7 @@
           "possession": "Ready",
           "psf": "East-facing resale carries 4–8% premium",
           "location": "JP Nagar 7th Phase",
-          "imageSrc": "/journals/the-east-facing-door/projects/2.jpg"
+          "imageSrc": "/journals/the-east-facing-door/projects/Brigade-Gardenia.webp"
         },
         {
           "title": "The False-Compliance Detour",
@@ -591,7 +591,7 @@
           "possession": "Ready",
           "psf": "NE kitchen found in tower 2",
           "location": "South belt",
-          "imageSrc": "/journals/the-east-facing-door/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

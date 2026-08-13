@@ -16,7 +16,6 @@ interface JournalCard {
   tags: string[];
   segment: string;
   image: string;
-  imagePosition?: string;
   views?: number;
   copies?: number;
   path?: string;
@@ -323,9 +322,7 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                       src={journal.image}
                       alt={journal.title}
                       fill
-                      className={`object-cover transition-transform duration-700 group-hover:scale-105 ${
-                          journal.imagePosition || "object-center"
-                        }`}
+                      className={`object-cover transition-transform duration-700 group-hover:scale-105 object-[right_center]`}
                     />
 
                     {/* Dark Vignette Gradient Overlay */}

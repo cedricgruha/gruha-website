@@ -585,7 +585,7 @@
           "possession": "1970s-era, renovated",
           "psf": "Pure land-share value",
           "location": "Koramangala blocks",
-          "imageSrc": "/journals/the-fifteen-minute-life/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Hidden Primary Hope",
@@ -594,7 +594,7 @@
           "possession": "12-unit rebuilds",
           "psf": "Assembled-plot launches",
           "location": "Walkable cores",
-          "imageSrc": "/journals/the-fifteen-minute-life/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Tower Detour",
@@ -603,7 +603,7 @@
           "possession": "Ready / UC",
           "psf": "Compound pricing",
           "location": "Sarjapur Road",
-          "imageSrc": "/journals/the-fifteen-minute-life/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

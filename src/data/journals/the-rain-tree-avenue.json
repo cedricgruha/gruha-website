@@ -584,7 +584,7 @@
           "possession": "New construction, old fabric",
           "psf": "~₹26K/sqft when it surfaces",
           "location": "Cooke Town belt",
-          "imageSrc": "/journals/the-rain-tree-avenue/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Market Itself",
@@ -593,7 +593,7 @@
           "possession": "Forty buildings, shrinking",
           "psf": "Priced for the lane as much as the flat",
           "location": "Old Cantonment triangle",
-          "imageSrc": "/journals/the-rain-tree-avenue/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The New-Tower Detour",
@@ -602,7 +602,7 @@
           "possession": "Ready",
           "psf": "Lift: yes. Manners: no.",
           "location": "New Bengaluru",
-          "imageSrc": "/journals/the-rain-tree-avenue/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

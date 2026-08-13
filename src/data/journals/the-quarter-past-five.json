@@ -24,7 +24,7 @@
         "text": "Six veteran households dissolved the AWHO question"
       }
     ],
-    "heroImage": "/journals/cover/31.png",
+    "heroImage": "/journals/cover/31.jpg",
     "heroTitle": "The Quarter Past Five Journal",
     "datePublished": "2026-03-14",
     "dateModified": "2026-07-08",
@@ -575,7 +575,7 @@
           "possession": "Ready",
           "psf": "North-Bengaluru ₹10–14K/sqft band",
           "location": "Yelahanka",
-          "imageSrc": "/journals/the-quarter-past-five/projects/1.jpg"
+          "imageSrc": "/journals/the-quarter-past-five/projects/Prestige-Royale-Gardens.webp"
         },
         {
           "title": "The Parked Alternative",
@@ -584,7 +584,7 @@
           "possession": "Allotment-dependent",
           "psf": "Brotherhood, fixed location",
           "location": "Allotment-dependent",
-          "imageSrc": "/journals/the-quarter-past-five/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Retrade Walk-Out",
@@ -593,7 +593,7 @@
           "possession": "Instant walk-out",
           "psf": "Gurgaon-number seller",
           "location": "Yelahanka belt",
-          "imageSrc": "/journals/the-quarter-past-five/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

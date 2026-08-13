@@ -423,6 +423,17 @@
           "imagegenerationprompt": "A modern architectural vector view of the Sarjapur–Harlur residential belt with tree-lined internal roads, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
         {
+          "title": "Varthur (Open-Space Thesis)",
+          "description": "Prestige Lakeside Habitat's 102-acre township — large walking geography and a genuine shortlist, weighed for vet radius and open-space fit.",
+          "projects": 2,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9393,
+            "lng": 77.7352
+          },
+          "imagegenerationprompt": "A modern architectural vector view of the Varthur locality with Prestige Lakeside Habitat's open green township, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
           "title": "Whitefield's Older Communities",
           "description": "Mature communities with established pet cultures and large walking geographies — the second belt on the shortlist, weighed for vet radius and commute.",
           "projects": 3,
@@ -447,7 +458,7 @@
           "imagegenerationprompt": "A modern architectural vector view of Kanakapura Road's green corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }
       ],
-      "consideredAreasLabel": "Other areas considered: Prestige Lakeside Habitat (open-space thesis, Varthur) • every launch-only project (pet culture cannot be verified in a brochure)",
+      "consideredAreasLabel": "Other areas considered: every launch-only project (pet culture cannot be verified in a brochure)",
       "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
       "filters": [
         {
@@ -572,7 +583,7 @@
           "possession": "Ready",
           "psf": "Pet-warm belt, ₹14–16K/sqft",
           "location": "Harlur / Kasavanahalli",
-          "imageSrc": "/journals/the-four-paws-two-names/projects/1.jpg"
+          "imageSrc": "/journals/the-four-paws-two-names/projects/Shriram-Chirping-Woods.jpg"
         },
         {
           "title": "Open-Space Thesis",
@@ -581,7 +592,7 @@
           "possession": "Ready",
           "psf": "102-acre walking geography",
           "location": "Varthur",
-          "imageSrc": "/journals/the-four-paws-two-names/projects/2.jpg"
+          "imageSrc": "/journals/the-four-paws-two-names/projects/Prestige-Lakeside-Habitat.webp"
         },
         {
           "title": "The Vet-Desert Detour",
@@ -590,7 +601,7 @@
           "possession": "Ready",
           "psf": "Named-lens withheld",
           "location": "Kanakapura Road",
-          "imageSrc": "/journals/the-four-paws-two-names/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

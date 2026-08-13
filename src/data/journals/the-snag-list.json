@@ -570,7 +570,7 @@
           "possession": "OC received — inspecting",
           "psf": "Unnamed by policy (snag narrative)",
           "location": "Kanakapura Rd metro belt",
-          "imageSrc": "/journals/the-snag-list/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Delivered Benchmark",
@@ -579,7 +579,7 @@
           "possession": "Ready, lived-in",
           "psf": "The yardstick for 'done'",
           "location": "Konanakunte Cross",
-          "imageSrc": "/journals/the-snag-list/projects/2.jpg"
+          "imageSrc": "/journals/the-snag-list/projects/Prestige-Falcon-City.webp"
         },
         {
           "title": "The Corridor Comparable",
@@ -588,7 +588,7 @@
           "possession": "Ready",
           "psf": "What the corridor trades at",
           "location": "Kanakapura Rd belt",
-          "imageSrc": "/journals/the-snag-list/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

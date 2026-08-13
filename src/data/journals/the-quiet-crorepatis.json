@@ -457,7 +457,7 @@
           "projects": 3,
           "siteVisits": 3,
           "latlong": {
-            "lat": 12.926920,
+            "lat": 12.92692,
             "lng": 77.548807
           },
           "imageSrc": "/journals/the-quiet-crorepatis/banashankari.png",
@@ -588,7 +588,7 @@
           "possession": "Ready",
           "psf": "₹11,785/sqft",
           "location": "JP Nagar 7th Phase",
-          "imageSrc": "/journals/the-quiet-crorepatis/projects/1.jpg"
+          "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Gardenia.webp"
         },
         {
           "title": "Prestige Falcon City",
@@ -597,7 +597,7 @@
           "possession": "Ready",
           "psf": "₹13,200/sqft",
           "location": "Konanakunte Cross",
-          "imageSrc": "/journals/the-quiet-crorepatis/projects/2.jpg"
+          "imageSrc": "/journals/the-quiet-crorepatis/projects/Prestige-Falcon-City.webp"
         },
         {
           "title": "Brigade Millennium",
@@ -606,7 +606,7 @@
           "possession": "Ready",
           "psf": "₹12,250/sqft",
           "location": "JP Nagar 7th Phase",
-          "imageSrc": "/journals/the-quiet-crorepatis/projects/3.jpg"
+          "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Millennium.jpg"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

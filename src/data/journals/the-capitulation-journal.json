@@ -560,7 +560,7 @@
           "possession": "Ready",
           "psf": "Corridor's upper band",
           "location": "Harlur / Kasavanahalli",
-          "imageSrc": "/journals/the-capitulation-journal/projects/1.jpg"
+          "imageSrc": "/journals/the-capitulation-journal/projects/Shriram-Chirping-Woods.avif"
         },
         {
           "title": "The Priced-Out First Love",
@@ -569,7 +569,7 @@
           "possession": "Ready / Resale",
           "psf": "₹12,450–12,750/sqft avg",
           "location": "HSR Layout",
-          "imageSrc": "/journals/the-capitulation-journal/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Better-Light Wobble",
@@ -578,7 +578,7 @@
           "possession": "Ready",
           "psf": "Premium band",
           "location": "HSR orbit",
-          "imageSrc": "/journals/the-capitulation-journal/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

@@ -565,7 +565,7 @@
           "possession": "2029",
           "psf": "₹11,950–12,500/sqft",
           "location": "Sarjapur Road",
-          "imageSrc": "/journals/greenwood-meadows.png"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "Sattva Aeropolis",
@@ -574,7 +574,7 @@
           "possession": "2029",
           "psf": "₹11,950–12,500/sqft",
           "location": "Airport Corridor",
-          "imageSrc": "/journals/sattva-aeropolis.png"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "Brigade Sanctuary",
@@ -583,7 +583,7 @@
           "possession": "2029",
           "psf": "₹11,950–12,500/sqft",
           "location": "Varthur Road",
-          "imageSrc": "/journals/brigade-sanctuary.png"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

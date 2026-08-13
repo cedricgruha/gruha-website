@@ -411,6 +411,17 @@
       "exploredAreasTitle": "Areas they explored",
       "exploredAreas": [
         {
+          "title": "Hebbal (Chosen)",
+          "description": "L&T Raintree Boulevard's park township — the chosen home at ₹17.5–20.4K/sqft (₹2.4–3.53 Cr), where the fiber panels and generator logs finally passed.",
+          "projects": 2,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.036226,
+            "lng": 77.589725
+          },
+          "imagegenerationprompt": "A modern architectural vector view of the Hebbal residential corridor with the Raintree park township, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
           "title": "Hennur (Base Camp)",
           "description": "The rental base camp's own corridor — Purva Palm Beach's value alternative at ~₹13.5–14K/sqft, and the community they already know at 7:40 am.",
           "projects": 4,
@@ -572,7 +583,7 @@
           "possession": "Ready",
           "psf": "₹17.5K→20.4K/sqft Q4'25",
           "location": "Hebbal",
-          "imageSrc": "/journals/the-fiber-and-frangipani/projects/1.jpg"
+          "imageSrc": "/journals/the-fiber-and-frangipani/projects/L-T-Raintree-Boulevard.avif"
         },
         {
           "title": "Scale Alternative",
@@ -581,7 +592,7 @@
           "possession": "Newer phases 2029",
           "psf": "~₹12,100/sqft",
           "location": "Thanisandra",
-          "imageSrc": "/journals/the-fiber-and-frangipani/projects/2.jpg"
+          "imageSrc": "/journals/the-fiber-and-frangipani/projects/Bhartiya-City-Nikoo-Homes.webp"
         },
         {
           "title": "Value Alternative",
@@ -590,7 +601,7 @@
           "possession": "Ready",
           "psf": "~₹13.5–14K/sqft",
           "location": "Hennur Road",
-          "imageSrc": "/journals/the-fiber-and-frangipani/projects/3.jpg"
+          "imageSrc": "/journals/the-fiber-and-frangipani/projects/Purva-Palm-Beach.jpg"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

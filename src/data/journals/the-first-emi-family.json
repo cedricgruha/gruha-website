@@ -576,34 +576,48 @@
       "mapImageSrc": "/journals/search-map.png",
       "mapImagePrompt": "A stylized geographic vector map of outer Sarjapur Road and Hosa Road highlighting the explored corridors in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
       "projectsTitle": "Projects they explored",
-      "projectsCountBadge": "19 projects",
+      "projectsCountBadge": "5 real projects",
       "projects": [
         {
-          "title": "Greenwood Meadows",
-          "name": "Greenwood Meadows",
-          "price": "₹1.31–2.9 Cr",
-          "possession": "2029",
-          "psf": "₹11,950–12,500/sqft",
-          "location": "Sarjapur Road",
-          "imageSrc": "/journals/greenwood-meadows.png"
+          "title": "Shriram Chirping Woods",
+          "name": "Shriram Chirping Woods",
+          "price": "From ~₹1.39 Cr",
+          "possession": "Ready",
+          "location": "Kasavanahalli / Harlur",
+          "imageSrc": "/journals/the-first-emi-family/projects/Shriram-Chirping-Woods.jpg"
         },
         {
-          "title": "Sattva Aeropolis",
-          "name": "Sattva Aeropolis",
-          "price": "₹1.31–2.9 Cr",
-          "possession": "2029",
-          "psf": "₹11,950–12,500/sqft",
-          "location": "Airport Corridor",
-          "imageSrc": "/journals/sattva-aeropolis.png"
+          "title": "Sobha Neopolis",
+          "name": "Sobha Neopolis",
+          "price": "₹2.3–2.72 Cr",
+          "possession": "The Print-Ad Detour",
+          "psf": "₹15,600/sqft",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-first-emi-family/projects/Sobha-Neopolis.png"
         },
         {
-          "title": "Brigade Sanctuary",
-          "name": "Brigade Sanctuary",
-          "price": "₹1.31–2.9 Cr",
-          "possession": "2029",
-          "psf": "₹11,950–12,500/sqft",
-          "location": "Varthur Road",
-          "imageSrc": "/journals/brigade-sanctuary.png"
+          "title": "Godrej Splendour",
+          "name": "Godrej Splendour",
+          "price": "₹85L All-In",
+          "possession": "Dec 2025",
+          "location": "Belathur / Whitefield",
+          "imageSrc": "/journals/the-first-emi-family/projects/Godrej-Splendour.jpg"
+        },
+        {
+          "title": "Casagrand Sunside",
+          "name": "Casagrand Sunside",
+          "price": "From ~₹1.85 Cr",
+          "possession": "Sticker-Shock Visit",
+          "location": "Sompura, off Sarjapur",
+          "imageSrc": "/journals/the-first-emi-family/projects/Casagrand-Sunside.webp"
+        },
+        {
+          "title": "Oceanus Monarda",
+          "name": "Oceanus Monarda",
+          "price": "1,214 sqft 2BHK",
+          "possession": "Resale Education",
+          "location": "Hosa Road",
+          "imageSrc": "/journals/the-first-emi-family/projects/Oceanus-Monarda.jpg"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

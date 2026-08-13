@@ -78,7 +78,7 @@
  * -----------------------------------------------------------------------------
  */
 
-import { writeFile, mkdir, access, readFile, readdir } from "node:fs/promises";
+import { writeFile, mkdir, access, readFile, readdir, rm } from "node:fs/promises";
 import { dirname, resolve, join, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -549,6 +549,30 @@ async function runSingle(args) {
 // ---------------------------------------------------------------------------
 // Batch regeneration (all areas, standard smoothing settings)
 // ---------------------------------------------------------------------------
+// KEY UNIQUENESS / COLLISION HANDLING
+// -----------------------------------
+// Several journals can describe the SAME geographic micro-market with slightly
+// different display titles that happen to slug to one derived `areaKey` (see
+// areaKey.ts). Each journal still carries its OWN pin. A single drive-time
+// polygon is anchored on (and only guaranteed to contain) one pin, so it
+// cannot faithfully cover every journal's pin when those pins genuinely diverge.
+//
+// Rather than hand-maintaining a skip-list (which rots and misses new cases),
+// the batch generator TESTS honesty directly: it groups areas by key, generates
+// the shared polygon once (anchored at the group's first pin), and only WRITES
+// it if the polygon actually contains EVERY journal's pin in that group. If any
+// pin falls outside, the key is SKIPPED — no shared polygon file is written —
+// and every journal in that group falls back to its own pin-centered decorative
+// hexagon (see JournalSearchV0.tsx), which is always inside its own pin.
+//
+//   - co-located keys (e.g. Cooke Town, 0 m apart) verify true  -> one shared
+//     polygon, no duplicate fetches.
+//   - colliding keys (e.g. Devanahalli airport corridor, ~4.6 km apart) verify
+//     false -> auto-skip, same result as the old hardcoded SKIP_ISOCHRONE_KEYS
+//     but discovered from geometry, so a future journal is handled with no code.
+//   - the RUNTIME map (getPolygonPoints in polygonData.ts) needs no list: it
+//     finds no entry for a skipped key and falls back to the hexagon.
+
 async function collectAreas() {
   const areas = [];
   for (const jf of await listJournalSlugs()) {
@@ -558,63 +582,117 @@ async function collectAreas() {
       // Only genuine map micro-markets (carry a `title`) become isochrones.
       // Journals that hold non-map scenario cards under `name` are skipped.
       if (!isMapArea(a)) continue;
-      areas.push({ key: areaKey(a), title: a.title, lat: a.latlong.lat, lng: a.latlong.lng, journal: jf });
+      areas.push({
+        key: areaKey(a),
+        title: a.title,
+        lat: a.latlong.lat,
+        lng: a.latlong.lng,
+        journal: jf,
+      });
     }
   }
   return areas;
 }
 
+// Group collected areas by `key`, preserving first-seen order.
+function groupByKey(areas) {
+  const order = [];
+  const groups = new Map();
+  for (const a of areas) {
+    if (!groups.has(a.key)) {
+      groups.set(a.key, []);
+      order.push(a.key);
+    }
+    groups.get(a.key).push(a);
+  }
+  return { order, groups };
+}
+
+// A shared polygon for a key is only honest if it can contain every journal pin
+// that maps to that key. `ring` is the closed polygon; returns false (-> skip)
+// when any pin is outside it.
+function polygonCoversAllPins(ring, areas) {
+  return areas.every((a) => pointInPolygon(a.lat, a.lng, ring));
+}
+
 async function runBatch(args) {
   const areas = await collectAreas();
+  const { order, groups } = groupByKey(areas);
   console.log(
-    `Plan: ${areas.length} areas found; regenerating with --time ${args.time} --generalize ${args.generalize} --denoise ${args.denoise}` +
+    `Plan: ${areas.length} areas across ${order.length} keys; regenerating with --time ${args.time} --generalize ${args.generalize} --denoise ${args.denoise}` +
       (args.dryRun ? " (DRY RUN)" : "")
   );
 
   const results = [];
-  for (const area of areas) {
+  for (const key of order) {
+    const group = groups.get(key);
+    const anchor = group[0];
     // Resolve the output path dynamically: reuse the existing file whose export
     // matches this key (if any), otherwise derive a fresh filename. No POLY_FILES.
-    const outPath = await resolvePolyFile(area.key);
+    const outPath = await resolvePolyFile(key);
     const displayFile = basename(outPath);
     // buildTs() already appends the "IsochronePoints" suffix, so pass the bare key.
-    const exportName = area.key;
+    const exportName = key;
 
     if (args.dryRun) {
-      console.log(`  [dry] ${area.key.padEnd(26)} ${area.title}  -> ${displayFile}  (${area.lat},${area.lng})`);
-      results.push({ ...area, ok: true, dryRun: true, reason: "dry run" });
+      const dup = group.length > 1 ? ` x${group.length}` : "";
+      console.log(`  [dry] ${key.padEnd(26)} ${anchor.title}${dup}  -> ${displayFile}  (${anchor.lat},${anchor.lng})`);
+      results.push({ ...anchor, ok: true, dryRun: true, reason: "dry run" });
       continue;
     }
 
     try {
       // Escalation-aware fetch: returns the smallest reach time whose isochrone
-      // contains the pin. With escalation on (default) sparse-road pins like
+      // contains the anchor pin. With escalation on (default) sparse-road pins like
       // devanahalliPlottedArc are captured at a larger time instead of being left
       // as a known exception. Never writes a pin-outside polygon.
       const { pts: raw, time: usedTime } = await fetchIsochroneAuto({
-        lat: area.lat, lon: area.lng,
+        lat: anchor.lat, lon: anchor.lng,
         time: args.time, costing: args.costing,
         denoise: args.denoise, generalize: args.generalize,
         escalate: args.escalate, maxTime: args.maxTime,
       });
       const pts = closeRing(roundPolygon(raw, args.precision));
       if (pts.length < 3) throw new Error(`only ${pts.length} points`);
+
+      // KEY UNIQUENESS: a shared polygon is only honest if it contains every
+      // journal pin that maps to this key. If any pin falls outside, skip the key
+      // (no write) so each journal keeps its own pin-centered hexagon at runtime.
+      if (!polygonCoversAllPins(pts, group)) {
+        // Drop any STALE file that previously registered this key. Otherwise the
+        // registry rebuild (syncPolygonRegistry -> collectRegistryEntries, which
+        // scans on-disk files) would re-register a polygon that only honestly
+        // covers one journal's pin. Removing it lets the runtime fall back to each
+        // journal's own hexagon, exactly as a never-written key would.
+        try {
+          await rm(outPath, { force: true });
+        } catch {}
+        results.push({
+          key, ok: false, reason: "SKIPPED shared polygon: pins too far apart for one isochrone",
+          pts: 0, group: group.length,
+        });
+        console.warn(`  SKIP ${key.padEnd(24)} ${displayFile}  (${group.length} journals, pins not co-coverable)`);
+        continue;
+      }
+
       const opts = { batch: true, time: usedTime, generalize: args.generalize, denoise: args.denoise };
-      const content = buildTs(pts, exportName, area.title.replace(/ \u0028Chosen\u0029/, ""), opts);
+      const label = group.length > 1 ? `${anchor.title} +${group.length - 1}` : anchor.title;
+      const content = buildTs(pts, exportName, label.replace(/ (Chosen)/, ""), opts);
       await mkdir(dirname(outPath), { recursive: true });
       await writeFile(outPath, content, "utf8");
-      results.push({ ...area, ok: true, pts: pts.length, time: usedTime });
-      console.log(`  OK ${area.key.padEnd(24)} ${displayFile}  (${pts.length} pts @ ${usedTime} min)`);
+      results.push({ ...anchor, ok: true, pts: pts.length, time: usedTime, group: group.length });
+      const dup = group.length > 1 ? ` x${group.length}` : "";
+      console.log(`  OK ${key.padEnd(24)} ${displayFile}${dup}  (${pts.length} pts @ ${usedTime} min)`);
     } catch (e) {
-      results.push({ ...area, ok: false, reason: e.message });
-      console.error(`  FAIL ${area.key.padEnd(22)} ${e.message}`);
+      results.push({ ...anchor, ok: false, reason: e.message });
+      console.error(`  FAIL ${key.padEnd(22)} ${e.message}`);
     }
   }
 
   console.log("\nSummary:");
   for (const r of results) {
     if (r.ok && r.dryRun) console.log(`  ...  ${r.key.padEnd(24)} planned`);
-    else console.log(`  ${r.ok ? " SAVE" : "FAIL "} ${r.key.padEnd(24)} ${r.ok ? `${r.pts} pts @ ${r.time ?? "?"} min` : r.reason}`);
+    else console.log(`  ${r.ok ? " SAVE" : "SKIP "} ${r.key.padEnd(24)} ${r.ok ? `${r.pts} pts @ ${r.time ?? "?"} min` : r.reason}`);
   }
 }
 
@@ -628,6 +706,21 @@ function parsePoints(src) {
 
 async function runVerify() {
   const results = [];
+  // Keys that appear in multiple journals may be legitimately SKIPPED (no shared
+  // polygon) when their pins are too far apart for one isochrone — the runtime
+  // then falls back to each journal's own hexagon. Track shared keys so a missing
+  // file for them is reported as an expected skip, not a hard failure.
+  const sharedKeyCount = new Map();
+  for (const jf of await listJournalSlugs()) {
+    const json = JSON.parse(await readFile(join(JOURNAL_ROOT, `${jf}.json`), "utf8"));
+    const search = json.tabs?.find((t) => t.id === "search");
+    for (const a of search?.exploredAreas || []) {
+      if (!isMapArea(a)) continue;
+      const key = areaKey(a);
+      sharedKeyCount.set(key, (sharedKeyCount.get(key) || 0) + 1);
+    }
+  }
+
   for (const jf of await listJournalSlugs()) {
     const json = JSON.parse(await readFile(join(JOURNAL_ROOT, `${jf}.json`), "utf8"));
     const search = json.tabs?.find((t) => t.id === "search");
@@ -640,7 +733,16 @@ async function runVerify() {
       try {
         src = await readFile(outPath, "utf8");
       } catch {
-        results.push({ key, error: `missing file ${basename(outPath)}` });
+        // No polygon file. This is expected (PASS) only for a genuinely-shared
+        // key whose pins a single isochrone can't cover; otherwise it's a failure.
+        const shared = (sharedKeyCount.get(key) || 0) > 1;
+        results.push({
+          key,
+          expectedSkip: shared,
+          error: shared
+            ? `shared key (${sharedKeyCount.get(key)} journals) — no polygon (pin-centered hexagon fallback)`
+            : `missing file ${basename(outPath)}`,
+        });
         continue;
       }
       const pts = parsePoints(src);
@@ -669,7 +771,11 @@ async function runVerify() {
   console.log(`\n${results.length} areas\n`);
   let allOk = true;
   for (const r of results) {
-    if (r.error) { allOk = false; console.log(`  !!   ${r.key.padEnd(26)} ${r.error}`); continue; }
+    if (r.error) {
+      if (r.expectedSkip) console.log(`  OK(↑skip)  ${r.key.padEnd(16)} ${r.error}`);
+      else { allOk = false; console.log(`  !!   ${r.key.padEnd(26)} ${r.error}`); }
+      continue;
+    }
     const ok = r.closed && r.pinInside && r.pts >= 3 && r.exportOk;
     if (!ok) allOk = false;
     console.log(

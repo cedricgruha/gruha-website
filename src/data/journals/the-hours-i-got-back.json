@@ -24,7 +24,7 @@
         "text": "The 540 hours need a first use — the 6:40 pm entry"
       }
     ],
-    "heroImage": "/journals/cover/26.png",
+    "heroImage": "/journals/cover/26.jpg",
     "heroTitle": "The Hours I Got Back Journal",
     "datePublished": "2026-03-14",
     "dateModified": "2026-07-08",
@@ -595,7 +595,7 @@
           "possession": "Ready",
           "psf": "Corridor's upper band",
           "location": "Harlur",
-          "imageSrc": "/journals/the-hours-i-got-back/projects/1.jpg"
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Shriram-Chirping-Woods.jpg"
         },
         {
           "title": "The Lost Chain Flat",
@@ -604,7 +604,7 @@
           "possession": "Exited to a firm buyer",
           "psf": "₹16–18K/sqft corridor",
           "location": "Harlur Rd",
-          "imageSrc": "/journals/the-hours-i-got-back/projects/2.jpg"
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Prestige-Ferns-Residency.webp"
         },
         {
           "title": "The Stretch Detour",
@@ -613,7 +613,7 @@
           "possession": "Ready",
           "psf": "Buffer math + shadow study",
           "location": "Bellandur",
-          "imageSrc": "/journals/the-hours-i-got-back/projects/3.jpg"
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Adarsh-Palm-Retreat.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

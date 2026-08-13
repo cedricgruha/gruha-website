@@ -552,7 +552,7 @@
           "possession": "Ready eco-village",
           "psf": "50-acre, network-routed resale",
           "location": "Kengeri",
-          "imageSrc": "/journals/the-mud-sun-and-slab/projects/1.jpg"
+          "imageSrc": "/journals/the-mud-sun-and-slab/projects/MALHAR-OCHRE.png"
         },
         {
           "title": "The 2031 Site (Held)",
@@ -561,7 +561,7 @@
           "possession": "Layout launch",
           "psf": "Solar orientation + water-table screened",
           "location": "West arc",
-          "imageSrc": "/journals/the-mud-sun-and-slab/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Render Detour",
@@ -570,7 +570,7 @@
           "possession": "Launch",
           "psf": "Mood board ≠ data",
           "location": "Periphery",
-          "imageSrc": "/journals/the-mud-sun-and-slab/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

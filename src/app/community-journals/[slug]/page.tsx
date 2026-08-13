@@ -18,6 +18,58 @@ interface JournalSlugPageProps {
 const SITE_URL = "https://gruha.ai";
 
 /**
+ * Map a community-journals manifest entry to a short category badge label,
+ * mirroring the logic used by the journal-listing cards so the hero badge on
+ * the detail page stays consistent with what the user saw on the grid.
+ */
+function getCategoryBadge(listing: any): string {
+  const segment = (listing?.segment || "").toLowerCase();
+  const tagsStr = (listing?.tags || []).join(" ").toLowerCase();
+  const id = listing?.id;
+
+  if (segment.includes("nri") || tagsStr.includes("nri") || id === 3 || id === 18) {
+    return "Premium";
+  }
+  if (segment.includes("investor") || tagsStr.includes("investor") || id === 1 || id === 2 || id === 5 || id === 7) {
+    return "Investment";
+  }
+  if (
+    segment.includes("young") ||
+    segment.includes("first") ||
+    tagsStr.includes("first-timer") ||
+    id === 14 ||
+    id === 15
+  ) {
+    return "First Home";
+  }
+  if (
+    segment.includes("family") ||
+    segment.includes("families") ||
+    tagsStr.includes("multigenerational") ||
+    id === 22 ||
+    id === 24
+  ) {
+    return "Family Living";
+  }
+  if (segment.includes("plot") || tagsStr.includes("plot") || id === 4 || id === 9 || id === 12) {
+    return "Villas";
+  }
+  if (
+    segment.includes("primary") ||
+    tagsStr.includes("under construction") ||
+    id === 38 ||
+    id === 39
+  ) {
+    return "Under Construction";
+  }
+  if (segment.includes("senior") || tagsStr.includes("downsizing") || id === 29 || id === 30) {
+    return "Renovation";
+  }
+
+  return "Community";
+}
+
+/**
  * Derived from the community-journals manifest paths, plus every journal JSON
  * file present in src/data/journals (so journals not yet listed in the manifest
  * are still statically generated and crawlable). This gives Next the full,
@@ -137,10 +189,10 @@ export default async function JournalSlugPageV0({
       icon: item.icon,
       text: typeof item === "string" ? item : item.text,
     })),
-    imagePosition: (journalData.article as any)?.imagePosition || listing?.imagePosition,
   } as Record<string, any>;
 
   const title = article.title as string;
+  const category = getCategoryBadge(listing);
   const description = (article.description as string) || "";
   const canonical = `${SITE_URL}/community-journals/${slug}`;
   const image =
@@ -204,12 +256,14 @@ export default async function JournalSlugPageV0({
           <div className="max-w-[1400px] mx-auto px-4 sm:px-8">
             <JournalHeroV0
               title={title}
+              journalTitle={listing?.title}
+              category={category}
               description={description}
+              quoteText={article.quote}
               readTime={article.readTime}
               updatedOn={article.updatedOn}
               learnings={article.learnings}
               heroImage={article.heroImage || article.image}
-              imagePosition={article.imagePosition}
             />
           </div>
         </div>

@@ -22,6 +22,9 @@ export interface LearningItem {
 
 export interface JournalHeroV0Props {
   title?: string;
+  /** Short canonical title from the community-journals manifest, shown in the badges. */
+  journalTitle?: string;
+  category?: string;
   heroTitle?: string;
   description?: string;
   learningsLabel?: string;
@@ -29,13 +32,14 @@ export interface JournalHeroV0Props {
   readTime?: string;
   updatedOn?: string;
   heroImage?: any;
-  imagePosition?: string;
   quoteText?: string;
   heroImgWrapRef?: RefObject<HTMLDivElement | null>;
 }
 
 export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   title,
+  journalTitle,
+  category,
   heroTitle,
   description,
   learningsLabel = "What you'll learn from this journey",
@@ -43,11 +47,13 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
   readTime = "12 min read",
   updatedOn = "Updated on July 2026",
   heroImage,
-  imagePosition,
   quoteText = `"Everyone says buy. Nobody says how to stop being scared."`,
   heroImgWrapRef,
 }) => {
   const displayTitle = heroTitle || title || "The Sixteenth Floor\nDream Journal.";
+  // Badge should show the journal's canonical short title (manifest title), not
+  // the article's longer heading. Fall back to the display title if not provided.
+  const badgeTitle = journalTitle || displayTitle.replace("\n", " ");
   const displayDescription =
     description ||
     "The story of Pavan & Shruti Kulal's first home purchase journey in Bengaluru — a young couple navigating budget, fear, and a future built together.";
@@ -83,8 +89,8 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
       <div className="flex md:hidden flex-col w-full px-2 sm:px-4 gap-5 mb-6">
         {/* Top Badges */}
         <div className="flex flex-wrap items-center gap-2">
-          <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">Community</span>
-          <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">The First-EMI Family</span>
+          <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">{category || "Community"}</span>
+          <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">{badgeTitle}</span>
           <div className="flex items-center gap-1 text-[11px] font-medium text-slate-500 ml-auto">
             <Icons.Clock className="w-3.5 h-3.5 text-[#FF7E57]" />
             <span>{readTime}</span>
@@ -109,7 +115,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
             src={displayHeroImage}
             alt={displayTitle.replace("\n", " ")}
             fill
-            className={`object-cover ${imagePosition || "object-center"}`}
+            className={`object-cover object-[right_center]`}
             priority
           />
         </div>
@@ -165,10 +171,10 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
           {/* Category Badges */}
           <div className="flex items-center gap-2">
             <span className="px-3 py-1 rounded-[48px] text-xs font-medium bg-black text-white leading-4">
-              Community
+              {category || "Community"}
             </span>
             <span className="px-3 py-1 rounded-[48px] text-xs font-medium bg-black text-white leading-4">
-              The First-EMI Family
+              {badgeTitle}
             </span>
           </div>
 

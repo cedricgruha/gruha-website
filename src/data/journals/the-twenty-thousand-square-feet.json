@@ -182,31 +182,32 @@
         },
         {
           "id": "l3-market-calibration",
-          "stage": "S3",
-          "type": "stage",
-          "title": "L3: Market Calibration",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L3: Market Calibration Loop",
           "desc": "Sarjapur-arc plotted launches toured; Prestige Great Acres' plot map used as a pricing ruler, corner pairs shaded.",
           "icon": "LandPlot",
+          "loopText": "Market Calibration Loop",
           "x": 560,
           "y": 120,
           "width": 180
         },
         {
           "id": "l4-repriced-bounce",
-          "stage": "S4",
+          "stage": "S5→S3",
           "type": "bounce",
           "targetNodeId": "l3-market-calibration",
           "title": "L4 BOUNCE: Re-Priced Pair",
           "desc": "A 'reserved corner pair' evaporates as the developer re-prices phase 2 mid-conversation; he walks loudly, as policy.",
           "icon": "ArrowLeftRight",
-          "loopText": "S4 → S3 Bounce (Walked Loudly)",
+          "loopText": "S5 → S3 Bounce (Walked Loudly)",
           "x": 800,
           "y": 300,
           "width": 250
         },
         {
           "id": "l5-devanahalli-pair",
-          "stage": "S5",
+          "stage": "S3→S5",
           "type": "stage",
           "title": "L5: The Devanahalli Pair",
           "desc": "Corner pair secured at a Devanahalli-corridor launch; amalgamation taken in writing from the planning authority.",
@@ -224,7 +225,7 @@
           "icon": "Home",
           "loopText": "30-Month Build — Bridge House Live",
           "x": 220,
-          "x": 440,
+          "y": 440,
           "width": 190
         }
       ],
@@ -564,7 +565,7 @@
           "possession": "Plotted Phases",
           "psf": "Market Calibration Ruler",
           "location": "Sarjapur arc",
-          "imageSrc": "/journals/the-twenty-thousand-square-feet/projects/1.jpg"
+          "imageSrc": "/journals/the-twenty-thousand-square-feet/projects/Prestige-Great-Acres.webp"
         },
         {
           "title": "Devanahalli-Corridor Plotted Development",
@@ -573,7 +574,7 @@
           "possession": "Corner Pair Secured",
           "psf": "Premium Gated, Top of Band",
           "location": "Airport Side",
-          "imageSrc": "/journals/the-twenty-thousand-square-feet/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Re-Priced 'Reserved Pair'",
@@ -582,7 +583,7 @@
           "possession": "Walked Loudly",
           "psf": "Phase-2 Pricing +15%",
           "location": "Sarjapur–Attibele",
-          "imageSrc": "/journals/the-twenty-thousand-square-feet/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

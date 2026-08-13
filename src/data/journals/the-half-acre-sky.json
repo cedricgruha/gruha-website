@@ -420,7 +420,7 @@
       "exploredAreasTitle": "Areas they explored",
       "exploredAreas": [
         {
-          "title": "Kanakapura Road (90–45 min)",
+          "title": "Kanakapura Road (45–90 min)",
           "description": "The managed-farm belt: collectives quote ₹50L–1.3 Cr/acre, with Hosachiguru Dhaanvi / Dharani among the shortlist.",
           "projects": 4,
           "siteVisits": 4,
@@ -597,7 +597,7 @@
           "possession": "Managed Community",
           "psf": "~₹75L–1 Cr/half-acre",
           "location": "Kanakapura Rd arc",
-          "imageSrc": "/journals/the-half-acre-sky/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "Hosachiguru Managed Farms — Dharani",
@@ -606,7 +606,7 @@
           "possession": "Managed Community",
           "psf": "From ~₹30L",
           "location": "Kanakapura Rd arc",
-          "imageSrc": "/journals/the-half-acre-sky/projects/2.jpg"
+          "imageSrc": "/journals/the-half-acre-sky/projects/Hosachiguru-managed-farms-Dharani.webp"
         },
         {
           "title": "Insta 'Farm Collective' (the detour)",
@@ -615,7 +615,7 @@
           "possession": "Lease-Not-Own",
           "psf": "No Water Data",
           "location": "Southern arc",
-          "imageSrc": "/journals/the-half-acre-sky/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

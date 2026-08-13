@@ -99,6 +99,11 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
   const [startIndex, setStartIndex] = useState(0);
 
   const displayProjects = projects && projects.length > 0 ? projects : defaultProjects;
+  const displayProjectsSlice = displayProjects.length > 3
+    ? displayProjects.slice(startIndex, startIndex + 3).concat(
+        displayProjects.slice(0, Math.max(0, startIndex + 3 - displayProjects.length))
+      ).slice(0, 3)
+    : displayProjects;
   const displayCriteria = (priorities && priorities.length > 0)
     ? priorities
     : ((criteria && criteria.length > 0) ? criteria : defaultCriteria);
@@ -165,13 +170,11 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
           {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {displayProjects.slice(startIndex, startIndex + 3).concat(
-              displayProjects.slice(0, Math.max(0, startIndex + 3 - displayProjects.length))
-            ).slice(0, 3).map((proj: any, idx: number) => {
+            {displayProjectsSlice.map((proj: any, idx: number) => {
               const projName = proj.name || proj.title || "";
               const projPrice = proj.price || proj.priceRange || "₹1.31–2.9 Cr";
               const projPossession = proj.possession || proj.status || "2029";
-              const projPsf = proj.psf || proj.sqftRate || "₹11,950–12,500/sqft";
+              const projPsf = proj.psf || proj.sqftRate || "";
               const projImgSrc = proj.img || proj.image || proj.imageSrc || imgProj1;
 
               return (
@@ -196,59 +199,76 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                   </div>
 
                   {/* Card Content */}
+                  {/* Card Content */}
                   <div className="p-5 flex-1 flex flex-col justify-between">
-                    <div className="mb-4">
+                    {/* 1. FIXED TITLE HEIGHT: h-12 forces exactly 2 lines worth of height for ALL cards */}
+                    <div className="mb-4 h-12 flex items-start">
                       <h4
-                        className="text-sm sm:text-base font-semibold leading-normal"
+                        className="text-sm sm:text-base font-semibold leading-snug line-clamp-2"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}
                       </h4>
                     </div>
 
-                    <div className="pt-4 border-t border-slate-100/90">
-                      <div className="flex items-start justify-between">
+                    {/* 2. PINNED TO BOTTOM */}
+                    <div className="pt-4 border-t border-slate-100/90 mt-auto">
+                      <div className="grid grid-cols-2 gap-2 items-start">
+                        {/* Price Range Column */}
                         <div>
                           <p
-                            className="text-xs font-semibold tracking-[0.10em] uppercase mb-3"
+                            className="text-xs font-semibold tracking-[0.10em] uppercase mb-1"
                             style={{ fontFamily: fu, color: "#94A3B8" }}
                           >
                             PRICE RANGE
                           </p>
-                          <p
-                            className="text-sm font-semibold leading-snug"
-                            style={{ fontFamily: fd, color: "#111821" }}
-                          >
-                            {projPrice}
-                          </p>
-                        </div>
-
-                        {projPossession && (
-                          <div className="text-right">
+                          {/* h-10 fixes height for 2-line wrapped text like "Top of Band" */}
+                          <div className="h-10 flex items-start">
                             <p
-                              className="text-xs font-semibold tracking-[0.10em] uppercase mb-3"
-                              style={{ fontFamily: fu, color: "#94A3B8" }}
+                              className="text-sm font-semibold leading-tight line-clamp-2"
+                              style={{ fontFamily: fd, color: "#111821" }}
                             >
-                              POSSESSION
-                            </p>
-                            <p
-                              className="text-sm font-medium leading-snug"
-                              style={{ fontFamily: fu, color: "#111821" }}
-                            >
-                              {projPossession}
+                              {projPrice}
                             </p>
                           </div>
-                        )}
+                        </div>
+
+                        {/* Possession Column */}
+                        <div>
+                          {projPossession ? (
+                            <div className="text-right">
+                              <p
+                                className="text-xs font-semibold tracking-[0.10em] uppercase mb-1"
+                                style={{ fontFamily: fu, color: "#94A3B8" }}
+                              >
+                                POSSESSION
+                              </p>
+                              {/* h-10 fixes height for 2-line wrapped text like "Killed at Base Rate" */}
+                              <div className="h-10 flex items-start justify-end">
+                                <p
+                                  className="text-sm font-medium leading-tight line-clamp-2"
+                                  style={{ fontFamily: fu, color: "#111821" }}
+                                >
+                                  {projPossession}
+                                </p>
+                              </div>
+                            </div>
+                          ) : (
+                            /* Empty spacer if possession is null */
+                            <div className="h-10" />
+                          )}
+                        </div>
                       </div>
 
-                      {projPsf && (
+                      {/* 3. PSF FOOTER: Reserved 1-line slot */}
+                      <div className="mt-2 h-5 flex items-center">
                         <p
-                          className="mt-1.5 text-sm font-medium"
+                          className="text-sm font-medium truncate"
                           style={{ fontFamily: fu, color: "#94A3B8" }}
                         >
-                          {projPsf}
+                          {projPsf || "\u00A0"}
                         </p>
-                      )}
+                      </div>
                     </div>
                   </div>
                 </div>

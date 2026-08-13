@@ -558,6 +558,8 @@ export const JournalMapV1: React.FC<JournalMapV1Props> = ({
           color: #64748b;
           margin: 2px 0 0 0;
           line-height: 1.3;
+          white-space: normal;
+          overflow-wrap: break-word;
         }
       `}</style>
     </div>

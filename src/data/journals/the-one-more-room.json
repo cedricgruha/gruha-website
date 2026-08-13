@@ -595,7 +595,7 @@
           "possession": "Ready township",
           "psf": "2,600–2,830 sqft class",
           "location": "Varthur",
-          "imageSrc": "/journals/the-one-more-room/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Villa Detour (Parked)",
@@ -604,7 +604,7 @@
           "possession": "Ready",
           "psf": "The garden that cost the airbag",
           "location": "Varthur",
-          "imageSrc": "/journals/the-one-more-room/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The New-Build Option",
@@ -613,7 +613,7 @@
           "possession": "2027 — vs a school year",
           "psf": "Newer, better-specified",
           "location": "Panathur",
-          "imageSrc": "/journals/the-one-more-room/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Value Floor",
@@ -622,7 +622,7 @@
           "possession": "Ready township",
           "psf": "Largest units, resale",
           "location": "Whitefield–Varthur Rd",
-          "imageSrc": "/journals/the-one-more-room/projects/4.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Launchpad (Kept)",
@@ -631,7 +631,7 @@
           "possession": "Tenanted, ₹45K/month",
           "psf": "The community that raised their firstborn",
           "location": "Balagere",
-          "imageSrc": "/journals/the-one-more-room/projects/5.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

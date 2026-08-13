@@ -572,7 +572,7 @@
           "possession": "Ready with OC",
           "psf": "₹14–16K/sqft, defence premium",
           "location": "CV Raman Nagar",
-          "imageSrc": "/journals/the-my-own-name/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Second Finalist",
@@ -581,7 +581,7 @@
           "possession": "Ready with OC",
           "psf": "School-radius belt",
           "location": "Kaggadasapura",
-          "imageSrc": "/journals/the-my-own-name/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The School-Vetoed Detour",
@@ -590,7 +590,7 @@
           "possession": "Ready",
           "psf": "Value at a school-change price",
           "location": "8 km from the radius",
-          "imageSrc": "/journals/the-my-own-name/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

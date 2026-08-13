@@ -531,7 +531,7 @@
           "possession": "Build at 61",
           "psf": "₹2,800–3,200/sqft",
           "location": "NPKL 30x40",
-          "imageSrc": "/journals/the-long-wait-journal/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Sell Road (Chosen)",
@@ -540,7 +540,7 @@
           "possession": "Sold near peak",
           "psf": "Indexation-planned",
           "location": "NPKL — Cauvery step-up",
-          "imageSrc": "/journals/the-long-wait-journal/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Hold Road",
@@ -549,7 +549,7 @@
           "possession": "Keep the site",
           "psf": "Layout mature in ~12 yrs",
           "location": "NPKL commercial spine",
-          "imageSrc": "/journals/the-long-wait-journal/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why the build road lost",

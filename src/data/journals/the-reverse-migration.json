@@ -572,7 +572,7 @@
           "possession": "Ready",
           "psf": "Villas 3,117–4,033 sqft",
           "location": "Varthur",
-          "imageSrc": "/journals/the-reverse-migration/projects/1.jpg"
+          "imageSrc": "/journals/the-reverse-migration/projects/Prestige-Lakeside-Habitat.webp"
         },
         {
           "title": "The Premium-Apartment Comparator",
@@ -581,7 +581,7 @@
           "possession": "Ready",
           "psf": "Same community band",
           "location": "Varthur",
-          "imageSrc": "/journals/the-reverse-migration/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Observational Context",
@@ -590,7 +590,7 @@
           "possession": "10+ years, mature trees",
           "psf": "The observatory + comparators",
           "location": "Whitefield",
-          "imageSrc": "/journals/the-reverse-migration/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",

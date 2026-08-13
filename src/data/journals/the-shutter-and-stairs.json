@@ -337,8 +337,8 @@
           "author": "— Riya"
         },
         {
-          "text": "My bhajan group is worth more than your database.",
-          "author": "— Shobha"
+          "text": "Your bhajan group is worth more than my database.",
+          "author": "— Riya"
         }
       ],
       "chatMessages": [
@@ -601,34 +601,23 @@
       "mapImageSrc": "/journals/the-shutter-and-stairs/search-map.png",
       "mapImagePrompt": "A stylized geographic vector map of south-western Bengaluru highlighting Uttarahalli, Kathriguppe and the Kengeri arc in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
       "projectsTitle": "Assets they explored",
-      "projectsCountBadge": "3 real options",
+      "projectsCountBadge": "2 real options",
       "projects": [
         {
-          "title": "Uttarahalli Corner Site",
-          "name": "20x30 Corner Site",
+          "title": "Uttarahalli Corner Market (The Hunt)",
+          "name": "Uttarahalli Corner Site",
           "price": "₹1.3–1.5 Cr",
-          "possession": "Vacant Site",
-          "psf": "₹45–55L build phased over 3 yrs",
+          "possession": "Corner Site",
           "location": "Uttarahalli–Kengeri",
-          "imageSrc": "/journals/the-shutter-and-stairs/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
-          "title": "Sitting-Tenant Building (Bounce)",
+          "title": "Sitting-Tenant Building (Shortlist, Bounced)",
           "name": "Existing Rented Building",
-          "price": "Within ₹1.8 Cr",
+          "price": "~₹1.8 Cr",
           "possession": "Tenanted",
-          "psf": "Unnamed by policy",
-          "location": "Kathriguppe fringe",
-          "imageSrc": "/journals/the-shutter-and-stairs/projects/2.jpg"
-        },
-        {
-          "title": "Kengeri Corridor Anchor",
-          "name": "GoodEarth Malhar Context",
-          "price": "Catchment context",
-          "possession": "50-Acre Community",
-          "psf": "Established catchment",
-          "location": "Kengeri",
-          "imageSrc": "/journals/the-shutter-and-stairs/projects/3.jpg"
+          "location": "South Bengaluru",
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "How the corner-scarcity loop stalls the hunt",

@@ -597,7 +597,7 @@
           "possession": "Ready with OC",
           "psf": "Established community",
           "location": "Kasavanahalli / Harlur",
-          "imageSrc": "/journals/the-sixteenth-floor-dream/projects/1.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Print-Ad Detour",
@@ -606,7 +606,7 @@
           "possession": "Detour — parked",
           "psf": "~₹15,600/sqft",
           "location": "Panathur",
-          "imageSrc": "/journals/the-sixteenth-floor-dream/projects/2.jpg"
+          "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Value Mirage",
@@ -615,7 +615,7 @@
           "possession": "Dec 2025",
           "psf": "Value at distance",
           "location": "Belathur / Whitefield edge",
-          "imageSrc": "/journals/the-sixteenth-floor-dream/projects/3.jpg"
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",
