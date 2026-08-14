@@ -160,7 +160,7 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
           return (
             <div
               key={p.name}
-              className="bg-white border overflow-hidden p-4 sm:p-5"
+              className="bg-white border overflow-hidden p-4 sm:p-5 rounded-2xl"
               style={{
                 borderColor: "#E4E9EF",
                 boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",

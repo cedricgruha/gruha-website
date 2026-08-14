@@ -360,11 +360,7 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
                     </p>
                   </div>
 
-                  {areaImage && (
-                    <div className="mt-3.5 h-[110px] rounded-xl overflow-hidden border border-slate-100 shadow-2xs relative">
-                      <Image src={area.image || area.imageSrc || searchMapImage} alt={areaName} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
-                    </div>
-                  )}
+
 
                   <div className="mt-3.5 pt-3 border-t border-slate-100 flex items-center justify-between text-sm sm:text-base font-medium font-inter text-slate-600">
                     <div className="flex items-center gap-1.5">
