@@ -62,7 +62,7 @@
         }
       ],
       "sharedVisionTitle": "Shared vision",
-      "sharedVisionDescription": "Deploy ₹3.75 Cr Amaravati land proceeds into two solid Bengaluru assets — a 3BHK near his son in Bellandur–Sarjapur (Sobha Dream Acres) and a gated villa plot on the Devanahalli airport corridor within the Section 54F tax window.",
+      "sharedVisionDescription": "Deploy ₹3.75 Cr Amaravati land proceeds into two solid Bengaluru assets — a 2BHK near his son in Bellandur–Sarjapur (Sobha Dream Acres) and a gated villa plot on the Devanahalli airport corridor within the Section 54F tax window.",
       "sharedVisionImage": "/journals/the-bhoomi-to-bengaluru-journal/shared-vision.png",
       "imagegenerationprompt": "An architectural vector illustration of a modern residential high-rise tower alongside a landscaped gated plot layout with boundary stones, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the boundary line, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
       "stats": [
@@ -208,8 +208,8 @@
           "id": "s5-flat-sobha-dream-acres",
           "stage": "S5",
           "type": "stage",
-          "title": "S5: 3BHK Flat Secured",
-          "desc": "3 weeks: Sobha Dream Acres 3BHK flat near son in Bellandur registered.",
+          "title": "S5: 2BHK Flat Secured",
+          "desc": "3 weeks: Sobha Dream Acres 2BHK flat near son in Bellandur registered.",
           "icon": "Home",
           "x": 640,
           "y": 420,
@@ -493,7 +493,7 @@
         {
           "icon": "LayoutGrid",
           "label": "FLAT SELECTION",
-          "value": "Sobha Dream Acres 3BHK"
+          "value": "Sobha Dream Acres 2BHK"
         },
         {
           "icon": "ArrowLeftRight",
@@ -609,7 +609,7 @@
         }
       ],
       "suggestionTitle": "Riya's suggestion",
-      "suggestionDescription": "Splitting the ₹3.75 Cr capital into a 3BHK at Sobha Dream Acres for immediate rental near his son and a verified DC-converted gated plot in Devanahalli satisfied Section 54F tax rules, preserved land capital, and protected legal title.",
+      "suggestionDescription": "Splitting the ₹3.75 Cr capital into a 2BHK at Sobha Dream Acres for immediate rental near his son and a verified DC-converted gated plot in Devanahalli satisfied Section 54F tax rules, preserved land capital, and protected legal title.",
       "suggestionImageSrc": "/journals/advisor.png"
     },
     {
@@ -783,7 +783,7 @@
         {
           "month": "MONTH 6",
           "headline": "Two-asset split satisfies both family and long-term land wealth",
-          "body": "Parking ₹3.75 Cr into a 3BHK flat near son in Bellandur plus a gated plot near airport balanced both goals.",
+          "body": "Parking ₹3.75 Cr into a 2BHK flat near son in Bellandur plus a gated plot near airport balanced both goals.",
           "turning": false
         },
         {
@@ -919,8 +919,8 @@
       "id": "s5-flat-sobha-dream-acres",
       "stage": "S5",
       "type": "stage",
-      "title": "S5: 3BHK Flat Secured",
-      "desc": "3 weeks: Sobha Dream Acres 3BHK flat near son in Bellandur registered.",
+      "title": "S5: 2BHK Flat Secured",
+      "desc": "3 weeks: Sobha Dream Acres 2BHK flat near son in Bellandur registered.",
       "icon": "Home",
       "x": 640,
       "y": 420,
