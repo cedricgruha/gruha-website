@@ -69,58 +69,6 @@ function getCategoryBadge(listing: any): string {
   return "Community";
 }
 
-/**
- * Derived from the community-journals manifest paths, plus any journal JSON
- * file present in src/data/journals that isn't already covered by a manifest
- * entry (so journals not yet listed in the manifest are still statically
- * generated and crawlable). This gives Next the full, pre-computed list of
- * slugs instead of leaving the route dynamic.
- *
- * The union is deduplicated on a normalized key, so a stray or half-finished
- * journal file that uses a variant of a published slug (e.g. a redundant
- * "-journal" suffix on a file whose manifest slug omits it) collapses to its
- * single published route instead of being prerendered as a second, conflicting
- * page. That keeps one malformed file in the folder from taking down the whole
- * static export inside the SSR render.
- */
-export function generateStaticParams(): { slug: string }[] {
-  // Normalize so "the-mud-sun-and-slab-journal" and "the-mud-sun-and-slab" are
-  // recognised as the same journal, regardless of which source spelled it.
-  const normalize = (s: string) => s.replace(/-journal$/, "");
-
-  const manifestSlugs = (journals as Array<{ path?: string }>)
-    .map((j) => j?.path?.split("/").pop())
-    .filter(Boolean) as string[];
-
-  let fileSlugs: string[] = [];
-  try {
-    // Runs only at build time on the server; Node fs is never bundled client-side.
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const fs = require("node:fs");
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const path = require("node:path");
-    const dir = path.join(process.cwd(), "src/data/journals");
-    fileSlugs = fs
-      .readdirSync(dir)
-      .filter((f: string) => f.endsWith(".json") && f !== "default.json")
-      .map((f: string) => f.replace(/\.json$/, ""));
-  } catch {
-    // File system unavailable: fall back to a pure manifest-driven list.
-    fileSlugs = [];
-  }
-
-  // Manifest slugs always win (they are the canonical published route). File
-  // slugs are only kept when no manifest slug normalises to the same journal.
-  const canonical = new Map<string, string>();
-  for (const slug of manifestSlugs) canonical.set(normalize(slug), slug);
-  for (const slug of fileSlugs) {
-    const key = normalize(slug);
-    if (!canonical.has(key)) canonical.set(key, slug);
-  }
-
-  return Array.from(canonical.values()).map((slug) => ({ slug }));
-}
-
 export async function generateMetadata({
   params,
 }: JournalSlugPageProps): Promise<Metadata> {
