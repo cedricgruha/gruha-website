@@ -404,6 +404,18 @@
           "imagegenerationprompt": "A modern architectural vector view of the Sarjapur–Varthur belt with cranes and new tower launches over plotted land, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
         {
+          "title": "Hennur Arc",
+          "description": "His second active launch corridor — the belt of his 2022 launch (Hennur, 38% up on paper), watched for credible tier-1 filings that clear the checklist before any EOI; currently a Hennur-arc tier-1 filing sits in the pipeline triage against Devanahalli's Birla Trimaya.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.049,
+            "lng": 77.623
+          },
+          "imageSrc": "/journals/the-eoi-window/hennur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Hennur arc with tier-1 launch towers and crane skylines over the north-east corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
           "title": "Devanahalli / Airport Corridor",
           "description": "The airport-corridor launches — Birla Trimaya's next phase among the township series, delivery histories pulled from RERA's records before price sheets.",
           "projects": 3,
@@ -428,7 +440,7 @@
           "imagegenerationprompt": "A modern architectural vector view of Panathur with the Sobha Neopolis towers as a launch-to-ready case study, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }
       ],
-      "consideredAreasLabel": "Other areas considered: the Hennur arc — his second active corridor, watched for credible tier-1 filings • the 'invitation pre-launch' that failed the refundability rule (detour)",
+      "consideredAreasLabel": "Other areas considered: the 'invitation pre-launch' that failed the refundability rule (detour) • projects whose titles were 'in progress' without RERA filed",
       "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
       "filters": [
         {

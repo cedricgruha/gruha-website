@@ -201,7 +201,7 @@
           "desc": "PLH villas toured after a Sunday reel — ₹5.42–6.5 Cr; three weeks of 'what if we stretch' before the school-fees-plus-EMI math restores the 4BHK thesis.",
           "icon": "Eye",
           "x": 540,
-          "y": 220,
+          "y": 20,
           "width": 190
         },
         {
@@ -211,8 +211,8 @@
           "title": "L4: The 4BHK Shortlist",
           "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2027 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
           "icon": "Building2",
-          "x": 760,
-          "y": 120,
+          "x": 790,
+          "y": 20,
           "width": 190
         },
         {
@@ -224,9 +224,9 @@
           "icon": "ArrowUpDown",
           "loopText": "Chain Failure — Buyer Ghosted After Token, Converted to Keep-and-Leverage",
           "targetNodeId": "l2-keep-sell-fork",
-          "x": 440,
-          "y": 320,
-          "width": 200
+          "x": 400,
+          "y": 420,
+          "width": 300
         },
         {
           "id": "l6-office-audit",
@@ -237,7 +237,7 @@
           "icon": "DoorOpen",
           "loopText": "The Office Audit — Door, Light, LAN, and the Scream Test",
           "x": 660,
-          "y": 320,
+          "y": 340,
           "width": 200
         },
         {

@@ -582,20 +582,20 @@
       "projectsCountBadge": "3 options + diligence",
       "projects": [
         {
-          "title": "The Chosen Resolution",
-          "name": "Builder JD — 3 Flats + ₹1.2 Cr",
-          "price": "3 flats + ₹1.2 Cr distributable",
+          "title": "The Asset",
+          "name": "Malleshwaram 30x50 Ancestral House",
+          "price": "₹6.8 Cr valuation",
           "possession": "Boutique redevelopment",
-          "psf": "Malleshwaram new build, ₹22–26K/sqft",
+          "psf": "Site values ₹40K+/sqft",
           "location": "Near Sankey Rd",
           "imageSrc": "/journals/default.png"
         },
         {
           "title": "The Diligence Set",
-          "name": "The Builder's Prior Boutique Projects",
-          "price": "Delivery 8 & 14 months late",
-          "possession": "Quality praised",
-          "psf": "Owner-interviewed",
+          "name": "The JD Builder's Prior Boutique Projects",
+          "price": "Owner-interviewed & visited",
+          "possession": "Builder unnamed",
+          "psf": "Delay history discussed",
           "location": "Malleshwaram belt",
           "imageSrc": "/journals/default.png"
         },

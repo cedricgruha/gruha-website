@@ -552,6 +552,9 @@ export const JournalMapV1: React.FC<JournalMapV1Props> = ({
           font-weight: 700;
           color: #0f172a;
           margin: 0;
+          line-height: 1.3;
+          white-space: normal;
+          overflow-wrap: break-word;
         }
         .jmap-callout__desc {
           font-size: 11px;

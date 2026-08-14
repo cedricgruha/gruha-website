@@ -13,7 +13,7 @@
     "learnings": [
       {
         "icon": "Wifi",
-        "text": "'Dual fiber' survives 40% of verification calls"
+        "text": "'Dual fiber available' claims survive about 60% of verification calls."
       },
       {
         "icon": "Scale",
@@ -349,7 +349,7 @@
         {
           "icon": "Wifi",
           "title": "The Fiber-Panel Test",
-          "description": "'Dual fiber available' survives about 40% of verification calls — the building's actual ISP panel, photographed from the riser, is the only document that counts."
+          "description": "'Dual fiber available' survives about 60% of verification calls — the building's actual ISP panel, photographed from the riser, is the only document that counts."
         },
         {
           "icon": "Scale",
@@ -590,16 +590,16 @@
           "name": "Bhartiya City Nikoo Homes",
           "price": "₹1.31–2.9 Cr",
           "possession": "Newer phases 2029",
-          "psf": "~₹12,100/sqft",
+          "psf": "~₹11,950/sqft",
           "location": "Thanisandra",
           "imageSrc": "/journals/the-fiber-and-frangipani/projects/Bhartiya-City-Nikoo-Homes.webp"
         },
         {
           "title": "Value Alternative",
           "name": "Purva Palm Beach",
-          "price": "₹1.15–1.65 Cr",
+          "price": "₹1.29–1.89 Cr",
           "possession": "Ready",
-          "psf": "~₹13.5–14K/sqft",
+          "psf": "~₹12,850/sqft",
           "location": "Hennur Road",
           "imageSrc": "/journals/the-fiber-and-frangipani/projects/Purva-Palm-Beach.jpg"
         }
@@ -668,7 +668,7 @@
       "lessons": [
         {
           "title": "The fiber panel, photographed, is the only document that counts.",
-          "description": "'Dual fiber available' survives about 40% of verification calls — six buildings' panels were photographed from the riser; four were crossed out before a single site visit.",
+          "description": "'Dual fiber available' survives about 60% of verification calls — six buildings' panels were photographed from the riser; four were crossed out before a single site visit.",
           "imageSrc": "/journals/the-fiber-and-frangipani/lesson-1.png",
           "imagegenerationprompt": "A 3D vector illustration of a fiber optic panel photographed inside a building riser with a verification checkmark, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -777,7 +777,7 @@
       "monthlyLearnings": [
         {
           "month": "MONTH 1",
-          "headline": "'Dual fiber available' survives about 40% of verification calls",
+          "headline": "'Dual fiber available' survives about 60% of verification calls",
           "body": "The building's actual ISP panel, photographed, is the only document that counts — six buildings' panels were captured from the riser; four were crossed out before a single site visit.",
           "turning": false
         },

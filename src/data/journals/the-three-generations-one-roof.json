@@ -320,7 +320,7 @@
         },
         {
           "text": "Mone, big room with no morning sun is a hotel. I've finished with hotels.",
-          "author": "— Amma, on the smaller east-window room"
+          "author": "— Amma"
         },
         {
           "text": "Paper protects love, Rajesh. It's the kindest call you'll make this year.",
@@ -328,7 +328,7 @@
         },
         {
           "text": "Best of everything — they hear my TV less, I hear their fights less.",
-          "author": "— A grandmother in the two-flats family they toured"
+          "author": "— A grandmother they toured"
         }
       ],
       "chatMessages": [
@@ -586,9 +586,9 @@
         {
           "title": "The Villament Detour",
           "name": "Valmark Cityville",
-          "price": "₹2–4.99 Cr",
+          "price": "₹3–5.5 Cr",
           "possession": "Ready",
-          "psf": "Duplex–triplex formats",
+          "psf": "3BHK duplex–4BHK triplex",
           "location": "Hulimavu",
           "imageSrc": "/journals/the-three-generations-one-roof/projects/Valmark-Cityville.webp"
         }

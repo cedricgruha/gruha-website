@@ -166,7 +166,7 @@
         {
           "icon": "IndianRupee",
           "label": "BUDGET STRETCH",
-          "value": "₹1 Cr → ₹1.5 Cr"
+          "value": "₹1.35 Cr → ₹1.55 Cr"
         }
       ],
       "roadmapNodes": [
@@ -324,33 +324,39 @@
       "voicesTitle": "Voices around them",
       "quotes": [
         {
-          "text": "Buy a site. Land never loses value.",
-          "author": "— Dad"
+          "text": "Buy a site. Flat is just air, kano.",
+          "author": "— Pavan's father"
         },
         {
-          "text": "Find a home close to a temple and good schools.",
-          "author": "— Mom"
+          "text": "Buy a home close to a Devi temple.",
+          "author": "— Shruti's mother"
         },
         {
-          "text": "Don't rush. Wait for ready-to-move projects.",
-          "author": "— Friend"
+          "text": "Atte, tell that to my mother. She already told Davangere half we're buying ‘the Greek one.’",
+          "author": "— Shruti"
         },
         {
-          "text": "Prices are increasing every quarter.",
-          "author": "— Builder"
+          "text": "Parked. Not deleted. Okay. One more dosa, then Hosa Road.",
+          "author": "— Pavan"
         }
       ],
       "chatMessages": [
         {
+          "sender": "Shruti",
+          "avatar": "/journals/the-first-emi-family/shruti.png",
+          "text": "Riya, the showflat had bougainvillea, marre. Actual bougainvillea. I was standing in that Santorini balcony thinking… this is it, this is the one.",
+          "imagegenerationprompt": "A modern flat vector illustration of shruti, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
           "sender": "Pavan",
           "avatar": "/journals/the-first-emi-family/pavan.png",
-          "text": "Every Sunday became one site visit, one Excel update, one argument... and one make-up dosa.",
+          "text": "Then the price sheet came. Two point three crores — our whole budget is the parking-floor price there.",
           "imagegenerationprompt": "A modern flat vector illustration of pavan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
         {
           "sender": "Riya",
           "avatar": "/journals/avatar-riya.png",
-          "text": "Every time I suggested a lower-priced option, both of you kept returning to communities with trusted builders, better schools and realistic possession timelines. That's when I realized you weren't searching for the cheapest home. You were searching for peace of mind.",
+          "text": "We don't delete the dream — we park it. A sheet named 'Dreams — Parked,' Neopolis on top with its real number next to it. Dreams with numbers stop whispering, Shruti. And Monday, we go back to Hosa Road — where your real flat is quietly waiting to exist.",
           "isRiya": true,
           "imagegenerationprompt": "A modern flat vector illustration of avatar riya, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }
@@ -411,7 +417,7 @@
         {
           "icon": "ArrowLeftRight",
           "label": "PROJECTS COMPARED",
-          "value": "19 Projects"
+          "value": "11 Projects"
         },
         {
           "icon": "FileCheck2",
@@ -517,7 +523,7 @@
         {
           "icon": "ArrowLeftRight",
           "label": "PROJECTS ELIMINATED",
-          "value": "17 Projects"
+          "value": "9 Projects"
         },
         {
           "icon": "FileCheck",
@@ -576,7 +582,7 @@
       "mapImageSrc": "/journals/search-map.png",
       "mapImagePrompt": "A stylized geographic vector map of outer Sarjapur Road and Hosa Road highlighting the explored corridors in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
       "projectsTitle": "Projects they explored",
-      "projectsCountBadge": "5 real projects",
+      "projectsCountBadge": "6 real projects",
       "projects": [
         {
           "title": "Shriram Chirping Woods",
@@ -618,6 +624,14 @@
           "possession": "Resale Education",
           "location": "Hosa Road",
           "imageSrc": "/journals/the-first-emi-family/projects/Oceanus-Monarda.jpg"
+        },
+        {
+          "title": "Hosa Rd under-construction project",
+          "name": "Hosa Rd under-construction project",
+          "price": "Unnamed by policy",
+          "possession": "Booking · Stall · Exit",
+          "location": "Hosa Road belt",
+          "imageSrc":"/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",
@@ -625,22 +639,22 @@
         {
           "icon": "MapPin",
           "title": "Location didn't align",
-          "count": "6 projects"
+          "count": "3 projects"
         },
         {
           "icon": "IndianRupee",
           "title": "Budget not suitable",
-          "count": "5 projects"
+          "count": "2 projects"
         },
         {
           "icon": "Hourglass",
           "title": "Possession timeline",
-          "count": "3 projects"
+          "count": "2 projects"
         },
         {
           "icon": "Building2",
           "title": "Amenities not matching",
-          "count": "2 projects"
+          "count": "1 projects"
         },
         {
           "icon": "MoreHorizontal",
@@ -807,20 +821,32 @@
       "monthlyLearnings": [
         {
           "month": "MONTH 1",
-          "headline": "Budget boundaries are non-negotiable for first-time buyers",
-          "body": "Stretching for an extra room only works if emergency reserves remain 100% untouched.",
+          "headline": "The RERA portal is genuinely readable",
+          "body": "Registration number, possession date, complaint history, quarterly updates — twenty minutes per project replaced hours of WhatsApp-forward anxiety with actual facts.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Construction-linked payment plans are the first-timer's friend",
+          "body": "10% at booking, the rest following slabs, means the savings deplete with the building's progress, not before it.",
           "turning": false
         },
         {
           "month": "MONTH 3",
-          "headline": "RERA filing audits verify construction milestone promises",
-          "body": "Checking RERA progress filings confirmed builder delivery track record before signing booking agreement.",
+          "headline": "The anxious middle tier sorts by delivery history, not brochure",
+          "body": "Two delivered projects on time beats one celebrity architect, every time.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "They priced the 2.5 BHK honestly — it costs the emergency fund",
+          "body": "The 2 BHK with a convertible study won: the baby's room exists and the airbag survives.",
           "turning": true
         },
         {
           "month": "MONTH 5",
-          "headline": "Outer Sarjapur Road balanced EMI, school, and commute",
-          "body": "Selecting a 2.5BHK in a family-oriented township provided long-term appreciation and immediate comfort.",
+          "headline": "GST maths changed the comparison more than any discount",
+          "body": "Under-construction (5%) versus ready-with-OC (nil) — they now compute all-in cost per project, not per-sqft price.",
           "turning": false
         }
       ]

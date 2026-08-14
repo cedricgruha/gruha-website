@@ -618,9 +618,9 @@
         {
           "title": "The Hoarding Detour",
           "name": "Sobha Neopolis",
-          "price": "~₹15,600/sqft",
+          "price": "₹15,600/sqft",
           "possession": "Post-thesis",
-          "psf": "₹15,600/sqft",
+          "psf": "Hoarding-detour rate",
           "location": "Panathur",
           "imageSrc": "/journals/the-hours-i-got-back/projects/Sobha-Neopolis.png"
         },

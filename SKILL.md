@@ -160,8 +160,20 @@ When given raw narrative text:
    - Populate key metrics (Journey Stage, Site Visits, Timeline, Budget Stretch).
    - Map timeline legs into `roadmapNodes` (x/y positions spread horizontally across steps).
    - Extract key pivotal moments into `moments` with image generation prompts.
-   - Include quotes in `quotes` and Riya AI advisor dialogue in `chatMessages`.
+   - Include quotes in `quotes` and Riya AI advisor dialogue in `chatMessages` (see the **RIYA QUOTE RULE** below).
    - Extract 5 reality check cards into `realityChecks`.
+
+#### 🗣️ RIYA QUOTE RULE (STRICT — do not invent Riya's words)
+
+The Journey tab renders Riya's closing takeaway (`displayRiyaQuote`) and the Riya bubble(s) in `chatMessages` from this data. Riya's dialogue in the JSON **MUST faithfully condense the actual `07 RIYA IN CONVERSATION — A VOICE SNIPPET`** block of the source document — the ``RIYA:`` speaker lines — NOT be invented, paraphrased broadly, or copied verbatim from the component's hardcoded fallback string.
+
+Rules:
+- Use the source document's real ``RIYA:`` lines as the seed. Condense them into 1–2 short Riya messages that reuse the source's distinctive wording (rules, numbers, catchphrases, e.g. Suresh's ``Rule #42``/``Strict is how you sleep, sir``, Pavan & Shruti's ``Dreams — Parked``).
+- Pair each Riya message with a matching buyer/speaker message that also comes from the source snippet (Suresh/Pavan/Veena/etc.), so the exchange reads as a real back-and-forth.
+- Do NOT set a `riyaConclusionTitle` in the journey tab unless the source explicitly gives the conclusion a named title — otherwise omit it and let the UI fall back to the shared default `"Riya's take on the Journey"`. (Compare: `chatMessages` may exist in every tab, but the journey-tab ``riyaConclusionTitle`` is intentionally left unset across journals for consistency.)
+- Never output the component's default fallback text ("Every time I suggested a lower-priced option … searching for peace of mind") as a real Riya message — that string is only a UI fallback, not journal content.
+
+**Anti-example (invented):** `"You weren't searching for the cheapest home or the prettiest one…"` — composed prose not present in the source snippet. **Correct example (condensed from source):** `"Sir, shall we make it a rule then? Not 'is it ready' — but 'what is the OC number, and where is my photocopy.'"`
 
 4. **Build Search Tab (`search`)**:
    - List explored areas with project counts, site visits, and images/prompts.
