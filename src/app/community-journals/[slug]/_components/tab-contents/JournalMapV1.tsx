@@ -193,6 +193,7 @@ function StatefulMarker({
   const areaId = area.areaId;
   const areaName = area.name || area.title || "";
   const areaImage = toSrc(area.image ?? area.imageSrc);
+  const [imgFailed, setImgFailed] = useState(false);
   const markerRef = useRef<L.Marker>(null);
 
   useEffect(() => {
@@ -237,9 +238,9 @@ function StatefulMarker({
           className="jmap-callout"
         >
           <div className="jmap-callout__card">
-            {areaImage ? (
+            {areaImage && !imgFailed ? (
               <div className="jmap-callout__img">
-                <img src={areaImage} alt={areaName} />
+                <img src={areaImage} alt={areaName} onError={() => setImgFailed(true)} />
               </div>
             ) : null}
             <p className="jmap-callout__name">{areaName}</p>

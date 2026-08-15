@@ -94,6 +94,154 @@ Whenever ANY visual asset key exists in the schema (`image`, `imageSrc`, `shared
 
 ---
 
+## 🗺️ EXPLORED AREAS IMAGE PROMPT RULE (CRITICAL & STRICT)
+
+The `exploredAreas[].imagegenerationprompt` fields represent the residential character of the geographical areas explored during the home-buying journey.
+
+These images MUST feel like a consistent visual series. They should communicate the **character of the neighborhood/residential corridor**, not a specific property listing, map, advertisement, landmark, or UI graphic.
+
+**SCOPE OVERRIDE:** For `exploredAreas` images, this specialized photorealistic neighborhood style **OVERRIDES** the generic vector / 80%-greyscale / 3D-illustration formula defined elsewhere in the “Image Generation Design & Color Theme Guideline” section. The restricted palette rules below (Warm Coral accents, restrained tones) still apply, but the rendered look must be photorealistic editorial, not a vector/3D illustration.
+
+### 1. Visual Style — STRICT
+
+All `exploredAreas[].imagegenerationprompt`<span> values MUST use the same visual direction:
+
+- Photorealistic architectural/editorial neighborhood scene.
+- Natural Indian residential environment.
+- Contemporary but believable Indian homes, apartments, streets, landscaping, and neighborhood context.
+- Soft natural daylight with realistic shadows.
+- Premium editorial real-estate photography aesthetic.
+- Slightly cinematic but grounded and believable.
+- Clean, calm, aspirational composition.
+- No fantasy architecture.
+- No exaggerated luxury.
+- No futuristic buildings.
+- No cartoon/vector/3D-render appearance.
+- No plastic CGI appearance.
+- No drone/map infographic appearance.
+
+### 2. Color Treatment
+
+Use a restrained, natural palette:
+
+- Warm neutral architectural tones.
+- Soft whites, concrete greys, muted greens, natural wood and stone.
+- Realistic Indian daylight and vegetation.
+- Avoid oversaturated colors.
+- Avoid strong color grading.
+
+Warm Coral `#DD5128` may ONLY appear as a very subtle visual accent if naturally appropriate, such as:
+- a small architectural detail,
+- muted garden element,
+- understated door detail,
+- tiny visual focal point.
+
+DO NOT artificially add coral-colored signs, metro stations, map pins, icons, arrows, UI elements, logos, text, banners, or storefront branding.
+
+### 3. Geographic Language (CRITICAL)
+
+The base prompt may contain geographic terms such as `corridor`, `arc`, `belt`, `territory`, `area`, `core`, `fringe`, `ring`, or `base camp`. These describe a **geographical location / district**, and must NEVER be interpreted as an indoor hallway, passage, corridor, or interior.
+
+For example, `Hebbal residential corridor` must visually mean “Hebbal residential district / neighborhood / township area” — NOT an interior building corridor. Always read the location name as an outdoor residential district.
+
+### 4. Subject Selection
+
+The prompt MUST describe the actual character of the explored area using the source narrative.
+
+Extract visual cues from the area's:
+
+- residential character
+- housing typology
+- age of buildings
+- greenery
+- street character
+- density
+- connectivity/context
+- established vs emerging character
+- premium vs practical character
+- apartment vs independent-home mix
+- relevant neighborhood atmosphere
+
+Do NOT invent famous landmarks unless the source explicitly mentions them. Do NOT create a recognizable landmark merely because the neighborhood is known for one.
+
+### 5. Composition
+
+Every explored-area image should follow a consistent composition.
+
+Because these images are rendered inside journal cards (square thumbnails on the `journal` page, and cropped wide banners on the community-journals page), the composition MUST be **square 1:1** and intentionally framed so the main subject survives cropping. Use:
+
+- Square 1:1 editorial composition (NOT wide-only — the subject must sit comfortably in a centered square crop).
+- Residential street or apartment-community perspective.
+- Main architectural subject positioned around the center/right-middle of the frame.
+- Clear foreground, middle ground, and background.
+- Some natural landscaping in the foreground.
+- Enough negative space around the architecture.
+- Human presence may be included only when useful for scale, but people should remain secondary.
+- No close-up portrait.
+- No aerial map view.
+- No text-heavy storefronts.
+- No prominent vehicle branding.
+
+The scene should look like a photograph taken while exploring the neighborhood during a property search.
+
+### 6. Required Prompt Construction Formula
+
+Every `exploredAreas[].imagegenerationprompt` MUST follow this structure:
+
+> `[AREA NAME / RESIDENTIAL CHARACTER]` + `[specific housing and street characteristics derived from source]` + `[natural Indian neighborhood context]` + `[square editorial photography composition]` + `[soft natural daylight and realistic shadows]` + `[restrained warm-neutral color palette]` + `[premium but believable real-estate editorial photography]` + `[no text, logos, signs, maps or UI]`
+
+### 7. Area-Specificity Rule
+
+Each prompt MUST contain at least **3 visual characteristics that distinguish the area** from the other explored areas.
+
+Do NOT simply replace the location name while keeping the rest of the prompt identical.
+
+For example:
+
+BAD:
+`"Photorealistic residential neighborhood in JP Nagar with modern homes and greenery..."`
+`"Photorealistic residential neighborhood in Jayanagar with modern homes and greenery..."`
+
+These produce interchangeable images.
+
+Instead:
+
+- **JP Nagar**: established residential corridor, leafy streets, contemporary apartment communities, practical family-oriented housing, mature landscaping.
+- **Jayanagar**: older established neighborhood, mature tree canopy, quieter residential streets, traditional homes mixed with apartments, more premium/heritage character.
+- **Banashankari / Konanakunte**: broader suburban residential roads, newer apartment developments, mix of independent homes and larger communities, more open greenery, developing residential character.
+
+The visual characteristics MUST come from the source narrative whenever possible.
+
+### 8. No Text / No Graphic Elements
+
+Every explored-area prompt MUST explicitly end with:
+
+`"no visible text, no readable signage, no logos, no advertisements, no map graphics, no UI elements, no watermarks."`
+
+This is mandatory because these images are used inside journal cards and should remain visually clean.
+
+### 9. Consistency Suffix
+
+Every explored-area prompt MUST end with the same visual consistency suffix:
+
+`"Square editorial real-estate photograph, photorealistic architectural photography, natural Indian daylight, realistic materials and vegetation, restrained warm-neutral palette, subtle cinematic depth, premium but believable residential atmosphere, clean composition, no visible text, no readable signage, no logos, no advertisements, no map graphics, no UI elements, no watermarks."`
+
+### 10. Examples
+
+#### JP Nagar
+
+`"An established leafy residential corridor in JP Nagar 7th Phase, Bengaluru, showing well-maintained contemporary apartment communities alongside mature trees, landscaped entrances, quiet paved internal streets and practical family-oriented housing, viewed from a pedestrian-height street perspective with architecture as the main subject, square editorial composition, soft morning daylight, realistic Indian vegetation and materials, calm premium residential atmosphere, subtle natural shadows, photorealistic architectural/editorial photography, restrained warm-neutral palette. Square editorial real-estate photograph, photorealistic architectural photography, natural Indian daylight, realistic materials and vegetation, restrained warm-neutral palette, subtle cinematic depth, premium but believable residential atmosphere, clean composition, no visible text, no readable signage, no logos, no advertisements, no map graphics, no UI elements, no watermarks."`
+
+#### Jayanagar
+
+`"An established residential street in Jayanagar 4th Block, Bengaluru, with mature tree canopy, older well-kept independent homes mixed with low-rise apartment buildings, shaded sidewalks, established gardens and a quiet premium neighborhood character, viewed from a pedestrian-height street perspective, square editorial composition with layered greenery and architecture, soft afternoon daylight, realistic Indian materials and vegetation, subtle shadows, photorealistic architectural/editorial photography, restrained warm-neutral palette. Square editorial real-estate photograph, photorealistic architectural photography, natural Indian daylight, realistic materials and vegetation, restrained warm-neutral palette, subtle cinematic depth, premium but believable residential atmosphere, clean composition, no visible text, no readable signage, no logos, no advertisements, no map graphics, no UI elements, no watermarks."`
+
+#### Banashankari & Konanakunte
+
+`"A residential corridor around Banashankari and Konanakunte, Bengaluru, showing a mix of newer apartment communities and independent family homes, broader paved residential roads, landscaped compounds, open pockets of greenery and a slightly more spacious suburban character, viewed from street level with the housing environment extending naturally into the background, square editorial composition, bright soft daylight, realistic Indian architecture and vegetation, calm practical residential atmosphere, photorealistic architectural/editorial photography, restrained warm-neutral palette. Square editorial real-estate photograph, photorealistic architectural photography, natural Indian daylight, realistic materials and vegetation, restrained warm-neutral palette, subtle cinematic depth, premium but believable residential atmosphere, clean composition, no visible text, no readable signage, no logos, no advertisements, no map graphics, no UI elements, no watermarks."`
+
+---
+
 ## 🎨 Lucide Icons Rule
 All `"icon"` fields MUST use valid, PascalCase [Lucide React Icon names](https://lucide.dev/icons/).
 Commonly used icons in Gruha.ai journals:
