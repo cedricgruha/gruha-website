@@ -24,7 +24,7 @@
         "text": "Keep-and-leverage is the fork’s third prong"
       }
     ],
-    "heroImage": "/journals/cover/41.jpg",
+    "heroImage": "/journals/cover/41.png",
     "heroTitle": "The One More Room Journal",
     "datePublished": "2026-03-14",
     "dateModified": "2026-07-08",
@@ -806,12 +806,6 @@
       "monthlyLearningsTitle": "Lessons learned along the way",
       "monthlyLearnings": [
         {
-          "month": "MONTH 1",
-          "headline": "The 2.5BHK's breaking point was comically specific",
-          "body": "Two careers × two calls + one homework table + one toddler; the same 11 am slot shortlisted three days running and the daycare closed for Dasara — the surrender became a brief.",
-          "turning": false
-        },
-        {
           "month": "MONTH 2",
           "headline": "The keep-or-sell fork has a third prong — keep-and-leverage",
           "body": "It only appears once you model rent against LTV honestly; the CA meeting was worth ten portal sessions.",
@@ -819,21 +813,27 @@
         },
         {
           "month": "MONTH 3",
-          "headline": "The villa detour's real value was a written boundary",
-          "body": "EMI plus fees at 45% ended every future stretch conversation in one line; the garden costs the airbag.",
+          "headline": "The villa detour's real cost was three weekends; its real value was a written boundary",
+          "body": "'EMI + fees ≤ 45%' ended every future stretch conversation in one line.",
           "turning": false
         },
         {
           "month": "MONTH 5",
           "headline": "Upgrade chains fail two links away",
-          "body": "Their buyer ghosted after token because his own chain collapsed upstream; the tenant agreement was drafted the same fortnight, and keep-and-leverage replaced sell-to-fund.",
+          "body": "When their buyer ghosted after token, the lesson wasn't about him — it was structural: never let your purchase depend on your sale's buyer's sale.",
           "turning": false
         },
         {
           "month": "MONTH 6",
-          "headline": "Square footage lies; the office audit tells the truth",
-          "body": "Door, light, LAN, acoustics — two 4BHKs failed on 'fourth bedroom = corridor with a window'; site visits at call-time are the only floor plan that matters.",
+          "headline": "Square footage lies; floor plans under-lie; site visits at call-time tell the truth",
+          "body": "The office audit — door, light, LAN, acoustics — disqualified two 4BHKs whose fourth 'bedroom' was a corridor with a window.",
           "turning": false
+        },
+        {
+          "month": "MONTH 7",
+          "headline": "First resales from original owners are the upgrader's sweet spot",
+          "body": "In a township you already know: seasoned documents, nil GST, a community already proven — and sellers who remember being you.",
+          "turning": true
         }
       ]
     },
