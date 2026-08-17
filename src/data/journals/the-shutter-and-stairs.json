@@ -169,7 +169,7 @@
         },
         {
           "icon": "IndianRupee",
-          "label": "TARGET INCOME",
+          "label": "RENT MODEL",
           "value": "₹1.08L / Month"
         }
       ],
@@ -608,15 +608,26 @@
           "name": "Uttarahalli Corner Site",
           "price": "₹1.3–1.5 Cr",
           "possession": "Corner Site",
+          "psf": "Shop rents ₹50–65K on proven footfall roads",
           "location": "Uttarahalli–Kengeri",
           "imageSrc": "/journals/default.png"
         },
         {
-          "title": "Sitting-Tenant Building (Shortlist, Bounced)",
-          "name": "Existing Rented Building",
-          "price": "~₹1.8 Cr",
-          "possession": "Tenanted",
-          "location": "South Bengaluru",
+          "title": "Kengeri Context: GoodEarth Malhar Eco-Village",
+          "name": "GoodEarth Malhar",
+          "price": "Not stated",
+          "possession": "Corridor anchor (context)",
+          "psf": "50-acre established community — the catchment her shop thesis feeds on",
+          "location": "Kengeri",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The 'Guaranteed Tenant' Corner (The Detour)",
+          "name": "The 'Guaranteed Tenant' Corner",
+          "price": "Not stated",
+          "possession": "Detour",
+          "psf": "Unnamed by policy",
+          "location": "Banashankari fringe",
           "imageSrc": "/journals/default.png"
         }
       ],

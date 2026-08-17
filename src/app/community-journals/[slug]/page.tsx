@@ -28,7 +28,7 @@ function getCategoryBadge(listing: any): string {
   const tagsStr = (listing?.tags || []).join(" ").toLowerCase();
 
   if (seg.startsWith("nri")) return "NRI & Returnees";
-  if (seg.includes("/ upgrader") || tagsStr.includes("upgrader")) return "Upgraders";
+  if (seg.includes("/ upgrader")) return "Upgraders";
   if (seg.includes("/ legacy") || tagsStr.includes("legacy") || tagsStr.includes("inheritance")) return "Legacy";
   if (seg.includes("/ lifestyle") || tagsStr.includes("lifestyle") || tagsStr.includes("managed farmland")) return "Lifestyle";
   if (seg.startsWith("investors & wealth")) return "Investors & Wealth";

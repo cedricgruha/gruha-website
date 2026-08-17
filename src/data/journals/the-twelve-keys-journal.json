@@ -137,22 +137,22 @@
         {
           "icon": "Briefcase",
           "label": "SEARCH DURATION",
-          "value": "10 Weeks"
+          "value": "15 Weeks"
         },
         {
           "icon": "TrendingUp",
           "label": "PROJECTS EVALUATED",
-          "value": "12 Sites"
+          "value": "9 Projects"
         },
         {
           "icon": "Hourglass",
           "label": "SHORT-STAY YIELD",
-          "value": "7.2% Net"
+          "value": "7% Net"
         },
         {
           "icon": "IndianRupee",
           "label": "PORTFOLIO TARGET",
-          "value": "12 Keys"
+          "value": "8 Keys"
         }
       ],
       "journeyFrameTitle": "THE 12-KEY PLAYBOOK",
@@ -160,83 +160,83 @@
       "roadmapTitle": "How a short-stay portfolio scaled to twelve keys",
       "roadmapNodes": [
         {
-          "id": "s1-units-7-8-hunt",
+          "id": "l1-units-7-8-hunt",
           "stage": "S1",
-          "type": "stage",
-          "title": "S1: Units 7–8 Hunt Begins",
-          "desc": "Entry yields compressed ~150bps since 2021 — operating edge is now the whole business.",
+          "type": "start",
+          "title": "L1: Units 7–8 Hunt Begins",
+          "desc": "Units 7–8 hunt begins; entry yields compressed ~150bps since 2021 — the operating edge is now the whole business.",
           "icon": "TrendingDown",
           "x": 120,
           "y": 120,
-          "width": 180
+          "width": 190
         },
         {
-          "id": "s2-rwa-temperament-audit",
+          "id": "l2-rwa-temperament-audit",
           "stage": "S2",
           "type": "stage",
-          "title": "S2: RWA Temperament Audit",
-          "desc": "RWA audit added before price: bye-laws + last AGM minutes requested pre-visit.",
+          "title": "L2: RWA Temperament Audit",
+          "desc": "RWA-temperament audit added before price: bye-laws + last AGM minutes requested pre-visit; two buildings self-eliminate.",
           "icon": "FileSearch",
-          "x": 330,
+          "x": 340,
           "y": 120,
-          "width": 180
+          "width": 210
         },
         {
-          "id": "detour-guaranteed-9-percent",
-          "stage": "DETOUR",
+          "id": "l3-guaranteed-9-percent-detour",
+          "stage": "S2",
           "type": "detour",
-          "title": "DETOUR: Guaranteed 9%",
-          "desc": "2 weeks operator scheme detour; guarantee backed only by seller's 2-month-old LLP.",
+          "title": "L3 DETOUR: Guaranteed 9%",
+          "desc": "A 'serviced-apartment guaranteed 9%' operator-tie-up pitch near a tech park — the guarantee issuer is the seller's own LLP; parked.",
           "icon": "AlertTriangle",
-          "x": 560,
-          "y": 220,
-          "width": 180
+          "x": 570,
+          "y": 120,
+          "width": 220
         },
         {
-          "id": "s3-builder-ready-stock",
+          "id": "s3-ready-stock-thesis",
           "stage": "S3",
           "type": "stage",
-          "title": "S3: Builder Ready Stock",
-          "desc": "Brigade Cornerstone Utopia studios: builder-held ready stock, GST-in but negotiable.",
+          "title": "S3: Ready-Stock Thesis",
+          "desc": "The search narrows toward builder-held ready stock with a clean counterparty.",
           "icon": "Building",
           "x": 800,
           "y": 120,
-          "width": 180
+          "width": 190
         },
         {
-          "id": "s5-byelaw-draft-bounce",
+          "id": "l4-builder-ready-stock",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L4: Brigade Cornerstone Utopia Studios",
+          "desc": "Brigade Cornerstone Utopia studios: builder-held ready stock, GST-in but negotiable, clean counterparty.",
+          "icon": "Building",
+          "x": 600,
+          "y": 360,
+          "width": 220
+        },
+        {
+          "id": "l5-byelaw-draft-bounce",
           "stage": "S5",
           "type": "bounce",
-          "targetNodeId": "s3-builder-ready-stock",
-          "title": "S5 BOUNCE: Bye-Law Draft",
-          "desc": "1 week bounce: association circulated short-stay ban draft mid-negotiation; exited same week.",
+          "targetNodeId": "s3-ready-stock-thesis",
+          "title": "L5 BOUNCE: Bye-Law Draft",
+          "desc": "First unit lost — RWA circulates a draft short-stay restriction mid-negotiation; she exits same week, no sentiment.",
           "icon": "RotateCcw",
           "loopText": "S5 → S3 Bounce (Bye-law Draft)",
-          "x": 640,
-          "y": 420,
-          "width": 240
+          "x": 800,
+          "y": 520,
+          "width": 230
         },
         {
-          "id": "s5-two-units-closed",
+          "id": "l6-two-units-closed",
           "stage": "S5",
           "type": "stage",
-          "title": "S5: Two Units Closed",
-          "desc": "Two units closed in a short-stay-tolerant tower; concentration split Manyata vs ORR.",
+          "title": "L6: Two Units Closed",
+          "desc": "Two units closed in a short-stay-tolerant tower; concentration deliberately split Manyata-side vs ORR.",
           "icon": "Key",
-          "x": 370,
-          "y": 420,
-          "width": 180
-        },
-        {
-          "id": "s7-12-key-operating-machine",
-          "stage": "S7",
-          "type": "stage",
-          "title": "S7: 12-Key Operating Machine",
-          "desc": "Twelfth hook on key rack full — net portfolio operating yield cleared 7.2%.",
-          "icon": "CheckCircle2",
-          "x": 120,
-          "y": 420,
-          "width": 180
+          "x": 320,
+          "y": 520,
+          "width": 220
         }
       ],
       "timelineTitle": "Where she stands today",
@@ -274,20 +274,20 @@
       "voicesTitle": "Voices around her",
       "quotes": [
         {
-          "text": "Buy residential flats. Renting to families is peaceful.",
-          "author": "— Senior Hotelier Mentor"
+          "text": "The bye-law. Unit I can furnish in three weeks, marre. A hostile AGM I can't renovate.",
+          "author": "— Priyanka"
         },
         {
-          "text": "Short-stay guests will ruin the building's elevators.",
-          "author": "— Resale Apartment Broker"
+          "text": "The RWA conversation before purchase beats the RWA war after it.",
+          "author": "— Priyanka"
         },
         {
-          "text": "High-yield operator schemes are too risky.",
-          "author": "— CA / Financial Advisor"
+          "text": "So, the question that decides this: is your business the unit… or the bye-law?",
+          "author": "— Riya"
         },
         {
-          "text": "ORR tech park rentals will always stay full.",
-          "author": "— Tech Colleague"
+          "text": "Then we re-rank the shortlist by association temperament first, yield second.",
+          "author": "— Riya"
         }
       ],
       "riyaConclusionTitle": "Riya's take on the Journey",
@@ -419,7 +419,7 @@
       "exploredAreas": [
         {
           "title": "Outer Ring Road (Bellandur / Ecospace)",
-          "description": "High corporate demand, 85%+ occupancy, strict RWA audit required before token.",
+          "description": "High corporate demand, 81%+ occupancy, strict RWA audit required before token.",
           "projects": 6,
           "siteVisits": 8,
           "latlong": {
@@ -514,8 +514,8 @@
         {
           "title": "ORR Studio Stock",
           "name": "ORR/Ecospace-adjacent studio stock",
-          "price": "₹85L–1.05 Cr",
-          "possession": "Ready",
+          "price": "Not stated",
+          "possession": "Pipeline + benchmark",
           "psf": "₹15,000–17,000/sqft",
           "location": "Bellandur–Kadubeesanahalli",
           "imageSrc": "/journals/default.png"
@@ -523,9 +523,9 @@
         {
           "title": "Guaranteed 9% Operator Scheme",
           "name": "\"Guaranteed 9%\" operator scheme",
-          "price": "₹75–90L",
+          "price": "Not stated",
           "possession": "Detour",
-          "psf": "₹12,500/sqft",
+          "psf": "Guarantee = seller's own LLP (unnamed by policy)",
           "location": "Tech-park adjacent",
           "imageSrc": "/journals/default.png"
         }
@@ -626,23 +626,23 @@
       "metrics": [
         {
           "icon": "TrendingUp",
-          "label": "NET OPERATING YIELD",
-          "value": "7.2%"
+          "label": "NET YIELD THRESHOLD",
+          "value": "≥7%"
         },
         {
           "icon": "Building2",
-          "label": "OCCUPANCY BENCHMARK",
+          "label": "CURRENT OCCUPANCY",
           "value": "81%"
         },
         {
           "icon": "ShieldCheck",
-          "label": "RWA CLAUSE AUDIT",
-          "value": "100% Clear"
+          "label": "RWA AUDIT",
+          "value": "Bye-laws + AGM"
         },
         {
           "icon": "KeyRound",
           "label": "PORTFOLIO SIZE",
-          "value": "8 Units / 12 Keys"
+          "value": "8 Units"
         }
       ],
       "lessonsTitle": "Key takeaways from her journey",

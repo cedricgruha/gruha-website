@@ -172,94 +172,115 @@
       ],
       "roadmapNodes": [
         {
-          "id": "s1-fd-audit",
+          "id": "l1-fd-renewal",
           "stage": "S1",
-          "type": "stage",
-          "title": "S1: FD Renewal Guilt",
-          "desc": "6 weeks auditing ₹2.7 Cr paper savings earning 6.4% FD; capital protection mandate.",
+          "type": "start",
+          "title": "L1: FD Renewal at 6.4%",
+          "desc": "FD renewal at 6.4%; the son's forwards; the ledger's 41 questions.",
           "icon": "Landmark",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
         {
-          "id": "s2-corridor-triage",
+          "id": "l2-jayanagar-showflat",
           "stage": "S2",
           "type": "stage",
-          "title": "S2: Corridor Triage",
-          "desc": "3 weeks shortlisting JP Nagar vs Banashankari; 7-year-old RWA building focus.",
+          "title": "L2: Jayanagar Showflat Shock",
+          "desc": "Showflat rates at ₹15–21K/sqft; the corpus recalibrates in a weekend.",
           "icon": "MapPin",
           "x": 320,
           "y": 120,
           "width": 180
         },
         {
-          "id": "detour-luxe-ad",
-          "stage": "DETOUR",
+          "id": "l3-falcon-luxe-detour",
+          "stage": "S2",
           "type": "detour",
-          "title": "DETOUR: Print-Ad Luxe",
-          "desc": "2.5 weeks chasing shiny luxury tower brochure outside budget; zero OC in hand.",
+          "title": "L3 DETOUR: Falcon City Luxe",
+          "desc": "Print-ad glamour; EOI taken home twice, returned unsigned — 'launch discount = payment for delivery risk'.",
           "icon": "AlertTriangle",
-          "x": 540,
-          "y": 220,
-          "width": 180
-        },
-        {
-          "id": "s3-oc-photocopy-audit",
-          "stage": "S3",
-          "type": "stage",
-          "title": "S3: OC Photocopy Audit",
-          "desc": "5 weeks evaluating 7-year-old ready buildings; photocopy OC rule strictly enforced.",
-          "icon": "FileCheck",
-          "x": 760,
+          "x": 520,
           "y": 120,
           "width": 180
         },
         {
-          "id": "s4-walkaway-stall",
-          "stage": "S4",
+          "id": "l4-photocopy-oc-rule",
+          "stage": "S2",
           "type": "loop",
-          "title": "S4: Walk-Away Stall",
-          "desc": "3 weeks grief disguised as re-exploring Banashankari after seller price hike.",
-          "icon": "RotateCcw",
-          "loopText": "3-Week Stall Loop",
-          "x": 880,
-          "y": 360,
+          "title": "L4: The Photocopied-OC Rule",
+          "desc": "The Sarakki 'ready' tower without an OC number; the photocopied-OC rule is born.",
+          "icon": "FileCheck",
+          "x": 700,
+          "y": 120,
           "width": 180
         },
         {
-          "id": "s5-seller-theatre-bounce",
+          "id": "s3-ready-shortlist",
+          "stage": "S3",
+          "type": "stage",
+          "title": "S3: Ready-Building Shortlist",
+          "desc": "Ready OC stock benchmarked under the photocopied-OC rule.",
+          "icon": "FileSearch",
+          "x": 860,
+          "y": 540,
+          "width": 180
+        },
+        {
+          "id": "l5-jayanagar-boutique",
+          "stage": "S4",
+          "type": "stage",
+          "title": "L5: Jayanagar 24-Unit Boutique",
+          "desc": "Jayanagar 24-unit boutique romance; accounts requested 'to be fair to the building'.",
+          "icon": "Building2",
+          "x": 880,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l6-walkaway-1",
+          "stage": "S4",
+          "type": "regression",
+          "targetNodeId": "l2-jayanagar-showflat",
+          "title": "L6 REGRESSION: Walk-Away #1",
+          "desc": "No sinking fund, past roof levy; three weeks of grief-browsing Banashankari.",
+          "icon": "RotateCcw",
+          "x": 180,
+          "y": 340,
+          "width": 180
+        },
+        {
+          "id": "l8-walkaway-2-bounce",
           "stage": "S5",
           "type": "bounce",
-          "targetNodeId": "s3-oc-photocopy-audit",
-          "title": "S5 BOUNCE: Price Theatre",
-          "desc": "1 week bounce: seller tried adding ₹12L at token table; Suresh walked out.",
+          "targetNodeId": "s3-ready-shortlist",
+          "title": "L8 BOUNCE: Walk-Away #2",
+          "desc": "The twice-moving 'final price'; brokers note it; next talks start 8% lower.",
           "icon": "Undo2",
-          "loopText": "S5 → S3 Bounce (Walk-Away #2)",
-          "x": 620,
+          "x": 680,
           "y": 420,
           "width": 190
         },
         {
-          "id": "s5-nominee-wobble",
-          "stage": "S5",
-          "type": "stage",
-          "title": "S5: Co-Nominee Wobble",
-          "desc": "10-day seller paper wobble held by all-cash proof-of-funds leverage.",
+          "id": "l7-sleep-test-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L7 Loop: Price the Sleep",
+          "desc": "Stuck; the Riya reframe 'price the sleep'; the decision takes 11 days from that sentence.",
           "icon": "ShieldAlert",
-          "x": 360,
-          "y": 420,
+          "x": 480,
+          "y": 580,
           "width": 180
         },
         {
-          "id": "s7-brigade-gardenia-close",
+          "id": "l9-gardenia-close",
           "stage": "S7",
           "type": "stage",
-          "title": "S7: Brigade Gardenia Close",
-          "desc": "32-day all-cash close at ₹1.69 Cr. Zero-EMI sleep-tested peace achieved.",
+          "title": "L9: Brigade Gardenia Close",
+          "desc": "Original-allottee 3BHK; a 10-day co-nominee wobble; ₹1.69 Cr, 32-day close.",
           "icon": "CheckCircle2",
-          "x": 120,
-          "y": 420,
+          "x": 160,
+          "y": 560,
           "width": 180
         }
       ],
@@ -429,7 +450,7 @@
       "exploredAreas": [
         {
           "title": "JP Nagar 7th Phase (Chosen)",
-          "description": "Established residential township belt with Brigade Gardenia & Millennium (~₹11.8K/sqft).",
+          "description": "Established South Bengaluru residential belt; Brigade Gardenia listings average ~₹11,785/sqft, with Brigade Millennium and Elita Promenade as shortlist benchmarks.",
           "projects": 4,
           "siteVisits": 5,
           "latlong": {
@@ -441,7 +462,7 @@
         },
         {
           "title": "Jayanagar 4th Block",
-          "description": "Premium heritage residential hub with 24-unit boutique apartments (~₹15-21K/sqft).",
+          "description": "Premium heritage residential hub explored for a 24-unit boutique apartment; the segment trades around ₹15–21K/sqft.",
           "projects": 3,
           "siteVisits": 4,
           "latlong": {
@@ -452,16 +473,16 @@
           "imagegenerationprompt": "A modern architectural vector view of Jayanagar 4th Block avenues and boutique apartments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
         {
-          "title": "Banashankari 3rd Stage",
-          "description": "Quiet South Bengaluru locality explored during post-walkaway re-evaluations.",
-          "projects": 3,
-          "siteVisits": 3,
+          "title": "Konanakunte Cross",
+          "description": "Control-visit corridor for Prestige Falcon City; the Luxe phase became the print-ad detour.",
+          "projects": 2,
+          "siteVisits": 1,
           "latlong": {
-            "lat": 12.92692,
-            "lng": 77.548807
+            "lat": 12.884,
+            "lng": 77.563
           },
-          "imageSrc": "/journals/the-quiet-crorepatis/banashankari.png",
-          "imagegenerationprompt": "A modern architectural vector view of Banashankari residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imageSrc": "/journals/the-quiet-crorepatis/konanakunte-cross.png",
+          "imagegenerationprompt": "A modern architectural vector view of Konanakunte Cross with Prestige Falcon City residential towers and surrounding Bengaluru streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         }
       ],
       "consideredAreasLabel": "Other areas considered: Konanakunte Cross • Sarakki • Rajajinagar",
@@ -584,29 +605,38 @@
         {
           "title": "Brigade Gardenia",
           "name": "Brigade Gardenia",
-          "price": "₹1.15–1.45 Cr",
-          "possession": "Ready",
-          "psf": "₹11,785/sqft",
+          "price": "Not stated",
+          "possession": "Possession ~2017",
+          "psf": "₹11,785/sqft (listings avg)",
           "location": "JP Nagar 7th Phase",
           "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Gardenia.webp"
         },
         {
-          "title": "Prestige Falcon City",
+          "title": "Prestige Falcon City + Luxe Phase",
           "name": "Prestige Falcon City",
-          "price": "₹1.75–2.4 Cr",
-          "possession": "Ready",
-          "psf": "₹13,200/sqft",
+          "price": "2BHK from ~₹1.75 Cr",
+          "possession": "Ready township; Luxe = launch-stage, later possession",
+          "psf": "Not stated",
           "location": "Konanakunte Cross",
           "imageSrc": "/journals/the-quiet-crorepatis/projects/Prestige-Falcon-City.webp"
         },
         {
-          "title": "Brigade Millennium",
+          "title": "Brigade Millennium · Elita Promenade",
           "name": "Brigade Millennium",
-          "price": "₹1.25–1.6 Cr",
-          "possession": "Ready",
-          "psf": "₹12,250/sqft",
+          "price": "Not stated",
+          "possession": "Not stated",
+          "psf": "Locality avg ~₹12,250/sqft",
           "location": "JP Nagar 7th Phase",
           "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Millennium.jpg"
+        },
+        {
+          "title": "Jayanagar 4th Block Boutique (24 units)",
+          "name": "Jayanagar 4th Block Boutique",
+          "price": "Walk-away #1 — not purchased",
+          "possession": "24-unit boutique",
+          "psf": "Segment trades ₹15–21K/sqft",
+          "location": "Jayanagar",
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",

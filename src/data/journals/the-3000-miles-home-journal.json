@@ -45,7 +45,7 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "aboutLabel": "ABOUT",
       "title": "Who they are",
-      "description": "Getting to know Arjun Nair -- senior product manager in Dubai with ₹2.6 Cr NRE savings, a daughter starting Grade 6 in 2028, and a brother holding his Power of Attorney in Bengaluru.",
+      "description": "Getting to know Arjun Nair -- senior product manager in Dubai with ₹2.6 Cr budget from AED savings, a daughter starting Grade 6 in 2028, and a brother holding his Power of Attorney in Bengaluru.",
       "buyers": [
         {
           "name": "Arjun Nair",
@@ -159,70 +159,70 @@
       ],
       "roadmapNodes": [
         {
-          "id": "s1-nre-three-tabs",
+          "id": "l1-nre-three-tabs",
           "stage": "S1",
-          "type": "stage",
-          "title": "S1: Three-Tab NRE Sheet",
-          "desc": "Return / Rent / Regret spreadsheet in Dubai; AED savings ready for deployment.",
+          "type": "start",
+          "title": "L1: Three-Tab NRE Sheet",
+          "desc": "Colleague's registration selfie; the three-tab spreadsheet: Return / Rent / Regret.",
           "icon": "Globe",
           "x": 120,
           "y": 120,
           "width": 180
         },
         {
-          "id": "s2-corridor-triage",
+          "id": "l2-corridor-triage",
           "stage": "S2",
           "type": "stage",
-          "title": "S2: Corridor Triage",
-          "desc": "2 weeks triaging Whitefield vs Hennur vs Hebbal; brand developer rule set.",
+          "title": "L2: Corridor Triage",
+          "desc": "Whitefield vs Hennur vs Hebbal; Meera's rule: 'buy where we'd actually live'.",
           "icon": "Compass",
           "x": 320,
           "y": 120,
           "width": 180
         },
         {
-          "id": "detour-high-yield-resale",
-          "stage": "DETOUR",
+          "id": "l3-high-yield-resale-detour",
+          "stage": "S2",
           "type": "detour",
-          "title": "DETOUR: High-Yield Resale",
-          "desc": "3 weeks Kadubeesanahalli unit with un-regularized balcony extension.",
+          "title": "L3 DETOUR: Assured-Rental Scheme",
+          "desc": "Instagram 'NRI Exclusive · 6% assured rental' Devanahalli scheme; killed by brother's gimbal video of the access road.",
           "icon": "AlertTriangle",
           "x": 540,
-          "y": 200,
-          "width": 180
+          "y": 60,
+          "width": 240
         },
         {
-          "id": "s2-video-protocol-loop",
+          "id": "l4-video-protocol-loop",
           "stage": "S2",
           "type": "loop",
-          "title": "S2 LOOP: Video Protocol",
-          "desc": "2 weeks building 12-point WhatsApp video-visit protocol with brother in Bengaluru.",
+          "title": "L4 LOOP: Video Protocol",
+          "desc": "The 12-point video-visit protocol built with Vinod.",
           "icon": "Video",
-          "loopText": "Video Protocol Loop",
-          "x": 760,
+          "loopText": "12-Point Video-Visit Protocol",
+          "x": 780,
           "y": 120,
-          "width": 180
+          "width": 190
         },
         {
-          "id": "s3-s2-trip-home-regression",
+          "id": "l5-trip-home-regression",
           "stage": "S3",
           "type": "regression",
-          "targetNodeId": "s2-corridor-triage",
-          "title": "S3 → S2: Trip Home Regression",
-          "desc": "9 site visits in 6 days, zero decisions made; 'trips verify, process decides'.",
+          "targetNodeId": "l2-corridor-triage",
+          "title": "L5 REGRESSION: Trip Home",
+          "desc": "9 visits in 6 days, zero decisions; 'trips verify, process decides'.",
           "icon": "PlaneTakeoff",
           "loopText": "S3 → S2 Regression (-3)",
           "x": 580,
           "y": 460,
-          "width": 190
+          "width": 200
         },
         {
-          "id": "s5-s3-seller-hike-bounce",
+          "id": "l6-plh-seller-hike-bounce",
           "stage": "S5",
           "type": "bounce",
-          "targetNodeId": "s2-video-protocol-loop",
-          "title": "S5 → S3 BOUNCE: Price Hike",
-          "desc": "6 weeks bounce: first PLH seller raised price by ₹15L after verbal token agreement.",
+          "targetNodeId": "l7-second-plh-unit",
+          "title": "L6 BOUNCE: PLH Resale Collapse",
+          "desc": "PLH resale collapses on a co-owner POA gap; ₹40K legal fee; co-ownership becomes question #1.",
           "icon": "TrendingUp",
           "loopText": "S5 → S3 Bounce (6 wks)",
           "x": 800,
@@ -230,26 +230,26 @@
           "width": 220
         },
         {
-          "id": "s5-second-plh-unit",
+          "id": "l7-second-plh-unit",
           "stage": "S5",
           "type": "stage",
-          "title": "S5: Second PLH Unit",
-          "desc": "3 weeks: single NRI owner unit with complete Drive folder before asking.",
+          "title": "L7: Second PLH Unit",
+          "desc": "Second PLH unit — single NRI owner, documents in a Drive folder before being asked.",
           "icon": "FileCheck",
           "x": 340,
           "y": 420,
-          "width": 180
+          "width": 190
         },
         {
-          "id": "s7-consulate-poa-close",
+          "id": "l8-consulate-poa-close",
           "stage": "S7",
           "type": "stage",
-          "title": "S7: Consulate POA Close",
-          "desc": "4 weeks: Consulate POA, Section 195 TDS & NRE wire complete at ₹2.5 Cr.",
+          "title": "L8: Consulate POA Close",
+          "desc": "Consulate POA, Section 195 TDS, NRE wires; ₹2.5 Cr all-in; tenant continuity + manager at 6%.",
           "icon": "CheckCircle2",
           "x": 120,
           "y": 420,
-          "width": 180
+          "width": 200
         }
       ],
       "timelineTitle": "Where they stand today",
@@ -319,6 +319,7 @@
         }
       ],
       "voicesTitle": "Voices around them",
+
       "quotes": [
         {
           "text": "I'm trusting a WhatsApp video and my brother's gut.",
@@ -329,24 +330,47 @@
           "author": "— Meera"
         },
         {
-          "text": "Bro, the road is unpaved and the sales office is a tent.",
+          "text": "Sheri, tell me the list, I'll shoot it. But properly tell — timestamps and all I'll put. Operations man I am, alle?",
           "author": "— Vinod (Brother)"
         },
         {
-          "text": "Trips verify, process decides.",
+          "text": "Noise doesn't photograph, Arjun. But it moves in with you.",
           "author": "— Riya"
         }
       ],
+
       "chatMessages": [
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Arjun, Vinod — before the next visit, can we agree what the camera must see? Not the flat. The building's truth.",
+          "isRiya": true
+        },
         {
           "sender": "Arjun",
           "avatar": "/journals/the-3000-miles-home-journal/arjun.png",
-          "text": "Riya, I'm 3,000 kilometers away. Every broker says 'sir 100% verified'. How do I know if the POA is legit before transferring ₹2.5 crore?"
+          "text": "Athe, that's the thing, Riya. Last time we saw a beautiful lobby and missed the tanker queue."
+        },
+        {
+          "sender": "Vinod",
+          "avatar": "/journals/the-3000-miles-home-journal/vinod.png",
+          "text": "Sheri, tell me the list, I'll shoot it. But properly tell — timestamps and all I'll put. Operations man I am, alle?"
         },
         {
           "sender": "Riya",
           "avatar": "/journals/avatar-riya.png",
-          "text": "Arjun, remote confidence requires process over promises. We check consulate attestation, Section 195 TDS challans, and single-owner Drive folders first. Trips verify; process decides.",
+          "text": "Twelve points, Vinod chetta. The road in, both directions, at speed. The basement — count the tankers. The notice board — photograph everything, AGM minutes especially. The security register. And at six pm… just stand on the balcony and let me hear it.",
+          "isRiya": true
+        },
+        {
+          "sender": "Arjun",
+          "avatar": "/journals/the-3000-miles-home-journal/arjun.png",
+          "text": "You want to hear the balcony?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Noise doesn't photograph, Arjun. But it moves in with you.",
           "isRiya": true
         }
       ],
@@ -574,29 +598,38 @@
         {
           "title": "Prestige Lakeside Habitat",
           "name": "Prestige Lakeside Habitat",
-          "price": "₹1.8–2.8 Cr",
-          "possession": "Ready",
-          "psf": "₹11,500–12,800/sqft",
-          "location": "Varthur / Whitefield",
+          "price": "Not stated",
+          "possession": "Chosen project",
+          "psf": "905–2,830 sqft",
+          "location": "Varthur / Whitefield–Sarjapur Rd",
           "imageSrc": "/journals/the-3000-miles-home-journal/projects/Prestige-Lakeside-Habitat.webp"
         },
         {
           "title": "Brigade Cornerstone Utopia",
           "name": "Brigade Cornerstone Utopia",
-          "price": "₹1.15–1.65 Cr",
+          "price": "₹9–11.5K/sqft",
           "possession": "Ready",
-          "psf": "₹9,000–11,500/sqft",
+          "psf": "₹9–11.5K/sqft",
           "location": "Whitefield / Varthur Rd",
           "imageSrc": "/journals/the-3000-miles-home-journal/projects/Brigade-Cornerstone-Utopia.webp"
         },
         {
           "title": "Sobha Dream Acres",
           "name": "Sobha Dream Acres",
-          "price": "₹1.25–1.85 Cr",
-          "possession": "Ready",
-          "psf": "₹12,750–13,150/sqft",
+          "price": "₹12,750–13,150/sqft",
+          "possession": "Shortlist",
+          "psf": "Q1'26;strong tenant absorption",
           "location": "Balagere–Panathur",
           "imageSrc": "/journals/the-3000-miles-home-journal/projects/Sobha-Dream-Acres.png"
+        },
+        {
+          "title": "Devanahalli \"NRI special\" scheme",
+          "name": "Devanahalli \"NRI special\" scheme",
+          "price": "Unnamed by policy",
+          "possession": "Detour",
+          "psf": "RERA applied ≠ registered",
+          "location": "Devanahalli arc",
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why some projects didn't make the cut",
@@ -721,7 +754,7 @@
         },
         {
           "icon": "TrendingUp",
-          "text": "Repricing cost of waiting escalated 3BHK by ₹60L in 3 years"
+          "text": "Repricing of waiting: a ₹1.9 Cr 3BHK priced in 2023 is ₹2.5–2.7 Cr today"
         }
       ],
       "differentlyTitle": "What they'd do differently",

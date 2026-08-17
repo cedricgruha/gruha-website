@@ -210,7 +210,7 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
           {/* Featured Quote */}
           {quoteText && (
             <p
-              className="text-sm md:text-base font-normal italic text-[#334155] border-l-[3px] border-[#FF7E57] pl-4 truncate max-w-[500px] mt-1"
+              className="text-sm md:text-base font-normal italic text-[#334155] border-l-[3px] border-[#FF7E57] pl-4 truncate max-w-[623px] mt-1"
               style={{ fontFamily: "'Fraunces', Georgia, serif" }}
             >
               {quoteText}

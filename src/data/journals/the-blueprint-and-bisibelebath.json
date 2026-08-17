@@ -96,8 +96,8 @@
         },
         {
           "icon": "Hourglass",
-          "label": "TIMELINE",
-          "value": "Site in 6 • Build in 18"
+          "label": "BUILD TIMELINE",
+          "value": "Site 6M • Design 6M • Build 18M"
         }
       ],
       "prioritiesTitle": "Top priorities right now",
@@ -578,33 +578,37 @@
           "location": "Hennur Backside",
           "statusLabel": "SELECTED",
           "isSelected": true,
-          "description": "A leafier 30x40 near Hennur's action bought primary from the layout developer at launch — 9% under the plot-flipper's resale next door, cleaner khata trail.",
-          "price": "₹1.35 Cr (₹10–12K/sqft)",
-          "highlightNote": "The courtyard, re-spec'd as a double-height verandah, still sings."
+          "description": "A 30x40 site near Hennur selected after comparing layout occupancy, road access, soil condition, khata status, and the walk-away price. Purchased from the layout developer at launch rather than from the nearby plot-flipper.",
+          "price": "Price not independently verified",
+          "highlightNote": "The courtyard, re-spec'd as a double-height verandah, still sings.",
+          "imageSrc": "/journals/default.png"
         },
         {
           "name": "Hosa Road Mid-Tier 3BHK",
           "location": "Off Hosa Road",
           "statusLabel": "COMPARISON",
-          "description": "The parents' 'just buy the 3BHK' alternative — mid-tier 3BHK at roughly the same total exposure, which only made the courtyard's case louder.",
-          "price": "~₹2.1 Cr exposure",
-          "highlightNote": "The comparison that got harder to dismiss — and precisely why the courtyard must earn its keep."
+          "description": "The parents' 'just buy the 3BHK' alternative — a mid-tier 3BHK whose overall exposure was close enough to the self-build plan to become a serious comparison.",
+          "price": "Approx. ₹2.1 Cr total exposure",
+          "highlightNote": "The comparison that got harder to dismiss — and precisely why the courtyard must earn its keep.",
+          "imageSrc": "/journals/default.png"
         },
         {
           "name": "The 'Designer Layout' (Detour)",
           "location": "North-east fringe",
           "statusLabel": "REJECTED",
-          "description": "Impossible renders and a gram-panchayat khata wearing A-khata clothes — Tania read the sanction plan herself. Unnamed by policy.",
-          "price": "₹3,900/sqft teaser",
-          "highlightNote": "A khata in costume is still a khata in costume."
+          "description": "A launch marketed with designer renders but whose documentation did not match the claims. Tania identified the mismatch while reviewing the sanction and khata records herself. Unnamed by policy.",
+          "price": "Price not independently verified",
+          "highlightNote": "A khata in costume is still a khata in costume.",
+          "imageSrc": "/journals/default.png"
         },
         {
           "name": "Quiet 40x60 Layout",
           "location": "Far side of the arc",
           "statusLabel": "REJECTED",
-          "description": "The bigger site where autos refuse to come and every friend is 9 km away — the courtyard wanted it, the social life did not.",
-          "price": "40x60 site",
-          "highlightNote": "A solo reading nook reads best when someone visits."
+          "description": "The larger 40x60 finalist where the site worked better for the courtyard but location and accessibility worked against their everyday social life.",
+          "price": "Price not independently verified",
+          "highlightNote": "A solo reading nook reads best when someone visits.",
+          "imageSrc": "/journals/default.png"
         }
       ],
       "rejectedTitle": "Why these were rejected",
