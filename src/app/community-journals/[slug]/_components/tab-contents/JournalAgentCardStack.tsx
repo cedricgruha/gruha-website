@@ -213,10 +213,10 @@ export const AgentCardSlider: React.FC<AgentCardSliderProps> = ({
 
   return (
     <div
-      className={`group relative flex flex-col items-center justify-center w-full h-full min-h-[410px] p-4 overflow-hidden select-none cursor-pointer ${className}`}
+      className={`group relative flex flex-col items-center justify-center w-full h-full min-h-[410px] p-12 overflow-hidden select-none cursor-pointer ${className}`}
       onClick={nextSlide}
     >
-      <div className="relative w-[235px] sm:w-[245px] h-[340px]" ref={containerRef}>
+      <div className="relative w-[160px] sm:w-[245px] h-[340px]" ref={containerRef}>
         {/* Hover Navigation Arrows (Small White Round Buttons) */}
         {n > 1 && (
           <>
