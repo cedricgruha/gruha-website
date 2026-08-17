@@ -223,9 +223,9 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                             PRICE RANGE
                           </p>
                           {/* h-10 fixes height for 2-line wrapped text like "Top of Band" */}
-                          <div className="h-10 flex items-start">
+                          <div className="h-16 flex items-start">
                             <p
-                              className="text-sm font-semibold leading-tight line-clamp-2"
+                              className="text-sm font-semibold leading-tight line-clamp-4"
                               style={{ fontFamily: fd, color: "#111821" }}
                             >
                               {projPrice}

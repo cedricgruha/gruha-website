@@ -178,7 +178,7 @@
           "title": "L1: The Two-Desks Breaking Point",
           "desc": "The 2.5BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
           "icon": "Laptop",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -201,7 +201,7 @@
           "desc": "PLH villas toured after a Sunday reel — ₹5.42–6.5 Cr; three weeks of 'what if we stretch' before the school-fees-plus-EMI math restores the 4BHK thesis.",
           "icon": "Eye",
           "x": 540,
-          "y": 20,
+          "y": 80,
           "width": 190
         },
         {
@@ -212,7 +212,7 @@
           "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2027 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
           "icon": "Building2",
           "x": 790,
-          "y": 20,
+          "y": 80,
           "width": 190
         },
         {
@@ -237,7 +237,7 @@
           "icon": "DoorOpen",
           "loopText": "The Office Audit — Door, Light, LAN, and the Scream Test",
           "x": 660,
-          "y": 340,
+          "y": 380,
           "width": 200
         },
         {
@@ -248,7 +248,7 @@
           "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
           "icon": "Home",
           "x": 880,
-          "y": 320,
+          "y": 340,
           "width": 200
         }
       ],

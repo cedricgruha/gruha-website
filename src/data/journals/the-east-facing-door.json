@@ -224,9 +224,9 @@
           "desc": "Eleven vaastu-prime units on Friday, three by Monday — four days of deliberation costs the east-facing unit. Refundable-EOI-early becomes the rule.",
           "icon": "Undo2",
           "loopText": "1-Week Deliberation Loss — Cured by Refundable EOI",
-          "x": 320,
+          "x": 220,
           "y": 420,
-          "width": 200
+          "width": 300
         },
         {
           "id": "l6-falcon-city-close",
@@ -569,7 +569,7 @@
         {
           "title": "Prestige Falcon City, Newer Releases (Chosen)",
           "name": "Prestige Falcon City",
-          "price": "2BHK from ~₹1.75 Cr; 3BHK in band",
+          "price": "2BHK from ~₹2.32-2.66Cr; 3BHK in band",
           "possession": "Newer releases",
           "psf": "Launch-stage unit-matrix selection",
           "location": "Konanakunte Cross",

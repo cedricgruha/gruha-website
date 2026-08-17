@@ -178,7 +178,7 @@
           "title": "L1: Lawyer Before Broker",
           "desc": "Settlement closes; the lawyer's retainer is dated before any broker's card; sole-name purchase hygiene defined on day one — nomination, will, guardianship.",
           "icon": "FileCheck2",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -189,7 +189,7 @@
           "title": "L2: The OC-Only Census",
           "desc": "CV Raman Nagar–Kaggadasapura ready-with-OC stock only; possession-risk flats greyed out of the corridor — disqualified, not discounted.",
           "icon": "Search",
-          "x": 320,
+          "x": 360,
           "y": 120,
           "width": 190
         },
@@ -224,7 +224,7 @@
           "icon": "Scale",
           "loopText": "2-Week Cap-vs-Layout Loop — Fortress Arithmetic Holds",
           "x": 760,
-          "y": 320,
+          "y": 360,
           "width": 200
         },
         {

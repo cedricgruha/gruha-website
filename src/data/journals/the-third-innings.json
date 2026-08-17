@@ -178,7 +178,7 @@
           "title": "L1: The Ops Assessment",
           "desc": "Two decades of friends' improvised aging observed — the ops officer's conclusion: aging infrastructure is better engineered collectively than improvised individually.",
           "icon": "ClipboardList",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -189,7 +189,7 @@
           "title": "L2: Five Campuses, One Rubric",
           "desc": "Five communities toured; the 4 pm library test and night-staffing drills instituted — every campus visit badge carries a pencilled library headcount.",
           "icon": "Library",
-          "x": 320,
+          "x": 340,
           "y": 120,
           "width": 190
         },
@@ -223,7 +223,7 @@
           "desc": "Four calls to residents' children — chef attrition, fee-hike history, decline-handling. Two calls reshape the ranking; the unfiltered source wins.",
           "icon": "Users",
           "loopText": "2-Week Interview Loop — Two Calls Reshape the Ranking",
-          "x": 760,
+          "x": 740,
           "y": 400,
           "width": 200
         },

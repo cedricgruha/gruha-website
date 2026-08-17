@@ -201,7 +201,7 @@
           "desc": "The 'buy where we vacationed' fantasy resurfaces over one long weekend — killed by school math and its own absurdity, fondly, with a school-calendar printout as the seal.",
           "icon": "Eye",
           "x": 440,
-          "y": 320,
+          "y": 360,
           "width": 190
         },
         {
@@ -212,7 +212,7 @@
           "desc": "PLH villa vs premium apartment in an established community; the grandparent-drive audit reprices 'under an hour' honestly at 6 pm Friday, corrected in red.",
           "icon": "Building2",
           "x": 600,
-          "y": 20,
+          "y": 60,
           "width": 190
         },
         {
@@ -224,7 +224,7 @@
           "icon": "Scale",
           "loopText": "2-Week Two-Ledger Loop — Triggers Written, Signed",
           "x": 750,
-          "y": 320,
+          "y": 420,
           "width": 200
         },
         {
@@ -235,7 +235,7 @@
           "desc": "PLH villa closed (₹5.42–6.5 Cr band); Kannada tutor Saturdays and Malleshwaram weekends calendared — the bubble gets a dial, not a verdict.",
           "icon": "KeyRound",
           "x": 880,
-          "y": 20,
+          "y": 60,
           "width": 200
         }
       ],

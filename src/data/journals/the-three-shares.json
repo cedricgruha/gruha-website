@@ -192,7 +192,7 @@
           "desc": "The tenant's notice, the builder's assembly offer, and Suma's Deepavali sentence land on one timeline — the family's unresolved sentence finally has a clock.",
           "icon": "Home",
           "x": 120,
-          "y": 80,
+          "y": 100,
           "width": 180
         },
         {
@@ -204,7 +204,7 @@
           "icon": "Calendar",
           "loopText": "Deadline Renegotiation Loop — 60+60, Exclusivity Attached",
           "x": 370,
-          "y": 120,
+          "y": 160,
           "width": 190
         },
         {
@@ -216,7 +216,7 @@
           "icon": "Coffee",
           "loopText": "3-Hour No-Spouses Call — Meaning Before Numbers",
           "x": 640,
-          "y": 80,
+          "y": 120,
           "width": 190
         },
         {
@@ -227,7 +227,7 @@
           "desc": "The caretaker ledger settled explicitly: ₹18L to Ramesh off the top — one line, three signatures, the CA's relief visible.",
           "icon": "ClipboardList",
           "x": 850,
-          "y": 120,
+          "y": 180,
           "width": 190
         },
         {
@@ -239,7 +239,7 @@
           "icon": "Search",
           "loopText": "JD Diligence Loop — Prior Projects, Owner-Interviewed",
           "x": 340,
-          "y": 440,
+          "y": 480,
           "width": 200
         },
         {
@@ -252,7 +252,7 @@
           "icon": "Undo2",
           "loopText": "2-Week Buyout Wobble — Two Lists, Dignified Exit",
           "x": 600,
-          "y": 420,
+          "y": 480,
           "width": 200
         },
         {
@@ -262,8 +262,8 @@
           "title": "L7: The Three-Shares Close",
           "desc": "JD signed: three flats + ₹1.2 Cr distributable; the carved door tagged for Ramesh's flat, the tulsi katte crated for Hubballi, the house photo-documented.",
           "icon": "KeyRound",
-          "x": 880,
-          "y": 320,
+          "x": 800,
+          "y": 360,
           "width": 200
         }
       ],

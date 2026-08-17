@@ -212,7 +212,7 @@
           "desc": "30x40 near Hennur's action vs 40x60 where autos hesitate — the courtyard wants one, the social life the other.",
           "icon": "MapPin",
           "x": 220,
-          "y": 380,
+          "y": 480,
           "width": 180
         },
         {
@@ -225,7 +225,7 @@
           "icon": "Undo2",
           "loopText": "S4 → S3 Regression (Weak Bearing Strata)",
           "x": 580,
-          "y": 380,
+          "y": 480,
           "width": 190
         },
         {
@@ -248,7 +248,7 @@
           "icon": "Wrench",
           "loopText": "S6 18-Month Build — Change-Orders Pre-Priced",
           "x": 800,
-          "y": 90,
+          "y": 120,
           "width": 190
         }
       ],

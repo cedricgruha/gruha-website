@@ -165,7 +165,7 @@
           "title": "L1: The Capitulation",
           "desc": "The polite eviction lands at 38; the rent-vs-buy thread's author quietly attends a site visit. The spreadsheet didn't break — life did.",
           "icon": "FileText",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -189,7 +189,7 @@
           "icon": "IndianRupee",
           "loopText": "All-In Cost Loop (Said Aloud, Every Visit)",
           "x": 540,
-          "y": 100,
+          "y": 120,
           "width": 190
         },
         {

@@ -178,7 +178,7 @@
           "title": "L1: The Launch Booking",
           "desc": "Booked at launch: ₹1.85 Cr at ₹12.5K/sqft in a 1,400-unit Panathur-belt mega-project (unnamed by policy — delay narrative); CLP plan, euphoric weekend.",
           "icon": "KeyRound",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -191,7 +191,7 @@
           "icon": "Binoculars",
           "loopText": "Verification Ritual — Binoculars, Photos, Slab Counts",
           "x": 320,
-          "y": 90,
+          "y": 120,
           "width": 190
         },
         {
@@ -202,8 +202,8 @@
           "desc": "Pre-EMI vs full-EMI revisited; switched to full EMI at month 8 for possession-day equity — the harder month now, chosen deliberately.",
           "icon": "Scale",
           "loopText": "The EMI Decision — Pre-EMI vs Full, Month 8, Equity Chosen",
-          "x": 580,
-          "y": 130,
+          "x": 620,
+          "y": 160,
           "width": 290
         },
         {
@@ -213,9 +213,9 @@
           "title": "L4: The Collective Letter",
           "desc": "The 1,100-signature collective letter (citing the RERA-filed amenity schedule) achieves in three weeks what five months of individual complaints didn't.",
           "icon": "Users",
-          "x": 800,
-          "y": 120,
-          "width": 180
+          "x": 860,
+          "y": 160,
+          "width": 220
         },
         {
           "id": "l5-slab-gap-regression",
@@ -227,8 +227,8 @@
           "loopText": "Morale Regression — Tower 4 Two Behind, Fixed by Registered Post",
           "targetNodeId": "l2-verification-ritual",
           "x": 800,
-          "y": 520,
-          "width": 280
+          "y": 540,
+          "width": 320
         },
         {
           "id": "l6-vesting-reframe",
@@ -250,8 +250,8 @@
           "desc": "The snag framework adopted from the playbook early; the buyers' group's founding politics already visible; possession-date bets on the fridge.",
           "icon": "Home",
           "loopText": "Possession Prep — Snag Framework Adopted, Date Bets on the Fridge",
-          "x": 280,
-          "y": 480,
+          "x": 290,
+          "y": 490,
           "width": 180
         }
       ],

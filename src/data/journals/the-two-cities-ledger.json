@@ -165,7 +165,7 @@
           "title": "L1: The Relocation Ledger",
           "desc": "Two tabs open — 'What We Gave Up' and 'Why We're Here Anyway' — with ₹2.1 Cr of Kokapet sale proceeds as the budget and the grief itemized.",
           "icon": "FileText",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -222,7 +222,7 @@
           "title": "L6: The In-Window Close",
           "desc": "Utopia 3BHK closed ~₹1.9 Cr all-in — under budget, spec-honest, registered inside the 54 window; the weather row finally admits Bengaluru wins.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 860,
           "y": 420,
           "width": 200
         }

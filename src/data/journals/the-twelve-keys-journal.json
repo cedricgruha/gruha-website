@@ -166,7 +166,7 @@
           "title": "S1: Units 7–8 Hunt Begins",
           "desc": "Entry yields compressed ~150bps since 2021 — operating edge is now the whole business.",
           "icon": "TrendingDown",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -199,7 +199,7 @@
           "title": "S3: Builder Ready Stock",
           "desc": "Brigade Cornerstone Utopia studios: builder-held ready stock, GST-in but negotiable.",
           "icon": "Building",
-          "x": 790,
+          "x": 800,
           "y": 120,
           "width": 180
         },
@@ -214,7 +214,7 @@
           "loopText": "S5 → S3 Bounce (Bye-law Draft)",
           "x": 640,
           "y": 420,
-          "width": 190
+          "width": 240
         },
         {
           "id": "s5-two-units-closed",
@@ -234,7 +234,7 @@
           "title": "S7: 12-Key Operating Machine",
           "desc": "Twelfth hook on key rack full — net portfolio operating yield cleared 7.2%.",
           "icon": "CheckCircle2",
-          "x": 110,
+          "x": 120,
           "y": 420,
           "width": 180
         }

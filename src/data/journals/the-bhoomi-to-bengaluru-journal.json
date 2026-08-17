@@ -191,7 +191,7 @@
           "loopText": "S4 → S2 Regression (EC Shadow)",
           "x": 620,
           "y": 220,
-          "width": 190
+          "width": 240
         },
         {
           "id": "s3-dual-asset-thesis",
@@ -211,7 +211,7 @@
           "title": "S5: 2BHK Flat Secured",
           "desc": "3 weeks: Sobha Dream Acres 2BHK flat near son in Bellandur registered.",
           "icon": "Home",
-          "x": 640,
+          "x": 740,
           "y": 420,
           "width": 180
         },

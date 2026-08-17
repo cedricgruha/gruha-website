@@ -199,8 +199,8 @@
           "desc": "11 hrs/week × 18 months of self-build decisions vs the startup's same 18 months — Path A's premium renamed 'the price of focus'.",
           "icon": "Zap",
           "loopText": "Purity-vs-Bandwidth Loop — Judged by His Own Spreadsheet, Twice",
-          "x": 720,
-          "y": 380,
+          "x": 700,
+          "y": 400,
           "width": 200
         },
         {
@@ -221,7 +221,7 @@
           "title": "L6: Malhar Closed, 2031 Held",
           "desc": "Malhar home closed; the Magadi-arc site bought at a layout launch as 'Plan 2031' — conviction, phased, with the Lucknow speech on one card.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 860,
           "y": 80,
           "width": 200
         }

@@ -178,7 +178,7 @@
           "title": "L1: Return Executed",
           "desc": "Hennur rental becomes base camp; requirements inverted — space, fiber, power, air over commute. The return is done; the permanence isn't.",
           "icon": "Home",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -212,7 +212,7 @@
           "desc": "Raintree Boulevard (Hebbal park township) vs Nikoo Homes (Thanisandra scale) vs Purva Palm Beach (Hennur value) — career-audit sheet clipped on top.",
           "icon": "Building2",
           "x": 560,
-          "y": 60,
+          "y": 100,
           "width": 190
         },
         {
@@ -224,7 +224,7 @@
           "icon": "Scale",
           "loopText": "2-Week Two-Ledger Loop — ₹1 Cr Gap Named & Chosen",
           "x": 760,
-          "y": 70,
+          "y": 120,
           "width": 200
         },
         {
@@ -235,7 +235,7 @@
           "desc": "Raintree Boulevard 4BHK-class unit closed within the USD-comfort band; grandparents' weekends calendared like school — architecture instead of intention.",
           "icon": "KeyRound",
           "x": 780,
-          "y": 320,
+          "y": 360,
           "width": 200
         }
       ],

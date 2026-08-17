@@ -178,7 +178,7 @@
           "title": "L1: The Siblings' Clock",
           "desc": "The assembly offer lands; a ₹3 Cr share becomes an ultimatum dressed as opportunity — the bungalow's sale funded by the same force they mourn.",
           "icon": "Home",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -200,7 +200,7 @@
           "title": "L3 DETOUR: The New-Tower Tour",
           "desc": "At the children's urging, a 'senior-friendly tower' — lift redundancy noted, lane manners absent; declined with thanks, annotated 'lift: yes. manners: no.'",
           "icon": "Eye",
-          "x": 500,
+          "x": 460,
           "y": 320,
           "width": 190
         },
@@ -224,7 +224,7 @@
           "icon": "Scale",
           "loopText": "3-Week Knee-vs-Soul Loop — Repair ÷ 8 Settles It",
           "x": 780,
-          "y": 320,
+          "y": 360,
           "width": 200
         },
         {
@@ -234,7 +234,7 @@
           "title": "L6: The Dignity-Fund Close",
           "desc": "2BHK in the boutique redevelopment closed (~₹19–25K/sqft corridor); the dignity fund explained once, augmented by Neville, never discussed again.",
           "icon": "KeyRound",
-          "x": 880,
+          "x": 860,
           "y": 20,
           "width": 200
         }

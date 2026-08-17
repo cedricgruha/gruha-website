@@ -212,8 +212,8 @@
           "desc": "₹50K per finalist: Bhartiya Nikoo Homes' elevated phases vs Purva Palm Beach — audited against their tanker-dependence threshold, tabs marked in monsoon blue.",
           "icon": "FileCheck2",
           "x": 560,
-          "y": 20,
-          "width": 190
+          "y": 60,
+          "width": 210
         },
         {
           "id": "l5-monsoon-protocol-loop",
@@ -223,8 +223,8 @@
           "desc": "Each finalist in real rain, approach roads included — one 'high ground' road reveals itself as a drain; one basement ramp sheds rain like a design decision.",
           "icon": "CloudRain",
           "loopText": "Monsoon-Visit Loop — Approach Roads Included, One Fail",
-          "x": 760,
-          "y": 350,
+          "x": 740,
+          "y": 380,
           "width": 200
         },
         {
@@ -235,7 +235,7 @@
           "desc": "Under-construction unit on the verified ridge closed — basement drainage inspectable mid-build; Farah's joy rule passes it last: east light, an old mango on site.",
           "icon": "KeyRound",
           "x": 800,
-          "y": 20,
+          "y": 60,
           "width": 200
         }
       ],

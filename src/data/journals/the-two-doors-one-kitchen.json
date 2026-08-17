@@ -191,7 +191,7 @@
           "title": "L1: The Two-Year Clock",
           "desc": "The landlord's NRI grandchildren inherit; thirty years of bungalow-portion life gets a two-year clock — the hunt is no longer optional.",
           "icon": "Home",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -215,7 +215,7 @@
           "icon": "Calendar",
           "loopText": "Launch-Calendar Loop — Card-Party Network, Not Portals",
           "x": 540,
-          "y": 110,
+          "y": 120,
           "width": 190
         },
         {
@@ -227,7 +227,7 @@
           "icon": "Scale",
           "loopText": "The Unsaid Structure Talk — 3 Weeks, CA-Mediated",
           "x": 780,
-          "y": 220,
+          "y": 200,
           "width": 190
         },
         {

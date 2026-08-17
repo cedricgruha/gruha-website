@@ -165,7 +165,7 @@
           "title": "L1: The RERA-Feed Ritual",
           "desc": "The new-registration feed read before hoardings exist; two sales-head relationships deliver pre-launch price sheets. The feed is bookmarked above every portal.",
           "icon": "Search",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -211,7 +211,7 @@
           "desc": "East-facing mid-floor secured at the next credible launch; floor-rise and PLC negotiated at booking, when the cheque still has power.",
           "icon": "KeyRound",
           "x": 540,
-          "y": 80,
+          "y": 110,
           "width": 190
         },
         {
@@ -222,7 +222,7 @@
           "desc": "The OC-day exit discipline pre-written: list three weeks before OC, close two weeks after, before neighbour listings crowd.",
           "icon": "Timer",
           "loopText": "OC-Window Tracking — List 3 Weeks Pre-OC, Close 2 Post",
-          "x": 760,
+          "x": 740,
           "y": 120,
           "width": 200
         }

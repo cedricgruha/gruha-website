@@ -213,7 +213,7 @@
           "desc": "Loan-free at current prices means the third bedroom or the corner light — Vasudha's initials on the light; the brothers get a sofa-bed.",
           "icon": "Sunrise",
           "loopText": "2-Week Space-vs-Light Loop — Vasudha Decides",
-          "x": 800,
+          "x": 780,
           "y": 120,
           "width": 190
         },
@@ -227,8 +227,8 @@
           "icon": "Undo2",
           "loopText": "1-Week Retrade Bounce — Instant Walk-Out",
           "x": 400,
-          "y": 420,
-          "width": 290
+          "y": 400,
+          "width": 320
         },
         {
           "id": "l6-royale-gardens-close",
@@ -571,7 +571,7 @@
         {
           "title": "Prestige Royale Gardens (Chosen)",
           "name": "Prestige Royale Gardens",
-          "price": "₹2.1 Cr, Loan-Free Close",
+          "price": "₹10–14K/sqft locality context",
           "possession": "Ready",
           "psf": "North-Bengaluru ₹10–14K/sqft band",
           "location": "Yelahanka",
@@ -584,15 +584,6 @@
           "possession": "Allotment-dependent",
           "psf": "Brotherhood, fixed location",
           "location": "Allotment-dependent",
-          "imageSrc": "/journals/default.png"
-        },
-        {
-          "title": "The Retrade Walk-Out",
-          "name": "The Investor Unit (unnamed)",
-          "price": "₹8L re-quoted, refused",
-          "possession": "Instant walk-out",
-          "psf": "Gurgaon-number seller",
-          "location": "Yelahanka belt",
           "imageSrc": "/journals/default.png"
         }
       ],

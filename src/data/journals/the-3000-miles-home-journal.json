@@ -165,7 +165,7 @@
           "title": "S1: Three-Tab NRE Sheet",
           "desc": "Return / Rent / Regret spreadsheet in Dubai; AED savings ready for deployment.",
           "icon": "Globe",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -188,7 +188,7 @@
           "desc": "3 weeks Kadubeesanahalli unit with un-regularized balcony extension.",
           "icon": "AlertTriangle",
           "x": 540,
-          "y": 220,
+          "y": 200,
           "width": 180
         },
         {
@@ -212,8 +212,8 @@
           "desc": "9 site visits in 6 days, zero decisions made; 'trips verify, process decides'.",
           "icon": "PlaneTakeoff",
           "loopText": "S3 → S2 Regression (-3)",
-          "x": 880,
-          "y": 320,
+          "x": 580,
+          "y": 460,
           "width": 190
         },
         {
@@ -225,9 +225,9 @@
           "desc": "6 weeks bounce: first PLH seller raised price by ₹15L after verbal token agreement.",
           "icon": "TrendingUp",
           "loopText": "S5 → S3 Bounce (6 wks)",
-          "x": 600,
-          "y": 420,
-          "width": 190
+          "x": 800,
+          "y": 360,
+          "width": 220
         },
         {
           "id": "s5-second-plh-unit",
@@ -247,7 +247,7 @@
           "title": "S7: Consulate POA Close",
           "desc": "4 weeks: Consulate POA, Section 195 TDS & NRE wire complete at ₹2.5 Cr.",
           "icon": "CheckCircle2",
-          "x": 100,
+          "x": 120,
           "y": 420,
           "width": 180
         }

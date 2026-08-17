@@ -165,7 +165,7 @@
           "title": "L1: The Sold-Out Discovery",
           "desc": "Every project he wants is sold out; ready resales price beyond reason; the assignment market discovered with equal parts opportunity and suspicion.",
           "icon": "Search",
-          "x": 100,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -177,7 +177,7 @@
           "desc": "Builder transfer desks, NOC processes, ₹100–200/sqft transfer fees — 'every rupee on paper' set as the absolute rule; the process map drawn like a subway.",
           "icon": "Map",
           "x": 320,
-          "y": 120,
+          "y": 220,
           "width": 190
         },
         {
@@ -213,7 +213,7 @@
           "targetNodeId": "l2-transfer-mechanics",
           "x": 800,
           "y": 420,
-          "width": 290
+          "width": 340
         },
         {
           "id": "l6-clean-assignment",

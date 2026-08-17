@@ -194,7 +194,7 @@
           "title": "L1: Calendar Audit",
           "desc": "Eleven genuinely free weekends in six months, not the imagined twenty-four; the dream resizes before it shops.",
           "icon": "Calendar",
-          "x": 110,
+          "x": 120,
           "y": 120,
           "width": 180
         },
@@ -239,8 +239,8 @@
           "desc": "Borewell depth records by taluk and a monsoon-visit protocol, annotated in monsoon-blue ink.",
           "icon": "Droplets",
           "loopText": "Water-Diligence Loop",
-          "x": 900,
-          "y": 320,
+          "x": 800,
+          "y": 380,
           "width": 180
         },
         {
@@ -250,7 +250,7 @@
           "title": "L6: The Half-Acre Secured",
           "desc": "Secured in a managed community under 20% of net worth — 'this year or never' honoured.",
           "icon": "Trees",
-          "x": 640,
+          "x": 540,
           "y": 420,
           "width": 190
         }
