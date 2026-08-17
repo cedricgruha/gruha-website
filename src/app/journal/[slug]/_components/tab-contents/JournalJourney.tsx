@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Play, Pause } from "lucide-react";
 
@@ -122,6 +122,23 @@ export const JournalJourney: React.FC<JournalJourneyProps> = ({
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
+  // Measure the roadmap container width so the node cards, SVG and badges can be
+  // scaled uniformly together (see roadmap block below). The width jumps when the
+  // desktop sidebar mounts at lg, so we measure it directly, not via viewport.
+  const sceneRef = useRef<HTMLDivElement | null>(null);
+  const [sceneW, setSceneW] = useState(1000);
+  useEffect(() => {
+    const el = sceneRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setSceneW(entry.contentRect.width || 1000);
+      }
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
   return (
     <section id="journey" className="w-full bg-white text-slate-900   px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-[1177px] space-y-12">
@@ -207,13 +224,26 @@ export const JournalJourney: React.FC<JournalJourneyProps> = ({
             const maxY = Math.max(...roadmapNodes.map((n) => n.y), 300);
             const viewBoxHeight = Math.max(520, maxY + 240);
 
+            // Uniform scale so the 1000-unit canvas fills the measured container.
+            const scale = Math.min(1, sceneW / 1000);
+
             return (
               <div
-                className="hidden md:block relative w-full pb-12 mb-4"
+                ref={sceneRef}
+                className="hidden md:block relative w-full pb-12 mb-4 overflow-hidden"
                 style={{ aspectRatio: `1000 / ${viewBoxHeight}` }}
               >
+                <div
+                  className="absolute top-0 left-0 z-0"
+                  style={{
+                    width: 1000,
+                    height: viewBoxHeight,
+                    transform: `scale(${scale})`,
+                    transformOrigin: "top left",
+                  }}
+                >
                 <svg
-                  className="absolute inset-0 w-full h-full pointer-events-none z-0"
+                  className="absolute inset-0 w-full h-full pointer-events-none"
                   viewBox={`0 0 1000 ${viewBoxHeight}`}
                   preserveAspectRatio="xMidYMid meet"
                   xmlns="http://www.w3.org/2000/svg"
@@ -321,6 +351,7 @@ export const JournalJourney: React.FC<JournalJourneyProps> = ({
                     </div>
                   );
                 })}
+                </div>
               </div>
             );
           })()}

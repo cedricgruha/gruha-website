@@ -330,6 +330,24 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 }) => {
   const displayEyebrow = tagline || eyebrow;
 
+  // Measure the roadmap container width at runtime so the node cards, SVG and
+  // badges can be scaled uniformly together (see roadmap block below). The
+  // container width jumps when the desktop sidebar mounts at lg, so we measure
+  // it directly rather than assume a viewport breakpoint.
+  const sceneRef = useRef<HTMLDivElement | null>(null);
+  const [sceneW, setSceneW] = useState(1000);
+  useEffect(() => {
+    const el = sceneRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setSceneW(entry.contentRect.width || 1000);
+      }
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
   // Extract Riya quote from chatMessages if provided
   const riyaChatMessage = chatMessages?.find((m) => m.isRiya || m.sender === "Riya")?.text;
   const displayRiyaQuote = riyaChatMessage || "Every time I suggested a lower-priced option, both of you kept returning to communities with trusted builders, better schools and realistic possession timelines. That's when I realized you weren't searching for the cheapest home. You were searching for peace of mind.";
@@ -450,6 +468,9 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             // Generous bottom margin space (240px offset) ensuring no node card text, badge, or bounce arc gets clipped
             const viewBoxHeight = Math.max(520, maxY + 240);
 
+            // Uniform scale so the 1000-unit canvas fills the measured container.
+            const scale = Math.min(1, sceneW / 1000);
+
             // 1. Main sequential connecting segments with node edge offset and precise arrowheads
             const mainSegments: Array<{
               id: string;
@@ -547,11 +568,21 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
 
             return (
               <div
-                className="hidden md:block relative w-full py-10 my-4 "
+                ref={sceneRef}
+                className="hidden md:block relative w-full py-10 my-4 overflow-hidden"
                 style={{ aspectRatio: `1000 / ${viewBoxHeight}` }}
               >
+                <div
+                  className="absolute top-0 left-0 z-0"
+                  style={{
+                    width: 1000,
+                    height: viewBoxHeight,
+                    transform: `scale(${scale})`,
+                    transformOrigin: "top left",
+                  }}
+                >
                 <svg
-                  className="absolute inset-0 w-full h-full pointer-events-none z-0"
+                  className="absolute inset-0 w-full h-full pointer-events-none"
                   viewBox={`0 0 1000 ${viewBoxHeight}`}
                   preserveAspectRatio="xMidYMid meet"
                   xmlns="http://www.w3.org/2000/svg"
@@ -724,6 +755,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
                     </div>
                   );
                 })}
+                </div>
               </div>
             );
           })()}
