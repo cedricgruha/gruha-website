@@ -18,53 +18,26 @@ interface JournalSlugPageProps {
 const SITE_URL = "https://gruha.ai";
 
 /**
- * Map a community-journals manifest entry to a short category badge label,
- * mirroring the logic used by the journal-listing cards so the hero badge on
- * the detail page stays consistent with what the user saw on the grid.
+ * Derive the persona label shown in the detail-page hero, mirroring the card
+ * chip on the listing page (getPersonaLabel) so the hero and card badges agree.
+ * Matched by the leading segment word; cross identities (NRI & Returnees as the
+ * leading persona, Upgrader/Legacy/Lifestyle suffixes or tags) take precedence.
  */
 function getCategoryBadge(listing: any): string {
-  const segment = (listing?.segment || "").toLowerCase();
+  const seg = (listing?.segment || "").trim().toLowerCase();
   const tagsStr = (listing?.tags || []).join(" ").toLowerCase();
-  const id = listing?.id;
 
-  if (segment.includes("nri") || tagsStr.includes("nri") || id === 3 || id === 18) {
-    return "Premium";
-  }
-  if (segment.includes("investor") || tagsStr.includes("investor") || id === 1 || id === 2 || id === 5 || id === 7) {
-    return "Investment";
-  }
-  if (
-    segment.includes("young") ||
-    segment.includes("first") ||
-    tagsStr.includes("first-timer") ||
-    id === 14 ||
-    id === 15
-  ) {
-    return "First Home";
-  }
-  if (
-    segment.includes("family") ||
-    segment.includes("families") ||
-    tagsStr.includes("multigenerational") ||
-    id === 22 ||
-    id === 24
-  ) {
-    return "Family Living";
-  }
-  if (segment.includes("plot") || tagsStr.includes("plot") || id === 4 || id === 9 || id === 12) {
-    return "Villas";
-  }
-  if (
-    segment.includes("primary") ||
-    tagsStr.includes("under construction") ||
-    id === 38 ||
-    id === 39
-  ) {
-    return "Under Construction";
-  }
-  if (segment.includes("senior") || tagsStr.includes("downsizing") || id === 29 || id === 30) {
-    return "Renovation";
-  }
+  if (seg.startsWith("nri")) return "NRI & Returnees";
+  if (seg.includes("/ upgrader") || tagsStr.includes("upgrader")) return "Upgraders";
+  if (seg.includes("/ legacy") || tagsStr.includes("legacy") || tagsStr.includes("inheritance")) return "Legacy";
+  if (seg.includes("/ lifestyle") || tagsStr.includes("lifestyle") || tagsStr.includes("managed farmland")) return "Lifestyle";
+  if (seg.startsWith("investors & wealth")) return "Investors & Wealth";
+  if (seg.startsWith("plot buyers")) return "Plot Buyers";
+  if (seg.startsWith("young professionals")) return "Young Professionals";
+  if (seg.startsWith("families")) return "Families";
+  if (seg.startsWith("seniors")) return "Seniors & Downsizers";
+  if (seg.startsWith("special convictions")) return "Special Convictions";
+  if (seg.startsWith("primary purchase")) return "Primary Purchase";
 
   return "Community";
 }

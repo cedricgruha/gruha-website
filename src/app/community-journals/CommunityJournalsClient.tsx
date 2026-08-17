@@ -23,64 +23,83 @@ interface JournalCard {
 
 const FILTERS = [
   "All",
-  "First Home",
   "Investment",
-  "Family Living",
-  "Premium",
-  "Gated Community",
-  "Under Construction",
-  "Villas",
-  "Renovation",
+  "First Home",
+  "Families",
+  "Seniors & Downsizers",
+  "Plots & Villas",
+  "NRI & Returnees",
+  "Upgraders",
+  "Specialists",
 ];
 
 const POPULAR_SEARCHES = [
-  "First Home",
   "Investment",
-  "Family Living",
-  "Premium",
-  "Gated Community",
-  "Under Construction",
-  "Villas",
-  "Renovation",
+  "First Home",
+  "Families",
+  "Seniors & Downsizers",
+  "Plots & Villas",
+  "NRI & Returnees",
+  "Upgraders",
+  "Specialists",
 ];
 
-// Helper to determine category tag badge string
-function getCategoryBadge(journal: JournalCard): { text: string; bg: string; color: string } {
-  const segment = (journal.segment || "").toLowerCase();
+// Compact group filters derived from the segment field (source of truth).
+// Primary personas are matched by the LEADING segment word (startsWith), so
+// combined segments like "INVESTORS & WEALTH / NRI" stay under their primary
+// group and don't leak into other persona filters. Cross-cutting identities
+// (Upgrader) are matched via distinctive tags. "Legacy" and "Lifestyle" fold
+// into their primary groups (Families / Investment) rather than getting pills.
+const GROUP_FILTER_MAP: Record<string, { segment: string[]; tags: string[] }> = {
+  "Investment": { segment: ["investors & wealth"], tags: [] },
+  "First Home": { segment: ["young professionals"], tags: [] },
+  "Families": { segment: ["families"], tags: [] },
+  "Seniors & Downsizers": { segment: ["seniors"], tags: [] },
+  "Plots & Villas": { segment: ["plot buyers"], tags: [] },
+  "NRI & Returnees": { segment: ["nri"], tags: [] },
+  "Upgraders": { segment: ["upgraders"], tags: ["upgrader"] },
+  "Specialists": { segment: ["special convictions", "primary purchase"], tags: ["special convictions"] },
+};
+
+// Persona label used on the card chip, derived from the segment field and the
+// same cross-cutting tags so chips stay consistent with the filters above.
+function getPersonaLabel(journal: JournalCard): string {
+  const seg = (journal.segment || "").trim().toLowerCase();
   const tagsStr = (journal.tags || []).join(" ").toLowerCase();
-  const id = journal.id;
 
-  if (segment.includes("nri") || tagsStr.includes("nri") || id === 3 || id === 18) {
-    return { text: "PREMIUM", bg: "bg-white/95", color: "#6B21A8" };
-  }
-  if (segment.includes("investor") || tagsStr.includes("investor") || id === 1 || id === 2 || id === 5 || id === 7) {
-    return { text: "INVESTMENT", bg: "bg-[#FEF0EC]", color: "#DD5128" };
-  }
-  if (segment.includes("young") || segment.includes("first") || tagsStr.includes("first-timer") || id === 14 || id === 15) {
-    return { text: "FIRST HOME", bg: "bg-white/95", color: "#DD5128" };
-  }
-  if (segment.includes("family") || segment.includes("families") || tagsStr.includes("multigenerational") || id === 22 || id === 24) {
-    return { text: "FAMILY LIVING", bg: "bg-white/95", color: "#1D4ED8" };
-  }
-  if (segment.includes("plot") || tagsStr.includes("plot") || id === 4 || id === 9 || id === 12) {
-    return { text: "VILLAS", bg: "bg-white/95", color: "#B45309" };
-  }
-  if (segment.includes("primary") || tagsStr.includes("under construction") || id === 38 || id === 39) {
-    return { text: "UNDER CONSTRUCTION", bg: "bg-white/95", color: "#0369A1" };
-  }
-  if (segment.includes("senior") || tagsStr.includes("downsizing") || id === 29 || id === 30) {
-    return { text: "RENOVATION", bg: "bg-white/95", color: "#7E22CE" };
-  }
+  if (seg.startsWith("nri")) return "NRI & Returnees";
+  if (seg.includes("/ upgrader") || tagsStr.includes("upgrader")) return "Upgraders";
+  if (seg.includes("/ legacy") || tagsStr.includes("legacy") || tagsStr.includes("inheritance")) return "Legacy";
+  if (seg.includes("/ lifestyle") || tagsStr.includes("lifestyle") || tagsStr.includes("managed farmland")) return "Lifestyle";
+  if (seg.startsWith("investors & wealth")) return "Investors & Wealth";
+  if (seg.startsWith("plot buyers")) return "Plot Buyers";
+  if (seg.startsWith("young professionals")) return "Young Professionals";
+  if (seg.startsWith("families")) return "Families";
+  if (seg.startsWith("seniors")) return "Seniors & Downsizers";
+  if (seg.startsWith("special convictions")) return "Special Convictions";
+  if (seg.startsWith("primary purchase")) return "Primary Purchase";
+  return "Community";
+}
 
-  const defaults = [
-    { text: "FIRST HOME", bg: "bg-white/95", color: "#DD5128" },
-    { text: "INVESTMENT", bg: "bg-[#FEF0EC]", color: "#DD5128" },
-    { text: "FAMILY LIVING", bg: "bg-white/95", color: "#1D4ED8" },
-    { text: "LIFESTYLE", bg: "bg-white/95", color: "#047857" },
-    { text: "RENOVATION", bg: "bg-white/95", color: "#7E22CE" },
-    { text: "PREMIUM", bg: "bg-white/95", color: "#6B21A8" },
-  ];
-  return defaults[id % defaults.length];
+const BADGE_STYLES: Record<string, { bg: string; color: string }> = {
+  "Investors & Wealth": { bg: "bg-white/95", color: "#DD5128" },
+  "Plot Buyers": { bg: "bg-white/95", color: "#B45309" },
+  "Young Professionals": { bg: "bg-white/95", color: "#0E7490" },
+  "Families": { bg: "bg-white/95", color: "#1D4ED8" },
+  "Seniors & Downsizers": { bg: "bg-white/95", color: "#7E22CE" },
+  "NRI & Returnees": { bg: "bg-white/95", color: "#6B21A8" },
+  "Special Convictions": { bg: "bg-white/95", color: "#15803D" },
+  "Primary Purchase": { bg: "bg-white/95", color: "#0369A1" },
+  "Lifestyle": { bg: "bg-white/95", color: "#047857" },
+  "Legacy": { bg: "bg-white/95", color: "#5347D6" },
+  "Upgraders": { bg: "bg-white/95", color: "#B45309" },
+  "Community": { bg: "bg-[#FEF0EC]", color: "#DD5128" },
+};
+
+function getCategoryBadge(journal: JournalCard): { text: string; bg: string; color: string } {
+  const label = getPersonaLabel(journal);
+  const style = BADGE_STYLES[label] || BADGE_STYLES.Community;
+  return { text: label.toUpperCase(), bg: style.bg, color: style.color };
 }
 
 // Helper to determine location string
@@ -136,15 +155,23 @@ function getFormattedViews(journal: JournalCard): string {
 function matchesFilter(journal: JournalCard, filter: string): boolean {
   if (filter === "All") return true;
 
-  const catBadge = getCategoryBadge(journal).text.toLowerCase();
-  const filterLower = filter.toLowerCase();
-
-  if (catBadge === filterLower) return true;
-
   const segment = (journal.segment || "").toLowerCase();
   const tags = (journal.tags || []).map((t) => t.toLowerCase());
 
-  return segment.includes(filterLower) || tags.some((t) => t.includes(filterLower));
+  const group = GROUP_FILTER_MAP[filter];
+  // Persona groups match their PRIMARY (leading) segment persona, so combined
+  // entries like "INVESTORS & WEALTH / NRI" stay under their primary group and
+  // don't leak into other persona filters (e.g. NRI & Returnees). Cross-cutting
+  // identities are captured via their tag tokens instead.
+  const segHit = !!group && group.segment.some((t) => segment.startsWith(t));
+  const tagHit = !!group && group.tags.some((t) => tags.some((tag) => tag.includes(t)));
+  if (segHit || tagHit) return true;
+
+  // Fallback: badge text and generic tag keyword.
+  const filterLower = filter.toLowerCase();
+  const catBadge = getCategoryBadge(journal).text.toLowerCase();
+  if (catBadge === filterLower) return true;
+  return tags.some((t) => t.includes(filterLower));
 }
 
 export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({ journals }) => {
