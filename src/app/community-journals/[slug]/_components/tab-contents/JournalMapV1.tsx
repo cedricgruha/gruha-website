@@ -254,6 +254,33 @@ function StatefulMarker({
   );
 }
 
+/**
+ * Dynamic handler controller to force-toggle drag and touch interactions
+ * whenever `isMobile` changes. React-Leaflet only applies `dragging` once on
+ * mount, so we drive the live Leaflet map instance directly.
+ */
+ function MobileDragToggle({ isMobile }: { isMobile: boolean }) {
+   const map = useMap();
+
+   useEffect(() => {
+     if (!map) return;
+
+     if (isMobile) {
+       map.dragging?.disable();
+       map.touchZoom?.disable();
+       map.doubleClickZoom?.disable();
+       if (map.tapHold) map.tapHold.disable();
+     } else {
+       map.dragging?.enable();
+       map.touchZoom?.enable();
+       map.doubleClickZoom?.enable();
+       if (map.tapHold) map.tapHold.enable();
+     }
+   }, [isMobile, map]);
+
+   return null;
+ }
+
 export const JournalMapV1: React.FC<JournalMapV1Props> = ({
   areas,
   selectedAreaId,
@@ -262,6 +289,31 @@ export const JournalMapV1: React.FC<JournalMapV1Props> = ({
   onHover,
   defaultCenter,
 }) => {
+  // Disable map drag on small (mobile) viewports so touch gestures scroll the
+  // page instead of fighting the map. Matches Tailwind's `sm` breakpoint (640px).
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 640px)");
+
+    const update = (e: MediaQueryListEvent | MediaQueryList) => {
+      setIsMobile(e.matches);
+    };
+
+    // Set initial state
+    update(mq);
+
+    // Cross-browser event binding
+    if (mq.addEventListener) {
+      mq.addEventListener("change", update);
+      return () => mq.removeEventListener("change", update);
+    } else {
+      // Fallback for older Safari/WebKit engines
+      mq.addListener(update);
+      return () => mq.removeListener(update);
+    }
+  }, []);
+
   const safeAreas = areas && areas.length > 0 ? areas : [];
   const initialCenter: [number, number] = (() => {
     if (defaultCenter && typeof defaultCenter.lat === "number" && typeof defaultCenter.lng === "number") {
@@ -284,6 +336,9 @@ export const JournalMapV1: React.FC<JournalMapV1Props> = ({
         attributionControl={false}
         className="jmap-container h-full w-full"
       >
+        {/* Dynamically enable/disable drag & touch on viewport change */}
+        <MobileDragToggle isMobile={isMobile} />
+
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

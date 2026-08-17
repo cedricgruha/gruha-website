@@ -168,7 +168,6 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
             )}
           </div>
 
-          {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {displayProjectsSlice.map((proj: any, idx: number) => {
               const projName = proj.name || proj.title || "";
@@ -198,23 +197,20 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                     )}
                   </div>
 
-                  {/* Card Content */}
-                  {/* Card Content */}
-                  <div className="p-5 flex-1 flex flex-col justify-between">
-                    {/* 1. FIXED TITLE HEIGHT: h-12 forces exactly 2 lines worth of height for ALL cards */}
-                    <div className="mb-4 h-12 flex items-start">
+                  <div className="p-4 md:p-5 flex-1 flex flex-col justify-between">
+                    <div className="mb-3 md:mb-4 h-auto md:h-12 flex items-start">
                       <h4
-                        className="text-sm sm:text-base font-semibold leading-snug line-clamp-2"
+                        className="text-base font-semibold leading-snug line-clamp-2"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}
                       </h4>
                     </div>
 
-                    {/* 2. PINNED TO BOTTOM */}
-                    <div className="pt-4 border-t border-slate-100/90 mt-auto">
+                    {/* Bottom metadata */}
+                    <div className="pt-3 md:pt-4 border-t border-slate-100/90 mt-auto">
                       <div className="grid grid-cols-2 gap-2 items-start">
-                        {/* Price Range Column */}
+                        {/* Price */}
                         <div>
                           <p
                             className="text-xs font-semibold tracking-[0.10em] uppercase mb-1"
@@ -222,8 +218,9 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                           >
                             PRICE RANGE
                           </p>
-                          {/* h-10 fixes height for 2-line wrapped text like "Top of Band" */}
-                          <div className="h-16 flex items-start">
+
+                          {/* Price Height: Auto on mobile, fixed h-16 on desktop */}
+                          <div className="h-auto md:h-16 flex items-start">
                             <p
                               className="text-sm font-semibold leading-tight line-clamp-4"
                               style={{ fontFamily: fd, color: "#111821" }}
@@ -243,10 +240,11 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                               >
                                 POSSESSION
                               </p>
-                              {/* h-10 fixes height for 2-line wrapped text like "Killed at Base Rate" */}
-                              <div className="h-10 flex items-start justify-end">
+
+                              {/* Possession Height: Auto on mobile, fixed h-10 on desktop */}
+                              <div className="h-auto md:h-10 flex items-start justify-end">
                                 <p
-                                  className="text-sm font-medium leading-tight line-clamp-2"
+                                  className="text-sm font-medium leading-tight line-clamp-4"
                                   style={{ fontFamily: fu, color: "#111821" }}
                                 >
                                   {projPossession}
@@ -254,21 +252,28 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                               </div>
                             </div>
                           ) : (
-                            /* Empty spacer if possession is null */
-                            <div className="h-10" />
+                            <div className="hidden md:block md:h-10" />
                           )}
                         </div>
                       </div>
 
-                      {/* 3. PSF FOOTER: Reserved 1-line slot */}
-                      <div className="mt-2 h-5 flex items-center">
-                        <p
-                          className="text-sm font-medium truncate"
-                          style={{ fontFamily: fu, color: "#94A3B8" }}
-                        >
-                          {projPsf || "\u00A0"}
-                        </p>
-                      </div>
+                      {/* PSF: Rendered conditionally on mobile to completely prevent empty whitespace when empty */}
+                      {projPsf ? (
+                        <div className="mt-2 h-auto md:h-5 flex items-center">
+                          <p
+                            className="text-sm font-medium truncate"
+                            style={{ fontFamily: fu, color: "#94A3B8" }}
+                          >
+                            {projPsf}
+                          </p>
+                        </div>
+                      ) : (
+                        <div className="hidden md:flex mt-2 md:h-5 items-center">
+                          <p className="text-sm font-medium truncate" style={{ fontFamily: fu, color: "#94A3B8" }}>
+                            &nbsp;
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

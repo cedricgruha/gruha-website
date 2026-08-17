@@ -196,7 +196,7 @@ export const JournalLearningsV0: React.FC<JournalLearningsV0Props> = ({
               {/* Text block top-aligned so all labels share the top row */}
               <div className="min-w-0 flex-1">
                 <p
-                  className="text-xs font-semibold tracking-[0.10em] uppercase mb-1.5"
+                  className="text-sm sm:text-base font-semibold tracking-[0.12em] uppercase"
                   style={{ fontFamily: fu, color: "#8A94A1" }}
                 >
                   {cell.label}
