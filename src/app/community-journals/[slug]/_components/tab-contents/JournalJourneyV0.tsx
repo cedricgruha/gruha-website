@@ -847,7 +847,7 @@ export const JournalJourneyV0: React.FC<JournalJourneyV0Props> = ({
             </div>
 
             {/* Right Column: Card Slider */}
-            <div className="flex items-center justify-center bg-[#FAFAFD] lg:bg-white p-4">
+            <div className="flex items-center justify-center bg-[#FAFAFD] lg:bg-white p-0 sm:p-4">
               <AgentCardSlider cards={agentCards} />
             </div>
           </div>
