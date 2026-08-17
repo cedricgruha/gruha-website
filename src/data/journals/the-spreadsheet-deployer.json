@@ -148,7 +148,7 @@
         {
           "icon": "Calendar",
           "label": "POSSESSION",
-          "value": "2029 Target"
+          "value": "2031 Target"
         },
         {
           "icon": "IndianRupee",
@@ -219,7 +219,7 @@
           "stage": "S5",
           "type": "stage",
           "title": "L6: East Mid-Floor Secured",
-          "desc": "Second window: east-facing mid-floor secured; delivery-risk premium consciously priced with possession in 2029.",
+          "desc": "Second window: east-facing mid-floor secured; delivery-risk premium consciously priced with possession in 2031.",
           "icon": "CheckCircle2",
           "x": 440,
           "y": 380,
@@ -561,7 +561,7 @@
           "title": "Bhartiya City Nikoo Homes",
           "name": "Bhartiya City Nikoo Homes",
           "price": "₹1.31–2.9 Cr",
-          "possession": "2029",
+          "possession": "2031",
           "psf": "₹11,950–12,100/sqft",
           "location": "Thanisandra Main Rd",
           "imageSrc": "/journals/the-spreadsheet-deployer/projects/Bhartiya-City-Nikoo-Homes.webp"
@@ -664,7 +664,7 @@
         },
         {
           "title": "Early-bird pricing compensates for delivery risk.",
-          "description": "8–12% pre-launch discounts are not free money; they are compensation for 2029 completion timelines. Price the risk before signing.",
+          "description": "8–12% pre-launch discounts are not free money; they are compensation for 2031 completion timelines. Price the risk before signing.",
           "imageSrc": "/journals/the-spreadsheet-deployer/lesson-2.png",
           "imagegenerationprompt": "A vector illustration showing a price sheet discount calculation beside a construction delivery timeline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -952,7 +952,7 @@
       "stage": "S6",
       "type": "stage",
       "title": "S6: RERA Progress Ritual",
-      "desc": "Quarterly RERA progress tracking ritual to 2029; Deepa's non-second-job audit.",
+      "desc": "Quarterly RERA progress tracking ritual to 2031; Deepa's non-second-job audit.",
       "icon": "CalendarCheck",
       "x": 140,
       "y": 380,

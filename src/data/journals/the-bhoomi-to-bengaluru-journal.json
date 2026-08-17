@@ -210,7 +210,7 @@
           "stage": "S3",
           "type": "stage",
           "title": "S3: Dual Asset Strategy",
-          "desc": "Capital split: 3BHK flat near son + Devanahalli land plot.",
+          "desc": "Capital split: 2BHK flat near son + Devanahalli land plot.",
           "icon": "Layers",
           "x": 560,
           "y": 520,
@@ -220,8 +220,8 @@
           "id": "l5-flat-sobha-dream-acres",
           "stage": "S5",
           "type": "stage",
-          "title": "L5: Sobha Dream Acres 3BHK",
-          "desc": "Flat near son: Sobha Dream Acres 3BHK — the community had already validated the project; the lawyer validated the unit.",
+          "title": "L5: Sobha Dream Acres 2BHK",
+          "desc": "Flat near son: Sobha Dream Acres 2BHK — the community had already validated the project; the lawyer validated the unit.",
           "icon": "Home",
           "x": 840,
           "y": 460,
@@ -390,7 +390,7 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "THE SEARCH",
       "title": "Where they looked and what they found.",
-      "description": "Evaluating 3BHK brand apartments near Bellandur–Panathur and gated plot layouts on the Devanahalli airport corridor.",
+      "description": "Evaluating 2BHK brand apartments near Bellandur–Panathur and gated plot layouts on the Devanahalli airport corridor.",
       "metrics": [
         {
           "icon": "Search",
@@ -441,7 +441,7 @@
         },
         {
           "title": "Sarjapur Road",
-          "description": "Explored alternative 3BHK options with strong rental demand from tech parks.",
+          "description": "Explored alternative 2BHK options with strong rental demand from tech parks.",
           "projects": 3,
           "siteVisits": 4,
           "latlong": {
@@ -844,7 +844,7 @@
         {
           "id": 4,
           "title": "Actionable recommendations",
-          "description": "Receive legally verified 3BHK flat and gated plot options matching your tax window.",
+          "description": "Receive legally verified 2BHK flat and gated plot options matching your tax window.",
           "imageSrc": "/journals/4/4.png",
           "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
         }
@@ -922,7 +922,7 @@
       "stage": "S3",
       "type": "stage",
       "title": "S3: Dual Asset Strategy",
-      "desc": "3 weeks structuring capital split: 3BHK flat near son + Devanahalli land plot.",
+      "desc": "3 weeks structuring capital split: 2BHK flat near son + Devanahalli land plot.",
       "icon": "Layers",
       "x": 820,
       "y": 120,

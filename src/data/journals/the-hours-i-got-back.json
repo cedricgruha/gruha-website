@@ -75,7 +75,7 @@
         }
       ],
       "sharedVisionTitle": "Shared vision",
-      "sharedVisionDescription": "Sell the Whitefield villa's 1,200 lost square feet to buy back 500 annual hours — a ready-with-OC 3BHK in the Bellandur–Haralur–Kasavanahalli triangle where Suhas gains evenings, Anjali's garden gets a container-garden fighting chance, and Dhruv's football turf is non-negotiable.",
+      "sharedVisionDescription": "Sell the Whitefield villa's 1,200 lost square feet to buy back 500 annual hours — a ready-with-OC 3BHK in the Bellandur–Haralur–Kasavanahalli triangle where Suhas gains evenings, Anjali's garden gets a container-garden fighting chance, and Dhruv's tennis turf is non-negotiable.",
       "sharedVisionImage": "/journals/the-hours-i-got-back/shared-vision.png",
       "imagegenerationprompt": "An editorial vector illustration of a man stepping out of a car door that opens directly into a warm apartment living room where his family waits at the dinner table, behind the car a long ribbon of red tail-lights stretching to the horizon, an oversized clock face setting like a sun over the traffic, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clock face, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
       "stats": [
@@ -112,11 +112,11 @@
         },
         {
           "image": "/journals/the-hours-i-got-back/priority-2.png",
-          "imagegenerationprompt": "A 3D vector illustration of a school building and a football turf on a map with a teenager silhouette, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the turf, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "imagegenerationprompt": "A 3D vector illustration of a school building and a tennis turf on a map with a teenager silhouette, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the turf, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
           "title": "School Transition + Enough Teenagers",
           "scorePercentage": 95,
           "scoreLabel": "9.5/10",
-          "description": "Dhruv's board-exam years approach — the community with the football turf and two classmates won his vote, and stakeholders who choose adapt."
+          "description": "Dhruv's board-exam years approach — the community with the tennis turf and two classmates won his vote, and stakeholders who choose adapt."
         },
         {
           "image": "/journals/the-hours-i-got-back/priority-3.png",
@@ -392,7 +392,7 @@
         {
           "icon": "Volleyball",
           "title": "The Teen's Negotiated Vote",
-          "description": "School transition agreed in exchange for the community with the football turf and two classmates — stakeholders who choose adapt; stakeholders who are informed resent."
+          "description": "School transition agreed in exchange for the community with the tennis turf and two classmates — stakeholders who choose adapt; stakeholders who are informed resent."
         }
       ],
       "audioLabel": "HEAR THE FULL CONVERSATION",
@@ -710,9 +710,9 @@
         },
         {
           "title": "Stakeholders who choose adapt; stakeholders who are informed resent.",
-          "description": "Dhruv got negotiating power — school transition agreed in exchange for the community with the football turf and two classmates. The 13-year-old's vote changed the shortlist.",
+          "description": "Dhruv got negotiating power — school transition agreed in exchange for the community with the tennis turf and two classmates. The 13-year-old's vote changed the shortlist.",
           "imageSrc": "/journals/the-hours-i-got-back/lesson-3.png",
-          "imagegenerationprompt": "A 3D vector illustration of a teenager negotiating with a football turf and school building on a map with a handshake, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+          "imagegenerationprompt": "A 3D vector illustration of a teenager negotiating with a tennis turf and school building on a map with a handshake, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
         {
           "title": "The recovered hours need a first line item.",
@@ -820,7 +820,7 @@
         {
           "month": "MONTH 3",
           "headline": "The 13-year-old got negotiating power",
-          "body": "School transition agreed in exchange for the community with the football turf and two of his classmates. Stakeholders who choose adapt; stakeholders who are informed resent.",
+          "body": "School transition agreed in exchange for the community with the tennis turf and two of his classmates. Stakeholders who choose adapt; stakeholders who are informed resent.",
           "turning": true
         },
         {
