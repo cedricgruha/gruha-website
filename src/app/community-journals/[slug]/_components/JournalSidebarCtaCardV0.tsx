@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { useWaitlist } from "@/contexts/WaitlistContext";
 import imgRiya from "@/imports/signal-2026-07-23-17-18-39-504.jpg";
 
 const fd = "'Newsreader', Georgia, serif";
@@ -27,12 +28,14 @@ export interface JournalSidebarCtaCardV0Props {
 export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = ({
   title = "Ready to write your story?",
   description = "Let Riya build a personalised journal that guides you toward the right home.",
-  startJournalText = "Start your journal",
+  startJournalText = "Join Waitlist",
   adaptJournalText = "Adapt this journal",
   characterImage = imgRiya,
   onStartJournal,
   onAdaptJournal,
 }) => {
+  const { openModal } = useWaitlist();
+
   return (
     <>
       <style>{`
@@ -119,7 +122,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
           <div className="flex flex-col gap-3">
             <button
               type="button"
-              onClick={onStartJournal}
+              onClick={openModal}
               className="group relative w-full flex items-center justify-center gap-2 py-3.5 px-4 text-[14px] font-bold rounded-2xl text-white overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
               style={{
                 background: "#f25a2b",
@@ -145,7 +148,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
               />
             </button>
 
-            <button
+            {/*<button
               type="button"
               onClick={onAdaptJournal}
               className="w-full py-3.5 px-4 text-[14px] font-semibold rounded-2xl transition-colors hover:bg-white/5 active:scale-[0.98] cursor-pointer"
@@ -156,7 +159,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
               }}
             >
               {adaptJournalText}
-            </button>
+            </button>*/}
           </div>
 
           {/* Decorative waveform bars */}

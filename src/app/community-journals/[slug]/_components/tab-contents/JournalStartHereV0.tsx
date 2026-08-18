@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import * as Icons from "lucide-react";
+import { useWaitlist } from "@/contexts/WaitlistContext";
 import imgStartHere1 from "@/imports/start-here-1.png";
 import imgStartHere2 from "@/imports/start-here-2.png";
 import imgStartHere3 from "@/imports/start-here-3.png";
@@ -78,12 +79,13 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
   ],
   ctaTitle = "Ready to write your story?",
   ctaDescription = "Let Riya understand your goals and build a personalised journal that guides you toward the right home, with confidence.",
-  ctaButtonText = "Start your journal",
+  ctaButtonText = "Join Waitlist",
   ctaAdaptButtonText = "Adapt this journal",
   ctaCharacterImage = imgRiya,
   ctaBadgeText = "Real Estate Companion",
 }) => {
   const displayChecklist = checklistItems.length > 0 ? checklistItems : defaultChecklistItems;
+  const { openModal } = useWaitlist();
 
   return (
     <section id="section-start-here" className="w-full">
@@ -224,6 +226,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
                 <button
                   type="button"
+                  onClick={openModal}
                   className="group relative w-full sm:w-auto px-6 py-3 text-base font-bold rounded-xl text-white overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(242,90,43,0.4)] hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
                   style={{ background: "#f25a2b", fontFamily: fu }}
                 >
@@ -231,13 +234,13 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
                   <svg className="relative z-10 w-4 h-4 inline-block ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 7l5 5m0 0l-5 5m5-5H6" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" /></svg>
                   <div className="absolute inset-0 w-full h-full -translate-x-full group-hover:translate-x-full transition-all duration-1000 ease-in-out" style={{ background: "linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent)" }} />
                 </button>
-                <button
+                {/*<button
                   type="button"
                   className="w-full sm:w-auto px-6 py-3 text-base font-semibold rounded-xl transition-colors hover:bg-white/5 cursor-pointer"
                   style={{ fontFamily: fu, color: "rgba(255,255,255,0.6)", border: "1px solid rgba(255,255,255,0.1)" }}
                 >
                   {ctaAdaptButtonText}
-                </button>
+                </button>*/}
               </div>
             </div>
 

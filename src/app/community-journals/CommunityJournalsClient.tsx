@@ -183,6 +183,36 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
 
   const observerRef = useRef<HTMLDivElement | null>(null);
 
+  // Filter pills horizontal scroll: track overflow so the left/right chevrons
+  // only appear when the row can actually scroll (scrollbar is hidden via CSS).
+  const pillsRef = useRef<HTMLDivElement | null>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  useEffect(() => {
+    const el = pillsRef.current;
+    if (!el) return;
+    const updateArrows = () => {
+      const scrollable = el.scrollWidth > el.clientWidth + 2;
+      setCanScrollLeft(el.scrollLeft > 1);
+      setCanScrollRight(scrollable && el.scrollLeft < el.scrollWidth - el.clientWidth - 2);
+    };
+    updateArrows();
+    el.addEventListener("scroll", updateArrows, { passive: true });
+    const ro = new ResizeObserver(updateArrows);
+    ro.observe(el);
+    window.addEventListener("resize", updateArrows);
+    return () => {
+      el.removeEventListener("scroll", updateArrows);
+      ro.disconnect();
+      window.removeEventListener("resize", updateArrows);
+    };
+  }, []);
+
+  const scrollPills = (dir: 1 | -1) => {
+    pillsRef.current?.scrollBy({ left: dir * 260, behavior: "smooth" });
+  };
+
   const filtered = useMemo(() => {
     return journals.filter((j) => {
       const matchesSearch =
@@ -270,32 +300,59 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
           {/* ── FILTER BAR SECTION ─────────────────────────────────────────── */}
           <div className="mt-10 pt-6 border-t border-slate-200/80 flex flex-col md:flex-row md:items-center justify-between gap-4">
 
-            {/* Filter Pills List */}
-            <div className="flex items-center gap-2.5 overflow-x-auto hide-scrollbar pb-1">
-              <button
-                className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200/90 rounded-full text-[12.5px] font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 cursor-pointer shrink-0 font-inter"
-              >
-                <svg className="w-3.5 h-3.5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                Filter
-              </button>
+            {/* Filter Pills List (overflow-aware chevrons) */}
+            <div className="flex items-center gap-2.5 relative w-full">
+              {canScrollLeft && (
+                <button
+                  type="button"
+                  aria-label="Scroll filters left"
+                  onClick={() => scrollPills(-1)}
+                  className="flex-none w-9 h-9 -mt-1 rounded-full bg-white border border-slate-200/90 text-slate-600 hover:bg-slate-50 cursor-pointer flex items-center justify-center z-10"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 18l-6-6 6-6" /></svg>
+                </button>
+              )}
 
-              {FILTERS.map((filter) => {
-                const isActive = activeFilter === filter;
-                return (
-                  <button
-                    key={filter}
-                    onClick={() => setActiveFilter(filter)}
-                    className={`px-4 py-2 rounded-full text-[12.5px] font-medium transition-all cursor-pointer whitespace-nowrap font-inter ${isActive
-                      ? "bg-[#DD5128] text-white shadow-xs"
-                      : "bg-white text-slate-700 border border-slate-200/80 hover:border-slate-300 hover:text-slate-900"
-                      }`}
-                  >
-                    {filter}
-                  </button>
-                );
-              })}
+              <div
+                ref={pillsRef}
+                className="flex items-center gap-2.5 overflow-x-auto hide-scrollbar pb-1 flex-1 min-w-0"
+              >
+                <button
+                  className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200/90 rounded-full text-[12.5px] font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 cursor-pointer shrink-0 font-inter"
+                >
+                  <svg className="w-3.5 h-3.5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  Filter
+                </button>
+
+                {FILTERS.map((filter) => {
+                  const isActive = activeFilter === filter;
+                  return (
+                    <button
+                      key={filter}
+                      onClick={() => setActiveFilter(filter)}
+                      className={`px-4 py-2 rounded-full text-[12.5px] font-medium transition-all cursor-pointer whitespace-nowrap font-inter shrink-0 ${isActive
+                        ? "bg-[#DD5128] text-white shadow-xs"
+                        : "bg-white text-slate-700 border border-slate-200/80 hover:border-slate-300 hover:text-slate-900"
+                        }`}
+                    >
+                      {filter}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {canScrollRight && (
+                <button
+                  type="button"
+                  aria-label="Scroll filters right"
+                  onClick={() => scrollPills(1)}
+                  className="flex-none w-9 h-9 -mt-1 rounded-full bg-white border border-slate-200/90 text-slate-600  hover:bg-slate-50 cursor-pointer flex items-center justify-center z-10"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 6l6 6-6 6" /></svg>
+                </button>
+              )}
             </div>
 
 
@@ -512,6 +569,17 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
 
       </main>
       <FooterVariant />
+      <style dangerouslySetInnerHTML={{
+        __html: `
+        .hide-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+
+      `}} />
     </>
   );
 };
