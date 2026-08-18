@@ -199,19 +199,19 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
                   {/* Card Body */}
                   <div className="p-4 md:p-5 flex-1 flex flex-col justify-between">
-                    {/* Title Container - min-h-[3rem] keeps 1-line & 2-line titles aligned */}
-                    <div className="mb-4 min-h-[3rem] flex items-start">
+                    {/* Row 1: Title (Fixed 2.75rem height guarantees 1-line & 2-line titles take identical vertical space) */}
+                    <div className="h-[2.75rem] flex items-start">
                       <h4
-                        className="text-base font-semibold leading-snug line-clamp-2"
+                        className="text-lg font-semibold leading-snug line-clamp-2"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}
                       </h4>
                     </div>
 
-                    {/* Bottom Metadata Section */}
-                    <div className="pt-3 border-t border-slate-100/90 mt-auto">
-                      <div className="grid grid-cols-2 gap-2 items-start">
+                    {/* Row 2: Price & Possession (Fixed border top position and fixed section height) */}
+                    <div className="pt-3 border-t border-slate-100/90 my-auto">
+                      <div className="grid grid-cols-2 gap-2 items-start h-[3.25rem]">
                         {/* Price */}
                         <div>
                           <p
@@ -220,14 +220,12 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                           >
                             PRICE RANGE
                           </p>
-                          <div className="min-h-[2.5rem] flex items-start">
-                            <p
-                              className="text-sm font-semibold leading-tight line-clamp-2"
-                              style={{ fontFamily: fd, color: "#111821" }}
-                            >
-                              {projPrice}
-                            </p>
-                          </div>
+                          <p
+                            className="text-sm font-semibold leading-tight line-clamp-2"
+                            style={{ fontFamily: fd, color: "#111821" }}
+                          >
+                            {projPrice}
+                          </p>
                         </div>
 
                         {/* Possession Column */}
@@ -238,19 +236,17 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                           >
                             POSSESSION
                           </p>
-                          <div className="min-h-[2.5rem] flex items-start justify-end">
-                            <p
-                              className="text-sm font-medium leading-tight text-right line-clamp-2"
-                              style={{ fontFamily: fu, color: "#111821" }}
-                            >
-                              {projPossession || "—"}
-                            </p>
-                          </div>
+                          <p
+                            className="text-sm font-medium leading-tight text-right line-clamp-2"
+                            style={{ fontFamily: fu, color: "#111821" }}
+                          >
+                            {projPossession || "—"}
+                          </p>
                         </div>
                       </div>
 
-                      {/* PSF Row - Reserve baseline height with invisible character if empty */}
-                      <div className="mt-2 min-h-[1.25rem] flex items-center">
+                      {/* Row 3: PSF Row (Pinned at bottom, constant height) */}
+                      <div className="mt-2 h-5 flex items-center">
                         <p
                           className="text-sm font-medium truncate"
                           style={{ fontFamily: fu, color: "#94A3B8" }}
