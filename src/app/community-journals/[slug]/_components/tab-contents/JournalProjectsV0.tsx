@@ -200,7 +200,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                   {/* Card Body */}
                   <div className="p-4 md:p-5 flex-1 flex flex-col justify-between">
                     {/* Row 1: Title (Fixed 2.75rem height guarantees 1-line & 2-line titles take identical vertical space) */}
-                    <div className="h-[2.75rem] flex items-start">
+                    <div className="h-[2.75rem] flex items-start mb-2">
                       <h4
                         className="text-lg font-semibold leading-snug line-clamp-2"
                         style={{ fontFamily: fd, color: "#111821" }}
