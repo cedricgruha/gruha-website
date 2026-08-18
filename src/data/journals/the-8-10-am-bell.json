@@ -1,0 +1,944 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "SCHOOL-ANCHORED",
+      "SARJAPUR ARC"
+    ],
+    "title": "The 8:10 AM Bell Journal",
+    "description": "Meera (36, marketing director) & Vikas Agarwal's (38, electronics distribution) relocation around Aanya's admission letter — a 7:50 am drive-time census, a schools premium computed line-by-line, and a PLH 3BHK closed through two weeks of chain anxiety.",
+    "quote": "\"We're not buying near the school. We're buying the school, with a house attached.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Timer",
+        "text": "The school premium cliffs at the 12–15 min drive"
+      },
+      {
+        "icon": "GraduationCap",
+        "text": "Same-market sale-buy is a swap, not double exposure"
+      },
+      {
+        "icon": "Bell",
+        "text": "Ask the counselor what families regret — not the gate"
+      }
+    ],
+    "heroImage": "/journals/cover/21.png",
+    "heroTitle": "The 8:10 AM Bell Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Meera (36, marketing director) & Vikas Agarwal (38, family electronics-distribution business) — whose entire housing strategy reorganized around one fixed point after daughter Aanya's admission letter landed: the school gate, 8:10 am, for the next twelve years.",
+      "buyers": [
+        {
+          "name": "Meera Agarwal",
+          "age": 36,
+          "role": "Marketing Director",
+          "description": "Runs the schools-premium math and the 7:50 am drive-time census. The firm one: 'We're not doing option three' when the chain wobbled — the school van route and the uniform stickers had already decided.",
+          "tags": [
+            "Premium Mathematician",
+            "Bell-Hour Measurer",
+            "Firm When It Counts"
+          ],
+          "image": "/journals/the-8-10-am-bell/meera.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 36-year-old Indian professional woman named Meera wearing smart business casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm resolute expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Vikas Agarwal",
+          "age": 38,
+          "role": "Owner, Family Electronics Distribution",
+          "description": "The commute being sacrificed — Chickpet to the school corridor, a trade made willingly but not silently. Owns the chain negotiation: 'certainty is the discount he actually wants.'",
+          "tags": [
+            "Willing Sacrifice",
+            "Chain Negotiator",
+            "Open Ledger"
+          ],
+          "image": "/journals/the-8-10-am-bell/vikas.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old Indian man named Vikas wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, practical decisive expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Reverse-engineer the address from an admission letter — a 3BHK inside the school's measured 12-minute radius, where Aanya's van route is settled, the schoolmate density is verifiable in uniform stickers, and the family's geography orbits the 8:10 am bell for the next twelve years.",
+      "sharedVisionImage": "/journals/the-8-10-am-bell/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an early-morning scene — a child with an oversized backpack holding her mother's hand walking toward a school gate as the sun rises, the family's new apartment building visible one tree-lined street away, a paper map in the father's hand with a heart drawn around the school, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the heart-drawn map, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "School-Anchored Family"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "One Child, One Pending Question"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Negotiating & Closing"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Next Academic Year"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-8-10-am-bell/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a wristwatch at 7:50 am beside a car dashboard clock, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the watch face, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "7:50 am Drive-Time Verified",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Every candidate community timed at bell-hour, not Sunday noon — 7:50 am is the only time that exists in this search."
+        },
+        {
+          "image": "/journals/the-8-10-am-bell/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of school uniform stickers on car bumpers in a parking lot, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on a sticker, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Critical Mass of Schoolmates",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The van-pool community forms in a project's first year — schoolmate density verified in parking-lot uniform stickers, not brochures."
+        },
+        {
+          "image": "/journals/the-8-10-am-bell/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a route map with a school-traffic route and a Chickpet exit arrow, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the exit arrow, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Vikas's Chickpet Escape Route",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The sacrificed commute gets its audit — the northern exit of the community recovered 15 of the 20 minutes nobody had counted."
+        },
+        {
+          "image": "/journals/the-8-10-am-bell/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a question mark beside two children's silhouettes and a school building, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the question mark, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Second-Child Question, Asked",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Left explicitly open in the file — a sibling changes both the BHK math and the school math, and the question is at least on the table."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a framed admission letter to a bell-hour drive census, a villa-row detour killed by a maintenance ledger, and a chain-anxiety wobble stabilized by the certainty trade.",
+      "journeyFrameTitle": "ANCHORED AT 8:10",
+      "roadmapTitle": "How a school-anchored family closed on the radius in six months",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — PLH 3BHK"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹3.1 Cr (Koramangala Swap)"
+        },
+        {
+          "icon": "Timer",
+          "label": "THE CENSUS",
+          "value": "7:50 am, Bell-Hour Honest"
+        },
+        {
+          "icon": "GraduationCap",
+          "label": "THE PREMIUM",
+          "value": "₹1,500–2,200/sqft, Computed"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-admission-letter",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Admission Letter",
+          "desc": "The letter lands; the 8:10 am bell becomes the family's fixed point; the Koramangala flat is priced for exit at ₹2.4 Cr.",
+          "icon": "Bell",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-drive-census",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The 7:50 am Drive Census",
+          "desc": "Five candidate communities timed at bell-hour, not Sunday noon — the drive-time log sets the map, and the premium's true cliff at 12–15 minutes.",
+          "icon": "Timer",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-villa-row-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The ₹3.8 Cr Villa Row",
+          "desc": "The stretch dream inside the radius — bookmarked, unbookmarked, re-bookmarked — killed by the maintenance ledger, not the price.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-plh-leads",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: PLH Leads the Radius",
+          "desc": "Prestige Lakeside Habitat — inside the school's gravity, schoolmate density verifiable in the parking lot's uniform stickers, arriving with the founding cohort.",
+          "icon": "Building2",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-chain-bounce",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-plh-leads",
+          "title": "L5 BOUNCE: The Chain Anxiety",
+          "desc": "The Koramangala buyer delays; the PLH seller won't hold — two weeks of hanging in the middle, bridged by a firm-price-for-longer-close negotiation.",
+          "icon": "Undo2",
+          "loopText": "2-Week Chain Wobble — Bridged by Certainty Trade",
+          "x": 660,
+          "y": 420,
+          "width": 290
+        },
+        {
+          "id": "l6-plh-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Radius Close",
+          "desc": "PLH 3BHK closed ~₹3.1 Cr; Vikas's Chickpet route audited and accepted; the second-child question left honestly open; the van route gains one new stop.",
+          "icon": "KeyRound",
+          "x": 380,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "measuring",
+          "label": "Measuring",
+          "icon": "Timer"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Building2"
+        },
+        {
+          "id": "chaining",
+          "label": "Chaining",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Inside the Radius"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "framed-letter-moment",
+          "title": "The admission letter, framed 'casually'",
+          "desc": "The admission letter in a frame the family pretends is casual — the fixed point around which the entire map would reorganize.",
+          "imageSrc": "/journals/the-8-10-am-bell/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a framed admission letter on a wall beside a casually placed school bag, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the frame, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "drive-log-moment",
+          "title": "The bell-hour drive log",
+          "desc": "The 7:50 am drive-time log for five communities — bell-hour honest, Sunday noon discarded as fantasy data. The 11-minute community at ₹2,400/sqft less was the actual find.",
+          "imageSrc": "/journals/the-8-10-am-bell/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-annotated drive-time log with five communities and bell-hour timings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the times, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "bookmark-confession-moment",
+          "title": "Browser history as confession",
+          "desc": "The villa-row ad bookmarked, unbookmarked, re-bookmarked — the ₹3.8 Cr stretch's weekly courtship, ended by a maintenance ledger rather than the price.",
+          "imageSrc": "/journals/the-8-10-am-bell/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a browser window showing the same villa-row listing bookmarked three times with an annotated maintenance ledger beside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the bookmark, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "uniform-sticker-moment",
+          "title": "The uniform-sticker parking lot",
+          "desc": "A parking lot photographed for its school uniform stickers — half of Aanya's class was in that lot, and the schoolmate density became a verifiable fact, not a projection.",
+          "imageSrc": "/journals/the-8-10-am-bell/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a parking lot with school uniform stickers visible on car bumpers, a camera phone held up to photograph them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on a sticker, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "longer-close-draft-moment",
+          "title": "The firm-price-for-longer-close draft",
+          "desc": "The signed draft — forty-five days and full price, no theatrics — the certainty trade that ended two weeks of hanging in the middle. Certainty was the discount the seller wanted.",
+          "imageSrc": "/journals/the-8-10-am-bell/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a signed longer-close agreement draft with a pen resting on it beside a school van route pencilled with one new stop, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the signature, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We're not buying near the school. We're buying the school, with a house attached.",
+          "author": "— Meera & Vikas"
+        },
+        {
+          "text": "Main beech mein latka hoon — hanging in the middle, bhai.",
+          "author": "— Vikas"
+        },
+        {
+          "text": "Then we stop hanging and pick a rope. Certainty is the discount he actually wants.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Buying for the school and forgetting the child changes — the houses that work have a life beyond the gate.",
+          "author": "— Aanya's school counselor"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Vikas",
+          "avatar": "/journals/the-8-10-am-bell/vikas.png",
+          "text": "Riya, seedha batao. Our Koramangala buyer wants three more weeks, the Lakeside seller is getting phone calls from other brokers daily. Main beech mein latka hoon."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then we stop hanging and pick a rope. Offer forty-five days and full price, no theatrics — he's an original allottee sitting on a big gain; certainty is the discount he actually wants. Draft it tonight?",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Timer",
+          "title": "The Bell-Hour Census",
+          "description": "The 3-km radius carries a schools premium of ₹1,500–2,200/sqft — but it cliffs at the 12–15 minute drive line, not at a distance. The 11-minute community at ₹2,400/sqft less was the actual find."
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "The Swap, Not Double Exposure",
+          "description": "Selling and buying in the same market is a hedge — the same repricing that inflated the target inflated the Koramangala exit. Once seen as a swap, the vertigo stopped."
+        },
+        {
+          "icon": "Scale",
+          "title": "The ₹30L Proximity Premium",
+          "description": "₹30L for one institution whose relationship with the child has eleven years of unknowns — computed, contested at dinner, and paid with a written list of what would have to go wrong."
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "title": "The Chain Choreography",
+          "description": "The buyer's delay and the seller's impatience collided for two weeks — resolved by trading price certainty for time: firm price, longer close, no theatrics."
+        },
+        {
+          "icon": "Bell",
+          "title": "The Life-Beyond-the-Gate Test",
+          "description": "The school counselor's answer to 'what do families regret': buying for the school and forgetting the child changes — the clubhouse and park got re-weighted that evening."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-8-10-am-bell.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "The entire map was one fixed point: the school gate, measured at 7:50 am. Every community within the 12-minute bell-hour radius, with the schools premium read line-item by line-item.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "School-Radius 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "12-Minute Radius, 7:50 am"
+        },
+        {
+          "icon": "GraduationCap",
+          "label": "THE PREMIUM",
+          "value": "₹1,500–2,200/sqft, Computed"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "PLH 3BHK"
+        }
+      ],
+      "exploredAreasTitle": "The school radius they explored",
+      "exploredAreas": [
+        {
+          "title": "Prestige Lakeside Habitat (Chosen)",
+          "description": "Inside the school's gravity — 102-acre township, schoolmate density verifiable in the parking lot's uniform stickers, arriving with the van-pool founding cohort.",
+          "projects": 3,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9345689,
+            "lng": 77.733566
+          },
+          "imageSrc": "/journals/the-8-10-am-bell/plh.png",
+          "imagegenerationprompt": "A modern architectural vector view of Prestige Lakeside Habitat's township with school-run morning traffic, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The Prestige City (Aspen Greens Phase)",
+          "description": "The radius benchmark — the Sarjapur arc's villa and plot phases calibrate what the corridor's school premium actually prices.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8775904,
+            "lng": 77.7675367
+          },
+          "imageSrc": "/journals/the-8-10-am-bell/aspen-greens.png",
+          "imagegenerationprompt": "A modern architectural vector view of The Prestige City's Aspen Greens phase along the Sarjapur arc, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Casagrand Sunside (Radius Comparator)",
+          "description": "The corridor's school-premium in action — a 2BHK from ~₹1.85 Cr where comparable stock 6 km away runs materially less, read as the premium's honest price tag.",
+          "projects": 2,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.8621,
+            "lng": 77.7719
+          },
+          "imageSrc": "/journals/the-8-10-am-bell/sunside.png",
+          "imagegenerationprompt": "A modern architectural vector view of Casagrand Sunside's residential towers near Sompura, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the ₹3.8 Cr villa-row stretch (detour, killed by the maintenance ledger) • every community outside the 12-minute bell-hour line",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE 70-MINUTE SCHOOL RUN",
+          "value": "6:40 am Wake-Up, 5-Year-Old",
+          "description": "Two months of the Koramangala-to-school commute — homework in traffic, van-aunty politics — broke the resolve on a Tuesday when Aanya fell asleep mid-sentence at dinner.",
+          "icon": "Bell"
+        },
+        {
+          "title": "THE SCHOOLS PREMIUM, EVERYWHERE",
+          "value": "₹1,500–2,200/sqft in the Radius",
+          "description": "Every family in the school's WhatsApp universe ran the same calculation — the 3-km radius carries a quantifiable premium, and the best communities have waitlists of their own.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "THE SACRIFICED COMMUTE",
+          "value": "Chickpet, Semi-Consensually",
+          "description": "Vikas's business run was sacrificed on the altar of the school run — made willingly but not silently, and his route audit added 20 minutes nobody had counted.",
+          "icon": "Route"
+        },
+        {
+          "title": "THE PENDING SIBLING QUESTION",
+          "value": "Second Child, Redrawn Map",
+          "description": "A sibling changes both the BHK math and the school math entirely — the question is at least asked, and left honestly open in the file.",
+          "icon": "Users"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for bell-hour drive time, schoolmate density, a Chickpet escape route, and a premium they could defend in writing.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“School-anchored families shop with a stopwatch at 7:50 am, and theirs was the cleanest version I've seen. The premium they paid wasn't for the school — it was for the 12-minute bell-hour line, and the census proved the cliff sits at time, not distance: the 11-minute community at ₹2,400/sqft less was the real find. Their best diligence was counting uniform stickers in a parking lot, and their hardest honesty was the second-child question, left open in the file. When the chain wobbled, they didn't panic — they traded price certainty for time, because they'd already learned the swap lesson: selling and buying in one market is a hedge, not a double exposure.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a bell-hour drive-time log beside a schools-premium computation sheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing nearing-possession projects inside the measured 7:50 am radius — schoolmate density audited in parking lots, premium computed line-by-line, and the van-pool founding-cohort bet.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "School-Radius 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "PLH 3BHK"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "THE CHAIN",
+          "value": "Bridged, 2 Weeks"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹3.1 Cr (₹2.4 Cr Swap)"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Timer",
+          "title": "7:50 am Drive-Time",
+          "subtitle": "bell-hour measured"
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Schoolmate Density",
+          "subtitle": "uniform stickers, verified"
+        },
+        {
+          "icon": "Scale",
+          "title": "Schools-Premium Math",
+          "subtitle": "₹1,500–2,200/sqft, contested & paid"
+        },
+        {
+          "icon": "Route",
+          "title": "Chickpet Escape Route",
+          "subtitle": "northern exit, 15 mins back"
+        },
+        {
+          "icon": "Users",
+          "title": "Second-Child Question",
+          "subtitle": "asked, and left open"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Meera",
+          "avatar": "/journals/the-8-10-am-bell/meera.png",
+          "text": "We're not doing option three. Aanya's school van route is settled, the uniform stickers in that parking lot are half her class. Bas."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then we make option one work — forty-five days, full price, no theatrics. Certainty is the discount he actually wants, and the middle is a terrible place to live.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-8-10-am-bell/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Sarjapur arc with a 12-minute school-radius ring measured at 7:50 am in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Prestige Lakeside Habitat (Chosen)",
+          "name": "Prestige Lakeside Habitat",
+          "price": "₹3.1 Cr Closed",
+          "possession": "Nearing possession",
+          "psf": "102-acre township, school-gravity",
+          "location": "Varthur / Whitefield–Sarjapur Rd",
+          "imageSrc": "/journals/the-8-10-am-bell/projects/Prestige-Lakeside-Habitat.webp"
+        },
+        {
+          "title": "Radius Benchmark",
+          "name": "The Prestige City (Aspen Greens)",
+          "price": "Villa/plot band",
+          "possession": "Phased",
+          "psf": "Corridor premium calibration",
+          "location": "Sarjapur arc",
+          "imageSrc": "/journals/the-8-10-am-bell/projects/The-Prestige-City-Aspen-Greens-phase.webp"
+        },
+        {
+          "title": "Radius Comparator",
+          "name": "Casagrand Sunside",
+          "price": "2BHK from ~₹1.85 Cr",
+          "possession": "Ready / nearing",
+          "psf": "The premium in action",
+          "location": "Sompura",
+          "imageSrc": "/journals/the-8-10-am-bell/projects/Casagrand-Sunside.webp"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The ₹3.8 Cr Villa-Row Stretch",
+          "count": "bookmarked, unbookmarked, re-bookmarked"
+        },
+        {
+          "icon": "Timer",
+          "title": "Outside the 12-Minute Bell-Hour Line",
+          "count": "every 13-minute-plus community"
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Launch-Only Schoolmate Projections",
+          "count": "density unverifiable at 0% occupancy"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Premium With No Escape Route",
+          "count": "communities that cost Vikas 20+ minutes"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the PLH 3BHK at ~₹3.1 Cr inside the measured 12-minute bell-hour radius delivered the van-pool founding cohort, verifiable schoolmate density, and a Chickpet route recovered by the northern exit — with the Koramangala exit and the PLH purchase run as one swap, and the schools premium computed, contested, and paid with eyes open.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for school-anchored families — the bell-hour census, the premium's true cliff, the swap lesson, and the life-beyond-the-gate test.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The Cliff Is Time, Not Distance"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The 7:50 am Census"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Villa-Row Weekly Courtship"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Swap, Not the Double Exposure"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The schools premium cliffs at time, not distance.",
+          "description": "Inside 3 km the premium is priced with brutal efficiency — but it falls away at the 12–15 minute drive line. The 11-minute community at ₹2,400/sqft less was the actual find.",
+          "imageSrc": "/journals/the-8-10-am-bell/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a premium-vs-drive-time chart showing a cliff at the 12–15 minute line, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Schoolmate density is a projection — audit it like a fact.",
+          "description": "In a nearing-possession project, density was a promise, not a fact — so they verified bookings via parking-lot school stickers at the almost-finished tower, and the sales chatter became data.",
+          "imageSrc": "/journals/the-8-10-am-bell/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a parking lot photograph with school uniform stickers on bumpers being cross-checked against a buyer-profile list, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Selling and buying in the same market is a swap, not a double exposure.",
+          "description": "The same repricing that inflated the target inflated the Koramangala exit — once seen as one transaction, the vertigo stopped and the chain negotiation became choreography.",
+          "imageSrc": "/journals/the-8-10-am-bell/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two price arrows moving together on one chart representing the sell and the buy as a single swap, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Ask the school counselor what families regret.",
+          "description": "The answer: buying for the school and forgetting the child changes — the houses that work have a life beyond the gate. The clubhouse and park got re-weighted that evening.",
+          "imageSrc": "/journals/the-8-10-am-bell/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a school counselor's office with a handwritten note about family regrets beside a clubhouse and park drawing, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "TrendingUp",
+          "text": "Sunday noon is a good time to measure a school run"
+        },
+        {
+          "icon": "Building2",
+          "text": "A school's name on the brochure is enough gravity"
+        },
+        {
+          "icon": "FileText",
+          "text": "Selling and buying together is double risk"
+        },
+        {
+          "icon": "GraduationCap",
+          "text": "Proximity premium is a tax you just pay"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Timer",
+          "text": "The 7:50 am bell-hour drive is the only time that exists"
+        },
+        {
+          "icon": "PawPrint",
+          "text": "Uniform stickers in the parking lot are the real density data"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "text": "One market, one swap — the sell and the buy are one transaction"
+        },
+        {
+          "icon": "Bell",
+          "text": "The houses that work have a life beyond the gate"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Timer",
+          "title": "Run the bell-hour census in week one",
+          "description": "The 7:50 am log became the map in month two — two months of Koramangala-to-school grief could have been measured and ended sooner."
+        },
+        {
+          "icon": "Scale",
+          "title": "Price the premium's cliff before the radius",
+          "description": "The 12–15 minute cliff was discovered in month two — plotting drive-time vs premium first would have surfaced the 11-minute find immediately."
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "title": "Script the chain before the buyer wobbles",
+          "description": "The firm-price-for-longer-close option was invented mid-anxiety — having it drafted in the file from the start would have removed two weeks of hanging."
+        },
+        {
+          "icon": "Users",
+          "title": "Ask the counselor's question at month one",
+          "description": "The life-beyond-the-gate insight arrived in month five — the clubhouse and park would have been weighted correctly from the first shortlist."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Vikas",
+          "avatar": "/journals/the-8-10-am-bell/vikas.png",
+          "text": "We reversed the whole map around one admission letter — and the school run is now seven minutes, with half her class in the same parking lot."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You didn't buy near the school — you bought the school's first twelve years, with the family's other life still on the map. The van route with one new stop is the whole story in a line.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for school-anchored families",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Meera and Vikas framing the admission letter, running the 7:50 am drive census, counting uniform stickers in a parking lot, and signing the longer-close draft, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For school-anchored families, the edge is in measuring what every other family in the WhatsApp universe assumes: the bell-hour drive, timed at 7:50 am, and the premium's true cliff at 12–15 minutes rather than a distance. Treat the sell and the buy as one swap; verify schoolmate density in parking lots, not brochures; and ask the school counselor what families regret before you sign. Meera and Vikas proved that buying the school, with a house attached, works — when the house has a life beyond the gate.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The schools premium cliffs at the 12–15 minute drive line, not at a distance",
+          "body": "Inside 3 km the premium is priced with brutal efficiency — but it falls away at the drive-time line. The 11-minute community at ₹2,400/sqft less was the actual find.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Schoolmate density was a projection — so they audited bookings",
+          "body": "The sales office's buyer-profile chatter was confirmed by parking-lot school stickers at the almost-finished tower. The projection became a verifiable fact.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Selling and buying in the same market is a hedge, not a double exposure",
+          "body": "The same repricing that inflated the target inflated the Koramangala exit — once seen as a swap, the vertigo stopped.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Vikas's route audit added 20 minutes nobody had counted — and the northern exit recovered 15",
+          "body": "School traffic into Chickpet was the hidden cost; a detail on a site map — the community's northern exit — recovered most of it and decided the unit.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The counselor's answer re-weighted the whole search",
+          "body": "What do families regret? Buying for the school and forgetting the child changes — the clubhouse and the park got re-weighted that evening.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If an admission letter has reorganized your geography, let Riya build your school-radius roadmap — bell-hour census, premium math, and the sell-and-buy as one swap.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the school's address, the bell time, your current home's position, and the second-child question if it's pending.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya runs the 7:50 am drive census on each candidate, computes the schools premium, and models your sell-and-buy as one swap with bridging risk flagged.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom 8:10 AM Bell journal — drive-census template, premium calculator, and chain-choreography checklist — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive nearing-possession projects inside the measured 12-minute radius, with price sheets and family-profile signals for each.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Bell-Hour Census",
+          "description": "Every candidate timed at 7:50 am — because the premium cliffs at drive-time, not distance.",
+          "icon": "Timer"
+        },
+        {
+          "id": 2,
+          "title": "The Schools-Premium Calculator",
+          "description": "₹1,500–2,200/sqft computed line-by-line, contested, and paid with a written list of what could shake it.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The Sell-and-Buy as One Swap",
+          "description": "Realistic exit pricing, timeline choreography, and bridging-risk flags — the chain as one transaction, not two anxieties.",
+          "icon": "ArrowLeftRight"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "An admission letter has reorganized your family's entire geography.",
+        "You measure drive times at 7:50 am because that's the only time that exists.",
+        "You're knowingly paying a premium tied to one institution's stability, and you've listed what could shake it.",
+        "One parent's commute is being sacrificed, semi-consensually, and the ledger of that is open.",
+        "The van-pool WhatsApp group is your real estate agent now.",
+        "A second child would redraw this entire map, and the question is pending."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-admission-letter",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Admission Letter",
+      "desc": "The letter lands; the 8:10 am bell becomes the family's fixed point; the Koramangala flat is priced for exit at ₹2.4 Cr.",
+      "icon": "Bell",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-drive-census",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The 7:50 am Drive Census",
+      "desc": "Five candidate communities timed at bell-hour, not Sunday noon — the drive-time log sets the map, and the premium's true cliff at 12–15 minutes.",
+      "icon": "Timer",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-villa-row-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The ₹3.8 Cr Villa Row",
+      "desc": "The stretch dream inside the radius — bookmarked, unbookmarked, re-bookmarked — killed by the maintenance ledger, not the price.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-plh-leads",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: PLH Leads the Radius",
+      "desc": "Prestige Lakeside Habitat — inside the school's gravity, schoolmate density verifiable in the parking lot's uniform stickers, arriving with the founding cohort.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-chain-bounce",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-plh-leads",
+      "title": "L5 BOUNCE: The Chain Anxiety",
+      "desc": "The Koramangala buyer delays; the PLH seller won't hold — two weeks of hanging in the middle, bridged by a firm-price-for-longer-close negotiation.",
+      "icon": "Undo2",
+      "loopText": "2-Week Chain Wobble — Bridged by Certainty Trade",
+      "x": 620,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-plh-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Radius Close",
+      "desc": "PLH 3BHK closed ~₹3.1 Cr; Vikas's Chickpet route audited and accepted; the second-child question left honestly open; the van route gains one new stop.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

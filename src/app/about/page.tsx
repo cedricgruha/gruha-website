@@ -6,6 +6,9 @@ import { FooterVariant } from "@/components/layout/FooterVariant";
 export const metadata: Metadata = {
   title: "About Us",
   description: "Learn about the mission and the founders behind Gruha.ai, an AI-native platform revolutionizing home ownership in Bengaluru.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

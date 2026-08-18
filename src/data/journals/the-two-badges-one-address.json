@@ -1,0 +1,969 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "METRO WALK-RINGS",
+      "BLUE LINE ORR"
+    ],
+    "title": "The Two Badges, One Address Journal",
+    "description": "Ananya (31, Google ORR) & Siddharth (33, Intel Marathahalli)'s commute-equation search — buying a 2BHK within a measured 800m walk of the Blue Line ORR stations, before the trains arrive and the repricing finishes.",
+    "quote": "\"Her standup is at 9:30. His is at 9:00. The flat must solve both.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Footprints",
+        "text": "Measure the 800m walk on foot — '5 min' is drone-time"
+      },
+      {
+        "icon": "AudioLines",
+        "text": "A 6:30 pm open-window decibel test beats sales hours"
+      },
+      {
+        "icon": "Zap",
+        "text": "Verify in parallel, not in series"
+      }
+    ],
+    "heroImage": "/journals/cover/13.png",
+    "heroTitle": "The Two Badges, One Address Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Ananya (31, Google ORR Ecospace) & Siddharth Joshi (33, Intel Marathahalli) — a DINK couple whose entire home search is a commute equation: walkable to a Blue Line metro station, both offices under 35 minutes door-to-door, and a guest room for quarterly parent visits.",
+      "buyers": [
+        {
+          "name": "Ananya Joshi",
+          "age": 31,
+          "role": "Operations Lead, Google (ORR Ecospace)",
+          "description": "The measured-walk mapper. She gamified the search into concentric walking-distance rings around station candidates, colored by price per sqft. Non-negotiable: a real balcony facing away from the road — 'I will not pay ₹2 crore to stare at a service lane.'",
+          "tags": [
+            "Methodical",
+            "Ring-Map Mapper",
+            "Away-Facing Balcony"
+          ],
+          "image": "/journals/the-two-badges-one-address/ananya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 31-year-old Indian professional woman named Ananya wearing smart-casual work attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly confident expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Siddharth Joshi",
+          "age": 33,
+          "role": "Principal Engineer, Intel (Marathahalli)",
+          "description": "The acceleration-noise auditor. Brought a decibel app to site visits and reads metro-adjacent acoustics papers for fun. Spent his 33rd birthday stationary near Ibblur junction for 55 minutes — the moment his commute became a thesis.",
+          "tags": [
+            "Data-Driven",
+            "Decibel App",
+            "Trains-Before-Keys"
+          ],
+          "image": "/journals/the-two-badges-one-address/siddharth.jpg",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 33-year-old Indian professional man named Siddharth wearing a casual collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly thoughtful expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Convert five years of ORR traffic into a home within a measured 800m walk of a confirmed Blue Line station — buying ahead of the line opening so both badges survive a 9:00 and a 9:30 standup in the same address.",
+      "sharedVisionImage": "/journals/the-two-badges-one-address/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a young couple standing on a high balcony at dawn, looking across the ORR airometro viaduct past a sleek metro train, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 metro train accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "DINK Double-Income"
+        },
+        {
+          "icon": "TrainFront",
+          "label": "INCOME",
+          "value": "₹95 LPA Combined"
+        },
+        {
+          "icon": "MapPinned",
+          "label": "CORRIDOR",
+          "value": "Blue Line ORR Rings"
+        },
+        {
+          "icon": "Home",
+          "label": "MAIN SEARCH",
+          "value": "2BHK Primary"
+        }
+      ],
+      "prioritiesTitle": "What matters most to them",
+      "priorities": [
+        {
+          "image": "/journals/the-two-badges-one-address/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a measured walking path with a metro pillar in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 path accent, Scandinavian minimalism, clean white background.",
+          "title": "Measured 800m Walk",
+          "scorePercentage": 10,
+          "scoreLabel": "non-negotiable",
+          "description": "The walk must be measured on foot with an app — not the marketed distance, which they've learned means 5 minutes by drone."
+        },
+        {
+          "image": "/journals/the-two-badges-one-address/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decibel meter app on a phone in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 sound-wave accent, Scandinavian minimalism, clean white background.",
+          "title": "6:30 pm Noise Test",
+          "scorePercentage": 9.5,
+          "scoreLabel": "non-negotiable",
+          "description": "Windows open, app out, weekday rush hour. Siddharth has read the metro-adjacent acoustics and refuses to pay ₹2 Cr to hear a viaduct."
+        },
+        {
+          "image": "/journals/the-two-badges-one-address/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an east-facing balcony with morning light in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 sunrise accent, Scandinavian minimalism, clean white background.",
+          "title": "Away-Facing East Balcony",
+          "scorePercentage": 9,
+          "scoreLabel": "Ananya's rule",
+          "description": "Facing away from the arterial road. 'I will not pay ₹2 crore to stare at a service lane.' Became non-negotiable after the third visit."
+        },
+        {
+          "image": "/journals/the-two-badges-one-address/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a guest bedroom with a pull-out bed in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 bed accent, Scandinavian minimalism, clean white background.",
+          "title": "Rental-Fallback Hedges",
+          "scorePercentage": 8,
+          "scoreLabel": "two-badge risk",
+          "description": "The second bedroom doubling as the parent-visit guest room, plus a rent-it-out model signed before the agreement — so one job moving across the city never makes the flat a trap."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "The commute becomes a thesis.",
+      "description": "From 4,000 donated hours of ORR traffic to a measured-walk map — and the realisation that buying ahead of the metro's opening was itself a clock they had to beat.",
+      "journeyFrameTitle": "SHORTLISTING — THE METRO CLOCK",
+      "roadmapTitle": "How they actually moved",
+      "metrics": [
+        {
+          "icon": "Zap",
+          "label": "BIGGEST LESSON",
+          "value": "Verify in Parallel"
+        },
+        {
+          "icon": "Footprints",
+          "label": "CORE THESIS",
+          "value": "800m Walk-Ring"
+        },
+        {
+          "icon": "AudioLines",
+          "label": "KEY TOOL",
+          "value": "Decibel App"
+        },
+        {
+          "icon": "TrainFront",
+          "label": "TIMELINE",
+          "value": "Buy Pre-Opening"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-ring-map-epiphany",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Measured-Walk Epiphany",
+          "desc": "Siddharth's 55 stationary minutes near Ibblur junction meets Ananya's concentric walking-rings map — the thesis is born: buy within 800 measured metres of a confirmed station.",
+          "icon": "Route",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-ring-audits",
+          "stage": "S2",
+          "type": "advance",
+          "title": "L2: Ring-by-Ring Audits",
+          "desc": "Every shortlisted tower visited at 9 am and 6:30 pm with a decibel app and a stopwatch — the map's concentric rings graded by measured walk and real noise.",
+          "icon": "AudioLines",
+          "x": 340,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-neopolis-detour",
+          "stage": "S2",
+          "type": "detour",
+          "title": "L3 DETOUR: The Neopolis Hoarding",
+          "desc": "Sobha Neopolis' Greek renders and a possession date in 2027 fail the 'trains before keys' thesis — parked with respect from the car window.",
+          "icon": "Eye",
+          "x": 590,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l4-dream-acres-leads",
+          "stage": "S3",
+          "type": "advance",
+          "title": "L4: Dream Acres Leads",
+          "desc": "Ready-stock shortlist firms: Sobha Dream Acres (Balagere) leads — measured 800m-class walk, established community, tenant liquidity for the fallback model.",
+          "icon": "Building2",
+          "x": 860,
+          "y": 90,
+          "width": 180
+        },
+        {
+          "id": "l5-lost-to-speed",
+          "stage": "S5→S3",
+          "type": "bounce",
+          "targetNodeId": "l4-dream-acres-leads",
+          "title": "L5 BOUNCE: Lost to Speed",
+          "desc": "The east-facing unit is sold while they schedule a third noise-test — someone with worse data and better speed pays token after ONE visit. Over-verification priced.",
+          "icon": "Timer",
+          "loopText": "S5 → S3 Bounce (Lost to a Faster Buyer)",
+          "x": 620,
+          "y": 420,
+          "width": 300
+        },
+        {
+          "id": "l6-parallel-protocol-close",
+          "stage": "S5→S7",
+          "type": "advance",
+          "title": "L6: The Parallel-Protocol Close",
+          "desc": "East-facing Dream Acres 2BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
+          "icon": "KeyRound",
+          "x": 220,
+          "y": 420,
+          "width": 270
+        }
+      ],
+      "timelineTitle": "The metro-clock timeline",
+      "timelineSteps": [
+        {
+          "id": "t1",
+          "label": "Mapping",
+          "icon": "MapPinned"
+        },
+        {
+          "id": "t2",
+          "label": "Auditing",
+          "icon": "AudioLines"
+        },
+        {
+          "id": "t3",
+          "label": "Shortlisting",
+          "icon": "Route"
+        },
+        {
+          "id": "t4",
+          "label": "Verifying",
+          "icon": "Timer",
+          "active": true,
+          "tag": "parallel"
+        },
+        {
+          "id": "t5",
+          "label": "Closing",
+          "icon": "KeyRound"
+        }
+      ],
+      "momentsTitle": "The moments that moved them",
+      "moments": [
+        {
+          "id": "m1",
+          "title": "The 55-Minute Birthday",
+          "desc": "Siddharth spends his 33rd birthday stationary near Ibblur junction for 55 minutes. That week, the commute stops being tolerated and becomes a thesis.",
+          "imageSrc": "/journals/the-two-badges-one-address/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a car window view of standstill ORR traffic in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 brake-light accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "m2",
+          "title": "The Concentric Rings Map",
+          "desc": "Ananya colours walking-radius rings around Bellandur, Kadubeesanahalli and Doddanekundi stations by price per sqft — the whole search rendered as one map.",
+          "imageSrc": "/journals/the-two-badges-one-address/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with concentric walking rings around metro station dots in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 ring accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "m3",
+          "title": "The 6:30 pm Decibel Reading",
+          "desc": "A rush-hour visit with windows open and the app out — the away-facing east balcony goes from preference to non-negotiable in one evening.",
+          "imageSrc": "/journals/the-two-badges-one-address/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a phone showing a decibel meter screenshot taped to a balcony railing in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 sound-wave accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "m4",
+          "title": "The 'Sold' SMS",
+          "desc": "The east-facing unit is lost mid-noise-test — a faster buyer pays token after one visit. The lesson on verification's market price lands hard.",
+          "imageSrc": "/journals/the-two-badges-one-address/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone showing a 'sold' message received during an appraisal in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 alert accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "m5",
+          "title": "The Parallel Protocol",
+          "desc": "Riya rebuilds their pipeline — documents and floor-plan orientation the same afternoon as ONE 6:30 pm visit, token the same evening. Verified, but concurrent.",
+          "imageSrc": "/journals/the-two-badges-one-address/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a build-pipeline-style checklist with parallel tracks in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 checkmark accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "voicesTitle": "Voices from the journey",
+      "quotes": [
+        {
+          "text": "Someone with worse data and better speed. And this corridor currently rewards speed.",
+          "author": "Riya"
+        },
+        {
+          "text": "Not skipping the decibel app, that's for sure. That app is why we're not living next to a service lane, na.",
+          "author": "Ananya"
+        },
+        {
+          "text": "Verified… but concurrent. Basically a build pipeline. Okay, that I can respect.",
+          "author": "Siddharth"
+        },
+        {
+          "text": "He respects it now that it's a pipeline.",
+          "author": "Ananya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Siddharth",
+          "avatar": "/journals/the-two-badges-one-address/siddharth.jpg",
+          "text": "Riya, we lost it. The east-facing one. While we were scheduling a third noise-test, someone paid token after ONE visit."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Someone with worse data and better speed. From today: documents and orientation the same afternoon, ONE 6:30 pm visit, token that evening. Verification in parallel.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Footprints",
+          "title": "Marketed vs Measured Walk",
+          "description": "'5 minutes from metro' in a brochure means 5 minutes by drone. Their measured-walk rule moved two projects out of the shortlist instantly."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Repricing Already Happened",
+          "description": "The pre-metro discount inside the rings is mostly gone — the market priced the line two years before the trains. Remaining edge is unit selection, not project selection."
+        },
+        {
+          "icon": "Timer",
+          "title": "Over-verification Has a Price",
+          "description": "The flat lost to a faster buyer taught them that diligence in series costs the exact flats the diligence selects. Parallel or not at all."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Two-Badge Concentration Risk",
+          "description": "Two tech incomes make the EMI easy and the risk real — the rental-fallback model signed before the agreement is what makes a single-commute flat survivable."
+        },
+        {
+          "icon": "TrainFront",
+          "title": "The Metro-Timeline Bet",
+          "description": "They're buying the metro before it runs. Their position on a two-year delay was computed as 'annoyed, not financially strained' — which is exactly how a hedge should feel."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-two-badges-one-address.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Within measured 800m walk-rings around the confirmed Blue Line ORR stations — buying ahead of the opening, at the top of a market that already repriced for the trains.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Metro Walk-Ring 2BHK"
+        },
+        {
+          "icon": "Footprints",
+          "label": "CORE FILTER",
+          "value": "Measured 800m Walk"
+        },
+        {
+          "icon": "Timer",
+          "label": "LOST TO SPEED",
+          "value": "1 Unit"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Dream Acres 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "The metro walk-rings they explored",
+      "exploredAreas": [
+        {
+          "title": "Bellandur Ring",
+          "description": "Kadubeesanahalli/Doddanekundi-adjacent Blue Line stock — dense and noisy, but the true walk-ring; ₹16–19K/sqft at the top of the band.",
+          "projects": 4,
+          "siteVisits": 7,
+          "imageSrc": "/journals/the-two-badges-one-address/bellandur-ring.png",
+          "imagegenerationprompt": "A modern architectural vector render of the Bellandur metro-walk ring with a station viaduct in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 metro accent, Scandinavian minimalism, soft ambient lighting, clean white background.",
+          "latlong": {
+            "lat": 12.9323173,
+            "lng": 77.6542338
+          }
+        },
+        {
+          "title": "Kadubeesanahalli Ring",
+          "description": "The ORR office hub ring — walkable towers near Ecospace/Intel-side traffic, graded by 9 am and 6:30 pm noise and measured walk.",
+          "projects": 3,
+          "siteVisits": 6,
+          "imageSrc": "/journals/the-two-badges-one-address/kadubeesanahalli-ring.png",
+          "imagegenerationprompt": "A modern architectural vector render of the Kadubeesanahalli metro ring around an office cluster in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 station accent, Scandinavian minimalism, clean white background.",
+          "latlong": {
+            "lat": 12.9393441,
+            "lng": 77.6865399
+          }
+        },
+        {
+          "title": "Doddanekundi Ring",
+          "description": "The northern ring of the ORR stretch — quieter fringes starting at ~1.6 km, but inside the true walk-ring the density is what it is.",
+          "projects": 3,
+          "siteVisits": 5,
+          "imageSrc": "/journals/the-two-badges-one-address/doddanekundi-ring.png",
+          "imagegenerationprompt": "A modern architectural vector render of the Doddanekundi metro ring with quieter residential lanes in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tree accent, Scandinavian minimalism, clean white background.",
+          "latlong": {
+            "lat": 12.9730404,
+            "lng": 77.6898327
+          }
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Balagere–Panathur (Dream Acres) · Kasavanahalli (Shriram Chirping Woods benchmark) · Panathur (the Neopolis hoarding detour)",
+      "filtersTitle": "The Cost of Searching",
+      "filters": [
+        {
+          "icon": "Footprints",
+          "title": "Measured 800m Walk",
+          "value": "on foot, with an app",
+          "description": "Marketed distances mean 5 minutes by drone — every shortlisted project had its walk measured at 9 am and re-graded."
+        },
+        {
+          "icon": "AudioLines",
+          "title": "6:30 pm Decibel Test",
+          "value": "windows open",
+          "description": "One rush-hour visit with the app out beat four sales-office hours; the away-facing balcony became non-negotiable."
+        },
+        {
+          "icon": "Building2",
+          "title": "Tier-1 Builder",
+          "value": "OC or ≤12 months",
+          "description": "Nearing-possession primary stock carried a ₹150–200/sqft premium — and removed exactly the risk their two-badge life couldn't absorb."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Rental-Fallback Model",
+          "value": "signed first",
+          "description": "The rent-it-out math was signed before the agreement — job-change displacement never becomes a golden handcuff."
+        }
+      ],
+      "filtersFooterLabel": "They measured everything and lost a flat to measuring; the recalibration — verify in parallel, not in series — became the journey's most transferable lesson.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“They're buying the metro before it runs, and they've done the maths twice — once for the upside, once for the timeline risk. Two badges, one address sounds romantic until you price the concentration. Their superpower wasn't the decibel app; it was writing the job-change scenario down and discovering the flat stays a keepable asset at a 3–3.5% rental yield. That's the permission to buy.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait photo of Riya AI real estate guide in an 80% greyscale monochrome outfit with a Warm Coral #FF8A65 digital tablet accent, Scandinavian minimalism, soft ambient studio rim lighting, clean pearl white background."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "The towers they weighed.",
+      "description": "Weighing ready-stock and nearing-possession towers inside the metro walk-rings — measured walk, rush-hour noise, and the two-badge rental fallback every candidate had to survive.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Metro Walk-Ring 2BHK"
+        },
+        {
+          "icon": "Building2",
+          "label": "EVALUATED STOCK",
+          "value": "3 Projects"
+        },
+        {
+          "icon": "Timer",
+          "label": "THE SPEED LOSS",
+          "value": "1 Unit Bounce"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Dream Acres 2BHK"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Footprints",
+          "title": "Measured 800m walk",
+          "subtitle": "not marketed distance"
+        },
+        {
+          "icon": "AudioLines",
+          "title": "6:30 pm quiet",
+          "subtitle": "away-facing balcony"
+        },
+        {
+          "icon": "Building2",
+          "title": "Tier-1 certainty",
+          "subtitle": "OC or ≤12 months"
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Rental fallback",
+          "subtitle": "signed first"
+        },
+        {
+          "icon": "Timer",
+          "title": "Parallel verification",
+          "subtitle": "the speed fix"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ananya",
+          "avatar": "/journals/the-two-badges-one-address/ananya.png",
+          "text": "We weren't buying a flat — we were buying the walk to a train we can't ride yet."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And you priced that bet twice — the upside and the two-year-late scenario — before one token moved. That's the whole difference.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the conclusion (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-two-badges-one-address/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the ORR metro corridor from Bellandur to Doddanekundi in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 metro-station pin markers and walking rings, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they evaluated",
+      "projectsCountBadge": "3",
+      "projects": [
+        {
+          "title": "The Chosen Home",
+          "name": "Sobha Dream Acres",
+          "price": "2BHK ₹2.23–2.56 Cr",
+          "possession": "Ready / ≤12 months",
+          "psf": "₹12,750–13,150/sqft (Q1'26)",
+          "location": "Balagere–Panathur",
+          "imageSrc": "/journals/the-two-badges-one-address/projects/Sobha-Dream-Acres.webp",
+          "latlong": {
+            "lat": 12.9391,
+            "lng": 77.7376
+          }
+        },
+        {
+          "title": "The Hoarding Detour",
+          "name": "Sobha Neopolis",
+          "price": "2BHK ₹2.3–2.72 Cr",
+          "possession": "2027 (post-thesis)",
+          "psf": "~₹15,600/sqft",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-two-badges-one-address/projects/Sobha-Neopolis.png",
+          "latlong": {
+            "lat": 12.9385408,
+            "lng": 77.7081414
+          }
+        },
+        {
+          "title": "The Benchmark Visit",
+          "name": "Shriram Chirping Woods",
+          "price": "2BHK from ~₹1.39 Cr",
+          "possession": "Ready community",
+          "psf": "Established walk-ring",
+          "location": "Kasavanahalli",
+          "imageSrc": "/journals/the-two-badges-one-address/projects/Shriram-Chirping-Woods.jpg",
+          "latlong": {
+            "lat": 12.9082331,
+            "lng": 77.6602108
+          }
+        }
+      ],
+      "rejectedTitle": "Why these were rejected",
+      "rejectedReasons": [
+        {
+          "icon": "Timer",
+          "title": "Lost to speed",
+          "reason": "The east-facing unit at Dream Acres sold while they scheduled a third noise-test — someone with worse data and better speed paid token after one visit. The parallel protocol was born that week."
+        },
+        {
+          "icon": "Clock",
+          "title": "Possession after trains",
+          "reason": "Neopolis' 2027 possession failed the 'trains before keys' thesis — buying ahead of the opening is the point, and the clock only runs one way."
+        },
+        {
+          "icon": "Footprints",
+          "title": "Marketed vs measured walk",
+          "reason": "Two projects quoted a '5 minutes from metro' that their measured-walk rule moved out of the shortlist — brochure distance means 5 minutes by drone."
+        }
+      ],
+      "suggestionTitle": "What they'd suggest to other metro-movers",
+      "suggestionDescription": "Measure the walk on foot; visit once at 6:30 pm with the windows open; and sign the rental-fallback maths before you sign the agreement. Then verify in parallel — documents and orientation the same afternoon as a single visit — because this corridor rewards speed, and diligence in series costs you the exact flat your diligence selects.",
+      "suggestionImageSrc": "/journals/the-two-badges-one-address/suggestion.png",
+      "imagegenerationprompt": "A 3D vector illustration of a metro map with walking rings and a key icon in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 key accent, Scandinavian minimalism, clean white background."
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this metro-clock journey teaches us.",
+      "description": "Key takeaways for transit-first professional couples — measure the walk, time the noise, sign the fallback, and verify in parallel before this corridor rewards someone faster.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Verify in Parallel"
+        },
+        {
+          "icon": "Footprints",
+          "label": "BIGGEST WIN",
+          "value": "Measured 800m Walk"
+        },
+        {
+          "icon": "Timer",
+          "label": "BIGGEST MISTAKE",
+          "value": "Diligence in Series"
+        },
+        {
+          "icon": "Briefcase",
+          "label": "BIGGEST PRIORITY",
+          "value": "Rental-Fallback Math"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Measure the walk on foot.",
+          "description": "'5 minutes from metro' in a brochure means 5 minutes by drone — their measured-walk rule moved two projects out of the shortlist and their respect for marketing to zero.",
+          "imageSrc": "/journals/the-two-badges-one-address/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a measured walking route with a stopwatch in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 path accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Time the noise at 6:30 pm.",
+          "description": "One rush-hour visit with windows open and the app out taught them more than four sales-office hours — the away-facing east balcony became non-negotiable.",
+          "imageSrc": "/journals/the-two-badges-one-address/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decibel meter app and an evening balcony in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 sound-wave accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "The pre-metro discount is a memory.",
+          "description": "Inside the rings, the market already repriced the line two years before the trains — the remaining edge is unit selection, not project selection.",
+          "imageSrc": "/journals/the-two-badges-one-address/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a rising price-per-sqft curve beside a metro viaduct in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 trend accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Price the two-badge risk first.",
+          "description": "Writing the job-change scenario down showed the flat keeps a 3–3.5% rental yield if one badge moves — the math holding up was the real permission to buy.",
+          "imageSrc": "/journals/the-two-badges-one-address/lesson-4.png",
+          "imagegenerationprompt": "A vector illustration of a laptop with a rent-vs-keep optimisation table in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 number accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Footprints",
+          "text": "'5 minutes from metro' in a brochure is good enough"
+        },
+        {
+          "icon": "AudioLines",
+          "text": "A lunch-hour site visit reveals the real noise"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The launch discount in the rings is still there to buy"
+        },
+        {
+          "icon": "Route",
+          "text": "One great office commute is enough to anchor a flat"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Footprints",
+          "text": "Measure the 800m on foot with an app — both of them"
+        },
+        {
+          "icon": "AudioLines",
+          "text": "The 6:30 pm open-window decibel test is the only test"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The repricing happened; the edge is unit selection now"
+        },
+        {
+          "icon": "Briefcase",
+          "text": "Sign the rental-fallback model before the agreement"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Timer",
+          "title": "Parallelise from day one",
+          "description": "Diligence in series cost them one flat; the parallel protocol should have been the default from the first shortlist."
+        },
+        {
+          "icon": "Footprints",
+          "title": "Carry the measuring app always",
+          "description": "They wished they'd ranked every project by measured-walk minutes from the very first drive past, not just the finalists."
+        },
+        {
+          "icon": "AudioLines",
+          "title": "Book the 6:30 pm slot in advance",
+          "description": "Rush-hour visits book out; the project that got away was lost partly to a visit schedule that could have been tighter."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Model the fallback earlier",
+          "description": "The rental math was signed in month five — had it been month one, the lost unit's hesitation wouldn't have existed."
+        },
+        {
+          "icon": "BadgeCheck",
+          "title": "Decide the token threshold up front",
+          "description": "Knowing the exact token amount and what it buys (a 48-hour hold) would have let them move the same evening with zero doubt."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Ananya",
+          "avatar": "/journals/the-two-badges-one-address/ananya.png",
+          "text": "We beat the metro to the station and paid top of band for the privilege. Still the right call, na?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The right call isn't about one rupee; it's about the walk you take every day and the fallback that keeps it yours. Two badges, one address — finally one platform.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the full reflection (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for transit-first professional couples",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A horizontal 4-panel storyboard illustration of a metro-move in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 focal highlights on the rings map, decibel screenshot, 'sold' SMS and evening token receipt, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For DINK couples buying ahead of infrastructure, the edge is not conviction — it's the protocol that makes conviction safe. Measure the walk on foot, time the noise at rush hour, write down the job-change scenario, and verify in parallel. Buy the walk you'll take daily, not the one some render promises.",
+      "monthlyLearningsTitle": "How their month-by-month journey unfolded",
+      "monthlyLearnings": [
+        {
+          "month": "Month 1",
+          "title": "The thesis is born",
+          "description": "Siddharth's 55 stationary minutes near Ibblur meet Ananya's concentric-ring map — buying within a measured 800m walk of a confirmed station becomes the whole brief."
+        },
+        {
+          "month": "Month 2",
+          "title": "The '5 minutes by drone' reveal",
+          "description": "The measured-walk rule moves two brochure-marvel projects out of the shortlist — and turns their respect for marketing to zero."
+        },
+        {
+          "month": "Month 3",
+          "title": "The 6:30 pm conversion",
+          "description": "One rush-hour visit with windows open elevates the away-facing east balcony from preference to non-negotiable."
+        },
+        {
+          "month": "Month 5",
+          "title": "The speed-loss wake-up",
+          "description": "The east-facing unit goes to a faster buyer mid-noise-test — the parallel verification protocol is written that week."
+        },
+        {
+          "month": "Month 6",
+          "title": "The premium becomes the point",
+          "description": "They stop mourning launch prices: the ₹150–200/sqft nearing-possession premium removes exactly the risk a two-badge life can't absorb."
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If your home search is a commute equation with a kitchen attached, let Riya map your metro walk-rings and stress-test the two-badge math before one token moves.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You",
+          "description": "Share both office locations, the stations you can realistically walk from, and your rental-fallback tolerance.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya listens",
+          "description": "She maps measured 800m walk-rings and filters tier-1 projects with near-possession dates inside them.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your personalised metro-clock journal tracks each candidate's measured walk, 6:30 pm noise, and possession against the line opening.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Clear recommendations",
+          "description": "Receive verified candidates, the rent-it-out fallback math, and a parallel verification protocol that keeps you fast and thorough.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What a metro-clock journal gets you",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Measured 800m walk-rings",
+          "description": "Station-by-station walkability audits with measured routes — never a brochure distance.",
+          "icon": "Footprints"
+        },
+        {
+          "id": 2,
+          "title": "6:30 pm noise field reports",
+          "description": "Real rush-hour decibel tests on away-facing balconies, so you never pay ₹2 Cr to hear a viaduct.",
+          "icon": "AudioLines"
+        },
+        {
+          "id": 3,
+          "title": "Two-badge stress-test",
+          "description": "The rent-it-out and keep-it math if one job moves across the city or goes remote — signed before you bid.",
+          "icon": "Briefcase"
+        },
+        {
+          "id": 4,
+          "title": "Metro-construction tracker",
+          "description": "Blue Line milestones vs your possession date — so the thesis clock never slips the timing by surprise.",
+          "icon": "TrainFront"
+        },
+        {
+          "id": 5,
+          "title": "Your personal journal",
+          "description": "A precise, data-loving record of the walk, the noise, and the decision — lightly caffeinated, as it should be.",
+          "icon": "BookOpen"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your home search is, honestly, a commute equation with a kitchen attached.",
+        "You've measured walking distances to metro pillars on foot, with an app, at 9 am.",
+        "You're buying ahead of an infrastructure opening and you know both the upside and the timeline risk.",
+        "Two tech incomes make the EMI easy and the concentration risk real — you've priced both.",
+        "A hedge bedroom for parents/future is worth real money to you, even if you avoid saying for what exactly.",
+        "You bring a decibel app to site visits and you're not embarrassed about it."
+      ],
+      "blankTitle": "This page is still blank.",
+      "blankDescription": "Begin your conversation with Riya to build your metro-clock roadmap — measured walk-rings, rush-hour noise, and the two-badge fallback you'll price before you bid.",
+      "blankActionText": "Let's plot the rings together.",
+      "blankImageSrc": "/journals/the-two-badges-one-address/open-metro-map-illustration.png",
+      "blankImagePrompt": "A 3D vector illustration of an open metro map with a walking-ring sticker in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 station accent, Scandinavian minimalism, clean white background.",
+      "ctaTitle": "Ready to buy the walk, not the render?",
+      "ctaDescription": "Let Riya shortlist metro-adjacent tier-1 towers, time the 6:30 pm noise, and keep your two-badge life a single address instead of a golden handcuff.",
+      "ctaButtonText": "Copy Journal",
+      "ctaCharacterImage": "/journals/the-two-badges-one-address/riya-full-character.png",
+      "ctaCharacterImagePrompt": "A full-length character illustration of Riya the AI real estate guide in an 80% greyscale monochrome suit holding a rolled metro map with a Warm Coral #FF8A65 station-pin accent, Scandinavian minimalism, clean studio backdrop."
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-ring-map-epiphany",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Measured-Walk Epiphany",
+      "desc": "Siddharth's 55 stationary minutes near Ibblur junction meets Ananya's concentric walking-rings map — the thesis is born: buy within 800 measured metres of a confirmed station.",
+      "icon": "Route",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-ring-audits",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: Ring-by-Ring Audits",
+      "desc": "Every shortlisted tower visited at 9 am and 6:30 pm with a decibel app and a stopwatch — the map's concentric rings graded by measured walk and real noise.",
+      "icon": "AudioLines",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-neopolis-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Neopolis Hoarding",
+      "desc": "Sobha Neopolis' Greek renders and a possession date in 2027 fail the 'trains before keys' thesis — parked with respect from the car window.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "l4-dream-acres-leads",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Dream Acres Leads",
+      "desc": "Ready-stock shortlist firms: Sobha Dream Acres (Balagere) leads — measured 800m-class walk, established community, tenant liquidity for the fallback model.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l5-lost-to-speed",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l4-dream-acres-leads",
+      "title": "L5 BOUNCE: Lost to Speed",
+      "desc": "The east-facing unit is sold while they schedule a third noise-test — someone with worse data and better speed pays token after ONE visit. Over-verification priced.",
+      "icon": "Timer",
+      "loopText": "S5 → S3 Bounce (Lost to a Faster Buyer)",
+      "x": 620,
+      "y": 420,
+      "width": 190
+    },
+    {
+      "id": "l6-parallel-protocol-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Parallel-Protocol Close",
+      "desc": "East-facing Dream Acres 2BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
+      "icon": "KeyRound",
+      "x": 120,
+      "y": 420,
+      "width": 180
+    }
+  ]
+}

@@ -1,0 +1,942 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "MULTIGENERATIONAL",
+      "BANNERGHATTA–HULIMAVU"
+    ],
+    "title": "The Three Generations, One Roof Journal",
+    "description": "Rajesh (44, IT services delivery head) & Sunita Pillai's (42, school counselor) multigenerational hunt — a dual-master decoder, a 2 am hospital-drive test, Amma's own answer, and a ₹75L contribution structured with a registered share.",
+    "quote": "\"A house where Amma never has to climb, and the kids never have to whisper.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "HeartPulse",
+        "text": "The 2 am hospital drive is the only amenity at 2 am"
+      },
+      {
+        "icon": "Sunrise",
+        "text": "Ask the elder alone — Amma chose the east-window room"
+      },
+      {
+        "icon": "Scale",
+        "text": "'Keep my name somewhere' became a registered share"
+      }
+    ],
+    "heroImage": "/journals/cover/22.png",
+    "heroTitle": "The Three Generations, One Roof Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Rajesh (44, delivery head at an IT services major) & Sunita Pillai (42, school counselor) — two kids, Rajesh's 71-year-old mother moving in from Kochi after his father's passing, and a flat hunt that is really a hunt for an architecture of dignity: hers, theirs, and the teenagers'.",
+      "buyers": [
+        {
+          "name": "Rajesh Pillai",
+          "age": 44,
+          "role": "Delivery Head, IT Services Major",
+          "description": "Owns the deed structuring and the Chennai sister call he's been scheduling around. Learned the hardest way that proximity without design becomes friction — the 4:50 am kitchen wars made him a floor-plan convert.",
+          "tags": [
+            "Floor-Plan Convert",
+            "Deed Structurer",
+            "Saturday-Call Owner"
+          ],
+          "image": "/journals/the-three-generations-one-roof/rajesh.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 44-year-old South Indian man named Rajesh wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, steady caring expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Sunita Pillai",
+          "age": 42,
+          "role": "School Counselor",
+          "description": "The household's unpaid diplomat who decided to stop being one — runs the dual-master decoder and the elder-checklist, and delivered the journal's central insight: ask Amma alone.",
+          "tags": [
+            "Former Diplomat",
+            "Decoder Builder",
+            "Elder-Checklist Keeper"
+          ],
+          "image": "/journals/the-three-generations-one-roof/sunita.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 42-year-old South Indian woman named Sunita wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm perceptive expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Find the rare floor plan that houses three generations with dignity — a ground-floor-equivalent master for Amma (walker-width doors, grab-rail-ready bath, garden access), a kitchen two strong-willed cooks can share or split, acoustic separation between 4:50 am and 11 pm, and a serious hospital within a timed 2 am drive.",
+      "sharedVisionImage": "/journals/the-three-generations-one-roof/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a three-storey home cutaway at evening — grandmother watering a curry-leaf plant on a ground-floor garden patio, parents cooking in a warm kitchen, a teenager's room glowing upstairs, a lift shaft drawn like a gentle spine through the house, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the ground-floor patio, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Sandwich Generation"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "3 Generations, 1 Roof"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6–9 Months — Knee Recovery"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-three-generations-one-roof/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a ground-floor master bedroom floor plan with walker-width doors and grab-rail marks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the door width, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Ground-Floor-Equivalent Master",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Near the entrance, anti-skid bath, grab-rail-ready, walker-width doors — a room designed for Amma's knees, not a guest room renamed."
+        },
+        {
+          "image": "/journals/the-three-generations-one-roof/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a car dashboard clock showing 2 am beside a hospital entrance sign, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clock, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "2 am Hospital Drive, Timed",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "They've already done one 2 am drive and measured it the only way that matters — every finalist gets the red-cross gate at 2 am, speed-breaker reality included."
+        },
+        {
+          "image": "/journals/the-three-generations-one-roof/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two lift shafts with a redundancy badge, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the badge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Lift Redundancy",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "A single lift in maintenance is a staircase for a walker — two lifts minimum is not a luxury, it's a dignity requirement."
+        },
+        {
+          "image": "/journals/the-three-generations-one-roof/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a curry-leaf plant in a pot on a balcony with morning light, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the plant, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Curry-Leaf Balcony",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Not sentiment — Amma's garden instinct is her independence infrastructure, and the east window with garden access was the variable the family had optimized wrong."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From six months of 4:50 am kitchen wars to a dual-master decoder, a stairs-vs-knees villament detour, and Amma's own answer re-routing the entire braid.",
+      "journeyFrameTitle": "THREE LANES, ONE BRAID",
+      "roadmapTitle": "How a sandwich-generation family found the architecture of dignity",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Aqua Vista"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.64 Cr + ₹75L Structured"
+        },
+        {
+          "icon": "HeartPulse",
+          "label": "THE 2 AM GATE",
+          "value": "Hospital Drive, Timed"
+        },
+        {
+          "icon": "Sunrise",
+          "label": "AMMA'S ANSWER",
+          "value": "East Window, Not Bigger Room"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-friction-audit",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Friction Audit",
+          "desc": "Six months of Amma-adjustment converts 'someday' into a floor-plan hunt; the 2 am hospital drive is timed and logged. The kitchen photo says it all.",
+          "icon": "Home",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-dual-master-decoder",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Dual-Master Decoder",
+          "desc": "Entrance proximity, walker-width doors, bath-rail readiness, acoustic separation — six brochures graded against the decoder card, four failing.",
+          "icon": "ClipboardList",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-villament-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Villament's Stairs",
+          "desc": "Valmark Cityville's duplex format seduces with space — stairs-vs-knees reality ends it in one visit, a knee X-ray clipped beside the stair section.",
+          "icon": "ArrowUpDown",
+          "x": 540,
+          "y": 50,
+          "width": 190
+        },
+        {
+          "id": "l4-two-finalists",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Two Finalists on the Table",
+          "desc": "Aqua Vista (ready 3BHK 2,209 sqft, ₹2.64 Cr) vs Windchimes (1,800–2,800 sqft, ₹2–3.6 Cr) — plans spread on the dining table, Amma's glasses on one.",
+          "icon": "Building2",
+          "x": 360,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "l5-ammas-own-answer",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: Amma's Own Answer",
+          "desc": "Asked alone and unhurried, Amma chooses the smaller east-window room with garden access — the family had optimized the wrong variable for a month.",
+          "icon": "Sunrise",
+          "loopText": "~4-Week Wrong-Optimization — Amma's Answer Re-Routes",
+          "x": 740,
+          "y": 360,
+          "width": 200
+        },
+        {
+          "id": "l6-aqua-vista-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Registered-Share Close",
+          "desc": "Aqua Vista closed; Amma's ₹75L structured with a registered share and a succession note; the Chennai call afterwards — 47 minutes, ending well.",
+          "icon": "KeyRound",
+          "x": 800,
+          "y": 70,
+          "width": 290
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "decoding",
+          "label": "Decoding",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Building2"
+        },
+        {
+          "id": "asking",
+          "label": "Asking Amma",
+          "icon": "Sunrise"
+        },
+        {
+          "id": "structuring",
+          "label": "Structuring",
+          "icon": "Scale"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Three Lanes, One Roof"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "kitchen-photo-moment",
+          "title": "The 4:50 am kitchen",
+          "desc": "A kitchen photo: two generations awake, one door firmly shut — the six-month friction audit compressed into one frame that ended 'someday.'",
+          "imageSrc": "/journals/the-three-generations-one-roof/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a dawn kitchen with two generations silhouetted at the counter and one closed bedroom door in the background, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the closed door, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "decoder-card-moment",
+          "title": "The decoder card with four fails",
+          "desc": "The dual-master decoder — entrance proximity, walker-width doors, bath rails, acoustics — checked against six brochures; four failed the card in a single evening.",
+          "imageSrc": "/journals/the-three-generations-one-roof/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a checklist card with four of six brochure entries marked fail, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the fail marks, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "knee-xray-moment",
+          "title": "The stair section with the knee X-ray",
+          "desc": "The villament's stair section with a knee X-ray clipped beside it — case closed, respectfully, in one visit. Stairs-vs-knees is not a negotiation.",
+          "imageSrc": "/journals/the-three-generations-one-roof/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a duplex stair section drawing with a knee X-ray clipped beside it and a small 'case closed' stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the X-ray, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "ammas-glasses-moment",
+          "title": "Amma's glasses on the winning plan",
+          "desc": "Two finalists' plans on the dining table, Amma's reading glasses resting on one — the east-window Aqua Vista plan she'd already chosen, alone, before the family knew the question.",
+          "imageSrc": "/journals/the-three-generations-one-roof/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of two floor plans on a dining table with a pair of reading glasses resting on one and a circle drawn around an east-facing window, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the circled window, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "chennai-call-moment",
+          "title": "The 47-minute call log",
+          "desc": "The registered-share deed note and one Chennai call log — 47 minutes, ending well. Paper, it turns out, protects love; the call made it true.",
+          "imageSrc": "/journals/the-three-generations-one-roof/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a phone call log showing a 47-minute call beside a registered-share deed note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the call duration, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "A house where Amma never has to climb, and the kids never have to whisper.",
+          "author": "— Rajesh & Sunita"
+        },
+        {
+          "text": "Mone, big room with no morning sun is a hotel. I've finished with hotels.",
+          "author": "— Amma"
+        },
+        {
+          "text": "Paper protects love, Rajesh. It's the kindest call you'll make this year.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Best of everything — they hear my TV less, I hear their fights less.",
+          "author": "— A grandmother they toured"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Sunita",
+          "avatar": "/journals/the-three-generations-one-roof/sunita.png",
+          "text": "Riya, we owe you one apology. A whole month we fought over which flat has the biggest 'mother-in-law master bedroom.' Then you said 'ask Amma alone' — and she chose the smaller room, the east one, with the window and the garden path."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then Aqua Vista has answered the question the brochures couldn't. Now the part families skip because it feels unlucky — the money. Amma's seventy-five lakhs: a registered share with a written note, and your sister hears it from you before the registration date. Alle?",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "HeartPulse",
+          "title": "The 2 am Hospital Gate",
+          "description": "The only amenity that matters at 2 am — timed from every finalist at speed-breaker reality. The project nearest on the map was farthest in practice, twice."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Dual-Master Decoder",
+          "description": "'Dual master' spans everything from a true ground-floor-equivalent suite to a larger guest room — entrance proximity, bath rails, walker-width doors, acoustics sorted them."
+        },
+        {
+          "icon": "Sunrise",
+          "title": "Amma's Own Answer",
+          "description": "Asked alone and unhurried, Amma chose the smaller east-window room over the larger master — the family had been solving the wrong optimization for a month."
+        },
+        {
+          "icon": "Scale",
+          "title": "Her Money, Her Name",
+          "description": "'Keep my name somewhere' means equity, memory or insurance — the deed structure differs for each. The registered share with a succession note answered all three."
+        },
+        {
+          "icon": "Users",
+          "title": "Integration vs Proximity",
+          "description": "The two-flats-in-one-community option moved from betrayal to shortlist after touring one — the grandmother's verdict: 'Best of everything.'"
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-three-generations-one-roof.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating ready projects in the Bannerghatta–Hulimavu hospital corridor — three hospitals within 5 km, dual-master floor plans graded against the decoder card, and every finalist run through the 2 am gate.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Multigen 3.5–4BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Bannerghatta–Hulimavu • JP Nagar"
+        },
+        {
+          "icon": "HeartPulse",
+          "label": "THE 2 AM GATE",
+          "value": "Hospital Drive, Timed Twice"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Aqua Vista 3BHK"
+        }
+      ],
+      "exploredAreasTitle": "The hospital corridor they explored",
+      "exploredAreas": [
+        {
+          "title": "Bannerghatta–Hulimavu (Chosen)",
+          "description": "The hospital corridor — three serious hospitals within 5 km, dual-master floor plans clustered in newer projects, priced at ₹13–16K/sqft.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.8816,
+            "lng": 77.6006
+          },
+          "imageSrc": "/journals/the-three-generations-one-roof/bannerghatta-hulimavu.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Bannerghatta–Hulimavu corridor with hospital signs and newer residential towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "JP Nagar 7th–8th Phase",
+          "description": "The established alternative — mature infrastructure and hospital access, weighed against newer dual-master inventory at the corridor's upper band.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8897102,
+            "lng": 77.5574752
+          },
+          "imageSrc": "/journals/the-three-generations-one-roof/jp-nagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of JP Nagar 7th–8th Phase's mature residential avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hulimavu Core",
+          "description": "The corridor's densest medical geography — where the villament detour lived and where the hospital radius is tightest, at the cost of the quietest streets.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.872893,
+            "lng": 77.5934705
+          },
+          "imageSrc": "/journals/the-three-generations-one-roof/hulimavu.png",
+          "imagegenerationprompt": "A modern architectural vector view of Hulimavu's dense residential core near hospital corridors, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Bannerghatta Rd fringe (hospital belt, longer school geometry) • the villament duplex detour (stairs-vs-knees, respectfully closed)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "PROXIMITY WITHOUT DESIGN",
+          "value": "The 4:50 am Kitchen Wars",
+          "description": "Six months of Amma-adjustment taught the family that a room without design becomes friction — the kitchen photo that ended 'someday.'",
+          "icon": "Home"
+        },
+        {
+          "title": "BROCHURE 'DUAL MASTER' GAMES",
+          "value": "4 of 6 Failed the Decoder",
+          "description": "The phrase spans a true ground-floor suite to a renamed guest room — the decoder card sorted them in one evening.",
+          "icon": "ClipboardList"
+        },
+        {
+          "title": "THE MAP LIES AT 2 AM",
+          "value": "Speed-Breaker Reality",
+          "description": "The project nearest the hospital on the map was farthest at 2 am reality — the drive test re-ranked the shortlist twice.",
+          "icon": "HeartPulse"
+        },
+        {
+          "title": "THE UNSAID TWO-FLATS OPTION",
+          "value": "Betrayal, or Wisdom?",
+          "description": "Two flats 200 metres apart might preserve more love per square foot — saying it aloud felt like betrayal until a grandmother's verdict moved it to shortlist.",
+          "icon": "Users"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for ground-floor-equivalent dignity, a 2 am hospital gate, lift redundancy, visible grey heads, and a curry-leaf balcony — amenities no brochure lists.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Pillais taught me the sandwich-generation buyer's real instrument: not the floor plan, but who gets consulted. They spent a month optimizing 'biggest mother-in-law master' — and Amma, asked alone and unhurried, chose the smaller east-window room with the garden path. 'Big room with no morning sun is a hotel,' she said. The family had been solving the wrong optimization, and the correction came from the one person the process had designed around without ever asking. The hospital corridor was chosen with a stopwatch at 2 am; the ₹75L was structured as a registered share with a succession note; and the Chennai call — the one everyone had scheduled around — lasted 47 minutes and ended well. Paper protects love. The call made it true.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a dual-master decoder card beside a 2 am hospital drive log, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing ready projects in the hospital corridor — dual-master floor plans graded against the decoder, the 2 am gate applied to every finalist, and one villament detour closed respectfully.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Multigen 3.5–4BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Aqua Vista 3BHK"
+        },
+        {
+          "icon": "Sunrise",
+          "label": "THE DECIDING VARIABLE",
+          "value": "Amma's East Window"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.64 Cr + ₹75L Registered Share"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "HeartPulse",
+          "title": "Hospital Corridor",
+          "subtitle": "3 hospitals in 5 km"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Dual-Master Decoder",
+          "subtitle": "rails • widths • acoustics"
+        },
+        {
+          "icon": "ArrowUpDown",
+          "title": "No Stairs for Knees",
+          "subtitle": "ground-floor-equivalent only"
+        },
+        {
+          "icon": "Sunrise",
+          "title": "East Window, Garden Access",
+          "subtitle": "Amma's own answer"
+        },
+        {
+          "icon": "Scale",
+          "title": "Registered-Share Structure",
+          "subtitle": "her ₹75L, her name on it"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Rajesh",
+          "avatar": "/journals/the-three-generations-one-roof/rajesh.png",
+          "text": "She chose the smaller room, Riya. 'Big room with no morning sun is a hotel. I've finished with hotels.' A month of our arguing, undone by one east window."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the whole lesson of this journal — the person you're designing for was the last one consulted. Aqua Vista answered the question the brochures couldn't. Now the deed gets her name in it.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-three-generations-one-roof/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Bannerghatta–Hulimavu and JP Nagar hospital corridor with 2 am drive-time rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Sattva Aqua Vista (Chosen)",
+          "name": "Sattva Aqua Vista",
+          "price": "₹2.64 Cr",
+          "possession": "Ready",
+          "psf": "3BHK, 2,209 sqft",
+          "location": "Bannerghatta Rd",
+          "imageSrc": "/journals/the-three-generations-one-roof/projects/Sattva-Aqua-Vista.jpeg"
+        },
+        {
+          "title": "The Finalist Two",
+          "name": "Mahindra Windchimes",
+          "price": "₹2–3.6 Cr",
+          "possession": "Ready",
+          "psf": "3–4BHK, 1,800–2,800 sqft",
+          "location": "Bannerghatta Rd (near Hulimavu)",
+          "imageSrc": "/journals/the-three-generations-one-roof/projects/Mahindra-Windchimes.webp"
+        },
+        {
+          "title": "The Villament Detour",
+          "name": "Valmark Cityville",
+          "price": "₹3–5.5 Cr",
+          "possession": "Ready",
+          "psf": "3BHK duplex–4BHK triplex",
+          "location": "Hulimavu",
+          "imageSrc": "/journals/the-three-generations-one-roof/projects/Valmark-Cityville.webp"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ArrowUpDown",
+          "title": "Stairs-vs-Knees Reality",
+          "count": "1 villament, closed respectfully"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Failed the Dual-Master Decoder",
+          "count": "4 of 6 brochures graded fail"
+        },
+        {
+          "icon": "HeartPulse",
+          "title": "Failed the 2 am Hospital Gate",
+          "count": "2 projects re-ranked by speed-breaker reality"
+        },
+        {
+          "icon": "Sunrise",
+          "title": "Wrong-Optimization Floor Plans",
+          "count": "every 'biggest room' plan Amma never asked for"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Aqua Vista 3BHK at ₹2.64 Cr delivered the hospital corridor's 2 am gate, a genuine ground-floor-equivalent master that passed the decoder, and the east-window room Amma herself chose. Her ₹75L was structured as a registered share with a succession note — her name kept somewhere — and the Chennai call that everyone had scheduled around lasted 47 minutes and ended well.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for sandwich-generation buyers — the decoder card, the 2 am gate, Amma's own answer, and the registered-share structure that protects love.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Ask the Elder Alone"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The 2 am Hospital Gate"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Wrong Optimization"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Paper That Protects Love"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "'Dual master' needs a decoder, not a brochure.",
+          "description": "The phrase spans everything from a true ground-floor-equivalent suite to a slightly larger guest room — entrance proximity, bath rails, walker-width doors, and acoustics sorted the real ones.",
+          "imageSrc": "/journals/the-three-generations-one-roof/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decoder checklist card with walker-width and bath-rail checkboxes beside a floor plan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The 2 am drive test re-ranks every map.",
+          "description": "The project nearest the hospital on the map was farthest at speed-breaker reality — the 2 am test re-ranked the shortlist twice, and it is the only amenity that matters at 2 am.",
+          "imageSrc": "/journals/the-three-generations-one-roof/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a car dashboard clock at 2 am beside a hospital gate with speed-breaker bumps drawn on the route, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Ask the person the house is for — alone, unhurried.",
+          "description": "Amma chose the smaller east-window room over the larger master. The family had been solving the wrong optimization for a month; one unhurried conversation fixed it.",
+          "imageSrc": "/journals/the-three-generations-one-roof/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an elderly woman pointing at a circled east-facing window on a floor plan during a quiet conversation, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Paper protects love — structure the money early.",
+          "description": "'Keep my name somewhere' became a registered share with a clear succession note, and the Chennai sister's call afterward was the easiest in years. The deed did the talking first.",
+          "imageSrc": "/journals/the-three-generations-one-roof/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a registered-share deed with a succession note beside a phone showing a 47-minute call log, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "A spare room is a room for a parent"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The biggest 'mother-in-law master' is the right answer"
+        },
+        {
+          "icon": "FileText",
+          "text": "The map's nearest hospital is the nearest hospital"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "A parent's contribution is a simple loan to the family"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "ClipboardList",
+          "text": "Proximity without design becomes friction — the decoder card sorts real dignity"
+        },
+        {
+          "icon": "Sunrise",
+          "text": "Ask the elder alone — the answer may re-route the whole plan"
+        },
+        {
+          "icon": "HeartPulse",
+          "text": "The 2 am drive is the only amenity that matters at 2 am"
+        },
+        {
+          "icon": "Scale",
+          "text": "A registered share with a succession note — paper protects love"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Sunrise",
+          "title": "Ask Amma in month one, not month five",
+          "description": "A month of 'biggest room' arguing was undone in one conversation — the elder-alone consultation should have been the first hoop, not the fifth."
+        },
+        {
+          "icon": "HeartPulse",
+          "title": "Time the 2 am drive before the corridor, not after",
+          "description": "The hospital-corridor choice came first; the 2 am test re-ranked it twice. Timing the drives at month one would have set the map correctly from the start."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Build the decoder before the first site visit",
+          "description": "Four of six brochures failed the decoder in month two — the card should have been gate zero, eliminating them before any showflat."
+        },
+        {
+          "icon": "Scale",
+          "title": "Structure the money with the shortlist",
+          "description": "The registered-share instrument was built at closing — having the deed structure drafted beside the needs card would have made the Chennai call feel like the last step, not the first."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Sunita",
+          "avatar": "/journals/the-three-generations-one-roof/sunita.png",
+          "text": "Amma picked her east window, her name is on the share, and the Chennai call ended with my sister-in-law laughing. I think we finally built the house before the house."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You built the architecture of dignity first — floors, doors, rails, acoustics, and one honest conversation. The bricks just caught up. Three generations, one roof, no whispering.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for sandwich-generation buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing the Pillais photographing the 4:50 am kitchen, failing four brochures on the decoder card, asking Amma alone, and signing the Aqua Vista deed with the registered-share note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For sandwich-generation households, the edge is in the architecture of dignity, built before the bricks: a decoder card that sorts genuine dual-master floor plans, a 2 am hospital drive timed at speed-breaker reality, and the elder-alone consultation that re-routes the family's assumptions. Structure the parent's contribution as a registered share with a succession note — paper protects love — and have the sibling conversation before the registration date. Rajesh and Sunita proved the house works when the question asked is the right one, and the right one is asked of the right person.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "'Dual master' in brochures spans everything from a true suite to a renamed guest room",
+          "body": "The checklist that sorted them: entrance proximity, bath grab-rail readiness, walker-width doors, and acoustic separation from the living room TV.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The 2 am drive test re-ranked the shortlist twice",
+          "body": "The project nearest the hospital on the map was farthest at speed-breaker reality — the only amenity that matters at 2 am is the one timed at 2 am.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Asked alone, Amma chose the smaller bedroom with the east window",
+          "body": "The family had been solving the wrong optimization for a month — 'big room with no morning sun is a hotel,' she said. One conversation re-routed the whole braid.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "'Keep my name somewhere' became an actual instrument",
+          "body": "The lawyer's session converted the sentence into a registered share with a clear succession note — and the Chennai sister's call afterward was the easiest in years.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The two-flats option moved from betrayal to shortlist",
+          "body": "Touring a two-flats family — 9th floor and ground floor, same tower — the grandmother's verdict settled it: 'Best of everything — they hear my TV less, I hear their fights less.'",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If a parent is moving in and proximity without design has become friction, let Riya build your multigenerational roadmap — the decoder card, the 2 am gate, and the structure that protects love.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the generations under one roof, the elder's mobility reality, the hospital corridor, and the parent's contribution if one is on the table.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the dual-master decoder, times the 2 am hospital drives, and drafts the elder-alone consultation questions.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Three Generations journal — decoder card, hospital-gate tracker, and deed-structuring checklist — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive ready projects with genuine dual-master floor plans, ranked by your elder-checklist — not the brochure's — with the 2 am gate applied.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Dual-Master Decoder",
+          "description": "Floor-plan libraries and builder comparisons graded by entrance proximity, bath rails, walker-width doors, and acoustics.",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": 2,
+          "title": "The 2 am Hospital Gate",
+          "description": "Hospital-corridor micro-market maps with drive-times measured the only way that matters — at 2 am, at speed-breaker reality.",
+          "icon": "HeartPulse"
+        },
+        {
+          "id": 3,
+          "title": "Family Financial Structuring",
+          "description": "Parents' contributions, deed options, succession clarity, and the sibling-conversation framework — paper that protects love.",
+          "icon": "Scale"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "A parent is moving in, and you've learned that proximity without design becomes friction.",
+        "Your home search is really a search for an architecture of dignity — hers, yours, the teenagers'.",
+        "You time hospital drives at 2 am because you've already made one.",
+        "A parent's money is on the table with a sentence attached, and the deed structure is the real negotiation.",
+        "You count grey heads in community parks as an amenity.",
+        "The two-flats-in-one-community option exists in your head, unsaid, feeling like betrayal and possibly wisdom."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-friction-audit",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Friction Audit",
+      "desc": "Six months of Amma-adjustment converts 'someday' into a floor-plan hunt; the 2 am hospital drive is timed and logged. The kitchen photo says it all.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-dual-master-decoder",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Dual-Master Decoder",
+      "desc": "Entrance proximity, walker-width doors, bath-rail readiness, acoustic separation — six brochures graded against the decoder card, four failing.",
+      "icon": "ClipboardList",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-villament-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Villament's Stairs",
+      "desc": "Valmark Cityville's duplex format seduces with space — stairs-vs-knees reality ends it in one visit, a knee X-ray clipped beside the stair section.",
+      "icon": "ArrowUpDown",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-two-finalists",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Two Finalists on the Table",
+      "desc": "Aqua Vista (ready 3BHK 2,209 sqft, ₹2.64 Cr) vs Windchimes (1,800–2,800 sqft, ₹2–3.6 Cr) — plans spread on the dining table, Amma's glasses on one.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-ammas-own-answer",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: Amma's Own Answer",
+      "desc": "Asked alone and unhurried, Amma chooses the smaller east-window room with garden access — the family had optimized the wrong variable for a month.",
+      "icon": "Sunrise",
+      "loopText": "~4-Week Wrong-Optimization — Amma's Answer Re-Routes",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-aqua-vista-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Registered-Share Close",
+      "desc": "Aqua Vista closed; Amma's ₹75L structured with a registered share and a succession note; the Chennai call afterwards — 47 minutes, ending well.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

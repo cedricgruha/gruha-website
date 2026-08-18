@@ -1,0 +1,984 @@
+{
+  "article": {
+    "tags": [
+      "INVESTORS & WEALTH",
+      "LIFESTYLE",
+      "MANAGED FARMLAND"
+    ],
+    "title": "The Half-Acre Sky Journal",
+    "description": "Vikram & Sanjana Rao's managed-farm search along Kanakapura Road and the Doddaballapur arc — buying a weekend of legitimacy under mango trees without fooling themselves about year three.",
+    "quote": "\"We don't want to escape Bengaluru. Just Fridays to Sundays.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Calendar",
+        "text": "Audit your real free weekends before you shop"
+      },
+      {
+        "icon": "Bug",
+        "text": "The management company fails more than the land"
+      },
+      {
+        "icon": "Trees",
+        "text": "Rent the dream before you buy it"
+      }
+    ],
+    "heroImage": "/journals/cover/8.png",
+    "heroTitle": "The Half-Acre Sky Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Vikram Rao (45, design director) and Sanjana Rao (43, children's-book publisher) — speculating in soil, mango trees and Sunday stillness on a capped share of net worth.",
+      "buyers": [
+        {
+          "name": "Vikram Rao",
+          "age": 45,
+          "role": "Design Director",
+          "description": "A designer who loves the weekend photos and, precisely because he's a designer, has also noticed what the photos don't show — the friend whose borewell failed twice, the plot 2.5 hours away, the 'managed' farm that stopped answering calls. Wants the dream with its eyes open.",
+          "tags": [
+            "Astute",
+            "Designer's-Eye",
+            "Budgeted Dreamer"
+          ],
+          "image": "/journals/the-half-acre-sky/vikram.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 45-year-old South Indian male design director named Vikram with short salt-and-pepper hair and a neat trimmed beard, wearing a plain linen shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm thoughtful smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Sanjana Rao",
+          "age": 43,
+          "role": "Children's-Book Publisher",
+          "description": "Runs a children's-book publishing house; the romantic half of the pair, and the honest one about what a farm is actually for. Notices that their kids think chikoos come from Instamart, bothers her, and quietly keeps the dream honest by naming the difference between a second asset and a weekend.",
+          "tags": [
+            "Warm",
+            "Grounding Influence",
+            "Usage-Honest"
+          ],
+          "image": "/journals/the-half-acre-sky/sanjana.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 43-year-old South Indian woman publisher named Sanjana with shoulder-length dark wavy hair, wearing a clean sage-green kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "A half-acre to an acre of managed farmland — mango trees, a hammock, children actually outdoors — where the version of themselves Instagram keeps promising becomes something they drive to on Fridays, deliberately, because they counted the weekends it would genuinely be worth.",
+      "sharedVisionImage": "/journals/the-half-acre-sky/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a young family of four under a mango tree on a fenced weekend plot at golden hour, a city skyline a faint silhouette far on the horizon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the mango tree, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Weekend dreamers",
+          "tag": "Design + Publishing"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "THEIR REALITY",
+          "value": "₹95L–1.15 Cr",
+          "tag": "Capped under 20%"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Mid-career family",
+          "tag": "Kids 12 & 9"
+        },
+        {
+          "icon": "Sparkles",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting",
+          "tag": "Two+ operators"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "This year / never",
+          "tag": "Expiry dated"
+        },
+        {
+          "icon": "CheckCircle2",
+          "label": "TRANSACTION FOCUS",
+          "value": "Managed farmland",
+          "tag": "Plot, not home"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-half-acre-sky/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a wall calendar with eleven genuinely free weekends circled out of a faint imagined twenty-four, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 circled-weekend accents, Scandinavian minimalism, clean white background.",
+          "title": "The Calendar Audit",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Eleven real free weekends in six months, not twenty-four imagined — the dream resized before it shopped."
+        },
+        {
+          "image": "/journals/the-half-acre-sky/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a rolled property title deed above a stack of ownership structure papers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 deed-seal accent, Scandinavian minimalism, clean white background.",
+          "title": "What Do I Actually Own?",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Title, structure, and exit settled before trees or bonfires."
+        },
+        {
+          "image": "/journals/the-half-acre-sky/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a borewell depth record sheet with water-table data annotated in blue, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 water-depth accent, Scandinavian minimalism, clean white background.",
+          "title": "Water, By the Numbers",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Borewell depth records by taluk, plus a monsoon-visit protocol before any commitment."
+        },
+        {
+          "image": "/journals/the-half-acre-sky/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a photo of year-three owners sitting under a young mango tree, framed beside an operator dossier, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 frame accent, Scandinavian minimalism, clean white background.",
+          "title": "Year-Three Usage Evidence",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "An operator with 5+ visible years and an owners' group that still answers at eleven pm."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From the calendar audit and an operator-first filter to a rented-weekend correction and a blessed half-acre under 20% of net worth.",
+      "journeyFrameTitle": "A PASTORAL, DELIBERATE CLOSE",
+      "roadmapTitle": "How a designer and a publisher bought a legitimate nothing under a mango tree",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Site Purchased"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "BUDGET SPEND",
+          "value": "₹95L–1.15 Cr"
+        },
+        {
+          "icon": "Calendar",
+          "label": "TIMELINE",
+          "value": "This year / never"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "NET-WORTH CAP",
+          "value": "Under 20%"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-calendar-audit",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Calendar Audit",
+          "desc": "Eleven genuinely free weekends in six months, not the imagined twenty-four; the dream resizes before it shops.",
+          "icon": "Calendar",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-operator-first",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: Operator-First Filter",
+          "desc": "Only managed-farm operators with 5+ visible years; Hosachiguru projects join the shortlist.",
+          "icon": "Store",
+          "x": 320,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-insta-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3: Insta-Collective Detour",
+          "desc": "A cinematic reel with no water data and a lease-not-own structure buried in the FAQ; parked.",
+          "icon": "Smartphone",
+          "x": 560,
+          "y": 220,
+          "width": 180
+        },
+        {
+          "id": "l4-rent-first",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Rent the Dream",
+          "desc": "Six rented weekends at a friend's farm: two hours of garden, six of nothing. The hammock budget grows.",
+          "icon": "KeyRound",
+          "x": 790,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l5-water-diligence",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: Water Diligence",
+          "desc": "Borewell depth records by taluk and a monsoon-visit protocol, annotated in monsoon-blue ink.",
+          "icon": "Droplets",
+          "loopText": "Water-Diligence Loop",
+          "x": 800,
+          "y": 380,
+          "width": 180
+        },
+        {
+          "id": "l6-half-acre-secured",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Half-Acre Secured",
+          "desc": "Secured in a managed community under 20% of net worth — 'this year or never' honoured.",
+          "icon": "Trees",
+          "x": 540,
+          "y": 420,
+          "width": 190
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "dreaming",
+          "label": "Dreaming",
+          "icon": "Sparkles"
+        },
+        {
+          "id": "auditing",
+          "label": "Auditing",
+          "icon": "Calendar"
+        },
+        {
+          "id": "shortlisting",
+          "label": "Shortlisting",
+          "icon": "ArrowLeftRight",
+          "active": true,
+          "tag": "Secured"
+        },
+        {
+          "id": "diligence",
+          "label": "Diligence",
+          "icon": "FileSearch"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote"
+        },
+        {
+          "id": "tending",
+          "label": "Tending",
+          "icon": "Trees"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "calendar-moment",
+          "title": "The eleven circled weekends",
+          "desc": "A wall calendar with eleven truly free weekends circled out of an imagined twenty-four — the audit that resized the whole dream.",
+          "imageSrc": "/journals/the-half-acre-sky/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a wall calendar with eleven free weekends circled in coral out of a faint imagined twenty-four, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 circled-weekend accents, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "paused-reel",
+          "title": "The reel paused on the lease clause",
+          "desc": "An Insta-famous collective's cinematic reel paused on a lease-not-own clause buried in its FAQ — the detour that taught them to read fine print.",
+          "imageSrc": "/journals/the-half-acre-sky/moment-2.png",
+          "imagegenerationprompt": "A paused smartphone reel showing a farm-collective promo frozen on a small lease-clause note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pause-button accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "hammock-series",
+          "title": "The hammock photo series",
+          "desc": "Six weekend photos of two hours of gardening and six of nothing — the data that shrank the cottage budget and grew the hammock budget.",
+          "imageSrc": "/journals/the-half-acre-sky/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hammock between two young trees on a quiet weekend farm with a small photo-contact-sheet beside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 hammock accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "blessed-map",
+          "title": "The map written as a blessing",
+          "desc": "A half-acre plot map with 'under 20% of net worth' written across the top like a blessing — the cap honoured.",
+          "imageSrc": "/journals/the-half-acre-sky/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a half-acre plot survey map with the phrase 'under 20% of net worth' handwritten across the top, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 handwritten-phrase accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "You're not buying agriculture — you're buying legitimate nothing.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Cult-ish year-three usage is the single best metric in this category.",
+          "author": "— Riya"
+        },
+        {
+          "text": "If those two clear… buy the nothing.",
+          "author": "— Riya"
+        },
+        {
+          "text": "'Buy the nothing.' Put that on the gate, ma.",
+          "author": "— Vikram"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Sanjana",
+          "avatar": "/journals/the-half-acre-sky/sanjana.png",
+          "text": "Riya, confession — we rented Ashok's farm six weekends to 'test the dream,' and you know what we did? Two hours of gardening, and six hours of absolutely nothing under a tree."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That IS the data, you two. You're not buying agriculture — you're buying legitimate nothing. So the cottage budget shrinks, the operator quality rises, and the one question becomes: what exactly do you own? Title, structure, exit. Trees can come later.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Calendar",
+          "title": "The Calendar Audit",
+          "description": "Eleven real free weekends — not the twenty-four imagined — is your true usage forecast."
+        },
+        {
+          "icon": "FileSearch",
+          "title": "Operator Over Land",
+          "description": "In managed farms the land rarely fails; the management company often does."
+        },
+        {
+          "icon": "Droplets",
+          "title": "Water, by the Numbers",
+          "description": "Borewell depth records by taluk and a monsoon-visit protocol before any commitment."
+        },
+        {
+          "icon": "Bug",
+          "title": "Lease vs Sale Clarity",
+          "description": "Karnataka's eased rules still leave gram thana khatas, conversion and structure to verify."
+        },
+        {
+          "icon": "Trees",
+          "title": "Year-Three Evidence",
+          "description": "Ask whether owners still drive out there — and whether they'd rent it back to you."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-half-acre-sky.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Searching managed-farm communities along Kanakapura Road and toward Doddaballapur — half an acre to an acre, where the drive matters as much as the soil.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH STRATEGY",
+          "value": "Weekend Lifestyle"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "SEARCH COVERAGE",
+          "value": "Kanakapura / Doddaballapur"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "TARGET PLOT",
+          "value": "Half–1 Acre"
+        },
+        {
+          "icon": "ShieldCheck",
+          "label": "NON-NEGOTIABLES",
+          "value": "Agri Title + Water"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Kanakapura Road (45–90 min)",
+          "description": "The managed-farm belt: collectives quote ₹50L–1.3 Cr/acre, with Hosachiguru Dhaanvi / Dharani among the shortlist.",
+          "projects": 4,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.745448,
+            "lng": 77.4852967
+          },
+          "imageSrc": "/journals/the-half-acre-sky/kanakapura.png",
+          "imagegenerationprompt": "A modern architectural vector view of a managed-farm belt along Kanakapura Road with young orchards and fenced plots, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Doddaballapur Arc",
+          "description": "The northward corridor: more land for the money, but the longer Friday drive makes year-three usage the honest question.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 13.2931349,
+            "lng": 77.5222263
+          },
+          "imageSrc": "/journals/the-half-acre-sky/doddaballapur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Doddaballapur arc corridor with open managed-farm parcels, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Hosachiguru Dhaanvi (Kanakapura)",
+          "description": "The operator-first shortlist on the Kanakapura belt — managed farms from ~₹30L, with the owners' group that answers at eleven pm.",
+          "projects": 1,
+          "siteVisits": 2,
+          "latlong": {
+            "lat": 12.6912089,
+            "lng": 77.3384297
+          },
+          "imageSrc": "/journals/the-half-acre-sky/hosachiguru.png",
+          "imagegenerationprompt": "A modern architectural vector view of a Hosachiguru managed-farm community with fenced plots and young trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Hosachiguru Dharani",
+          "description": "The second Hosachiguru opportunity on the eastern Kanakapura belt — more land per rupee, carrying the same operator-first diligence.",
+          "projects": 1,
+          "siteVisits": 1,
+          "latlong": {
+            "lat": 12.468935,
+            "lng": 77.5336908
+          },
+          "imageSrc": "/journals/the-half-acre-sky/dharani.png",
+          "imagegenerationprompt": "A modern architectural vector view of a Hosachiguru Dharani managed-farm parcel with fenced land and young orchard rows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: southern-arc Insta 'farm collectives' (detour — lease-not-own buried in FAQ)",
+      "filtersTitle": "Search pain points & frustrations",
+      "filters": [
+        {
+          "icon": "Calendar",
+          "title": "Real Free Weekends",
+          "value": "11 vs 24 imagined",
+          "description": "The dream resized itself once they counted the drive-worthy weekends honestly.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "Bug",
+          "title": "Lease vs Own",
+          "value": "Structure in Fine Print",
+          "description": "A cinematic reel can hide a lease-not-own structure in its FAQ; the operator must show a title structure.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "Droplets",
+          "title": "Water Tables",
+          "value": "Borewell Records by Taluk",
+          "description": "The friend whose borewell failed twice is the warning; water data comes before gate designs.",
+          "isReraVerified": false
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Repriced Wave",
+          "value": "₹75L–1 Cr / half acre",
+          "description": "Managed-farm prices rose from the ₹55–75L their friends paid; the budget cap keeps the albatross off.",
+          "isReraVerified": false
+        }
+      ],
+      "filtersFooterLabel": "Vikram & Sanjana were filtering for legitimate agri title, borewell records, operator longevity, and a capped share of net worth.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The persuasive channel was reels; the corrective channel was a rented weekend. They didn't ask me for the best farm — they asked me what they would actually own, in structure, before any trees. That single question, plus a calendar audit that scared them, is why they bought a half-acre they'll likely never regret: it was bought as nothing, not as an asset.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a borewell depth record and an ownership-structure deed on a tablet for two weekend-farm buyers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 deed-seal accent, Scandinavian minimalism, clean white background."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Real managed-farm operators and parcels; price bands from public listings and market sources, mid-2026. Operators criticized on diligence or structure grounds stay unnamed by policy.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Managed Weekend Farm"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "ASSET SHAPE",
+          "value": "Half to One Acre"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "THE DETOUR",
+          "value": "Insta Farm Collective"
+        },
+        {
+          "icon": "Trees",
+          "label": "THE PURCHASE",
+          "value": "Half-Acre Secured"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "FileText",
+          "title": "Legitimate Agri Title",
+          "subtitle": "title & conversion clarity"
+        },
+        {
+          "icon": "Droplets",
+          "title": "Water Tables",
+          "subtitle": "borewell depth by taluk"
+        },
+        {
+          "icon": "Store",
+          "title": "Operator Longevity",
+          "subtitle": "5+ visible years, year-three usage"
+        },
+        {
+          "icon": "Heart",
+          "title": "Capped Exposure",
+          "subtitle": "under 20% of net worth"
+        },
+        {
+          "icon": "Users",
+          "title": "Visiting Community",
+          "subtitle": "co-owners who actually show up"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Sanjana",
+          "avatar": "/journals/the-half-acre-sky/sanjana.png",
+          "text": "Riya, the Hosachiguru Dhaanvi owners' group actually answers at eleven pm. Year-three owners, still going. Swalpa cult-ish, honestly."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Cult-ish year-three usage is the single best metric in this category. If their title structure and water records clear — buy the nothing.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-half-acre-sky/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the land south and north of Bengaluru highlighting Kanakapura Road and the Doddaballapur arc with farm parcels, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Managed-farm communities they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Hosachiguru Managed Farms — Dhaanvi",
+          "name": "Hosachiguru Dhaanvi Farms",
+          "price": "₹50L–1.3 Cr/acre",
+          "possession": "Managed Community",
+          "psf": "~₹75L–1 Cr/half-acre",
+          "location": "Kanakapura Rd arc",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "Hosachiguru Managed Farms — Dharani",
+          "name": "Hosachiguru Dharani",
+          "price": "~₹30L+ (entry)",
+          "possession": "Managed Community",
+          "psf": "From ~₹30L",
+          "location": "Kanakapura Rd arc",
+          "imageSrc": "/journals/the-half-acre-sky/projects/Hosachiguru-managed-farms-Dharani.webp"
+        },
+        {
+          "title": "Insta 'Farm Collective' (the detour)",
+          "name": "Insta Farm Collective",
+          "price": "Unnamed by Policy",
+          "possession": "Lease-Not-Own",
+          "psf": "No Water Data",
+          "location": "Southern arc",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Smartphone",
+          "title": "Insta-Collective Lease-Not-Own",
+          "count": "1 cinematic reel, buried FAQ"
+        },
+        {
+          "icon": "Clock",
+          "title": "Postage-Stamp Reach",
+          "count": "1 plot 2.5 hrs on Friday night"
+        },
+        {
+          "icon": "Droplets",
+          "title": "Failed Borewell Record",
+          "count": "1 friend's water albatross"
+        },
+        {
+          "icon": "Search",
+          "title": "Could Name No One to Water in August",
+          "count": "1 question with no answer"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buy the nothing. Half an acre in a 5+ year managed community on the Kanakapura belt, held under 20% of net worth, bought for legitimate rest and mango trees rather than as an investment — with the title, structure and exit path written down before any sapling goes in.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for weekend-farm dreamers buying managed agricultural land for rest and mango trees rather than as an investment.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Calendar Before Catalog"
+        },
+        {
+          "icon": "Store",
+          "label": "BIGGEST PRIORITY",
+          "value": "Operator Over Land"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Trusting a Reel"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "BIGGEST WIN",
+          "value": "Renting Before Buying"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Count the weekends before you count the acres.",
+          "description": "Eleven genuinely free weekends in six months, not the imagined twenty-four — the calendar audit resized the dream before it ever went shopping.",
+          "imageSrc": "/journals/the-half-acre-sky/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a wall calendar with eleven free weekends circled out of an imagined twenty-four, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 circle accent, Scandinavian minimalism, clean white background, editorial quality."
+        },
+        {
+          "title": "In managed farms, operator diligence beats land diligence.",
+          "description": "The land rarely fails; the management company often does. Five-year-old communities with visible year-three usage became the only shortlist filter that mattered.",
+          "imageSrc": "/journals/the-half-acre-sky/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of operator dossier files fanned out with a year-three owner photo on top, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 photo-frame accent, Scandinavian minimalism, clean white background, editorial quality."
+        },
+        {
+          "title": "Rent the dream before you buy it.",
+          "description": "Six rented weekends at a friend's farm taught them the honest split: two hours of garden, six hours of nothing. The cottage budget shrank; the hammock budget grew.",
+          "imageSrc": "/journals/the-half-acre-sky/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hammock slung between two young trees on a fenced plot, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 hammock-strap accent, Scandinavian minimalism, clean white background, editorial quality."
+        },
+        {
+          "title": "Ask what you actually own before the trees go in.",
+          "description": "Gram pana khatas, conversion status, and lease-versus-sale structure produce genuinely different ownership realities — ask 'what exactly do I own?' first, title, structure and exit.",
+          "imageSrc": "/journals/the-half-acre-sky/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an agricultural title deed with a conversion stamp and a small sapling sprouting from its corner, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 stamp accent, Scandinavian minimalism, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "TrendingUp",
+          "text": "Buying farmland is buying a sensible second asset"
+        },
+        {
+          "icon": "Calendar",
+          "text": "We'll drive out whenever we feel like it — roughly every weekend"
+        },
+        {
+          "icon": "Images",
+          "text": "The best-reeling operator with the prettiest year-three photos wins"
+        },
+        {
+          "icon": "Trees",
+          "text": "If we buy land, the water and the trees mostly look after themselves"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Heart",
+          "text": "A farm is a lifestyle purchase, not an investment — and they admitted which one it was"
+        },
+        {
+          "icon": "MapPin",
+          "text": "11 real free weekends drive the usage forecast, not the imagined 24"
+        },
+        {
+          "icon": "Droplets",
+          "text": "Operator track record and borewell records beat gate designs every time"
+        },
+        {
+          "icon": "FileText",
+          "text": "Water in August is a person you can name, not a management fee you can delegate"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Calendar",
+          "title": "Run the calendar audit in week one",
+          "description": "Counting eleven free weekends before browsing any listing resized the fantasy and saved months of shopping."
+        },
+        {
+          "icon": "Store",
+          "title": "Filter operators before shortlisting land",
+          "description": "Five-plus-year operators with visible year-three usage beat any single pretty parcel."
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Rent six weekends first",
+          "description": "The ₹90K rent-first test told them they buy legitimate nothing — two hours of garden, six of a hammock."
+        },
+        {
+          "icon": "Droplets",
+          "title": "Pull borewell records by taluk",
+          "description": "Water data came before any gate design; the failed-borewell friend was the warning written in advance."
+        },
+        {
+          "icon": "FileText",
+          "title": "Write 'what do I own?' before the saplings",
+          "description": "Title, structure and exit path written down first kept a lease-not-own trap out of the dream."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Vikram",
+          "avatar": "/journals/the-half-acre-sky/vikram.png",
+          "text": "We kept saying it was for the kids. The calendar audit was us arguing with ourselves — and losing, gracefully."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You bought legitimate nothing, and that's the most honest purchase in this journal. Half an acre, under 20% of net worth, for rest — not an asset.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for weekend-farm dreamers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing a wall calendar with eleven circled weekends, six rented hammock weekends, borewell records by taluk, and a half-acre plot map marked under 20% of net worth, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For weekend-farm dreamers, the honest move is to count your real free weekends, rent the dream before buying it, judge the operator before the land, and ask what you actually own before any trees go in. Vikram & Sanjana proved that when the calendar leads, the dream buys itself.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The calendar audit was the single most clarifying act",
+          "body": "Eleven genuinely free weekends in the last six months, not the twenty-four they'd imagined — the dream resized itself accordingly.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Operator diligence beats land diligence",
+          "body": "The land rarely fails; the management company often does. Five-year-old communities with visible year-three usage became the only filter that mattered.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Six rented weekends taught them what they actually do",
+          "body": "Two hours of garden, six hours of nothing under a tree. The cottage budget shrank; the hammock budget grew.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Karnataka agri rules eased, but ownership realities still differ",
+          "body": "Gram thana khatas, conversion status, and the operator's lease-versus-sale structure still produce genuinely different ownership — they now ask 'what exactly do I own?' first.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "The expiry date saved the marriage of the idea",
+          "body": "'This year or never' turned a recurring argument into a single decision with a deadline.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you want soil, trees and weekends — not a second financial asset — let Riya help you buy the honest version of the dream, title and water in hand.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your budget cap, the weekends you actually have free, and the corridors — Kanakapura Road or the Doddaballapur arc — that pull you.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya audits the calendar",
+          "description": "Riya turns real free weekends and farm-operator dossiers into an honest usage forecast, not a brochure.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Water & title checks written down",
+          "description": "Borewell records by taluk, gram thana khata and 'what do I own?' — title, structure, exit — become your checklist before any sapling.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Rent-first guidance",
+          "description": "Receive a rent-a-friend's-farm weekend test and operator year-three questions that keep the dream honest before the money moves.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Calendar Audit",
+          "description": "Count your real free weekends before you count acres — the honest usage forecast is where every dream begins.",
+          "icon": "Calendar"
+        },
+        {
+          "id": 2,
+          "title": "Rent Before You Buy",
+          "description": "Six rented weekends told them the truth: two hours of garden, six of nothing. Buy the legitimate nothing.",
+          "icon": "KeyRound"
+        },
+        {
+          "id": 3,
+          "title": "Operator Over Land",
+          "description": "The land rarely fails; the management company often does. Judge the 5+ year operator, not the gate design.",
+          "icon": "Store"
+        },
+        {
+          "id": 4,
+          "title": "Water Is a Person",
+          "description": "Borewell records by taluk, and a named human who waters in August — not a delegated management fee.",
+          "icon": "Droplets"
+        },
+        {
+          "id": 5,
+          "title": "Cap the Dream",
+          "description": "Held deliberately under a fixed share of net worth, so the albatross stays off and the dream stays a dream.",
+          "icon": "Heart"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You want soil, trees and weekends — not a second financial asset, and you're honest about the difference.",
+        "Your children think fruit comes from an app, and it bothers you more than you expected.",
+        "You've watched friends' farm photos with longing and noted their year-three silence with attention.",
+        "You will cap this purchase at a fixed share of net worth, and the cap is non-negotiable.",
+        "Water tables, borewell records, and operator track records interest you more than gate designs.",
+        "You've honestly counted your free weekends, and the number scared you a little."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-calendar-audit",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Calendar Audit",
+      "desc": "Eleven genuinely free weekends in six months, not the imagined twenty-four; the dream resizes before it shops.",
+      "icon": "Calendar",
+      "x": 110,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-operator-first",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: Operator-First Filter",
+      "desc": "Only managed-farm operators with 5+ visible years; Hosachiguru projects join the shortlist.",
+      "icon": "Store",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-insta-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3: Insta-Collective Detour",
+      "desc": "A cinematic reel with no water data and a lease-not-own structure buried in the FAQ; parked.",
+      "icon": "Smartphone",
+      "x": 560,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "l4-rent-first",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Rent the Dream",
+      "desc": "Six rented weekends at a friend's farm: two hours of garden, six of nothing. The hammock budget grows.",
+      "icon": "KeyRound",
+      "x": 790,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l5-water-diligence",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: Water Diligence",
+      "desc": "Borewell depth records by taluk and a monsoon-visit protocol, annotated in monsoon-blue ink.",
+      "icon": "Droplets",
+      "loopText": "Water-Diligence Loop",
+      "x": 900,
+      "y": 320,
+      "width": 180
+    },
+    {
+      "id": "l6-half-acre-secured",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Half-Acre Secured",
+      "desc": "Secured in a managed community under 20% of net worth — 'this year or never' honoured.",
+      "icon": "Trees",
+      "x": 640,
+      "y": 420,
+      "width": 190
+    }
+  ]
+}

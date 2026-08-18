@@ -1,0 +1,936 @@
+{
+  "article": {
+    "tags": [
+      "PRIMARY PURCHASE SPECIALISTS",
+      "THE LAUNCH-DAY HUNTER",
+      "SARJAPUR–VARTHUR • DEVANAHALLI"
+    ],
+    "title": "The EOI Window Journal",
+    "description": "Anirudh Shetty's (36, engineering manager) third launch-day hunt — a RERA-feed ritual that reads filings before hoardings exist, a refundable-EOI rule written in blood, delivery histories pulled from RERA's own records, and a coffee rule that caps allotment-day adrenaline at zero rupees.",
+    "quote": "\"The best price a flat will ever have is before it exists.\"",
+    "readTime": "14 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Receipt",
+        "text": "EOI refundability 'as per policy' is not refundability"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "RERA delivery records beat sales-head charm"
+      },
+      {
+        "icon": "Timer",
+        "text": "The OC-window exit: list 3 weeks before, close 2 after"
+      }
+    ],
+    "heroImage": "/journals/cover/37.png",
+    "heroTitle": "The EOI Window Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Anirudh, 36, engineering manager at a payments company — two launches behind him (Whitefield 2019, up 92%; Hennur 2022, up 38% on paper), fluent in the dialect of price sheets, and now hunting his third. He does not visit ready flats.",
+      "buyers": [
+        {
+          "name": "Anirudh Shetty",
+          "age": 36,
+          "role": "Engineering Manager, Payments Company",
+          "description": "Bought at launch twice — Whitefield 2019 (sold 2024, 92% up) and Hennur 2022 (possession next year, 38% up on paper) — and now hunting his third. His system: RERA's new-registration feed read before hoardings exist, two sales-head relationships, and a standing checklist — RERA filed, title clean, refundable EOI in writing, delivery history personally verified.",
+          "tags": [
+            "RERA-Feed Ritualist",
+            "Refundability-Rule Author",
+            "Coffee-Rule Keeper"
+          ],
+          "image": "/journals/the-eoi-window/anirudh.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 36-year-old Indian man named Anirudh wearing smart casual business attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, sharp alert expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "The launch-window arc, played with a house edge: RERA-filed tier-1 launches in the Sarjapur–Varthur and Devanahalli belts, refundable EOI in writing, all-in pricing with floor-rise and PLC negotiated at booking, an OC-window exit pre-written at booking week. He knows the choreography — the EOI feed building the 'oversubscribed' story, the 'valid today only' that runs six weeks — and plays because on a credible project the launch-to-possession spread is the primary market's best entry.",
+      "sharedVisionImage": "/journals/the-eoi-window/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a man holding a golden numbered token before a tower that exists only as glowing blueprint lines rising from an open price sheet, cranes sketching the skyline behind, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the token, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "The Launch-Day Hunter"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Third Launch, Second Sale"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Negotiating & Closing — Perpetually"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Launch Calendars Set His"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-eoi-window/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a RERA registration certificate with an approved-plan document and a land-title stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the registration number, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "RERA Filed, Title Clean",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "RERA registration number filed and land title in the developer's name — not 'JV documentation in progress.' The feed is read before hoardings exist, and projects appear there first."
+        },
+        {
+          "image": "/journals/the-eoi-window/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an EOI application with a refundability clause circled and dated within 14 days, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clause, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Refundable EOI, in Writing",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "₹2L sat hostage for eleven weeks at a declined launch. Now it's 'refundable within 14 days, in writing,' or no cheque — the rule has a hostage period attached as its origin story."
+        },
+        {
+          "image": "/journals/the-eoi-window/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a price sheet with floor-rise, PLC and corner-premium rows highlighted and negotiated in the margin, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the margin notes, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Price Sheet, Not 'Indicative'",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Floor-rise, PLC, and corner premiums quietly add ~6% to the headline price. He negotiates the extras at booking, when the cheque still has power — not at agreement, when it doesn't."
+        },
+        {
+          "image": "/journals/the-eoi-window/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a developer delivery scorecard pulled from RERA records with delivery dates and a 24-month delay scenario chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the scorecard, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Delivery History, Personally Verified",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The developer's last three projects' delivery dates, pulled from RERA's own records — a 24-month delay scenario knocks his IRR from 16% to 9%, which is why delivery history outweighs every amenity slide."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a bookmarked RERA feed to a refundability clause highlighted to nothing, an allotment-day bounce that worked exactly as designed, and a booking negotiated in the margin with a coffee rule armed.",
+      "journeyFrameTitle": "THE EOI WINDOW, PERPETUALLY",
+      "roadmapTitle": "How a launch-day hunter plays the EOI window without losing the house edge",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Negotiating & Closing — EOI Window"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.2–2.5 Cr, 20% Liquid"
+        },
+        {
+          "icon": "Receipt",
+          "label": "THE RULE",
+          "value": "Refundable EOI, in Writing"
+        },
+        {
+          "icon": "Coffee",
+          "label": "THE COFFEE RULE",
+          "value": "₹8L of Adrenaline, Pre-Committed"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-rera-feed",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The RERA-Feed Ritual",
+          "desc": "The new-registration feed read before hoardings exist; two sales-head relationships deliver pre-launch price sheets. The feed is bookmarked above every portal.",
+          "icon": "Search",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-pipeline-triage",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Pipeline Triage",
+          "desc": "Birla Trimaya's next phase (Devanahalli) vs a Hennur-arc tier-1 filing — delivery histories pulled from RERA's own records, stapled first.",
+          "icon": "LayoutGrid",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-invitation-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The 'Valid Today Only' Invitation",
+          "desc": "An invitation pre-launch with pricing 'valid today only' — EOI refundability offered only 'as per company policy'; walked, on rule. Project unnamed by policy.",
+          "icon": "Eye",
+          "x": 440,
+          "y": 300,
+          "width": 190
+        },
+        {
+          "id": "l4-allotment-bounce",
+          "stage": "S4",
+          "type": "bounce",
+          "title": "L4: The Allotment-Day Bounce",
+          "desc": "Allotment day at one launch offers only road-facing low floors; the refundable EOI exercised — the system working as designed.",
+          "icon": "ArrowUpDown",
+          "loopText": "The System Working as Designed — Refundable EOI Exercised",
+          "x": 780,
+          "y": 320,
+          "width": 200
+        },
+        {
+          "id": "l5-booking-negotiated",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L5: The Negotiated Booking",
+          "desc": "East-facing mid-floor secured at the next credible launch; floor-rise and PLC negotiated at booking, when the cheque still has power.",
+          "icon": "KeyRound",
+          "x": 540,
+          "y": 110,
+          "width": 190
+        },
+        {
+          "id": "l6-oc-exit-loop",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L6: The OC-Window Exit",
+          "desc": "The OC-day exit discipline pre-written: list three weeks before OC, close two weeks after, before neighbour listings crowd.",
+          "icon": "Timer",
+          "loopText": "OC-Window Tracking — List 3 Weeks Pre-OC, Close 2 Post",
+          "x": 740,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "feedscanning",
+          "label": "Feed-Scanning",
+          "icon": "Search"
+        },
+        {
+          "id": "triaging",
+          "label": "Pipeline-Triaging",
+          "icon": "LayoutGrid"
+        },
+        {
+          "id": "eoiwriting",
+          "label": "EOI-Writing",
+          "icon": "Receipt"
+        },
+        {
+          "id": "allotting",
+          "label": "Allotment-Day",
+          "icon": "Coffee"
+        },
+        {
+          "id": "booking",
+          "label": "Booking",
+          "icon": "KeyRound"
+        },
+        {
+          "id": "exiting",
+          "label": "OC-Window Exit",
+          "icon": "Timer",
+          "active": true,
+          "tag": "Pre-Written at Booking"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "rera-feed-moment",
+          "title": "The bookmarked RERA feed",
+          "desc": "The new-registration feed bookmarked above every portal — projects appear there before hoardings exist, and his calendar is set by filings, not invitations.",
+          "imageSrc": "/journals/the-eoi-window/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a RERA new-registration feed bookmarked above a browser full of property portals, with a launch filing highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the bookmark, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "refundability-clause-moment",
+          "title": "The clause highlighted to nothing",
+          "desc": "The 'valid today only' invitation with EOI refundability 'as per company policy' — the clause highlighted until it says nothing; walked, on rule, in two weeks.",
+          "imageSrc": "/journals/the-eoi-window/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an invitation document with a refundability clause highlighted repeatedly until it is unreadable, with a walk-away stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the stamp, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "refunded-eoi-moment",
+          "title": "The refunded-EOI receipt",
+          "desc": "Allotment day offered only road-facing low floors — the refundable EOI exercised, the receipt filed over the allotment chart: the system working as designed.",
+          "imageSrc": "/journals/the-eoi-window/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a refunded EOI receipt pinned over an allotment chart with road-facing low floors marked, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the receipt, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "booking-margin-moment",
+          "title": "The coffee-ringed booking margin",
+          "desc": "Floor-rise and PLC negotiated in the margin of the booking sheet, coffee ring intact — the ₹8L pre-commitment held, the countdown board ignored.",
+          "imageSrc": "/journals/the-eoi-window/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a booking sheet with floor-rise and PLC negotiated in the margin beside a coffee cup with a ring stain, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the margin notes, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The best price a flat will ever have is before it exists.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Real scarcity doesn't need a countdown font that big.",
+          "author": "— Riya, on allotment-day theatre"
+        },
+        {
+          "text": "Otherwise it's just a discount on a mistake.",
+          "author": "— Riya's rule"
+        },
+        {
+          "text": "EOI refundability 'as per company policy' is not refundability.",
+          "author": "— Lesson two, in one line"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Anirudh",
+          "avatar": "/journals/the-eoi-window/anirudh.png",
+          "text": "Riya, tomorrow's the allotment. Nine a.m. token, marre. I need you to do the thing we agreed. Say it back to me."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Your pre-commitment, on record. East-facing, floors eight through fourteen, the two towers away from the club. Budget locked at two-point-four-five all-in — floor rise and PLC included, negotiated at booking, not after. And if the counter offers a 'special today-only upgrade'… you step out of the hall, call me, and drink one full coffee before answering. The eight-lakh rule. And remember — the oversubscription board in the hall is theatre; real scarcity doesn't need a countdown font that big. If the east-facing mid-floors are gone, the refundable EOI comes home with you, and we wait for the next credible launch. The best price a flat will ever have is before it exists — but only the RIGHT flat, at the right floor.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileCheck2",
+          "title": "The RERA-Feed Ritual",
+          "description": "Projects appear in RERA's new-registration feed before hoardings exist — the feed is read like a newspaper, and launch calendars are set by filings, not invitations."
+        },
+        {
+          "icon": "Receipt",
+          "title": "Refundability, in Writing",
+          "description": "EOI refundability 'as per company policy' is not refundability — ₹2L sat hostage for eleven weeks at a declined launch. The rule: 'refundable within 14 days, in writing,' or no cheque."
+        },
+        {
+          "icon": "Coffee",
+          "title": "The Coffee Rule",
+          "description": "Allotment-day adrenaline has cost ₹8L across two 'moment' upgrades — the pre-commitment ritual (step out, call, drink one full coffee before answering) now precedes every allotment."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Delivery-Risk Spreadsheet",
+          "description": "A 24-month delay knocks the IRR from 16% to 9% — developer delivery history from RERA's own records outweighs every amenity slide in the deck."
+        },
+        {
+          "icon": "Timer",
+          "title": "The OC-Window Exit",
+          "description": "List three weeks before OC, close two weeks after, before neighbour listings crowd — the Whitefield exit taught him the window's arithmetic: fourteen listings, 7% below his price."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-eoi-window.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Wherever credible tier-1 launches happen — the Sarjapur–Varthur belt, the Devanahalli airport corridor, Panathur's case studies — tracked from RERA filings before hoardings exist.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Launch-Day 3BHK, Credible Tier-1"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Sarjapur–Varthur • Devanahalli • Hennur"
+        },
+        {
+          "icon": "Receipt",
+          "label": "THE GATE",
+          "value": "Refundable EOI, in Writing"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "East-Facing Mid-Floor, Booked"
+        }
+      ],
+      "exploredAreasTitle": "The launch corridors they explored",
+      "exploredAreas": [
+        {
+          "title": "Sarjapur–Varthur Belt",
+          "description": "His east-side launch corridor — tier-1 filings at ₹13.5–16K/sqft, watched for the credible project that clears the checklist before any EOI.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.8797,
+            "lng": 77.7431
+          },
+          "imageSrc": "/journals/the-eoi-window/sarjapur-varthur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Sarjapur–Varthur belt with cranes and new tower launches over plotted land, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hennur Arc",
+          "description": "His second active launch corridor — the belt of his 2022 launch (Hennur, 38% up on paper), watched for credible tier-1 filings that clear the checklist before any EOI; currently a Hennur-arc tier-1 filing sits in the pipeline triage against Devanahalli's Birla Trimaya.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.049,
+            "lng": 77.623
+          },
+          "imageSrc": "/journals/the-eoi-window/hennur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Hennur arc with tier-1 launch towers and crane skylines over the north-east corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Devanahalli / Airport Corridor",
+          "description": "The airport-corridor launches — Birla Trimaya's next phase among the township series, delivery histories pulled from RERA's records before price sheets.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.2524208,
+            "lng": 77.6903177
+          },
+          "imageSrc": "/journals/the-eoi-window/devanahalli.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Devanahalli airport corridor with township launches and flight-path skyline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Panathur (Case Study)",
+          "description": "Sobha Neopolis' launch-to-ready arc — the ~₹15,600/sqft launch his model trades, studied as the benchmark for launch pricing and exit timing.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9364608,
+            "lng": 77.694137
+          },
+          "imageSrc": "/journals/the-eoi-window/panathur.png",
+          "imagegenerationprompt": "A modern architectural vector view of Panathur with the Sobha Neopolis towers as a launch-to-ready case study, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the 'invitation pre-launch' that failed the refundability rule (detour) • projects whose titles were 'in progress' without RERA filed",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE CHOREOGRAPHED OVERSUBSCRIPTION",
+          "value": "Theatre, With a Countdown Font",
+          "description": "The EOI collection that builds the 'oversubscribed' story, the allotment-day pressure theatre — real scarcity doesn't need a countdown font that big.",
+          "icon": "Eye"
+        },
+        {
+          "title": "THE 'VALID TODAY ONLY' PRICING",
+          "value": "Valid for Six Weeks, Actually",
+          "description": "The 'pre-launch price valid today only' that is valid for six weeks — urgency as a sales instrument, decoded and discounted.",
+          "icon": "Hourglass"
+        },
+        {
+          "title": "THE QUIET 6% IN THE EXTRAS",
+          "value": "Floor-Rise, PLC, Corner Premium",
+          "description": "Floor-rise and PLC charges quietly add ~6% to the headline price — negotiated at booking, when the cheque still has power, not at agreement, when it doesn't.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "THE DELIVERY-RISK BLIND SPOT",
+          "value": "Renders Beat Records, Sometimes",
+          "description": "The temptation is the 'aggressive pricing' of exactly the developers whose balance sheets demand it — delivery history from RERA's own records is the only antidote.",
+          "icon": "FileX"
+        }
+      ],
+      "filtersFooterLabel": "He was filtering for tier-1 developers with RERA already filed, refundable EOI in writing, price sheets (not 'indicative pricing') before any cheque, and delivery histories personally verified from RERA's own records.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Anirudh taught me that the launch game's choreography can be decoded without being played — the EOI collection builds the oversubscribed story, the 'valid today only' price is valid for six weeks, and floor-rise plus PLC quietly add 6% to the headline. His edge is developer selection and calendar access: the RERA new-registration feed is read before hoardings exist, and delivery histories from RERA's own records outweigh every amenity slide. But the weakness is the allotment-day adrenaline — twice it cost him ₹4L a moment. So the journal's real lesson is the pre-commitment: the coffee rule, the written budget, and the refundable EOI that comes home if the floor is wrong. The best price a flat will ever have is before it exists — but only the RIGHT flat, at the right floor. Otherwise it's just a discount on a mistake.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a RERA new-registration feed beside a booking sheet with negotiated margin notes, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The audited launch options — a township candidate on the airport corridor, a launch case study that prices his model, and an invitation that failed the refundability rule.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Launch-Day 3BHK, Credible Tier-1"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "East-Facing Mid-Floor, Booked"
+        },
+        {
+          "icon": "Receipt",
+          "label": "THE EOI RULE",
+          "value": "Refundable, in Writing"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.2–2.5 Cr, 20% Liquid"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "FileCheck2",
+          "title": "RERA Filed, Title Clean",
+          "subtitle": "the feed before hoardings"
+        },
+        {
+          "icon": "Receipt",
+          "title": "Refundable EOI in Writing",
+          "subtitle": "no policy-speak"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Extras at Booking",
+          "subtitle": "floor-rise + PLC, cheque-power"
+        },
+        {
+          "icon": "Timer",
+          "title": "Delivery History",
+          "subtitle": "RERA's records, personally"
+        },
+        {
+          "icon": "Coffee",
+          "title": "The Coffee Rule",
+          "subtitle": "₹8L of adrenaline, pre-committed"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Anirudh",
+          "avatar": "/journals/the-eoi-window/anirudh.png",
+          "text": "East-facing mid-floor, floor-rise and PLC negotiated in the margin — the coffee rule held, and the countdown board got ignored for once. The exit plan was filed the same week as the booking."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the full system, Anirudh: the feed, the checklist, the pre-commitment, and a refundable EOI that walks out when the floor is wrong. Launch to OC, one clean arc — and a coffee rule that's cheaper than a third moment of enthusiasm.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-eoi-window/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Sarjapur–Varthur belt, Devanahalli airport corridor and Panathur with launch-pin markers in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 audited options",
+      "projects": [
+        {
+          "title": "Birla Trimaya (Pipeline Candidate)",
+          "name": "Birla Trimaya — Next Phase",
+          "price": "Launch band",
+          "possession": "Pre-launch / EOI",
+          "psf": "Township series, airport corridor",
+          "location": "Devanahalli",
+          "imageSrc": "/journals/the-eoi-window/projects/Birla-Trimaya.webp"
+        },
+        {
+          "title": "The Launch Case Study",
+          "name": "Sobha Neopolis",
+          "price": "~₹15,600/sqft launch",
+          "possession": "Launch-to-ready arc",
+          "psf": "The model his entry trades",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-eoi-window/projects/Sobha-Neopolis.png"
+        },
+        {
+          "title": "The Refundability Detour",
+          "name": "The 'Invitation Pre-Launch'",
+          "price": "Premium band",
+          "possession": "Invitation only",
+          "psf": "Refundability 'as per policy'",
+          "location": "Unnamed",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The 'Invitation Pre-Launch'",
+          "count": "1 detour — refundability 'as per policy'"
+        },
+        {
+          "icon": "ArrowUpDown",
+          "title": "The Road-Facing Allotment",
+          "count": "1 bounce — only low floors offered, EOI refunded"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "The JV-Documentation Projects",
+          "count": "every title 'in progress' without RERA filed"
+        },
+        {
+          "icon": "FileX",
+          "title": "The Aggressive-Pricing Launches",
+          "count": "delivery histories that didn't clear the bar"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "The system delivered the full launch arc: the RERA feed before hoardings, a pipeline triaged with delivery histories stapled first, a detour walked on the refundability rule, a bad allotment bounced with the EOI refunded — the system working as designed — and the next credible launch booked at east-facing mid-floor with the extras negotiated in the margin. The OC-window exit plan was filed the same week as the booking. Launch to OC, one clean arc.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for launch-window buyers — the checklist as edge, refundability in writing, the theatre decoded, and exit discipline pre-written with the booking.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "RERA Records Beat Renders"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Developer Selection"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "₹8L of Allotment-Day Moments"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The OC-Window Exit"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The early-bird discount is compensation for risk, not a gift.",
+          "description": "Launch 1 (2019) taught him what he'd actually signed a year late — the education was luck-subsidized. Never again unread: the checklist exists because the terror was real.",
+          "imageSrc": "/journals/the-eoi-window/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an early-bird price sheet from 2019 with risk annotations added a year later, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "EOI refundability 'as per company policy' is not refundability.",
+          "description": "₹2L sat hostage for eleven weeks at a launch he declined — now it's 'refundable within 14 days, in writing,' or no cheque. The rule was written by its own hostage period.",
+          "imageSrc": "/journals/the-eoi-window/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a refundability clause circled on an EOI form with a 14-day annotation and a crossed-out 'as per company policy', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "RERA delivery records beat sales-head charm.",
+          "description": "The developer whose last three projects delivered within 4 months of promise got the booking; the one with the better clubhouse renders did not — and is currently 19 months late on that very tower.",
+          "imageSrc": "/journals/the-eoi-window/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a delivery scorecard from RERA records beside a glossy clubhouse render, with the scorecard winning, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The OC-day window is the exit discipline.",
+          "description": "The Whitefield exit: listed three weeks before OC, closed two weeks after, and watched fourteen neighbour listings appear within the quarter at 7% below his price.",
+          "imageSrc": "/journals/the-eoi-window/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a calendar with a listing date three weeks before OC and a closing date two weeks after, with a crowd of neighbour listings marked below, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The early-bird price is a gift to be grabbed"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Headline price is the price"
+        },
+        {
+          "icon": "Eye",
+          "text": "The oversubscribed story is the market speaking"
+        },
+        {
+          "icon": "Hourglass",
+          "text": "Paper gains are gains"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileCheck2",
+          "text": "The early-bird discount is risk compensation, read fully"
+        },
+        {
+          "icon": "Scale",
+          "text": "Floor-rise, PLC, and GST are part of the all-in price"
+        },
+        {
+          "icon": "Coffee",
+          "text": "Allotment-day theatre is decoded — and the coffee rule holds"
+        },
+        {
+          "icon": "Timer",
+          "text": "Paper gains count only at OC-window realization"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Scale",
+          "title": "Price the delivery risk before the first EOI",
+          "description": "The 24-month-delay scenario (IRR 16% → 9%) was built after Launch 2 — it should have been the first sheet in the first launch's file."
+        },
+        {
+          "icon": "Coffee",
+          "title": "Write the pre-commitment before the allotment hall",
+          "description": "The ₹8L of 'moment' upgrades predated the coffee rule — the rule exists because the moments were real, and it should have been written before the second one."
+        },
+        {
+          "icon": "Receipt",
+          "title": "Demand the refundability clause on the first call",
+          "description": "The eleven-week hostage period ended a launch later than it should have — the '14 days, in writing' rule belonged in the 2019 checklist, not the 2022 one."
+        },
+        {
+          "icon": "Timer",
+          "title": "Pre-write the exit with the booking",
+          "description": "The OC-window plan was filed the same week as the booking — the Whitefield exit was the proof, and it should have been the plan from the start."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Anirudh",
+          "avatar": "/journals/the-eoi-window/anirudh.png",
+          "text": "Feed, checklist, coffee rule, refundable EOI — and an exit plan filed the same week as the booking. The system finally runs on pre-commitments, not adrenaline."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the arc, Anirudh — launch to OC with the house edge intact. The launch game taught you its choreography; you taught it your rules. Keep the feed bookmarked, keep the coffee rule armed, and keep the exit pre-written.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for launch-window buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Anirudh bookmarking the RERA feed, highlighting the refundability clause to nothing, receiving the refunded-EOI receipt, and negotiating the booking margin beside a coffee cup, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For launch-window buyers, the checklist is the edge: RERA registration filed and land title in the developer's name before any EOI; refundability in writing ('within 14 days'), never 'as per company policy'; a price sheet rather than 'indicative pricing'; and delivery histories pulled from RERA's own records. Decode the choreography — the EOI collection builds the oversubscribed story, the 'valid today only' price is valid for six weeks, and floor-rise plus PLC quietly add 6%. Negotiate the extras at booking, when the cheque still has power. Pre-commit against allotment-day adrenaline: name the rule, write the budget, and step out for a full coffee before answering. And pre-write the exit: list three weeks before OC, close two weeks after, before the neighbours' listings crowd. The best price a flat will ever have is before it exists — but only the right flat, at the right floor.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "LAUNCH 1 (2019)",
+          "headline": "The early-bird discount is compensation for risk, not a gift",
+          "body": "He didn't understand what he'd signed until a year in — the education was luck-subsidized. Never again unread: the checklist exists because the terror was real.",
+          "turning": false
+        },
+        {
+          "month": "LAUNCH 2 (2022)",
+          "headline": "EOI refundability 'as per company policy' is not refundability",
+          "body": "₹2L sat hostage for eleven weeks at a declined launch — now it's 'refundable within 14 days, in writing,' or no cheque.",
+          "turning": true
+        },
+        {
+          "month": "2023",
+          "headline": "RERA delivery records beat sales-head charm",
+          "body": "The developer whose last three projects delivered within 4 months of promise got the booking; the one with the better renders did not — and is 19 months late on that very tower.",
+          "turning": false
+        },
+        {
+          "month": "2024",
+          "headline": "Floor-rise, PLC, and corner premiums added 6.8% to the headline",
+          "body": "He now negotiates the extras at booking, when the sales team still needs his cheque — not at agreement, when they don't.",
+          "turning": false
+        },
+        {
+          "month": "2025",
+          "headline": "The Whitefield exit taught him the OC-day window",
+          "body": "Listed three weeks before OC, closed two weeks after, and watched fourteen neighbour listings appear within the quarter — at 7% below his price.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If the EOI window is your hunting ground, let Riya build your launch-day system — the RERA-feed ritual, the refundability rules, and the pre-commitments that keep the adrenaline from spending your money.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the corridors you track, the developer criteria, the all-in budget with floor-rise and PLC — and the moments you want pre-committed against.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya audits the launch pipeline from RERA filings, tears down the EOI terms, and builds the all-in price-sheet arithmetic before any token.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom EOI Window journal — launch checklist, delivery scorecards, and pre-commitment rules — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the RERA-filed pipeline with delivery histories, flagged EOI terms, and the exit model for your current holding.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Launch Checklist",
+          "description": "RERA filed, title clean, refundable EOI in writing, price sheet before cheque — the gates that never move, whatever the countdown font says.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 2,
+          "title": "The Theatre, Decoded",
+          "description": "The oversubscription story, the 'valid today only' price, the quiet 6% in extras — recognized, priced, and neutralized before the allotment hall.",
+          "icon": "Eye"
+        },
+        {
+          "id": 3,
+          "title": "The Pre-Commitment System",
+          "description": "The coffee rule and written budgets that cap allotment-day adrenaline at zero rupees — and a refundable EOI that walks out when the floor is wrong.",
+          "icon": "Coffee"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You believe a flat's best price exists before the flat does, and you've bet on it more than once.",
+        "You read RERA's new-registration feed the way others read launch hoardings — earlier.",
+        "You have a written launch checklist and relationships that get you price sheets before launch weekends.",
+        "Floor-rise, PLC, and GST arithmetic are reflexes for you, not surprises.",
+        "You know the allotment-day pressure is theatre and you've still felt it work on you.",
+        "Your exit discipline is as defined as your entry — or you're working on making it so."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-rera-feed",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The RERA-Feed Ritual",
+      "desc": "The new-registration feed read before hoardings exist; two sales-head relationships deliver pre-launch price sheets. The feed is bookmarked above every portal.",
+      "icon": "Search",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-pipeline-triage",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Pipeline Triage",
+      "desc": "Birla Trimaya's next phase (Devanahalli) vs a Hennur-arc tier-1 filing — delivery histories pulled from RERA's own records, stapled first.",
+      "icon": "LayoutGrid",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-invitation-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The 'Valid Today Only' Invitation",
+      "desc": "An invitation pre-launch with pricing 'valid today only' — EOI refundability offered only 'as per company policy'; walked, on rule. Project unnamed by policy.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-allotment-bounce",
+      "stage": "S4",
+      "type": "bounce",
+      "title": "L4: The Allotment-Day Bounce",
+      "desc": "Allotment day at one launch offers only road-facing low floors; the refundable EOI exercised — the system working as designed.",
+      "icon": "ArrowUpDown",
+      "loopText": "The System Working as Designed — Refundable EOI Exercised",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l5-booking-negotiated",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L5: The Negotiated Booking",
+      "desc": "East-facing mid-floor secured at the next credible launch; floor-rise and PLC negotiated at booking, when the cheque still has power.",
+      "icon": "KeyRound",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l6-oc-exit-loop",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L6: The OC-Window Exit",
+      "desc": "The OC-day exit discipline pre-written: list three weeks before OC, close two weeks after, before neighbour listings crowd.",
+      "icon": "Timer",
+      "loopText": "OC-Window Tracking — List 3 Weeks Pre-OC, Close 2 Post",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

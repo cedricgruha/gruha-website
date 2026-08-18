@@ -1,0 +1,931 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "RENT-VS-BUY CONVERT",
+      "HSR • KUDLU • HARALUR"
+    ],
+    "title": "The Capitulation Journal",
+    "description": "Aditya Krishnan's (38, principal engineer, ₹3.1 Cr in equity) reluctant conversion from renter-evangelist to buyer — a written ₹3.4 Cr cap, an all-in cost said aloud at showflats, and a ₹3.8 Cr flat defeated by forty minutes of seasonal light.",
+    "quote": "\"I wrote the rent-vs-buy thread. Then I turned 38.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "PenLine",
+        "text": "Write the cap on tab one — past-you helping present-you"
+      },
+      {
+        "icon": "IndianRupee",
+        "text": "The all-in number runs 31% over sticker"
+      },
+      {
+        "icon": "Sun",
+        "text": "Price the wobble in nouns — '₹40L for 40 min of light'"
+      }
+    ],
+    "heroImage": "/journals/cover/16.png",
+    "heroTitle": "The Capitulation Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who he is",
+      "description": "Getting to know Aditya Krishnan (38, principal engineer, HSR's most articulate renter) — a decade-long rent-vs-buy evangelist converting at 38 after a polite eviction, a daughter's school, and a landlord who wanted 'no non-veg in the kitchen.'",
+      "buyers": [
+        {
+          "name": "Aditya Krishnan",
+          "age": 38,
+          "role": "Principal Engineer, HSR Layout",
+          "description": "For a decade he evangelized the spreadsheet gospel — renting + investing the difference beats buying, QED. The spreadsheet never broke; life did. Now buying anyway, on his terms: certainty priced as such, caps written down, and no marble-lobby lifestyle inflation.",
+          "tags": [
+            "Analytic Convert",
+            "Written-Cap Disciplinarian",
+            "Self-Aware"
+          ],
+          "image": "/journals/the-capitulation-journal/aditya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 38-year-old South Indian professional man named Aditya wearing a smart casual shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry self-aware smile, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy a 3BHK in the Kudlu–Haralur school-gravity orbit inside a written ₹3.4 Cr cap — a purchase of certainty priced as such, one he buys anyway while paying the irony tax openly. These are the consumption good — school continuity for the Grade-1 daughter, control, walls he can drill without a WhatsApp negotiation — while ₹2 Cr+ keeps compounding behind a loan he doesn't need.",
+      "sharedVisionImage": "/journals/the-capitulation-journal/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a man at a crossroads desk — one side a glowing spreadsheet with ascending graphs, the other a warm house with a child's bicycle outside, his chair turned toward the house while one hand still rests on the keyboard, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the house door, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Late Convert"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Parent — School-Gravity"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Negotiating & Closing"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Before Next Academic Year"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-capitulation-journal/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a laminated card with a hand-written price cap, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the cap figure, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Written Cap: ₹3.4 Cr",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Self-enforced, written on tab one, laminated in spirit — a commitment device that must out-vote him when he's standing in good light."
+        },
+        {
+          "image": "/journals/the-capitulation-journal/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a sales sheet with '+31% all-in' written across it in red, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the red annotation, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "All-In Cost Said Aloud",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Registration, interiors, maintenance, opportunity cost — the true +31%-over-sticker number announced at every showflat to inoculate himself."
+        },
+        {
+          "image": "/journals/the-capitulation-journal/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of RWA financial statements in a transparent folder, requested in writing, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the folder, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "RWA Finances in Writing",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Sinking fund per sqft and arrears percentage, requested in writing from every finalist — two complied, one revealingly didn't."
+        },
+        {
+          "image": "/journals/the-capitulation-journal/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a rentable floor plan with an exit arrow, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the exit arrow, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Rentable Exit Hedge",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "A 3BHK with a rentable floor plan — so the asset stays an option, never a golden handcuff, if the school's address ever changes."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How his journey actually unfolded.",
+      "description": "From a polite eviction landing at 38, to the +31% all-in number said aloud, to a ₹3.8 Cr flat defeated by forty minutes of light — and a loan taken despite the cash.",
+      "journeyFrameTitle": "THE CAPITULATION, ON HIS TERMS",
+      "roadmapTitle": "How a rent-vs-buy evangelist bought inside his own written cap",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — In Cap"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAP ENFORCED",
+          "value": "₹3.4 Cr Written"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "LOAN DESPITE CASH",
+          "value": "₹1.4 Cr — ₹2 Cr+ Compounding"
+        },
+        {
+          "icon": "Sun",
+          "label": "THE WOBBLE PRICED",
+          "value": "₹40L for 40 Minutes"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-capitulation",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Capitulation",
+          "desc": "The polite eviction lands at 38; the rent-vs-buy thread's author quietly attends a site visit. The spreadsheet didn't break — life did.",
+          "icon": "FileText",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-hsr-reality",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: HSR Reality",
+          "desc": "Locality average ~₹12,450–12,750/sqft, builder-floor khata quirks, premium community scarcity — the priced-out first love mapped in analyst's handwriting.",
+          "icon": "MapPin",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-all-in-number",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L3: The +31% All-In Number",
+          "desc": "Registration, interiors, maintenance, opportunity cost — said aloud at every showflat. One sales head visibly flinches.",
+          "icon": "IndianRupee",
+          "loopText": "All-In Cost Loop (Said Aloud, Every Visit)",
+          "x": 540,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-school-gravity",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: School-Gravity Shortlist",
+          "desc": "Kudlu–Haralur communities; Shriram Chirping Woods 3BHK leads — RWA financials disclosed in writing, on request.",
+          "icon": "School",
+          "x": 860,
+          "y": 100,
+          "width": 190
+        },
+        {
+          "id": "l5-the-light-wobble",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The ₹3.8 Cr Light Wobble",
+          "desc": "The better-light flat above cap: sun-path checked, '₹40L for 40 minutes of seasonal light' written into the cap tab. The wobble dies.",
+          "icon": "Sun",
+          "loopText": "2-Week Showflat Wobble — ₹40L/40min Ended It",
+          "x": 780,
+          "y": 420,
+          "width": 200
+        },
+        {
+          "id": "l6-chirping-woods-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The In-Cap Close",
+          "desc": "Chirping Woods 3BHK inside the written cap; loan taken despite cash — the old thesis lives inside the new one; the 'I was wrong-ish' thread drafted pre-purchase.",
+          "icon": "KeyRound",
+          "x": 480,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where he stands today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "pricing",
+          "label": "Pricing",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": "shortlisting",
+          "label": "Shortlisting",
+          "icon": "School"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "In Cap"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "eviction-thread-moment",
+          "title": "The eviction email beside his own thread",
+          "desc": "The landlord's polite, legal, 90-day eviction notice printed beside his own viral rent-vs-buy thread — the two documents that made the capitulation legible.",
+          "imageSrc": "/journals/the-capitulation-journal/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a polite eviction email printed beside a printed Twitter thread about rent-vs-buy, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the email, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "cap-card-moment",
+          "title": "The laminated cap card",
+          "desc": "₹3.4 Cr, written on tab one, laminated in spirit — the commitment device designed to out-vote him when standing in nice light.",
+          "imageSrc": "/journals/the-capitulation-journal/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a laminated card with a hand-written cap of ₹3.4 Cr on a desk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the card, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "all-in-moment",
+          "title": "The '+31% all-in' sales sheet",
+          "desc": "A showflat sales sheet with '+31% all-in' written across it in red, said aloud while a sales head visibly flinched — the moment the asterisks died.",
+          "imageSrc": "/journals/the-capitulation-journal/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a showflat sales sheet with '+31% all-in' scrawled across it in red pen, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the red annotation, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "sun-path-moment",
+          "title": "The sun-path printout",
+          "desc": "The ₹3.8 Cr flat's sun-path printout: that specific four-pm light exists roughly forty minutes a day, October to February. '₹40L for 40 minutes' written beneath.",
+          "imageSrc": "/journals/the-capitulation-journal/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a sun-path chart printout annotated '₹40L for 40 minutes' beside a floor plan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the annotation, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "thread-drafted-moment",
+          "title": "The 'I was wrong-ish' thread, drafted first",
+          "desc": "The concession thread written before the cheque as a commitment device — revealing the honest version: the spreadsheet was right about money and silent about everything else.",
+          "imageSrc": "/journals/the-capitulation-journal/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a draft Twitter thread titled 'I was wrong-ish' open in a text editor above a signed agreement, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the title, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around him",
+      "quotes": [
+        {
+          "text": "I wrote the rent-vs-buy thread. Then I turned 38.",
+          "author": "— Aditya"
+        },
+        {
+          "text": "Forty lakhs for forty minutes. Seasonal minutes.",
+          "author": "— Aditya"
+        },
+        {
+          "text": "Basically I invented a commitment device and then tried to bribe it. Classic.",
+          "author": "— Aditya"
+        },
+        {
+          "text": "The spreadsheet was right about money and silent about everything else. That's the thread.",
+          "author": "— Aditya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Aditya",
+          "avatar": "/journals/the-capitulation-journal/aditya.png",
+          "text": "Riya, the three-point-eight one. The light in that living room at four pm… I stood there and my cap — MY cap, which I wrote, laminated basically — started negotiating with me."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then let's price the light. Forty lakhs above your cap, and the sun path says that specific light exists roughly forty minutes a day, October to February. You wrote the cap when you were rational precisely so it could out-vote you in nice light.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "IndianRupee",
+          "title": "The All-In Number: +31%",
+          "description": "Price + registration (on higher guidance value) + interiors + 10-year maintenance + opportunity cost ran 31% above sticker — said aloud at every showflat."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "RWA Financials, In Writing",
+          "description": "Sinking fund per sqft and arrears percentage predict building quality better than the amenity list — requested in writing at every finalist."
+        },
+        {
+          "icon": "Sun",
+          "title": "Price the Wobble in Nouns",
+          "description": "The ₹3.8 Cr flat's better light was, on sun-path inspection, forty minutes of seasonal light — '₹40L for 40 minutes' ended the wobble."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Loan Despite Cash Is Cheap Insurance",
+          "description": "₹1.4 Cr borrowed against ₹2 Cr+ compounding: liquidity intact, tax shield live, prepayment always available. The old thesis lives inside the new one."
+        },
+        {
+          "icon": "PenLine",
+          "title": "The Pre-Drafted Concession Thread",
+          "description": "Writing the 'I was wrong-ish' thread before buying revealed the honest version — the spreadsheet was right about money and silent about everything else."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-capitulation-journal.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where he looked and what he found.",
+      "description": "Evaluating OC-ready stock in completed phases across the HSR orbit, Kudlu, and Haralur — the school's gravitational field where his ₹3.4 Cr cap still intersects reality.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Certainty, Priced"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "HSR • Kudlu • Haralur"
+        },
+        {
+          "icon": "Sun",
+          "label": "THE WOBBLE",
+          "value": "₹3.8 Cr Light — Defeated"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Chirping Woods 3BHK"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "HSR Orbit (Priced-Out First Love)",
+          "description": "The layout he rented in for years — repriced at the city's sharpest: ₹18–22K/sqft in the layout proper, premium communities scarce.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9239603,
+            "lng": 77.6452884
+          },
+          "imageSrc": "/journals/the-capitulation-journal/hsr-orbit.png",
+          "imagegenerationprompt": "A modern architectural vector view of HSR Layout residential avenues with premium towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Kudlu (School-Gravity Shortlist)",
+          "description": "The school's gravitational field at ₹14–16K/sqft — where completed-phase communities with auditable RWAs sit inside the cap.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8869264,
+            "lng": 77.6481716
+          },
+          "imageSrc": "/journals/the-capitulation-journal/kudlu.png",
+          "imagegenerationprompt": "A modern architectural vector view of Kudlu residential corridor with school-adjacent communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Haralur (Chosen Belt)",
+          "description": "Chirping Woods' corridor — ready community, RWA financials disclosed in writing, the 3BHK that finally sat inside the written cap.",
+          "projects": 3,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9036621,
+            "lng": 77.6438421
+          },
+          "imageSrc": "/journals/the-capitulation-journal/haralur.png",
+          "imagegenerationprompt": "A modern architectural vector view of Haralur residential belt with a ready gated community, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the ₹3.8 Cr better-light tower (wobble, defeated by sun-path) • premium HSR communities above the cap",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE PRICED-OUT FIRST LOVE",
+          "value": "HSR at ₹18–22K/sqft",
+          "description": "The layout he rented for years repriced itself out of reach — the search moved to the Kudlu–Haralur orbit at ₹14–16K.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "ASTERISK MATH",
+          "value": "+31% Over Sticker",
+          "description": "Registration on higher guidance value, interiors, maintenance, opportunity cost — the all-in number that brochures never print.",
+          "icon": "IndianRupee"
+        },
+        {
+          "title": "RWA DISCLOSURE GAMES",
+          "value": "Two Compiled, One Didn't",
+          "description": "Financial statements requested in writing from every finalist — two complied, and one revealingly didn't, answering the question itself.",
+          "icon": "FileX"
+        },
+        {
+          "title": "THE QUOTE-TWEET TAX",
+          "value": "27-Year-Olds, Gleefully",
+          "description": "His old rent-vs-buy threads get quote-tweeted at him by a younger cohort — a tax on changing your mind in public.",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "He was filtering for certainty priced as such — OC in hand, RWA finances auditable, and a cap that could out-vote him at four pm.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Aditya negotiates with his own psychology in writing — caps on tab one, wobbles priced in nouns, the concession thread drafted before the cheque. When the ₹3.8 Cr flat's better light started negotiating with his cap, we priced the sun: forty lakhs for forty minutes of seasonal light. The wobble died in the spreadsheet where it had always belonged. His real purchase wasn't a flat — it was control, school continuity, and walls he can drill without a WhatsApp negotiation. The yield cell was always silent about those.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a sun-path chart beside a cap-and-all-in spreadsheet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where he looked and what he found.",
+      "description": "Weighing OC-ready completed phases in the school-gravity belt — RWA financials in writing, all-in cost said aloud, and the cap laminated in spirit.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Certainty, Priced"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Chirping Woods 3BHK"
+        },
+        {
+          "icon": "Sun",
+          "label": "THE WOBBLE DEFEATED",
+          "value": "₹40L for 40 Minutes"
+        },
+        {
+          "icon": "Banknote",
+          "label": "TRANSACTION",
+          "value": "₹3.4 Cr Cap • ₹1.4 Cr Loan"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in his search",
+      "priorities": [
+        {
+          "icon": "PenLine",
+          "title": "The Written Cap",
+          "subtitle": "₹3.4 Cr, tab one"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "All-In Cost, Said Aloud",
+          "subtitle": "+31% over sticker"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "RWA Financials",
+          "subtitle": "disclosed in writing"
+        },
+        {
+          "icon": "School",
+          "title": "School-Gravity",
+          "subtitle": "the run defines the deadline"
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Rentable Exit Hedge",
+          "subtitle": "option, never handcuff"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Aditya",
+          "avatar": "/journals/the-capitulation-journal/aditya.png",
+          "text": "I borrowed money I didn't need and bought a flat my own spreadsheet called mediocre. And somehow it's the most rational thing I've done this decade."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Because the spreadsheet priced money and you priced everything else. Certainty, school continuity, walls you can drill — that's the thread. Wrong-ish about the model, right about the life.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where he searched",
+      "mapImageSrc": "/journals/the-capitulation-journal/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the HSR orbit, Kudlu and Haralur with a school-gravity ring in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects he explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Shriram Chirping Woods (Chosen)",
+          "name": "Shriram Chirping Woods",
+          "price": "In Cap, ~₹3.4 Cr 3BHK",
+          "possession": "Ready",
+          "psf": "Corridor's upper band",
+          "location": "Harlur / Kasavanahalli",
+          "imageSrc": "/journals/the-capitulation-journal/projects/Shriram-Chirping-Woods.avif"
+        },
+        {
+          "title": "The Priced-Out First Love",
+          "name": "HSR Layout Stock",
+          "price": "2BHK ₹77L–1.99 Cr",
+          "possession": "Ready / Resale",
+          "psf": "₹12,450–12,750/sqft avg",
+          "location": "HSR Layout",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Better-Light Wobble",
+          "name": "The ₹3.8 Cr Tower (unnamed)",
+          "price": "₹40L Above Cap",
+          "possession": "Ready",
+          "psf": "Premium band",
+          "location": "HSR orbit",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Sun",
+          "title": "₹40L for 40 Minutes of Light",
+          "count": "1 wobble defeated by sun-path"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "HSR Premium Above Cap",
+          "count": "the priced-out first love"
+        },
+        {
+          "icon": "FileX",
+          "title": "RWA Financials Not Disclosed",
+          "count": "1 finalist answered the question by not answering"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Marble-Lobby Premium",
+          "count": "every tower selling adjectives, not maintenance"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Chirping Woods 3BHK inside the written ₹3.4 Cr cap delivered OC in hand, RWA financials disclosed in writing, and a rentable floor plan as exit hedge — with a ₹1.4 Cr loan taken despite cash so ₹2 Cr+ keeps compounding. The capitulation, completed on his own terms, with the 'I was wrong-ish' thread already drafted.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for analytical late converts — writing the cap down, pricing the wobble in nouns, and letting the old thesis live inside the new one.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Caps Must Out-Vote You"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Certainty, Priced"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The ₹40L-for-40min Wobble"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Loan Despite Cash"
+        }
+      ],
+      "lessonsTitle": "Lessons he learned",
+      "lessons": [
+        {
+          "title": "The all-in number is +31% over sticker.",
+          "description": "Price + registration + interiors + 10-year maintenance + opportunity cost ran 31% above the brochure number — saying it aloud at site visits horrified one sales head and clarified everything.",
+          "imageSrc": "/journals/the-capitulation-journal/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a price sheet annotated '+31% all-in' in red, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "RWA financials predict building quality better than amenities.",
+          "description": "Sinking fund per sqft and arrears percentage — obtainable if you ask in writing — outperformed every brochure's amenity list. Two finalists complied; one revealingly didn't.",
+          "imageSrc": "/journals/the-capitulation-journal/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of RWA financial statements with sinking fund and arrears figures highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Price the wobble in nouns, not adjectives.",
+          "description": "The ₹3.8 Cr flat's 'better light' was, on sun-path inspection at 3 pm, forty minutes of seasonal light. '₹40L for 40 minutes' written into the spreadsheet ended the wobble.",
+          "imageSrc": "/journals/the-capitulation-journal/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a sun-path chart with '₹40L for 40 minutes' annotated beneath it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "A loan you don't need is cheap insurance.",
+          "description": "Borrowing ₹1.4 Cr against ₹2 Cr+ compounding kept liquidity intact, switched on the tax shield, and left prepayment always available — the old thesis lives inside the new one.",
+          "imageSrc": "/journals/the-capitulation-journal/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a loan sanction letter beside a compounding equity chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Renting + investing the difference beats buying, QED"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The brochure price is the price"
+        },
+        {
+          "icon": "Building2",
+          "text": "The amenity list reveals building quality"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "Buying with cash always beats borrowing"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "KeyRound",
+          "text": "Control, school continuity, and drillable walls aren't in a yield cell"
+        },
+        {
+          "icon": "Zap",
+          "text": "The all-in +31% number is the only number that counts"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "RWA financials in writing predict the building"
+        },
+        {
+          "icon": "Banknote",
+          "text": "Loan-against-compounding keeps the old thesis alive"
+        }
+      ],
+      "differentlyTitle": "What he'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "PenLine",
+          "title": "Write the cap before the wobble exists",
+          "description": "The cap was written in month two — had it been written in month one, the ₹3.8 Cr visit might never have happened."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Price the all-in from the first listing sheet",
+          "description": "The +31% decoder should have been a formula in the sheet from day one, not a habit acquired at showflat three."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Ask for RWA financials in the first email",
+          "description": "Adding the request to the initial enquiry would have eliminated the non-disclosing finalist three weeks earlier."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Draft the concession thread in month one",
+          "description": "The commitment device worked — but it would have worked even earlier, as the very first entry in the journal."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Aditya",
+          "avatar": "/journals/the-capitulation-journal/aditya.png",
+          "text": "My old threads get quote-tweeted at me, and you know what? I'd buy again. The spreadsheet was right about money and silent about everything else."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the thread. And the forty-minute sun that cost forty lakhs will still be there in October — you just won't be paying for it.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for analytical late converts",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Aditya printing the eviction email beside his thread, laminating the cap card, pricing the sun-path wobble, and signing the Chirping Woods deed, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For buyers converting from rent-beats-buy orthodoxy, the edge is not in the model — it's in writing the cap down before the wobble exists, pricing the all-in cost aloud at every showflat, and drafting the public concession before the cheque. Aditya proved that a written cap is past-you doing present-you a favour, and that the old thesis can live inside the new one: a loan taken despite cash keeps ₹2 Cr+ compounding while certainty gets purchased at a known price.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The all-in number ran 31% above the sticker",
+          "body": "Price plus registration on higher guidance value, interiors, 10-year maintenance, and opportunity cost — saying it aloud at site visits horrified one sales head and clarified everything.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "RWA financial statements are obtainable if you ask in writing",
+          "body": "Sinking fund per sqft and arrears percentage predicted building quality better than the brochure's amenity list — and the finalist who wouldn't disclose answered the question by not answering.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The ₹3.8 Cr flat's better light was forty minutes of seasonal light",
+          "body": "On sun-path inspection, the four-pm glow existed roughly forty minutes a day, October to February. '₹40L for 40 minutes' written into the spreadsheet ended the wobble.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "A loan he didn't need turned out to be cheap insurance",
+          "body": "Borrowing ₹1.4 Cr against ₹2 Cr+ compounding kept liquidity intact, switched on the tax shield, and left prepayment always available — the old thesis lives inside the new one.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "He drafted the 'I was wrong-ish' thread before buying",
+          "body": "Writing the concession before the cheque, as a commitment device, revealed the honest version: the spreadsheet was right about money and silent about everything else.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you are converting from rent-beats-buy orthodoxy, let Riya build your capitulation roadmap — written cap, all-in cost said aloud, and the showflat discipline that out-votes you in nice light.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your equity corpus, the school's gravitational field, and the honest number you'll write at the top of tab one.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya computes the true all-in cost of ownership versus continued renting near the school — opportunity cost included, no flattery.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Capitulation journal — cap card, all-in decoder, and RWA-financials-in-writing checklist — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified OC-ready 3BHKs inside your cap, with each community's RWA financial health attached — not just the amenities.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in his search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Written Cap Card",
+          "description": "Your own number, laminated in spirit, with Riya as the discipline that prices the showflat light.",
+          "icon": "PenLine"
+        },
+        {
+          "id": 2,
+          "title": "All-In Cost Decoder",
+          "description": "Registration, interiors, maintenance, opportunity cost — the true +31% number computed before any offer.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "RWA Financial-Health Reading",
+          "description": "Sinking fund per sqft and arrears percentage — requested in writing, read like the analyst you are.",
+          "icon": "FileCheck2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You publicly argued rent-beats-buy for a decade, and life quietly changed your inputs.",
+        "A landlord's polite eviction taught you that control doesn't appear in yield calculations.",
+        "A child's school has become the fixed point your geography orbits.",
+        "You distinguish the financial asset from the consumption good, out loud, at parties.",
+        "You've written your price cap down and the showflats are negotiating with your discipline.",
+        "Some part of your delay is about managing your own past statements, and you know it's the dumbest input in the model."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-capitulation",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Capitulation",
+      "desc": "The polite eviction lands at 38; the rent-vs-buy thread's author quietly attends a site visit. The spreadsheet didn't break — life did.",
+      "icon": "FileText",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-hsr-reality",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: HSR Reality",
+      "desc": "Locality average ~₹12,450–12,750/sqft, builder-floor khata quirks, premium community scarcity — the priced-out first love mapped in analyst's handwriting.",
+      "icon": "MapPin",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-all-in-number",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L3: The +31% All-In Number",
+      "desc": "Registration, interiors, maintenance, opportunity cost — said aloud at every showflat. One sales head visibly flinches.",
+      "icon": "IndianRupee",
+      "loopText": "All-In Cost Loop (Said Aloud, Every Visit)",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-school-gravity",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: School-Gravity Shortlist",
+      "desc": "Kudlu–Haralur communities; Shriram Chirping Woods 3BHK leads — RWA financials disclosed in writing, on request.",
+      "icon": "School",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-the-light-wobble",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The ₹3.8 Cr Light Wobble",
+      "desc": "The better-light flat above cap: sun-path checked, '₹40L for 40 minutes of seasonal light' written into the cap tab. The wobble dies.",
+      "icon": "Sun",
+      "loopText": "2-Week Showflat Wobble — ₹40L/40min Ended It",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-chirping-woods-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The In-Cap Close",
+      "desc": "Chirping Woods 3BHK inside the written cap; loan taken despite cash — the old thesis lives inside the new one; the 'I was wrong-ish' thread drafted pre-purchase.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

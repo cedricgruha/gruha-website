@@ -1,0 +1,942 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "FRESH-START BUYER",
+      "CV RAMAN NAGAR • KAGGADASAPURA"
+    ],
+    "title": "The My Own Name Journal",
+    "description": "Shalini Krishnamurthy's (39, finance controller) post-divorce purchase — a sole-name 2BHK in Tara's school radius, lawyer hired before broker, the 24% EMI cap chosen over eligibility, and a fortress arithmetic that taught instead of scarred.",
+    "quote": "\"The deed will say Shalini. Just Shalini.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "FileCheck2",
+        "text": "Sole-name deed, will, guardian — before the first visit"
+      },
+      {
+        "icon": "Scale",
+        "text": "The EMI cap is set by a memory — worst-month math"
+      },
+      {
+        "icon": "Sunrise",
+        "text": "Tara chose the van-visible balcony — and the light"
+      }
+    ],
+    "heroImage": "/journals/cover/27.png",
+    "heroTitle": "The My Own Name Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who she is",
+      "description": "Getting to know Shalini Krishnamurthy (39, finance controller at a logistics unicorn) & daughter Tara (8) — divorced two years, the settlement finalized, renting in CV Raman Nagar near Tara's school, and buying the first home that will be entirely, uncomplicatedly hers.",
+      "buyers": [
+        {
+          "name": "Shalini Krishnamurthy",
+          "age": 39,
+          "role": "Finance Controller, Logistics Unicorn",
+          "description": "The marriage's flat taught her entanglement — joint loan, his-family down payment, her EMI servicing an asset whose ownership story never included her. The eleven-month unwind taught her more about title and registration than a law degree. This purchase is precise where the last one was assumed.",
+          "tags": [
+            "Precision Rebuilder",
+            "24% Cap Keeper",
+            "Lawyer-First Buyer"
+          ],
+          "image": "/journals/the-my-own-name/shalini.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 39-year-old South Indian professional woman named Shalini wearing smart business attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, composed quietly fierce expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Tara",
+          "age": 8,
+          "role": "The One Who Chose the Balcony",
+          "description": "School continuity is the one thing the divorce didn't take — and the radius is her radius. Shown the two finalists, she chose by a criterion no adult had weighted: which balcony could see the school van arrive.",
+          "tags": [
+            "Van-Visible Balcony Selector",
+            "School-Radius Anchor",
+            "The Reason for the Fortress"
+          ],
+          "image": "/journals/the-my-own-name/tara.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of an 8-year-old Indian girl named Tara with a cheerful expression, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy the first home that is entirely, uncomplicatedly hers — a ready-with-OC 2BHK in Tara's school radius, her name alone on every page, engineered for one income with institutional-grade buffers, and a bedroom that grows from 8 to 18.",
+      "sharedVisionImage": "/journals/the-my-own-name/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a woman and her young daughter standing at the open door of a sunlit apartment, the morning light falling across the floor like a path, a single key with a bright ribbon in the woman's hand, moving boxes labelled with hand-drawn stars, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the key's ribbon, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Single Mother, Single Income"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Fresh Start, Post-Divorce"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "4 Months — Before School Year"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-my-own-name/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an Occupancy Certificate with a verified seal and zero-tolerance stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Ready-With-OC, Exclusively",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Zero possession-risk appetite — a single mother's risk register has no row for builder delay. Possession risk is disqualified, not discounted."
+        },
+        {
+          "image": "/journals/the-my-own-name/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a property deed with a single signature line filled by one name, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the signature, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Her Name Alone",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Her money, her loan, her nominee — the deed will say Shalini, just Shalini, on every page. Entanglement was the lesson; clarity is the architecture."
+        },
+        {
+          "image": "/journals/the-my-own-name/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a community park with families and a security booth that is protective rather than inquisitive, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the park, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Respectful Community Culture",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Other single mothers, or at least a culture that doesn't treat one as a curiosity — security that's protective, not inquisitive, verified via introduced residents."
+        },
+        {
+          "image": "/journals/the-my-own-name/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a kitchen window with morning light streaming onto a counter and a steaming cup, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the light, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Morning-Light Kitchen",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Found at one finalist and quietly decisive — a kitchen that starts the day with east light, for a household that needs every morning to begin well."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How her journey actually unfolded.",
+      "description": "From a lawyer's retainer dated before any broker's card, to an OC-only census, a school-continuity veto, and a cap test resolved by fortress arithmetic.",
+      "journeyFrameTitle": "ONE NAME, ENGINEERED CLARITY",
+      "roadmapTitle": "How a single mother bought the fortress Tara will grow up in",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Defence-Belt 2BHK"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.55–1.7 Cr, Sole Name"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE CAP",
+          "value": "24% EMI — 11-Month Buffer"
+        },
+        {
+          "icon": "Sunrise",
+          "label": "THE DECIDING DETAIL",
+          "value": "Van-Visible Balcony, 7:45 am"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-lawyer-first",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Lawyer Before Broker",
+          "desc": "Settlement closes; the lawyer's retainer is dated before any broker's card; sole-name purchase hygiene defined on day one — nomination, will, guardianship.",
+          "icon": "FileCheck2",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-oc-only-census",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The OC-Only Census",
+          "desc": "CV Raman Nagar–Kaggadasapura ready-with-OC stock only; possession-risk flats greyed out of the corridor — disqualified, not discounted.",
+          "icon": "Search",
+          "x": 360,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-school-veto-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The 20%-Cheaper 8 km",
+          "desc": "An '8 km away, 20% cheaper' community tempts the spreadsheet — vetoed by the school-continuity rule: the one thing the divorce didn't take.",
+          "icon": "Eye",
+          "x": 340,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "l4-culture-check",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Introduced-Resident Check",
+          "desc": "Two finalists; each RWA asked for a casual introduction to two resident single parents — one community produced them in a day with warmth, the other 'would check.'",
+          "icon": "Users",
+          "x": 560,
+          "y": 400,
+          "width": 190
+        },
+        {
+          "id": "l5-cap-test-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The Cap Test",
+          "desc": "The ₹1.85 Cr better layout tests the 24% cap; the worst-month simulation says no — eleven months of buffer vs four and a half. The cap teaches; it doesn't scar.",
+          "icon": "Scale",
+          "loopText": "2-Week Cap-vs-Layout Loop — Fortress Arithmetic Holds",
+          "x": 760,
+          "y": 360,
+          "width": 200
+        },
+        {
+          "id": "l6-sole-name-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Van-Visible Close",
+          "desc": "2BHK closed in the defence-belt community; nomination to Tara with guardian-trustee; the van-visible balcony photographed at 7:45 am seals it.",
+          "icon": "KeyRound",
+          "x": 680,
+          "y": 50,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where she stands today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "censusing",
+          "label": "Censusing",
+          "icon": "Search"
+        },
+        {
+          "id": "checking",
+          "label": "Culture-Checking",
+          "icon": "Users"
+        },
+        {
+          "id": "testing",
+          "label": "Stress-Testing",
+          "icon": "Scale"
+        },
+        {
+          "id": "nominating",
+          "label": "Nominating",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "One Name, One Key"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "retainer-moment",
+          "title": "The retainer dated before any broker's card",
+          "desc": "The lawyer's retainer receipt, dated before any broker's card existed in the file — the sequence that defined the whole purchase: structure first, then search.",
+          "imageSrc": "/journals/the-my-own-name/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a lawyer's retainer receipt dated before an unopened stack of broker cards, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the date, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "greyed-corridor-moment",
+          "title": "The greyed-out possession-risk corridor",
+          "desc": "The OC-only census — a corridor of listings with possession-risk flats greyed out, disqualified rather than discounted. The risk register has no row for builder delay.",
+          "imageSrc": "/journals/the-my-own-name/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a corridor listings map with possession-risk flats greyed out and OC-only units highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "fortress-arithmetic-moment",
+          "title": "The fortress arithmetic page",
+          "desc": "Worst month: fee hike, one medical event, zero help — eleven months of buffer at 24%, four and a half at the ₹1.85 Cr flat. The page became 'The Fortress File.'",
+          "imageSrc": "/journals/the-my-own-name/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-written worst-month simulation page comparing eleven months of buffer at 24% with four and a half at 38%, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "introduced-mom-moment",
+          "title": "One community's introduction email, same day",
+          "desc": "The culture check's decider: one RWA produced two resident single parents within a day, with warmth; the other 'would check.' The shortlist resolved itself.",
+          "imageSrc": "/journals/the-my-own-name/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of two finalist folders, one with an introduction email arriving the same day and the other marked 'will check', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "balcony-moment",
+          "title": "The 7:45 am balcony photograph",
+          "desc": "The van-visible balcony photographed at 7:45 am — Tara's one criterion, and the reason the morning-light kitchen and the school-van view turned out to be the same flat.",
+          "imageSrc": "/journals/the-my-own-name/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a morning photograph taken from a balcony at 7:45 am showing a school van approaching, with the timestamp in the corner, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The deed will say Shalini. Just Shalini.",
+          "author": "— Shalini"
+        },
+        {
+          "text": "Your cap isn't set by eligibility, Shalini. It's set by a memory. Let's test whether it's wisdom or scar tissue — calmly, with arithmetic.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Four and a half months is not a fortress. Seri. The cap stays.",
+          "author": "— Shalini"
+        },
+        {
+          "text": "The day Tara asks why we didn't take the bigger house… I'll show her the fortress.",
+          "author": "— Shalini"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Shalini",
+          "avatar": "/journals/the-my-own-name/shalini.png",
+          "text": "Riya, the ₹1.85 one. Better layout, better tower. My eligibility covers it — the bank practically sang about it. Tell me why I'm hesitating."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Because your cap isn't set by eligibility — it's set by a memory. Thirty-eight percent, in the old life; you remember exactly what that felt like when things broke. Worst month at 24%: eleven months of buffer. At the ₹1.85 flat: four and a half. Test the cap as wisdom or scar tissue, and let the arithmetic hold.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileCheck2",
+          "title": "Ready-With-OC Only",
+          "description": "Zero possession-risk appetite — the risk register has no row for builder delay. Possession risk is disqualified, not discounted, in every candidate."
+        },
+        {
+          "icon": "Scale",
+          "title": "The 24% Cap, Tested",
+          "description": "The ₹1.85 Cr better layout was run through the worst-month simulation — eleven months of buffer at 24% vs four and a half. The cap teaches; it doesn't scar."
+        },
+        {
+          "icon": "Users",
+          "title": "Culture Before Registration",
+          "description": "Community culture toward single mothers is researchable — one RWA produced two resident single parents in a day with warmth; the other 'would check.' The shortlist resolved itself."
+        },
+        {
+          "icon": "Sunrise",
+          "title": "The School-Radius Premium",
+          "description": "CV Raman Nagar's defence-area stability premium is paid knowingly — better value exists 8 km away, along with a school change she has vetoed. Tara's continuity is not for sale."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Fortress Structure",
+          "description": "Six-month emergency fund inviolable, education SIP protected from the house, caps chosen over eligibility with the CA as witness — built for one income with no backup."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-my-own-name.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where she looked and what she found.",
+      "description": "Evaluating ready-with-OC stock in Tara's fixed school radius — CV Raman Nagar–Kaggadasapura–New Thippasandra, where the defence-area stability premium is paid knowingly for the one thing the divorce didn't take.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Sole-Name, OC-Only 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "CV Raman Nagar • Kaggadasapura • New Thippasandra"
+        },
+        {
+          "icon": "Users",
+          "label": "THE CULTURE CHECK",
+          "value": "1 Community Said Yes, Same Day"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Defence-Belt 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "Tara's school radius she explored",
+      "exploredAreas": [
+        {
+          "title": "CV Raman Nagar (Chosen)",
+          "description": "The defence-area stability premium belt — ready 2BHKs at ₹14–16K/sqft, DRDO-adjacent calm, and the community that produced resident single parents within a day.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9829427,
+            "lng": 77.6511089
+          },
+          "imageSrc": "/journals/the-my-own-name/cv-raman-nagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of CV Raman Nagar's defence-area residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Kaggadasapura",
+          "description": "The school-radius's eastern reach — established communities with family density, weighed for the same OC-only discipline and the 10-minute school rule.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9776358,
+            "lng": 77.6638086
+          },
+          "imageSrc": "/journals/the-my-own-name/kaggadasapura.png",
+          "imagegenerationprompt": "A modern architectural vector view of Kaggadasapura's established residential communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "New Thippasandra",
+          "description": "The radius's northern pocket — quieter streets and defence-colony calm, kept on the watch list for the rare OC-ready listing that passes the caps.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9769253,
+            "lng": 77.6466799
+          },
+          "imageSrc": "/journals/the-my-own-name/new-thippasandra.png",
+          "imagegenerationprompt": "A modern architectural vector view of New Thippasandra's quiet residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the 8-km-away 20%-cheaper community (vetoed by the school-continuity rule) • every possession-risk listing, greyed out by the OC-only census",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE ENTANGLEMENT LESSON",
+          "value": "Eleven Months to Unwind",
+          "description": "The marriage's flat — joint loan, his-family down payment, her EMI on an asset whose ownership story never included her — taught the precision this purchase is built on.",
+          "icon": "FileX"
+        },
+        {
+          "title": "THE POSSESSION-RISK DISQUALIFIER",
+          "value": "No Row for Builder Delay",
+          "description": "A single mother's risk register has no row for builder delay — ready-with-OC is a disqualifier criterion, not a preference, and the census greyed out the rest.",
+          "icon": "Search"
+        },
+        {
+          "title": "THE 24%-vs-38% MEMORY",
+          "value": "The Scar That Teaches",
+          "description": "The married-life EMI hit 38% and she remembers what that felt like when things broke — the cap is chosen over eligibility, in writing, with the CA as witness.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE 'WILL CHECK' COMMUNITY",
+          "value": "Culture, Verifiable",
+          "description": "Community culture toward single mothers is researchable — one RWA produced two resident single parents in a day with warmth; the other 'would check.'",
+          "icon": "Users"
+        }
+      ],
+      "filtersFooterLabel": "She was filtering for OC-only certainty, sole-name clarity, a school radius that holds, and a community that doesn't treat a single mother as a curiosity.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Shalini's journey is deliberately low-amplitude — the drama is contained by design, because the discipline arrived first. The lawyer was hired before the broker; the settlement funds were documented before the first site visit; the will and guardianship were drafted before the shortlist existed. Her hardest moment wasn't a collapse — it was a better layout at ₹1.85 Cr that her eligibility could easily cover. We ran the worst-month simulation, and the cap held not because it scared her but because it taught her: eleven months of buffer at 24%, four and a half at the bigger flat. And the most human detail — Tara chose the finalists by which balcony could see the school van arrive. The morning-light kitchen and the van-visible balcony were the same flat. She'll show Tara the fortress someday.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a worst-month fortress arithmetic page beside an OC-only census, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where she looked and what she found.",
+      "description": "The cast stays locality-level by design — a single mother's specific address is nobody's content. The transferable pattern: OC-only certainty, introduced-resident culture checks, and the fortress caps.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Sole-Name, OC-Only 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Defence-Belt 2BHK"
+        },
+        {
+          "icon": "Users",
+          "label": "THE CULTURE DECIDER",
+          "value": "1 Same-Day Introduction"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹1.55–1.7 Cr, Sole Name"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in her search",
+      "priorities": [
+        {
+          "icon": "FileCheck2",
+          "title": "Ready-With-OC",
+          "subtitle": "zero possession risk"
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Sole Name, Every Page",
+          "subtitle": "her money, her deed"
+        },
+        {
+          "icon": "School",
+          "title": "Tara's Fixed Radius",
+          "subtitle": "continuity, not for sale"
+        },
+        {
+          "icon": "Users",
+          "title": "Respectful Culture",
+          "subtitle": "introduced residents, verified"
+        },
+        {
+          "icon": "Scale",
+          "title": "The 24% Cap",
+          "subtitle": "fortress arithmetic"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Shalini",
+          "avatar": "/journals/the-my-own-name/shalini.png",
+          "text": "The bank approved me for a flat I decided not to buy. The cap didn't feel like a loss — it felt like a wall I built with the right reasons."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the difference between a scar and a design. The fortress held before it was ever tested — and Tara will grow up inside walls chosen by arithmetic, not by memory.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where she searched",
+      "mapImageSrc": "/journals/the-my-own-name/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of CV Raman Nagar, Kaggadasapura and New Thippasandra with a school-radius ring in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects she explored",
+      "projectsCountBadge": "Locality-level cast",
+      "projects": [
+        {
+          "title": "The Chosen Defence-Belt Community",
+          "name": "CV Raman Nagar Established Community",
+          "price": "Not stated",
+          "possession": "Ready with OC",
+          "psf": "2BHKs ₹14–16K/sqft, defence premium",
+          "location": "CV Raman Nagar",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Second Finalist",
+          "name": "Kaggadasapura Established Community",
+          "price": "Comparable 2BHK band",
+          "possession": "Ready with OC",
+          "psf": "School-radius belt",
+          "location": "Kaggadasapura",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The School-Vetoed Detour",
+          "name": "The 8-km Cheaper Community",
+          "price": "Not stated",
+          "possession": "Ready",
+          "psf": "Value at a school-change price",
+          "location": "8 km from the radius",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "School",
+          "title": "The School-Continuity Veto",
+          "count": "1 community, 20% cheaper, 8 km away"
+        },
+        {
+          "icon": "Search",
+          "title": "Possession-Risk Disqualifier",
+          "count": "every non-OC listing, greyed out"
+        },
+        {
+          "icon": "Users",
+          "title": "The 'Will Check' Culture",
+          "count": "1 finalist eliminated by its own reply"
+        },
+        {
+          "icon": "Scale",
+          "title": "Failed the Fortress Arithmetic",
+          "count": "1 better layout, 4.5-month buffer"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the defence-belt 2BHK at ₹1.55–1.7 Cr delivered OC-only certainty, a community that produced resident single parents within a day, and the morning-light kitchen with the van-visible balcony — Tara's own criterion. The nomination names Tara with a guardian-trustee, the deed carries one name, and the fortress arithmetic was saved as 'The Fortress File.'",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for fresh-start buyers — the lawyer-first sequence, the cap that teaches, the culture check before registration, and the fortress structure built for one income.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Structure Before Search"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Sole-Name Clarity"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The ₹1.85 Cr Temptation"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Fortress File"
+        }
+      ],
+      "lessonsTitle": "Lessons she learned",
+      "lessons": [
+        {
+          "title": "Post-divorce purchase hygiene is a discipline.",
+          "description": "Settlement funds documented, sole-name deed, nomination to Tara with guardian-trustee, and a will drafted before the first site visit — the lawyer's ₹40K retainer bought what the marriage's flat never had: structural clarity.",
+          "imageSrc": "/journals/the-my-own-name/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a legal file with a retainer receipt, a nomination form naming a child with a guardian-trustee, and a drafted will, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The cap is not the scar talking; it's the scar teaching.",
+          "description": "The ₹1.85 Cr better layout was run through the worst-month simulation — eleven months of buffer at 24% vs four and a half. The cap held, and the arithmetic was saved as 'The Fortress File.'",
+          "imageSrc": "/journals/the-my-own-name/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a fortress-arithmetic page comparing 11-month and 4.5-month buffer lines with a fortress glyph, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Community culture toward single mothers is researchable before purchase.",
+          "description": "Each RWA was asked for a casual introduction to two resident single parents — one community produced them in a day with warmth; the other 'would check.' The shortlist resolved itself.",
+          "imageSrc": "/journals/the-my-own-name/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two community folders with an introduction email arriving the same day beside one marked 'will check', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Tara's criterion was the one no adult had weighted.",
+          "description": "Shown the two finalists, Tara chose by which balcony could see the school van arrive — and the morning-light kitchen and the van-visible balcony turned out to be the same flat.",
+          "imageSrc": "/journals/the-my-own-name/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a child pointing at a balcony from which a school van is visible at 7:45 am, beside a morning-light kitchen, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Eligibility is the budget; the bank's yes is the ceiling"
+        },
+        {
+          "icon": "Building2",
+          "text": "A community's culture can be judged from its brochure"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The bigger flat is always the better deal"
+        },
+        {
+          "icon": "Home",
+          "text": "Ownership structure can be sorted out after the purchase"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Scale",
+          "text": "The cap is chosen over eligibility, in writing, with reasons"
+        },
+        {
+          "icon": "Users",
+          "text": "Introduced residents reveal culture; brochures hide it"
+        },
+        {
+          "icon": "Sunrise",
+          "text": "The morning-light kitchen and the van-visible balcony are the same flat"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "Lawyer, deed, nomination, will — structure before search"
+        }
+      ],
+      "differentlyTitle": "What she'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Users",
+          "title": "Run the culture check in week one",
+          "description": "The introduced-resident test arrived at month four — the 'will check' community would have been eliminated in the first fortnight."
+        },
+        {
+          "icon": "Scale",
+          "title": "Write the fortress arithmetic before shortlisting",
+          "description": "The worst-month simulation was run mid-decision — having the buffer math on page one would have greyed out the ₹1.85 Cr layout immediately."
+        },
+        {
+          "icon": "Sunrise",
+          "title": "Ask Tara's criterion earlier",
+          "description": "The van-visible balcony was discovered at month four — the school-van question should have been in the needs card from day one."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Draft the nomination with the retainer",
+          "description": "The guardianship paperwork was complete by month five — the lawyer-first sequence would have included it in the original retainer scope."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Shalini",
+          "avatar": "/journals/the-my-own-name/shalini.png",
+          "text": "The deed says Shalini. The nomination names Tara. The kitchen gets east light and the balcony sees her van. I think I finally bought the right architecture."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You bought the fortress first — arithmetic, then walls, then a van-visible balcony for an 8-year-old who'll grow up knowing exactly how her home was chosen. One name, one key, one clear beginning.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for fresh-start buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Shalini filing the lawyer's retainer, grey-ing out possession-risk listings, running the fortress arithmetic, and photographing the van-visible balcony at 7:45 am, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For fresh-start buyers, the edge is the sequence: lawyer before broker, deed and nomination before shortlist, and the cap chosen over eligibility with arithmetic as witness. Ready-with-OC only — a single-income risk register has no row for builder delay. Verify community culture through introduced residents, not brochures, and let the smallest stakeholder's criterion — a van-visible balcony — sit beside the biggest structural decisions. Shalini proved the fortress is built of deliberate, quiet choices; Tara will inherit both the walls and the reasons.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Post-divorce purchase hygiene is a discipline",
+          "body": "Settlement funds documented, sole-name deed, nomination to Tara with guardian-trustee, and a will drafted before the first site visit — the lawyer's ₹40K retainer bought structural clarity.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The 24%-vs-38% EMI decision survived its first test",
+          "body": "A finalist at ₹1.85 Cr with a better layout — she ran the worst-month simulation, watched the margin vanish, and let it go without grief. The cap is not the scar talking; it's the scar teaching.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Community culture toward single mothers is researchable",
+          "body": "Each RWA was asked for a casual introduction to two resident single parents — one produced them in a day with warmth; the other 'would check.' The shortlist resolved itself.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Ready-with-OC and 5+ years meant culture was fact, not projection",
+          "body": "Family density, park culture, and security temperament were auditable on three visits at three different hours — the community's actual life, not its render.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Tara chose by the criterion no adult had weighted",
+          "body": "Which balcony could see the school van arrive — and the morning-light kitchen and the van-visible balcony turned out to be the same flat.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you're rebuilding after an ending and this deed will carry one name, let Riya build your fresh-start roadmap — structure first, fortress arithmetic, and a community verified before registration.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the settlement position, the child's school radius, the single-income reality, and the cap you've chosen over your eligibility.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the single-income fortress plan — 24% EMI cap, six-month buffer, protected education SIP — and runs the worst-month simulation on every candidate.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom My Own Name journal — sole-ownership checklist, fortress calculator, and culture-check template — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive ready-with-OC 2BHKs in established communities within the school radius, with culture checks and fortress math attached.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in her search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Single-Income Fortress Framework",
+          "description": "24% EMI cap, six-month buffer, protected education SIP — the price ceiling that arithmetic implies, held to in writing.",
+          "icon": "Scale"
+        },
+        {
+          "id": 2,
+          "title": "Sole-Ownership Hygiene",
+          "description": "Deed, nomination, will, guardianship — the complete post-divorce checklist, drafted before the shortlist.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 3,
+          "title": "Community-Culture Diligence",
+          "description": "Introduced-resident checks and security-temperament audits — because culture is verifiable before registration.",
+          "icon": "Users"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You're rebuilding after an ending, and this deed will carry one name: yours.",
+        "Your last property taught you about entanglement; this one is engineered for clarity.",
+        "Your EMI cap is set by a memory, and you've chosen it over your eligibility.",
+        "A child's school continuity is the one thing the upheaval didn't take, and it anchors your map.",
+        "Possession risk is not a discount opportunity for you; it's a disqualifier.",
+        "You hired the lawyer before the broker."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-lawyer-first",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Lawyer Before Broker",
+      "desc": "Settlement closes; the lawyer's retainer is dated before any broker's card; sole-name purchase hygiene defined on day one — nomination, will, guardianship.",
+      "icon": "FileCheck2",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-oc-only-census",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The OC-Only Census",
+      "desc": "CV Raman Nagar–Kaggadasapura ready-with-OC stock only; possession-risk flats greyed out of the corridor — disqualified, not discounted.",
+      "icon": "Search",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-school-veto-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The 20%-Cheaper 8 km",
+      "desc": "An '8 km away, 20% cheaper' community tempts the spreadsheet — vetoed by the school-continuity rule: the one thing the divorce didn't take.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-culture-check",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Introduced-Resident Check",
+      "desc": "Two finalists; each RWA asked for a casual introduction to two resident single parents — one community produced them in a day with warmth, the other 'would check.'",
+      "icon": "Users",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-cap-test-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The Cap Test",
+      "desc": "The ₹1.85 Cr better layout tests the 24% cap; the worst-month simulation says no — eleven months of buffer vs four and a half. The cap teaches; it doesn't scar.",
+      "icon": "Scale",
+      "loopText": "2-Week Cap-vs-Layout Loop — Fortress Arithmetic Holds",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-sole-name-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Van-Visible Close",
+      "desc": "2BHK closed in the defence-belt community; nomination to Tara with guardian-trustee; the van-visible balcony photographed at 7:45 am seals it.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

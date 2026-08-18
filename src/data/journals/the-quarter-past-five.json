@@ -1,0 +1,939 @@
+{
+  "article": {
+    "tags": [
+      "SENIORS & DOWNSIZERS",
+      "VETERAN SETTLER",
+      "YELAHANKA • VIDYARANYAPURA"
+    ],
+    "title": "The Quarter Past Five Journal",
+    "description": "Brig. (Retd.) Mohan Kulkarni's (62) first self-chosen address — an AWHO-vs-civilian matrix rebuilt by Vasudha's ×2 weighting, a four-page snag list, a ₹8L retrade answered with an instant walk-out, and a loan-free close in Yelahanka.",
+    "quote": "\"Thirty-six years of quarters. Now one address, chosen by me.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "ClipboardCheck",
+        "text": "Ready-with-OC inspection rigor is leverage"
+      },
+      {
+        "icon": "Scale",
+        "text": "Loan-free is a principle — third bedroom or the light"
+      },
+      {
+        "icon": "Users",
+        "text": "Six veteran households dissolved the AWHO question"
+      }
+    ],
+    "heroImage": "/journals/cover/31.jpg",
+    "heroTitle": "The Quarter Past Five Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Brigadier Mohan Kulkarni (Retd., 62, infantry — postings from Tezpur to Jodhpur) & Vasudha (58, who packed and unpacked twenty-three households without losing a piece of the Kolhapur dinner set) — settling in Bengaluru, their son's city, with a ₹1.9–2.2 Cr budget funded by AWHO savings, gratuity, and a Pune plot sold well.",
+      "buyers": [
+        {
+          "name": "Brig. (Retd.) Mohan Kulkarni",
+          "age": 62,
+          "role": "Retired Infantry Officer",
+          "description": "Thirty-six years of quarters; the 5:15 am constitutional hasn't missed a day since 1987. His eye for defects ran to a four-page snag list; his principles run to loan-free and quote-once-honour-it. The AWHO question dissolves when six veteran households appear in one civilian community.",
+          "tags": [
+            "Snag-List Author",
+            "Loan-Free Principle",
+            "5:15 am Constitutional"
+          ],
+          "image": "/journals/the-quarter-past-five/mohan.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 62-year-old Indian retired Army officer named Mohan wearing a crisp checked shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, upright dignified expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Vasudha Kulkarni",
+          "age": 58,
+          "role": "The One Who Unpacked Twenty-Three Houses",
+          "description": "The household's true decision-maker on the twenty-fourth house: her ×2 weighting on 'near the grandchildren' rebuilt the matrix, and her initials on the corner-light floor plan chose light over a third bedroom. She has informed the neighbours her husband will run the RWA by June; he has informed her he will 'only attend meetings.'",
+          "tags": [
+            "×2 Weighting Author",
+            "Light-Over-Bedroom Chooser",
+            "RWA Forecaster"
+          ],
+          "image": "/journals/the-quarter-past-five/vasudha.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 58-year-old Indian woman named Vasudha wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm knowing expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Choose the one address the Army never gave — a loan-free 3BHK in Yelahanka's Air Force-adjacent calm, near the grandchildren and the ECHS polyclinic, with greenery for the constitutional, order that doesn't offend, and a community with veterans enough that 'Which unit?' is a normal opening question.",
+      "sharedVisionImage": "/journals/the-quarter-past-five/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an upright older man and his wife on a morning walk through a tree-lined community avenue at dawn, dew on a well-kept park, a folded flag-pattern shawl over a bench, a neat apartment block with a flagpole in soft light, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the flagpole, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Veteran Settler"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "First Self-Chosen Address"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Shortlisting"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6 Months — Not 24 Houses"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-quarter-past-five/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a banknote with a crossed-out loan document and a saluted gesture, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the crossed-out document, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Loan-Free, on Principle",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "'I have saluted my last creditor' — the principle is load-bearing for a completed life, and at current prices it means 1,500 honest square feet rather than 1,800 aspirational ones."
+        },
+        {
+          "image": "/journals/the-quarter-past-five/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with an ECHS polyclinic pin at 3.2 km measured and stamped, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the pin, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "ECHS Polyclinic Reach",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The medical network's proximity quietly shapes the shortlist — Yelahanka's polyclinic mapped at 3.2 km, measured and stamped, with the ₹25L reserve untouched."
+        },
+        {
+          "image": "/journals/the-quarter-past-five/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a well-kept park with a maintained gardener roster clipboard and neat hedges, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clipboard, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Maintained Common Areas",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "He will inspect — dangling cables and encroached footpaths are not negotiable, and the four-page snag list is the standard, applied wherever it travels."
+        },
+        {
+          "image": "/journals/the-quarter-past-five/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a community bench with veterans chatting and a 'Which unit?' speech bubble, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the speech bubble, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A Community to Serve, Not Command",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Veterans enough that 'Which unit?' is a normal question — and a RWA he will join 'only as a member,' which everyone including Vasudha knows is false."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a matrix rebuilt by Vasudha's ×2 weighting, to the four-page snag list, a light-over-bedroom decision, and a retrade answered with an instant walk-out.",
+      "journeyFrameTitle": "ONE ADDRESS, CHOSEN",
+      "roadmapTitle": "How a brigadier closed loan-free — and Vasudha chose the light",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Royale Gardens"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.1 Cr Corpus, Loan-Free"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "label": "THE STANDARD",
+          "value": "4-Page Snag List, 11 Fixed"
+        },
+        {
+          "icon": "Users",
+          "label": "THE DISSOLVING QUESTION",
+          "value": "6 Veteran Households"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-matrix",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Matrix, Rebuilt",
+          "desc": "The AWHO-vs-civilian matrix drawn — then rebuilt when Vasudha's silent ×2 weighting on 'near the grandchildren' appears in the margin.",
+          "icon": "ClipboardList",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-yelahanka-recon",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Yelahanka Recon",
+          "desc": "Prestige Royale Gardens and the sainik-heavy pockets reconnoitred; the ECHS polyclinic mapped at 3.2 km, measured and stamped.",
+          "icon": "MapPin",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-snag-list-loop",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L3: The Four-Page Snag List",
+          "desc": "Applied at a ready project — eleven items fixed pre-registration; 'the Brigadier's standard' enters the sales office's vocabulary.",
+          "icon": "ClipboardCheck",
+          "loopText": "Inspection Loop — Rigor as Leverage, Not Friction",
+          "x": 540,
+          "y": 180,
+          "width": 190
+        },
+        {
+          "id": "l4-light-over-bedroom",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L4: The Bedroom vs the Light",
+          "desc": "Loan-free at current prices means the third bedroom or the corner light — Vasudha's initials on the light; the brothers get a sofa-bed.",
+          "icon": "Sunrise",
+          "loopText": "2-Week Space-vs-Light Loop — Vasudha Decides",
+          "x": 780,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-retrade-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l4-light-over-bedroom",
+          "title": "L5 BOUNCE: The ₹8L Retrade",
+          "desc": "The investor-seller retrades citing 'market moved' — the Brigadier's walk-out is instant and instructive: re-quote after closure, and the vendor is never used again.",
+          "icon": "Undo2",
+          "loopText": "1-Week Retrade Bounce — Instant Walk-Out",
+          "x": 400,
+          "y": 400,
+          "width": 320
+        },
+        {
+          "id": "l6-royale-gardens-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Loan-Free Close",
+          "desc": "Royale Gardens 3BHK-class unit closed loan-free; six veteran households discovered — the AWHO question dissolves; RWA secretary post falls vacant in March, as foretold.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "reconnoitring",
+          "label": "Reconnoitring",
+          "icon": "MapPin"
+        },
+        {
+          "id": "inspecting",
+          "label": "Inspecting",
+          "icon": "ClipboardCheck"
+        },
+        {
+          "id": "choosing",
+          "label": "Choosing",
+          "icon": "Sunrise"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Loan-Free, Chosen"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "matrix-moment",
+          "title": "The ×2 in the margin",
+          "desc": "The AWHO-vs-civilian matrix — rebuilt when Vasudha's silent weighting appeared: 'near the grandchildren' at twice everything else, in her margin handwriting.",
+          "imageSrc": "/journals/the-quarter-past-five/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decision matrix with a hand-written '×2' weighting in the margin beside 'near the grandchildren', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "snag-list-moment",
+          "title": "The four-page snag list",
+          "desc": "Eleven pre-registration fixes ticked in parade-ground order — the snag list that turned inspection rigor into leverage and named a standard at the sales office.",
+          "imageSrc": "/journals/the-quarter-past-five/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a four-page snag list with eleven items ticked in ordered rows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "vasudha-initials-moment",
+          "title": "Vasudha's initials on the light",
+          "desc": "Two floor plans — third bedroom vs corner light — Vasudha's initials on the light, and the regimental brothers' sofa-bed quietly accepted.",
+          "imageSrc": "/journals/the-quarter-past-five/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two floor plans with a woman's initials marked on the corner-light plan and a sofa-bed drawn on the other, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "retrade-message-moment",
+          "title": "The unanswered retrade message",
+          "desc": "The investor's 'market has moved' message, unanswered, filed under closed — thirty-six years of procurement compressing into one instructive walk-out.",
+          "imageSrc": "/journals/the-quarter-past-five/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone message reading 'market has moved' left unanswered and filed under a 'closed' folder, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "one-line-quote-moment",
+          "title": "The one-line quote, clipped",
+          "desc": "A Wing Commander seller's one-line quote — 'quote once, honour it' — clipped to the sale papers; the negotiation, punctual to the end.",
+          "imageSrc": "/journals/the-quarter-past-five/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a one-line written quote reading 'quote once, honour it' clipped to a set of sale papers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Thirty-six years of quarters. Now one address, chosen by me.",
+          "author": "— Mohan"
+        },
+        {
+          "text": "I have saluted my last creditor.",
+          "author": "— Mohan, on the loan-free principle"
+        },
+        {
+          "text": "A vendor who re-quotes after commercial closure is a vendor you never use again. Same principle. Pukka.",
+          "author": "— Mohan, on the retrade"
+        },
+        {
+          "text": "Air Force, Vasudha. We'll have to inspect twice as hard, shaan se.",
+          "author": "— Mohan, on the Wing Commander's flat"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Mohan",
+          "avatar": "/journals/the-quarter-past-five/mohan.png",
+          "text": "Riya. Status report. The seller — investor type, Gurgaon number — called this morning. 'Market has moved, sir. Eight lakhs more.' I thanked him for his time and put the phone down. Bas. Done."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "I heard — his broker called within the hour, somewhat shaken. And you'll like today's development: Royale Gardens, the corner unit with the light Vasudha ma'am chose. The seller is the original owner, retired Wing Commander. His words: 'quote once, honour it.'",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Scale",
+          "title": "Loan-Free Is a Principle, Not a Calculation",
+          "description": "The CA surrendered — the all-cash principle is load-bearing for a completed life, and at current prices it means 1,500 honest square feet rather than 1,800 aspirational ones. A quartermaster's shrug, accepted."
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Inspection Rigor as Leverage",
+          "description": "The four-page snag list, applied at ready-with-OC stage, fixed eleven items pre-registration and named a standard at the sales office — leverage, not friction."
+        },
+        {
+          "icon": "Undo2",
+          "title": "The Retrade = Instant Walk-Out Rule",
+          "description": "Re-quote after commercial closure and the vendor is never used again — thirty-six years of procurement, one phone call, done."
+        },
+        {
+          "icon": "Sunrise",
+          "title": "The Household's True Decision-Maker",
+          "description": "Loan-free at current prices meant the third bedroom or the corner light — Vasudha chose light. Twenty-three unpacked houses earned her the deciding vote on the twenty-fourth."
+        },
+        {
+          "icon": "Users",
+          "title": "Brotherhood Is Portable",
+          "description": "Six veteran households in one civilian community dissolved the AWHO-vs-civilian question — the ECHS dependency mapped cleanly, and 'Which unit?' became a normal opening question again."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-quarter-past-five.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Yelahanka's Air Force-adjacent calm and the sainik-heavy pockets of Vidyaranyapura — ECHS proximity mapped, the snag-list standard applied, and the AWHO option weighed against family proximity.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Loan-Free 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Yelahanka • Vidyaranyapura"
+        },
+        {
+          "icon": "HeartPulse",
+          "label": "THE MEDICAL PIN",
+          "value": "ECHS at 3.2 km"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Royale Gardens 3BHK-Class"
+        }
+      ],
+      "exploredAreasTitle": "The north arc they explored",
+      "exploredAreas": [
+        {
+          "title": "Yelahanka (Chosen)",
+          "description": "The Air Force-adjacent calm — Royale Gardens at the locality's ₹10–14K/sqft band, the ECHS polyclinic at 3.2 km, and six veteran households discovered in one community.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.1183111,
+            "lng": 77.5784644
+          },
+          "imageSrc": "/journals/the-quarter-past-five/yelahanka.png",
+          "imagegenerationprompt": "A modern architectural vector view of Yelahanka's Air Force-adjacent residential avenues with green belts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Vidyaranyapura",
+          "description": "The sainik-heavy pocket north of the old city — weighed for veteran density and value, and for the polyclinic radius that shapes the shortlist.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0814558,
+            "lng": 77.5283316
+          },
+          "imageSrc": "/journals/the-quarter-past-five/vidyaranyapura.png",
+          "imagegenerationprompt": "A modern architectural vector view of Vidyaranyapura's veteran-heavy residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Prestige Royale Gardens (Chosen)",
+          "description": "The chosen community — the corner unit with Vasudha's light, a Wing Commander's quoted-once price, and the RWA secretary post that falls vacant in March.",
+          "projects": 2,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.1398147,
+            "lng": 77.5674717
+          },
+          "imageSrc": "/journals/the-quarter-past-five/royale-gardens.png",
+          "imagegenerationprompt": "A modern architectural vector view of Prestige Royale Gardens' established community with tree-lined internal roads, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the AWHO project option (parked — brotherhood fixed by allotment location) • RT Nagar / Kammanahalli sainik pockets (older stock, weighed)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE ADDRESS HEAVINESS",
+          "value": "Thirty-Six Years of Quarters",
+          "description": "The Army gave him many things; an address was never one of them — the weight of every cantonment he left is in this single choice of permanent, his own.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE CIVIL-WORKS STANDARDS",
+          "value": "Dangling Cables, Tested Patience",
+          "description": "The civilian market's finish tests his patience — his eye for order physically reacts to what he calls 'civil works standards,' and the snag list is the reply.",
+          "icon": "ClipboardCheck"
+        },
+        {
+          "title": "THE ₹8L RETRADE",
+          "value": "'Market Has Moved, Sir'",
+          "description": "The investor-seller's re-quote after closure was answered with an instant walk-out — re-quote after commercial closure, and the vendor is never used again.",
+          "icon": "Undo2"
+        },
+        {
+          "title": "THE LOAN-FREE SQUEEZE",
+          "value": "Bedroom or Light",
+          "description": "All-cash at current prices means 1,500 honest square feet and a choice between the third bedroom and the corner light — Vasudha's initials decided the light.",
+          "icon": "Scale"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for loan-free integrity, ECHS reach, maintained common areas, and a community he can serve without commanding.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Brigadier buys with a snag list and a principle — no creditors, ever — and the journey's real pivot wasn't financial. He built the AWHO-vs-civilian matrix; Vasudha quietly weighted 'near the grandchildren' at twice everything else, and the matrix was rebuilt. Loan-free at current prices meant a choice he'd never have imagined making: the third bedroom or the corner light — and the woman who unpacked twenty-three houses chose light. The retrade answered itself: quote once, honour it, and the walk-out was instant. And six veteran households in one civilian community dissolved the AWHO question entirely. Brotherhood, it turns out, is portable — and the RWA secretary post falls vacant in March, as foretold.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a decision matrix with a ×2 weighting beside a four-page snag list, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing the civilian community against the AWHO alternative — ECHS proximity, veteran density, and a Wing Commander's quoted-once price settling the question.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Loan-Free 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Royale Gardens 3BHK-Class"
+        },
+        {
+          "icon": "Undo2",
+          "label": "THE WALK-OUT",
+          "value": "1 ₹8L Retrade, Instant"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.1 Cr Corpus, Loan-Free"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Scale",
+          "title": "Loan-Free Integrity",
+          "subtitle": "no creditors, ever"
+        },
+        {
+          "icon": "HeartPulse",
+          "title": "ECHS Polyclinic Reach",
+          "subtitle": "3.2 km, measured"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "The Snag-List Standard",
+          "subtitle": "11 fixes, pre-registration"
+        },
+        {
+          "icon": "Sunrise",
+          "title": "The Corner Light",
+          "subtitle": "Vasudha's initials"
+        },
+        {
+          "icon": "Users",
+          "title": "Veteran Household Density",
+          "subtitle": "six dissolved the question"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Vasudha",
+          "avatar": "/journals/the-quarter-past-five/vasudha.png",
+          "text": "A Wing Commander's flat, Mohan — even the negotiation will be punctual. Book the visit."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Booked — and I've warned the office: four pages of snag list, Saturday, oh-nine-hundred. They've repainted the lobby out of pure fear. The Air Force standard, sir, applied twice as hard, shaan se.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-quarter-past-five/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Yelahanka and Vidyaranyapura with an ECHS polyclinic radius in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Prestige Royale Gardens (Chosen)",
+          "name": "Prestige Royale Gardens",
+          "price": "Not stated",
+          "possession": "Ready",
+          "psf": "₹10–14K/sqft locality band",
+          "location": "Yelahanka",
+          "imageSrc": "/journals/the-quarter-past-five/projects/Prestige-Royale-Gardens.webp"
+        },
+        {
+          "title": "The Parked Alternative",
+          "name": "AWHO Project Option",
+          "price": "Not stated",
+          "possession": "Allotment-dependent",
+          "psf": "Brotherhood, fixed location",
+          "location": "Allotment-dependent",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Undo2",
+          "title": "The ₹8L Retrade",
+          "count": "1 investor unit, walked out on instantly"
+        },
+        {
+          "icon": "MapPin",
+          "title": "AWHO's Fixed Location",
+          "count": "brotherhood at the cost of family proximity"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Failed the Snag-List Standard",
+          "count": "every project that couldn't fix eleven"
+        },
+        {
+          "icon": "Scale",
+          "title": "The All-Cash Squeeze",
+          "count": "the third bedroom, traded for light"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Royale Gardens 3BHK-class unit loan-free at ₹2.1 Cr delivered the ECHS radius at 3.2 km, the corner light Vasudha chose, and six veteran households that dissolved the AWHO question — with a Wing Commander's quoted-once price and the snag list's eleven fixes settled before registration.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for veteran settlers — the snag-list leverage, the loan-free principle, the ×2 weighting, and the portability of brotherhood.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Rigor Is Leverage"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Loan-Free Integrity"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The ₹8L Retrade Unit"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Six Veteran Households"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "AWHO projects offer brotherhood but fix the location.",
+          "description": "The veterans' project offers instant community and shared vocabulary but sits where land was allotted, not where the son and sister live — the matrix's real trade, weighted by Vasudha's ×2 on family proximity.",
+          "imageSrc": "/journals/the-quarter-past-five/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decision matrix with an '×2' weighting in the margin beside 'near the grandchildren', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Inspection rigor at ready-with-OC stage is leverage, not friction.",
+          "description": "The four-page snag list fixed eleven items pre-registration and named 'the Brigadier's standard' at the sales office — applied at the right stage, the inspection protects and negotiates simultaneously.",
+          "imageSrc": "/journals/the-quarter-past-five/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a four-page snag list with eleven ticked fixes beside a sales office naming 'the Brigadier's standard', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Re-quote after closure, and the vendor is never used again.",
+          "description": "Thirty-six years of procurement compressed into one phone call — the investor's ₹8L 'market moved' retrade answered with an instant, instructive walk-out.",
+          "imageSrc": "/journals/the-quarter-past-five/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an unanswered 'market has moved' message filed under closed with an instant walk-out annotation, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Brotherhood is portable — six households dissolved the question.",
+          "description": "Six veteran households in one civilian community settled the AWHO-vs-civilian debate by dissolving it — 'Which unit?' became a normal opening question again, two streets from the grandchildren.",
+          "imageSrc": "/journals/the-quarter-past-five/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a civilian community map with six veteran household markers and a 'Which unit?' speech bubble, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "The institution's address is the only address"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A loan is a normal part of any purchase"
+        },
+        {
+          "icon": "Building2",
+          "text": "Brotherhood exists only inside veterans' projects"
+        },
+        {
+          "icon": "FileText",
+          "text": "The snag list is what you negotiate after moving in"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "KeyRound",
+          "text": "One address, chosen by me — the heaviest and lightest thing at once"
+        },
+        {
+          "icon": "Scale",
+          "text": "Loan-free is load-bearing: no creditors, ever"
+        },
+        {
+          "icon": "Users",
+          "text": "Six veteran households make any address a cantonment"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "text": "The snag list, applied pre-registration, is leverage"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "ClipboardList",
+          "title": "Run the matrix past Vasudha before building it",
+          "description": "The ×2 weighting arrived in the margin — asking the household's true decision-maker first would have rebuilt the matrix on day one."
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "Apply the snag list at the first visit",
+          "description": "The four-page standard arrived at month three — gate-zero application would have filtered weaker projects instantly."
+        },
+        {
+          "icon": "Undo2",
+          "title": "Ask for the ownership profile before touring",
+          "description": "The investor-seller's retrade was discovered at the deal stage — 'original owner or investor' as a first-call question would have skipped the walk-out entirely."
+        },
+        {
+          "icon": "Users",
+          "title": "Count the veteran households in the first visit",
+          "description": "The six-household discovery settled everything at month six — the 'Which unit?' census should have been part of the recon from the start."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Mohan",
+          "avatar": "/journals/the-quarter-past-five/mohan.png",
+          "text": "Loan-free, corner light, six veteran households, and a Wing Commander who quoted once. Even the sale was punctual, Riya. Thirty-six years of quarters, closed in six months."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And the RWA secretary post falls vacant in March, sir — as foretold. The address was always the mission; the community just needed you to arrive. Vasudha ma'am chose the light; the cantonment followed.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for veteran settlers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Mohan rebuilding the matrix with Vasudha's ×2, ticking the eleven snag-list fixes, filing the unanswered retrade message, and clipping the Wing Commander's one-line quote to the sale papers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For veteran settlers, the edge is the transferable discipline: the snag list applied at ready-with-OC stage becomes leverage, the loan-free principle holds its own against the aspirational square foot, and the retrade rule — quote once, honour it — keeps the walk-out instant. Let the household's true decision-maker weight the matrix, count the veteran households before the AWHO question is asked, and remember brotherhood is portable. Brigadier Kulkarni proved that after thirty-six years of quarters, one address chosen by oneself closes in six months — punctual, loan-free, and with the light Vasudha chose.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "AWHO projects offer brotherhood and value but fix the location",
+          "body": "The civilian market offers the son's proximity and tests his standards — he built the decision matrix, then noticed Vasudha had silently weighted 'near the grandchildren' at twice everything else. The matrix was rebuilt.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The four-page snag list achieved what it never could on paper",
+          "body": "Applied at ready-with-OC stage, the builder fixed eleven items pre-registration and the sales head started using 'the Brigadier's standard' with other buyers. Inspection rigor is leverage, not friction.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Loan-free at current prices meant the third bedroom or the corner light",
+          "body": "Vasudha chose light. The regimental brothers will manage with a good sofa-bed, as they have managed worse.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The RWA reconnaissance confirmed the inevitable",
+          "body": "The secretary post falls vacant in March. He has informed Vasudha he will 'only attend meetings.' She has informed the neighbours he will be running it by June. Both are correct.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Six veteran households dissolved the AWHO-vs-civilian question",
+          "body": "The ECHS dependency mapped cleanly to Yelahanka — but the deeper find was a community with six veteran households, which settled the question by dissolving it.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If the institution housed you for decades and choosing your own address feels strangely heavy, let Riya build your settler's roadmap — the matrix, the snag protocol, and the loan-free structure.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the corpus, the corridors, the ECHS dependency, and the household's true priorities — with everyone's weighting, including the spouse's.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya compares AWHO availability against civilian projects, maps the ECHS radius, and runs the loan-free structure against the medical reserve.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Quarter Past Five journal — decision matrix, snag-inspection protocol, and loan-free structure — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive veteran-density and ECHS-proximity comparisons under budget, with the snag framework ready for every site visit.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "AWHO-vs-Civilian Guides",
+          "description": "Veteran-density, ECHS proximity, and family-geography trade-offs compared honestly — brotherhood priced as an amenity.",
+          "icon": "Users"
+        },
+        {
+          "id": 2,
+          "title": "The Snag-Inspection Protocol",
+          "description": "The complete defect framework for a ready flat — and what the builder can legally be held to, pre-registration.",
+          "icon": "ClipboardCheck"
+        },
+        {
+          "id": 3,
+          "title": "The Loan-Free Structure",
+          "description": "All-cash purchase that preserves the medical reserve — and the honest optionality cost of the principle.",
+          "icon": "Scale"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "The institution housed you for decades; choosing your own permanent address is strangely heavy.",
+        "Order is a requirement: maintained parks, fixed things, schedules kept.",
+        "A veterans' community's instant brotherhood pulls against family proximity, and you know which loneliness you fear more.",
+        "Loan-free is a principle, not a calculation, and it's load-bearing.",
+        "Your defect-inspection rigor protects the purchase and exhausts the process — both are true.",
+        "Your spouse has unpacked twenty-three houses; this purchase's real client is her."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-matrix",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Matrix, Rebuilt",
+      "desc": "The AWHO-vs-civilian matrix drawn — then rebuilt when Vasudha's silent ×2 weighting on 'near the grandchildren' appears in the margin.",
+      "icon": "ClipboardList",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-yelahanka-recon",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Yelahanka Recon",
+      "desc": "Prestige Royale Gardens and the sainik-heavy pockets reconnoitred; the ECHS polyclinic mapped at 3.2 km, measured and stamped.",
+      "icon": "MapPin",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-snag-list-loop",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L3: The Four-Page Snag List",
+      "desc": "Applied at a ready project — eleven items fixed pre-registration; 'the Brigadier's standard' enters the sales office's vocabulary.",
+      "icon": "ClipboardCheck",
+      "loopText": "Inspection Loop — Rigor as Leverage, Not Friction",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-light-over-bedroom",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L4: The Bedroom vs the Light",
+      "desc": "Loan-free at current prices means the third bedroom or the corner light — Vasudha's initials on the light; the brothers get a sofa-bed.",
+      "icon": "Sunrise",
+      "loopText": "2-Week Space-vs-Light Loop — Vasudha Decides",
+      "x": 760,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l5-retrade-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l4-light-over-bedroom",
+      "title": "L5 BOUNCE: The ₹8L Retrade",
+      "desc": "The investor-seller retrades citing 'market moved' — the Brigadier's walk-out is instant and instructive: re-quote after closure, and the vendor is never used again.",
+      "icon": "Undo2",
+      "loopText": "1-Week Retrade Bounce — Instant Walk-Out",
+      "x": 560,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-royale-gardens-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Loan-Free Close",
+      "desc": "Royale Gardens 3BHK-class unit closed loan-free; six veteran households discovered — the AWHO question dissolves; RWA secretary post falls vacant in March, as foretold.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

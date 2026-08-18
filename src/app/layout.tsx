@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { AppProviders } from "@/components/ui/AppProviders";
@@ -36,7 +36,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gruha.ai - AI-Powered Home Search Platform",
     description: "Smarter home searching and evaluation powered by AI specialists in Bengaluru.",
-    url: "https://gruha.ai",
     siteName: "Gruha.ai",
     images: [
       {
@@ -78,9 +77,9 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
-  alternates: {
-    canonical: "https://gruha.ai",
-  },
+};
+
+export const viewport: Viewport = {
   themeColor: "#000000",
 };
 
@@ -107,6 +106,15 @@ export default function RootLayout({
 
             gtag('config', 'G-VDNW8C2RNE');
           `}
+        </Script>
+        <Script id="org-jsonld" type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Gruha.ai",
+            url: "https://gruha.ai",
+            logo: "https://gruha.ai/favicon-96x96.png",
+          })}
         </Script>
         <AppProviders>{children}</AppProviders>
       </body>

@@ -1,0 +1,942 @@
+{
+  "article": {
+    "tags": [
+      "NRI & RETURNEES",
+      "BAY AREA RETURN",
+      "WHITEFIELD • VARTHUR"
+    ],
+    "title": "The Reverse Migration Journal",
+    "description": "Anand (42, engineering director) & Priya Venkatesh's (40, biotech program manager) return from sixteen Cupertino years — an eight-month rental observatory, a grandparent-drive audit repriced at 6 pm Friday, and a dollar corpus converted from held breath into three written triggers.",
+    "quote": "\"We're moving back for the kids' grandparents. The kids think we're moving for the food.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "BookOpen",
+        "text": "The rental observatory: eight months of audit first"
+      },
+      {
+        "icon": "Scale",
+        "text": "The honesty fund needs written triggers, not moods"
+      },
+      {
+        "icon": "Calendar",
+        "text": "Intention becomes calendar — Malleshwaram weekends"
+      }
+    ],
+    "heroImage": "/journals/cover/33.png",
+    "heroTitle": "The Reverse Migration Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Anand (42, engineering director at a FAANG company, transferring to Bengaluru) & Priya Venkatesh (40, biotech program manager planning a career restart) — two kids (11 and 8, Cupertino-raised), sixteen years in the Bay Area, green cards surrendered to the decision, landing in Whitefield on the Fremont house sale.",
+      "buyers": [
+        {
+          "name": "Anand Venkatesh",
+          "age": 42,
+          "role": "Engineering Director, FAANG (Bengaluru Transfer)",
+          "description": "Ran the three-year decision matrix; the enabling reason (the transfer) never confused for the real one (the grandparents). His ironclad rule: the US corpus is forbidden from subsidizing monthly life — the India salary services everything, against lifestyle-inflation drift.",
+          "tags": [
+            "Matrix Runner",
+            "India-Salary Disciplinarian",
+            "Honesty-Fund Clause Writer"
+          ],
+          "image": "/journals/the-reverse-migration/anand.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 42-year-old Indian professional man named Anand wearing smart casual work attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, thoughtful steady expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Priya Venkatesh",
+          "age": 40,
+          "role": "Biotech Program Manager (Restart)",
+          "description": "Her restart must be load-bearing, not furniture — her audit moved one community up the list, 20 minutes closer to the biotech corridor, with the returnee-mother professional network she'd been looking for. Named the US corpus 'the held breath' before it had triggers.",
+          "tags": [
+            "Restart Auditor",
+            "Load-Bearing Career",
+            "Held-Breath Namer"
+          ],
+          "image": "/journals/the-reverse-migration/priya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 40-year-old Indian professional woman named Priya wearing smart business attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm capable expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Return for the grandparents and give the kids their last realistic window to grow Indian roots — a premium community in Whitefield that buffers the transition without becoming a permanent bubble, space calibrated by American suburbia, and Priya's restart treated as load-bearing.",
+      "sharedVisionImage": "/journals/the-reverse-migration/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a family of four walking through an airport arrival corridor that transforms mid-frame into a tree-lined Whitefield community avenue, suitcases becoming a cycle and a cricket bat, grandparents waiting at the far end with marigolds, a Golden Gate silhouette dissolving into Bengaluru rain trees overhead, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the marigolds, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Bay Area Returnees"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "2 Kids, Cupertino-Raised"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "10 Months — School Cycle"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-reverse-migration/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a school building within a 20-minute drive ring on a map with a backpack icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the ring, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "International School ≤20 Min",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Curriculum continuity for the kids is the non-negotiable that chose Whitefield — and the school cycle locks the geography, making the 10-month timeline real."
+        },
+        {
+          "image": "/journals/the-reverse-migration/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a gated community map with returnee-family markers and a bubble-shaped overlay with a dial, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the dial, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Returnee Density, Eyes Open",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The soft landing needs kids who switch between accents — and the bubble gets a dial, not a verdict: Kannada Saturdays, Malleshwaram weekends, the buffer on a written schedule."
+        },
+        {
+          "image": "/journals/the-reverse-migration/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a route map with a grandparent house pin and a Friday-6-pm traffic annotation in red, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the annotation, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Grandparent Drive, Honestly Priced",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "'Under an hour to Malleshwaram' is true at 6 am Sunday and fiction at 6 pm Friday — the audit repriced the drive, and alternate weekends were booked like school."
+        },
+        {
+          "image": "/journals/the-reverse-migration/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a career-restart map pin on a biotech corridor with a load-bearing badge, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the badge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Priya's Restart, Load-Bearing",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The audit that moved one community up the list — 20 minutes closer to the biotech corridor, where the returnee-mother professional network already existed."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a three-year matrix and surrendered green cards, to an eight-month observatory, a Goa-fantasy detour, and a dollar corpus converted from held breath into written triggers.",
+      "journeyFrameTitle": "THE BUBBLE GETS A DIAL",
+      "roadmapTitle": "How Cupertino returnees bought roots — with the landing pad on a schedule",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — PLH Villa"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹5.42–6.5 Cr Band, ₹3 Cr Down"
+        },
+        {
+          "icon": "BookOpen",
+          "label": "THE OBSERVATORY",
+          "value": "8 Months of Audit"
+        },
+        {
+          "icon": "Calendar",
+          "label": "THE DIAL",
+          "value": "Kannada Saturdays + Ajji Weekends"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-matrix-closes",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Matrix Closes",
+          "desc": "Three years of decision matrix end; green cards surrendered; the rental observatory begins in a Whitefield community — landed, provisional, auditing.",
+          "icon": "Plane",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-observatory",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Eight-Month Observatory",
+          "desc": "Renting-as-audit: which towers hear the highway, when the pool is usable, who the kids actually play with — eight months of notes, the purchase inherits an audit.",
+          "icon": "BookOpen",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-goa-fantasy-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Goa-Villa Fantasy",
+          "desc": "The 'buy where we vacationed' fantasy resurfaces over one long weekend — killed by school math and its own absurdity, fondly, with a school-calendar printout as the seal.",
+          "icon": "Eye",
+          "x": 440,
+          "y": 360,
+          "width": 190
+        },
+        {
+          "id": "l4-villa-vs-apartment",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Villa vs Premium 4BHK",
+          "desc": "PLH villa vs premium apartment in an established community; the grandparent-drive audit reprices 'under an hour' honestly at 6 pm Friday, corrected in red.",
+          "icon": "Building2",
+          "x": 600,
+          "y": 60,
+          "width": 190
+        },
+        {
+          "id": "l5-two-ledger-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The Two-Ledger Test",
+          "desc": "The India-salary ceiling holds; the honesty fund gets three written triggers — school misery M18, career stall Y2, parent-care collapse. The held breath becomes a clause.",
+          "icon": "Scale",
+          "loopText": "2-Week Two-Ledger Loop — Triggers Written, Signed",
+          "x": 750,
+          "y": 420,
+          "width": 200
+        },
+        {
+          "id": "l6-plh-villa-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Dosa-And-Tutor Close",
+          "desc": "PLH villa closed (₹5.42–6.5 Cr band); Kannada tutor Saturdays and Malleshwaram weekends calendared — the bubble gets a dial, not a verdict.",
+          "icon": "KeyRound",
+          "x": 880,
+          "y": 60,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "observing",
+          "label": "Observing",
+          "icon": "BookOpen"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Building2"
+        },
+        {
+          "id": "writing",
+          "label": "Writing Triggers",
+          "icon": "Scale"
+        },
+        {
+          "id": "scheduling",
+          "label": "Scheduling",
+          "icon": "Calendar"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Bubble on a Dial"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "cards-drawer-moment",
+          "title": "The drawer of surrendered cards",
+          "desc": "Surrendered green cards in a drawer beneath the kids' new school ID cards — the decision's paperwork, and the identity shift, in one frame.",
+          "imageSrc": "/journals/the-reverse-migration/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a drawer with surrendered green cards lying beneath two new school ID cards, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "observatory-notebook-moment",
+          "title": "The observatory notebook",
+          "desc": "Eight months of notes — pool hours, highway hum, real playmates named — the rental-observatory audit that the purchase decision simply inherited.",
+          "imageSrc": "/journals/the-reverse-migration/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of an observatory notebook with pool hours, highway hum and named playmates in careful handwriting, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "grandparent-audit-moment",
+          "title": "'Under an hour', corrected in red",
+          "desc": "The grandparent-drive audit — 'under an hour to Malleshwaram' tested at 6 pm Friday, corrected in red; the response was structure, not relocation: alternate weekends booked like school.",
+          "imageSrc": "/journals/the-reverse-migration/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a drive-time audit sheet with 'under an hour' corrected in red at a Friday-6-pm entry and alternate weekends marked on a calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "triggers-moment",
+          "title": "The three signed triggers",
+          "desc": "Three written lines — school misery at month eighteen, career stall at year two, parent-care collapse — dated and signed by both. The held breath became a clause.",
+          "imageSrc": "/journals/the-reverse-migration/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a page with three written trigger lines, dated and signed by two hands, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "tutor-and-dosa-moment",
+          "title": "The tutor invoice and the dosa bill",
+          "desc": "The PLH villa key beside a Kannada tutor's Saturday invoice and a Malleshwaram dosa bill — the bubble on a dial, roots being actually eaten.",
+          "imageSrc": "/journals/the-reverse-migration/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa key beside a Kannada tutor's Saturday invoice and a dosa restaurant bill, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We're moving back for the kids' grandparents. The kids think we're moving for the food.",
+          "author": "— Anand & Priya"
+        },
+        {
+          "text": "It's not a hedge anymore, it's a threat. Namdu escape hatch, staring at us.",
+          "author": "— Priya, on the US corpus"
+        },
+        {
+          "text": "Then let's convert it from a mood into a clause. Three written triggers… if none fire, the breath gets released, and the fund becomes just money.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Roots aren't a clause. Those you have to actually eat.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Priya",
+          "avatar": "/journals/the-reverse-migration/priya.png",
+          "text": "Every time school is hard or traffic is insane, I can FEEL us both thinking about that fund. It's not a hedge anymore, it's a threat. Namdu escape hatch, staring at us. And the kids can hear the held breath, Riya."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then let's convert it from a mood into a clause — three written triggers: school misery at month eighteen, career stall at year two, parent-care collapse. Reviewed once a year, not felt every dinner. And this weekend: Malleshwaram, Ajji's house, dosas. Roots aren't a clause — those you have to actually eat.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "BookOpen",
+          "title": "The Rental Observatory",
+          "description": "Renting in the target community for eight months before buying is the returnee's best tool — the purchase decision inherits a completed audit of the community's actual life."
+        },
+        {
+          "icon": "Calendar",
+          "title": "The Grandparent-Math Reckoning",
+          "description": "'Under an hour to Malleshwaram' is true at 6 am Sunday and fiction at 6 pm Friday — the response wasn't relocation but structure: alternate weekends at Ajji's, booked like school."
+        },
+        {
+          "icon": "Scale",
+          "title": "The India-Salary Ceiling",
+          "description": "The US corpus is forbidden from subsidizing monthly life — the budget is built on Anand's India salary servicing everything, their one ironclad rule against lifestyle-inflation drift."
+        },
+        {
+          "icon": "Users",
+          "title": "The Bubble Dilemma",
+          "description": "The gated returnee community makes the landing soft — and could keep the kids in a Cupertino-with-house-help simulation. The dial: Kannada Saturdays, Malleshwaram weekends solo with the grandparents."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Priya's Restart, Audited",
+          "description": "The restart audit moved one community up the list — 20 minutes closer to the biotech corridor, where the returnee-mother professional network already existed. Load-bearing treated as load-bearing changed the map."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-reverse-migration.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Whitefield's established communities, audited from inside for eight months — returnee density, mature trees, school drives, and the grandparent-math that repriced the map honestly.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Returnee-Friendly Villa/4BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Whitefield • Varthur • Hennur Arc"
+        },
+        {
+          "icon": "BookOpen",
+          "label": "THE AUDIT",
+          "value": "8 Months, From Inside"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "PLH Villa"
+        }
+      ],
+      "exploredAreasTitle": "The landing zones they explored",
+      "exploredAreas": [
+        {
+          "title": "Whitefield (Chosen)",
+          "description": "The office-and-schools logic — established communities at ₹15–19K/sqft, returnee density so high their Fremont neighbours moved there last year.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9659003,
+            "lng": 77.7214593
+          },
+          "imageSrc": "/journals/the-reverse-migration/whitefield.png",
+          "imagegenerationprompt": "A modern architectural vector view of Whitefield's established gated communities with mature trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hennur Arc (Under Review)",
+          "description": "The grandparent-math alternative — closer to Malleshwaram, but the school and office geometry reweighed the map; kept under review after the audit.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.035324,
+            "lng": 77.6335273
+          },
+          "imageSrc": "/journals/the-reverse-migration/hennur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Hennur arc's residential communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Varthur (Chosen — PLH)",
+          "description": "The chosen community — PLH's villas and large apartments at the ₹5.42–6.5 Cr band, the grandparent-drive structure, and the biotech corridor's 20-minute gain for Priya.",
+          "projects": 3,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9446228,
+            "lng": 77.7308286
+          },
+          "imageSrc": "/journals/the-reverse-migration/varthur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Varthur villa belt with lakeside communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the Goa-villa fantasy (detour — school math, fondly closed) • Hennur arc (grandparent-math reweight) • every community that failed the observatory's eight-month test",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE CUPERTINO SPACE STANDARD",
+          "value": "Nothing Under 2,400 sqft",
+          "description": "Space standards calibrated by American suburbia filter them into the least Indian parts of India — every square foot of familiarity is a degree of separation from the immersion they claimed to want.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE 90-TRAFFIC-MINUTE MISSION",
+          "value": "'Under an Hour' vs the Map",
+          "description": "The office-and-schools logic placed them 90 traffic-minutes from the grandparents who are the entire point — the mission kept losing to logistics until it was calendared like school.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "THE HELD BREATH",
+          "value": "The US Corpus as Threat",
+          "description": "The dollar hedge became a mood the kids could hear — every bad Tuesday felt like a re-decision of the return, until the three written triggers converted it into a clause.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE RESTART-AS-FURNITURE RISK",
+          "value": "Furniture or Load-Bearing?",
+          "description": "Priya's career restart was at risk of becoming furniture in Anand's relocation — the audit that treated it as load-bearing moved one community up the list and changed the map.",
+          "icon": "Briefcase"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for school continuity, returnee density with a dial, mature trees, an honestly priced grandparent drive, and Priya's restart as load-bearing.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Venkateshes project-managed the move impeccably and felt it incompletely — until the observatory and the triggers arrived. Eight months of renting-as-audit handed the purchase a completed community report: pool hours, highway hum, the real playmates named. The grandparent-math reckoning — 'under an hour' at 6 pm Friday, corrected in red — was answered with structure, not relocation: alternate weekends booked like school. And the honesty fund, which had become a held breath the kids could hear, got its definition: three written triggers, dated and signed. The bubble got a dial — Kannada Saturdays, Ajji's weekends, the buffer on a schedule. The PLH villa closed; the dosa bill and the tutor invoice sat beside the key. Roots, it turns out, have to be actually eaten.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing an observatory notebook beside a page of three written triggers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing the chosen community's villas against its premium apartments — the observatory's eight-month audit applied, the grandparent drive priced, and Priya's corridor gain deciding the map.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Returnee-Friendly Villa/4BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "PLH Villa"
+        },
+        {
+          "icon": "Briefcase",
+          "label": "THE MAP CHANGER",
+          "value": "Priya's 20-Minute Gain"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹5.42–6.5 Cr, ₹3 Cr Down"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "School",
+          "title": "International School ≤20 Min",
+          "subtitle": "curriculum continuity"
+        },
+        {
+          "icon": "Users",
+          "title": "Returnee Density, Dailed",
+          "subtitle": "soft landing, written dial"
+        },
+        {
+          "icon": "Calendar",
+          "title": "Grandparent Drive, Priced",
+          "subtitle": "alternate weekends booked"
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Priya's Restart",
+          "subtitle": "the biotech corridor gain"
+        },
+        {
+          "icon": "Scale",
+          "title": "The Written Triggers",
+          "subtitle": "hedge, not held breath"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Anand",
+          "avatar": "/journals/the-reverse-migration/anand.png",
+          "text": "Written triggers — so we stop re-deciding the return every bad Tuesday. The breath gets released if none fire. And the fund becomes just money."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Exactly. The villa closes, the bubble gets its dial, and the dosa bill gets its place in the file next to the tutor invoice. Sixteen years of optimizing forward — this is the first optimization backward, and you've finally let the calendar hold it.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-reverse-migration/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Whitefield, Varthur and the Hennur arc with school and grandparent drive-time rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Prestige Lakeside Habitat (Chosen)",
+          "name": "Prestige Lakeside Habitat — Villa",
+          "price": "₹5.42–6.5 Cr",
+          "possession": "Ready",
+          "psf": "Villas 3,117–4,033 sqft",
+          "location": "Varthur",
+          "imageSrc": "/journals/the-reverse-migration/projects/Prestige-Lakeside-Habitat.webp"
+        },
+        {
+          "title": "The Premium-Apartment Comparator",
+          "name": "PLH Large 4BHK Apartments",
+          "price": "4BHK to 2,830 sqft",
+          "possession": "Ready",
+          "psf": "Same community band",
+          "location": "Varthur",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Observational Context",
+          "name": "Whitefield Established Communities",
+          "price": "₹15–19K/sqft",
+          "possession": "10+ years, mature trees",
+          "psf": "The observatory + comparators",
+          "location": "Whitefield",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The Goa-Villa Fantasy",
+          "count": "1 weekend, fondly closed by school math"
+        },
+        {
+          "icon": "Calendar",
+          "title": "The 90-Minute Mission Drift",
+          "count": "communities that broke the grandparent math"
+        },
+        {
+          "icon": "Home",
+          "title": "Below the 2,400 sqft Standard",
+          "count": "everything that didn't read as home yet"
+        },
+        {
+          "icon": "Briefcase",
+          "title": "The Restart-Ignoring Communities",
+          "count": "1 community demoted by Priya's audit"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the PLH villa in the ₹5.42–6.5 Cr band delivered the observatory's eight-month audit in one purchase — returnee density with a written dial, the school drive at 20 minutes, the grandparent weekends calendared like school, and the biotech corridor's 20-minute gain for Priya. The dollar corpus became a clause with three written triggers; the held breath was released.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for returnees — the observatory, the grandparent math, the written triggers, and the bubble given a dial instead of a verdict.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Rent the Landing First"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Grandparents, Calendared"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Held Breath"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Three Written Triggers"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The rental observatory is the returnee's best tool.",
+          "description": "Eight months of renting in the target community — which towers hear the highway, when the pool is usable, who the kids actually play with — handed the purchase decision a completed audit.",
+          "imageSrc": "/journals/the-reverse-migration/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an observatory notebook with pool hours, highway hum and named playmates beside a community map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The grandparent-math audit was the reckoning.",
+          "description": "'Under an hour to Malleshwaram' is true at 6 am Sunday and fiction at 6 pm Friday — the response wasn't relocation but structure: alternate weekends at Ajji's, booked like school, non-negotiable.",
+          "imageSrc": "/journals/the-reverse-migration/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a drive-time audit with a Friday-6-pm correction in red beside a calendar of alternate weekend bookings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The bubble gets a dial, not a verdict.",
+          "description": "International school yes, but Kannada tutor Saturdays; gated community yes, but Malleshwaram weekends solo with grandparents — the buffer comes down on a written schedule, reviewed quarterly.",
+          "imageSrc": "/journals/the-reverse-migration/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a bubble-shaped dial with Kannada Saturdays and Ajji weekends marked on a quarterly review schedule, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Load-bearing treated as load-bearing changed the map.",
+          "description": "Priya's restart audit moved one community up the list — 20 minutes closer to the biotech corridor, where the returnee-mother professional network already existed. The community that treated her career as load-bearing won.",
+          "imageSrc": "/journals/the-reverse-migration/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a community map with a biotech-corridor ring and a load-bearing badge on one community, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "The 2,400-sqft Cupertino standard is the family's real requirement"
+        },
+        {
+          "icon": "Calendar",
+          "text": "'Under an hour to the grandparents' is a plan"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "The US corpus is a quiet safety net, best left unnamed"
+        },
+        {
+          "icon": "Briefcase",
+          "text": "The restart will find its place once the house is sorted"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "BookOpen",
+          "text": "Rent the landing for eight months — the purchase inherits an audit"
+        },
+        {
+          "icon": "Calendar",
+          "text": "Grandparent weekends booked like school — intention becomes calendar"
+        },
+        {
+          "icon": "Scale",
+          "text": "Three written triggers turn the held breath into a clause"
+        },
+        {
+          "icon": "Briefcase",
+          "text": "Priya's restart is load-bearing — the map changed when it was treated as such"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Calendar",
+          "title": "Calendar the grandparents in month one",
+          "description": "The alternate-weekend structure arrived at month three — the mission kept losing to logistics until it was booked like school, and a month of drift could have been saved."
+        },
+        {
+          "icon": "Scale",
+          "title": "Write the triggers with the decision matrix",
+          "description": "The honesty fund's clauses came at month five — the three triggers should have been written the day the green cards were surrendered."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Audit Priya's commute before the corridor",
+          "description": "The biotech-corridor gain was discovered mid-search — the restart's geography should have been a needs-card line from the start."
+        },
+        {
+          "icon": "Users",
+          "title": "Name the bubble's dial date up front",
+          "description": "The Kannada-Saturdays schedule was written at month six — the buffer-comes-down date should have been part of the original brief."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Priya",
+          "avatar": "/journals/the-reverse-migration/priya.png",
+          "text": "The villa has the biotech corridor twenty minutes closer, the Kannada tutor has Saturdays, and Ajji's weekends are in the calendar like school. The fund has triggers now, not moods."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The mission finally has a calendar instead of a held breath. The kids will grow up knowing exactly why you came — because you scheduled it, ate it, and let the bubble dial down on a written date.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for returnees",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Anand and Priya filing the surrendered green cards, filling the observatory notebook, signing the three triggers, and placing the PLH villa key beside the tutor invoice and dosa bill, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For returnees, the edge is in treating the landing as a project with an audit, not a purchase with a hope: rent the target community for eight months before buying, price the grandparent drive at 6 pm Friday, and convert the dollar hedge from a held breath into three written triggers. Give the bubble a dial with a date, treat the restarting partner's career as load-bearing from the first needs card, and remember roots aren't a clause — they have to be actually eaten. The Venkateshes proved that sixteen years of optimizing forward can be answered by one deliberate optimization backward — calendared, dosed, and finally felt.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 2",
+          "headline": "The rental observatory is the returnee's best tool",
+          "body": "Eight months in, they know the community's actual life — which towers hear the highway, when the pool is usable, who the kids actually play with. The purchase decision inherited an audit.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The grandparent-math audit was the reckoning",
+          "body": "'Under an hour to Malleshwaram' is true at 6 am Sunday and fiction at 6 pm Friday. The response wasn't relocation — it was structure: alternate weekends at Ajji's, booked like school. Intention became calendar.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The bubble got a dial instead of a verdict",
+          "body": "International school yes, but Kannada tutor Saturdays; gated community yes, but the Malleshwaram weekends solo with grandparents. The buffer comes down on a schedule, written, reviewed quarterly.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Priya's restart audit moved one community up the list",
+          "body": "Twenty minutes closer to the biotech corridor — and that community happened to have the returnee-mother professional network she'd been looking for. Load-bearing treated as load-bearing changed the map.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "The honesty fund got its definition, finally",
+          "body": "Three named triggers — school misery at month 18, career stall at year 2, parent-care collapse — and a review date. The held breath became a clause, and dinner got easier.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you returned for parents and roots and the shortlist keeps optimizing for offices instead, let Riya build your landing-zone roadmap — the observatory, the two-ledger ceiling, and the written triggers.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the return's real mission, the kids' school requirements, the corpus structure, and the partner's restart geography.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the landing-zone comparison, runs the India-salary two-ledger budget, and drafts the 'if this doesn't work' triggers in writing.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Reverse Migration journal — observatory protocol, two-ledger ceiling, and trigger clauses — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive established-community comparisons with school drives, returnee density, and the restart-corridor gains for each.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Landing-Zone Comparisons",
+          "description": "Whitefield vs Hennur vs Sarjapur for returnees — school drives, returnee density, and the grandparent math priced honestly.",
+          "icon": "MapPin"
+        },
+        {
+          "id": 2,
+          "title": "The Two-Ledger Budget",
+          "description": "India-salary-only servicing held against the USD-comfort version — with the ceiling enforced in writing.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The Dollar-Corpus Structure",
+          "description": "Three written triggers and a review date — the hedge converted from a held breath into a clause.",
+          "icon": "FileCheck2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You returned (or are returning) for parents and roots, and your shortlist keeps optimizing for offices and schools instead — you've noticed.",
+        "Your children need a soft landing, and you fear the landing pad becoming a permanent bubble.",
+        "A dollar corpus sits as your named 'if this doesn't work' hedge, and the family can hear the held breath.",
+        "Space standards from another country are filtering you into the least Indian parts of India.",
+        "One partner's career restart is at risk of becoming furniture in the other's relocation.",
+        "You've project-managed the move impeccably and felt it incompletely."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-matrix-closes",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Matrix Closes",
+      "desc": "Three years of decision matrix end; green cards surrendered; the rental observatory begins in a Whitefield community — landed, provisional, auditing.",
+      "icon": "Plane",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-observatory",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Eight-Month Observatory",
+      "desc": "Renting-as-audit: which towers hear the highway, when the pool is usable, who the kids actually play with — eight months of notes, the purchase inherits an audit.",
+      "icon": "BookOpen",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-goa-fantasy-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Goa-Villa Fantasy",
+      "desc": "The 'buy where we vacationed' fantasy resurfaces over one long weekend — killed by school math and its own absurdity, fondly, with a school-calendar printout as the seal.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-villa-vs-apartment",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Villa vs Premium 4BHK",
+      "desc": "PLH villa vs premium apartment in an established community; the grandparent-drive audit reprices 'under an hour' honestly at 6 pm Friday, corrected in red.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-two-ledger-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The Two-Ledger Test",
+      "desc": "The India-salary ceiling holds; the honesty fund gets three written triggers — school misery M18, career stall Y2, parent-care collapse. The held breath becomes a clause.",
+      "icon": "Scale",
+      "loopText": "2-Week Two-Ledger Loop — Triggers Written, Signed",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-plh-villa-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Dosa-And-Tutor Close",
+      "desc": "PLH villa closed (₹5.42–6.5 Cr band); Kannada tutor Saturdays and Malleshwaram weekends calendared — the bubble gets a dial, not a verdict.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

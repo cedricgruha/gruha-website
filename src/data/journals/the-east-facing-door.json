@@ -1,0 +1,944 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "VAASTU-ANCHORED",
+      "BANASHANKARI–PADMANABHANAGAR–UTTARAHALLI"
+    ],
+    "title": "The East-Facing Door Journal",
+    "description": "Raghavendra (46, GM-finance) & Lakshmi Murthy's (43, classical music teacher) vaastu-anchored hunt — a ₹15K-per-evaluation consultant, the 15% compliant-subset math, a launch-matrix insight, and a refundable EOI that lets the queue and the shastra co-exist.",
+    "quote": "\"We'll see ninety flats to find the one the house agrees with.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Compass",
+        "text": "Launch buying inverts the vaastu problem — full matrix"
+      },
+      {
+        "icon": "Eye",
+        "text": "'100% vaastu' usually means door direction — verify"
+      },
+      {
+        "icon": "Music2",
+        "text": "Bedrooms buffered by the kitchen core"
+      }
+    ],
+    "heroImage": "/journals/cover/24.png",
+    "heroTitle": "The East-Facing Door Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Raghavendra (46, GM-finance at a manufacturing company) & Lakshmi Murthy (43, classical music teacher with forty students) — one college-bound son, a ₹2.4–2.7 Cr budget in the Banashankari–Padmanabhanagar–Uttarahalli belt, and a search filter that rejects more inventory than any bank's: the home must be vaastu-compliant, and not loosely.",
+      "buyers": [
+        {
+          "name": "Raghavendra Murthy",
+          "age": 46,
+          "role": "GM-Finance, Manufacturing Company",
+          "description": "Prices each shastra requirement separately — door direction is priceless; the pooja room's exact corner is worth ₹5L, not ₹12L. Thirty years in finance, and his wife once described an option contract without knowing it.",
+          "tags": [
+            "Requirement-Pricer",
+            "Launch-Matrix Strategist",
+            "Option-Contract Native"
+          ],
+          "image": "/journals/the-east-facing-door/raghavendra.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 46-year-old South Indian man named Raghavendra wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, steady precise expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Lakshmi Murthy",
+          "age": 43,
+          "role": "Classical Music Teacher, 40 Students",
+          "description": "The family's shastra keeper and its practical architect — her forty students of veena and vocal give the floor plan a second dimension no brochure addresses: acoustics, buffered by the kitchen core. Her teaching income put her name on the deed, proportionate.",
+          "tags": [
+            "Shastra Keeper",
+            "Acoustics Architect",
+            "Deed-Share Holder"
+          ],
+          "image": "/journals/the-east-facing-door/lakshmi.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 43-year-old South Indian woman named Lakshmi wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, serene composed expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Find the home the house agrees with — an east or north-facing 3BHK with the kitchen in the southeast (never northeast), the master in the southwest, a clean pooja space in the northeast, and acoustics worthy of forty students — with Lakshmi's name on the deed, proportionate to her contribution.",
+      "sharedVisionImage": "/journals/the-east-facing-door/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an east-facing home's threshold at sunrise — an ornate door with a fresh rangoli and mango-leaf toran, sunlight streaming precisely through the doorway across a clean floor toward a small glowing pooja alcove, a veena resting against the wall, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the rangoli, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Tradition-Anchored Family"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "College-Bound Son"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Actively Exploring"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "12 Months — Worth a Waitlist"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-east-facing-door/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a compass rose above an east-facing door with sunrise light, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the compass, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Door Direction: East or North",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Non-negotiable and priceless — the one requirement that rejects more inventory than any bank's criteria. East preferred; north accepted; the rest never toured."
+        },
+        {
+          "image": "/journals/the-east-facing-door/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a kitchen floor plan in the southeast corner with a compass quadrant, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the quadrant, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Kitchen in the SE, Never NE",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Agni's corner is the southeast — the consultant's red pen has caught kitchens quietly parked in the northeast at projects advertising full compliance."
+        },
+        {
+          "image": "/journals/the-east-facing-door/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a clean pooja alcove in the northeast corner of a floor plan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the alcove, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Clean NE Pooja Space",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "A proper northeast pooja room — not a converted closet under the stairs, and no toilet sharing a wall with it. Worth ₹5L, not ₹12L, priced separately."
+        },
+        {
+          "image": "/journals/the-east-facing-door/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a veena beside a living room floor plan with an acoustics arrow, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the veena, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Acoustics for Forty Students",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Lakshmi's livelihood is also a direction — the living room buffered from bedrooms by the kitchen core won, a criterion no shastra chart or brochure addresses."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a retained consultant and the 15%-subset math, to a false-compliance detour, the launch-matrix insight, and a deliberation loss cured by a refundable EOI.",
+      "journeyFrameTitle": "THE QUEUE AND THE SHASTRA",
+      "roadmapTitle": "How a vaastu-anchored family let the queue and the shastra co-exist",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — East-Facing 3BHK"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.4–2.7 Cr (Her Name On It)"
+        },
+        {
+          "icon": "Compass",
+          "label": "THE FILTER",
+          "value": "East/North, SE Kitchen"
+        },
+        {
+          "icon": "Music2",
+          "label": "THE UNBROCHURED SPEC",
+          "value": "Acoustics for 40 Students"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-consultant-retained",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Consultant Retained",
+          "desc": "₹15K per evaluation, engaged; brokers trained to send floor plans before visits — a small revolution in how this family's search runs.",
+          "icon": "Compass",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-subset-math",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The 15% Subset Math",
+          "desc": "The compliant subset of available stock is roughly 15% — accepted on one page, like weather, and the patience budgeted accordingly.",
+          "icon": "Scale",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-false-compliance-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The '100% Compliant' Brochure",
+          "desc": "A '100% vaastu-compliant' claim; the consultant finds a northeast kitchen in tower 2 — the fee pays for itself a fourth time. Project unnamed by policy.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 100,
+          "width": 190
+        },
+        {
+          "id": "l4-launch-matrix-insight",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Launch-Matrix Insight",
+          "desc": "At Falcon City's newer releases the full unit matrix is open — east-facing, SE-kitchen units selectable, the premium ≈ floor-rise only. The problem inverts.",
+          "icon": "LayoutGrid",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-deliberation-bounce",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-launch-matrix-insight",
+          "title": "L5 BOUNCE: The Four-Day Deliberation",
+          "desc": "Eleven vaastu-prime units on Friday, three by Monday — four days of deliberation costs the east-facing unit. Refundable-EOI-early becomes the rule.",
+          "icon": "Undo2",
+          "loopText": "1-Week Deliberation Loss — Cured by Refundable EOI",
+          "x": 220,
+          "y": 420,
+          "width": 300
+        },
+        {
+          "id": "l6-falcon-city-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Two-Stamp Close",
+          "desc": "East-facing 3BHK secured at Falcon City; Lakshmi's forty students get the kitchen-buffered living room; her name on the deed, proportionate. EOI and shastra, both stamped.",
+          "icon": "KeyRound",
+          "x": 800,
+          "y": 360,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "consulting",
+          "label": "Consulting",
+          "icon": "Compass"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "LayoutGrid"
+        },
+        {
+          "id": "charting",
+          "label": "Charting",
+          "icon": "Eye"
+        },
+        {
+          "id": "securing",
+          "label": "Securing",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Two Stamps, One Door"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "consultant-invoice-moment",
+          "title": "The first evaluation invoice",
+          "desc": "The consultant's first ₹15K invoice, filed with reverence — the moment the family's operating system got a professional instrument.",
+          "imageSrc": "/journals/the-east-facing-door/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a consultant's first evaluation invoice filed in a folder beside a compass, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the invoice, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "northeast-kitchen-moment",
+          "title": "The northeast kitchen, circled in red",
+          "desc": "The '100% compliant' brochure with the northeast kitchen circled in the consultant's red — the fee paying for itself a fourth time in one pen stroke.",
+          "imageSrc": "/journals/the-east-facing-door/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a brochure floor plan with a northeast kitchen circled in red pen, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the red circle, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "unit-matrix-moment",
+          "title": "The open unit matrix",
+          "desc": "Falcon City's open unit matrix with the east-facing, SE-kitchen stacks highlighted — the launch-stage insight that inverted the whole problem.",
+          "imageSrc": "/journals/the-east-facing-door/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an open unit matrix chart with east-facing SE-kitchen stacks highlighted in colour, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the highlights, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "depletion-moment",
+          "title": "Friday's eleven, Monday's three",
+          "desc": "Monday morning's matrix: eleven prime units on Friday, three remaining — the four-day deliberation, priced in one glance at the depletion.",
+          "imageSrc": "/journals/the-east-facing-door/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a unit matrix comparing Friday's eleven highlighted units with Monday's three remaining, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the remaining three, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "two-stamps-moment",
+          "title": "The EOI receipt beside the shastra chart",
+          "desc": "A refundable EOI receipt beside the shastra chart, both stamped — the queue and the veto co-existing, respect made operational.",
+          "imageSrc": "/journals/the-east-facing-door/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a refundable EOI receipt and a shastra chart side by side, both bearing stamps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the stamps, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We'll see ninety flats to find the one the house agrees with.",
+          "author": "— Raghavendra & Lakshmi"
+        },
+        {
+          "text": "Your shastra keeps the veto. The EOI just keeps your place in the queue while it decides.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Sari, hagadre. The queue can be held… the shastra decides. Rama Rama, finally a system that respects both.",
+          "author": "— Lakshmi"
+        },
+        {
+          "text": "Thirty years in finance, Riya, and my wife has just described an option contract.",
+          "author": "— Raghavendra"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Raghavendra",
+          "avatar": "/journals/the-east-facing-door/raghavendra.png",
+          "text": "Riya, we lost the east-facing one at Falcon City. Four days we took. The matrix showed eleven such units on Friday… Monday morning, three."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Vaastu-prime units are the first inventory to go at every launch — everyone's consultant is circling the same corners of the same matrix. So: the consultant reviews the plans the week price sheets drop, and the EOI goes in early, fully refundable — fourteen days, in writing. The shastra keeps the veto; the EOI holds the place in the queue.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Scale",
+          "title": "The 15% Subset Math",
+          "description": "Every additional vaastu requirement shrinks the market exponentially — the compliant subset is roughly 15% of available stock, and the patience was sized accordingly."
+        },
+        {
+          "icon": "Eye",
+          "title": "The False-Compliance Detour",
+          "description": "'100% vaastu-compliant' in a brochure usually means door direction — the consultant's ₹15K caught a northeast kitchen in tower 2; the fee has paid for itself four times."
+        },
+        {
+          "icon": "LayoutGrid",
+          "title": "The Launch Inversion",
+          "description": "At launch, the full unit matrix is open — every east-facing, SE-kitchen unit selectable, the vaastu premium often just the floor-rise charge. The problem inverts from hunting to selecting."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Premium, Priced Per Requirement",
+          "description": "Door direction is priceless; the pooja corner is worth ₹5L, not ₹12L — pricing each shastra requirement separately beats paying blended premiums."
+        },
+        {
+          "icon": "Music2",
+          "title": "The Acoustics Dimension",
+          "description": "Forty students of veena and vocal need a living room buffered from bedrooms by the kitchen core — a criterion no shastra chart or brochure addresses, found in floor-plan geometry."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-east-facing-door.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating the Banashankari–Padmanabhanagar–Uttarahalli belt's compliant 15% — brokers trained to send floor plans first, the consultant reviewing them before any visit, and the launch-matrix as the structural advantage.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Vaastu-Compliant 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Banashankari • Padmanabhanagar • Uttarahalli"
+        },
+        {
+          "icon": "Compass",
+          "label": "THE SUBSET",
+          "value": "15% of Stock, Mapped"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Falcon City, East-Facing"
+        }
+      ],
+      "exploredAreasTitle": "The traditional belt they explored",
+      "exploredAreas": [
+        {
+          "title": "Banashankari",
+          "description": "The belt's northern anchor — established traditional stock at ₹15–18K/sqft, where the vaastu premium has hardened and sellers know exactly what they hold.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9326146,
+            "lng": 77.5322449
+          },
+          "imageSrc": "/journals/the-east-facing-door/banashankari.png",
+          "imagegenerationprompt": "A modern architectural vector view of Banashankari's traditional residential avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Padmanabhanagar",
+          "description": "The family's middle ring — mature communities and the vaastu-prime resale units that carry the belt's 4–8% premium over identical west-facing stock.",
+          "projects": 3,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9166089,
+            "lng": 77.5508601
+          },
+          "imageSrc": "/journals/the-east-facing-door/padmanabhanagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of Padmanabhanagar's established residential streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Uttarahalli Belt (Chosen)",
+          "description": "The southern reach — new launches where the full unit matrix opens at launch, and the east-facing, SE-kitchen stacks become selectable rather than already-sold.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9040568,
+            "lng": 77.5231432
+          },
+          "imageSrc": "/journals/the-east-facing-door/uttarahalli.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Uttarahalli belt with new launch towers and traditional pockets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the '100% vaastu-compliant' project (detour, unnamed) • every west-facing unit the filter rejected before a visit",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE 15% SUBSET",
+          "value": "Compliance Shrinks the Market",
+          "description": "Every additional requirement shrinks the pool exponentially — full compliance might mean compromising the floor, the view, or waiting eighteen months. Sized and accepted like weather.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE '100% COMPLIANT' LIE",
+          "value": "Door Direction, Usually",
+          "description": "Builders know the market — '100% vaastu-compliant' is now a brochure bullet that often means only the door. The consultant's red pen caught a northeast kitchen at full-compliance advertising.",
+          "icon": "Eye"
+        },
+        {
+          "title": "THE VASTU-PRIME VELOCITY",
+          "value": "Friday's Eleven, Monday's Three",
+          "description": "Vaastu-prime units are the first inventory to go at every launch — everyone's consultant circles the same corners of the same matrix, and deliberation has a price.",
+          "icon": "Timer"
+        },
+        {
+          "title": "THE UNBROCHURED ACOUSTICS",
+          "value": "Forty Students, One Living Room",
+          "description": "Lakshmi's livelihood needs a floor-plan geometry no brochure addresses — the kitchen-buffered living room became a ranked requirement in its own right.",
+          "icon": "Music2"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for door direction, the kitchen's corner, a clean pooja space, and acoustics for forty students — the compliant 15%, mapped like weather.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Murthys taught me that vaastu isn't superstition bolted onto a purchase — it's an operating system with a 15% market consequence. Their discipline was the professional instrument: a retained consultant, floor plans reviewed before visits, and each requirement priced separately — door direction priceless, the pooja corner worth ₹5L, not ₹12L. The launch-stage insight reorganized their whole search: at a new launch the full matrix opens, and the vaastu premium often collapses to the floor-rise charge. And when deliberation cost them a prime unit, the fix was an option contract in traditional dress — a refundable EOI that holds the queue while the shastra keeps the veto. Rama Rama, finally a system that respects both.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a unit matrix beside a consultant's floor-plan evaluation, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing launch-stage projects where the full unit matrix opens — the consultant reviewing plans the week price sheets drop, and the refundable EOI securing selection rights before the weekend.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Vaastu-Compliant 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Falcon City, East-Facing"
+        },
+        {
+          "icon": "Timer",
+          "label": "THE VELOCITY LESSON",
+          "value": "4 Days = 8 Units Lost"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.4–2.7 Cr, Her Name On It"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Compass",
+          "title": "Door Direction",
+          "subtitle": "east, then north"
+        },
+        {
+          "icon": "Flame",
+          "title": "Kitchen in the SE",
+          "subtitle": "never northeast"
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Clean NE Pooja Space",
+          "subtitle": "not a converted closet"
+        },
+        {
+          "icon": "Music2",
+          "title": "Acoustics for Forty",
+          "subtitle": "kitchen-buffered living room"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Refundable EOI Early",
+          "subtitle": "queue holds, shastra vetoes"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Lakshmi",
+          "avatar": "/journals/the-east-facing-door/lakshmi.png",
+          "text": "The EOI is already given, and then the chart says the kitchen corner is wrong — we can really step back? No pressure business, Riya?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Refundable in writing, madam, fourteen days — I read the clause myself. Your shastra keeps the veto; the EOI just keeps your place in the queue while it decides. Respect, made operational.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-east-facing-door/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Banashankari, Padmanabhanagar and Uttarahalli belt with a compass rose overlay in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Prestige Falcon City, Newer Releases (Chosen)",
+          "name": "Prestige Falcon City",
+          "price": "2BHK from ~₹1.75 Cr",
+          "possession": "Newer releases",
+          "psf": "Launch-stage unit-matrix selection",
+          "location": "Konanakunte Cross",
+          "imageSrc": "/journals/the-east-facing-door/projects/Prestige-Falcon-City.webp"
+        },
+        {
+          "title": "Resale Comparator",
+          "name": "Brigade Gardenia",
+          "price": "Avg ~₹11,785/sqft",
+          "possession": "Ready",
+          "psf": "East-facing resale carries 4–8% premium",
+          "location": "JP Nagar 7th Phase",
+          "imageSrc": "/journals/the-east-facing-door/projects/Brigade-Gardenia.webp"
+        },
+        {
+          "title": "The False-Compliance Detour",
+          "name": "The '100% Compliant' Project",
+          "price": "Premium band",
+          "possession": "Ready",
+          "psf": "NE kitchen found in tower 2",
+          "location": "South belt",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The Northeast Kitchen in 'Full Compliance'",
+          "count": "1 detour, fee paid for itself a 4th time"
+        },
+        {
+          "icon": "Timer",
+          "title": "Lost to Four Days of Deliberation",
+          "count": "8 prime units gone by Monday"
+        },
+        {
+          "icon": "Compass",
+          "title": "West-Facing Filters",
+          "count": "rejected before the visit, every time"
+        },
+        {
+          "icon": "Music2",
+          "title": "Failed the Acoustics Test",
+          "count": "living rooms opening onto bedrooms"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the east-facing 3BHK at Falcon City's newer release delivered the full-matrix selection advantage — the vaastu premium collapsed to the floor-rise charge, the kitchen-buffered living room answered the acoustics question, and the refundable EOI let the queue and the shastra co-exist. Lakshmi's name on the deed, proportionate — tradition and modernity sharing a sale deed.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for tradition-anchored buyers — the launch-matrix inversion, the false-compliance read, the priced-per-requirement premium, and the tiebreaker that made the framework explicit.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Launch Inverts the Problem"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Consultant's Red Pen"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Four-Day Deliberation"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Refundable EOI"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Launch-stage buying inverts the vaastu buyer's problem.",
+          "description": "Instead of hunting the 15% compliant subset across resales, the full unit matrix opens at launch — every east-facing, SE-kitchen unit selectable, the premium often just the floor-rise charge.",
+          "imageSrc": "/journals/the-east-facing-door/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an open unit matrix chart with a compass overlay and east-facing stacks highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "'100% vaastu-compliant' means door direction, usually.",
+          "description": "The consultant's ₹15K evaluation caught a northeast kitchen in a project advertising full compliance — the fee has paid for itself four times, and the brochure claim is now read as marketing, not fact.",
+          "imageSrc": "/journals/the-east-facing-door/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a brochure floor plan with a northeast kitchen circled in red pen and a 'marketing, not fact' stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Vaastu-prime units sell in the first weekend — the EOI goes in early and refundable.",
+          "description": "Eleven prime units on Friday, three by Monday. The refundable EOI holds selection rights while the shastra keeps the veto — an option contract in traditional dress.",
+          "imageSrc": "/journals/the-east-facing-door/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a refundable EOI form stamped beside a unit matrix with units dimming from Friday to Monday, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The acoustics dimension is a floor-plan criterion no chart addresses.",
+          "description": "Forty students of veena and vocal found their answer in geometry — the living room buffered from bedrooms by the kitchen core won, and the unbrochured requirement got ranked like any other.",
+          "imageSrc": "/journals/the-east-facing-door/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a floor plan with the living room buffered from bedrooms by a kitchen core and a veena drawn beside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "A '100% vaastu-compliant' brochure bullet is a fact"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The vaastu premium is one blended number"
+        },
+        {
+          "icon": "Building2",
+          "text": "Resale is the only way to find a compliant home"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "The floor plan ends where the brochure does"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Eye",
+          "text": "The consultant's red pen reads the claim before the visit"
+        },
+        {
+          "icon": "Scale",
+          "text": "Each requirement priced separately — door priceless, corners priced"
+        },
+        {
+          "icon": "LayoutGrid",
+          "text": "Launch opens the full matrix — select, don't hunt"
+        },
+        {
+          "icon": "Music2",
+          "text": "Acoustics is a floor-plan dimension too"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Timer",
+          "title": "EOI in on the first launch they loved",
+          "description": "The four-day deliberation cost eight prime units — the refundable EOI should have been the default mechanism from launch one, not launch four."
+        },
+        {
+          "icon": "Compass",
+          "title": "Rank the requirements at month zero",
+          "description": "The ranked 1–8 list arrived in month three — the tiebreaker conversation would have been settled before the first flat that felt right but charted wrong."
+        },
+        {
+          "icon": "Music2",
+          "title": "Add the acoustics criterion to the decoder",
+          "description": "The kitchen-buffered living room was discovered, not specified — adding 'student-acoustics' to the needs card would have filtered floor plans from the first review."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Draft the refundable-EOI clause before the launch",
+          "description": "The fourteen-day clause was read mid-crisis — having the template verified with a lawyer in month one would have removed the last hesitation."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Lakshmi",
+          "avatar": "/journals/the-east-facing-door/lakshmi.png",
+          "text": "The door faces east, the kitchen sits in agni's corner, and the veena has a room that carries. My name is on the deed — proportionate, as agreed."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Tradition and modernity sharing a sale deed — the whole journal in one sentence. The house agrees with you now, madam. Ninety flats, and this one was the agreement.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for tradition-anchored buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Raghavendra filing the consultant's invoice, the red-circled northeast kitchen, the Friday-to-Monday matrix depletion, and the two-stamp EOI-and-chart close, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For tradition-anchored buyers, the edge is turning the framework into an instrument: a retained consultant reviewing floor plans before visits, requirements ranked and priced separately, and the launch-matrix as the structural advantage — at a new launch the full unit matrix opens, and the premium often collapses to the floor-rise charge. Hold the queue with a refundable EOI while the shastra keeps the veto, and add the unbrochured dimensions — acoustics, livelihood, light — to the ranked list. The Murthys proved that when the framework becomes explicit, it stops being a constraint and becomes the filter that finds the one the house agrees with.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Launch-stage buying inverted their problem",
+          "body": "Instead of hunting the 15% compliant subset across resales, they select from a full unit matrix on day one — the consultant now reviews launch floor plans the week price sheets drop.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "'100% vaastu-compliant' meant door direction, usually",
+          "body": "The consultant's ₹15K evaluation caught a northeast kitchen in a project advertising full compliance — the fee has paid for itself four times.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Four days of deliberation cost them the prime unit",
+          "body": "Eleven vaastu-prime units on Friday, three by Monday — vaastu-prime inventory (east-facing, SE kitchen, higher floors) sells in the first weekend. The EOI now goes in early, refundably.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The acoustics question found its answer in floor-plan geometry",
+          "body": "Forty students of veena and vocal — the unit with the living room buffered from bedrooms by the kitchen core won, a criterion no vaastu chart or brochure addresses.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The tiebreaker conversation made the framework explicit",
+          "body": "The flat that felt right but charted imperfectly forced the resolution: the five rankable non-negotiables hold; everything below rank five defers to lived feel. The framework survived by becoming explicit.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If vaastu is your family's operating system, let Riya build your tradition-anchored roadmap — launch alerts with full matrices, per-requirement premium pricing, and floor-plan evaluations against your ranked list.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your ranked requirements 1–8, the belt you'll accept, the budget, and the consultant's verdict history if you have one.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya flags launch matrices the week price sheets open, prices each requirement in your belt, and routes floor plans past your consultant's eye.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom East-Facing Door journal — ranked-requirements decoder, premium-pricing table, and the refundable-EOI clause — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive launch alerts with east/north-facing SE-kitchen units flagged before they sell, and floor-plan evaluations against your ranked list.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Launch Alerts, Full Matrices",
+          "description": "New launches flagged the week price sheets open — east/north-facing SE-kitchen units identified before the first weekend sells them.",
+          "icon": "LayoutGrid"
+        },
+        {
+          "id": 2,
+          "title": "Per-Requirement Premium Pricing",
+          "description": "What door direction, kitchen corner, and pooja placement each actually cost in your belt — priced separately, never blended.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "The Refundable-EOI Mechanism",
+          "description": "The queue held by an early refundable EOI while the shastra keeps the veto — respect, made operational.",
+          "icon": "FileCheck2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Vaastu is your family's operating system, not a preference checkbox — and your requirements are precise and rankable.",
+        "You (or your consultant) evaluate floor plans before site visits, and brokers have learned to comply.",
+        "You know your compliant subset is a sliver of the market and you've sized your patience accordingly.",
+        "You price each shastra requirement separately rather than paying blended premiums.",
+        "A future generation's indifference to the framework is a quiet ache in the purchase.",
+        "A home-based vocation (music, tuition, practice) gives your floor-plan needs a second dimension brochures ignore."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-consultant-retained",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Consultant Retained",
+      "desc": "₹15K per evaluation, engaged; brokers trained to send floor plans before visits — a small revolution in how this family's search runs.",
+      "icon": "Compass",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-subset-math",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The 15% Subset Math",
+      "desc": "The compliant subset of available stock is roughly 15% — accepted on one page, like weather, and the patience budgeted accordingly.",
+      "icon": "Scale",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-false-compliance-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The '100% Compliant' Brochure",
+      "desc": "A '100% vaastu-compliant' claim; the consultant finds a northeast kitchen in tower 2 — the fee pays for itself a fourth time. Project unnamed by policy.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-launch-matrix-insight",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Launch-Matrix Insight",
+      "desc": "At Falcon City's newer releases the full unit matrix is open — east-facing, SE-kitchen units selectable, the premium ≈ floor-rise only. The problem inverts.",
+      "icon": "LayoutGrid",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-deliberation-bounce",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-launch-matrix-insight",
+      "title": "L5 BOUNCE: The Four-Day Deliberation",
+      "desc": "Eleven vaastu-prime units on Friday, three by Monday — four days of deliberation costs the east-facing unit. Refundable-EOI-early becomes the rule.",
+      "icon": "Undo2",
+      "loopText": "1-Week Deliberation Loss — Cured by Refundable EOI",
+      "x": 620,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-falcon-city-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Two-Stamp Close",
+      "desc": "East-facing 3BHK secured at Falcon City; Lakshmi's forty students get the kitchen-buffered living room; her name on the deed, proportionate. EOI and shastra, both stamped.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

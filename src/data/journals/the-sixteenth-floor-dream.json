@@ -1,0 +1,992 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "FIRST EMI",
+      "OUTER SARJAPUR • HOSA ROAD"
+    ],
+    "title": "The Sixteenth Floor Dream Journal",
+    "description": "Pavan (29, Infosys) & Shruti Kulal's (28) first-home search on outer Sarjapur Road and Hosa Road — stretching from ₹1 Cr to ₹1.44 Cr, surviving a RERA stall, a ₹50K exit, and the country's most anxious spreadsheet, eight months before their first child arrives.",
+    "quote": "\"Everyone says buy. Nobody says how to stop being scared.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "FileCheck",
+        "text": "The RERA portal is readable — 20 min per project"
+      },
+      {
+        "icon": "IndianRupee",
+        "text": "GST 5% vs nil changes the comparison math most"
+      },
+      {
+        "icon": "Baby",
+        "text": "The convertible-study 2BHK won — airbag intact"
+      }
+    ],
+    "heroImage": "/journals/cover/14.png",
+    "heroTitle": "The Sixteenth Floor Dream Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Pavan (29, senior engineer at Infosys) & Shruti Kulal (28, QA lead) — first-generation city-property buyers from Udupi and Davangere, deploying ₹22L savings into a primary 2BHK, with a baby arriving as their real possession deadline.",
+      "buyers": [
+        {
+          "name": "Pavan Kulal",
+          "age": 29,
+          "role": "Senior Engineer, Infosys",
+          "description": "First-generation buyer carrying a ₹70L home loan decision the way his father carried co-operative bank ledgers. Every stalled-project story lands in his chest; every Sunday site visit ends at a darshini.",
+          "tags": [
+            "Anxious Dreamer",
+            "Spreadsheet-Diligent",
+            "Darshini-Talker"
+          ],
+          "image": "/journals/the-sixteenth-floor-dream/pavan.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 29-year-old South Indian coastal man named Pavan wearing a simple cotton shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, slightly anxious but earnest expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Shruti Kulal",
+          "age": 28,
+          "role": "QA Lead, Mid-Size Product Company",
+          "description": "The braver one — her logic is rent-vs-EMI arithmetic plus a deeper exhaustion with landlord inspections and 10% annual hikes negotiated in broken Kannada-Hindi-English diplomacy. Her veto power is quiet and absolute.",
+          "tags": [
+            "Brave Pragmatist",
+            "Rent-Fatigued",
+            "Silent Veto"
+          ],
+          "image": "/journals/the-sixteenth-floor-dream/shruti.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 28-year-old South Indian woman named Shruti wearing a simple kurta, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm determined expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Convert ₹22L of combined adult savings into a primary 2BHK with RERA registration and ≤8-month possession on outer Sarjapur or Hosa Road — closing before the baby arrives, with the largest number either family has ever signed somehow feeling like home, not a summons.",
+      "sharedVisionImage": "/journals/the-sixteenth-floor-dream/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a young couple standing at the base of a tall under-construction tower at sunset, the woman's hand on her stomach, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on a single key the man holds, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "First-Gen Buyers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Expecting First Child"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "11 Site Visits In"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Before the Baby"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-sixteenth-floor-dream/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a RERA registration document with a verified stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the registration number, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "RERA Registration Read in Full",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Every project's RERA portal entry checked personally — possession date, quarterly updates, complaint history. Twenty minutes that replaces months of WhatsApp dread."
+        },
+        {
+          "image": "/journals/the-sixteenth-floor-dream/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a construction timeline with possession within 8 months, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 calendar accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "≤8 Months to Possession",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The baby's arrival is the real clock — possession delay means rent+EMI overlap during the one month they can't afford it."
+        },
+        {
+          "image": "/journals/the-sixteenth-floor-dream/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a school and hospital map pin within a 3-km radius, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pin accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "School & Hospital Within 3 km",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Young-family infrastructure isn't a nice-to-have — it's the infrastructure they'll navigate with a newborn and one less hour of sleep."
+        },
+        {
+          "image": "/journals/the-sixteenth-floor-dream/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a family budget emergency fund with a ₹3L lock icon, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 lock accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Emergency Fund: ₹3L Untouchable",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The one line in the spreadsheet that is never open for negotiation — the airbag that survives even the worst-month scenario they've both privately googled."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From the fridge that held a rent-hike letter and a sonography report side by side, to the double peak-and-crash booking ride, to registration at week 32.",
+      "journeyFrameTitle": "BOOKED, STALLED, EXITED, RECOVERED",
+      "roadmapTitle": "How first-gen buyers survived a RERA stall and closed at week 32",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Week 32"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.44 Cr All-In"
+        },
+        {
+          "icon": "Baby",
+          "label": "THE REAL DEADLINE",
+          "value": "Before the Baby Arrives"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "EMI BURDEN",
+          "value": "₹92K — 38% of Take-Home"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-fridge-moment",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Fridge That Started It",
+          "desc": "The landlord's 10% hike letter and the pregnancy test share a fridge magnet; 'GHAR — FINAL' v1 is born in the kitchen.",
+          "icon": "StickyNote",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-truth-column",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The TRUTH Column",
+          "desc": "The asterisk education: base → all-in ≈ +16–18%. The TRUTH column instituted beside the brochure prices.",
+          "icon": "ClipboardList",
+          "x": 280,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-neopolis-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Neopolis Ad",
+          "desc": "Sobha Neopolis full-page — the Greek dream with its bougainvillea showflat. ₹2.3–2.72 Cr reality; one fight, one dosa, a 'DREAMS — PARKED' sheet invented.",
+          "icon": "Eye",
+          "x": 470,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l4-chandapura-regression",
+          "stage": "S2",
+          "type": "bounce",
+          "targetNodeId": "l2-truth-column",
+          "title": "L4 REGRESSION: The Chandapura Grief",
+          "desc": "The widening to Attibele-Chandapura; Shruti's one-line veto on a sticky note: 'a home, not a point proven to two fathers.'",
+          "icon": "Undo2",
+          "loopText": "S2 Regression (Shruti's Veto)",
+          "x": 200,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "l5-splendour-mirage",
+          "stage": "S3",
+          "type": "detour",
+          "title": "L5 DETOUR: The Value Mirage",
+          "desc": "Godrej Splendour 2BHK from ₹85L all-in — dies on an 8:15 am drive test: 1h50m to Electronic City.",
+          "icon": "Clock",
+          "x": 530,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "l6-booking-summit",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L6: The Booking Summit",
+          "desc": "Hosa Rd under-construction 2BHK booked at ₹1.22 Cr, CLP, 10% paid — the happiest evening of the entire search.",
+          "icon": "FileCheck",
+          "x": 800,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l7-rera-bounce",
+          "stage": "S6",
+          "type": "bounce",
+          "targetNodeId": "l5-splendour-mirage",
+          "title": "L7 BOUNCE: The RERA Flatline",
+          "desc": "RERA quarterly progress flat-lines; 2 am buyers'-group archive session; exit fought, refund minus ₹50K 'administrative charges.'",
+          "icon": "TrendingDown",
+          "loopText": "S6 → S3 Bounce (RERA Stall, −₹50K Exit)",
+          "x": 500,
+          "y": 480,
+          "width": 200
+        },
+        {
+          "id": "l8-chirping-woods-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L8: Chirping Woods Close",
+          "desc": "Ready-with-OC pivot (GST math seals it): Shriram Chirping Woods 2BHK, ₹1.44 Cr all-in; CIBIL-ghost wobble; registration at week 32 on the eight-months bump.",
+          "icon": "CheckCircle2",
+          "x": 830,
+          "y": 380,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "searching",
+          "label": "Searching",
+          "icon": "MapPin"
+        },
+        {
+          "id": "dreaming",
+          "label": "Dreaming",
+          "icon": "Eye"
+        },
+        {
+          "id": "booking",
+          "label": "Booking",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "surviving",
+          "label": "Surviving",
+          "icon": "TrendingDown"
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "icon": "CheckCircle2",
+          "active": true,
+          "tag": "Week 32"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "fridge-moment",
+          "title": "Two letters under one magnet",
+          "desc": "The rent-hike notice and the sonography report sharing a fridge — the search that had been theoretical became urgent in one morning.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/moment-1.png",
+          "imagegenerationprompt": "A vector illustration of a refrigerator door with a rent-hike letter and a sonography image pinned under one temple magnet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 magnet accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "parked-sheet-moment",
+          "title": "The 'DREAMS — PARKED' sheet is born",
+          "desc": "An hour after walking out of the Neopolis showflat — Shruti half-laughing, half-sniffling, Pavan saying 'our whole budget is the parking-floor price there.'",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a handwritten sheet titled 'DREAMS — PARKED' with Neopolis on top beside its real ₹2.3 Cr price, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 header accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "booking-evening-moment",
+          "title": "The happiest evening of the search",
+          "desc": "Booking receipt for the Hosa Rd under-construction 2BHK at ₹1.22 Cr — a Pinterest board titled '1050 sqft' and a quiet belief that the math might actually work.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a booking receipt and a laptop showing a Pinterest board titled '1050 sqft', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 receipt accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "rera-flatline-moment",
+          "title": "The 2 am buyers'-group archive",
+          "desc": "The RERA quarterly progress chart flat-lining on the screen at 2 am — the dread that turned eleven site visits, one booking, and all that hope into three demand letters and a ₹50K lesson.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a flat-lined RERA quarterly chart on a laptop screen beside three demand letters, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 line accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "registration-bump-moment",
+          "title": "Registration papers on the eight-months bump",
+          "desc": "Shriram Chirping Woods 2BHK registration at week 32 — the v7 spreadsheet's final cell filled, the baby's room accounted for in the plan for the first time.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/moment-5.png",
+          "imagegenerationprompt": "A tender 3D vector illustration of registration papers resting on a rounded pregnancy bump, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 paper seal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Everyone says buy. Nobody says how to stop being scared.",
+          "author": "— Pavan"
+        },
+        {
+          "text": "The ad was built by professionals to find exactly you — eight weeks pregnant, tired, deserving one beautiful thing. It worked because you're human, not because you're foolish.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Dreams with numbers stop whispering.",
+          "author": "— Riya"
+        },
+        {
+          "text": "A home, not a point proven to two fathers.",
+          "author": "— Shruti"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Shruti",
+          "avatar": "/journals/the-sixteenth-floor-dream/shruti.png",
+          "text": "Riya, don't laugh. The showflat had bougainvillea, marre. Actual bougainvillea. I was standing in that Santorini balcony thinking this is it."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "I'm not laughing. That ad found exactly you — tired, deserving one beautiful thing. We don't delete the dream — we park it. Dreams with numbers stop whispering.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "IndianRupee",
+          "title": "The TRUTH Column",
+          "description": "Base price to all-in cost is a +16–18% decoder every first-time buyer must open before any offer."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "RERA Quarterly Verification",
+          "description": "Post-booking, the RERA portal's quarterly updates are the only progress report that matters — not the builder's WhatsApp."
+        },
+        {
+          "icon": "TrendingDown",
+          "title": "Construction-Linked Payment Risk",
+          "description": "CLP protects savings between slabs — but the builder must actually build between those slabs."
+        },
+        {
+          "icon": "Baby",
+          "title": "The 2.5 BHK vs the Emergency Fund",
+          "description": "The bigger flat empties the savings; the smaller flat with a convertible study preserves the six-month airbag — and the baby's room still exists."
+        },
+        {
+          "icon": "Clock",
+          "title": "GST Math: UC vs Ready",
+          "description": "5% GST on under-construction versus nil on ready-with-OC changed the comparison math more than any developer discount."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-sixteenth-floor-dream.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating under-construction and ready stock across outer Sarjapur Road, Hosa Road, and the Chandapura–Attibele fringe — every Sunday, one project, one Excel update, one argument, one make-up dosa.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "First-Home 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Sarjapur • Hosa Rd • Attibele"
+        },
+        {
+          "icon": "TrendingDown",
+          "label": "THE STALL & EXIT",
+          "value": "RERA Flatline — ₹50K Lost"
+        },
+        {
+          "icon": "CheckCircle2",
+          "label": "SELECTED HOME",
+          "value": "Chirping Woods 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Outer Sarjapur Road",
+          "description": "The corridor they saved toward — the ₹95L 2BHK they began saving for in 2024 no longer exists; comparable units now start at ₹1.35 Cr (₹12–14K/sqft).",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9329898,
+            "lng": 77.6857815
+          },
+          "imageSrc": "/journals/the-sixteenth-floor-dream/sarjapur.png",
+          "imagegenerationprompt": "A modern architectural vector view of outer Sarjapur Road residential corridor with rising apartment towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hosa Road (Chosen)",
+          "description": "The belt where both the booked-then-exited project and the final Chirping Woods ready close happened — better value accessible across Kasavanahalli and Harlur.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.8710902,
+            "lng": 77.6532975
+          },
+          "imageSrc": "/journals/the-sixteenth-floor-dream/hosa-road.png",
+          "imagegenerationprompt": "A modern architectural vector view of Hosa Road residential belt with ready apartment stock, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Chandapura–Attibele Fringe",
+          "description": "The honest list — lower budgets, larger units, Shruti's veto delivered quietly on a sticky note: 'a home, not a point proven to two fathers.'",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.7751451,
+            "lng": 77.7609861
+          },
+          "imageSrc": "/journals/the-sixteenth-floor-dream/attibele.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Chandapura–Attibele residential fringe, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Panathur (Neopolis parked dream) • Belathur / Whitefield edge (value mirage) • Kasavanahalli (Chirping Woods benchmark) • Harlur",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "ALL-IN COST SURPRISE",
+          "value": "+16–18% Hidden",
+          "description": "Brochure base prices that bloomed into all-in figures neither family's advice had prepared them to decode.",
+          "icon": "IndianRupee"
+        },
+        {
+          "title": "SPREADSHEET ANXIETY",
+          "value": "₹92K EMI at 38%",
+          "description": "The largest monthly outflow either family has ever signed, against combined take-home — one layoff scenario privately googled by both.",
+          "icon": "ClipboardList"
+        },
+        {
+          "title": "RERA FLATLINE DREAD",
+          "value": "Quarterly Progress Stalled",
+          "description": "Post-booking, the RERA portal's flat-lined progress chart at 2 am — eleven site visits and one booking reduced to three demand letters.",
+          "icon": "TrendingDown"
+        },
+        {
+          "title": "FAMILY ADVICE COLLISION",
+          "value": "Two Generations, Zero Agreement",
+          "description": "Pavan's father wants a site; Shruti's mother wants proximity to a Devi temple; the baby's arrival is the one deadline everyone agrees on.",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for RERA truth, a home that survived the worst-month spreadsheet, and a possession date that beat the baby.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“They are the cohort the market has been cruellest to — the ₹95L 2BHK they saved toward in 2024 simply no longer exists. And yet every Sunday, one project, one spreadsheet, one argument, one dosa. The Excel version number kept climbing and the fear never left, but neither did they. When the RERA stall hit, they didn't freeze — they exited with ₹50K worse and refocused on ready-with-OC math. That pivot, made eight months pregnant, is the steel this journal is built on.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a spreadsheet with a young couple's first-home scenario beside a RERA portal screen, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing under-construction primary stock against ready-with-OC alternatives — the RERA portal as the only progress report, GST as the tiebreaker, and a ₹50K lesson on booking-exit clauses.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "First-Home 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Chirping Woods 2BHK"
+        },
+        {
+          "icon": "TrendingDown",
+          "label": "THE ₹50K EXIT",
+          "value": "RERA-Flatlined UC Project"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹1.44 Cr All-In"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "FileCheck",
+          "title": "RERA Registration Verified",
+          "subtitle": "quarterly updates tracked"
+        },
+        {
+          "icon": "Clock",
+          "title": "≤8 Months Possession",
+          "subtitle": "before the baby arrives"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "GST Math Advantage",
+          "subtitle": "ready = nil GST"
+        },
+        {
+          "icon": "Building2",
+          "title": "Tier-2 Delivery Record",
+          "subtitle": "delivery over brochure"
+        },
+        {
+          "icon": "Baby",
+          "title": "Young-Family Community",
+          "subtitle": "school & hospital ≤3 km"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/the-sixteenth-floor-dream/pavan.png",
+          "text": "We booked one flat, lost ₹50K to a RERA stall, and somehow ended up in a ready-with-OC community. Is that the most expensive lesson or the cheapest?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The cheapest. ₹50K for a lesson that will protect every property decision you make for thirty years. And the GST math on ready-with-OC paid for it twice.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-sixteenth-floor-dream/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Bengaluru's outer Sarjapur Road, Hosa Road, and Chandapura–Attibele fringe in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Shriram Chirping Woods (Chosen)",
+          "name": "Shriram Chirping Woods",
+          "price": "₹1.44 Cr All-In",
+          "possession": "Ready with OC",
+          "psf": "Established community",
+          "location": "Kasavanahalli / Harlur",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Print-Ad Detour",
+          "name": "Sobha Neopolis",
+          "price": "₹2.3–2.72 Cr",
+          "possession": "Detour — parked",
+          "psf": "~₹15,600/sqft",
+          "location": "Panathur",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Value Mirage",
+          "name": "Godrej Splendour",
+          "price": "₹85L All-In",
+          "possession": "Dec 2025",
+          "psf": "Value at distance",
+          "location": "Belathur / Whitefield edge",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "TrendingDown",
+          "title": "RERA Quarterly Flat-lined",
+          "count": "1 booking exit — ₹50K lost"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Budget-3x Print Ad",
+          "count": "1 showflat heartbreak"
+        },
+        {
+          "icon": "Clock",
+          "title": "Drive-Test Failure",
+          "count": "1h50m commute kill"
+        },
+        {
+          "icon": "MapPin",
+          "title": "The Fringe Widening Grief",
+          "count": "1 spousal veto delivered"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying ready-with-OC at Shriram Chirping Woods for ₹1.44 Cr all-in delivered possession certainty, nil GST advantage, and a young-family community with school and hospital infrastructure already in place — closing at week 32, before the baby and the spreadsheet finally at rest.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for first-generation buyers navigating the first-EMI fear, RERA vigilance, and the baby-as-deadline clock.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "RERA Portal Is Readable"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Ready-with-OC Safety"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Not Checking RERA Quarterly"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "GST Math on Ready Stock"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The RERA portal is genuinely readable.",
+          "description": "Registration number, possession date, complaint history, quarterly updates — twenty minutes per project replaced hours of WhatsApp-forward anxiety with actual facts.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a laptop displaying the RERA portal registration page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Construction-linked payment plans are the first-timer's friend.",
+          "description": "10% at booking, the rest following slabs, means savings deplete with the building's actual progress, not before it — until the progress stops.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a construction-linked payment schedule with staged slabs, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "GST on UC vs ready changes the whole comparison.",
+          "description": "5% GST on under-construction versus nil on ready-with-OC altered the all-in math more than any developer discount; they now compute all-in cost per project, not per-sqft.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a GST comparison chart showing 5% UC vs nil ready-with-OC, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The 2 BHK with a convertible study beats the 2.5 BHK.",
+          "description": "The bigger flat empties the emergency fund; the smaller flat with a convertible study preserves the six-month airbag — and the baby's room still exists.",
+          "imageSrc": "/journals/the-sixteenth-floor-dream/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a floor plan conversion showing a study becoming a baby's room, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Brochure possession date is as good as a guarantee"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The per-sqft price is the real price of the flat"
+        },
+        {
+          "icon": "Building2",
+          "text": "A bigger flat is always better for a growing family"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "Under-construction discounts beat ready-to-move premiums"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "ShieldCheck",
+          "text": "RERA quarterly updates are the only progress report"
+        },
+        {
+          "icon": "Zap",
+          "text": "The all-in cost (base + 18%) is the only price that counts"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "A 2 BHK with a convertible study preserves the airbag"
+        },
+        {
+          "icon": "Moon",
+          "text": "Ready-with-OC + nil GST math beats any UC discount"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "FileCheck2",
+          "title": "Check RERA updates monthly from booking",
+          "description": "Setting a calendar reminder for the first of every month would have caught the flat-line sooner and possibly saved the ₹50K."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Compute all-in cost from visit one",
+          "description": "Opening the TRUTH column before the first site visit would have eliminated price-sheet hope-and-crush cycles."
+        },
+        {
+          "icon": "Baby",
+          "title": "Model the worst-month buffer earlier",
+          "description": "Writing the layoff+EMI+infant survival number before booking would have shaped the 2BHK vs 2.5BHK decision with data, not dread."
+        },
+        {
+          "icon": "Clock",
+          "title": "Pivot to ready stock sooner",
+          "description": "The GST math and possession-certainty case for ready-with-OC was hiding in plain sight — they wish it had been month 3's discovery, not month 6's rescue."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/the-sixteenth-floor-dream/pavan.png",
+          "text": "We started at ₹1 Cr and ended at ₹1.44 Cr. We booked one flat. We exited one flat. We survived a flat-line and a ₹50K toll. Is that winning?"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Your father built his Udupi house room by room over nine years, loan-free. You built a home in eight months, through a stall, at 32 weeks pregnant — with the spreadsheet versioned seven times and the emergency fund still intact. That's not winning; that's a generation's leap completed.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for first-EMI families",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Pavan and Shruti opening the RERA portal, parking the Neopolis dream, receiving the flat-lined progress chart, and registering Chirping Woods at week 32, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For first-generation buyers deploying combined adult savings into a primary home, the edge is not in finding the cheapest per-sqft — it's in reading the RERA portal monthly, computing the all-in cost honestly, and pricing the worst-month survival buffer before the offer. Pavan and Shruti proved that a ₹50K exit is cheaper than a stalled possession, and that ready-with-OC plus nil GST math is the first-timer's insurance policy.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The RERA portal is genuinely readable — 20 minutes per project",
+          "body": "Registration number, possession date, complaint history, quarterly updates — twenty minutes per project replaced hours of WhatsApp-forward anxiety with actual, checkable facts.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Construction-linked payment plans are the first-timer's best friend",
+          "body": "10% at booking, the rest following construction slabs, means savings deplete with the building's actual progress — not in a lump sum before a single brick is laid.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The anxious middle tier of builders sorts itself by delivery history",
+          "body": "They learned to filter less by brochure quality and more by a single question: has this builder delivered two projects on time? Two delivered projects on time beats one celebrity architect, every time.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The 2.5 BHK costs the emergency fund — the convertible study won",
+          "body": "Priced the bigger flat honestly for the first time: it empties the savings. The 2 BHK with a convertible study preserves the six-month airbag, and the baby's room still exists — Shruti's choice, with the spreadsheet closed.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "GST on under-construction vs ready-with-OC changed the entire comparison",
+          "body": "5% GST on UC versus nil on ready-with-OC altered the all-in math more than any developer discount. They now compute all-in cost per project, not per-sqft price — a rule they'll carry into every future purchase.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you are deploying combined savings into a first home, let Riya build your RERA-vigilant possession roadmap and worst-month survival buffer before you bid.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your combined income, savings, the child's arrival date, and the location range your commute can survive.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya reads the RERA portal, opens the all-in TRUTH column, and models the worst-month survival buffer — layoff, EMI, infant.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom First-EMI journal with RERA checklist, TRUTH column, and construction-linked payment tracker is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified ready-with-OC 2BHK options matching your all-in budget and possession timeline, with GST math pre-computed.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "RERA Portal Audit",
+          "description": "Read quarterly updates, complaint history, and possession records before any offer.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 2,
+          "title": "All-In TRUTH Column",
+          "description": "Decode the base-to-all-in +16–18% hidden cost before the site visit.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "Worst-Month Survival Buffer",
+          "description": "Model the layoff+EMI+infant scenario — the airbag that must survive.",
+          "icon": "ShieldCheck"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "This is your first property, the largest number your family has ever signed, and the fear is structural, not informational.",
+        "The market repriced faster than you could save, and you are angry about it in a way you cannot use.",
+        "A baby's arrival date is your real possession deadline.",
+        "You read RERA registrations at night and stalled-project stories land in your chest.",
+        "Your parents' property wisdom was built in a different era's arithmetic, and translating it is exhausting.",
+        "Every Sunday: one site visit, one spreadsheet update, one argument, one make-up dosa."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-fridge-moment",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Fridge That Started It",
+      "desc": "The landlord's 10% hike letter and the pregnancy test share a fridge magnet; 'GHAR — FINAL' v1 is born in the kitchen.",
+      "icon": "StickyNote",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-truth-column",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The TRUTH Column",
+      "desc": "The asterisk education: base → all-in ≈ +16–18%. The TRUTH column instituted beside the brochure prices.",
+      "icon": "ClipboardList",
+      "x": 280,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-neopolis-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Neopolis Ad",
+      "desc": "Sobha Neopolis full-page — the Greek dream with its bougainvillea showflat. ₹2.3–2.72 Cr reality; one fight, one dosa, a 'DREAMS — PARKED' sheet invented.",
+      "icon": "Eye",
+      "x": 470,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-chandapura-regression",
+      "stage": "S2",
+      "type": "bounce",
+      "targetNodeId": "l2-truth-column",
+      "title": "L4 REGRESSION: The Chandapura Grief",
+      "desc": "The widening to Attibele-Chandapura; Shruti's one-line veto on a sticky note: 'a home, not a point proven to two fathers.'",
+      "icon": "Undo2",
+      "loopText": "S2 Regression (Shruti's Veto)",
+      "x": 200,
+      "y": 380,
+      "width": 190
+    },
+    {
+      "id": "l5-splendour-mirage",
+      "stage": "S3",
+      "type": "detour",
+      "title": "L5 DETOUR: The Value Mirage",
+      "desc": "Godrej Splendour 2BHK from ₹85L all-in — dies on an 8:15 am drive test: 1h50m to Electronic City.",
+      "icon": "Clock",
+      "x": 530,
+      "y": 380,
+      "width": 190
+    },
+    {
+      "id": "l6-booking-summit",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L6: The Booking Summit",
+      "desc": "Hosa Rd under-construction 2BHK booked at ₹1.22 Cr, CLP, 10% paid — the happiest evening of the entire search.",
+      "icon": "FileCheck",
+      "x": 800,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l7-rera-bounce",
+      "stage": "S6",
+      "type": "bounce",
+      "targetNodeId": "l5-splendour-mirage",
+      "title": "L7 BOUNCE: The RERA Flatline",
+      "desc": "RERA quarterly progress flat-lines; 2 am buyers'-group archive session; exit fought, refund minus ₹50K 'administrative charges.'",
+      "icon": "TrendingDown",
+      "loopText": "S6 → S3 Bounce (RERA Stall, −₹50K Exit)",
+      "x": 500,
+      "y": 480,
+      "width": 200
+    },
+    {
+      "id": "l8-chirping-woods-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L8: Chirping Woods Close",
+      "desc": "Ready-with-OC pivot (GST math seals it): Shriram Chirping Woods 2BHK, ₹1.44 Cr all-in; CIBIL-ghost wobble; registration at week 32 on the eight-months bump.",
+      "icon": "CheckCircle2",
+      "x": 830,
+      "y": 380,
+      "width": 200
+    }
+  ]
+}

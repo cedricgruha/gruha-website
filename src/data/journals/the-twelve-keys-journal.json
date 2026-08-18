@@ -1,0 +1,855 @@
+{
+  "article": {
+    "title": "The Twelve Keys Journal",
+    "heroTitle": "The Twelve Keys Journal",
+    "description": "Priyanka Bhat's (35) micro-stay portfolio expansion across HSR, Bellandur & Manyata — underwriting ready builder-held studios against 7%+ net yields, RWA bye-laws, and corporate demand.",
+    "quote": "\"Every flat should introduce itself with its occupancy rate.\"",
+    "readTime": "14 min read",
+    "heroImage": "/journals/cover/5.jpg",
+    "imagegenerationprompt": "A modern vector illustration of a confident woman holding a ring of twelve keys with apartment building floorplan outlines, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+    "learnings": [
+      {
+        "icon": "TrendingUp",
+        "text": "Underwrite net-yield at 7%+ post-OTA and fees"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "Audit bye-laws and AGM minutes before the token"
+      },
+      {
+        "icon": "Layers",
+        "text": "Split inventory across corridors to cut risk"
+      }
+    ],
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    },
+    "tags": [
+      "INVESTORS & WEALTH",
+      "MICRO-STAY OPERATOR",
+      "ORR CORRIDOR"
+    ],
+    "updatedOn": "Updated on July 2026"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FDF2E9",
+      "inactiveBgHex": "rgba(253, 242, 233, 0.45)",
+      "textColor": "text-[#C45D3A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who she is",
+      "description": "Getting to know Priyanka Bhat -- her micro-stay operating machine, 7%+ net yield gate, and search for RWA-tolerant ready builder stock.",
+      "buyers": [
+        {
+          "name": "Priyanka Bhat",
+          "age": 35,
+          "role": "Ex-Hotelier & Micro-Stay Operator",
+          "description": "A sharp ex-hotelier turned rental operator who underwrites apartments like yield-generating machines. Rigorous about RWA bye-laws, dynamic pricing, and P&Ls per unit.",
+          "tags": [
+            "Data-Driven",
+            "Yield-Focused",
+            "Decisive"
+          ],
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "image": "/journals/the-twelve-keys-journal/priyanka.png",
+          "imagegenerationprompt": "A modern vector illustration of priyanka bhat avatar headshot with a confident warm smile, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "sharedVisionTitle": "The Operating Machine",
+      "sharedVisionDescription": "Priyanka treats residential apartments as high-yield operating assets rather than passive homes. Every purchase is underwritten against occupancy rates, RWA short-stay regulations, and 7%+ net yields.",
+      "sharedVisionImage": "/journals/the-twelve-keys-journal/hero.png",
+      "imagegenerationprompt": "A modern vector illustration of an operator workspace with keycard racks, occupancy ledgers, and property floorplans, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Micro-Stay Operator"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Units 7–8 Hunt"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Negotiating & Closing"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Opportunistic (2w)"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-twelve-keys-journal/priority-1.png",
+          "imagegenerationprompt": "A modern vector illustration of RWA bye-law documents and society AGM meeting minutes with verified stamps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "RWA Bye-Law Tolerance",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Auditing last 3 AGM minutes and draft circulars to ensure short-stay guest tolerance before second visit."
+        },
+        {
+          "image": "/journals/the-twelve-keys-journal/priority-2.png",
+          "imagegenerationprompt": "A modern vector illustration of net yield calculation spreadsheets showing 7%+ post-OTA and housekeeping returns, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "7%+ Net Yield Floor",
+          "scorePercentage": 92,
+          "scoreLabel": "9.2/10",
+          "description": "Underwritten at 70% occupancy and ₹4,200 ADR post-OTA fees, housekeeping, and maintenance levies."
+        },
+        {
+          "image": "/journals/the-twelve-keys-journal/priority-3.png",
+          "imagegenerationprompt": "A modern vector illustration of a micro-market map showing 1.5km proximity rings around ORR and Manyata tech parks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Tech Park Proximity",
+          "scorePercentage": 88,
+          "scoreLabel": "8.8/10",
+          "description": "Located within 1.5 km of major tech park gates (Ecospace, Embassy TechVillage, Manyata) for corporate traveler demand."
+        },
+        {
+          "image": "/journals/the-twelve-keys-journal/priority-4.png",
+          "imagegenerationprompt": "A modern vector illustration of ready builder studio keycards and immediate occupancy certificates, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Immediate OC Builder Stock",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Direct developer inventory with ready OC to eliminate construction wait and negotiate GST-inclusive pricing."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#FDF2E9",
+      "inactiveBgHex": "rgba(253, 242, 233, 0.45)",
+      "textColor": "text-[#C45D3A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "SEARCH DURATION",
+          "value": "15 Weeks"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "PROJECTS EVALUATED",
+          "value": "9 Projects"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "SHORT-STAY YIELD",
+          "value": "7% Net"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "PORTFOLIO TARGET",
+          "value": "8 Keys"
+        }
+      ],
+      "journeyFrameTitle": "THE 12-KEY PLAYBOOK",
+      "journeyFrameSubtitle": "Every stage, mapped.",
+      "roadmapTitle": "How a short-stay portfolio scaled to twelve keys",
+      "roadmapNodes": [
+        {
+          "id": "l1-units-7-8-hunt",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Units 7–8 Hunt Begins",
+          "desc": "Units 7–8 hunt begins; entry yields compressed ~150bps since 2021 — the operating edge is now the whole business.",
+          "icon": "TrendingDown",
+          "x": 120,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l2-rwa-temperament-audit",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: RWA Temperament Audit",
+          "desc": "RWA-temperament audit added before price: bye-laws + last AGM minutes requested pre-visit; two buildings self-eliminate.",
+          "icon": "FileSearch",
+          "x": 340,
+          "y": 120,
+          "width": 210
+        },
+        {
+          "id": "l3-guaranteed-9-percent-detour",
+          "stage": "S2",
+          "type": "detour",
+          "title": "L3 DETOUR: Guaranteed 9%",
+          "desc": "A 'serviced-apartment guaranteed 9%' operator-tie-up pitch near a tech park — the guarantee issuer is the seller's own LLP; parked.",
+          "icon": "AlertTriangle",
+          "x": 570,
+          "y": 120,
+          "width": 220
+        },
+        {
+          "id": "s3-ready-stock-thesis",
+          "stage": "S3",
+          "type": "stage",
+          "title": "S3: Ready-Stock Thesis",
+          "desc": "The search narrows toward builder-held ready stock with a clean counterparty.",
+          "icon": "Building",
+          "x": 800,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-builder-ready-stock",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L4: Brigade Cornerstone Utopia Studios",
+          "desc": "Brigade Cornerstone Utopia studios: builder-held ready stock, GST-in but negotiable, clean counterparty.",
+          "icon": "Building",
+          "x": 600,
+          "y": 360,
+          "width": 220
+        },
+        {
+          "id": "l5-byelaw-draft-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "s3-ready-stock-thesis",
+          "title": "L5 BOUNCE: Bye-Law Draft",
+          "desc": "First unit lost — RWA circulates a draft short-stay restriction mid-negotiation; she exits same week, no sentiment.",
+          "icon": "RotateCcw",
+          "loopText": "S5 → S3 Bounce (Bye-law Draft)",
+          "x": 800,
+          "y": 520,
+          "width": 230
+        },
+        {
+          "id": "l6-two-units-closed",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L6: Two Units Closed",
+          "desc": "Two units closed in a short-stay-tolerant tower; concentration deliberately split Manyata-side vs ORR.",
+          "icon": "Key",
+          "x": 320,
+          "y": 520,
+          "width": 220
+        }
+      ],
+      "timelineTitle": "Where she stands today",
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "agm-minutes-exit",
+          "title": "The AGM Minutes Exit",
+          "desc": "Priyanka exited a Bellandur studio mid-negotiation after reviewing a draft short-stay ban in society minutes.",
+          "imageSrc": "/journals/the-twelve-keys-journal/moment-1.png",
+          "imagegenerationprompt": "A modern vector illustration of a printed society AGM booklet with highlighted short-stay restriction clauses and a coffee cup, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "guaranteed-9-percent-detour",
+          "title": "The Guaranteed 9% Detour",
+          "desc": "A broker pitched a 9% guaranteed return scheme, but diligence revealed the guarantee was issued by a 2-month-old shell LLP.",
+          "imageSrc": "/journals/the-twelve-keys-journal/moment-2.png",
+          "imagegenerationprompt": "A modern vector illustration of a glossy investment brochure with a red warning circle around a shell company incorporation date, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "gst-inclusive-builder-deal",
+          "title": "GST-Inclusive Builder Stock",
+          "desc": "Negotiating directly with developer sales heads for ready inventory clearance with GST included.",
+          "imageSrc": "/journals/the-twelve-keys-journal/moment-3.png",
+          "imagegenerationprompt": "A modern vector illustration of a stamped developer inventory allotment agreement showing GST-inclusive pricing, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "dual-corridor-split",
+          "title": "The Dual Corridor Split",
+          "desc": "Splitting the next two purchases between Manyata and ORR to hedge against single-zone hybrid work shifts.",
+          "imageSrc": "/journals/the-twelve-keys-journal/moment-4.png",
+          "imagegenerationprompt": "A modern vector illustration of a twin-map display illustrating Bellandur ORR and Thanisandra Manyata tech park corridors, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around her",
+      "quotes": [
+        {
+          "text": "The bye-law. Unit I can furnish in three weeks, marre. A hostile AGM I can't renovate.",
+          "author": "— Priyanka"
+        },
+        {
+          "text": "The RWA conversation before purchase beats the RWA war after it.",
+          "author": "— Priyanka"
+        },
+        {
+          "text": "So, the question that decides this: is your business the unit… or the bye-law?",
+          "author": "— Riya"
+        },
+        {
+          "text": "Then we re-rank the shortlist by association temperament first, yield second.",
+          "author": "— Riya"
+        }
+      ],
+      "riyaConclusionTitle": "Riya's take on the Journey",
+      "chatMessages": [
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "Unit's perfect, price is workable — and yesterday the association WhatsApp starts discussing a short-stay ban. Draft circular only, but still. Simply my luck."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Not luck — timing, and you caught it before token. So, the question that decides this: is your business the unit… or the bye-law?"
+        },
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "The bye-law. Unit I can furnish in three weeks, marre. A hostile AGM I can't renovate."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then exit today, politely. And we re-rank the shortlist by association temperament first, yield second — I'll pull the AGM minutes for all four before your next visit."
+        },
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "Done. Send the minutes. And Riya — add a column. \"Number of aunties on the committee who smiled at me.\" Don't laugh, it correlates."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "I'm adding it. Data is data."
+        }
+      ],
+      "audioLabel": "Hear entire conversation (88 sec)",
+      "audioDurationLabel": "1:28",
+      "audioSrc": "/audios/the-micro-stay-operator.mp3",
+      "adviceTitle": "Advice for micro-stay operators",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A modern vector illustration of a vector storyboard showing AGM minutes auditing, bye-law filtering, developer stock negotiating, and key rack filling, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "adviceDescription": "For rental operators and house-hackers, success comes from auditing RWA bye-laws before second visits, demanding GST-inclusive builder pricing, and hedging corridor concentration risk. Priyanka proved that when bye-law clearance leads, yield follows.",
+      "title": "The micro-stay hunt reaches its final two keys.",
+      "description": "From six profitable units across HSR and Bellandur to the hunt for seven and eight — where entry yields had compressed ~150bps and the real asset to underwrite was no longer the unit, but the RWA's bye-laws.",
+      "timelineSteps": [
+        {
+          "id": "underwrite",
+          "label": "Underwrite",
+          "icon": "Calculator"
+        },
+        {
+          "id": "rwa-audit",
+          "label": "RWA audit",
+          "icon": "FileSearch"
+        },
+        {
+          "id": "stock",
+          "label": "Builder stock",
+          "icon": "Building2"
+        },
+        {
+          "id": "verify",
+          "label": "Verify yields",
+          "icon": "TrendingUp",
+          "active": true,
+          "tag": "7%+ net"
+        },
+        {
+          "id": "close",
+          "label": "Close keys 7–8",
+          "icon": "KeyRound"
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "ShieldCheck",
+          "title": "The Bye-Law Is the Asset",
+          "description": "The bye-law and last AGM minutes matter more than the floor plate — a hostile association can vote your business away the year after you buy."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Entry Yields Have Compressed",
+          "description": "ORR studios have risen to ₹15–17K/sqft and compressed entry yields ~150bps since 2021 — the operating edge is now the entire business, not the entry discount."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "GST-Inclusive Builder Stock",
+          "description": "Builder-held ready units came with GST but also negotiation room and a clean counterparty; all-in, the math beat the resale unit she almost bought."
+        },
+        {
+          "icon": "Layers",
+          "title": "Concentration Risk Is Real",
+          "description": "One tech park's hybrid mandate showed her how fragile single-zone exposure is — her next two units split deliberately between Manyata and the ORR."
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search & Filters",
+      "label": "Search & Filters",
+      "bgColorHex": "#FDF2E9",
+      "inactiveBgHex": "rgba(253, 242, 233, 0.45)",
+      "textColor": "text-[#C45D3A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "metrics": [
+        {
+          "icon": "MapPin",
+          "label": "SEARCH RADIUS",
+          "value": "1.5 km Tech Parks"
+        },
+        {
+          "icon": "Building2",
+          "label": "UNIT TARGET",
+          "value": "Studios & 1BHKs"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "NET YIELD GATE",
+          "value": "≥ 7.0% Post-Fees"
+        },
+        {
+          "icon": "ShieldCheck",
+          "label": "RWA AUDIT",
+          "value": "100% Bye-Law Clear"
+        }
+      ],
+      "exploredAreasTitle": "Areas she explored",
+      "exploredAreas": [
+        {
+          "title": "Outer Ring Road (Bellandur / Ecospace)",
+          "description": "High corporate demand, 81%+ occupancy, strict RWA audit required before token.",
+          "projects": 6,
+          "siteVisits": 8,
+          "latlong": {
+            "lat": 12.9277,
+            "lng": 77.6824
+          },
+          "imageSrc": "/journals/the-twelve-keys-journal/hero.png",
+          "imagegenerationprompt": "A modern vector illustration of a modern vector landscape of Bellandur ORR tech park towers and glass facades, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Embassy TechVillage / Panathur Arc",
+          "description": "Strong tech influx, high ADR potential, developer-led ready studio stock.",
+          "projects": 5,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9264,
+            "lng": 77.6961
+          },
+          "imageSrc": "/journals/manyata.png",
+          "imagegenerationprompt": "A modern vector illustration of a vector view of Embassy TechVillage boulevard with modern office buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Manyata Tech Park Corridor",
+          "description": "Lower entry price per sqft, developer-led ready studio stock, concentration risk hedge.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.0432,
+            "lng": 77.6216
+          },
+          "imageSrc": "/journals/whitefield.png",
+          "imagegenerationprompt": "A modern vector illustration of an architectural vector view of Manyata tech park corridor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other corridors considered: Electronic City Phase 1 • HSR Sector 1 • Kadubeesanahalli",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "RWA BYE-LAW HOSTILITY",
+          "value": "Short-Stay Bans",
+          "description": "Associations voting mid-negotiation to ban short-stay and corporate operators.",
+          "icon": "Ban"
+        },
+        {
+          "title": "YIELD COMPRESSION",
+          "value": "150bps Entry Cut",
+          "description": "Compressed entry yields requiring tight turnkey furnishing and direct corporate bookings.",
+          "icon": "TrendingDown"
+        },
+        {
+          "title": "CORRIDOR RISK",
+          "value": "Hybrid Work Policy",
+          "description": "Units within 3km of ORR vulnerable to tech park work-from-home policy shifts.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "title": "FAKE YIELD SCHEMES",
+          "value": "LLP Operator Detours",
+          "description": "\"Guaranteed 9%\" schemes backed only by developer shell LLPs.",
+          "icon": "ShieldX"
+        }
+      ],
+      "filtersFooterLabel": "Priyanka exits host-averse buildings within 24 hours. A hostile RWA is a non-renovatable business risk.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Priyanka didn't care about swimming pools or clubhouse marble. She cared about RWA notice boards, AGM minutes, and GST-inclusive builder inventory. She was underwriting an operating machine, not a home.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A modern vector illustration of Riya holding an iPad showing RWA bye-law checklists and occupancy yield spreadsheets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "tagline": "THE SEARCH",
+      "title": "Where she looked and what she found.",
+      "description": "Ready builder-held studios within 1.5 km of ORR and Manyata tech parks, underwritten at 70% occupancy and a ₹4,200 ADR — with an RWA-temperament audit ahead of every price check."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#FDF2E9",
+      "inactiveBgHex": "rgba(253, 242, 233, 0.45)",
+      "textColor": "text-[#C45D3A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "projectsTitle": "PROJECTS EVALUATED",
+      "projectsCountBadge": "12 PROPOSED • 3 SHORTLISTED",
+      "projects": [
+        {
+          "title": "Brigade Cornerstone Utopia",
+          "name": "Brigade Cornerstone Utopia (studios)",
+          "price": "₹60–80L",
+          "possession": "Ready",
+          "psf": "₹9,000–11,500/sqft",
+          "location": "Whitefield / Varthur Rd",
+          "imageSrc": "/journals/the-twelve-keys-journal/projects/Brigade-Cornerstone-Utopia.webp"
+        },
+        {
+          "title": "ORR Studio Stock",
+          "name": "ORR/Ecospace-adjacent studio stock",
+          "price": "Not stated",
+          "possession": "Pipeline + benchmark",
+          "psf": "₹15,000–17,000/sqft",
+          "location": "Bellandur–Kadubeesanahalli",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "Guaranteed 9% Operator Scheme",
+          "name": "\"Guaranteed 9%\" operator scheme",
+          "price": "Not stated",
+          "possession": "Detour",
+          "psf": "Guarantee = seller's own LLP (unnamed by policy)",
+          "location": "Tech-park adjacent",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in her search",
+      "priorities": [
+        {
+          "title": "RWA Bye-Law Tolerance",
+          "subtitle": "Bye-law + last 3 AGM minutes review before second visit",
+          "icon": "ShieldCheck",
+          "active": true
+        },
+        {
+          "title": "7%+ Net Yield Floor",
+          "subtitle": "Post-OTA, housekeeping, and maintenance levies",
+          "icon": "TrendingUp",
+          "active": true
+        },
+        {
+          "title": "Tech Park Gate Distance",
+          "subtitle": "≤ 1.5 km to major corporate tech hubs (Ecospace, Embassy TechVillage)",
+          "icon": "MapPin",
+          "active": true
+        }
+      ],
+      "rejectedTitle": "REJECTED PROJECTS & WHY",
+      "rejectedReasons": [
+        {
+          "title": "Bellandur Resale Unit",
+          "reason": "RWA circulated draft short-stay ban mid-negotiation."
+        },
+        {
+          "title": "Guaranteed 9% Scheme",
+          "reason": "Rental guarantee backed only by developer shell LLP."
+        },
+        {
+          "title": "Kadubeesanahalli Studio",
+          "reason": "High entry price per sqft compressed net yield below 5.5%."
+        }
+      ],
+      "suggestionTitle": "RIYA'S SUGGESTION",
+      "suggestionDescription": "Priyanka's edge lies in pairing strict RWA bye-law audits with direct developer inventory negotiation. By acquiring ready builder stock with GST included and splitting units between ORR and Manyata, she secured a resilient 7%+ net operating yield.",
+      "tagline": "THE PROJECTS",
+      "title": "The towers she weighed.",
+      "description": "Ready builder-held studios and compact 1BHKs in completed ORR projects — each weighed on bye-laws, AGM minutes, net yield after all costs, and short-stay tolerance before price even entered the conversation.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Ready Studio 1BHK"
+        },
+        {
+          "icon": "Building2",
+          "label": "EVALUATED STOCK",
+          "value": "12 Sites"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "NET YIELD GATE",
+          "value": "≥7% Post-Fees"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "CLOSED THIS ROUND",
+          "value": "2 Units (Keys 7–8)"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "I'm not buying units anymore. I'm buying which associations let me run my machine in peace."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And that is exactly why keys seven and eight went into a short-stay-tolerant tower split across Manyata and the ORR — the bye-law cleared first, the yield followed.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the conclusion (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where she searched",
+      "mapImageSrc": "/journals/the-twelve-keys-journal/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Bengaluru's ORR and Manyata corridors with Warm Coral #FF8A65 tech-park pin markers and 1.5km proximity rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF), Scandinavian minimalism, clean white background.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FDF2E9",
+      "inactiveBgHex": "rgba(253, 242, 233, 0.45)",
+      "textColor": "text-[#C45D3A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "metrics": [
+        {
+          "icon": "TrendingUp",
+          "label": "NET YIELD THRESHOLD",
+          "value": "≥7%"
+        },
+        {
+          "icon": "Building2",
+          "label": "CURRENT OCCUPANCY",
+          "value": "81%"
+        },
+        {
+          "icon": "ShieldCheck",
+          "label": "RWA AUDIT",
+          "value": "Bye-laws + AGM"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "PORTFOLIO SIZE",
+          "value": "8 Units"
+        }
+      ],
+      "lessonsTitle": "Key takeaways from her journey",
+      "lessons": [
+        {
+          "title": "RWA conversation before purchase beats RWA war after.",
+          "description": "Requesting bye-laws and last AGM minutes before second visits eliminated two hostile towers early.",
+          "imageSrc": "/journals/the-twelve-keys-journal/lesson-1.png",
+          "imagegenerationprompt": "A modern vector illustration of a vector graphic showing a society AGM booklet stamped with bye-law clearance, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Entry yields compressed ~150bps — operating edge is everything.",
+          "description": "Easy arbitrage is gone; net yield relies on turnkey furnishing efficiency and direct corporate bookings.",
+          "imageSrc": "/journals/the-twelve-keys-journal/lesson-2.png",
+          "imagegenerationprompt": "A modern vector illustration of a vector illustration showing a yield compression chart beside corporate booking ledgers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Builder-held ready stock negotiated GST-inclusive beats resale.",
+          "description": "Direct developer negotiations on inventory clearance yielded cleaner titles and superior margin.",
+          "imageSrc": "/journals/the-twelve-keys-journal/lesson-3.png",
+          "imagegenerationprompt": "A modern vector illustration of a vector graphic showing a GST-inclusive developer allotment agreement, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Ugliest unit delivered highest guest occupancy rate.",
+          "description": "Guests buy location and reliability; owners buy facades. Underwrite accordingly.",
+          "imageSrc": "/journals/the-twelve-keys-journal/lesson-4.png",
+          "imagegenerationprompt": "A modern vector illustration of a vector illustration of a modern studio apartment interior with luggage and laptop, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Split portfolio between ORR and Manyata for concentration hedge.",
+          "description": "Distributing units across tech corridors protected portfolio against single-zone hybrid work shifts.",
+          "imageSrc": "/journals/the-twelve-keys-journal/lesson-5.png",
+          "imagegenerationprompt": "A modern vector illustration of a vector map showing a dual corridor portfolio distribution between ORR and Manyata, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "text": "Bought resale units with un-checked RWA short-stay rules"
+        },
+        {
+          "text": "Concentrated all units within a single 3km ORR radius"
+        },
+        {
+          "text": "Underwrote yield on gross rent before housekeeping & OTA fees"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "text": "Audits AGM minutes and bye-laws before submitting token"
+        },
+        {
+          "text": "Splits portfolio between ORR and Manyata corridors"
+        },
+        {
+          "text": "Underwrites net yield at 7%+ post-all-operating-costs"
+        }
+      ],
+      "differentlyTitle": "What she would do differently",
+      "differentlyCards": [
+        {
+          "title": "Start Bye-Law Diligence First",
+          "description": "Request association notice board photos and AGM minutes on day one.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "title": "Bypass Resale Brokers",
+          "description": "Focus on developer inventory clearance for GST-inclusive deals.",
+          "icon": "Building2"
+        },
+        {
+          "title": "Hedge Tech Park Corridors",
+          "description": "Never place more than 50% of operating portfolio in a single tech belt.",
+          "icon": "Layers"
+        }
+      ],
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Entry yields compressed ~150bps — operating edge is everything",
+          "body": "Easy arbitrage is gone; net yield relies on turnkey furnishing efficiency and direct corporate bookings.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "RWA conversation before purchase beats the RWA war after",
+          "body": "Requesting bye-laws and last AGM minutes before second visits eliminated two hostile towers early.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Builder-held ready stock negotiated GST-inclusive beats resale",
+          "body": "Direct developer negotiations on inventory clearance yielded cleaner titles and superior margin.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Ugliest unit delivered highest guest occupancy rate",
+          "body": "Guests buy location and reliability; owners buy facades. Underwrite for guests, not ego.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Split portfolio between ORR and Manyata for concentration hedge",
+          "body": "Distributing units across tech corridors protected portfolio against single-zone hybrid work shifts.",
+          "turning": false
+        }
+      ],
+      "tagline": "LEARNINGS",
+      "title": "What the twelve keys taught her.",
+      "description": "Key takeaways for micro-stay operators and house-hackers — where yield, bye-laws, and corridor concentration decide what a flat is actually worth.",
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Priyanka",
+          "avatar": "/journals/the-twelve-keys-journal/priyanka.png",
+          "text": "The ugliest unit made the most money. Guests buy location and reliability; owners buy facades. I underwrite for guests now."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That is the whole lesson in one sentence. Underwrite the bye-law first, the guest second — and the yield follows.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the conclusion (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for micro-stay operators",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Priyanka auditing AGM minutes, underwriting at 70% occupancy, negotiating GST-inclusive builder stock, and splitting keys across Manyata and the ORR, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For rental operators and house-hackers, success comes from auditing RWA bye-laws before second visits, underwriting net yield at 7%+ after OTA and housekeeping fees, negotiating GST-inclusive builder stock, and splitting units across micro-markets. When bye-law clearance leads, yield follows."
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#FDF2E9",
+      "inactiveBgHex": "rgba(253, 242, 233, 0.45)",
+      "textColor": "text-[#C45D3A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "Every home-buying and operating journey leaves behind lessons. These are the insights Priyanka Bhat developed while scaling her micro-stay portfolio across Bengaluru's tech corridors.",
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You buy property as operating business inputs, not as homes — occupancy rate is your first question.",
+        "You have systems: housekeeping, dynamic pricing, a vendor list, and a P&L per unit.",
+        "Your constraint isn't capital — it's finding buildings where your model is welcome.",
+        "You'd rather own three units in one tolerant building than five scattered across hostile ones.",
+        "Leverage doesn't scare you; vacancy does.",
+        "You visit buildings at check-in hours and read RWA notice boards before price sheets."
+      ],
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your capital, target net yields, corridor preferences, and operating criteria.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya listens",
+          "description": "Riya evaluates RWA bye-laws, developer inventory, and tech park travel demand.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your custom micro-stay operator journal and bye-law vetting playbook are generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Better matches",
+          "description": "Receive verified ready studio recommendations matching your 7%+ net yield gate.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in her search",
+      "valueProps": [
+        {
+          "title": "RWA Bye-Law Tolerance",
+          "description": "Audit AGM minutes to verify short-stay guest clearance before token.",
+          "icon": "ShieldCheck",
+          "id": 1
+        },
+        {
+          "title": "7%+ Net Operating Yield",
+          "description": "Underwrite post-OTA, housekeeping, and maintenance levies.",
+          "icon": "TrendingUp",
+          "id": 2
+        },
+        {
+          "title": "Dual Corridor Split",
+          "description": "Hedge hybrid work shifts by spreading units between ORR and Manyata.",
+          "icon": "Layers",
+          "id": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "TRAFFIC REFUGEE",
+      "BELLANDUR–HARALUR–KASVANAHALLI"
+    ],
+    "title": "The Hours I Got Back Journal",
+    "description": "Suhas Kamath's (45, senior director near Ecospace) reverse migration from a Whitefield villa to the ORR triangle — a 540-hour audit, a chain collapse survived, and a 6:40 pm turf calendar entry bought with 430 recovered hours.",
+    "quote": "\"I calculated it: 23 days a year inside a car. I'm buying my way out.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Car",
+        "text": "Villa liquidity must survive the sale's timeline"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "Sanction letter or nothing — valuation IS the price"
+      },
+      {
+        "icon": "Volleyball",
+        "text": "The 540 hours need a first use — the 6:40 pm entry"
+      }
+    ],
+    "heroImage": "/journals/cover/26.jpg",
+    "heroTitle": "The Hours I Got Back Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Suhas (45, senior director at a global capability center near Ecospace) & Anjali Kamath (43, architect with her own Domlur practice) — villa people executing the reverse migration after eleven years: selling the dream house to buy back his evenings, and a 13-year-old son who said the sentence that did more than any spreadsheet.",
+      "buyers": [
+        {
+          "name": "Suhas Kamath",
+          "age": 45,
+          "role": "Senior Director, Global Capability Center",
+          "description": "540 hours a year commuting — 23 full days — audited with the grim thoroughness of a man with a lot of time in a car. Runs the twin-track workbook like an operations program; his framing for relatives: 'I'm not downsizing the house. I'm upsizing the day.'",
+          "tags": [
+            "Hour Auditor",
+            "Twin-Track Operator",
+            "Audiobook Coping Stack"
+          ],
+          "image": "/journals/the-hours-i-got-back/suhas.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 45-year-old South Indian man named Suhas wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry tired expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Anjali Kamath",
+          "age": 43,
+          "role": "Architect, Own Practice (Domlur)",
+          "description": "The garden-losing side of the trade — audits shortlists with balcony depth, sun hours, and water points as rigorously as Suhas audits commute minutes. Her line to the Neopolis showflat: 'the light is good. I didn't say buy it.'",
+          "tags": [
+            "Garden Auditor",
+            "Light Skeptic",
+            "Trade-Balancer"
+          ],
+          "image": "/journals/the-hours-i-got-back/anjali.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 43-year-old South Indian woman named Anjali wearing smart professional attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm perceptive expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Sell the Whitefield villa's 1,200 lost square feet to buy back 500 annual hours — a ready-with-OC 3BHK in the Bellandur–Haralur–Kasavanahalli triangle where Suhas gains evenings, Anjali's garden gets a container-garden fighting chance, and Dhruv's tennis turf is non-negotiable.",
+      "sharedVisionImage": "/journals/the-hours-i-got-back/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a man stepping out of a car door that opens directly into a warm apartment living room where his family waits at the dinner table, behind the car a long ribbon of red tail-lights stretching to the horizon, an oversized clock face setting like a sun over the traffic, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clock face, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Traffic Refugee"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Villa-to-Flat Reverse Migration"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Negotiating & Closing"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Synchronized to the Sale"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-hours-i-got-back/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a car dashboard clock at 9 am beside a route map with a 20-minute ring, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the clock, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "9 am Drive-Time Verified",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "≤20 minutes from Ecospace at 9 am — measured at 9 am, not Sunday noon. The entire thesis hangs on this single verified number."
+        },
+        {
+          "image": "/journals/the-hours-i-got-back/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a school building and a tennis turf on a map with a teenager silhouette, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the turf, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "School Transition + Enough Teenagers",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Dhruv's board-exam years approach — the community with the tennis turf and two classmates won his vote, and stakeholders who choose adapt."
+        },
+        {
+          "image": "/journals/the-hours-i-got-back/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a balcony container garden with sun-hour arrows and a water point, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the sun arrows, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Anjali's Garden, a Fighting Chance",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Balcony depth, sun hours, water point — audited like any spec, because the trade has to balance for two people, not one."
+        },
+        {
+          "image": "/journals/the-hours-i-got-back/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a recurring calendar block at 6:40 pm labelled turf with a cricket bat and ball, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the calendar block, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The 6:40 pm Turf Entry",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The recovered hours' first line item — cricket with Dhruv, twice a week, non-negotiable, calendared. The whole point, written small."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a 540-hour audit and twin-track tabs, to a hoarding studied for forty commute-hours, a chain collapse with both tabs red, and an 11-day dual-registration choreography ending in a 6:40 pm calendar entry.",
+      "journeyFrameTitle": "SELL ABOVE, BUY BELOW — ONE RED ARC",
+      "roadmapTitle": "How a traffic refugee bought back 430 hours, one hoarding at a time",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Chirping Woods 3BHK"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.85 Cr, 30-Day Close"
+        },
+        {
+          "icon": "Car",
+          "label": "THE AUDIT",
+          "value": "540 → 430 Hours"
+        },
+        {
+          "icon": "Volleyball",
+          "label": "THE FIRST LINE ITEM",
+          "value": "6:40 pm Turf, With Dhruv"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-audit",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The 540-Hour Audit",
+          "desc": "55 stationary minutes at Ibblur on his birthday, Dhruv's sentence, and the audit becomes the workbook's epigraph — 23 full days a year, priced.",
+          "icon": "Car",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-twin-tracks",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: Twin Tracks Open",
+          "desc": "ORR-triangle recon (buy) + the villa listed at the memory's ₹3.6 Cr (sell) — six weeks of portal silence rendered as read receipts.",
+          "icon": "ArrowLeftRight",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-neopolis-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Neopolis Hoarding",
+          "desc": "Studied twice daily at crawl speed for forty commute-hours; possession 2027-28 kills it — 'almost bought a beautiful postponement.'",
+          "icon": "Eye",
+          "x": 540,
+          "y": 90,
+          "width": 190
+        },
+        {
+          "id": "l4-the-chain",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L4: The First Chain",
+          "desc": "Ferns Residency 3BHK agreed (₹2.92 Cr, contingent) + a villa buyer at ₹3.35 Cr, 'pre-approved' — the CHAIN sheet, eleven-day choreography drafted.",
+          "icon": "Link",
+          "x": 760,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l5-chain-collapse",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l4-the-chain",
+          "title": "L5 BOUNCE: The Chain Collapse",
+          "desc": "The buyer's loan valuation lands 12% under; Ferns exits to a firm buyer; both tabs red. Three permanent rules written from the wreckage.",
+          "icon": "Undo2",
+          "loopText": "Both Tabs Red — Collapse → 3 Permanent Rules",
+          "x": 440,
+          "y": 300,
+          "width": 290
+        },
+        {
+          "id": "l6-palm-retreat-detour",
+          "stage": "S3",
+          "type": "detour",
+          "title": "L6 DETOUR: The Palm Retreat Stretch",
+          "desc": "Adarsh Palm Retreat at ₹3.0–3.2 Cr — killed by buffer math and an architect's shadow study, not the price.",
+          "icon": "Eye",
+          "x": 120,
+          "y": 400,
+          "width": 190
+        },
+        {
+          "id": "l7-sell-side-rebuilt",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L7: The Sell-Side Rebuilt",
+          "desc": "Bank valuation pre-obtained, document pack up front — an NRI-returnee buyer at ₹3.38 Cr with a verified sanction letter.",
+          "icon": "FileCheck2",
+          "x": 420,
+          "y": 580,
+          "width": 190
+        },
+        {
+          "id": "l8-chirping-woods-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L8: The 6:40 pm Close",
+          "desc": "Chirping Woods 3BHK at ₹2.85 Cr, 30-day close; 11-day dual-registration choreography; the turf calendar entry exists — 430 hours recovered, noted beside 540.",
+          "icon": "KeyRound",
+          "x": 800,
+          "y": 500,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "auditing",
+          "label": "Auditing",
+          "icon": "Car"
+        },
+        {
+          "id": "chaining",
+          "label": "Chaining",
+          "icon": "Link"
+        },
+        {
+          "id": "rebuilding",
+          "label": "Rebuilding",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "choreographing",
+          "label": "Choreographing",
+          "icon": "Calendar"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "430 Hours Recovered"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "epigraph-moment",
+          "title": "The workbook epigraph",
+          "desc": "The 540-hour audit and Dhruv's sentence — 'Appa is basically a weekend person' — written as the workbook's epigraph in a child's-hand treatment.",
+          "imageSrc": "/journals/the-hours-i-got-back/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a workbook page with a handwritten epigraph about 540 hours and a child's sentence about weekend fathers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "listing-silence-moment",
+          "title": "Six weeks of portal silence",
+          "desc": "The villa listing at the memory's ₹3.6 Cr — six weeks of portal silence rendered as read receipts: the market's answer to the memory's price.",
+          "imageSrc": "/journals/the-hours-i-got-back/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa listing page showing six weeks of no-interest rendered like read receipts beside a calendar, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "chain-sheet-moment",
+          "title": "The CHAIN sheet, and its coffin rename",
+          "desc": "Two transactions holding hands with an eleven-day choreography drafted — and later the same sheet renamed with a coffin emoji after the valuation-gap letter.",
+          "imageSrc": "/journals/the-hours-i-got-back/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an operations sheet with two transaction columns holding hands, later renamed with a coffin emoji and a valuation-gap letter beneath, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "valuation-certificate-moment",
+          "title": "The bank-valuation certificate",
+          "desc": "The seller-side document pack rebuilt: valuation certificate first, khata and EC beneath — the number that ended the retrade games.",
+          "imageSrc": "/journals/the-hours-i-got-back/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a seller-side document pack with a bank-valuation certificate on top and khata and EC documents beneath, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "turf-calendar-moment",
+          "title": "The 6:40 pm calendar entry",
+          "desc": "'Turf, with Dhruv' — a recurring entry, twice a week, non-negotiable. 430 hours recovered, noted beside 540, the whole point written small.",
+          "imageSrc": "/journals/the-hours-i-got-back/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a recurring calendar block reading 'turf, with Dhruv' at 6:40 pm with a football silhouette, and 430 hours noted beside 540 in the margin, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "I calculated it: 23 days a year inside a car. I'm buying my way out.",
+          "author": "— Suhas"
+        },
+        {
+          "text": "Appa is basically a weekend person.",
+          "author": "— Dhruv, 13"
+        },
+        {
+          "text": "Almost bought… a beautiful… postponement.",
+          "author": "— Suhas, in the workbook margin"
+        },
+        {
+          "text": "I'm not downsizing the house. I'm upsizing the day.",
+          "author": "— Suhas, to skeptical relatives"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Suhas",
+          "avatar": "/journals/the-hours-i-got-back/suhas.png",
+          "text": "Riya, status update from an intelligent man doing something stupid. I've studied that Neopolis hoarding for forty commute-hours. Yesterday we went in — beautiful, genuinely. Anjali approved the light."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And the possession date said…? Twenty-seven, twenty-eight — two more years of the same commute to wait for a flat whose entire purpose is ending the commute. Write that in the workbook margin: 'almost bought a beautiful postponement.' You'll want it every time a hoarding flirts with you at Ibblur junction.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Car",
+          "title": "The 540-Hour Audit",
+          "description": "540 hours a year commuting — 23 full days — at a personal valuation he stopped calculating because it ruined his week. The audit became the workbook's epigraph."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Selling Low-ish, Buying High",
+          "description": "The villa's corridor appreciated 8% while the ORR flats he's buying appreciated 19% — selling the laggard to buy the leader at its peak, for time. Eaten knowingly."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Sanction Letter or Nothing",
+          "description": "'Pre-approved' from a villa buyer is a story; a verified sanction letter is a fact. The collapse's rule one, written from the wreckage."
+        },
+        {
+          "icon": "Link",
+          "title": "The Chain's Dependency",
+          "description": "The flat purchase had to survive the sale's timeline, not assume it — the 11-day dual-registration choreography was the ops program the collapse taught them."
+        },
+        {
+          "icon": "Volleyball",
+          "title": "The Teen's Negotiated Vote",
+          "description": "School transition agreed in exchange for the community with the tennis turf and two classmates — stakeholders who choose adapt; stakeholders who are informed resent."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-hours-i-got-back.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating ready-with-OC stock in the Bellandur–Haralur–Kasavanahalli triangle — every candidate ranked by verified 9 am drive time to Ecospace and teen-family density, with the garden audit running in parallel.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Hours-For-Space 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Bellandur • Haralur • Kasavanahalli"
+        },
+        {
+          "icon": "Car",
+          "label": "THE METRIC",
+          "value": "9 am Drive, ≤20 Mins"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Chirping Woods 3BHK"
+        }
+      ],
+      "exploredAreasTitle": "The ORR triangle they explored",
+      "exploredAreas": [
+        {
+          "title": "Bellandur",
+          "description": "The triangle's densest ORR-adjacent node — ready stock at ₹16–19K/sqft and the shortest verified 9 am drives to Ecospace.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9323173,
+            "lng": 77.6542338
+          },
+          "imageSrc": "/journals/the-hours-i-got-back/bellandur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Bellandur ORR corridor with residential towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Haralur (Chosen)",
+          "description": "The corridor's sweet spot — Chirping Woods' teen-dense community where the 9 am drive, the turf, and the garden audit all passed.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9036621,
+            "lng": 77.6438421
+          },
+          "imageSrc": "/journals/the-hours-i-got-back/haralur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Haralur residential corridor with ready communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Kasavanahalli",
+          "description": "The triangle's southern node — the Chirping Woods belt and school-adjacent stock, weighed for the teen's transition and the garden's sun hours.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9061911,
+            "lng": 77.6651253
+          },
+          "imageSrc": "/journals/the-hours-i-got-back/kasavanahalli.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Kasavanahalli residential belt near schools, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the Neopolis hoarding detour (a beautiful postponement) • Adarsh Palm Retreat stretch (buffer math + shadow study) • Sobha Silicon Oasis recon",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE GEOMETRY INVERTED",
+          "value": "The House Stood Still",
+          "description": "Bought in 2015 for space per rupee and the lawn; the office moved to the ORR and Anjali's practice grew in Domlur — the geometry of their life inverted while the house stood still.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE VILLA LIQUIDITY LESSON",
+          "value": "Four Months of Price Discovery",
+          "description": "Listed at the memory's ₹3.6 Cr; the market's silence taught patience and price discovery simultaneously — villa liquidity is its own project.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "THE ASSET-TIMING IRONY",
+          "value": "Selling the Laggard, Buying the Leader",
+          "description": "The villa corridor appreciated 8% while the ORR flats appreciated 19% — selling low-ish to buy high, on lifestyle logic alone, eaten knowingly.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE DEPENDENT TRANSACTIONS",
+          "value": "Both Tabs, One Red Arc",
+          "description": "The chain collapse — buyer's valuation 12% under, Ferns exited — taught the sequencing rule: sell first or bridge, no contingent offers.",
+          "icon": "Link"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for verified 9 am drive time, teen-family density, a container-garden balcony, and a school transition the 13-year-old actually chose.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Suhas runs the journey like an operations program — Sunday 7 am workbook, twin-track tabs, and the collapse's three rules written from the wreckage: sell first or bridge, sanction letter or nothing, the bank's valuation IS the price. The hoarding detour was the most human part: forty commute-hours studying a beautiful postponement, killed by one possession date. And the real architecture of the move turned out to be a calendar entry — 'turf, with Dhruv,' 6:40 pm, twice a week. 430 hours recovered, noted beside 540. The whole point, written small.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a twin-track workbook beside a bank-valuation certificate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing ready-with-OC stock in the triangle — 9 am drive times verified, garden audits balanced against commute audits, and one chain-collapse tuition paid in the lost Ferns flat.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Hours-For-Space 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Chirping Woods 3BHK"
+        },
+        {
+          "icon": "Link",
+          "label": "THE COLLAPSE COST",
+          "value": "≈₹8L Ferns 'Tuition'"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.85 Cr, 30-Day Close"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Car",
+          "title": "9 am Drive-Time",
+          "subtitle": "≤20 min to Ecospace"
+        },
+        {
+          "icon": "Volleyball",
+          "title": "Teen-Dense Community",
+          "subtitle": "the turf won the vote"
+        },
+        {
+          "icon": "Leaf",
+          "title": "Container-Garden Balcony",
+          "subtitle": "Anjali's fighting chance"
+        },
+        {
+          "icon": "School",
+          "title": "School Transition",
+          "subtitle": "negotiated with Dhruv"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Sanction Letter + Valuation",
+          "subtitle": "the three rules, kept"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Suhas",
+          "avatar": "/journals/the-hours-i-got-back/suhas.png",
+          "text": "I'm paying ₹2.85 Cr for 40% less space than the villa — and it's the best trade of my life. Anjali keeps the balcony garden, Dhruv keeps the turf, I get back my evenings."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You weren't downsizing the house — you were upsizing the day. The 540→430 counter, the 6:40 pm entry, the garden audit that balanced the commute audit: the trade worked because all three of you got a column in it.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-hours-i-got-back/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Bellandur, Haralur and Kasavanahalli triangle with a 9 am drive-time ring to Ecospace in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "5 core options",
+      "projects": [
+        {
+          "title": "Shriram Chirping Woods (Chosen)",
+          "name": "Shriram Chirping Woods",
+          "price": "₹2.85 Cr",
+          "possession": "Ready",
+          "psf": "Corridor's upper band",
+          "location": "Harlur",
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Shriram-Chirping-Woods.jpg"
+        },
+        {
+          "title": "The Lost Chain Flat",
+          "name": "Prestige Ferns Residency",
+          "price": "₹2.92 Cr agreed, lost",
+          "possession": "Exited to a firm buyer",
+          "psf": "₹16–18K/sqft corridor",
+          "location": "Harlur Rd",
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Prestige-Ferns-Residency.webp"
+        },
+        {
+          "title": "The Stretch Detour",
+          "name": "Adarsh Palm Retreat",
+          "price": "₹3.0–3.2 Cr+",
+          "possession": "Ready",
+          "psf": "Buffer math + shadow study",
+          "location": "Bellandur",
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Adarsh-Palm-Retreat.png"
+        },
+        {
+          "title": "The Hoarding Detour",
+          "name": "Sobha Neopolis",
+          "price": "₹15,600/sqft",
+          "possession": "Post-thesis",
+          "psf": "Hoarding-detour rate",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Sobha-Neopolis.png"
+        },
+        {
+          "title": "The Recon Shortlist",
+          "name": "Sobha Silicon Oasis",
+          "price": "Established value community",
+          "possession": "Ready",
+          "psf": "Value pick",
+          "location": "Hosa Road",
+          "imageSrc": "/journals/the-hours-i-got-back/projects/Sobha-Silicon-Oasis.jpg"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The Beautiful Postponement",
+          "count": "1 hoarding, possession 2027-28"
+        },
+        {
+          "icon": "Link",
+          "title": "The Chain Collapse",
+          "count": "1 Ferns flat, ₹8L tuition"
+        },
+        {
+          "icon": "Scale",
+          "title": "Failed the Buffer Math",
+          "count": "1 Palm Retreat stretch"
+        },
+        {
+          "icon": "Car",
+          "title": "Failed the 9 am Test",
+          "count": "every 20-minute-plus candidate"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Chirping Woods 3BHK at ₹2.85 Cr with a 30-day close delivered the verified 9 am drive, the teen-dense community with the turf, and a balcony the garden audit passed — while the villa sold on a pre-obtained bank valuation to a verified NRI buyer at ₹3.38 Cr. The 11-day dual-registration choreography closed both tracks, and 430 hours came home with a recurring 6:40 pm calendar entry.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for commute-driven movers — the hour audit, the liquidity lesson, the collapse's three rules, and the recovered-hours plan that makes the trade real.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "List at the Market's Number"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Verified 9 am Drive"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Contingent Chain"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The 6:40 pm Calendar Entry"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Villa liquidity is its own project.",
+          "description": "Four price cuts, two near-deals, and a lesson: list at the market's number, not the memory's — and structure the flat purchase to survive the sale's timeline, not assume it.",
+          "imageSrc": "/journals/the-hours-i-got-back/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa listing sheet with four price-cut annotations and a market-vs-memory price comparison, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Ready-with-OC carries a premium a time-buyer pays without flinching.",
+          "description": "The triangle's ready stock runs 6–9% over nearing-possession — a man buying time does not wait eight months for a lift to be commissioned.",
+          "imageSrc": "/journals/the-hours-i-got-back/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a premium comparison chart between ready-with-OC and nearing-possession stock with a time-buyer's tick, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Stakeholders who choose adapt; stakeholders who are informed resent.",
+          "description": "Dhruv got negotiating power — school transition agreed in exchange for the community with the tennis turf and two classmates. The 13-year-old's vote changed the shortlist.",
+          "imageSrc": "/journals/the-hours-i-got-back/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a teenager negotiating with a tennis turf and school building on a map with a handshake, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The recovered hours need a first line item.",
+          "description": "'Family time' is not a plan — the 6:40 pm cricket entry, twice a week, non-negotiable, calendared, gave the 540 recovered hours a first line item. The whole point, written small.",
+          "imageSrc": "/journals/the-hours-i-got-back/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a recurring calendar entry at 6:40 pm reading 'turf, with Dhruv' with a cricket bat, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The listing price should start from what the house means to you"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "'Pre-approval' from a buyer is as good as a sanction letter"
+        },
+        {
+          "icon": "Building2",
+          "text": "The flat purchase can wait for the villa sale"
+        },
+        {
+          "icon": "Home",
+          "text": "Space per rupee is the metric that matters"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "FileCheck2",
+          "text": "The bank's valuation IS the price — list at the market's number"
+        },
+        {
+          "icon": "Link",
+          "text": "Sanction letter or nothing — no contingent offers, sell first or bridge"
+        },
+        {
+          "icon": "Calendar",
+          "text": "The purchase survives the sale's timeline, not the other way around"
+        },
+        {
+          "icon": "Volleyball",
+          "text": "The 6:40 pm turf entry is the whole point, written small"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "TrendingUp",
+          "title": "List the villa at the market's number on day one",
+          "description": "Six weeks of the memory's ₹3.6 Cr cost the family a month of the chain — the market's number from the start would have shortened the whole timeline."
+        },
+        {
+          "icon": "Link",
+          "title": "Run the chain sequentially, not contingently",
+          "description": "The collapse happened because both transactions held hands over an assumption — sell-first-or-bridge should have been rule zero, not rule three."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Demand the sanction letter before the handshake",
+          "description": "The 'pre-approved' buyer's loan valuation landed 12% under — the sanction letter test on day one would have filtered the story-buyers immediately."
+        },
+        {
+          "icon": "Volleyball",
+          "title": "Give Dhruv the turf vote in month one",
+          "description": "The teen's negotiation happened at month three — his turf-and-classmates criteria should have been in the needs card from the start."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Anjali",
+          "avatar": "/journals/the-hours-i-got-back/anjali.png",
+          "text": "The garden fits on the balcony, Dhruv's turf is a two-minute walk, and Suhas is home for dinner — I gave up 1,200 square feet and got my family back in the trade."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The 540→430 counter isn't a spreadsheet line — it's the 6:40 pm entry, twice a week, with a 13-year-old who said the sentence that started it all. Hours bought, and spent. That's the whole journal.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for traffic refugees",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Suhas writing the 540-hour epigraph, studying the Neopolis hoarding from a stationary car, renaming the CHAIN sheet with a coffin emoji, and entering the 6:40 pm turf appointment, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For commute-driven movers, the edge is in running the trade like an operations program: audit the hours, list the villa at the market's number, demand the sanction letter, and structure the purchase to survive the sale's timeline. Negotiate with every stakeholder — the teen's turf vote is as load-bearing as the 9 am drive. And write the recovered hours' first line item before you buy: a calendar entry, small, recurring, non-negotiable. Suhas proved 1,200 square feet is a fair price for a 6:40 pm entry with his son.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Villa liquidity is its own project",
+          "body": "Four price cuts, two near-deals, and a lesson: list at the market's number, not the memory's. The flat purchase had to be structured to survive the sale's timeline, not assume it.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Ready-with-OC carries a premium a time-buyer pays without flinching",
+          "body": "The triangle's ready stock runs 6–9% over nearing-possession — he paid it without flinching; a man buying time does not then wait eight months for a lift to be commissioned.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The 13-year-old got negotiating power",
+          "body": "School transition agreed in exchange for the community with the tennis turf and two of his classmates. Stakeholders who choose adapt; stakeholders who are informed resent.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Anjali's garden audit was as rigorous as his commute audit",
+          "body": "Balcony depth, sun hours, water point — the project that won, won on both. The trade had to balance for two people, not one.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The Tuesday-evening plan exists — the 540 hours have a first line item",
+          "body": "6:40 pm cricket with the boy, twice a week, non-negotiable, calendared. The whole point, written small.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "What if this journal was about you?",
+      "description": "If you've computed your commute in days per year and the number changed you, let Riya build your hours-for-space roadmap — twin-track coordination, verified drive times, and the recovered-hours plan.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the commute audit, the house's location-era, each household member's stake, and the hours you'd buy back first.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya maps verified 9 am drive times, prices the sell-side with a bank valuation, and builds the twin-track coordination with bridge options.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Hours I Got Back journal — twin-track tabs, trade ledger, and the recovered-hours planner — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive ready-with-OC options ranked by verified drive time and teen-family density — with the garden audit for the other stakeholder.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Drive-Time Truth Maps",
+          "description": "Verified 9 am reality, never Sunday marketing — the triangle ranked by the minutes that actually exist.",
+          "icon": "Car"
+        },
+        {
+          "id": 2,
+          "title": "The Space-For-Time Trade Ledger",
+          "description": "Square feet lost and hours gained per person — so the trade balances for every stakeholder, not just the commuter.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "Twin-Track Transaction Coordination",
+          "description": "Sale price discovery, purchase timeline, and bridge options — the sell and the buy run as one program.",
+          "icon": "Link"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You've computed your commute in days per year and the number changed you.",
+        "You're trading square feet for hours, knowingly, and you can name who pays each side of the trade.",
+        "Your house's location was set by a previous era of your life, and the city moved.",
+        "A child's casual sentence ('Appa is basically a weekend person') did more than any spreadsheet.",
+        "Selling one asset class to buy another at its peak — and proceeding on lifestyle logic alone.",
+        "You have a plan, in writing, for the recovered hours. Or you're about to be asked for one."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-audit",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The 540-Hour Audit",
+      "desc": "55 stationary minutes at Ibblur on his birthday, Dhruv's sentence, and the audit becomes the workbook's epigraph — 23 full days a year, priced.",
+      "icon": "Car",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-twin-tracks",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: Twin Tracks Open",
+      "desc": "ORR-triangle recon (buy) + the villa listed at the memory's ₹3.6 Cr (sell) — six weeks of portal silence rendered as read receipts.",
+      "icon": "ArrowLeftRight",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-neopolis-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Neopolis Hoarding",
+      "desc": "Studied twice daily at crawl speed for forty commute-hours; possession 2027-28 kills it — 'almost bought a beautiful postponement.'",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-the-chain",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L4: The First Chain",
+      "desc": "Ferns Residency 3BHK agreed (₹2.92 Cr, contingent) + a villa buyer at ₹3.35 Cr, 'pre-approved' — the CHAIN sheet, eleven-day choreography drafted.",
+      "icon": "Link",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-chain-collapse",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l4-the-chain",
+      "title": "L5 BOUNCE: The Chain Collapse",
+      "desc": "The buyer's loan valuation lands 12% under; Ferns exits to a firm buyer; both tabs red. Three permanent rules written from the wreckage.",
+      "icon": "Undo2",
+      "loopText": "Both Tabs Red — Collapse → 3 Permanent Rules",
+      "x": 540,
+      "y": 400,
+      "width": 200
+    },
+    {
+      "id": "l6-palm-retreat-detour",
+      "stage": "S3",
+      "type": "detour",
+      "title": "L6 DETOUR: The Palm Retreat Stretch",
+      "desc": "Adarsh Palm Retreat at ₹3.0–3.2 Cr — killed by buffer math and an architect's shadow study, not the price.",
+      "icon": "Eye",
+      "x": 300,
+      "y": 400,
+      "width": 190
+    },
+    {
+      "id": "l7-sell-side-rebuilt",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L7: The Sell-Side Rebuilt",
+      "desc": "Bank valuation pre-obtained, document pack up front — an NRI-returnee buyer at ₹3.38 Cr with a verified sanction letter.",
+      "icon": "FileCheck2",
+      "x": 620,
+      "y": 400,
+      "width": 190
+    },
+    {
+      "id": "l8-chirping-woods-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L8: The 6:40 pm Close",
+      "desc": "Chirping Woods 3BHK at ₹2.85 Cr, 30-day close; 11-day dual-registration choreography; the turf calendar entry exists — 430 hours recovered, noted beside 540.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 400,
+      "width": 200
+    }
+  ]
+}
