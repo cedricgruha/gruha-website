@@ -70,7 +70,7 @@
             "Decibel App",
             "Trains-Before-Keys"
           ],
-          "image": "/journals/the-two-badges-one-address/siddharth.jpg",
+          "image": "/journals/the-two-badges-one-address/siddharth.png",
           "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 33-year-old Indian professional man named Siddharth wearing a casual collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly thoughtful expression, clean solid warm beige background (#F4EBE1), high quality character art."
         }
       ],
@@ -330,7 +330,7 @@
       "chatMessages": [
         {
           "sender": "Siddharth",
-          "avatar": "/journals/the-two-badges-one-address/siddharth.jpg",
+          "avatar": "/journals/the-two-badges-one-address/siddharth.png",
           "text": "Riya, we lost it. The east-facing one. While we were scheduling a third noise-test, someone paid token after ONE visit."
         },
         {
