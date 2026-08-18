@@ -182,7 +182,7 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                   className="bg-white rounded-[20px] overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-slate-100 flex flex-col transition-all duration-300 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]"
                 >
                   {/* Card Image */}
-                  <div className="h-52 relative bg-slate-100 overflow-hidden">
+                  <div className="h-52 relative bg-slate-100 overflow-hidden shrink-0">
                     <Image src={projImgSrc} alt={projName} fill className="object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     {proj.isOverlay && (
@@ -197,8 +197,10 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                     )}
                   </div>
 
+                  {/* Card Body */}
                   <div className="p-4 md:p-5 flex-1 flex flex-col justify-between">
-                    <div className="mb-3 md:mb-4 h-auto md:h-12 flex items-start">
+                    {/* Title Container - min-h-[3rem] keeps 1-line & 2-line titles aligned */}
+                    <div className="mb-4 min-h-[3rem] flex items-start">
                       <h4
                         className="text-base font-semibold leading-snug line-clamp-2"
                         style={{ fontFamily: fd, color: "#111821" }}
@@ -207,8 +209,8 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                       </h4>
                     </div>
 
-                    {/* Bottom metadata */}
-                    <div className="pt-3 md:pt-4 border-t border-slate-100/90 mt-auto">
+                    {/* Bottom Metadata Section */}
+                    <div className="pt-3 border-t border-slate-100/90 mt-auto">
                       <div className="grid grid-cols-2 gap-2 items-start">
                         {/* Price */}
                         <div>
@@ -218,11 +220,9 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                           >
                             PRICE RANGE
                           </p>
-
-                          {/* Price Height: Auto on mobile, fixed h-16 on desktop */}
-                          <div className="h-auto md:h-16 flex items-start">
+                          <div className="min-h-[2.5rem] flex items-start">
                             <p
-                              className="text-sm font-semibold leading-tight line-clamp-4"
+                              className="text-sm font-semibold leading-tight line-clamp-2"
                               style={{ fontFamily: fd, color: "#111821" }}
                             >
                               {projPrice}
@@ -232,48 +232,32 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
 
                         {/* Possession Column */}
                         <div>
-                          {projPossession ? (
-                            <div className="text-right">
-                              <p
-                                className="text-xs font-semibold tracking-[0.10em] uppercase mb-1"
-                                style={{ fontFamily: fu, color: "#94A3B8" }}
-                              >
-                                POSSESSION
-                              </p>
-
-                              {/* Possession Height: Auto on mobile, fixed h-10 on desktop */}
-                              <div className="h-auto md:h-10 flex items-start justify-end">
-                                <p
-                                  className="text-sm font-medium leading-tight line-clamp-4"
-                                  style={{ fontFamily: fu, color: "#111821" }}
-                                >
-                                  {projPossession}
-                                </p>
-                              </div>
-                            </div>
-                          ) : (
-                            <div className="hidden md:block md:h-10" />
-                          )}
+                          <p
+                            className="text-xs font-semibold tracking-[0.10em] uppercase mb-1 text-right"
+                            style={{ fontFamily: fu, color: "#94A3B8" }}
+                          >
+                            POSSESSION
+                          </p>
+                          <div className="min-h-[2.5rem] flex items-start justify-end">
+                            <p
+                              className="text-sm font-medium leading-tight text-right line-clamp-2"
+                              style={{ fontFamily: fu, color: "#111821" }}
+                            >
+                              {projPossession || "—"}
+                            </p>
+                          </div>
                         </div>
                       </div>
 
-                      {/* PSF: Rendered conditionally on mobile to completely prevent empty whitespace when empty */}
-                      {projPsf ? (
-                        <div className="mt-2 h-auto md:h-5 flex items-center">
-                          <p
-                            className="text-sm font-medium truncate"
-                            style={{ fontFamily: fu, color: "#94A3B8" }}
-                          >
-                            {projPsf}
-                          </p>
-                        </div>
-                      ) : (
-                        <div className="hidden md:flex mt-2 md:h-5 items-center">
-                          <p className="text-sm font-medium truncate" style={{ fontFamily: fu, color: "#94A3B8" }}>
-                            &nbsp;
-                          </p>
-                        </div>
-                      )}
+                      {/* PSF Row - Reserve baseline height with invisible character if empty */}
+                      <div className="mt-2 min-h-[1.25rem] flex items-center">
+                        <p
+                          className="text-sm font-medium truncate"
+                          style={{ fontFamily: fu, color: "#94A3B8" }}
+                        >
+                          {projPsf || "\u00A0"}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

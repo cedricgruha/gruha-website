@@ -541,7 +541,7 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
                 <div key={itemTitle + idx} className="rounded-xl border border-slate-100 p-5 flex flex-col bg-[#f8fafc] h-full">
                   <span className="text-[#DD5128] mb-2">{iconElement}</span>
 
-                  <div className="flex items-start mb-1">
+                  <div className="flex items-start mb-1.5">
                     <p
                       className="text-sm font-medium tracking-[0.05em] uppercase text-[#8A94A1]"
                       style={{ fontFamily: fu }}
