@@ -198,20 +198,20 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                   </div>
 
                   {/* Card Body */}
-                  <div className="p-4 md:p-5 flex-1 flex flex-col justify-between">
-                    {/* Title Container - min-h-[3rem] keeps 1-line & 2-line titles aligned */}
-                    <div className="mb-4 min-h-[3rem] flex items-start">
+                  <div className="p-4 md:p-5 flex-1 flex flex-col">
+                    {/* Row 1: Title Section (Increased height fits 2 full lines of text-lg comfortably) */}
+                    <div className="h-[3.25rem] shrink-0 flex items-start">
                       <h4
-                        className="text-base font-semibold leading-snug line-clamp-2"
+                        className="text-lg font-semibold leading-snug line-clamp-2"
                         style={{ fontFamily: fd, color: "#111821" }}
                       >
                         {projName}
                       </h4>
                     </div>
 
-                    {/* Bottom Metadata Section */}
-                    <div className="pt-3 border-t border-slate-100/90 mt-auto">
-                      <div className="grid grid-cols-2 gap-2 items-start">
+                    {/* Row 2: Price & Possession Metadata (mt-2 replaces mb-2 safely outside title container) */}
+                    <div className="pt-3 border-t border-slate-100/90 mt-auto shrink-0">
+                      <div className="grid grid-cols-2 gap-2 items-start h-[3.75rem]">
                         {/* Price */}
                         <div>
                           <p
@@ -220,14 +220,12 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                           >
                             PRICE RANGE
                           </p>
-                          <div className="min-h-[2.5rem] flex items-start">
-                            <p
-                              className="text-sm font-semibold leading-tight line-clamp-2"
-                              style={{ fontFamily: fd, color: "#111821" }}
-                            >
-                              {projPrice}
-                            </p>
-                          </div>
+                          <p
+                            className="text-sm font-semibold leading-tight line-clamp-2"
+                            style={{ fontFamily: fd, color: "#111821" }}
+                          >
+                            {projPrice}
+                          </p>
                         </div>
 
                         {/* Possession Column */}
@@ -238,26 +236,24 @@ export const JournalProjectsV0: React.FC<JournalProjectsV0Props> = ({
                           >
                             POSSESSION
                           </p>
-                          <div className="min-h-[2.5rem] flex items-start justify-end">
-                            <p
-                              className="text-sm font-medium leading-tight text-right line-clamp-2"
-                              style={{ fontFamily: fu, color: "#111821" }}
-                            >
-                              {projPossession || "—"}
-                            </p>
-                          </div>
+                          <p
+                            className="text-sm font-medium leading-tight text-right line-clamp-2"
+                            style={{ fontFamily: fu, color: "#111821" }}
+                          >
+                            {projPossession || "—"}
+                          </p>
                         </div>
                       </div>
+                    </div>
 
-                      {/* PSF Row - Reserve baseline height with invisible character if empty */}
-                      <div className="mt-2 min-h-[1.25rem] flex items-center">
-                        <p
-                          className="text-sm font-medium truncate"
-                          style={{ fontFamily: fu, color: "#94A3B8" }}
-                        >
-                          {projPsf || "\u00A0"}
-                        </p>
-                      </div>
+                    {/* Row 3: PSF Row */}
+                    <div className="mt-2 h-5 flex items-center shrink-0">
+                      <p
+                        className="text-sm font-medium truncate"
+                        style={{ fontFamily: fu, color: "#94A3B8" }}
+                      >
+                        {projPsf || "\u00A0"}
+                      </p>
                     </div>
                   </div>
                 </div>

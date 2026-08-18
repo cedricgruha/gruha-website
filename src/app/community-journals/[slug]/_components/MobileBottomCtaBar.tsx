@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useWaitlist } from "@/contexts/WaitlistContext";
 
 const fu = "'Inter Tight', system-ui, sans-serif";
 
@@ -12,11 +13,12 @@ export interface MobileBottomCtaBarProps {
 }
 
 export const MobileBottomCtaBar: React.FC<MobileBottomCtaBarProps> = ({
-  startJournalText = "Start your journal",
+  startJournalText = "Join Waitlist",
   adaptJournalText = "Adapt this journal",
   onStartJournal,
   onAdaptJournal,
 }) => {
+  const { openModal } = useWaitlist();
   return (
     <div
       className="block md:hidden fixed bottom-0 left-0 right-0 z-50 p-3 sm:p-4 transition-transform duration-300"
@@ -30,7 +32,7 @@ export const MobileBottomCtaBar: React.FC<MobileBottomCtaBarProps> = ({
       <div className="max-w-md mx-auto flex items-center gap-2.5">
         <button
           type="button"
-          onClick={onStartJournal}
+          onClick={openModal}
           className="group relative flex-1 flex items-center justify-center gap-1.5 py-3 px-3.5 text-[13px] font-bold rounded-xl text-white overflow-hidden transition-all active:scale-[0.98] cursor-pointer"
           style={{
             background: "#f25a2b",
@@ -44,7 +46,7 @@ export const MobileBottomCtaBar: React.FC<MobileBottomCtaBarProps> = ({
           </svg>
         </button>
 
-        <button
+        {/*<button
           type="button"
           onClick={onAdaptJournal}
           className="flex-1 py-3 px-3 text-[13px] font-semibold rounded-xl transition-colors hover:bg-white/5 active:scale-[0.98] cursor-pointer truncate text-center"
@@ -56,7 +58,7 @@ export const MobileBottomCtaBar: React.FC<MobileBottomCtaBarProps> = ({
           }}
         >
           {adaptJournalText}
-        </button>
+        </button>*/}
       </div>
     </div>
   );
