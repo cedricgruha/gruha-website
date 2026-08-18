@@ -91,10 +91,10 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
         <div className="flex flex-wrap items-center gap-2">
           <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">{category || "Community"}</span>
           <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-black text-white">{badgeTitle}</span>
-          <div className="flex items-center gap-1 text-[11px] font-medium text-slate-500 ml-auto">
+          {/*<div className="flex items-center gap-1 text-[11px] font-medium text-slate-500 ml-auto">
             <Icons.Clock className="w-3.5 h-3.5 text-[#FF7E57]" />
             <span>{readTime}</span>
-          </div>
+          </div>*/}
         </div>
 
         {/* Title & Description */}
@@ -180,10 +180,10 @@ export const JournalHeroV0: React.FC<JournalHeroV0Props> = ({
 
           {/* Read Time & Updated Date Badges */}
           <div className="flex items-center gap-2">
-            <div className="flex items-center gap-2 px-3 py-2 rounded-[4px] bg-white/80 backdrop-blur-md text-xs font-semibold text-black shadow-xs">
+            {/*<div className="flex items-center gap-2 px-3 py-2 rounded-[4px] bg-white/80 backdrop-blur-md text-xs font-semibold text-black shadow-xs">
               <Icons.Clock className="w-4 h-4 text-[#334155]" />
               <span>{readTime}</span>
-            </div>
+            </div>*/}
             <div className="flex items-center gap-2 px-3 py-2 rounded-[4px] bg-white/80 backdrop-blur-md text-xs font-semibold text-black shadow-xs">
               <Icons.CalendarCheck className="w-4 h-4 text-[#334155]" />
               <span>{updatedOn}</span>
