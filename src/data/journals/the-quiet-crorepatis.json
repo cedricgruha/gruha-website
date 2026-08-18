@@ -170,120 +170,109 @@
           "value": "Zero EMI • Sleep Intact"
         }
       ],
-      "roadmapNodes": [
-        {
-          "id": "l1-fd-renewal",
-          "stage": "S1",
-          "type": "start",
-          "title": "L1: FD Renewal at 6.4%",
-          "desc": "FD renewal at 6.4%; the son's forwards; the ledger's 41 questions.",
-          "icon": "Landmark",
-          "x": 120,
-          "y": 120,
-          "width": 180
-        },
-        {
-          "id": "l2-jayanagar-showflat",
-          "stage": "S2",
-          "type": "stage",
-          "title": "L2: Jayanagar Showflat Shock",
-          "desc": "Showflat rates at ₹15–21K/sqft; the corpus recalibrates in a weekend.",
-          "icon": "MapPin",
-          "x": 320,
-          "y": 120,
-          "width": 180
-        },
-        {
-          "id": "l3-falcon-luxe-detour",
-          "stage": "S2",
-          "type": "detour",
-          "title": "L3 DETOUR: Falcon City Luxe",
-          "desc": "Print-ad glamour; EOI taken home twice, returned unsigned — 'launch discount = payment for delivery risk'.",
-          "icon": "AlertTriangle",
-          "x": 520,
-          "y": 120,
-          "width": 180
-        },
-        {
-          "id": "l4-photocopy-oc-rule",
-          "stage": "S2",
-          "type": "loop",
-          "title": "L4: The Photocopied-OC Rule",
-          "desc": "The Sarakki 'ready' tower without an OC number; the photocopied-OC rule is born.",
-          "icon": "FileCheck",
-          "x": 700,
-          "y": 120,
-          "width": 180
-        },
-        {
-          "id": "s3-ready-shortlist",
-          "stage": "S3",
-          "type": "stage",
-          "title": "S3: Ready-Building Shortlist",
-          "desc": "Ready OC stock benchmarked under the photocopied-OC rule.",
-          "icon": "FileSearch",
-          "x": 860,
-          "y": 540,
-          "width": 180
-        },
-        {
-          "id": "l5-jayanagar-boutique",
-          "stage": "S4",
-          "type": "stage",
-          "title": "L5: Jayanagar 24-Unit Boutique",
-          "desc": "Jayanagar 24-unit boutique romance; accounts requested 'to be fair to the building'.",
-          "icon": "Building2",
-          "x": 880,
-          "y": 120,
-          "width": 180
-        },
-        {
-          "id": "l6-walkaway-1",
-          "stage": "S4",
-          "type": "regression",
-          "targetNodeId": "l2-jayanagar-showflat",
-          "title": "L6 REGRESSION: Walk-Away #1",
-          "desc": "No sinking fund, past roof levy; three weeks of grief-browsing Banashankari.",
-          "icon": "RotateCcw",
-          "x": 180,
-          "y": 340,
-          "width": 180
-        },
-        {
-          "id": "l8-walkaway-2-bounce",
-          "stage": "S5",
-          "type": "bounce",
-          "targetNodeId": "s3-ready-shortlist",
-          "title": "L8 BOUNCE: Walk-Away #2",
-          "desc": "The twice-moving 'final price'; brokers note it; next talks start 8% lower.",
-          "icon": "Undo2",
-          "x": 680,
-          "y": 420,
-          "width": 190
-        },
-        {
-          "id": "l7-sleep-test-loop",
-          "stage": "S4",
-          "type": "loop",
-          "title": "L7 Loop: Price the Sleep",
-          "desc": "Stuck; the Riya reframe 'price the sleep'; the decision takes 11 days from that sentence.",
-          "icon": "ShieldAlert",
-          "x": 480,
-          "y": 580,
-          "width": 180
-        },
-        {
-          "id": "l9-gardenia-close",
-          "stage": "S7",
-          "type": "stage",
-          "title": "L9: Brigade Gardenia Close",
-          "desc": "Original-allottee 3BHK; a 10-day co-nominee wobble; ₹1.69 Cr, 32-day close.",
-          "icon": "CheckCircle2",
-          "x": 160,
-          "y": 560,
-          "width": 180
-        }
-      ],
+        "roadmapNodes": [
+          {
+            "id": "l1-fd-renewal",
+            "stage": "S1",
+            "type": "start",
+            "title": "L1: FD Renewal at 6.4%",
+            "desc": "FD renewal at 6.4%; the son's forwards; the ledger's 41 questions.",
+            "icon": "Landmark",
+            "x": 120,
+            "y": 120,
+            "width": 180
+          },
+          {
+            "id": "l2-jayanagar-showflat",
+            "stage": "S2",
+            "type": "stage",
+            "title": "L2: Jayanagar Showflat Shock",
+            "desc": "Jayanagar showflat shock: ₹15–21K/sqft; the corpus recalibrates in a weekend.",
+            "icon": "MapPin",
+            "x": 320,
+            "y": 120,
+            "width": 180
+          },
+          {
+            "id": "l3-falcon-luxe-detour",
+            "stage": "S2",
+            "type": "detour",
+            "title": "L3 DETOUR: Falcon City Luxe",
+            "desc": "Newspaper jacket ad: Prestige Falcon City Luxe pre-launch — showflat glamour, EOI taken home twice, returned unsigned.",
+            "icon": "AlertTriangle",
+            "x": 520,
+            "y": 120,
+            "width": 180
+          },
+          {
+            "id": "l4-photocopy-oc-rule",
+            "stage": "S2",
+            "type": "loop",
+            "title": "L4: The Photocopied-OC Rule",
+            "desc": "The Sarakki 'ready' tower without an OC number; the photocopied-OC rule is born.",
+            "icon": "FileCheck",
+            "x": 700,
+            "y": 120,
+            "width": 180
+          },
+          {
+            "id": "l5-jayanagar-boutique",
+            "stage": "S3",
+            "type": "stage",
+            "title": "L5: Jayanagar 24-Unit Boutique",
+            "desc": "Jayanagar 24-unit boutique romance; accounts requested 'to be fair to the building'.",
+            "icon": "Building2",
+            "x": 880,
+            "y": 120,
+            "width": 180
+          },
+          {
+            "id": "l6-walkaway-1",
+            "stage": "S4",
+            "type": "regression",
+            "targetNodeId": "l2-jayanagar-showflat",
+            "title": "L6 REGRESSION: Walk-Away #1",
+            "desc": "No sinking fund, past roof levy; three weeks of grief-browsing Banashankari.",
+            "icon": "RotateCcw",
+            "x": 180,
+            "y": 340,
+            "width": 180
+          },
+          {
+            "id": "l7-sleep-test-loop",
+            "stage": "S4",
+            "type": "loop",
+            "title": "L7 Loop: Price the Sleep",
+            "desc": "Stuck; the Riya reframe 'price the sleep'; the decision takes 11 days from that sentence.",
+            "icon": "ShieldAlert",
+            "x": 480,
+            "y": 580,
+            "width": 180
+          },
+          {
+            "id": "l8-walkaway-2-bounce",
+            "stage": "S5",
+            "type": "bounce",
+            "targetNodeId": "l5-jayanagar-boutique",
+            "title": "L8 BOUNCE: Walk-Away #2",
+            "desc": "The twice-moving 'final price'; brokers note it; next talks start 8% lower.",
+            "icon": "Undo2",
+            "x": 680,
+            "y": 420,
+            "width": 190
+          },
+          {
+            "id": "l9-gardenia-close",
+            "stage": "S7",
+            "type": "stage",
+            "title": "L9: Brigade Gardenia Close",
+            "desc": "Brigade Gardenia original-allottee 3BHK; a 10-day co-nominee wobble; ₹1.69 Cr, 32-day close.",
+            "icon": "CheckCircle2",
+            "x": 160,
+            "y": 560,
+            "width": 180
+          }
+        ],
       "timelineTitle": "Where they stand today",
       "timelineSteps": [
         {
@@ -614,7 +603,7 @@
         {
           "title": "Prestige Falcon City + Luxe Phase",
           "name": "Prestige Falcon City",
-          "price": "2BHK from ~₹1.75 Cr",
+          "price": "2BHK from ~₹1.4 Cr",
           "possession": "Ready township; Luxe = launch-stage, later possession",
           "psf": "Not stated",
           "location": "Konanakunte Cross",
