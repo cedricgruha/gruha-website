@@ -213,7 +213,7 @@ export const AgentCardSlider: React.FC<AgentCardSliderProps> = ({
 
   return (
     <div
-      className={`group relative flex flex-col items-center justify-center w-full h-full min-h-[410px] p-4 overflow-hidden select-none cursor-pointer ${className}`}
+      className={`group relative flex flex-col items-center justify-center w-full h-full min-h-[410px] p-[44px] overflow-hidden select-none cursor-pointer ${className}`}
       onClick={nextSlide}
     >
       <div className="relative w-[220px] sm:w-[245px] h-[340px]" ref={containerRef}>
