@@ -295,7 +295,10 @@ export const JournalTabsSectionV0: React.FC<JournalTabsSectionV0Props> = ({
                 sectionRefs.current["Profile"] = el;
               }}
             >
-              <JournalProfileV0 {...tabsMap["profile"]} />
+              <JournalProfileV0 {...tabsMap["profile"]}
+                checklistItems={tabsMap["start-here"]?.checklistItems || tabsMap["startHere"]?.checklistItems}
+                startHereDescription={tabsMap["start-here"]?.description || tabsMap["startHere"]?.checklistItems}
+            />
             </div>
 
             {/* Journey Section */}

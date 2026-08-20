@@ -340,6 +340,19 @@ Rules:
    - Extract actionable advice into `differentlyCards`.
 
 7. **Build Start Here Tab (`start-here`)**:
+   - Set a DYNAMIC, persona-specific `title` that addresses the reader through the journal's primary buyer(s) by name, in the JOURNAL'S own voice — do NOT reuse a single template. The header should feel hand-written to this persona, not cookie-cutter. Vary the pattern naturally; plausible forms include:
+     - Direct question to the reader: `"Are you like Shobha?"`, `"Do you think like Anirudh?"`
+     - Persona-as-mirror statement: `"This could be your second front door, too"`, `"Maybe you're a Suresh & Veena"`
+     - Invitation framed by their situation: `"Trading three floors for one lighter one?"`, `"Hunting your third launch-window edge?"`
+     - Second-person echo of the search: `"Your name on the deed?"`, `"One more room could change everything"`
+   - **KEEP THE TITLE SHORT — medium length at most.** Aim for roughly 6–10 words or one punchy clause. Do NOT write a full sentence that restates the whole journey (e.g. `"Buying from Dubai, trusting your brother and a video call?"` is too long). Lead with the single strongest hook — the persona, the situation, or the one detail that defines them — and let everything else live in `description`. Prefer sharp fragments like `"A video call and a brother's gut"`, `"Three floors, one lighter house"`, or `"Buying from Dubai?"`. If it needs an en-dash pairing, keep both sides short. The title works best at a glance.
+   - Base the PERSONA on the first buyer(s) in `profile.buyers` (first names / relationship), and let the segment, money picture, and the buyer's own words drive the phrasing. The key rule: the header must sound specific to THIS journal and read at a glance — never a generic `"What if this journal was about you?"`, and never a long sentence.
+   - **Make `description` a persona-first subheadline.** The title is the short hook; the description is where you name the reader and the situation in full. Write it as ONE sentence that (a) names or echoes the primary buyer(s) by first name, (b) states their defining situation in their own voice, and (c) hands off to Riya with a concrete action. Vary the pattern; plausible forms include:
+     - Direct & conversational: `"If you are like Arjun — buying from abroad and relying on family video calls — let Riya build your remote verification protocol."`
+     - Story-driven: `"Follow Arjun's journey buying from abroad on family video calls, and let Riya build your remote verification protocol."`
+     - Persona-focused: `"Are you like Arjun? If you're managing a Bengaluru home purchase from overseas, let Riya guide your remote verification process."`
+     - Situation-first echo: `"If your search is ruled by a school bell at 8:10, let Riya build your school-radius roadmap."` (name optional when the situation is the identity)
+   - The description should always end on Riya and a concrete deliverable (protocol / roadmap / system / audit), and should read differently per journal — never the same template with the project name swapped in. Ground the wording in the `profile.buyers` name(s) and their specific dilemma.
    - Provide 4 step-by-step onboarding guide items.
    - List 5 value propositions (`valueProps`).
    - Provide call-to-action details (`ctaTitle`, `ctaDescription`, `ctaButtonText`).
@@ -1056,7 +1069,7 @@ Rules:
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
+      "title": "Your name on the deed — the way Suresh & Veena did it?",
       "description": "If you have an FD corpus and want zero-loan capital safety, let Riya build your custom diligence roadmap.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
