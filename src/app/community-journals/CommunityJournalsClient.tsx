@@ -24,6 +24,7 @@ interface JournalCard {
 const FILTERS = [
   "All",
   "Investment",
+  "Pre-launch",
   "First Home",
   "Families",
   "Seniors & Downsizers",
@@ -52,6 +53,7 @@ const POPULAR_SEARCHES = [
 // into their primary groups (Families / Investment) rather than getting pills.
 const GROUP_FILTER_MAP: Record<string, { segment: string[]; tags: string[] }> = {
   "Investment": { segment: ["investors & wealth"], tags: [] },
+  "Pre-launch": { segment: ["pre-launch", "eoi", "pre launch"], tags: ["eoi", "pre-launch", "prelaunch"] },
   "First Home": { segment: ["young professionals"], tags: [] },
   "Families": { segment: ["families"], tags: [] },
   "Seniors & Downsizers": { segment: ["seniors"], tags: [] },
@@ -67,6 +69,11 @@ function getPersonaLabel(journal: JournalCard): string {
   const seg = (journal.segment || "").trim().toLowerCase();
   const tagsStr = (journal.tags || []).join(" ").toLowerCase();
 
+  // Pre-launch / EOI is a cross-cutting facet — match it first so these journals
+  // get the Pre-launch badge rather than their primary segment persona.
+  if (seg.startsWith("pre-launch") || seg.startsWith("eoi") || seg.includes("pre-launch") || seg.includes("eoi") || tagsStr.includes("eoi") || tagsStr.includes("pre-launch")) {
+    return "Pre-launch";
+  }
   if (seg.startsWith("nri")) return "NRI & Returnees";
   if (seg.includes("/ upgrader")) return "Upgraders";
   if (seg.includes("/ legacy") || tagsStr.includes("legacy") || tagsStr.includes("inheritance")) return "Legacy";
@@ -83,6 +90,7 @@ function getPersonaLabel(journal: JournalCard): string {
 
 const BADGE_STYLES: Record<string, { bg: string; color: string }> = {
   "Investors & Wealth": { bg: "bg-white/95", color: "#DD5128" },
+  "Pre-launch": { bg: "bg-white/95", color: "#D97706" },
   "Plot Buyers": { bg: "bg-white/95", color: "#B45309" },
   "Young Professionals": { bg: "bg-white/95", color: "#0E7490" },
   "Families": { bg: "bg-white/95", color: "#1D4ED8" },
@@ -288,10 +296,13 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
 
               <div className="mt-3 space-y-0.5 text-slate-600 font-inter">
                 <p className="text-[14px] sm:text-[15px] font-medium text-slate-700">
-                  Real stories. Real decisions. From Bengaluru.
+                  Stories inspired by real homebuying journeys in Bengaluru.
                 </p>
                 <p className="text-[14px] sm:text-[15px] font-medium text-slate-700">
-                  Every journal captures a unique journey, challenge, and insight.
+                  Each journal explores a unique journey, challenge, and perspective.
+                </p>
+                <p className="text-[12px] font-normal text-slate-500 pl-2.5 border-l-2 border-[#DD5128]/40 mt-2.5 leading-snug">
+                  To protect buyer privacy, some names, location details, and audio snippets have been changed.
                 </p>
               </div>
             </div>
@@ -331,7 +342,16 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                   return (
                     <button
                       key={filter}
-                      onClick={() => setActiveFilter(filter)}
+                      onClick={() => {
+                        // Analytics instrumentation event
+                        if (typeof window !== "undefined" && (window as any).gtag) {
+                          (window as any).gtag("event", "filter_pill_click", {
+                            filter_name: filter,
+                            previous_filter: activeFilter,
+                          });
+                        }
+                        setActiveFilter(filter);
+                      }}
                       className={`px-4 py-2 rounded-full text-[12.5px] font-medium transition-all cursor-pointer whitespace-nowrap font-inter shrink-0 ${isActive
                         ? "bg-[#DD5128] text-white shadow-xs"
                         : "bg-white text-slate-700 border border-slate-200/80 hover:border-slate-300 hover:text-slate-900"

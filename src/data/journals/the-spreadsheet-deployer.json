@@ -78,7 +78,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Re-evaluating"
+          "value": "Post-Booking / EOI Secured"
         },
         {
           "icon": "Hourglass",
@@ -812,8 +812,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If you have ready capital and a spreadsheet that's been 'two weeks from final' for months, let Riya build your decision mandate.",
+      "title": "Two weeks from a final spreadsheet — again?",
+      "description": "If you're like Nikhil — ready capital and a spreadsheet that's been 'two weeks from final' for months — let Riya build your decision mandate.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {

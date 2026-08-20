@@ -79,7 +79,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Stuck & Re-Evaluating"
+          "value": "Malhar Closed + 2031 Held"
         },
         {
           "icon": "Hourglass",
@@ -784,8 +784,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If quantified sustainability is your conviction, let Riya build your regenerative roadmap — the performance-data audit, the green-community network, and the bandwidth check before any site.",
+      "title": "Net-zero bills, water independence?",
+      "description": "If quantified sustainability is your conviction, like Ishaan's, let Riya build your regenerative roadmap — the performance-data audit, the green-community network, and the bandwidth check before any site.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {

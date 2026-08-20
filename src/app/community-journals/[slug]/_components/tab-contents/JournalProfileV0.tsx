@@ -56,6 +56,8 @@ export interface JournalProfileV0Props {
     score?: number;
     pct?: number;
   }>;
+  checklistItems?: Array<string | { title?: string; text?: string; desc?: string }>;
+  startHereDescription?: string;
 }
 
 export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
@@ -81,7 +83,11 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
     { title: "Enough space for their lifestyle", score: 8.0, why: "Room to grow, work and create memories.", pct: 80 },
     { title: "Safe, family-friendly neighbourhood", score: 7.5, why: "A secure environment for their child to grow up in.", pct: 75 },
   ],
+  checklistItems,
+  startHereDescription,
 }) => {
+  const displayChecklist = Array.isArray(checklistItems) ? checklistItems : [];
+
   const singleBuyerFirstName = (() => {
     if (buyers && buyers.length === 1 && buyers[0]?.name) {
       const rawName = buyers[0].name.trim();
@@ -106,6 +112,76 @@ export const JournalProfileV0: React.FC<JournalProfileV0Props> = ({
 
   return (
     <section id="section-profile" className="pt-0 ">
+      <h2 className="text-[clamp(28px,3.6vw,40px)] font-bold leading-[1.1] mb-3" style={{ fontFamily: fd, color: "#111821" }}>
+        Is this you?
+      </h2>
+
+      <p className="text-base leading-relaxed mb-7" style={{ fontFamily: fu, color: "#6B7280" }}>{startHereDescription}</p>
+
+
+      {/* Checklist card — only shown when checklist items are provided */}
+      {displayChecklist.length > 0 && (
+      <div
+        className="w-full bg-white border px-6 sm:px-10 py-8 text-left  mb-7"
+        style={{
+          borderRadius: 14,
+          borderColor: "#E4E9EF",
+          boxShadow: "0 1px 2px rgba(17,24,33,.04), 0 8px 24px rgba(17,24,33,.05)",
+        }}
+      >
+        {/*<p
+          className="text-sm sm:text-base font-semibold tracking-[0.14em] uppercase mb-6"
+          style={{ fontFamily: fu, color: "#8A94A1" }}
+        >
+          {checklistTitle}
+        </p>*/}
+
+        {/* Split array into 2 halves for left and right columns */}
+        {(() => {
+          const midPoint = Math.ceil(displayChecklist.length / 2);
+          const leftColumn = displayChecklist.slice(0, midPoint);
+          const rightColumn = displayChecklist.slice(midPoint);
+
+          const renderItem = (item: any, i: number) => {
+            const text =
+              typeof item === "string"
+                ? item
+                : item?.title || item?.text || item?.desc || "";
+
+            return (
+              <div key={i} className="flex items-start gap-3">
+                <Icons.BadgeCheck
+                  size={15}
+                  className="mt-1 flex-none"
+                  style={{ color: "#DD5128" }}
+                />
+                <span
+                  className="text-base leading-[1.65]"
+                  style={{ fontFamily: fu, color: "#59636F" }}
+                >
+                  {text}
+                </span>
+              </div>
+            );
+          };
+
+          return (
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-12 gap-y-5">
+              {/* Left Column Stack */}
+              <div className="flex flex-col gap-y-5">
+                {leftColumn.map((item: any, i: number) => renderItem(item, i))}
+              </div>
+
+              {/* Right Column Stack */}
+              <div className="flex flex-col gap-y-5">
+                {rightColumn.map((item: any, i: number) => renderItem(item, i))}
+              </div>
+            </div>
+          );
+        })()}
+      </div>
+      )}
+
       {/* Section Header */}
       <div className="text-left mb-7">
         <p className="text-md font-semibold tracking-[0.15em] uppercase" style={{ fontFamily: fu, color: "#DD5128" }}>

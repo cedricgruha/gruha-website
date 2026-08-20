@@ -92,7 +92,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Actively Exploring"
+          "value": "PLH Villa Closed"
         },
         {
           "icon": "Hourglass",
@@ -805,8 +805,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If you returned for parents and roots and the shortlist keeps optimizing for offices instead, let Riya build your landing-zone roadmap — the observatory, the two-ledger ceiling, and the written triggers.",
+      "title": "Sixteen years abroad, coming home?",
+      "description": "If you returned for parents and roots like Anand and Priya, and the shortlist keeps optimising for offices, let Riya build your landing-zone roadmap — the observatory, the two-ledger ceiling, and written triggers.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {

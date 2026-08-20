@@ -79,7 +79,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Stuck & Re-evaluating"
+          "value": "In-Window Close — Sec 54"
         },
         {
           "icon": "Hourglass",
@@ -793,8 +793,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If you moved cities for work and your budget moved down a class, let Riya build your two-city reconciliation — Section 54 timeline, spec-adjusted comparison, and an exit from the price-ghost loop.",
+      "title": "Two cities, one return ticket?",
+      "description": "If you moved cities for work and your budget moved down a class, like Ravi Teja, let Riya build your two-city reconciliation — Section 54 timeline, spec-adjusted comparison, and an exit from the price-ghost loop.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {

@@ -92,7 +92,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Actively Exploring"
+          "value": "Renovation Begins"
         },
         {
           "icon": "Hourglass",
@@ -818,8 +818,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If you love a street, by name, and would take honest square feet in a real neighbourhood over a compound, let Riya build your walkable-core roadmap — UDS math, structural diligence, and the renovation bridge.",
+      "title": "Everything worth keeping within fifteen minutes?",
+      "description": "If you love a street by name, like Zoya and Imran, let Riya build your walkable-core roadmap — UDS math, structural diligence, and the renovation bridge.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {

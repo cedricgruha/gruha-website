@@ -92,7 +92,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Actively Exploring"
+          "value": "Boutique Redevelopment Closed"
         },
         {
           "icon": "Hourglass",
@@ -817,8 +817,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If your neighbourhood is a culture and the housing stock is its endangered habitat, let Riya build your heritage-quarter roadmap — the living map, the repair arithmetic, and the redevelopment watch.",
+      "title": "Home, without leaving the Cantonment?",
+      "description": "If your neighbourhood is a culture and its housing an endangered habitat, as it is for Patricia and Neville, let Riya build your heritage-quarter roadmap — the living map, repair arithmetic, and the redevelopment watch.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {

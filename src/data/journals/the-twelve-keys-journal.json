@@ -81,7 +81,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Negotiating & Closing"
+          "value": "Two Units Closed"
         },
         {
           "icon": "Hourglass",
@@ -787,8 +787,8 @@
       "textColor": "text-[#C45D3A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "Every home-buying and operating journey leaves behind lessons. These are the insights Priyanka Bhat developed while scaling her micro-stay portfolio across Bengaluru's tech corridors.",
+      "title": "Weighing keys that pay a living?",
+      "description": "If you're like Priyanka — asking whether the keys in your portfolio add up to a living — let Riya weigh your micro-stay economics against your operating stamina.",
       "checklistTitle": "IS THIS YOU?",
       "checklistItems": [
         "You buy property as operating business inputs, not as homes — occupancy rate is your first question.",

@@ -79,7 +79,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Exploring"
+          "value": "Double Registration Close"
         },
         {
           "icon": "Hourglass",
@@ -816,8 +816,8 @@
       "textColor": "text-[#1A5B7A] font-semibold",
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "tagline": "START HERE",
-      "title": "What if this journal was about you?",
-      "description": "If you are reinvesting capital gains under Section 54F or navigating Kannada land records, let Riya build your custom plan.",
+      "title": "Three generations of land, moved once?",
+      "description": "If you're like Venkata Ramana, moving three generations of land wealth once and done right, let Riya build your Section 54F and Kannada land-record roadmap.",
       "stepsTitle": "Your conversation becomes your journal",
       "steps": [
         {
