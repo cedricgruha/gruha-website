@@ -546,10 +546,11 @@
       "projectsCountBadge": "3 audited options",
       "projects": [
         {
-          "title": "GoodEarth Malhar (Chosen)",
-          "name": "GoodEarth Malhar",
-          "price": "Not Stated",
-          "possession": "Ready eco-village",
+          "title": "GoodEarth Malhar",
+          "name": "GoodEarth Malhar (Chosen Community)",
+          "price": "Resales Rare",
+          "possession": "Chosen project",
+          "psf": "Network-routed",
           "location": "Kengeri",
           "imageSrc": "/journals/the-mud-sun-and-slab/projects/MALHAR-OCHRE.png"
         },
