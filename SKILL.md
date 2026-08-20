@@ -34,7 +34,9 @@ Pavan & Shruti Kulal
 The `stats` array in `tabs[0]` (Profile) MUST contain **EXACTLY 4 items** with short 1-2 word values that fit cleanly on a single line:
 1. `BUYER PROFILE` (icon: `"Briefcase"`, e.g. `"First-timers"`, `"Fintech Exec"`, `"Dubai Expat"`, `"Agri Business"`)
 2. `LIFE STAGE` (icon: `"Heart"`, e.g. `"Newly married"`, `"Mid-career"`, `"NRI Investor"`, `"Reinvestment"`)
-3. `SEARCH STAGE` (icon: `"TrendingUp"`, e.g. `"Active explorer"`, `"Shortlisting"`, `"Re-evaluating"`, `"Exploring"`)
+3. `SEARCH STAGE` (icon: `"TrendingUp"`, e.g. `"Active explorer"`, `"Shortlisting"`, `"Negotiating & Closing"`, `"Post-Booking / EOI Secured"`, `"Stuck & Deciding"`)
+
+**`SEARCH STAGE` MUST MATCH the journal's actual ending.** Read the last `roadmapNodes` / `timelineSteps` and set the value to the buyer's *current* standing, never a stale mid-search phase. If the roadmap ends on a secured unit, capital deployed, or a post-booking ritual (e.g. `S5/S6` nodes like "Unit Secured" → "RERA Progress Ritual"), then a search-y label like `"Re-evaluating"` or `"Shortlisting"` is a contradiction — use a commitment-stage label instead (e.g. `"Post-Booking / EOI Secured"`, `"PositBooking — Slab 14/22"`, `"Possession & Moving In"`). Only use genuinely open-ended labels (`"Re-evaluating"`, `"Stuck & Deciding"`) when the journey genuinely ends unresolved. Cross-check against the `journey` tab's `JOURNEY STAGE` metric and the `timelineSteps` entry flagged `active: true` — all `Where they stand now` signals must agree.
 4. `TIMELINE` (icon: `"Hourglass"`, e.g. `"Before baby"`, `"This quarter"`, `"Grade 6"`, `"8 Months"`)
 
 ```json

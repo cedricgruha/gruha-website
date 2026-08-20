@@ -79,7 +79,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Shortlisting"
+          "value": "Key Handover — Close"
         },
         {
           "icon": "Hourglass",
@@ -319,7 +319,6 @@
         }
       ],
       "voicesTitle": "Voices around them",
-
       "quotes": [
         {
           "text": "I'm trusting a WhatsApp video and my brother's gut.",
@@ -338,7 +337,6 @@
           "author": "— Riya"
         }
       ],
-
       "chatMessages": [
         {
           "sender": "Riya",

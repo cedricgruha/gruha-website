@@ -79,7 +79,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Stuck & Deciding"
+          "value": "Decision Reached — Plot Sold"
         },
         {
           "icon": "Hourglass",
@@ -237,9 +237,7 @@
         {
           "id": "deciding",
           "label": "Deciding",
-          "icon": "Scale",
-          "active": true,
-          "tag": "Resolved"
+          "icon": "Scale"
         },
         {
           "id": "timing",
@@ -249,7 +247,9 @@
         {
           "id": "selling",
           "label": "Selling",
-          "icon": "Banknote"
+          "icon": "Banknote",
+          "active": true,
+          "tag": "Milestone Peak Sold"
         },
         {
           "id": "reinvesting",
