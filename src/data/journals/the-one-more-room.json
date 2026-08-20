@@ -6,7 +6,7 @@
       "VARTHUR–PANATHUR–WHITEFIELD ARC"
     ],
     "title": "The One More Room Journal",
-    "description": "Nithin (38, engineering manager) & Divya Prasad's (36, senior data scientist) pandemic outgrowth — a 2BHK that became two desks, a villa detour priced like a pressed flower, a buyer who ghosted two links up the chain, and a PLH 4BHK closed with the reversibility thesis: office today, bedroom tomorrow.",
+    "description": "Nithin (38, engineering manager) & Divya Prasad's (36, senior data scientist) pandemic outgrowth — a 2.5BHK that became two desks, a villa detour priced like a pressed flower, a buyer who ghosted two links up the chain, and a PLH 4BHK closed with the reversibility thesis: office today, bedroom tomorrow.",
     "quote": "\"The dining table has been two desks for three years. We surrender.\"",
     "readTime": "15 min read",
     "updatedOn": "Updated on July 2026",
@@ -45,7 +45,7 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "aboutLabel": "ABOUT",
       "title": "Who they are",
-      "description": "Nithin, 38, engineering manager at a SaaS firm (3 days office, Bellandur); Divya, 36, senior data scientist (fully remote since 2021). Two children, 7 and 3. They bought a 2BHK in Sobha Dream Acres in 2019 — a correct decision the pandemic quietly outgrew — and the whole search runs on one firm sentence: 'we need two more rooms, and one of them must be an office with a door.'",
+      "description": "Nithin, 38, engineering manager at a SaaS firm (3 days office, Bellandur); Divya, 36, senior data scientist (fully remote since 2021). Two children, 7 and 3. They bought a 2.BHK in Sobha Dream Acres in 2019 — a correct decision the pandemic quietly outgrew — and the whole search runs on one firm sentence: 'we need two more rooms, and one of them must be an office with a door.'",
       "buyers": [
         {
           "name": "Nithin Prasad",
@@ -92,7 +92,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Shortlisting — 4BHK Finalists"
+          "value": "Comparing 4BHK Finalists"
         },
         {
           "icon": "Hourglass",
@@ -132,7 +132,7 @@
           "title": "Tenant Signed Before the New EMI",
           "scorePercentage": 85,
           "scoreLabel": "8.5/10",
-          "description": "The 2BHK's ₹45K rent nets the effective outflow to ~34% — the tenant was signed before the new EMI started, converting the ghosting into the leverage pivot."
+          "description": "The 2.5BHK's ₹45K rent nets the effective outflow to ~34% — the tenant was signed before the new EMI started, converting the ghosting into the leverage pivot."
         }
       ]
     },
@@ -147,7 +147,7 @@
       "title": "How their journey actually unfolded.",
       "description": "From a dining table that became two desks to a villa detour priced like a pressed flower, a ghosting buyer two links up the chain, an office audit that exposed corridor alcoves — and an empty fourth room at golden hour.",
       "journeyFrameTitle": "TWO MORE ROOMS, ONE WITH A DOOR",
-      "roadmapTitle": "How a pandemic-outgrown family upgraded from a 2BHK to a 4BHK with a reversibility thesis",
+      "roadmapTitle": "How a pandemic-outgrown family upgraded from a 2.5BHK to a 4BHK with a reversibility thesis",
       "metrics": [
         {
           "icon": "Briefcase",
@@ -176,7 +176,7 @@
           "stage": "S1",
           "type": "start",
           "title": "L1: The Two-Desks Breaking Point",
-          "desc": "The 2BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
+          "desc": "The 2.5BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
           "icon": "Laptop",
           "x": 120,
           "y": 120,
@@ -220,7 +220,7 @@
           "stage": "S4",
           "type": "bounce",
           "title": "L5: The Ghosted Sale",
-          "desc": "Their 2BHK buyer ghosts after token (his own upgrade chain collapsed upstream); pivot: rent it out instead, rework the loan at higher LTV.",
+          "desc": "Their 2.5BHK buyer ghosts after token (his own upgrade chain collapsed upstream); pivot: rent it out instead, rework the loan at higher LTV.",
           "icon": "ArrowUpDown",
           "loopText": "Chain Failure — Buyer Ghosted After Token, Converted to Keep-and-Leverage",
           "targetNodeId": "l2-keep-sell-fork",
@@ -245,7 +245,7 @@
           "stage": "S7",
           "type": "stage",
           "title": "L7: The Empty Fourth Room",
-          "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
+          "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
           "icon": "Home",
           "x": 880,
           "y": 340,
@@ -306,7 +306,7 @@
         {
           "id": "ghosted-buyer-moment",
           "title": "The ghosting buyer's last-seen",
-          "desc": "Their 2BHK buyer ghosted after token — his own upgrade chain had collapsed upstream; the tenant agreement was drafted the same fortnight, and 'keep and leverage' replaced 'sell to fund.'",
+          "desc": "Their 2.5BHK buyer ghosted after token — his own upgrade chain had collapsed upstream; the tenant agreement was drafted the same fortnight, and 'keep and leverage' replaced 'sell to fund.'",
           "imageSrc": "/journals/the-one-more-room/moment-3.png",
           "imagegenerationprompt": "A 3D vector illustration of a phone chat showing a buyer's last-seen timestamp beside a tenant agreement being signed the same fortnight, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
         },
@@ -459,7 +459,7 @@
         },
         {
           "title": "Balagere — Dream Acres (The Launchpad, Kept)",
-          "description": "Their 2BHK — the community that raised their firstborn, now kept and tenanted at ₹45K/month after the sale fell through.",
+          "description": "Their 2.5BHK — the community that raised their firstborn, now kept and tenanted at ₹45K/month after the sale fell through.",
           "projects": 2,
           "siteVisits": 1,
           "latlong": {
@@ -534,7 +534,7 @@
         {
           "icon": "IndianRupee",
           "label": "TRANSACTION",
-          "value": "₹3.4–3.8 Cr + Kept 2BHK"
+          "value": "₹3.4–3.8 Cr + Kept 2.5BHK"
         }
       ],
       "prioritiesTitle": "What mattered most in their search",
@@ -626,7 +626,7 @@
         },
         {
           "title": "The Launchpad (Kept)",
-          "name": "Their Sobha Dream Acres 2BHK",
+          "name": "Their Sobha Dream Acres 2.5BHK",
           "price": "₹12,750–13,150/sqft",
           "possession": "Tenanted, ₹45K/month",
           "psf": "The community that raised their firstborn",
@@ -788,7 +788,7 @@
         {
           "sender": "Nithin",
           "avatar": "/journals/the-one-more-room/nithin.png",
-          "text": "The two-desks table is retiring, the tenant's rent is landing, and the empty fourth room has one desk chair and a lot of north light. The 2BHK did its job; the 4BHK starts its own."
+          "text": "The two-desks table is retiring, the tenant's rent is landing, and the empty fourth room has one desk chair and a lot of north light. The 2.5BHK did its job; the 4BHK starts its own."
         },
         {
           "sender": "Riya",
@@ -917,7 +917,7 @@
       "stage": "S1",
       "type": "start",
       "title": "L1: The Two-Desks Breaking Point",
-      "desc": "The 2BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
+      "desc": "The 2.5BHK's dining table is now two desks; the second child's cot shares the study wall; 'we need one more room' becomes 'we need two.'",
       "icon": "Laptop",
       "x": 100,
       "y": 120,
@@ -961,7 +961,7 @@
       "stage": "S4",
       "type": "bounce",
       "title": "L5: The Ghosted Sale",
-      "desc": "Their 2BHK buyer ghosts after token (his own upgrade chain collapsed upstream); pivot: rent it out instead, rework the loan at higher LTV.",
+      "desc": "Their 2.5BHK buyer ghosts after token (his own upgrade chain collapsed upstream); pivot: rent it out instead, rework the loan at higher LTV.",
       "icon": "ArrowUpDown",
       "loopText": "Chain Failure — Buyer Ghosted After Token, Converted to Keep-and-Leverage",
       "targetNodeId": "l2-keep-sell-fork",
@@ -986,7 +986,7 @@
       "stage": "S7",
       "type": "stage",
       "title": "L7: The Empty Fourth Room",
-      "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
+      "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
       "icon": "Home",
       "x": 880,
       "y": 320,
