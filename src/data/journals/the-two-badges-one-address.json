@@ -6,7 +6,7 @@
       "BLUE LINE ORR"
     ],
     "title": "The Two Badges, One Address Journal",
-    "description": "Ananya (31, Google ORR) & Siddharth (33, Intel Marathahalli)'s commute-equation search — buying a 2BHK within a measured 800m walk of the Blue Line ORR stations, before the trains arrive and the repricing finishes.",
+    "description": "Ananya (31, Google ORR) & Siddharth (33, Intel Marathahalli)'s commute-equation search — buying a 3BHK within a measured 800m walk of the Blue Line ORR stations, before the trains arrive and the repricing finishes.",
     "quote": "\"Her standup is at 9:30. His is at 9:00. The flat must solve both.\"",
     "readTime": "15 min read",
     "updatedOn": "Updated on July 2026",
@@ -97,7 +97,7 @@
         {
           "icon": "Home",
           "label": "MAIN SEARCH",
-          "value": "2BHK Primary"
+          "value": "3BHK Primary"
         }
       ],
       "prioritiesTitle": "What matters most to them",
@@ -233,7 +233,7 @@
           "stage": "S5→S7",
           "type": "advance",
           "title": "L6: The Parallel-Protocol Close",
-          "desc": "East-facing Dream Acres 2BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
+          "desc": "East-facing Dream Acres 3BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
           "icon": "KeyRound",
           "x": 220,
           "y": 420,
@@ -386,7 +386,7 @@
         {
           "icon": "Search",
           "label": "SEARCH INTENT",
-          "value": "Metro Walk-Ring 2BHK"
+          "value": "Metro Walk-Ring 3BHK"
         },
         {
           "icon": "Footprints",
@@ -401,7 +401,7 @@
         {
           "icon": "KeyRound",
           "label": "SELECTED HOME",
-          "value": "Dream Acres 2BHK"
+          "value": "Dream Acres 3BHK"
         }
       ],
       "exploredAreasTitle": "The metro walk-rings they explored",
@@ -492,7 +492,7 @@
         {
           "icon": "Search",
           "label": "SEARCH INTENT",
-          "value": "Metro Walk-Ring 2BHK"
+          "value": "Metro Walk-Ring 3BHK"
         },
         {
           "icon": "Building2",
@@ -507,7 +507,7 @@
         {
           "icon": "KeyRound",
           "label": "SELECTED HOME",
-          "value": "Dream Acres 2BHK"
+          "value": "Dream Acres 3BHK"
         }
       ],
       "prioritiesTitle": "What mattered most in their search",
@@ -564,7 +564,7 @@
         {
           "title": "The Chosen Home",
           "name": "Sobha Dream Acres",
-          "price": "2BHK ₹2.23–2.56 Cr",
+          "price": "3BHK ₹2.23–2.56 Cr",
           "possession": "Ready / ≤12 months",
           "psf": "₹12,750–13,150/sqft (Q1'26)",
           "location": "Balagere–Panathur",
@@ -577,7 +577,7 @@
         {
           "title": "The Hoarding Detour",
           "name": "Sobha Neopolis",
-          "price": "2BHK ₹2.3–2.72 Cr",
+          "price": "3BHK ₹2.3–2.72 Cr",
           "possession": "2027 (post-thesis)",
           "psf": "~₹15,600/sqft",
           "location": "Panathur",
@@ -590,7 +590,7 @@
         {
           "title": "The Benchmark Visit",
           "name": "Shriram Chirping Woods",
-          "price": "2BHK from ~₹1.39 Cr",
+          "price": "2BHK from ~₹1.45 - 2.55Cr",
           "possession": "Ready community",
           "psf": "Established walk-ring",
           "location": "Kasavanahalli",
@@ -775,28 +775,28 @@
       "monthlyLearnings": [
         {
           "month": "Month 1",
-          "title": "The thesis is born",
-          "description": "Siddharth's 55 stationary minutes near Ibblur meet Ananya's concentric-ring map — buying within a measured 800m walk of a confirmed station becomes the whole brief."
+          "title": "The '5 minutes by drone' reveal",
+          "description": "\"5 minutes from metro\" in a brochure means 5 minutes by drone. Their measured-walk rule moved two projects out of the shortlist and their respect for marketing to zero."
         },
         {
           "month": "Month 2",
-          "title": "The '5 minutes by drone' reveal",
-          "description": "The measured-walk rule moves two brochure-marvel projects out of the shortlist — and turns their respect for marketing to zero."
+          "title": "The pre-metro discount is gone",
+          "description": "Inside the rings the pre-metro discount is mostly gone — the market priced the line two years before the trains. The remaining edge is unit selection (away-facing, higher floors), not project selection."
         },
         {
           "month": "Month 3",
           "title": "The 6:30 pm conversion",
-          "description": "One rush-hour visit with windows open elevates the away-facing east balcony from preference to non-negotiable."
+          "description": "A 6:30 pm weekday visit with windows open taught them more than four sales-office hours — the away-facing east balcony went from preference to non-negotiable."
         },
         {
           "month": "Month 5",
-          "title": "The speed-loss wake-up",
-          "description": "The east-facing unit goes to a faster buyer mid-noise-test — the parallel verification protocol is written that week."
+          "title": "The job-change scenario, written down",
+          "description": "They wrote the job-change scenario down: if one badge moves across the city, the flat's rental yield (3–3.5% at these prices) makes it a keepable asset, not a trap. The math holding up was the permission they needed."
         },
         {
           "month": "Month 6",
           "title": "The premium becomes the point",
-          "description": "They stop mourning launch prices: the ₹150–200/sqft nearing-possession premium removes exactly the risk a two-badge life can't absorb."
+          "description": "Nearing-possession primary stock from tier-1 builders carried a ₹150–200/sqft premium over launch — and removed exactly the risk a two-badge life couldn't absorb. They stopped mourning the launch prices."
         }
       ]
     },
@@ -959,7 +959,7 @@
       "stage": "S7",
       "type": "stage",
       "title": "L6: The Parallel-Protocol Close",
-      "desc": "East-facing Dream Acres 2BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
+      "desc": "East-facing Dream Acres 3BHK closed at ₹12,750–13,150/sqft; documents and floor-plan orientation run the same afternoon as a single 6:30 pm visit, token that evening — and the rental-fallback model already signed.",
       "icon": "KeyRound",
       "x": 120,
       "y": 420,
