@@ -619,12 +619,13 @@
           "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Millennium.jpg"
         },
         {
-          "title": "Jayanagar 4th Block Boutique (24 units)",
-          "name": "Jayanagar 4th Block Boutique",
-          "price": "Walk-away #1 — not purchased",
-          "possession": "24-unit boutique",
-          "psf": "Segment trades ₹15–21K/sqft",
+          "title": "Jayanagar 4th Block Boutique",
+          "name": "Jayanagar 4th Block boutique (24 units)",
+          "price": "Not stated",
+          "possession": "Walk-away #1",
+          "psf": "₹15,000–21,000/sqft",
           "location": "Jayanagar",
+          "details": "24-unit boutique layout; unnamed by policy",
           "imageSrc": "/journals/default.png"
         }
       ],
