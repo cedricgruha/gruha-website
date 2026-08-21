@@ -95,9 +95,9 @@
           "value": "Blue Line ORR Rings"
         },
         {
-          "icon": "Home",
-          "label": "MAIN SEARCH",
-          "value": "3BHK Primary"
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "3BHK Closed — Dream Acres"
         }
       ],
       "prioritiesTitle": "What matters most to them",
@@ -150,6 +150,11 @@
       "roadmapTitle": "How they actually moved",
       "metrics": [
         {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "3BHK Closed — Dream Acres"
+        },
+        {
           "icon": "Zap",
           "label": "BIGGEST LESSON",
           "value": "Verify in Parallel"
@@ -158,11 +163,6 @@
           "icon": "Footprints",
           "label": "CORE THESIS",
           "value": "800m Walk-Ring"
-        },
-        {
-          "icon": "AudioLines",
-          "label": "KEY TOOL",
-          "value": "Decibel App"
         },
         {
           "icon": "TrainFront",

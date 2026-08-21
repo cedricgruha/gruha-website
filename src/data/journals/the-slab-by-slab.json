@@ -92,7 +92,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Mid-Construction — Slab 14/22"
+          "value": "Possession Prep / Handover"
         },
         {
           "icon": "Hourglass",
@@ -152,7 +152,7 @@
         {
           "icon": "Briefcase",
           "label": "JOURNEY STAGE",
-          "value": "Post-Booking — Slab 14 of 22"
+          "value": "Possession Prep / Handover"
         },
         {
           "icon": "IndianRupee",
@@ -244,7 +244,7 @@
         },
         {
           "id": "l7-possession-prep",
-          "stage": "S7",
+          "stage": "S6→S7",
           "type": "loop",
           "title": "L7: Possession Prep",
           "desc": "The snag framework adopted from the playbook early; the buyers' group's founding politics already visible; possession-date bets on the fridge.",
@@ -953,7 +953,7 @@
     },
     {
       "id": "l7-possession-prep",
-      "stage": "S7",
+      "stage": "S6→S7",
       "type": "loop",
       "title": "L7: Possession Prep",
       "desc": "The snag framework adopted from the playbook early; the buyers' group's founding politics already visible; possession-date bets on the fridge.",

@@ -45,7 +45,7 @@
       "inactiveTextColor": "text-gray-500 hover:text-gray-700",
       "aboutLabel": "ABOUT",
       "title": "Who they are",
-      "description": "Nithin, 38, engineering manager at a SaaS firm (3 days office, Bellandur); Divya, 36, senior data scientist (fully remote since 2021). Two children, 7 and 3. They bought a 2.BHK in Sobha Dream Acres in 2019 — a correct decision the pandemic quietly outgrew — and the whole search runs on one firm sentence: 'we need two more rooms, and one of them must be an office with a door.'",
+      "description": "Nithin, 38, engineering manager at a SaaS firm (3 days office, Bellandur); Divya, 36, senior data scientist (fully remote since 2021). Two children, 7 and 3. They bought a 2.5BHK in Sobha Dream Acres in 2019 — a correct decision the pandemic quietly outgrew — and the whole search runs on one firm sentence: 'we need two more rooms, and one of them must be an office with a door.'",
       "buyers": [
         {
           "name": "Nithin Prasad",
@@ -92,7 +92,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Comparing 4BHK Finalists"
+          "value": "4BHK Closed"
         },
         {
           "icon": "Hourglass",
@@ -152,7 +152,7 @@
         {
           "icon": "Briefcase",
           "label": "JOURNEY STAGE",
-          "value": "Shortlisting — 4BHK Finalists"
+          "value": "4BHK Closed"
         },
         {
           "icon": "IndianRupee",
@@ -209,7 +209,7 @@
           "stage": "S3",
           "type": "stage",
           "title": "L4: The 4BHK Shortlist",
-          "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2027 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
+          "desc": "4BHK shortlist: PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, but possession 2027 vs a child starting school) vs Brigade Cornerstone Utopia's largest units (value).",
           "icon": "Building2",
           "x": 790,
           "y": 80,
@@ -326,15 +326,15 @@
         },
         {
           "text": "We need two more rooms, and one of them must be an office with a door.",
-          "author": "— The one sentence that runs the search"
+          "author": "— Nithin & Divya"
         },
         {
-          "text": "The garden costs the airbag.",
-          "author": "— The villa detour's verdict"
+          "text": "I'm not doing three more years at the dining table, Riya. That table has seen things.",
+          "author": "— Divya Prasad"
         },
         {
-          "text": "Never let your purchase depend on your sale's buyer's sale.",
-          "author": "— The ghosting lesson"
+          "text": "The day one of you stops remote work… it's a bedroom again in an afternoon.",
+          "author": "— Riya"
         }
       ],
       "chatMessages": [
@@ -423,7 +423,7 @@
       "exploredAreas": [
         {
           "title": "Varthur — PLH Township (Chosen)",
-          "description": "The 102-acre township — 4BHK resales at ~₹3.4–3.9 Cr; the 2,700 sqft unit that passed the scream test and closed at ~₹3.6 Cr.",
+          "description": "The 102-acre township — 4BHK resales (2,600–2,830 sqft) at ~₹3.4–3.9 Cr; the 2,700 sqft class unit that passed the scream test closed at ~₹3.6 Cr.",
           "projects": 4,
           "siteVisits": 6,
           "latlong": {
@@ -435,7 +435,7 @@
         },
         {
           "title": "Panathur — Sobha Neopolis (New-Build Option)",
-          "description": "~₹15,600/sqft 4BHKs, newer and better-specified — but possession 2027 loses to a 7-year-old starting a school year in a home that exists.",
+          "description": "4BHKs at ~₹15,600/sqft, newer and better-specified — but possession 2027 loses to a 7-year-old starting a school year in a home that exists.",
           "projects": 3,
           "siteVisits": 2,
           "latlong": {
@@ -447,7 +447,7 @@
         },
         {
           "title": "Whitefield–Varthur Rd — Utopia (Value Option)",
-          "description": "Brigade Cornerstone Utopia's largest ready units at ~₹9–11.5K/sqft — the value floor of the shortlist.",
+          "description": "Brigade Cornerstone Utopia's largest ready units at ~₹9–11.5K/sqft resale — the value floor of the shortlist.",
           "projects": 3,
           "siteVisits": 2,
           "latlong": {
@@ -591,47 +591,47 @@
         {
           "title": "The Chosen Home",
           "name": "Prestige Lakeside Habitat (4BHK)",
-          "price": "~₹3.4–3.9 Cr resale",
+          "price": "4BHK resales ~₹3.4–3.9 Cr",
           "possession": "Ready township",
-          "psf": "2,600–2,830 sqft class",
-          "location": "Varthur",
-          "imageSrc": "/journals/default.png"
+          "psf": "Apartments up to 2,830 sqft",
+          "location": "Varthur / Whitefield–Sarjapur Rd",
+          "imageSrc": "/journals/the-one-more-room/projects/prestige_lakeside_habitat.webp"
         },
         {
           "title": "The Villa Detour (Parked)",
-          "name": "PLH Villas",
+          "name": "Prestige Lakeside Habitat Villas",
           "price": "₹5.42–6.5 Cr",
           "possession": "Ready",
           "psf": "The garden that cost the airbag",
           "location": "Varthur",
-          "imageSrc": "/journals/default.png"
+          "imageSrc": "/journals/the-one-more-room/projects/prestige_lakeside_habitat_villas.webp"
         },
         {
           "title": "The New-Build Option",
           "name": "Sobha Neopolis (4BHK)",
           "price": "~₹15,600/sqft",
-          "possession": "2027 — vs a school year",
+          "possession": "2027 — vs school year",
           "psf": "Newer, better-specified",
           "location": "Panathur",
-          "imageSrc": "/journals/default.png"
+          "imageSrc": "/journals/the-one-more-room/projects/sobha_neopolis.png"
         },
         {
           "title": "The Value Floor",
-          "name": "Brigade Cornerstone Utopia",
-          "price": "~₹9–11.5K/sqft",
+          "name": "Brigade Cornerstone Utopia (large units)",
+          "price": "~₹9–11.5K/sqft resale",
           "possession": "Ready township",
-          "psf": "Largest units, resale",
-          "location": "Whitefield–Varthur Rd",
-          "imageSrc": "/journals/default.png"
+          "psf": "Largest ready units",
+          "location": "Whitefield / Varthur Rd",
+          "imageSrc": "/journals/the-one-more-room/projects/brigade_cornerstone_utopia.webp"
         },
         {
           "title": "The Launchpad (Kept)",
           "name": "Their Sobha Dream Acres 2.5BHK",
           "price": "₹12,750–13,150/sqft",
-          "possession": "Tenanted, ₹45K/month",
+          "possession": "Tenanted (~₹40–48K/month)",
           "psf": "The community that raised their firstborn",
           "location": "Balagere",
-          "imageSrc": "/journals/default.png"
+          "imageSrc": "/journals/the-one-more-room/projects/sobha_dream_acres.png"
         }
       ],
       "rejectedTitle": "Why some options didn't make the cut",
@@ -986,7 +986,7 @@
       "stage": "S7",
       "type": "stage",
       "title": "L7: The Empty Fourth Room",
-      "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK; the walkthrough ends in the empty fourth room where both offices finally exist.",
+      "desc": "PLH 4BHK (2,700 sqft class) closed ~₹3.6 Cr with tenant continuity on their 2.5BHK. Artifact: The empty fourth room at golden hour, one desk chair placed, everyone barefoot on new floor.",
       "icon": "Home",
       "x": 880,
       "y": 320,
