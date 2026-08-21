@@ -90,7 +90,7 @@
         {
           "icon": "TrendingUp",
           "label": "SEARCH STAGE",
-          "value": "Active explorer"
+          "value": "Registered — Chirping Woods"
         },
         {
           "icon": "Hourglass",
@@ -151,7 +151,7 @@
         {
           "icon": "Briefcase",
           "label": "JOURNEY STAGE",
-          "value": "Actively exploring"
+          "value": "Registered — Chirping Woods"
         },
         {
           "icon": "TrendingUp",
@@ -171,10 +171,10 @@
       ],
       "roadmapNodes": [
         {
-          "id": "s1-ghaar-final",
+          "id": "l1-ghaar-final",
           "stage": "S1",
-          "type": "stage",
-          "title": "S1: GHAR — FINAL v1",
+          "type": "start",
+          "title": "L1: GHAR — FINAL v1",
           "desc": "The landlord's 10% rent-hike letter and a pregnancy test shared a fridge magnet. Their first version of GHAR — FINAL was born.",
           "icon": "Home",
           "x": 120,
@@ -182,10 +182,10 @@
           "width": 190
         },
         {
-          "id": "s2-truth-column",
+          "id": "l2-truth-column",
           "stage": "S2",
           "type": "stage",
-          "title": "S2: The TRUTH Column",
+          "title": "L2: The TRUTH Column",
           "desc": "They discovered the real cost of buying: base price plus roughly 16–18% in extras. The TRUTH column became their rule for every comparison.",
           "icon": "Calculator",
           "x": 320,
@@ -193,10 +193,10 @@
           "width": 190
         },
         {
-          "id": "detour-neopolis-dream",
+          "id": "l3-neopolis-detour",
           "stage": "DETOUR",
           "type": "detour",
-          "title": "DETOUR: Neopolis Dream",
+          "title": "L3 DETOUR: Neopolis Dream",
           "desc": "Sobha Neopolis sold the Greek dream on a full-page ad, but the ₹2.3–2.72 Cr reality was far beyond their range. One fight and one dosa later, the DREAMS — PARKED sheet was born.",
           "icon": "Sparkles",
           "x": 540,
@@ -204,10 +204,10 @@
           "width": 190
         },
         {
-          "id": "regression-chandapura-veto",
+          "id": "l4-chandapura-regression",
           "stage": "REGRESSION",
           "type": "loop",
-          "title": "REGRESSION: Chandapura Veto",
+          "title": "L4 REGRESSION: Chandapura Veto",
           "desc": "Three weeks were lost to the Chandapura widening idea. Shruti's veto reframed the decision: they needed a home, not a point to prove to two fathers.",
           "icon": "RotateCcw",
           "loopText": "3-Week Regression",
@@ -216,10 +216,10 @@
           "width": 190
         },
         {
-          "id": "detour-splendour-mirage",
+          "id": "l5-splendour-mirage",
           "stage": "DETOUR",
           "type": "detour",
-          "title": "DETOUR: Splendour Value Mirage",
+          "title": "L5 DETOUR: Splendour Value Mirage",
           "desc": "Godrej Splendour looked like a ₹85L all-in 2BHK value win until an 8:15 am drive test revealed a 1h50m journey to Electronic City.",
           "icon": "Car",
           "x": 860,
@@ -227,10 +227,10 @@
           "width": 190
         },
         {
-          "id": "s5-s6-hosa-booking",
+          "id": "l6-hosa-booking",
           "stage": "S5→S6",
           "type": "stage",
-          "title": "S5→S6: Hosa Road Booking",
+          "title": "L6: Hosa Road Booking",
           "desc": "They finally booked an under-construction 2BHK on Hosa Road at ₹1.22 Cr with CLP and 10% paid. It was the happiest evening of the search.",
           "icon": "KeyRound",
           "x": 640,
@@ -238,11 +238,11 @@
           "width": 190
         },
         {
-          "id": "s6-s3-project-bounce",
+          "id": "l7-project-bounce",
           "stage": "BOUNCE",
           "type": "bounce",
-          "targetNodeId": "s5-s6-hosa-booking",
-          "title": "BOUNCE: The Project Flat-Lines",
+          "targetNodeId": "l6-hosa-booking",
+          "title": "L7 BOUNCE: The Project Flat-Lines",
           "desc": "Six weeks of flat-lined RERA progress triggered a 2 am buyers'-group archive dive. They fought their exit and recovered the booking amount minus ₹50K.",
           "icon": "Undo2",
           "loopText": "S6 → S3 Bounce · 6 Weeks",
@@ -251,10 +251,10 @@
           "width": 200
         },
         {
-          "id": "s3-s7-chirping-woods",
+          "id": "l8-chirping-woods",
           "stage": "S3→S7",
           "type": "stage",
-          "title": "S3→S7: Ready-With-OC Pivot",
+          "title": "L8: Ready-With-OC Pivot",
           "desc": "GST math pushed them toward a ready-with-OC home. Shriram Chirping Woods became the choice at ₹1.44 Cr all-in, with registration reaching week 32.",
           "icon": "CheckCircle2",
           "x": 150,
