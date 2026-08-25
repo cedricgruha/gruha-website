@@ -12,7 +12,8 @@
     "image": "/journals/cover/1.jpg",
     "views": 14292,
     "copies": 506,
-    "path": "community-journals/the-quiet-crorepatis"
+    "path": "community-journals/the-quiet-crorepatis",
+    "location": "JP Nagar"
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
     "image": "/journals/cover/2.jpg",
     "views": 13422,
     "copies": 101,
-    "path": "community-journals/the-spreadsheet-deployer"
+    "path": "community-journals/the-spreadsheet-deployer",
+    "location": "Thanisandra"
   },
   {
     "id": 3,
@@ -42,7 +44,8 @@
     "image": "/journals/cover/3.png",
     "views": 6654,
     "copies": 497,
-    "path": "community-journals/the-3000-miles-home-journal"
+    "path": "community-journals/the-3000-miles-home-journal",
+    "location": "Whitefield"
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
     "image": "/journals/cover/4.jpg",
     "views": 5475,
     "copies": 191,
-    "path": "community-journals/the-bhoomi-to-bengaluru-journal"
+    "path": "community-journals/the-bhoomi-to-bengaluru-journal",
+    "location": "Bellandur–Panathur"
   },
   {
     "id": 5,
@@ -72,7 +76,8 @@
     "image": "/journals/cover/5.jpg",
     "views": 21227,
     "copies": 514,
-    "path": "community-journals/the-twelve-keys-journal"
+    "path": "community-journals/the-twelve-keys-journal",
+    "location": "Bellandur (ORR)"
   },
   {
     "id": 6,
@@ -88,7 +93,8 @@
     "image": "/journals/cover/6.jpg",
     "views": 13180,
     "copies": 227,
-    "path": "community-journals/the-esop-windfall"
+    "path": "community-journals/the-esop-windfall",
+    "location": "Indiranagar"
   },
   {
     "id": 7,
@@ -103,7 +109,8 @@
     "image": "/journals/cover/7.png",
     "views": 19686,
     "copies": 438,
-    "path": "community-journals/the-shutter-and-stairs"
+    "path": "community-journals/the-shutter-and-stairs",
+    "location": "Uttarahalli"
   },
   {
     "id": 8,
@@ -118,7 +125,8 @@
     "image": "/journals/cover/8.png",
     "views": 8642,
     "copies": 318,
-    "path": "community-journals/the-half-acre-sky"
+    "path": "community-journals/the-half-acre-sky",
+    "location": "Kanakapura Road"
   },
   {
     "id": 9,
@@ -133,7 +141,8 @@
     "image": "/journals/cover/9.png",
     "views": 3732,
     "copies": 532,
-    "path": "community-journals/the-twenty-thousand-square-feet"
+    "path": "community-journals/the-twenty-thousand-square-feet",
+    "location": "Sarjapur–Attibele"
   },
   {
     "id": 10,
@@ -148,7 +157,8 @@
     "image": "/journals/cover/10.png",
     "views": 7281,
     "copies": 142,
-    "path": "community-journals/the-khata-and-compass"
+    "path": "community-journals/the-khata-and-compass",
+    "location": "Doddaballapur–Devanahalli"
   },
   {
     "id": 11,
@@ -163,7 +173,8 @@
     "image": "/journals/cover/11.png",
     "views": 5144,
     "copies": 547,
-    "path": "community-journals/the-long-wait-journal"
+    "path": "community-journals/the-long-wait-journal",
+    "location": "Kempegowda Layout"
   },
   {
     "id": 12,
@@ -179,7 +190,8 @@
     "image": "/journals/cover/12.png",
     "views": 20141,
     "copies": 69,
-    "path": "community-journals/the-blueprint-and-bisibelebath"
+    "path": "community-journals/the-blueprint-and-bisibelebath",
+    "location": "Hennur"
   },
   {
     "id": 13,
@@ -195,7 +207,8 @@
     "image": "/journals/cover/13.png",
     "views": 14276,
     "copies": 251,
-    "path": "community-journals/the-two-badges-one-address"
+    "path": "community-journals/the-two-badges-one-address",
+    "location": "Bellandur (ORR)"
   },
   {
     "id": 14,
@@ -210,7 +223,8 @@
     "image": "/journals/cover/14.png",
     "views": 15947,
     "copies": 111,
-    "path": "community-journals/the-first-emi-family"
+    "path": "community-journals/the-first-emi-family",
+    "location": "Outer Sarjapur Road"
   },
   {
     "id": 15,
@@ -225,7 +239,8 @@
     "image": "/journals/cover/15.png",
     "views": 19546,
     "copies": 109,
-    "path": "community-journals/the-one-name-on-the-deed"
+    "path": "community-journals/the-one-name-on-the-deed",
+    "location": "JP Nagar"
   },
   {
     "id": 16,
@@ -240,7 +255,8 @@
     "image": "/journals/cover/16.png",
     "views": 19244,
     "copies": 116,
-    "path": "community-journals/the-capitulation-journal"
+    "path": "community-journals/the-capitulation-journal",
+    "location": "HSR Layout"
   },
   {
     "id": 17,
@@ -255,7 +271,8 @@
     "image": "/journals/cover/17.png",
     "views": 15943,
     "copies": 196,
-    "path": "community-journals/the-two-cities-ledger"
+    "path": "community-journals/the-two-cities-ledger",
+    "location": "Whitefield"
   },
   {
     "id": 18,
@@ -270,7 +287,8 @@
     "image": "/journals/cover/18.png",
     "views": 18121,
     "copies": 173,
-    "path": "community-journals/the-fiber-and-frangipani"
+    "path": "community-journals/the-fiber-and-frangipani",
+    "location": "Hebbal"
   },
   {
     "id": 19,
@@ -285,7 +303,8 @@
     "image": "/journals/cover/19.png",
     "views": 11894,
     "copies": 173,
-    "path": "community-journals/the-fifteen-minute-life"
+    "path": "community-journals/the-fifteen-minute-life",
+    "location": "Koramangala"
   },
   {
     "id": 20,
@@ -300,7 +319,8 @@
     "image": "/journals/cover/20.png",
     "views": 22772,
     "copies": 396,
-    "path": "community-journals/the-four-paws-two-names"
+    "path": "community-journals/the-four-paws-two-names",
+    "location": "Sarjapur–Harlur"
   },
   {
     "id": 21,
@@ -315,7 +335,8 @@
     "image": "/journals/cover/21.png",
     "views": 12610,
     "copies": 289,
-    "path": "community-journals/the-8-10-am-bell"
+    "path": "community-journals/the-8-10-am-bell",
+    "location": "Kanakapura Road"
   },
   {
     "id": 22,
@@ -330,7 +351,8 @@
     "image": "/journals/cover/22.png",
     "views": 4534,
     "copies": 156,
-    "path": "community-journals/the-three-generations-one-roof"
+    "path": "community-journals/the-three-generations-one-roof",
+    "location": "Bannerghatta–Hulimavu"
   },
   {
     "id": 23,
@@ -346,7 +368,8 @@
     "image": "/journals/cover/23.png",
     "views": 10157,
     "copies": 224,
-    "path": "community-journals/the-second-front-door"
+    "path": "community-journals/the-second-front-door",
+    "location": "Sarjapur"
   },
   {
     "id": 24,
@@ -362,7 +385,8 @@
     "image": "/journals/cover/24.png",
     "views": 22451,
     "copies": 156,
-    "path": "community-journals/the-east-facing-door"
+    "path": "community-journals/the-east-facing-door",
+    "location": "Banashankari"
   },
   {
     "id": 25,
@@ -377,7 +401,8 @@
     "image": "/journals/cover/25.png",
     "views": 21685,
     "copies": 217,
-    "path": "community-journals/the-two-doors-one-kitchen"
+    "path": "community-journals/the-two-doors-one-kitchen",
+    "location": "Frazer Town"
   },
   {
     "id": 26,
@@ -392,7 +417,8 @@
     "image": "/journals/cover/26.jpg",
     "views": 19120,
     "copies": 470,
-    "path": "community-journals/the-hours-i-got-back"
+    "path": "community-journals/the-hours-i-got-back",
+    "location": "Bellandur"
   },
   {
     "id": 27,
@@ -407,7 +433,8 @@
     "image": "/journals/cover/27.png",
     "views": 3885,
     "copies": 174,
-    "path": "community-journals/the-my-own-name"
+    "path": "community-journals/the-my-own-name",
+    "location": "CV Raman Nagar"
   },
   {
     "id": 28,
@@ -422,7 +449,8 @@
     "image": "/journals/cover/28.png",
     "views": 9135,
     "copies": 167,
-    "path": "community-journals/the-sunday-morning"
+    "path": "community-journals/the-sunday-morning",
+    "location": "Hulimavu"
   },
   {
     "id": 29,
@@ -437,7 +465,8 @@
     "image": "/journals/cover/29.png",
     "views": 9957,
     "copies": 347,
-    "path": "community-journals/the-lighter-house"
+    "path": "community-journals/the-lighter-house",
+    "location": "Basavanagudi"
   },
   {
     "id": 30,
@@ -452,7 +481,8 @@
     "image": "/journals/cover/30.png",
     "views": 18951,
     "copies": 72,
-    "path": "community-journals/the-third-innings"
+    "path": "community-journals/the-third-innings",
+    "location": "Devanahalli"
   },
   {
     "id": 31,
@@ -467,7 +497,8 @@
     "image": "/journals/cover/31.jpg",
     "views": 22632,
     "copies": 137,
-    "path": "community-journals/the-quarter-past-five"
+    "path": "community-journals/the-quarter-past-five",
+    "location": "Yelahanka"
   },
   {
     "id": 32,
@@ -482,7 +513,8 @@
     "image": "/journals/cover/32.png",
     "views": 16636,
     "copies": 144,
-    "path": "community-journals/the-rain-tree-avenue"
+    "path": "community-journals/the-rain-tree-avenue",
+    "location": "Cooke Town"
   },
   {
     "id": 33,
@@ -497,7 +529,8 @@
     "image": "/journals/cover/33.png",
     "views": 17294,
     "copies": 341,
-    "path": "community-journals/the-reverse-migration"
+    "path": "community-journals/the-reverse-migration",
+    "location": "Whitefield"
   },
   {
     "id": 34,
@@ -512,7 +545,8 @@
     "image": "/journals/cover/34.png",
     "views": 14575,
     "copies": 376,
-    "path": "community-journals/the-three-shares"
+    "path": "community-journals/the-three-shares",
+    "location": "Malleshwaram"
   },
   {
     "id": 35,
@@ -527,7 +561,8 @@
     "image": "/journals/cover/35.png",
     "views": 15287,
     "copies": 402,
-    "path": "community-journals/the-high-ground"
+    "path": "community-journals/the-high-ground",
+    "location": "Hennur"
   },
   {
     "id": 36,
@@ -542,7 +577,8 @@
     "image": "/journals/cover/36.png",
     "views": 11042,
     "copies": 188,
-    "path": "community-journals/the-mud-sun-and-slab"
+    "path": "community-journals/the-mud-sun-and-slab",
+    "location": "Kanakapura (Malhar)"
   },
   {
     "id": 37,
@@ -557,7 +593,8 @@
     "image": "/journals/cover/37.png",
     "views": 16963,
     "copies": 186,
-    "path": "community-journals/the-eoi-window"
+    "path": "community-journals/the-eoi-window",
+    "location": "Sarjapur–Varthur"
   },
   {
     "id": 38,
@@ -572,7 +609,8 @@
     "image": "/journals/cover/38.png",
     "views": 10543,
     "copies": 69,
-    "path": "community-journals/the-slab-by-slab"
+    "path": "community-journals/the-slab-by-slab",
+    "location": "Panathur"
   },
   {
     "id": 39,
@@ -587,7 +625,8 @@
     "image": "/journals/cover/39.png",
     "views": 14351,
     "copies": 330,
-    "path": "community-journals/the-snag-list"
+    "path": "community-journals/the-snag-list",
+    "location": "Kanakapura Road"
   },
   {
     "id": 40,
@@ -603,7 +642,8 @@
     "image": "/journals/cover/40.jpg",
     "views": 12328,
     "copies": 418,
-    "path": "community-journals/the-almost-first-owner"
+    "path": "community-journals/the-almost-first-owner",
+    "location": "Hennur"
   },
   {
     "id": 41,
@@ -618,6 +658,7 @@
     "image": "/journals/cover/41.png",
     "views": 489,
     "copies": 87,
-    "path": "community-journals/the-one-more-room"
+    "path": "community-journals/the-one-more-room",
+    "location": "Varthur"
   }
 ]

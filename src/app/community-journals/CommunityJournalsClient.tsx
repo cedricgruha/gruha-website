@@ -19,6 +19,7 @@ interface JournalCard {
   views?: number;
   copies?: number;
   path?: string;
+  location?: string;
 }
 
 const FILTERS = [
@@ -110,8 +111,14 @@ function getCategoryBadge(journal: JournalCard): { text: string; bg: string; col
   return { text: label.toUpperCase(), bg: style.bg, color: style.color };
 }
 
-// Helper to determine location string
+// Helper to determine location string.
+// Prefers the card's explicit `location` (journal-sourced real corridor); only
+// falls back to keyword inference + a cycled name when `location` is absent.
 function getLocationName(journal: JournalCard): string {
+  if (journal.location && journal.location.trim()) {
+    return journal.location.trim();
+  }
+
   const tagsStr = (journal.tags || []).join(" ").toLowerCase();
   const subStr = (journal.subtitle || "").toLowerCase();
 
@@ -478,7 +485,7 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                             <span>{location}</span>
                           </div>
 
-                          <div className="flex items-center gap-3">
+                          {/*<div className="flex items-center gap-3">
                             <span className="flex items-center gap-1 opacity-90">
                               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -493,7 +500,7 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({
                               </svg>
                               {viewsStr}
                             </span>
-                          </div>
+                          </div>*/}
                         </div>
                       </div>
                     </div>
