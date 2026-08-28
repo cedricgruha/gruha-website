@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CommunityJournalsPage() {
-  return <CommunityJournalsClient journals={journals} />;
+export default async function CommunityJournalsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ filter?: string }> | { filter?: string };
+}) {
+  const params = await searchParams;
+  const filter =
+    typeof params === "object" && params !== null
+      ? (params.filter as string | undefined)
+      : undefined;
+  return <CommunityJournalsClient journals={journals} initialFilter={filter} />;
 }

@@ -103,10 +103,10 @@ export const HeroSection = () => {
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/assets/hero/hero-background.png"
+            src="/assets/hero/hero.png"
             alt="Hero Background"
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
             sizes="100vw"
           />
@@ -177,6 +177,26 @@ function journalCategory(journal: JournalCard): string {
   if (s.startsWith("special convictions")) return "Special Convictions";
   if (s.startsWith("primary purchase")) return "Primary Purchase";
   return "Community";
+}
+
+/* Map a category's display title to the Community Journals page filter name so
+   clicking a category card lands on the journals list with that filter active. */
+function categoryToFilter(title: string): string {
+  switch (title) {
+    case "Pre-launch": return "Pre-launch";
+    case "Investors & Wealth":
+    case "Lifestyle": return "Investment";
+    case "Young Professionals & First-Timers": return "First Home";
+    case "Families":
+    case "Legacy": return "Families";
+    case "Seniors & Downsizers": return "Seniors & Downsizers";
+    case "Plot Buyers": return "Plots & Villas";
+    case "NRI & Returnees": return "NRI & Returnees";
+    case "Upgraders": return "Upgraders";
+    case "Special Convictions":
+    case "Primary Purchase": return "Specialists";
+    default: return "All";
+  }
 }
 
 export const CommunityJournalsSection = () => {
@@ -281,7 +301,7 @@ export const CommunityJournalsSection = () => {
               return (
                 <Link
                   key={cat.title}
-                  href="/community-journals"
+                  href={`/community-journals?filter=${encodeURIComponent(categoryToFilter(cat.title))}`}
                   className="group/card relative min-w-[200px] sm:min-w-[220px] md:min-w-[230px] h-[200px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.02] select-none"
                 >
                   <Image
