@@ -1,0 +1,935 @@
+{
+  "article": {
+    "tags": [
+      "SPECIAL CONVICTIONS",
+      "FLOOD-MAP BUYERS",
+      "HENNUR RIDGE • YELAHANKA"
+    ],
+    "title": "The High Ground Journal",
+    "description": "Farah (37, sustainability consultant) & Salman Khureshi's (39, insurance data scientist) post-2022 methodology — a public data stack that greys out 60% of the city, ₹50K hydrology reports per finalist, monsoon site visits, and a joy rule with veto-recovery power.",
+    "quote": "\"We don't ask about the clubhouse. We ask where the water goes.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Map",
+        "text": "Public data greys out 60% of inventory in an afternoon"
+      },
+      {
+        "icon": "CloudRain",
+        "text": "The monsoon-visit protocol re-ranks shortlists"
+      },
+      {
+        "icon": "Sun",
+        "text": "The joy rule: high ground, not a bunker"
+      }
+    ],
+    "heroImage": "/journals/cover/35.png",
+    "heroTitle": "The High Ground Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Farah (37, sustainability consultant) & Salman Khureshi (39, insurance-sector data scientist) — professions that make them constitutionally incapable of ignoring tail risk, and a 2022 flood that drowned their car, their deposit, and any tolerance for unverified ground.",
+      "buyers": [
+        {
+          "name": "Farah Khureshi",
+          "age": 37,
+          "role": "Sustainability Consultant",
+          "description": "Asks for STP maintenance logs (sales offices now warn each other), verifies rainwater harvesting is real, and instituted the joy rule: any property that passes the maps gets evaluated on light and life like a normal home. The final gate is a mango tree and east sun.",
+          "tags": [
+            "STP-Log Demander",
+            "Joy-Rule Author",
+            "Mango-Tree Finalist"
+          ],
+          "image": "/journals/the-high-ground/farah.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 37-year-old Indian professional woman named Farah wearing smart business casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, sharp calm expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Salman Khureshi",
+          "age": 39,
+          "role": "Data Scientist, Insurance Sector",
+          "description": "Prices climate risk for a living; built the family's GIS layer-stack — flood-vulnerability maps, lake-encroachment reports, valley zones, elevation profiles. His post-flood resale dataset tracks 2022-affected micro-markets at persistent 8–12% discounts.",
+          "tags": [
+            "Layer-Stack Builder",
+            "Resale-Dataset Keeper",
+            "Rain-Logged Optimist"
+          ],
+          "image": "/journals/the-high-ground/salman.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 39-year-old Indian man named Salman wearing a collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry analytical expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy the city's quiet high ground — a 3BHK on a verified ridge, cross-referenced against flood maps, rajakaluve buffers, and elevation profiles, with a functioning STP, real rainwater harvesting, quantified water security — and a joy rule that guarantees it stays a home, not a bunker.",
+      "sharedVisionImage": "/journals/the-high-ground/shared-vision.png",
+      "imagegenerationprompt": "An editorial vector illustration of a couple standing on a hilltop contour line rendered like a topographic map, their apartment building safely on high ground, below them translucent blue layers showing old lake boundaries and water channels flowing through a stylized city, an umbrella held casually closed, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the high-ground building, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Climate-Risk Methodologists"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Post-2022, Method-Built"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Verified Ridge Closed"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "8 Months — Monsoon-Aligned"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-high-ground/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with a rajakaluve buffer ring and a flood-vulnerability overlay, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the buffer, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "No Rajakaluve in the Contested Buffer",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "The city built itself over 180+ lakes and their interconnecting raja kaluves — the water remembers every one. The contested buffer is screened first, from public data, not brochures."
+        },
+        {
+          "image": "/journals/the-high-ground/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a commissioned hydrology report with a commissioned seal and monsoon-blue tabs, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Hydrology Report — Theirs, Not the Brochure's",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "₹50K commissioned per finalist — the line item they defend most cheerfully. The brochure's hydrology is marketing; theirs is filed in monsoon blue."
+        },
+        {
+          "image": "/journals/the-high-ground/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an STP maintenance log with verification ticks and a tanker-dependence gauge below 20%, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the gauge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "STP Logs + Tanker Dependence <20%",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Farah asks for the maintenance logs — sales offices have started warning each other. Borewell depth and water-tanker dependence quantified, because water security is the slow flood."
+        },
+        {
+          "image": "/journals/the-high-ground/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a 2022 WhatsApp group photo of a flooded street beside a dry-basement photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the dry-basement photo, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The 2022 WhatsApp-Photo Test",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "'Show me 2022's WhatsApp group photos' produced the most honest disclosure of the search — one RWA proudly shared their dry basement; one sales head changed the subject. Both answers were complete."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a laminated 2022 photo to a data stack that greyed out 60% of the city, a lake-view reel vetoed by its own valley line, and a ridge unit passed by monsoon boots and the joy rule.",
+      "journeyFrameTitle": "THE WATER REMEMBERS; SO DO THEY",
+      "roadmapTitle": "How a risk-professional couple bought high ground, not a bunker",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Verified Ridge"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹2.3–2.6 Cr, Below Eligibility"
+        },
+        {
+          "icon": "Map",
+          "label": "THE SCREEN",
+          "value": "60% of the City, Greyed Out"
+        },
+        {
+          "icon": "Sun",
+          "label": "THE FINAL GATE",
+          "value": "Joy Rule: East Light + Mango"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-method",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The 2022 Photo Becomes Method",
+          "desc": "The flood memory converts: the public data stack — flood maps, lake buffers, valley lines — kills 60% of inventory in an afternoon. The photo is laminated and kept deliberately visible.",
+          "icon": "Droplets",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-ridge-corridors",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The High-Ground Corridors",
+          "desc": "Hennur ridge side, upper Banashankari, verified Yelahanka segments — the city's quiet high ground, mapped against the layer-stack.",
+          "icon": "Map",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-lake-view-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The 'Lake-View' Reel",
+          "desc": "A stunning lake-view launch — 'lake-facing' decoded as 'valley-adjacent'; the maps veto what the drone romanced. Project unnamed by policy.",
+          "icon": "Eye",
+          "x": 440,
+          "y": 320,
+          "width": 190
+        },
+        {
+          "id": "l4-hydrology-shortlist",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Commissioned Hydrology",
+          "desc": "₹50K per finalist: Bhartiya Nikoo Homes' elevated phases vs Purva Palm Beach — audited against their tanker-dependence threshold, tabs marked in monsoon blue.",
+          "icon": "FileCheck2",
+          "x": 560,
+          "y": 60,
+          "width": 210
+        },
+        {
+          "id": "l5-monsoon-protocol-loop",
+          "stage": "S3",
+          "type": "loop",
+          "title": "L5: The Monsoon Protocol",
+          "desc": "Each finalist in real rain, approach roads included — one 'high ground' road reveals itself as a drain; one basement ramp sheds rain like a design decision.",
+          "icon": "CloudRain",
+          "loopText": "Monsoon-Visit Loop — Approach Roads Included, One Fail",
+          "x": 740,
+          "y": 380,
+          "width": 200
+        },
+        {
+          "id": "l6-ridge-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Joy-Rule Close",
+          "desc": "Under-construction unit on the verified ridge closed — basement drainage inspectable mid-build; Farah's joy rule passes it last: east light, an old mango on site.",
+          "icon": "KeyRound",
+          "x": 800,
+          "y": 60,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "mapping",
+          "label": "Mapping",
+          "icon": "Map"
+        },
+        {
+          "id": "reporting",
+          "label": "Reporting",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "monsooning",
+          "label": "Monsoon-Testing",
+          "icon": "CloudRain"
+        },
+        {
+          "id": "joying",
+          "label": "Joy-Checking",
+          "icon": "Sun"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "High Ground, Not Bunker"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "laminated-photo-moment",
+          "title": "The laminated 2022 photo",
+          "desc": "The 2022 flood photo that started the method — laminated, kept deliberately visible on the desk, the car that drowned converted into a methodology.",
+          "imageSrc": "/journals/the-high-ground/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a laminated 2022 flood photograph of a submerged street kept visible on a desk beside survey maps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "greyed-city-moment",
+          "title": "Sixty percent of the city, greyed out",
+          "desc": "The public data stack — flood maps, lake buffers, valley lines — rendered as one map with 60% of the city greyed out in an afternoon of method.",
+          "imageSrc": "/journals/the-high-ground/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a city map with 60% of its area greyed out and high-ground corridors highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "canal-vs-ramp-moment",
+          "title": "The canal-vs-ramp monsoon pair",
+          "desc": "Monsoon-visit photos: one approach road performing as a canal, one basement ramp shedding rain — the two photographs that re-ranked the shortlist.",
+          "imageSrc": "/journals/the-high-ground/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two monsoon photographs side by side — one of an approach road flooded like a canal, one of a basement ramp shedding rain cleanly, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "mango-tree-moment",
+          "title": "The old mango, east light",
+          "desc": "The ridge unit's booking beside an old mango tree photo — the joy rule's sign-off, initialled, the file's one photograph that isn't evidence.",
+          "imageSrc": "/journals/the-high-ground/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a booking receipt beside a photograph of an old mango tree with morning east light, a small initialled sign-off note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The approach road is currently auditioning as a canal — ten out of ten flow rate. The 'high ground' starts fifty metres AFTER the water feature.",
+          "author": "— Farah"
+        },
+        {
+          "text": "So the plot is high and the driveway is honest. That's a fail — access floods are still floods.",
+          "author": "— Riya"
+        },
+        {
+          "text": "That one has the old mango tree near tower two. East light in the mornings. The joy rule passes it.",
+          "author": "— Farah"
+        },
+        {
+          "text": "The drainage engineer walked us through the sump logic himself — no marketing person could fake that much enthusiasm for gradients.",
+          "author": "— Salman"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Farah",
+          "avatar": "/journals/the-high-ground/farah.png",
+          "text": "The approach road, Riya, is currently auditioning as a canal. Ten out of ten flow rate. The 'high ground' starts fifty metres AFTER the water feature, yaar."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then that's a fail — access floods are still floods; ask anyone who couldn't reach their dry house in 2022. And the ridge-side one from last week? Your notes said the basement ramp shed water like it was designed by someone who'd actually seen rain. The joy rule passes it — ridge-side goes to offer. Bring the umbrella home.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Map",
+          "title": "The Data Stack, Not the Funnel",
+          "description": "Public flood maps, lake buffers, and valley classifications eliminate 60% of inventory in an afternoon — the commissioned ₹50K hydrology report is for the finalists, not the funnel."
+        },
+        {
+          "icon": "CloudRain",
+          "title": "The Monsoon-Visit Protocol",
+          "description": "Each finalist visited in real rain, approach roads and basement ramps photographed — one 'high ground' project's access road turned out to be a valley's drain. Access floods are still floods."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Under-Construction Verifiability",
+          "description": "Mid-build, the basement's drainage design, the sump's overflow routing, and the STP's specification are all inspectable — what ready buildings hide is negotiable pre-possession."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "The Elevation Premium, Arriving Slowly",
+          "description": "High-ground micro-markets carry a discernible 4–6% elevation premium; 2022-affected micro-markets still trade at persistent 8–12% discounts — the market repricing arrives one monsoon at a time."
+        },
+        {
+          "icon": "Sun",
+          "title": "The Joy Rule",
+          "description": "Any property that passes the maps gets evaluated on joy, light, and life like a normal home — the guard against the layer-stack becoming a way of never deciding."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-high-ground.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "The city's quiet high ground — Hennur's ridge side, Banashankari's upper reaches, Yelahanka's verified segments — cross-referenced against the layer-stack, with the monsoon as the final examiner.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Verified High-Ground 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Hennur Ridge • Banashankari • Yelahanka"
+        },
+        {
+          "icon": "CloudRain",
+          "label": "THE FINAL EXAMINER",
+          "value": "Real Monsoon, Twice"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Verified Ridge Unit"
+        }
+      ],
+      "exploredAreasTitle": "The high ground they explored",
+      "exploredAreas": [
+        {
+          "title": "Hennur Ridge Side (Chosen)",
+          "description": "The ridge's elevated belt — where Bhartiya Nikoo Homes' audited phases sit, at ~₹12,100/sqft, with the mango tree and east light that passed the joy rule.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.0305,
+            "lng": 77.6485
+          },
+          "imageSrc": "/journals/the-high-ground/hennur-ridge.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Hennur ridge side's elevated residential belt, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Banashankari Upper Reaches",
+          "description": "The south's quiet high ground — upper reaches priced at ₹13–16K/sqft with the elevation premium, audited against the flood-adjacent comparables.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9326038,
+            "lng": 77.4749024
+          },
+          "imageSrc": "/journals/the-high-ground/banashankari.png",
+          "imagegenerationprompt": "A modern architectural vector view of Banashankari's upper reaches with elevated residential avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Yelahanka's Verified Segments",
+          "description": "The north's verified pockets — segments that survived the layer-stack's screen, watched for the rare listing that passes the monsoon protocol.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.1183111,
+            "lng": 77.5784644
+          },
+          "imageSrc": "/journals/the-high-ground/yelahanka.png",
+          "imagegenerationprompt": "A modern architectural vector view of Yelahanka's verified residential segments with elevated plots, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the 'lake-view' launch (detour — valley-adjacent, maps vetoed the drone) • every parcel the layer-stack greyed out in an afternoon",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE 2022 CONVERSION",
+          "value": "A Drowned Car Becomes Method",
+          "description": "The year tractors ferried CEOs out of villa communities — their car drowned, their deposit drowned with it, and the experience converted professional awareness into a personal methodology.",
+          "icon": "Droplets"
+        },
+        {
+          "title": "THE INVERTED MARKET LOGIC",
+          "value": "Proximity as Risk Disclosure",
+          "description": "They treat '10 minutes from ORR' as a risk disclosure, not an amenity — the employment spine runs along the city's lowest, most lake-filled corridor, and they are consciously long safety.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "THE BROCHURE HYDROLOGY",
+          "value": "Marketing Wearing a Report",
+          "description": "Every 'flood-proof' claim is a brochure bullet — the ₹50K commissioned report per finalist remains the line item they defend most cheerfully.",
+          "icon": "FileX"
+        },
+        {
+          "title": "THE EVANGELISM BURDEN",
+          "value": "Lakebed Friends, Policy Needed",
+          "description": "They can't unknow what they know — every friend's lakebed purchase presents the quiet dilemma: say something and strain the friendship, or stay silent and watch the 2022 photos repeat.",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for verified elevation, functioning STP logs, quantified water security, and a monsoon that has seen each finalist in real rain.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Khureshis taught me that the water remembers every one of the 180+ lakes the city built over — and so do they. The public data stack eliminated 60% of the inventory in an afternoon; the ₹50K hydrology reports were for finalists, not the funnel. The monsoon protocol re-ranked the shortlist twice — one 'high ground' approach road performed as a canal, and access floods are still floods. And the discipline that saved them from analysis-forever was Farah's joy rule: any property that passes the maps gets evaluated on light and life like a normal home. The winner passed the maps and the light test — east morning sun, a mango tree older than the project. They're buying high ground, not a bunker, and the file now contains one photograph that isn't evidence.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a layer-stack map beside a commissioned hydrology report with monsoon-blue tabs, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The finalists that survived the layer-stack — hydrology-audited, monsoon-tested, and framed by their private thresholds rather than project claims.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Verified High-Ground 3BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Verified Ridge Unit"
+        },
+        {
+          "icon": "CloudRain",
+          "label": "THE MONSOON FAIL",
+          "value": "1 Approach-Road Canal"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹2.3–2.6 Cr + ₹50K Reports"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Map",
+          "title": "The Layer-Stack Screen",
+          "subtitle": "60% greyed in an afternoon"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Commissioned Hydrology",
+          "subtitle": "₹50K, monsoon-blue tabs"
+        },
+        {
+          "icon": "CloudRain",
+          "title": "Monsoon Protocol",
+          "subtitle": "approach roads included"
+        },
+        {
+          "icon": "Droplets",
+          "title": "Water Security <20%",
+          "subtitle": "tanker dependence, quantified"
+        },
+        {
+          "icon": "Sun",
+          "title": "The Joy Rule",
+          "subtitle": "mango tree, east light"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Salman",
+          "avatar": "/journals/the-high-ground/salman.png",
+          "text": "The drainage engineer walked us through the sump logic himself — no marketing person could fake that much enthusiasm for gradients, matlab. And the mango tree near tower two sealed Farah's joy rule."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then the file has everything it needs: the maps, the reports, the monsoon photos, and one photograph that isn't evidence. Ridge-side goes to offer — high ground, verified, with a mango tree as the final gate.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-high-ground/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Hennur ridge, Banashankari upper reaches and Yelahanka with flood-vulnerability overlays in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 audited options",
+      "projects": [
+        {
+          "title": "Bhartiya City Nikoo Homes (Chosen)",
+          "name": "Bhartiya City Nikoo Homes — Elevated Phase",
+          "price": "~₹12,100/sqft",
+          "possession": "Under construction",
+          "psf": "Township scale, hydrology-audited",
+          "location": "Thanisandra",
+          "imageSrc": "/journals/the-high-ground/projects/Bhartiya-City-Nikoo-Homes.webp"
+        },
+        {
+          "title": "The Audited Shortlist",
+          "name": "Purva Palm Beach",
+          "price": "~₹13.5–14K/sqft",
+          "possession": "Ready",
+          "psf": "Verdicts personal, not claims",
+          "location": "Hennur Rd",
+          "imageSrc": "/journals/the-high-ground/projects/Purva-Palm-Beach.jpg"
+        },
+        {
+          "title": "The Valley-Adjacent Detour",
+          "name": "The 'Lake-View' Launch",
+          "price": "Premium band",
+          "possession": "Launch",
+          "psf": "Maps vetoed the drone",
+          "location": "North-east",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The 'Lake-View' Reel",
+          "count": "1 detour — valley-adjacent, vetoed"
+        },
+        {
+          "icon": "CloudRain",
+          "title": "Failed the Monsoon Protocol",
+          "count": "1 approach road performing as a canal"
+        },
+        {
+          "icon": "Map",
+          "title": "Greyed Out by the Layer-Stack",
+          "count": "60% of the city, in an afternoon"
+        },
+        {
+          "icon": "FileX",
+          "title": "The Brochure-Hydrology Projects",
+          "count": "every claim without a commissioned report"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the under-construction unit on the verified ridge delivered the layer-stack screen, a commissioned ₹50K hydrology report, a monsoon protocol passed in real rain, and — via under-construction verifiability — a basement drainage design inspectable mid-build. The joy rule passed it last: east light, an old mango tree. High ground, not a bunker.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for climate-aware buyers — the data-stack screen, the commissioned report, the monsoon protocol, and the joy rule that keeps prudence from becoming paralysis.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Data Stack, Not Funnel"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Verified Elevation"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The 'Lake-View' Reel"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Joy Rule"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The public data stack eliminates 60% of inventory in an afternoon.",
+          "description": "BBMP flood-vulnerability maps, lake-encroachment reports, valley classifications — the funnel is screened from public data; the commissioned ₹50K hydrology report is for the finalists only.",
+          "imageSrc": "/journals/the-high-ground/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a city map with 60% greyed out and a commissioned report marked for the highlighted finalists, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Under-construction primary purchases let them verify what ready buildings hide.",
+          "description": "The basement's drainage design, the sump's overflow routing, the STP's specification — inspectable mid-construction, negotiable pre-possession, impossible to confirm in a ready tower.",
+          "imageSrc": "/journals/the-high-ground/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a mid-construction basement with drainage design and sump overflow routing marked and inspectable, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The monsoon-visit protocol re-ranked the shortlist.",
+          "description": "Each finalist visited during real rain, approach roads and basement ramps photographed — one 'high ground' project's access road turned out to be a valley's drain. Access floods are still floods.",
+          "imageSrc": "/journals/the-high-ground/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of monsoon-visit photographs — a flooded approach road and a clean-shedding basement ramp — with re-ranking notes, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The joy rule keeps the layer-stack from becoming paralysis.",
+          "description": "Any property that passes the maps gets evaluated on joy, light, and life like a normal home — 'we're buying high ground, not a bunker,' and the file's one non-evidence photograph is a mango tree.",
+          "imageSrc": "/journals/the-high-ground/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an old mango tree in east morning light beside a file with one non-evidence photograph initialled, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The brochure's 'flood-proof' claim is a data point"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Proximity to the ORR is the only amenity that matters"
+        },
+        {
+          "icon": "Building2",
+          "text": "A ready building's drainage is confirmable after purchase"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "Eligibility is the budget, and the buffer is for lifestyle"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Map",
+          "text": "The public data stack screens the funnel; the report audits the finalists"
+        },
+        {
+          "icon": "CloudRain",
+          "text": "Monsoon boots beat brochures — approach roads included"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "Mid-build, the drainage is inspectable and negotiable"
+        },
+        {
+          "icon": "Sun",
+          "text": "The joy rule is the final gate — high ground, not a bunker"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Map",
+          "title": "Run the data stack before the first site visit",
+          "description": "The 60% grey-out happened in month one — had the stack been built pre-search, the funnel would have been clean from the first Sunday."
+        },
+        {
+          "icon": "CloudRain",
+          "title": "Schedule the monsoon protocol in the needs card",
+          "description": "The canal-performing approach road was discovered at month five — 'see each finalist in real rain' should have been a gate from the start, not a refinement."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Commission hydrology with the shortlist, not after",
+          "description": "The ₹50K reports arrived at month four — commissioning with the first shortlist would have greyed out two of the three finalists sooner."
+        },
+        {
+          "icon": "Sun",
+          "title": "Write the joy rule on the first page",
+          "description": "Farah's rule was instituted at month six — the layer-stack's veto had been running unchecked for five months, and joy deserved a vote from day one."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Salman",
+          "avatar": "/journals/the-high-ground/salman.png",
+          "text": "The basement sheds rain like a design decision, the tanker dependence is under twenty percent, and there's an old mango tree in the morning sun. Even the layer-stack approves of the light."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the file complete — maps, reports, monsoon photos, and one photograph that isn't evidence. The water remembers, and so do you. But the house you chose was always going to be the one where joy passed the final gate.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for climate-aware buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Salman laminating the 2022 photo, greying out the city on the layer-stack map, photographing the canal-vs-ramp monsoon pair, and initialling the joy-rule sign-off beside the mango tree photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For climate-aware buyers, the method is the margin: screen the funnel with public data — flood maps, lake buffers, valley lines — and spend the commissioned report on finalists only. Verify under-construction drainage mid-build, visit every finalist in real rain with approach roads included, and ask the 2022 WhatsApp-photo question, because both answers are complete. Price the elevation premium and the flood-zone discount honestly, and remember the joy rule: any property that passes the maps gets evaluated on light and life like a normal home. Farah and Salman proved that buying high ground is not a bunker — it's a home on the highest contour, with one photograph in the file that isn't evidence.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The public data stack eliminates 60% of inventory in an afternoon",
+          "body": "BBMP flood-vulnerability maps, lake-encroachment reports, valley classifications — the commissioned hydrology report is for the finalists, not the funnel.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Under-construction primary purchases let them verify what ready buildings hide",
+          "body": "The basement's drainage design, the sump's overflow routing, the STP's specification — inspectable mid-construction, negotiable pre-possession.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The monsoon visit protocol re-ranked the shortlist",
+          "body": "Each finalist during real rain, approach roads and basement ramps photographed — one 'high ground' project's access road turned out to be a valley's drain.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The 2022 WhatsApp-photo question produced the most honest disclosure of the search",
+          "body": "One RWA proudly shared their dry-basement photos; one sales head changed the subject. Both answers were complete.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Farah's joy rule held — the winner passed the maps and the light test",
+          "body": "East morning sun, a mango tree older than the project. They are buying high ground, not a bunker, and the file now contains one photograph that isn't evidence.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Fifty-k hydrology reports — worth it?",
+      "description": "If a flood made you methodical like Farah and Salman, let Riya build your high-ground roadmap — the layer-stack screen, the hydrology commissioning, and the monsoon protocol.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the corridors you can accept, the water-security thresholds, the budget — and whether joy gets a vote in your process.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya screens under-construction projects against the flood-vulnerability stack, structures the hydrology commissioning, and builds the monsoon site-visit protocol.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom High Ground journal — layer-stack screen, hydrology-commissioning pack, and monsoon-protocol checklist — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the high-ground shortlist with hydrology status, STP logs, and monsoon track records for each candidate.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Flood-Vulnerability Screen",
+          "description": "How to read and source the flood maps, lake buffers, and valley classifications — the funnel screened from public data, in an afternoon.",
+          "icon": "Map"
+        },
+        {
+          "id": 2,
+          "title": "Hydrology & Water-Security Audits",
+          "description": "Commissioning how-tos, STP and RWH checklists, tanker-dependence quantification — the report that files in monsoon blue.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 3,
+          "title": "The Monsoon-Protocol Checklist",
+          "description": "Approach roads, basement ramps, and the 2022 WhatsApp-photo question — the final examiner is real rain, twice.",
+          "icon": "CloudRain"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "A flood, a drowned car, or a season of tanker dependence converted you from aware to methodical.",
+        "Your first site-visit question is where the water goes, with maps.",
+        "You treat proximity-to-ORR as a risk disclosure and elevation as an amenity.",
+        "You commission your own reports because the brochure's hydrology is marketing.",
+        "You're consciously long safety in a market still pricing proximity — and you accept the ambiguity.",
+        "Someone in the household has had to grant joy veto-power back, by rule."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-method",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The 2022 Photo Becomes Method",
+      "desc": "The flood memory converts: the public data stack — flood maps, lake buffers, valley lines — kills 60% of inventory in an afternoon. The photo is laminated and kept deliberately visible.",
+      "icon": "Droplets",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-ridge-corridors",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The High-Ground Corridors",
+      "desc": "Hennur ridge side, upper Banashankari, verified Yelahanka segments — the city's quiet high ground, mapped against the layer-stack.",
+      "icon": "Map",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-lake-view-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The 'Lake-View' Reel",
+      "desc": "A stunning lake-view launch — 'lake-facing' decoded as 'valley-adjacent'; the maps veto what the drone romanced. Project unnamed by policy.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-hydrology-shortlist",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Commissioned Hydrology",
+      "desc": "₹50K per finalist: Bhartiya Nikoo Homes' elevated phases vs Purva Palm Beach — audited against their tanker-dependence threshold, tabs marked in monsoon blue.",
+      "icon": "FileCheck2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-monsoon-protocol-loop",
+      "stage": "S3",
+      "type": "loop",
+      "title": "L5: The Monsoon Protocol",
+      "desc": "Each finalist in real rain, approach roads included — one 'high ground' road reveals itself as a drain; one basement ramp sheds rain like a design decision.",
+      "icon": "CloudRain",
+      "loopText": "Monsoon-Visit Loop — Approach Roads Included, One Fail",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-ridge-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Joy-Rule Close",
+      "desc": "Under-construction unit on the verified ridge closed — basement drainage inspectable mid-build; Farah's joy rule passes it last: east light, an old mango on site.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

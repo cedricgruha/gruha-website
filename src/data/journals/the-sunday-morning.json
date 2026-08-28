@@ -1,0 +1,968 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "NIGHT-SHIFT BACKBONE",
+      "HULIMAVU • BEGUR • AKSHAYANAGAR"
+    ],
+    "title": "The Sunday Morning Journal",
+    "description": "Jessy (36, cardiac ICU nurse) & Thomas Mathew's (39, lab supervisor) hospital-belt purchase — a nurse-scheme rate found at bank two, a remittance line budgeted before the EMI, 10 am day-sleep audits, and a parish network that did what no portal could.",
+    "quote": "\"We work when the city sleeps. We're buying where it prays.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Stethoscope",
+        "text": "Nurse-scheme loans shave the rate — hunt subsidy lines"
+      },
+      {
+        "icon": "Moon",
+        "text": "Day-sleep due diligence hears what brochures omit"
+      },
+      {
+        "icon": "ClipboardList",
+        "text": "The remittance line is budgeted before the EMI"
+      }
+    ],
+    "heroImage": "/journals/cover/28.png",
+    "heroTitle": "The Sunday Morning Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Jessy (36, senior staff nurse, cardiac ICU) & Thomas Mathew (39, lab supervisor) — from Kottayam and Pathanamthitta, twelve years in Bengaluru, two kids (10 and 6), money home monthly without discussion, and a ₹95L–1.15 Cr budget earned in night shifts and double shifts.",
+      "buyers": [
+        {
+          "name": "Jessy Mathew",
+          "age": 36,
+          "role": "Senior Staff Nurse, Cardiac ICU",
+          "description": "Her week includes nights — so hospital proximity is safety (a shorter 11 pm scooter ride) and the 6 am post-night sleep needs a quiet bedroom no brochure advertises. Audits buildings at 10 am to hear them, and keeps one slab payment always ready.",
+          "tags": [
+            "Day-Sleep Auditor",
+            "Nurse-Scheme Hunter",
+            "Slab-Payment Keeper"
+          ],
+          "image": "/journals/the-sunday-morning/jessy.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 36-year-old Malayali woman named Jessy wearing a smart kurta with a nurse's lanyard, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm steady expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Thomas Mathew",
+          "age": 39,
+          "role": "Lab Supervisor, Diagnostics Chain",
+          "description": "Runs the census and the one-page budget where the remittance line sits before the EMI, always. The parish is his channel — the credit-and-crisis network that once produced ₹2L in a weekend for his father's angioplasty.",
+          "tags": [
+            "Census Keeper",
+            "Parish-Channel Man",
+            "Remittance-First Accountant"
+          ],
+          "image": "/journals/the-sunday-morning/thomas.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 39-year-old Malayali man named Thomas wearing a collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm dependable expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy in the hospital belt where the parish already is — a 2BHK within 20 minutes of the hospital and lab, a darkenable day-sleep bedroom, church and school walkable-or-short-ride, and four congregation families in the same project — with the remittance to Kottayam untouched, first position, always.",
+      "sharedVisionImage": "/journals/the-sunday-morning/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a nurse in uniform arriving home on a scooter at dawn, her husband holding tea at the door of a modest apartment, kids' school bags ready in the hall, a small church spire and hospital cross visible on the soft skyline, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the lamp-warm window, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Healthcare Shift Workers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Two Kids, Two Geographies"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "CLP Booked — Slab-Verified"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "12–18 Months, CLP-Aligned"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-sunday-morning/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a route map with a hospital pin and a 20-minute scooter ring at night, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the hospital pin, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "≤20 Min From Hospital & Lab",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Proximity is safety — the 11 pm scooter ride home gets shorter, and the post-night sleep gets longer. The most honestly priced amenity on the list."
+        },
+        {
+          "image": "/journals/the-sunday-morning/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a bedroom with blackout curtains and a phone decibel app reading quiet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the curtains, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Day-Sleep Acoustics",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The 6 am post-night sleep needs a quiet bedroom — audited at 10 am, when water pumps, school vans, and loudspeakers are actually speaking."
+        },
+        {
+          "image": "/journals/the-sunday-morning/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a church spire and a school building within a short-ride ring on a map, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the spire, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Church & School, Short Ride",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Sunday at St. Mary's and Friday's prayer group are the social architecture — walkable-or-short-ride, like the affordable schools."
+        },
+        {
+          "image": "/journals/the-sunday-morning/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a labelled slab-payment envelope beside a duty roster, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the envelope, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "One Slab Payment, Always Ready",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Demand letters follow the builder's slabs, not the family's good months — one slab's payment kept ready in advance, always, is shift-work applied to CLP."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a pre-approval at bank two with the nurse-scheme's −0.35%, to a census that educated, an aspiration detour the remittance line ended, and a CLP booking the parish had already vetted.",
+      "journeyFrameTitle": "REMITTANCE FIRST, ALWAYS",
+      "roadmapTitle": "How a shift-work family booked the hospital belt on construction-linked slabs",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Booked — CLP, Slab-Verified"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹85L Loan, EMI ₹74K"
+        },
+        {
+          "icon": "Stethoscope",
+          "label": "THE RATE WIN",
+          "value": "Nurse Scheme, −0.35%"
+        },
+        {
+          "icon": "Moon",
+          "label": "THE AUDIT HOUR",
+          "value": "10 am, Day-Sleep Honest"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-preapproval-first",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Pre-Approval First",
+          "desc": "The nurse-scheme rate found at the second bank (−0.35%); the map drawn from the hospital outward, loan in hand before any visit.",
+          "icon": "FileCheck2",
+          "x": 100,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-belt-census",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Belt Census",
+          "desc": "Akshayanagar–Begur 2BHKs span ₹58L–2.09 Cr on one honest page — the spread itself is the education, and the budget finds its level.",
+          "icon": "Search",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-song-of-the-south-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Song of the South",
+          "desc": "A colleague's housewarming leads to a ₹1.8 Cr 2BHK; two weeks of 'maybe with more shifts' before the remittance line restores order.",
+          "icon": "Eye",
+          "x": 200,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "l4-honest-shortlist",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Honest Shortlist",
+          "desc": "Prabhavathi Bliss II and two similar mid-communities at the belt's honest level; day-sleep acoustics tested at 10 am with a decibel app on a bare bedroom floor.",
+          "icon": "Building2",
+          "x": 460,
+          "y": 420,
+          "width": 290
+        },
+        {
+          "id": "l5-loudspeaker-regression",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-honest-shortlist",
+          "title": "L5 REGRESSION: The Loudspeaker Discovery",
+          "desc": "One shortlisted tower fails the temple-loudspeaker test no brochure mentions — struck out, with a loudspeaker schedule stapled to the census.",
+          "icon": "Undo2",
+          "loopText": "S4 → S3 Regression (Temple Loudspeaker)",
+          "x": 560,
+          "y": 100,
+          "width": 200
+        },
+        {
+          "id": "l6-clp-booking",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L6: The CLP Booking",
+          "desc": "Under-construction 2BHK booked on a construction-linked plan (one slab always pre-saved); the parish confirms four congregation families in the same project.",
+          "icon": "KeyRound",
+          "x": 840,
+          "y": 400,
+          "width": 200
+        },
+        {
+          "id": "l7-kottayam-loop",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L7: Slab-Verified & Shared",
+          "desc": "Slab-by-slab verification visits after night shifts; the Kottayam video call shares the EMI spreadsheet — love and expectations in the same currency.",
+          "icon": "ClipboardList",
+          "loopText": "Ongoing S6 — Slab-Verified, Remittance Intact",
+          "x": 780,
+          "y": 120,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "censusing",
+          "label": "Censusing",
+          "icon": "Search"
+        },
+        {
+          "id": "auditing",
+          "label": "Auditing",
+          "icon": "Moon"
+        },
+        {
+          "id": "booking",
+          "label": "Booking",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "verifying",
+          "label": "Verifying",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Slab by Slab"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "rate-letter-moment",
+          "title": "The −0.35% circled at bank two",
+          "desc": "Two banks' rate letters; the nurse-scheme's −0.35% circled at bank number two — a healthcare household's first subsidy line, hunted like a shift bonus.",
+          "imageSrc": "/journals/the-sunday-morning/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of two bank rate letters with a −0.35% nurse-scheme rate circled on the second one, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the circled figure, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "census-moment",
+          "title": "The one-page census spread",
+          "desc": "Akshayanagar 2BHK listings from ₹58L to ₹2.09 Cr on one honest page — the spread itself as education, the budget finding its level between the lines.",
+          "imageSrc": "/journals/the-sunday-morning/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a one-page census sheet with 2BHK listings spanning ₹58L to ₹2.09 Cr, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "loudspeaker-moment",
+          "title": "The loudspeaker schedule, stapled",
+          "desc": "The shortlist page with one tower struck out — a temple loudspeaker schedule stapled to it, the 10 am audit's catch that no brochure mentions.",
+          "imageSrc": "/journals/the-sunday-morning/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a shortlist page with one tower struck out in pen and a temple loudspeaker schedule stapled beside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "slab-envelope-moment",
+          "title": "The labelled slab-payment envelope",
+          "desc": "A CLP booking receipt; one slab-payment envelope already labelled and filled — shift-work applied to construction-linked plans, demand letters met by readiness.",
+          "imageSrc": "/journals/the-sunday-morning/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a labelled slab-payment envelope filled with cash beside a CLP booking receipt, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the envelope, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "kottayam-call-moment",
+          "title": "The Kottayam video call",
+          "desc": "The EMI spreadsheet shared on the video call, Amma mid-blessing — love and expectations in the same currency, the remittance line glowing at the top.",
+          "imageSrc": "/journals/the-sunday-morning/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a video call screenshot with an EMI spreadsheet shared on screen and an elderly mother mid-blessing, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We work when the city sleeps. We're buying where it prays.",
+          "author": "— Jessy & Thomas"
+        },
+        {
+          "text": "That line stays even in the worst month. We built the whole plan under it, alle.",
+          "author": "— Thomas, on the remittance"
+        },
+        {
+          "text": "She'll stop hearing 'debt' and start hearing 'neighbourhood.'",
+          "author": "— Riya, on the four parish families"
+        },
+        {
+          "text": "St. Mary's choir is basically doing the site visits now.",
+          "author": "— Jessy"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Jessy",
+          "avatar": "/journals/the-sunday-morning/jessy.png",
+          "text": "Riya, tonight we're doing it. The Kottayam call. Full spreadsheet, EMI, everything. Ente amme is going to see the numbers and say 'aiyyo mole, so much debt.'"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "She might. And then she'll see the line at the top, the one you asked me to add — the remittance. Fifteen thousand, first position, before the EMI. Untouched. This call isn't asking permission, Jessy — it's sharing the architecture. And tell Amma four families from the parish are in the same project. She'll hear 'neighbourhood,' not 'debt.'",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Stethoscope",
+          "title": "The Nurse-Scheme Rate",
+          "description": "Two banks have nurse-specific home-loan schemes — the second one shaved 0.35% off the rate. Every healthcare household should hunt the subsidy lines, not just the rate board."
+        },
+        {
+          "icon": "Moon",
+          "title": "The 10 am Day-Sleep Audit",
+          "description": "Buildings auditioned at 10 am hear what 6 pm can't: water pumps, school vans, corridor acoustics — and one tower's temple loudspeaker schedule that no brochure mentions."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Remittance Before EMI",
+          "description": "The ₹15K/month remittance is budgeted before the EMI, not after — any banker who suggests otherwise doesn't understand the household. Love and expectations, same currency."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Slab Payments, Pre-Saved",
+          "description": "Demand letters follow the builder's slabs, not the family's good months — one slab's payment kept ready in advance, always, is the shift-worker's CLP discipline."
+        },
+        {
+          "icon": "Users",
+          "title": "The Parish as Channel",
+          "description": "Portals confirm what community already vetted — four congregation families in one project settled community, school-van sharing, and Sunday logistics in a single conversation."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-sunday-morning.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Mapped the hospital belt from the hospital outward — Hulimavu–Begur–Akshayanagar 2BHKs at ₹11–13K/sqft, with the parish as the channel and the 10 am day-sleep audit as the filter.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Shift-Safe 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Hulimavu • Begur • Akshayanagar"
+        },
+        {
+          "icon": "Moon",
+          "label": "THE AUDIT HOUR",
+          "value": "10 am, Day-Sleep Honest"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "CLP-Booked, Parish-Vetted"
+        }
+      ],
+      "exploredAreasTitle": "The hospital belt they explored",
+      "exploredAreas": [
+        {
+          "title": "Hulimavu",
+          "description": "The belt's densest hospital-adjacent node — where the 11 pm scooter ride gets shortest, and the ₹14L proximity premium is priced per shift of safety.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.872893,
+            "lng": 77.5934705
+          },
+          "imageSrc": "/journals/the-sunday-morning/hulimavu.png",
+          "imagegenerationprompt": "A modern architectural vector view of Hulimavu's hospital corridor with residential mid-communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Begur (Chosen)",
+          "description": "The belt's value node — Prabhavathi Bliss II's mid-segment community and similar options, where the census's honest band and the day-sleep audit aligned.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.8773158,
+            "lng": 77.6221917
+          },
+          "imageSrc": "/journals/the-sunday-morning/begur.png",
+          "imagegenerationprompt": "A modern architectural vector view of Begur's mid-segment residential communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Akshayanagar",
+          "description": "The census's widest spread — 2BHKs from ₹58L to ₹2.09 Cr on one honest page, where the budget-vs-proximity squeeze was mapped and accepted.",
+          "projects": 4,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8663843,
+            "lng": 77.6049997
+          },
+          "imageSrc": "/journals/the-sunday-morning/akshayanagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of Akshayanagar's varied residential stock, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the Electronic City fringe (the painful fallback, refused) • Prestige Song of the South (the aspiration detour) • every listing beyond the 20-minute ring",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE SQUEEZE, STRUCTURAL",
+          "value": "Market Moved Faster",
+          "description": "Nursing and lab salaries finally moved post-2024, but the market moved faster — the budget-vs-proximity squeeze is structural, not a budgeting failure.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "THE ₹14L PROXIMITY PREMIUM",
+          "value": "Priced Per Shift of Safety",
+          "description": "The same flat 7 km south costs ₹14L less and adds 25 minutes to a post-night-shift ride Jessy should not be making — safety is the most honestly priced amenity on the list.",
+          "icon": "Stethoscope"
+        },
+        {
+          "title": "THE LOUDSPEAKER BLIND SPOT",
+          "value": "No Brochure Mentions It",
+          "description": "One shortlisted tower failed a temple-loudspeaker schedule discovered at the 10 am audit — the day-sleep filter that no portal, brochure, or builder's word reveals.",
+          "icon": "AudioLines"
+        },
+        {
+          "title": "THE ASPIRATION DETOUR",
+          "value": "'Maybe With More Shifts'",
+          "description": "A colleague's housewarming led to a ₹1.8 Cr showflat and two weeks of 'maybe with more shifts' — ended by the remittance line, which never moved.",
+          "icon": "Eye"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for shift safety, day-sleep acoustics, parish proximity, and a construction-linked plan their savings could breathe with — remittance first, always.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Mathews are the Bengaluru that keeps the other Bengalurus alive — and they shop the way they work: pre-approval first, census second, and a nurse-scheme rate hunted at bank two for its −0.35%. Their diligence instrument is time-of-day — buildings auditioned at 10 am, when the water pumps and loudspeakers are actually speaking. And their architecture is the parish: four congregation families in one project settled community, school-van sharing, and Sunday logistics in a single conversation, which is what no portal has ever done. The remittance line sits before the EMI, always — the Kottayam call shared the spreadsheet, and Amma heard 'neighbourhood' instead of 'debt.' Love and expectations, same currency.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a belt census beside two bank rate letters and a 10 am acoustic audit, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing the hospital belt's honest band — mid-segment communities with CLP structures, the aspiration detour priced in shifts, and a census that educated before it listed.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Shift-Safe 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "CLP-Booked 2BHK"
+        },
+        {
+          "icon": "AudioLines",
+          "label": "THE AUDIT CATCH",
+          "value": "1 Loudspeaker Tower"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹85L Loan • EMI ₹74K"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Stethoscope",
+          "title": "Hospital Proximity",
+          "subtitle": "safety, priced per shift"
+        },
+        {
+          "icon": "Moon",
+          "title": "10 am Day-Sleep Audit",
+          "subtitle": "pumps, vans, loudspeakers"
+        },
+        {
+          "icon": "Church",
+          "title": "Parish & School, Short Ride",
+          "subtitle": "the social architecture"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "CLP Affordability Bridge",
+          "subtitle": "slabs their savings can breathe with"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Remittance-First Budget",
+          "subtitle": "₹15K, before the EMI, always"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Thomas",
+          "avatar": "/journals/the-sunday-morning/thomas.png",
+          "text": "Four parish families in the same project, a CLP the savings can breathe with, and the remittance line untouched at the top. The Kottayam call went better than any of us feared."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Because you shared architecture, not a number — Amma saw the remittance first, the plan under it, and the neighbourhood around it. That's the whole journal: love and expectations, same currency, same page.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-sunday-morning/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Hulimavu, Begur and Akshayanagar hospital belt with a 20-minute scooter ring in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "The Shortlist Anchor",
+          "name": "Prabhavathi Bliss II",
+          "price": "2BHK in the ₹48–62L band",
+          "possession": "Under construction",
+          "psf": "Mid-segment, belt's honest level",
+          "location": "Begur",
+          "imageSrc": "/journals/the-sunday-morning/projects/Prabhavathi-Bliss-II.jpg"
+        },
+        {
+          "title": "The Aspiration Detour",
+          "name": "Prestige Song of the South",
+          "price": "2BHK 1,232 sqft ~₹1.8 Cr",
+          "possession": "Ready",
+          "psf": "The 'maybe with more shifts' flat",
+          "location": "Begur Rd",
+          "imageSrc": "/journals/the-sunday-morning/projects/Prestige-Song-of-the-South.webp"
+        },
+        {
+          "title": "The Census Itself",
+          "name": "Akshayanagar 2BHK Market",
+          "price": "₹58L–2.09 Cr",
+          "possession": "Mixed",
+          "psf": "600–1,800 sqft, verified listings",
+          "location": "Akshayanagar",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The ₹1.8 Cr Aspiration",
+          "count": "1 Song of the South, remittance-restored"
+        },
+        {
+          "icon": "AudioLines",
+          "title": "Failed the 10 am Day-Sleep Audit",
+          "count": "1 tower, temple loudspeaker"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Beyond the 20-Minute Ring",
+          "count": "every safety-priced-out candidate"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "The Electronic City Fallback",
+          "count": "refused, and stays refused"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Booking the under-construction 2BHK on a construction-linked plan delivered the affordability bridge — 10% now, slabs over three years, savings rebuilding between demands — with the parish network confirming four congregation families in the same project. The remittance stayed first position; the day-sleep audit passed at 10 am; and the Kottayam call shared architecture, not debt.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for healthcare and shift-working families — the subsidy-line hunt, the day-sleep audit, the slab discipline, and the remittance-first architecture.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Hunt the Subsidy Lines"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Remittance, First"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The 'Maybe With More Shifts' Weeks"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The 10 am Audit"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Construction-linked plans turn an impossible down payment into a survivable sequence.",
+          "description": "10% now, slabs over three years, savings rebuilding between demands — but demand letters follow the builder's slabs, not the family's good months. One slab's payment is now always kept ready in advance.",
+          "imageSrc": "/journals/the-sunday-morning/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a construction-linked payment schedule with a pre-saved slab envelope beside it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The nurse-specific home-loan scheme exists at two banks.",
+          "description": "Karnataka's stamp-duty slabs for sub-₹45L registrations no longer apply, but the bank's nurse-specific scheme shaved 0.35% off the rate — every healthcare household should hunt the subsidy lines, not just the rate board.",
+          "imageSrc": "/journals/the-sunday-morning/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of two bank rate letters with a nurse-scheme's −0.35% circled on the second, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Day-sleep due diligence is real — visit at 10 am, not 6 pm.",
+          "description": "The 10 am visit hears the water pumps, school vans, and corridor acoustics — and the one tower that failed on a temple's loudspeaker schedule no brochure mentions.",
+          "imageSrc": "/journals/the-sunday-morning/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decibel app on a bare bedroom floor at 10 am with a loudspeaker schedule stapled to a shortlist page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The parish produced what no portal did.",
+          "description": "Four congregation families already booked in one project settled community, school-van sharing, and Sunday logistics in a single conversation — the credit-and-crisis network working as a housing channel.",
+          "imageSrc": "/journals/the-sunday-morning/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a parish hall with four family silhouettes marked on a project map and a shared school-van route drawn between them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The rate board's best offer is the best offer"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A 6 pm site visit reveals a building's real noise"
+        },
+        {
+          "icon": "Building2",
+          "text": "A showflat's finish reveals a community's life"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "The EMI is the first line of the household budget"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Stethoscope",
+          "text": "The nurse-scheme's −0.35% was found at bank two — hunt the subsidy lines"
+        },
+        {
+          "icon": "Moon",
+          "text": "The 10 am visit hears what 6 pm can't"
+        },
+        {
+          "icon": "Users",
+          "text": "The parish vets what portals can't"
+        },
+        {
+          "icon": "ClipboardList",
+          "text": "Remittance first, EMI second, always — the plan built under the line"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Stethoscope",
+          "title": "Ask about the nurse scheme at the first call",
+          "description": "The −0.35% was found at bank two in month one — asking about healthcare-worker schemes at every bank's first call would have surfaced it instantly."
+        },
+        {
+          "icon": "Moon",
+          "title": "Run the 10 am audit from the first shortlist",
+          "description": "The loudspeaker tower survived two visits at 6 pm — the day-sleep audit should have been gate zero, not gate three."
+        },
+        {
+          "icon": "Users",
+          "title": "Ask the parish about projects before the census",
+          "description": "The four-family discovery arrived at month six — the congregation's housing knowledge would have accelerated the whole shortlist."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Put the remittance line on the first budget page",
+          "description": "The line was always sacred — putting it literally first on page one would have ended the 'maybe with more shifts' weeks earlier."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Jessy",
+          "avatar": "/journals/the-sunday-morning/jessy.png",
+          "text": "Amma saw the remittance line first, the plan under it, four parish families around it — and then she blessed the spreadsheet. I think the house got blessed before the booking did."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the order it should always be: the people first, then the plan, then the walls. The 2 ams you work for this city bought you a Sunday morning — with Amma's blessing attached.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for shift-working families",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Jessy and Thomas circling the −0.35% nurse-scheme rate, running the 10 am acoustic audit, filling the slab-payment envelope, and sharing the EMI spreadsheet with Kottayam on a video call, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For healthcare and shift-working families, the edge is in the architecture of the shift: pre-approval first with the subsidy lines hunted (the nurse-scheme's −0.35%), the remittance line budgeted before the EMI, the day-sleep audit run at 10 am, and one slab payment always kept ready. Let the parish and the community network vet what portals can't, and share the spreadsheet with the family back home as architecture, not debt. Jessy and Thomas proved the city's 2 ams can buy a Sunday morning — slab by slab, blessing included.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "Construction-linked plans turn an impossible down payment into a survivable sequence",
+          "body": "But demand letters follow the builder's slabs, not the family's good months — they now keep one slab's payment ready in advance, always.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The PMAY-miss taught them to hunt every other subsidy line",
+          "body": "The stamp-duty slabs no longer apply, but the bank's nurse-specific home-loan scheme — two banks have them — shaved 0.35% off the rate.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Day-sleep due diligence is real: they visit at 10 am to hear the building",
+          "body": "Water pumps, school vans, the corridor's acoustics — and one shortlisted tower failed on a temple's loudspeaker schedule no brochure mentions.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "The parish network produced what no portal did",
+          "body": "Four families from the congregation already booked in one project — which settled community, school-van sharing, and Sunday logistics in a single conversation.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "They told Kottayam the EMI math on a video call, spreadsheet shared",
+          "body": "The remittance stayed; the expectations resized; the love survived the currency conversion. Amma heard 'neighbourhood' instead of 'debt.'",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Two on-duty jobs, Sundays finally yours?",
+      "description": "If your work keeps the city's 2 ams running, like Jessy and Thomas, let Riya build your shift-safe roadmap — subsidy-line loans, the remittance-first budget, and the 10 am day-sleep audit.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the hospital and workplace addresses, the shift pattern, the remittance commitment, and the school and parish anchors.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya compares the healthcare-worker loan schemes, runs the one-bad-month stress test, and maps the belt against the hospital, church, and schools.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Sunday Morning journal — remittance-first budget, day-sleep audit, and slab-payment tracker — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive RERA-registered CLP 2BHKs under budget, mapped against the hospital, the church, and affordable schools.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Hospital-Belt Micro-Market Guides",
+          "description": "The Hulimavu–Begur–Akshayanagar map with night-shift routes, day-sleep acoustics, and community norms — priced per shift of safety.",
+          "icon": "Stethoscope"
+        },
+        {
+          "id": 2,
+          "title": "Remittance-Plus-EMI Budgeting",
+          "description": "The line that comes first, always — the framework that keeps love and expectations in the same currency.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "Healthcare-Worker Loan Schemes",
+          "description": "The nurse-specific rates and subsidy lines compared — because the −0.35% lives at bank two, not bank one.",
+          "icon": "FileCheck2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your work keeps the city's 2 ams running, and your home search is organized around shift safety and day sleep.",
+        "Money goes home every month before it goes anywhere else, and that's not negotiable or discussed.",
+        "Your community — parish, samajam, prayer group — is your real safety net, and your map follows it.",
+        "The market moved faster than your savings, and the squeeze is structural, not a budgeting failure.",
+        "A construction-linked plan is your affordability bridge, and you've made peace with the wait.",
+        "One bad month is your stress test, and you're building the buffer with extra shifts even now."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-preapproval-first",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Pre-Approval First",
+      "desc": "The nurse-scheme rate found at the second bank (−0.35%); the map drawn from the hospital outward, loan in hand before any visit.",
+      "icon": "FileCheck2",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-belt-census",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Belt Census",
+      "desc": "Akshayanagar–Begur 2BHKs span ₹58L–2.09 Cr on one honest page — the spread itself is the education, and the budget finds its level.",
+      "icon": "Search",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-song-of-the-south-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Song of the South",
+      "desc": "A colleague's housewarming leads to a ₹1.8 Cr 2BHK; two weeks of 'maybe with more shifts' before the remittance line restores order.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-honest-shortlist",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Honest Shortlist",
+      "desc": "Prabhavathi Bliss II and two similar mid-communities at the belt's honest level; day-sleep acoustics tested at 10 am with a decibel app on a bare bedroom floor.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-loudspeaker-regression",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-honest-shortlist",
+      "title": "L5 REGRESSION: The Loudspeaker Discovery",
+      "desc": "One shortlisted tower fails the temple-loudspeaker test no brochure mentions — struck out, with a loudspeaker schedule stapled to the census.",
+      "icon": "Undo2",
+      "loopText": "S4 → S3 Regression (Temple Loudspeaker)",
+      "x": 560,
+      "y": 400,
+      "width": 200
+    },
+    {
+      "id": "l6-clp-booking",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L6: The CLP Booking",
+      "desc": "Under-construction 2BHK booked on a construction-linked plan (one slab always pre-saved); the parish confirms four congregation families in the same project.",
+      "icon": "KeyRound",
+      "x": 780,
+      "y": 400,
+      "width": 200
+    },
+    {
+      "id": "l7-kottayam-loop",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L7: Slab-Verified & Shared",
+      "desc": "Slab-by-slab verification visits after night shifts; the Kottayam video call shares the EMI spreadsheet — love and expectations in the same currency.",
+      "icon": "ClipboardList",
+      "loopText": "Ongoing S6 — Slab-Verified, Remittance Intact",
+      "x": 920,
+      "y": 220,
+      "width": 200
+    }
+  ]
+}

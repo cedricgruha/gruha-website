@@ -1,0 +1,1007 @@
+{
+  "article": {
+    "tags": [
+      "PLOT BUYERS",
+      "SELF-BUILD",
+      "HENNUR • HORAMAVU • HOSA ROAD"
+    ],
+    "title": "The Blueprint & Bisibelebath Journal",
+    "description": "Tania (33, sustainable-design architect) & Rohan's (35, healthtech product manager) plan to buy a 30x40 in a developing north-east Bengaluru layout and self-build the 2,000 sqft courtyard home Tania designs herself — budget tight, conviction not.",
+    "quote": "We'd rather fight with our contractor than live in someone's template.",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "LayoutGrid",
+        "text": "Layout occupancy is destiny — 40%-built filter wins"
+      },
+      {
+        "icon": "ChartLine",
+        "text": "Buy at the layout's launch — 9% cheaper on khata"
+      },
+      {
+        "icon": "Search",
+        "text": "The ₹18K soil test dodged a ₹7L foundation surprise"
+      }
+    ],
+    "heroImage": "/journals/cover/12.png",
+    "heroTitle": "The Blueprint & Bisibelebath Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Tania D'Souza (33, sustainable-design architect) & Rohan (35, healthtech product manager) — self-build romantics in Cooke Town, choosing site + owner-built home over every builder flat that felt like a hotel room with a loan attached.",
+      "buyers": [
+        {
+          "name": "Tania D'Souza",
+          "age": 33,
+          "role": "Architect (Sustainable-Design Practice)",
+          "description": "Six years designing other people's dream homes. Pinterest-proof vision of her own: exposed brick jaali walls, a double-height reading nook, a courtyard with a bilimbi tree, and rainwater channels celebrated instead of hidden. Resolutely anti-template.",
+          "tags": [
+            "Visionary",
+            "Detail-NotNull",
+            "Design-First"
+          ],
+          "image": "/journals/the-blueprint-and-bisibelebath/tania.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 33-year-old Mangalorean-Catholic woman architect named Tania wearing round glasses and a rolled-sleeve linen shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, bright creative expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Rohan D'Souza",
+          "age": 35,
+          "role": "Product Manager (Healthtech)",
+          "description": "The pragmatist who converted the dream into a Notion board: land-cost-vs-construction curves, BBMP plan-sanction timelines, and the 18 months of rent they'll pay while building. Spreadsheet-grounded, but he chose the fight.",
+          "tags": [
+            "Pragmatic",
+            "Spreadsheet-Wired",
+            "Bought-In"
+          ],
+          "image": "/journals/the-blueprint-and-bisibelebath/rohan.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 35-year-old South Indian Catholic man named Rohan wearing a neat tee and a light jacket with a small beard, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm grounded expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "An owner-built 2,000 sqft courtyard home on a 30x40 A-khata site — Tania's design, Rohan's numbers, a bilimbi tree in the courtyard, and a walk-away card that protects them both at the table. Known chaos over known blandness.",
+      "sharedVisionImage": "/journals/the-blueprint-and-bisibelebath/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a young couple unrolling a large blueprint on an empty plot at sunrise while a translucent dream-house of exposed brick and courtyard lifts off the page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the blueprint lines, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Self-Build Couple"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "First Home, Owner-Built"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Site Secured — Build Ahead"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "BUILD TIMELINE",
+          "value": "Site 6M • Design 6M • Build 18M"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-blueprint-and-bisibelebath/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a khata document with an A-khata seal beside a BDA approval stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 seal accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "A-Khata / BDA-Approved",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Only A-khata or BDA-approved layouts — Tania reads the sanction plan herself to catch khata-costume impostors."
+        },
+        {
+          "image": "/journals/the-blueprint-and-bisibelebath/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a developing layout map with some plot buildings filled in, a 40%-built occupancy threshold ringed in coral, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 ring accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "40%+ Layout Occupancy",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Occupancy is destiny — streetlights follow neighbours. Empty layouts stay empty and become future regrets."
+        },
+        {
+          "image": "/journals/the-blueprint-and-bisibelebath/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a soil-core sample tube beside a bearing-strata test table with a margin note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 margin-note accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "Soil Tania Has Tested",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "A ₹18K pre-registration soil test dodged a ₹7L foundation redesign — the cheapest report in real estate."
+        },
+        {
+          "image": "/journals/the-blueprint-and-bisibelebath/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a handwritten walk-away card with a number on it lying on a negotiation table, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 number accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "East-or-North Orientation",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "East or north orientation for the passive-cooling design — plus a walk-away number written at breakfast, obeyed at the table."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a Pinterest-to-Notion pipeline to a soil-kill regression and a launch-day buy at 9% under the plot-flipper.",
+      "journeyFrameTitle": "SHORTLISTING & DESIGN-FIRST",
+      "roadmapTitle": "How the self-build romantics bought the site and kept the dream's contingency sacred",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Site Secured at Launch"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAP BUDGET",
+          "value": "₹1.53 Cr Capacity"
+        },
+        {
+          "icon": "Scale",
+          "label": "LAND SAVED",
+          "value": "9% at Launch Buy"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "BUILD AHEAD",
+          "value": "18 Months Scheduled"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-pinsta-notion",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Pinterest-to-Notion Pipeline",
+          "desc": "The courtyard home spec'd before the land exists — a printed Pinterest board pasted into a Notion-sheet binder, courtyard on the cover.",
+          "icon": "Lightbulb",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-occupancy-filter",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The 40%-Occupancy Filter",
+          "desc": "The occupancy filter (40%+ built) kills the cheapest options and every future regret at once — five layouts struck through, two circled.",
+          "icon": "LayoutGrid",
+          "x": 360,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-designer-layout-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Khata-Costume Layout",
+          "desc": "A 'designer layout' with impossible renders and a gram-panchayat khata wearing A-khata clothes — Tania reads the sanction plan herself; parked.",
+          "icon": "Eye",
+          "x": 600,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-two-finalists",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Two Finalists",
+          "desc": "30x40 near Hennur's action vs 40x60 where autos hesitate — the courtyard wants one, the social life the other.",
+          "icon": "MapPin",
+          "x": 220,
+          "y": 480,
+          "width": 180
+        },
+        {
+          "id": "l5-soil-kill",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-two-finalists",
+          "title": "L5 REGRESSION: The ₹7L Soil Surprise",
+          "desc": "Soil test (₹18K) on the favourite returns weak bearing strata — a ₹7L foundation surprise dodged; back to finalist two.",
+          "icon": "Undo2",
+          "loopText": "S4 → S3 Regression (Weak Bearing Strata)",
+          "x": 580,
+          "y": 480,
+          "width": 190
+        },
+        {
+          "id": "l6-launch-buy",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L6: The Launch-Day Primary Buy",
+          "desc": "30x40 bought primary from the layout developer at launch — 9% cheaper than the flipper's resale next door; walk-away card unused, kept as a bookmark.",
+          "icon": "FileCheck",
+          "x": 850,
+          "y": 380,
+          "width": 190
+        },
+        {
+          "id": "l7-contractor-vetting",
+          "stage": "S6",
+          "type": "loop",
+          "title": "L7: Contractor Vetting & Build Ahead",
+          "desc": "Contractor vetting begins; the marriage stress-test scheduled with three pre-authorized 'small changes', each priced above the future build.",
+          "icon": "Wrench",
+          "loopText": "S6 18-Month Build — Change-Orders Pre-Priced",
+          "x": 800,
+          "y": 120,
+          "width": 190
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "designing",
+          "label": "Designing",
+          "icon": "PencilRuler"
+        },
+        {
+          "id": "searching",
+          "label": "Searching",
+          "icon": "Search"
+        },
+        {
+          "id": "testing",
+          "label": "Testing",
+          "icon": "FlaskConical"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "FileCheck",
+          "active": true,
+          "tag": "Done"
+        },
+        {
+          "id": "building",
+          "label": "Building",
+          "icon": "HardHat"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "courtyard-binder",
+          "title": "The courtyard-cover binder",
+          "desc": "The printed Pinterest board pasted into a Notion-sheet binder, a courtyard drawing on the cover — the dream spec'd before the land existed.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/moment-1.png",
+          "imagegenerationprompt": "A Notion-sheet binder with a printed Pinterest board and a hand-drawn courtyard on its cover, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 courtyard accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "khata-costume",
+          "title": "The render and its khata-cousin",
+          "desc": "The 'designer layout' render beside its gram-panchayat khata — the mismatch highlighted the moment Tania read the sanction plan herself.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/moment-2.png",
+          "imagegenerationprompt": "A glossy layout render beside a gram-panchayat khata document with a mismatch highlighted in coral, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 highlight accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "soil-margin-note",
+          "title": "The ₹7L margin note",
+          "desc": "The soil report's bearing-strata table with '₹7L' written in the margin — the foundation surprise dodged at the sketch stage.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/moment-3.png",
+          "imagegenerationprompt": "A soil-coring report with a bearing-strata table and a hand-written ₹7L margin note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 margin-note accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "launch-slip-walkaway",
+          "title": "The allotment slip and the unused card",
+          "desc": "The launch-day allotment slip and the walk-away card that never got used — kept as a bookmark through the build.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/moment-4.png",
+          "imagegenerationprompt": "A launch-day allotment slip with a hand-written walk-away card tucked into a notebook as a bookmark, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 card accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "small-change-chits",
+          "title": "Three pre-priced change-order chits",
+          "desc": "Three 'small change' chits — skylights in, second courtyard out — pinned above the constitutionally protected contingency line.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/moment-5.png",
+          "imagegenerationprompt": "Three paper chits each with a price tag pinned above a red contingency line on a corkboard blueprint, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 line accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The soil report came, men. My dream site wants seven lakhs of extra foundation before it even says good morning.",
+          "author": "— Tania"
+        },
+        {
+          "text": "Financial indiscretion isn't out of reach. I tell them the second site — better soil, better street, smaller courtyard. Honestly it would still sing.",
+          "author": "— Tania (as the architect)"
+        },
+        {
+          "text": "Your spreadsheet gets its win too. Nine percent under the flipper, cleaner khata trail.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Walk-away number on the card, as usual? Written at breakfast, obeyed at the table.",
+          "author": "— Rohan"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Tania",
+          "avatar": "/journals/the-blueprint-and-bisibelebath/tania.png",
+          "text": "Riya, the soil report came. Weak bearing strata. My dream site wants seven lakhs of extra foundation. And Rohan keeps saying we're both not fine, baba."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then let's be un-fine for exactly one evening, and practical by Saturday. Tania — as the architect on this call, if a client brought you this report, what would you tell them? The second site: better soil, better street, the courtyard becomes a double-height verandah and it still sings. And Rohan — it's a launch purchase at 9% under the flipper, cleaner khata. Both of you win.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "LayoutGrid",
+          "title": "The 40%-Occupancy Filter",
+          "description": "Empty layouts stay empty — streetlights follow neighbours. The filter killed future regrets at once."
+        },
+        {
+          "icon": "Eye",
+          "title": "Khata Costume Detection",
+          "description": "A gram-panchayat khata wearing A-khata clothes is caught when the architect reads the sanction plan."
+        },
+        {
+          "icon": "FlaskConical",
+          "title": "The ₹18K Soil Test",
+          "description": "Bearing strata checked before registration — the cheapest report in real estate dodged a ₹7L foundation surprise."
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Primary, Not Flipper",
+          "description": "Buying at layout launch was 9% cheaper and three months cleaner on khata than a plot-flipper's resale."
+        },
+        {
+          "icon": "Scale",
+          "title": "Walk-Away Card Discipline",
+          "description": "A number written at breakfast and obeyed at the table — it worked on themselves, not just the seller."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-blueprint-and-bisibelebath.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Ruled to launching or early-phase approved layouts around Hennur, Horamavu and Hosa Road — sites they could design on, with occupancy and soil they could verify first.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Self-Build Site"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Hennur • Horamavu • Hosa Rd"
+        },
+        {
+          "icon": "Eye",
+          "label": "REJECTED DETOUR",
+          "value": "Khata-Costume Layout"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "SELECTED ASSET",
+          "value": "30x40 Launch Site"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Hennur Backside",
+          "description": "The 30x40 that survived the soil test — leafy lanes near the action, launch pricing from the developer, a courtyard that became a double-height verandah.",
+          "projects": 3,
+          "siteVisits": 6,
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/hennur.png",
+          "imagegenerationprompt": "A modern architectural vector render of Hennur backside residential lanes in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tree accent, Scandinavian minimalism, soft ambient lighting, clean white background.",
+          "latlong": {
+            "lat": 13.0492386,
+            "lng": 77.6176408
+          }
+        },
+        {
+          "title": "Horamavu",
+          "description": "Developing-layout options with 30x40 A-khata sites at ₹10–12K/sqft; occupancy and sanction-plan verification cleared the final shortlist.",
+          "projects": 3,
+          "siteVisits": 5,
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/horamavu.png",
+          "imagegenerationprompt": "A modern architectural vector render of Horamavu layout streetscape in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 site-board accent, Scandinavian minimalism, clean white background.",
+          "latlong": {
+            "lat": 13.0320941,
+            "lng": 77.6416687
+          }
+        },
+        {
+          "title": "Off Hosa Road",
+          "description": "The parents' 'just buy the 3BHK' alternative — a mid-tier 3BHK whose ₹2.1 Cr price tag became the yardstick the courtyard had to earn its keep against.",
+          "projects": 2,
+          "siteVisits": 3,
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/hosa-road.png",
+          "imagegenerationprompt": "A modern architectural vector render of the Hosa Road apartment corridor in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 balcony accent, Scandinavian minimalism, clean white background.",
+          "latlong": {
+            "lat": 12.8710902,
+            "lng": 77.6532975
+          }
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the quiet 40x60 where autos hesitate · the 'designer layout' khata-costume · Hosa Road's mid-tier 3BHK the parents keep citing",
+      "filtersTitle": "The Cost of Searching",
+      "filters": [
+        {
+          "icon": "BadgeAlert",
+          "title": "Layout Occupancy",
+          "value": "40% + built",
+          "description": "Empty layouts stay empty — streetlights follow neighbours. The filter eliminated five layouts and every future regret at once."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Sanction Plan & Khata",
+          "value": "A-Khata or BDA",
+          "description": "Tania read the sanction plan herself and unmasked a 'designer layout' wearing a gram-panchayat khata dressed up as A-khata."
+        },
+        {
+          "icon": "FlaskConical",
+          "title": "Soil Test First",
+          "value": "₹18K, before bid",
+          "description": "Weak bearing strata on the favourite would have meant a ₹7L foundation surprise — the cheapest report is the one done before registration."
+        },
+        {
+          "icon": "Scale",
+          "title": "₹2.1 Cr Comparison",
+          "value": "3BHK vs courtyard",
+          "description": "The parents' mid-tier 3BHK on Hosa Road priced at the same total exposure — the courtyard had to earn its keep against it."
+        }
+      ],
+      "filtersFooterLabel": "They searched for land worth designing on, not just the cheapest square foot — walk-away number written at breakfast, obeyed at the table.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Instagram feeds the dream; the sanction plan feeds the decision. Tania and Rohan know self-building is a contact sport — material swings, the contractor's nephew, the BWSSB saga — and they're walking in anyway, with a contingency line Tania keeps trying to raid for skylights. Their edge is that they'd rather fight their contractor than live in someone's template.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait photo of Riya AI real estate guide in an 80% greyscale monochrome outfit with a Warm Coral #FF8A65 digital tablet accent, Scandinavian minimalism, soft ambient studio rim lighting, clean pearl white background."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "The sites they weighed.",
+      "description": "Weighing launching or early-phase layouts for self-build potential — occupancy, sanction plans, soil, and the honest math of design freedom vs a ready 3BHK.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Self-Build Site"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "EVALUATED LAYOUTS",
+          "value": "8 Shortlisted"
+        },
+        {
+          "icon": "Undo2",
+          "label": "SOIL-TEST KILL",
+          "value": "1 Site"
+        },
+        {
+          "icon": "HardHat",
+          "label": "SELECTED PLOT",
+          "value": "30x40 Hennur"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "BadgeCheck",
+          "title": "A-Khata / BDA-approved",
+          "subtitle": "sanction plan verified"
+        },
+        {
+          "icon": "LayoutGrid",
+          "title": "40%+ layout occupancy",
+          "subtitle": "streetlights follow neighbours"
+        },
+        {
+          "icon": "FlaskConical",
+          "title": "Tested soil",
+          "subtitle": "the ₹18K rule"
+        },
+        {
+          "icon": "Compass",
+          "title": "East-or-north orientation",
+          "subtitle": "for the passive-cooling home"
+        },
+        {
+          "icon": "Scale",
+          "title": "Walk-away number",
+          "subtitle": "written before the table"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Rohan",
+          "avatar": "/journals/the-blueprint-and-bisibelebath/rohan.png",
+          "text": "So we're not buying a plot, we're buying the permission to fight our own contractor instead of a developer's template."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And the permission to design the courtyard. Now let's make sure the foundation under it isn't the ₹7L surprise — soil first, then launch pricing.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the conclusion (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-blueprint-and-bisibelebath/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Bengaluru's north-east arc covering Hennur, Horamavu and Off Hosa Road in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they evaluated",
+      "projectsCountBadge": "4",
+      "projects": [
+        {
+          "name": "Hennur-Backside 30x40 (Chosen)",
+          "location": "Hennur Backside",
+          "statusLabel": "SELECTED",
+          "isSelected": true,
+          "description": "A 30x40 site near Hennur selected after comparing layout occupancy, road access, soil condition, khata status, and the walk-away price. Primary launch buy from developer (9% under flipper).",
+          "price": "₹1.2–1.45 Cr",
+          "psf": "₹10,000–12,000/sqft",
+          "possession": "Launch / Self-Build",
+          "highlightNote": "The courtyard, re-spec'd as a double-height verandah, still sings.",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "name": "Hosa Road Mid-Tier 3BHK",
+          "location": "Off Hosa Road",
+          "statusLabel": "COMPARISON",
+          "isSelected": false,
+          "description": "The parents' 'just buy the 3BHK' alternative — a mid-tier 3BHK whose overall exposure was close enough to the self-build plan to become a serious benchmark.",
+          "price": "~₹2.1 Cr total exposure",
+          "psf": "Flat Rate",
+          "possession": "Ready to Move",
+          "highlightNote": "The comparison that got harder to dismiss — and precisely why the courtyard must earn its keep.",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "name": "The 'Designer Layout' (Detour)",
+          "location": "North-east fringe",
+          "statusLabel": "REJECTED",
+          "isSelected": false,
+          "description": "A launch marketed with designer renders but carrying a Gram Panchayat khata wearing A-khata clothes. Tania identified the mismatch reviewing sanction records herself.",
+          "price": "Unverified",
+          "psf": "Gram Panchayat",
+          "possession": "Unapproved Launch",
+          "highlightNote": "A khata in costume is still a khata in costume.",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "name": "Quiet 40x60 Layout (Soil Test Kill)",
+          "location": "Far side of the arc",
+          "statusLabel": "REJECTED",
+          "isSelected": false,
+          "description": "The larger 40x60 favourite site rejected after an ₹18K soil test revealed weak bearing strata requiring a ₹7L extra foundation. Also hindered by poor auto access.",
+          "price": "₹1.2–1.45 Cr range",
+          "psf": "₹10,000–12,000/sqft",
+          "possession": "Ready Plot",
+          "highlightNote": "A solo reading nook reads best when someone visits.",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why these were rejected",
+      "rejectedReasons": [
+        {
+          "icon": "FlaskConical",
+          "title": "Weak bearing strata",
+          "reason": "The ₹18K soil test exposed a ₹7L foundation surprise — the cheapest report in real estate is the one done before registration."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Khata costume detour",
+          "reason": "A gram-panchayat khata dressed as A-khata — caught by reading the sanction plan, not the render."
+        },
+        {
+          "icon": "LayoutGrid",
+          "title": "Occupancy under 40%",
+          "reason": "Five layouts struck through at once — empty layouts stay empty; streetlights follow neighbours."
+        },
+        {
+          "icon": "MapPin",
+          "title": "9 km from every friend",
+          "reason": "The 40x60's isolation cost more than its square footage — the double-height reading nook would rarely host anyone."
+        }
+      ],
+      "suggestionTitle": "What they'd suggest to other self-builders",
+      "suggestionDescription": "Buy at the layout's launch, not from an early flipper — 9% cheaper and three months cleaner on khata. Read every sanction plan yourself. Treat the soil test as the cheapest insurance you'll ever buy. And write the walk-away number on a card before you go.",
+      "suggestionImageSrc": "/journals/the-blueprint-and-bisibelebath/suggestion.png",
+      "imagegenerationprompt": "A 3D vector illustration of a site plan with a contour map and a small blueprint ruler in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 corner-plot accent, Scandinavian minimalism, clean white background."
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this self-build teaches us.",
+      "description": "Key takeaways for romantics with a contractor's discipline — buy at launch, test the soil, and keep the courtyard honest against the ready 3BHK math.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Occupancy is destiny"
+        },
+        {
+          "icon": "FlaskConical",
+          "label": "BIGGEST WIN",
+          "value": "₹18K soil test"
+        },
+        {
+          "icon": "Undo2",
+          "label": "BIGGEST MISTAKE AVOIDED",
+          "value": "₹7L foundation"
+        },
+        {
+          "icon": "Scale",
+          "label": "BIGGEST PRIORITY",
+          "value": "Walk-away number"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Layout occupancy is destiny.",
+          "description": "The 40%-built filter eliminated the cheapest options and every future regret simultaneously — empty layouts stay empty; streetlights follow neighbours.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a layout map with lit streetlights around inhabited plots in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 streetlight accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Buy at launch, not from a flipper.",
+          "description": "The primary purchase from the layout developer was 9% cheaper than the resale next door and three months cleaner on khata paperwork.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration comparing a launch price tag and a marked-up resale tag in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 price accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "The soil test is the cheapest insurance.",
+          "description": "₹18K of testing exposed weak bearing strata that would have cost ₹7L in foundation redesign — the report before registration beats the fight on the site.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a soil bearing-strata report in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 reference-accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Design for the visit, not the dream.",
+          "description": "A 40x60 nine kilometres from every friend rarely hosts anyone — the courtyard, re-scaled, earned its keep against the ready 3BHK comparison.",
+          "imageSrc": "/journals/the-blueprint-and-bisibelebath/lesson-4.png",
+          "imagegenerationprompt": "A vector illustration of a double-height reading nook in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 book accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "LayoutGrid",
+          "text": "The cheapest 30x40 is the smartest buy"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "A-khata in the brochure means A-khata in the file"
+        },
+        {
+          "icon": "FlaskConical",
+          "text": "Soil is fine unless someone says otherwise"
+        },
+        {
+          "icon": "Home",
+          "text": "Bigger plot always means a better home"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "LayoutGrid",
+          "text": "40%+ built layouts are the only ones that finish"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "Read the sanction plan yourself; khata in costume is still a costume"
+        },
+        {
+          "icon": "FlaskConical",
+          "text": "Spend ₹18K on the soil report before one rupee moves"
+        },
+        {
+          "icon": "Heart",
+          "text": "Design for who will actually visit the courtyard"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "FlaskConical",
+          "title": "Soil-test both finalists",
+          "description": "Testing the favourite cost a site; testing both finalists would have saved the emotional detour."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Demand occupancy data on day 1",
+          "description": "Asking the occupancy question on the first call would have struck through five layouts instantly."
+        },
+        {
+          "icon": "LayoutGrid",
+          "title": "Insist on launch pricing",
+          "description": "Paying primary from the developer, not a flipper, saved 9% and three months of khata paperwork."
+        },
+        {
+          "icon": "Scale",
+          "title": "Write the walk-away number earlier",
+          "description": "The card worked on themselves, not just the seller — they wish they'd written it at the very start."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Lock contractor rates early",
+          "description": "Spot steel and material teams before the build starts; a contingency line is for surprises, not standard spec."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Tania",
+          "avatar": "/journals/the-blueprint-and-bisibelebath/tania.png",
+          "text": "The soil report was the best eighteen thousand we ever argued about. And the courtyard became a verandah and still sang, men."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the whole secret — you kept the dream and dropped the seven-lakh foundation. The blueprint survives because the discipline did.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear the full reflection (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for self-build romantics",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A horizontal 4-panel storyboard illustration of a self-build in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 focal highlights on the soil report, blueprint, launch allotment and walk-away card, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For first-time owner-builders, the edge is not in finding a cheap plot — it's in the discipline that precedes the money: occupancy first, sanction plan read by your own eyes, soil tested before you fall in love, and a walk-away number written at breakfast. Tania and Rohan kept the courtyard and the marriage by pricing the dream like a professional.",
+      "monthlyLearningsTitle": "How their month-by-month journey unfolded",
+      "monthlyLearnings": [
+        {
+          "month": "Month 1",
+          "title": "Design before the land",
+          "description": "The courtyard home was spec'd before any site existed — Pinterest-to-Notion, the dream made measurable before the money moved."
+        },
+        {
+          "month": "Month 2",
+          "title": "Occupancy kills regret",
+          "description": "The 40%-built filter struck through five layouts at once — empty layouts stay empty, and no square foot is cheap enough to fight a dead street."
+        },
+        {
+          "month": "Month 3",
+          "title": "Read the plan yourself",
+          "description": "Tania unmasked a 'designer layout' whose gram-panchayat khata wore A-khata clothes by reading its sanction plan herself."
+        },
+        {
+          "month": "Month 4",
+          "title": "The walk-away card",
+          "description": "A number written at breakfast and obeyed at the table — it worked on themselves, the true first test of the discipline."
+        },
+        {
+          "month": "Month 5",
+          "title": "Soil wins the week",
+          "description": "The soil report rescued them from a ₹7L foundation surprise and re-wrote the design — the second site became the first choice."
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Designing your own walls?",
+      "description": "Do you think like Tania and Rohan — happier fighting your own contractor than living in a template? Let Riya build your self-build roadmap: site, soil, sanction plan and all.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You",
+          "description": "Share your land budget, the corridors you can stomach, and your walk-away number.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya listens",
+          "description": "Riya filters for launching layouts with 40%+ occupancy, clean khata, and soil worth designing on.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your personalized self-build journal grows with the design, the budget, and the contractor vetting.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Clear recommendations",
+          "description": "Receive verified site picks, a milestone-linked build budget, and the contingency line your skylights can raid.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What a self-build journal gets you",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Launch-window plotting",
+          "description": "Track upcoming layout launches and get EOI-stage access before the flippers mark up resales by 9%.",
+          "icon": "ChartLine"
+        },
+        {
+          "id": 2,
+          "title": "Sanction-plan verification",
+          "description": "Learn to read the plan and the khata yourself — and spot a gram-panchayat costume before it costs you.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 3,
+          "title": "Soil-first discipline",
+          "description": "Route every shortlist through the ₹18K soil-test rule before a single rupee moves.",
+          "icon": "FlaskConical"
+        },
+        {
+          "id": 4,
+          "title": "Contractor vetting & budgets",
+          "description": "Milestone-linked build cash flow, staged loan disbursals, and clause checklists first-time builders miss.",
+          "icon": "Wrench"
+        },
+        {
+          "id": 5,
+          "title": "Your personal journal",
+          "description": "A creative, candid record of the design, the dust, and the decisions — with one sacred contingency line in red.",
+          "icon": "BookOpen"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You would rather fight your own contractor than live in someone's template — and you know what that sentence costs.",
+        "One of you designs for a living, and the dream home has been sketched for years.",
+        "Builder flats feel like hotel rooms with loans attached.",
+        "You're knowingly scheduling 18 months of dust, decisions, and rent+EMI overlap.",
+        "The site's orientation and soil matter as much to you as its price.",
+        "Your parents' 'just buy the 3BHK' math is now uncomfortably close to correct, and you're proceeding anyway — for reasons you can name."
+      ],
+      "blankTitle": "This page is still blank.",
+      "blankDescription": "Begin your conversation with Riya to build your own self-build site roadmap — launch layouts, soil tests, and a walk-away number you'll trust.",
+      "blankActionText": "Let's design it together.",
+      "blankImageSrc": "/journals/the-blueprint-and-bisibelebath/open-blueprint-illustration.png",
+      "blankImagePrompt": "A 3D vector illustration of an unrolled blueprint with a small jaali brick motif in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 courtyard accent, Scandinavian minimalism, clean white background.",
+      "ctaTitle": "Ready to design on your own soil?",
+      "ctaDescription": "Let Riya shortlist launching layouts, route you through the soil report, and keep the courtyard honest against the ready 3BHK math.",
+      "ctaButtonText": "Copy Journal",
+      "ctaCharacterImage": "/journals/the-blueprint-and-bisibelebath/riya-full-character.png",
+      "ctaCharacterImagePrompt": "A full-length character illustration of Riya the AI real estate guide in an 80% greyscale monochrome suit holding a rolled blueprint with a Warm Coral #FF8A65 drafting pencil accent, Scandinavian minimalism, clean studio backdrop."
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-pinsta-notion",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Pinterest-to-Notion Pipeline",
+      "desc": "The courtyard home spec'd before the land exists — a printed Pinterest board pasted into a Notion-sheet binder, courtyard on the cover.",
+      "icon": "Lightbulb",
+      "x": 120,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-occupancy-filter",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The 40%-Occupancy Filter",
+      "desc": "The occupancy filter (40%+ built) kills the cheapest options and every future regret at once — five layouts struck through, two circled.",
+      "icon": "LayoutGrid",
+      "x": 360,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-designer-layout-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Khata-Costume Layout",
+      "desc": "A 'designer layout' with impossible renders and a gram-panchayat khata wearing A-khata clothes — Tania reads the sanction plan herself; parked.",
+      "icon": "Eye",
+      "x": 620,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-two-finalists",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Two Finalists",
+      "desc": "30x40 near Hennur's action vs 40x60 where autos hesitate — the courtyard wants one, the social life the other.",
+      "icon": "MapPin",
+      "x": 420,
+      "y": 340,
+      "width": 180
+    },
+    {
+      "id": "l5-soil-kill",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-two-finalists",
+      "title": "L5 REGRESSION: The ₹7L Soil Surprise",
+      "desc": "Soil test (₹18K) on the favourite returns weak bearing strata — a ₹7L foundation surprise dodged; back to finalist two.",
+      "icon": "Undo2",
+      "loopText": "S4 → S3 Regression (Weak Bearing Strata)",
+      "x": 700,
+      "y": 340,
+      "width": 190
+    },
+    {
+      "id": "l6-launch-buy",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L6: The Launch-Day Primary Buy",
+      "desc": "30x40 bought primary from the layout developer at launch — 9% cheaper than the flipper's resale next door; walk-away card unused, kept as a bookmark.",
+      "icon": "FileCheck",
+      "x": 900,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l7-contractor-vetting",
+      "stage": "S6",
+      "type": "loop",
+      "title": "L7: Contractor Vetting & Build Ahead",
+      "desc": "Contractor vetting begins; the marriage stress-test scheduled with three pre-authorized 'small changes', each priced above the future build.",
+      "icon": "Wrench",
+      "loopText": "S6 18-Month Build — Change-Orders Pre-Priced",
+      "x": 900,
+      "y": 60,
+      "width": 190
+    }
+  ]
+}

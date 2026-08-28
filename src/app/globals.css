@@ -10,6 +10,7 @@
 
   --font-fraunces: var(--font-fraunces), serif;
   --font-inter: var(--font-inter), sans-serif;
+  --breakpoint-md: 768px;
 }
 
 :root {
@@ -29,7 +30,8 @@ body {
 }
 
 @layer base {
-  button, 
+
+  button,
   [role="button"] {
     cursor: pointer;
   }

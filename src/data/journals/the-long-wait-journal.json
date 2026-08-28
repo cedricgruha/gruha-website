@@ -1,0 +1,929 @@
+{
+  "article": {
+    "tags": [
+      "PLOT BUYERS",
+      "BDA ALLOTMENT",
+      "BUILD • SELL • HOLD"
+    ],
+    "title": "The Long Wait Journal",
+    "description": "H.N. Sridhar's (61) 25-year BDA allotment journey — from a 1998 plastic folder to an NPKL 30x40, and the build-vs-sell-vs-hold decision that became the real reward of the wait.",
+    "quote": "I applied when my daughter was in school. She has a daughter now.",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "FileCheck",
+        "text": "The allotment letter begins the paperwork, not the end"
+      },
+      {
+        "icon": "Calendar",
+        "text": "NPKL prices step with infrastructure milestones"
+      },
+      {
+        "icon": "Heart",
+        "text": "'Stranger's gift' test separates patience from plots"
+      }
+    ],
+    "heroImage": "/journals/cover/11.png",
+    "heroTitle": "The Long Wait Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who he is",
+      "description": "Getting to know H.N. Sridhar (61, retired KPTCL engineer) — a 25-year BDA applicant now holding an NPKL 30x40 allotment, stuck at the build-vs-sell-vs-hold decision his children's pragmatism and his own meaning-making are politely contesting.",
+      "buyers": [
+        {
+          "name": "H.N. Sridhar",
+          "age": 61,
+          "role": "Retired KPTCL Engineer & BDA Allotment Veteran",
+          "description": "An engineer's nerves and a bureaucrat's patience. Kept demand drafts, acknowledgement slips and rejection letters across two application cycles in a single plastic folder his wife calls 'your first wife'. Now decides what the 25-year wait was actually for.",
+          "tags": [
+            "Patient",
+            "Wry",
+            "Document-Hoarder"
+          ],
+          "image": "/journals/the-long-wait-journal/sridhar.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 61-year-old South Indian male retired KPTCL engineer named Sridhar with a neat salt-and-pepper moustache and a plain checked shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, wry gentle expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "To keep the patience and finally let go of the plot — separating the certificate of a 25-year wait from the land itself. NPKL near Challaghatta still gains roads and water at its own pace; friends' 2005 Uttarahalli sites sit twelve times up. Whatever he decides, Lalitha's wishes get a vote at last, and the money, if it moves, moves on a milestone calendar into a retirement that travels.",
+      "sharedVisionImage": "/journals/the-long-wait-journal/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an older man standing on an empty red-soil 30x40 site holding a worn plastic folder while papers float up as a small house-shaped constellation, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the folder, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "BDA Allotment Veteran"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Retirement Re-evaluation"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Decision Reached — Plot Sold"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "25-Year Wait, Now Deciding"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-long-wait-journal/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a caring spouse's wish list handwritten on a kitchen notepad behind a rent ledger, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the wish list, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "Lalitha's Wish Gets a Vote",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Whatever happens, Lalitha's actual wishes are asked for and heard this time — not just agreed to."
+        },
+        {
+          "image": "/journals/the-long-wait-journal/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a possession certificate and khata transfer documents with official round stamps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 stamp accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "Khata + Possession Paperwork",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The post-allotment paperwork year — khata transfer, possession certificate, and demarcation — each worth its own wait."
+        },
+        {
+          "image": "/journals/the-long-wait-journal/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a rent-reality note reading '₹18–22K, not ₹40K' beside a simplified duplex sketch, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 number accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "Realistic Rent Discovery",
+          "scorePercentage": 80,
+          "scoreLabel": "8/10",
+          "description": "A still-developing layout rents at half the imagined number — ₹18–22K, not ₹40K — a fact that quietly weakened the build case."
+        },
+        {
+          "image": "/journals/the-long-wait-journal/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a wall calendar with a Cauvery-connection milestone ringed in coral, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 ring accent, Scandinavian minimalism, clean white background, editorial quality.",
+          "title": "Milestone-Calendar Sale Timing",
+          "scorePercentage": 75,
+          "scoreLabel": "7.5/10",
+          "description": "Timing a sale to the Cauvery/trunk-road step-up — list 45 days before, close after — not to a calendar month."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How his journey actually unfolded.",
+      "description": "From a 25-year plastic folder to a stranger's-gift test that finally answered what the wait was for.",
+      "journeyFrameTitle": "STUCK & RE-EVALUATING",
+      "roadmapTitle": "How a BDA vet kept the patience and sold the plot",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Decision Reached"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "ASSET VALUE",
+          "value": "₹1.6–1.9 Cr Site"
+        },
+        {
+          "icon": "Calendar",
+          "label": "SELL TIMING",
+          "value": "Milestone Step-Up"
+        },
+        {
+          "icon": "Heart",
+          "label": "RESOLUTION",
+          "value": "Kashi Tickets Booked"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-allotment-letter",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The 25-Year Wait, Delivered",
+          "desc": "A 30x40 NPKL allotment letter arrives; the plastic folder gains its final document and its first real decision.",
+          "icon": "FileCheck",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-decision-model",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L2: Build vs Sell vs Hold",
+          "desc": "All three modelled at today's prices — but rentable-duplex rents in a still-developing layout disappoint (₹18–22K, not the imagined ₹40K).",
+          "icon": "Scale",
+          "loopText": "S2 Decision Model — Rent Reality ₹18–22K",
+          "x": 360,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-contractor-cousin",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: Contractor-Cousin Pitch",
+          "desc": "A 'build 4 floors, rent 3' pro-forma whose numbers assume 2019 construction costs; retired politely in two weeks.",
+          "icon": "Wrench",
+          "x": 620,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l4-gift-test",
+          "stage": "S3",
+          "type": "loop",
+          "title": "L4: The Stranger's-Gift Test",
+          "desc": "'If a stranger gifted you this site yesterday, what would you do?' — the answer came immediately and embarrassed him: sell, invest, take Lalitha to Kashi.",
+          "icon": "Heart",
+          "loopText": "S3 Gift Test — 'Sell, Invest, Travel'",
+          "x": 840,
+          "y": 220,
+          "width": 190
+        },
+        {
+          "id": "l5-milestone-timing",
+          "stage": "S4",
+          "type": "stage",
+          "title": "L5: Milestone-Calendar Timing",
+          "desc": "NPKL milestone calendar tracked — Cauvery, trunk roads — and the sale timed to the infrastructure step-up, not a month.",
+          "icon": "Calendar",
+          "x": 620,
+          "y": 340,
+          "width": 190
+        },
+        {
+          "id": "l6-sold-kashi",
+          "stage": "S5",
+          "type": "stage",
+          "title": "L6: Sold at the Milestone Peak",
+          "desc": "Sold near the milestone peak; the capital-gains plan executed; Lalitha's Kashi trip booked the same week.",
+          "icon": "Plane",
+          "x": 360,
+          "y": 340,
+          "width": 180
+        }
+      ],
+      "timelineTitle": "Where he stands today",
+      "timelineSteps": [
+        {
+          "id": "waiting",
+          "label": "Waiting",
+          "icon": "Hourglass"
+        },
+        {
+          "id": "deciding",
+          "label": "Deciding",
+          "icon": "Scale"
+        },
+        {
+          "id": "timing",
+          "label": "Timing",
+          "icon": "Calendar"
+        },
+        {
+          "id": "selling",
+          "label": "Selling",
+          "icon": "Banknote",
+          "active": true,
+          "tag": "Milestone Peak Sold"
+        },
+        {
+          "id": "reinvesting",
+          "label": "Reinvesting",
+          "icon": "LineChart"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "folder-moment",
+          "title": "The folder gains its final document",
+          "desc": "The 25-year-old plastic folder, finally holding the allotment letter that was always the point.",
+          "imageSrc": "/journals/the-long-wait-journal/moment-1.png",
+          "imagegenerationprompt": "A worn plastic folder of demand drafts and rejection letters held open with a fresh allotment letter on top, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 rubber-band accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "rent-reality-moment",
+          "title": "The rent-reality note",
+          "desc": "A single line — '₹18–22K, not ₹40K' — written beside a hopeful duplex sketch that quietly lost its case.",
+          "imageSrc": "/journals/the-long-wait-journal/moment-2.png",
+          "imagegenerationprompt": "A hand-written note reading '₹18–22K, not ₹40K' on a desk beside a faded duplex sketch, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 number accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "contractor-detour-moment",
+          "title": "The 2019 pro-forma, corrected",
+          "desc": "The contractor-cousin's four-floor pitch with 2019 construction rates crossed out in pencil — retired politely.",
+          "imageSrc": "/journals/the-long-wait-journal/moment-3.png",
+          "imagegenerationprompt": "A construction pro-forma sheet with 2019 rates crossed out in pencil beside a polite note declining the build, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pencil accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "gift-test-moment",
+          "title": "The one-line gift test",
+          "desc": "The stranger's-gift question written on one line, and the immediate, embarrassing answer beneath it.",
+          "imageSrc": "/journals/the-long-wait-journal/moment-4.png",
+          "imagegenerationprompt": "A single ruled line reading 'If a stranger gifted you this site yesterday?' with 'sell, invest, travel' written immediately beneath, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 answer accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": "kashi-moment",
+          "title": "Two Kashi tickets, clipped to the folder",
+          "desc": "A sale deed receipt tucked into the old folder — and two Kashi tickets clipped to its cover the same week.",
+          "imageSrc": "/journals/the-long-wait-journal/moment-5.png",
+          "imagegenerationprompt": "A sale deed receipt tucked inside a worn plastic folder with two airline tickets clipped to its cover, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 ticket accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "voicesTitle": "Voices around him",
+      "quotes": [
+        {
+          "text": "That for twenty-five years I was waiting for a site… and somewhere it became waiting for a certificate.",
+          "author": "— Sridhar"
+        },
+        {
+          "text": "The patience was real, sir. You can keep the patience and sell the plot. They're separable.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Sell it, Appa, take the money.",
+          "author": "— Son (from Pune)"
+        },
+        {
+          "text": "The site, it turns out, was never the question.",
+          "author": "— Sridhar"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Sridhar",
+          "avatar": "/journals/the-long-wait-journal/sridhar.png",
+          "text": "You asked me a strange question last week, Riya. 'If a stranger gifted you this site yesterday, what would you do?' The answer came immediately, ayyo — sell, invest, take Lalitha to Kashi. Immediately it came!"
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And what did that immediacy tell you, sir? You can keep the patience and sell the plot — they're separable. And book the Kashi tickets now. The freedom needs a first use, or it becomes another empty room.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileCheck",
+          "title": "Khata & Possession Paperwork",
+          "description": "The allotment letter is the beginning of post-allotment paperwork, not the end."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Realistic Rents",
+          "description": "A layout still getting roads rents at half the imagined number — ₹18–22K, not ₹40K."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Milestone, Not Month",
+          "description": "NPKL prices step up with Cauvery and trunk-road milestones — list 45 days before, close after."
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Capital Gains with Indexation",
+          "description": "A 25-year-old allotment has deep indexation — the banker's-brain part of the decision that feels like home."
+        },
+        {
+          "icon": "Heart",
+          "title": "The Stranger's-Gift Test",
+          "description": "What would you do if you hadn't waited 25 years for it? Do that."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-long-wait-journal.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE DECISION",
+      "title": "Where the decision lives.",
+      "description": "One layout, two questions: build, sell, or hold an NPKL 30x40 that has been 25 years in the making.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "DECISION TYPE",
+          "value": "Build • Sell • Hold"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "THE ASSET",
+          "value": "NPKL 30x40 Allotment"
+        },
+        {
+          "icon": "Calendar",
+          "label": "SELL CATALYST",
+          "value": "Milestone Step-Up"
+        },
+        {
+          "icon": "Heart",
+          "label": "DECIDING FACTOR",
+          "value": "The Stranger's-Gift Test"
+        }
+      ],
+      "exploredAreasTitle": "The layout the site chose",
+      "exploredAreas": [
+        {
+          "title": "Nadaprabhu Kempegowda Layout (NPKL)",
+          "description": "The asset itself — a BDA allotment site whose price steps up with each infrastructure milestone rather than a market cycle.",
+          "projects": 1,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9180504,
+            "lng": 77.4507074
+          },
+          "imageSrc": "/journals/the-long-wait-journal/npkl.png",
+          "imagegenerationprompt": "A modern architectural vector view of a developing BDA layout with a vacant red-soil 30x40 site, new roads and young street trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "consideredAreasLabel": "The corridor was never really a choice — the site chose NPKL. The choice was what to do with the land once it arrived.",
+      "filtersTitle": "DECISION PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "SENTIMENT VS SPREADSHEET",
+          "value": "Certificate of Patience",
+          "description": "Selling the plot he waited a quarter-century for feels like declaring the wait meaningless.",
+          "icon": "Scale"
+        },
+        {
+          "title": "BUILDING AT 61",
+          "value": "A 2-Year Project",
+          "description": "Site visits, contractor wars and BBMP approvals are a different proposition at 61 than at 41.",
+          "icon": "Wrench"
+        },
+        {
+          "title": "REALISTIC RENTS",
+          "value": "₹18–22K, Not ₹40K",
+          "description": "A still-developing layout rents at half the imagined number — the build case quietly weakened.",
+          "icon": "IndianRupee"
+        },
+        {
+          "title": "SON'S PRAGMATISM",
+          "value": "'Sell It, Appa'",
+          "description": "His Pune son's 'take the money' collides with his own meaning-making about the certificate.",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "Sridhar was filtering not for a cheaper site but for a decision that could keep the patience while parting with the plot.",
+      "insightTitle": "What I noticed while we were deciding",
+      "insightDescription": "“Sridhar sir auditioned every option like an engineer — build, sell, hold, each modelled twice. But the decision only moved the day he stopped computing and asked what a stranger would do. The answer arrived instantly: sell, invest, travel. The site was never the question; the certificate was.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a plastic folder and a one-line gift test on a tablet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PATHS",
+      "title": "The three roads out of a 25-year wait.",
+      "description": "Build, sell, or hold an NPKL allotment — modelled at today's prices, with realistic rents and a milestone-calendar sale.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "DECISION",
+          "value": "Build • Sell • Hold"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "ASSET MARKET VALUE",
+          "value": "₹1.6–1.9 Cr"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "BUILD COST",
+          "value": "₹90L–1.1 Cr Borrowed"
+        },
+        {
+          "icon": "Calendar",
+          "label": "EXECUTED ROAD",
+          "value": "Sell at Milestone Peak"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in the decision",
+      "priorities": [
+        {
+          "icon": "Heart",
+          "title": "Lalitha's Vote",
+          "subtitle": "her actual wishes, asked for"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Paperwork Closure",
+          "subtitle": "khata, possession, demarcation"
+        },
+        {
+          "icon": "Calendar",
+          "title": "Milestone Timing",
+          "subtitle": "list 45 days before the step-up"
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Indexation Plan",
+          "subtitle": "capital gains on a 25-year hold"
+        },
+        {
+          "icon": "Plane",
+          "title": "A First Use for Freedom",
+          "subtitle": "the Kashi trip, booked now"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Sridhar",
+          "avatar": "/journals/the-long-wait-journal/sridhar.png",
+          "text": "For twenty-five years I was waiting for a site… and somewhere it became waiting for a certificate. The answer came the moment I stopped computing."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You kept the patience and sold the plot, sir — they were separable all along. And you booked Lalitha's Kashi trip the same week, which is precisely the kind of closure an engineer's brain can retire on.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where the asset sits",
+      "mapImageSrc": "/journals/the-long-wait-journal/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of south-west Bengaluru highlighting the Nadaprabhu Kempegowda Layout near Challaghatta in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "The three paths modelled",
+      "projectsCountBadge": "Build • Sell • Hold",
+      "projects": [
+        {
+          "title": "The Build Road",
+          "name": "Duplex-With-Rental",
+          "price": "₹90L–1.1 Cr Borrowed",
+          "possession": "Build at 61",
+          "psf": "₹2,800–3,200/sqft",
+          "location": "NPKL 30x40",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Sell Road (Chosen)",
+          "name": "Milestone-Timed Sale",
+          "price": "₹1.6–1.9 Cr",
+          "possession": "Sold near peak",
+          "psf": "Indexation-planned",
+          "location": "NPKL — Cauvery step-up",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Hold Road",
+          "name": "Hold for the Step-Up",
+          "price": "Worth ₹2.2 Cr corners",
+          "possession": "Keep the site",
+          "psf": "Layout mature in ~12 yrs",
+          "location": "NPKL commercial spine",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why the build road lost",
+      "rejectedReasons": [
+        {
+          "icon": "Clock",
+          "title": "2 Years at 61",
+          "count": "contractors + BBMP approvals"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Realistic Rents ₹18–22K",
+          "count": "not the imagined ₹40K"
+        },
+        {
+          "icon": "Wrench",
+          "title": "2019-Rate Pro-Forma",
+          "count": "contractor-cousin detour"
+        },
+        {
+          "icon": "Scale",
+          "title": "Borrowing at Retirement",
+          "count": "₹90L–1.1 Cr against corpus"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Sell the NPKL allotment on the milestone calendar — list 45 days before the Cauvery step-up, close after it — execute the capital-gains-with-indexation plan, reinvest to preserve the retirement corpus, and book Lalitha's Kashi trip the same week. Keep the patience and the certificate of it in the folders; the land was never the question.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for BDA allotment-holders and government-layout pioneers deciding what a long wait was actually for.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Keep the Patience, Sell the Plot"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Lalitha's Wish Gets a Vote"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Waiting for a Certificate, Not a Site"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Stranger's-Gift Test"
+        }
+      ],
+      "lessonsTitle": "Lessons he learned",
+      "lessons": [
+        {
+          "title": "The allotment letter is the beginning, not the end.",
+          "description": "Khata transfer, possession certificate and site demarcation each took a government office's worth of patience. The paperwork year is its own wait.",
+          "imageSrc": "/journals/the-long-wait-journal/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a pile of government paperwork — khata, possession certificate, demarcation sketch — each carrying a round treasury stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 stamp accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Government layouts price by milestone, not market cycle.",
+          "description": "NPKL prices step upward with Cauvery connections and trunk-road milestones. Selling timing is a milestone calendar question, not a month question.",
+          "imageSrc": "/journals/the-long-wait-journal/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a layout milestone calendar with the Cauvery-connection step-up ringed in coral above a rising price curve, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 ring accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "Realistic rents are the quiet killer of the build case.",
+          "description": "A rentable duplex in a layout still getting roads rents at ₹18–22K, not the ₹40K a Banashankari instinct assumed. The numbers politely closed the argument.",
+          "imageSrc": "/journals/the-long-wait-journal/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a duplex sketch beside a rent figure of ₹18–22K with ₹40K crossed out, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 figure accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "title": "The stranger's-gift test outruns every spreadsheet.",
+          "description": "What would you do if you hadn't waited 25 years for it? The answer — sell, invest, travel — arrived instantly and carried more weight than the models.",
+          "imageSrc": "/journals/the-long-wait-journal/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a single ruled line asking the stranger's-gift question with the answer written immediately beneath it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 answer accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Scale",
+          "text": "A BDA allotment is a possession to hold forever — selling it betrays the wait"
+        },
+        {
+          "icon": "Building",
+          "text": "Building over the site is the self-evident reward at 61"
+        },
+        {
+          "icon": "Banknote",
+          "text": "Imagined Rent ₹40K justifies the duplex investment"
+        },
+        {
+          "icon": "MessageSquare",
+          "text": "The family decides by whom is loudest — usually the Pune son"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Heart",
+          "text": "You can keep the patience and sell the plot — they're separable"
+        },
+        {
+          "icon": "Calendar",
+          "text": "Selling on a milestone calendar beats building at 61"
+        },
+        {
+          "icon": "FileCheck",
+          "text": "Realistic rents (₹18–22K) are checked before the build case is believed"
+        },
+        {
+          "icon": "Users",
+          "text": "Lalitha's actual wishes get asked for and voted first"
+        }
+      ],
+      "differentlyTitle": "What he'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Calendar",
+          "title": "Track milestones from the day of allotment",
+          "description": "Mapping NPKL's Cauvery and trunk-road calendar from day one — not month twenty — would have dated the sale option much earlier."
+        },
+        {
+          "icon": "Heart",
+          "title": "Ask Lalitha in year one, not year two",
+          "description": "Her answer — Kashi and grandchildren's visits, not a building — was always available; it just took a two-year stall to ask."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Price realistic rents alongside the dream",
+          "description": "Checking what a still-developing layout actually rents for would have closed the build case a full year sooner."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Run the contractor-cousin numbers before the meeting",
+          "description": "Spotting the 2019 cost base before the pitch would have saved a polite two-week detour on loyalty alone."
+        },
+        {
+          "icon": "Scale",
+          "title": "Use the gift test the moment the stall began",
+          "description": "The immediate, clarifying answer was hiding in plain sight — the models merely let him verify what the test already knew."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Sridhar",
+          "avatar": "/journals/the-long-wait-journal/sridhar.png",
+          "text": "Lalitha, you know, finally wanted neither the building project nor the money — she wanted the Kashi trip and the grandchildren's visits funded without arithmetic. The site was never the question."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That is what a 25-year wait was actually for, sir — the patience let you sell it well. The certificate and the land were always separable; you just needed one question to see it.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for allotment-holders and layout pioneers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing a 25-year-old plastic folder across the top, then the one-line gift test, the ringed milestone calendar, and two Kashi tickets clipped to the folder, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For BDA allotment-holders facing build-vs-sell-vs-hold, the honest move is to price realistic rents first, time any sale to the infrastructure milestone calendar, plan the capital gains with indexation, and let the stranger's-gift test break the stall. Sridhar proved the patience can survive the sale — and that the freedom needs a first use before it becomes another empty room.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "YEAR 1",
+          "headline": "The allotment letter begins a paperwork year",
+          "body": "Khata transfer, possession certificate and site demarcation each took a government office's worth of patience; the letter was never the finish line.",
+          "turning": false
+        },
+        {
+          "month": "YEAR 1",
+          "headline": "NPKL prices step up with milestones, not months",
+          "body": "The layout repriced sharply as Cauvery connections and trunk roads arrived — corner sites near commercial spines touched ₹2.2 Cr.",
+          "turning": true
+        },
+        {
+          "month": "YEAR 2",
+          "headline": "The stranger's-gift test broke the stall",
+          "body": "'If a stranger gifted you this site yesterday?' produced an immediate, embarrassing, clarifying answer: sell, invest, travel.",
+          "turning": true
+        },
+        {
+          "month": "YEAR 2",
+          "headline": "The duplex rented at half the imagined number",
+          "body": "₹18–22K, not the ₹40K his Banashankari instincts assumed — the build case quietly weakened to the point of collapse.",
+          "turning": false
+        },
+        {
+          "month": "YEAR 2",
+          "headline": "Lalitha wanted neither build nor money — she wanted Kashi",
+          "body": "Finally asked, she wanted the trip and the grandchildren's visits funded without arithmetic. The site was never the question.",
+          "turning": true
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Waited years — what's the plot for?",
+      "description": "If you waited years for a plot like H.N. Sridhar and now wonder what it's for, let Riya model the build-vs-sell-vs-hold honest — keeping the patience while parting with the plot.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your allotment details — the layout, the khata status, the real rents in the area — and who in the house deserves a vote this time.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya models all three roads",
+          "description": "Riya builds your build-vs-sell-vs-hold at today's prices — realistic rents, construction cost at your age, and the layout's milestone calendar.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your Long Wait journal is generated with a gift test, a milestone-timing plan, and a capital-gains-with-indexation roadmap.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Clear recommendations",
+          "description": "Receive a decisive recommendation — and the Kashi tickets booked before the freedom becomes another empty room.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in his decision",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Stranger's-Gift Test",
+          "description": "What would you do if you hadn't waited 25 years for it? Do that.",
+          "icon": "Heart"
+        },
+        {
+          "id": 2,
+          "title": "Milestone, Not Month",
+          "description": "Time any sale to the Cauvery and trunk-road step-up, not a calendar month.",
+          "icon": "Calendar"
+        },
+        {
+          "id": 3,
+          "title": "Capital Gains with Indexation",
+          "description": "A 25-year hold has deep indexation — plan it before the sale, not after.",
+          "icon": "GraduationCap"
+        },
+        {
+          "id": 4,
+          "title": "The Freedom Needs a First Use",
+          "description": "Book the trip, fund the grandkids' visits — or the freedom becomes an empty room.",
+          "icon": "Plane"
+        },
+        {
+          "id": 5,
+          "title": "Your personal journal",
+          "description": "A beautifully kept record of the wait, the decision, and the first use of the freedom.",
+          "icon": "BookOpen"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You waited decades for a government allotment, and its arrival created a decision you never rehearsed.",
+        "The asset is also a certificate of your patience, which makes selling feel like self-erasure.",
+        "Your children's pragmatism and your meaning-making are politely at war.",
+        "Building at your age means contractors, site visits, and a two-year project you're not sure you want.",
+        "The layout will be excellent in a decade; your knees have a different timeline.",
+        "Your spouse has an opinion that nobody, including you, has properly asked for."
+      ],
+      "blankTitle": "This page is still blank.",
+      "blankDescription": "Begin your conversation with Riya to model build-vs-sell-vs-hold on your own allotment and find the answer a 25-year wait was waiting for.",
+      "blankActionText": "Let's decide it together.",
+      "blankImageSrc": "/journals/the-long-wait-journal/open-book-illustration.png",
+      "blankImagePrompt": "A 3D vector illustration of an open ruled journal with a 30x40 plot map and two airline tickets resting on it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 ticket accent, Scandinavian minimalism, clean white background.",
+      "ctaTitle": "Ready to decide what your wait was for?",
+      "ctaDescription": "Let Riya help you model build vs sell vs hold on your allocation, and book the first use of your freedom.",
+      "ctaButtonText": "Copy Journal",
+      "ctaCharacterImage": "/journals/the-long-wait-journal/riya-full-character.png",
+      "ctaCharacterImagePrompt": "A full-length character illustration of Riya the AI real estate guide holding a digital tablet and a 30x40 plot map in an 80% greyscale monochrome outfit with a Warm Coral #FF8A65 screen accent, Scandinavian minimalism, clean studio backdrop."
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-allotment-letter",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The 25-Year Wait, Delivered",
+      "desc": "A 30x40 NPKL allotment letter arrives; the plastic folder gains its final document and its first real decision.",
+      "icon": "FileCheck",
+      "x": 120,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-decision-model",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L2: Build vs Sell vs Hold",
+      "desc": "All three modelled at today's prices — but rentable-duplex rents in a still-developing layout disappoint (₹18–22K, not the imagined ₹40K).",
+      "icon": "Scale",
+      "loopText": "S2 Decision Model — Rent Reality ₹18–22K",
+      "x": 360,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-contractor-cousin",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: Contractor-Cousin Pitch",
+      "desc": "A 'build 4 floors, rent 3' pro-forma whose numbers assume 2019 construction costs; retired politely in two weeks.",
+      "icon": "Wrench",
+      "x": 620,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l4-gift-test",
+      "stage": "S3",
+      "type": "loop",
+      "title": "L4: The Stranger's-Gift Test",
+      "desc": "'If a stranger gifted you this site yesterday, what would you do?' — the answer came immediately and embarrassed him: sell, invest, take Lalitha to Kashi.",
+      "icon": "Heart",
+      "loopText": "S3 Gift Test — 'Sell, Invest, Travel'",
+      "x": 880,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l5-milestone-timing",
+      "stage": "S4",
+      "type": "stage",
+      "title": "L5: Milestone-Calendar Timing",
+      "desc": "NPKL milestone calendar tracked — Cauvery, trunk roads — and the sale timed to the infrastructure step-up, not a month.",
+      "icon": "Calendar",
+      "x": 620,
+      "y": 340,
+      "width": 190
+    },
+    {
+      "id": "l6-sold-kashi",
+      "stage": "S5",
+      "type": "stage",
+      "title": "L6: Sold at the Milestone Peak",
+      "desc": "Sold near the milestone peak; the capital-gains plan executed; Lalitha's Kashi trip booked the same week.",
+      "icon": "Plane",
+      "x": 360,
+      "y": 340,
+      "width": 180
+    }
+  ]
+}

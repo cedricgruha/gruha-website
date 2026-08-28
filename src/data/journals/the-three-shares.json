@@ -1,0 +1,973 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES / LEGACY",
+      "INHERITANCE CONSOLIDATORS",
+      "MALLESHWARAM"
+    ],
+    "title": "The Three Shares Journal",
+    "description": "The Hampanna siblings' six-year unresolved sentence — a 1971 Malleshwaram house worth ₹6.8 Cr, a builder's 90-day window, a no-spouses meaning-call, a caretaker ledger settled, and the door and tulsi katte allocated before the percentages.",
+    "quote": "\"Appa left one house and three children. The house cannot be cut. The money can.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Coffee",
+        "text": "The no-spouses call unlocked six years in 3 hours"
+      },
+      {
+        "icon": "ClipboardList",
+        "text": "The unasked question is the family-breaker — ask it"
+      },
+      {
+        "icon": "DoorOpen",
+        "text": "Allocate the objects before the percentages"
+      }
+    ],
+    "heroImage": "/journals/cover/34.png",
+    "heroTitle": "The Three Shares Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know the Hampanna siblings — Ramesh (54, bank manager in Bengaluru), Suma (50, doctor in Hubballi), Mohan (46, IT professional in Toronto) — three siblings, one Malleshwaram house, no will: their late father's 30x50 house near Sankey Road, bought in 1971 for ₹19,000 and worth ₹6.8 Cr today, must become three fair shares, three futures, and zero family ruptures.",
+      "buyers": [
+        {
+          "name": "Ramesh Hampanna",
+          "age": 54,
+          "role": "Bank Manager, Bengaluru",
+          "description": "The caretaker by proximity — fifteen years of repairs, tenants, and khata running around, acknowledged as a ₹18L line item. The buyout dream surfaced late, and his two lists retired it with dignity: 'buying' vs 'proving.'",
+          "tags": [
+            "Caretaker-by-Proximity",
+            "Buyout Dreamer, Retired",
+            "Filter-Coffee Maker"
+          ],
+          "image": "/journals/the-three-shares/ramesh.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 54-year-old South Indian man named Ramesh wearing a formal shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, steady tired expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Suma Hampanna",
+          "age": 50,
+          "role": "Doctor, Hubballi",
+          "description": "The quiet one who said the sentence that broke six years of stasis at Deepavali: 'Keeping the house sad and empty is not the same as keeping Appa.' Takes the tulsi katte to Hubballi.",
+          "tags": [
+            "Sentence-Sayer",
+            "Never-Asked-For-Anything",
+            "Tulsi-Katte Keeper"
+          ],
+          "image": "/journals/the-three-shares/suma.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 50-year-old South Indian woman named Suma wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, quiet composed expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Mohan Hampanna",
+          "age": 46,
+          "role": "IT Professional, Toronto",
+          "description": "Left in 2003; visits every two years for a week of nostalgia and one awkward conversation. Wanted, above all, to not be the one who sold Amma's house from Toronto — and commissioned the heritage photo-documentation.",
+          "tags": [
+            "Two-Year Visitor",
+            "Photo-Documentation Patron",
+            "Toronto Timezone"
+          ],
+          "image": "/journals/the-three-shares/mohan.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 46-year-old South Indian man named Mohan wearing smart casual attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, thoughtful faraway expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Turn one 1971 Malleshwaram house into three fair shares, three futures, and zero ruptures — with the front door and tulsi katte finding homes, the caretaker's fifteen years acknowledged in the ledger, and the relationship outlasting the asset.",
+      "sharedVisionImage": "/journals/the-three-shares/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of three adults standing in the courtyard of an old Malleshwaram house at dusk — its carved wooden door glowing warmly — each holding a different small object (a key, a framed photo, a tulsi plant), the house gently rendered as both solid and slightly translucent with blueprint lines of a future building faint behind it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the carved door, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Three Siblings, One House"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Inheritance, No Will"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "JD Signed — Three-Shares"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "90-Day Builder Window"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-three-shares/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of three hands with three yeses written on one card, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Three Yeses, No Swallowed No",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Every sibling can say yes without a swallowed no — the only non-negotiable that outranks the price, discovered through the no-spouses meaning-call."
+        },
+        {
+          "image": "/journals/the-three-shares/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a carved wooden door tagged for one sibling and a tulsi plant in a pot crated for another, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tags, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Door and the Tulsi Katte Find Homes",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Allocated before the percentages — the carved door becomes Ramesh's JD flat entrance, the tulsi katte travels to Hubballi, and the photographs are commissioned."
+        },
+        {
+          "image": "/journals/the-three-shares/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a ledger page with ₹18L allocated off the top and three signatures, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the signatures, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Caretaker Ledger, Settled",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Fifteen years of caretaking acknowledged as ₹18L off the top — documented by the CA in one sitting; the unasked question, asked, turned out to be affordable."
+        },
+        {
+          "image": "/journals/the-three-shares/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a handshake above an asset document with the family enduring, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Relationship Outlasts the Asset",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The market calls it a transaction; they are discovering it is a negotiation with grief — and the family's friendship is the balance sheet that matters most."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From six years of stasis ended in one month, to a renegotiated window, a no-spouses meaning-call, a caretaker ledger settled, and a buyout dream retired by its own two lists.",
+      "journeyFrameTitle": "MEANING BEFORE MONEY",
+      "roadmapTitle": "How three siblings divided what cannot be cut",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — JD Signed"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "THE ASSET",
+          "value": "₹6.8 Cr → 3 Flats + ₹1.2 Cr"
+        },
+        {
+          "icon": "Coffee",
+          "label": "THE UNLOCK",
+          "value": "3-Hour Meaning Call"
+        },
+        {
+          "icon": "DoorOpen",
+          "label": "THE FIRST ALLOCATION",
+          "value": "Door, Katte, Photographs"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-stasis-ends",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: Six Years End in One Month",
+          "desc": "The tenant's notice, the builder's assembly offer, and Suma's Deepavali sentence land on one timeline — the family's unresolved sentence finally has a clock.",
+          "icon": "Home",
+          "x": 120,
+          "y": 100,
+          "width": 180
+        },
+        {
+          "id": "l2-window-renegotiated",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L2: The 60+60 Window",
+          "desc": "The 90-day deadline renegotiated to 60+60 with exclusivity — deadlines are negotiable when the plot is this scarce; panic is optional.",
+          "icon": "Calendar",
+          "loopText": "Deadline Renegotiation Loop — 60+60, Exclusivity Attached",
+          "x": 370,
+          "y": 160,
+          "width": 190
+        },
+        {
+          "id": "l3-meaning-call",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L3: The Meaning Call",
+          "desc": "Three chairs, no spouses, Amma's filter coffee — 'what does the house mean to you' runs three hours; the structure conversation takes forty minutes after it.",
+          "icon": "Coffee",
+          "loopText": "3-Hour No-Spouses Call — Meaning Before Numbers",
+          "x": 640,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-caretaker-ledger",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Ledger Settled",
+          "desc": "The caretaker ledger settled explicitly: ₹18L to Ramesh off the top — one line, three signatures, the CA's relief visible.",
+          "icon": "ClipboardList",
+          "x": 850,
+          "y": 180,
+          "width": 190
+        },
+        {
+          "id": "l5-jd-diligence",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The JD Diligence",
+          "desc": "The builder's two previous boutique projects visited, owners interviewed — 8 and 14 months late respectively, quality praised; penalty-and-exit clauses lawyered.",
+          "icon": "Search",
+          "loopText": "JD Diligence Loop — Prior Projects, Owner-Interviewed",
+          "x": 340,
+          "y": 480,
+          "width": 200
+        },
+        {
+          "id": "l6-buyout-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l5-jd-diligence",
+          "title": "L6 BOUNCE: The Buyout Dream Retires",
+          "desc": "Ramesh's buyout dream surfaces late — two lists written: 'buying' vs 'proving.' The second list is longer; the dream retires itself with dignity.",
+          "icon": "Undo2",
+          "loopText": "2-Week Buyout Wobble — Two Lists, Dignified Exit",
+          "x": 600,
+          "y": 480,
+          "width": 200
+        },
+        {
+          "id": "l7-jd-signed",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L7: The Three-Shares Close",
+          "desc": "JD signed: three flats + ₹1.2 Cr distributable; the carved door tagged for Ramesh's flat, the tulsi katte crated for Hubballi, the house photo-documented.",
+          "icon": "KeyRound",
+          "x": 800,
+          "y": 360,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "meaning",
+          "label": "Meaning-Calling",
+          "icon": "Coffee"
+        },
+        {
+          "id": "ledgering",
+          "label": "Ledgering",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": "diligence",
+          "label": "Diligence",
+          "icon": "Search"
+        },
+        {
+          "id": "allocating",
+          "label": "Allocating",
+          "icon": "DoorOpen"
+        },
+        {
+          "id": "buying",
+          "label": "Signing",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Three Shares, Whole Family"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "one-timeline-moment",
+          "title": "The one-timeline of three triggers",
+          "desc": "The tenant's notice, the builder's offer, and Suma's Deepavali sentence on one timeline — six years of stasis ending in a single month.",
+          "imageSrc": "/journals/the-three-shares/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a single timeline with three triggers marked — a tenant notice, a builder offer, and a Deepavali sentence — ending a six-year stasis, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "three-chairs-moment",
+          "title": "Three chairs, no spouses, Amma's coffee",
+          "desc": "The meaning-call's only props — three chairs, no spouses, Amma's filter coffee — and three hours that unlocked what six years of avoidance couldn't.",
+          "imageSrc": "/journals/the-three-shares/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of three chairs arranged in a courtyard with filter coffee tumblers and no other props, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "ledger-signatures-moment",
+          "title": "The ₹18L, one line, three signatures",
+          "desc": "The caretaker ledger settled in one sitting — fifteen years acknowledged as a line item, documented by the CA, the relief visible on all three faces.",
+          "imageSrc": "/journals/the-three-shares/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a ledger page with a single ₹18L line and three signatures beneath it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "two-lists-moment",
+          "title": "The two lists, side by side",
+          "desc": "Ramesh's 'buying' list and 'proving' list — the second one longer, the buyout dream retiring itself with dignity rather than being argued down.",
+          "imageSrc": "/journals/the-three-shares/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of two handwritten lists titled 'buying' and 'proving' side by side, the second visibly longer, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "door-and-katte-moment",
+          "title": "The tagged door and the crated katte",
+          "desc": "The JD signing photo — the carved door tagged for Ramesh's flat, the tulsi katte crated for Hubballi, the heritage photographer's archive begun.",
+          "imageSrc": "/journals/the-three-shares/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a carved wooden door tagged with one name and a crated tulsi plant tagged with another, with a camera and photo archive beside them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Appa left one house and three children. The house cannot be cut. The money can.",
+          "author": "— The family's founding line"
+        },
+        {
+          "text": "Keeping the house sad and empty is not the same as keeping Appa.",
+          "author": "— Suma, at Deepavali"
+        },
+        {
+          "text": "The unasked question is the only one that can break a family. Asked ones just cost money.",
+          "author": "— Riya"
+        },
+        {
+          "text": "The practical voice is usually the one holding the most, most tightly.",
+          "author": "— Riya, on Mohan"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Ramesh",
+          "avatar": "/journals/the-three-shares/ramesh.png",
+          "text": "Riya, they've agreed to the call. Suma from Hubballi, Mohan from Toronto. No spouses, like you said. Amma's house on the agenda like some board item. Feels wrong, kano."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then let's fix the agenda, Ramesh. Item one isn't the builder's offer — it's a question each of you answers fully before any numbers appear: 'What does the house mean to you?' And your fifteen years of caretaking comes up too — as a line item, once, with a number, in the open. Eighteen lakhs off the top is what similar families settle at. The unasked question is the only one that can break a family. Asked ones just cost money.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Coffee",
+          "title": "The No-Spouses Meaning-Call",
+          "description": "Three hours on 'what does the house mean to you' unlocked what six years of avoidance couldn't — Suma wanted permission to let go; Mohan wanted to not be the one who sold Amma's house from Toronto; Ramesh wanted his fifteen years acknowledged."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Caretaker Ledger",
+          "description": "Fifteen years of caretaking settled as ₹18L off the top — the unasked question, asked, turned out to be affordable. Either answer to the ledger question can be survived; the unasked question cannot."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Deadlines Are Negotiable",
+          "description": "The 90-day window was renegotiated to 60+60 with exclusivity in writing — deadlines are negotiable when the asset is this scarce; panic is optional."
+        },
+        {
+          "icon": "Search",
+          "title": "JD Diligence Is Its Own Discipline",
+          "description": "The builder's two prior boutique projects visited, owners interviewed — delivery 8 and 14 months late respectively, quality praised — and the penalty-and-exit clauses lawyered before any signature."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Fairness vs Equality",
+          "description": "Equal thirds is arithmetic; fair is harder — the caretaker ledger, Suma's restraint, Mohan's distance. The family decided explicitly whether the last decade's ledger enters the math. It did — once, openly."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-three-shares.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "The asset chooses the geography — Malleshwaram near Sankey Road, where three valuations and a builder's assembly offer turned six years of stasis into a 90-day window.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Three Fair Shares"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "THE ASSET'S HOME",
+          "value": "Malleshwaram, Sankey Rd"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE SPREAD",
+          "value": "3 Valuations, 1 Argument"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "THE RESOLUTION",
+          "value": "JD: 3 Flats + ₹1.2 Cr"
+        }
+      ],
+      "exploredAreasTitle": "The asset's geography they explored",
+      "exploredAreas": [
+        {
+          "title": "Malleshwaram",
+          "description": "Where all three were raised and where none can live — the 30x50 house at the heart of the valuation spread and the JD's three-flat future.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 13.0067999,
+            "lng": 77.5563677
+          },
+          "imageSrc": "/journals/the-three-shares/malleshwaram.png",
+          "imagegenerationprompt": "A modern architectural vector view of Malleshwaram's heritage residential streets with old houses and boutique redevelopments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Sankey Road Belt",
+          "description": "The plot's prestige address — where Malleshwaram's boutique-redevelopment economics price 30x50 sites at ₹40K+/sqft of site area, making the builder's offer credible.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9997299,
+            "lng": 77.5815805
+          },
+          "imageSrc": "/journals/the-three-shares/sankey-road.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Sankey Road belt with green avenues and boutique apartment buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "The reinvestment maps are each sibling's own — Hubballi for Suma's practice, Toronto for Mohan's mortgage, Vijayanagar for Ramesh's existing flat.",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE SIX-YEAR SENTENCE",
+          "value": "Rented Below Market, Out of Respect",
+          "description": "The house has been the family's unresolved sentence — rented at below-market because below-market felt respectful, maintained by Ramesh by default, visited by Mohan every two years for one awkward conversation.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE BUILDER'S 90-DAY CLOCK",
+          "value": "Designed Pressure",
+          "description": "The window was designed to create exactly the pressure they've avoided for six years — renegotiated to 60+60 with exclusivity, because deadlines bend when the plot is this scarce.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "THE VALUATION SPREAD",
+          "value": "Three Valuations, One Argument",
+          "description": "The spread between the three valuations was its own argument — Malleshwaram's boutique-redevelopment economics now price the plot at ₹40K+/sqft of site area.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE UNSAID LEDGER",
+          "value": "Fifteen Years of Caretaking",
+          "description": "Ramesh's repairs, tenants, and khata running-around carried a ledger nobody had opened — settled as ₹18L off the top, in one sitting, documented by the CA.",
+          "icon": "ClipboardList"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for three yeses without a swallowed no, a ledger opened once and closed, and objects — door, katte, photographs — allocated before percentages.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Hampannas taught me that inheritance journeys run on meaning before money. The no-spouses call — three hours on 'what does the house mean to you' — unlocked what six years of avoidance couldn't: Suma wanted permission to let go; Mohan wanted to not be the one who sold Amma's house from Toronto; Ramesh wanted his fifteen years acknowledged. The structure conversation took forty minutes after that. The objects were allocated before the percentages — the door to Ramesh's flat, the tulsi katte to Hubballi, the heritage photographer commissioned — and that order was the whole method. The caretaker ledger became one line, three signatures, affordable. And the buyout dream retired itself on two lists. The market calls it a transaction; they discovered it was a negotiation with grief — and they conducted it beautifully.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a caretaker ledger page beside a no-spouses call agenda, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The cast is the asset itself and the builder's record — the ancestral house's three options, the JD's prior projects owner-interviewed, and the buyout that retired itself.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Three Fair Shares"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "THE RESOLUTION",
+          "value": "JD: 3 Flats + ₹1.2 Cr"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE ASSET",
+          "value": "₹6.8 Cr, Three Valuations"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "THE LEDGER",
+          "value": "₹18L, One Line, Signed"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Coffee",
+          "title": "The Meaning Call",
+          "subtitle": "before any numbers"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Caretaker Ledger",
+          "subtitle": "asked once, settled once"
+        },
+        {
+          "icon": "Search",
+          "title": "JD Prior-Project Diligence",
+          "subtitle": "owners interviewed"
+        },
+        {
+          "icon": "DoorOpen",
+          "title": "Objects Before Percentages",
+          "subtitle": "door, katte, photographs"
+        },
+        {
+          "icon": "Scale",
+          "title": "NRI-Share Taxation",
+          "subtitle": "Toronto's subplot, lawyered"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Mohan",
+          "avatar": "/journals/the-three-shares/mohan.png",
+          "text": "The photographer's archive means the house survives as something other than a price. And the katte travels with Suma. Somehow, the percentages feel smaller than the objects now."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the order working, Mohan — meaning first, then money, then memory. The JD gives all three of you an address on the same lane where Amma's rangoli went for fifty years. The house cannot be cut; the shares can. And the family wasn't.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they looked",
+      "mapImageSrc": "/journals/the-three-shares/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Malleshwaram near Sankey Road with the ancestral plot marked in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "The options they weighed",
+      "projectsCountBadge": "3 options + diligence",
+      "projects": [
+        {
+          "title": "The Asset",
+          "name": "Malleshwaram 30x50 Ancestral House",
+          "price": "₹6.8 Cr valuation",
+          "possession": "Boutique redevelopment",
+          "psf": "Site values ₹40K+/sqft",
+          "location": "Near Sankey Rd",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Diligence Set",
+          "name": "The JD Builder's Prior Boutique Projects",
+          "price": "Owner-interviewed & visited",
+          "possession": "Builder unnamed",
+          "psf": "Delay history discussed",
+          "location": "Malleshwaram belt",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Retired Dream",
+          "name": "Ramesh's Buyout",
+          "price": "₹4.5 Cr to raise",
+          "possession": "Dream retired, two lists",
+          "psf": "'Buying' vs 'proving'",
+          "location": "Vijayanagar (his flat)",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Undo2",
+          "title": "The Buyout Dream",
+          "count": "1 dream, retired by its own two lists"
+        },
+        {
+          "icon": "Scale",
+          "title": "The Clean-Sale Option",
+          "count": "finality at the price of the address"
+        },
+        {
+          "icon": "Calendar",
+          "title": "The Untouched 90-Day Window",
+          "count": "renegotiated to 60+60, panic refused"
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "The Unasked Ledger",
+          "count": "asked once, ₹18L, closed"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Signing the JD delivered three flats in the new boutique building — one per sibling, on the lane where they were raised — plus ₹1.2 Cr distributable, with the caretaker ledger settled at ₹18L off the top and the door, tulsi katte, and photographs allocated first. The house cannot be cut; the money can. The family wasn't.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for inheritance families — meaning before money, the ledger asked once, deadlines negotiated, and objects allocated before percentages.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Meaning Before Money"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Three Yeses, No Swallowed No"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Six Years of the Unsaid"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Objects, Allocated First"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The 90-day deadline did what six years couldn't — and they renegotiated it first.",
+          "description": "A written 60-day extension in exchange for exclusivity — deadlines are negotiable when the asset is this scarce, and panic is optional.",
+          "imageSrc": "/journals/the-three-shares/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a deadline document renegotiated from 90 days to 60+60 with an exclusivity letter attached, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The no-spouses meaning-call is the unlock.",
+          "description": "Three hours on 'what does the house mean to you' — Suma wanted permission to let go; Mohan wanted to not be the one who sold Amma's house from Toronto; Ramesh wanted his fifteen years acknowledged. The structure talk took forty minutes after that.",
+          "imageSrc": "/journals/the-three-shares/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of three chairs and filter coffee tumblers in a courtyard with three different emotional notes written above each chair, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The caretaker ledger, asked once, is affordable.",
+          "description": "The JD's cash component allocates ₹18L to Ramesh off the top — agreed in one sitting, documented by the CA. The unasked question is the only one that can break a family; asked ones just cost money.",
+          "imageSrc": "/journals/the-three-shares/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a ledger page with a single ₹18L allocation line and three signatures, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The inheritance was divisible after all.",
+          "description": "The door to Ramesh's flat, the tulsi katte to Hubballi, the photo-documentation commissioned by Mohan — the objects allocated before the money revealed that what the house held could be carried, and what remained could be shared.",
+          "imageSrc": "/journals/the-three-shares/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a carved door, a crated tulsi plant, and a photo archive being carried in three directions with warm light between them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "A rented, unvisited house can wait another year"
+        },
+        {
+          "icon": "Scale",
+          "text": "Equal thirds is the same as fair shares"
+        },
+        {
+          "icon": "FileText",
+          "text": "The caretaking is love; it needs no ledger"
+        },
+        {
+          "icon": "Calendar",
+          "text": "A builder's deadline is a builder's power"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Coffee",
+          "text": "Meaning first, then money — the call unlocks the structure"
+        },
+        {
+          "icon": "ClipboardList",
+          "text": "The ledger, asked once, becomes a line item — affordable"
+        },
+        {
+          "icon": "DoorOpen",
+          "text": "Objects allocated before percentages — the inheritance carries"
+        },
+        {
+          "icon": "Calendar",
+          "text": "Deadlines bend when the asset is scarce — panic is optional"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Coffee",
+          "title": "Schedule the meaning-call in year one, not year six",
+          "description": "The no-spouses call unlocked in three hours what six years of avoidance couldn't — the conversation should have been the first act, not the rescue."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Open the caretaker ledger at the first meeting",
+          "description": "The ₹18L line arrived at month two — Ramesh's fifteen years should have been acknowledged the moment the options appeared on a table."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Negotiate the window before it starts ticking",
+          "description": "The 60+60 extension was won mid-pressure — the exclusivity-for-extension trade should have been the opening position, not the recovery."
+        },
+        {
+          "icon": "DoorOpen",
+          "title": "Allocate the objects at the same time as the options",
+          "description": "The door and katte were allocated at signing — putting the objects on the first agenda would have kept the meaning present through the entire process."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Suma",
+          "avatar": "/journals/the-three-shares/suma.png",
+          "text": "The katte is in Hubballi now, Riya. The door is Ramesh's entrance. And the house is a set of photographs Mohan will always have. Three flats on the same lane, three shares, and we still talk on Sundays."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the whole journal, madam — the house cannot be cut, but everything that made it a home could be carried. The percentages divided; the family didn't. Amma's rangoli spot has three new addresses now.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for inheritance families",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing the three siblings on the one-timeline of triggers, sitting in the three-chairs meaning call, signing the ₹18L ledger line, and tagging the door and katte at the JD signing, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For inheritance families, the method is meaning before money: the no-spouses call on 'what does the house mean to you' before any structure talk; the caretaker ledger asked once and settled explicitly; deadlines negotiated with exclusivity as the currency; and the objects — the door, the tree, the photographs — allocated before the percentages. The clean sale buys finality; the JD keeps the address alive; the buyout needs two honest lists. Decide which losses to refuse, and let the relationship outlast the asset. The Hampannas proved that what a house holds can be carried, and what remains can be shared — three flats on one lane, three shares, one family.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The 90-day deadline did what six years couldn't — but they renegotiated it first",
+          "body": "A written 60-day extension from the builder in exchange for exclusivity. Deadlines are negotiable when the asset is this scarce; panic is optional.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 1",
+          "headline": "The three-way call with no spouses ran three hours",
+          "body": "Suma wanted permission to let go; Mohan wanted to not be the one who sold Amma's house from Toronto; Ramesh wanted his fifteen years acknowledged. The structure conversation took forty minutes after that.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The caretaking ledger was settled explicitly",
+          "body": "The JD's cash component allocates ₹18L to Ramesh off the top, agreed in one sitting, documented by the CA. The unasked question, asked, turned out to be affordable.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "JD diligence is its own discipline",
+          "body": "The builder's two previous boutique projects were visited, owners interviewed — delivery 8 and 14 months late respectively, quality praised — and the penalty-and-exit clauses lawyered before any signature.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The door and the tulsi katte were allocated first, before the money",
+          "body": "Suma takes the katte to Hubballi, the door becomes the entrance of Ramesh's JD flat, and Mohan commissioned a photo-documentation of the house. The inheritance, it turned out, was divisible after all.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "One house, three siblings, fair futures?",
+      "description": "If an inherited property is your family's unresolved sentence, like the Hampannas', let Riya build your three-shares roadmap — the meaning-call agenda, the options model, and the ledger asked once.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the property, the siblings' geographies, the caretaker situation, and the builder's window if one is ticking.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya models the three options at current values, sequences the meaning-call agenda, and drafts the caretaker-ledger line for the CA.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Three Shares journal — options model, meaning-call agenda, and object-allocation list — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive the sale-vs-JD-vs-buyout model with capital gains and NRI tax treatment per sibling, and the JD diligence pack.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Sibling-Negotiation Framework",
+          "description": "Meaning conversation before money, the caretaker's ledger asked once, and the objects allocated first — the sequence that keeps families whole.",
+          "icon": "Coffee"
+        },
+        {
+          "id": 2,
+          "title": "The JD-vs-Sale-vs-Buyout Model",
+          "description": "Real timelines, capital gains, and NRI-share taxation per sibling — the three options modelled honestly at current values.",
+          "icon": "Scale"
+        },
+        {
+          "id": 3,
+          "title": "The JD Due-Diligence Pack",
+          "description": "Delivery history, landowner-protection clauses, and penalty structures — the builder's record read before the signature.",
+          "icon": "Search"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "An inherited property is the family's unresolved sentence, and a builder's offer just added a deadline.",
+        "Equal shares are arithmetic; fair shares are a negotiation nobody has scheduled — until now.",
+        "One sibling has been the caretaker by proximity, and the ledger of that is unopened.",
+        "A JD keeps the address alive and the siblings entangled; a sale buys freedom and finality — and you feel both pulls.",
+        "Someone's buyout dream is partly about buying the past.",
+        "The objects — a door, a tree, a photograph wall — have started mattering more than the percentages."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-stasis-ends",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: Six Years End in One Month",
+      "desc": "The tenant's notice, the builder's assembly offer, and Suma's Deepavali sentence land on one timeline — the family's unresolved sentence finally has a clock.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-window-renegotiated",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L2: The 60+60 Window",
+      "desc": "The 90-day deadline renegotiated to 60+60 with exclusivity — deadlines are negotiable when the plot is this scarce; panic is optional.",
+      "icon": "Calendar",
+      "loopText": "Deadline Renegotiation Loop — 60+60, Exclusivity Attached",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-meaning-call",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L3: The Meaning Call",
+      "desc": "Three chairs, no spouses, Amma's filter coffee — 'what does the house mean to you' runs three hours; the structure conversation takes forty minutes after it.",
+      "icon": "Coffee",
+      "loopText": "3-Hour No-Spouses Call — Meaning Before Numbers",
+      "x": 540,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l4-caretaker-ledger",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Ledger Settled",
+      "desc": "The caretaker ledger settled explicitly: ₹18L to Ramesh off the top — one line, three signatures, the CA's relief visible.",
+      "icon": "ClipboardList",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-jd-diligence",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The JD Diligence",
+      "desc": "The builder's two previous boutique projects visited, owners interviewed — 8 and 14 months late respectively, quality praised; penalty-and-exit clauses lawyered.",
+      "icon": "Search",
+      "loopText": "JD Diligence Loop — Prior Projects, Owner-Interviewed",
+      "x": 440,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-buyout-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l5-jd-diligence",
+      "title": "L6 BOUNCE: The Buyout Dream Retires",
+      "desc": "Ramesh's buyout dream surfaces late — two lists written: 'buying' vs 'proving.' The second list is longer; the dream retires itself with dignity.",
+      "icon": "Undo2",
+      "loopText": "2-Week Buyout Wobble — Two Lists, Dignified Exit",
+      "x": 660,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l7-jd-signed",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L7: The Three-Shares Close",
+      "desc": "JD signed: three flats + ₹1.2 Cr distributable; the carved door tagged for Ramesh's flat, the tulsi katte crated for Hubballi, the house photo-documented.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    }
+  ]
+}

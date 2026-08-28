@@ -1,0 +1,942 @@
+{
+  "article": {
+    "tags": [
+      "SENIORS & DOWNSIZERS",
+      "SENIOR-LIVING PIONEERS",
+      "DEVANAHALLI • KANAKAPURA"
+    ],
+    "title": "The Third Innings Journal",
+    "description": "Col. (Retd.) Arvind (70) & Indira Khanna's (66) deliberate choice of purpose-built senior living — the 4 pm library test, night-staffing drills, resident-children interviews, and a purchase-vs-deposit model run with a lecturer's rigor.",
+    "quote": "\"We're not going somewhere to be old. We're going somewhere to be free.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Library",
+        "text": "The 4 pm library test — alive between events?"
+      },
+      {
+        "icon": "ClipboardList",
+        "text": "Resident children, phoned, are the unfiltered source"
+      },
+      {
+        "icon": "Scale",
+        "text": "Purchase-vs-deposit: what does she actually inherit?"
+      }
+    ],
+    "heroImage": "/journals/cover/30.png",
+    "heroTitle": "The Third Innings Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Col. (Retd.) Arvind Khanna (70, two decades of Army service plus a corporate-security career) & Indira (66, retired economics lecturer) — doing what their friends whisper about and don't do: actively choosing a purpose-built senior-living community while healthy, mobile, and emphatically not in crisis.",
+      "buyers": [
+        {
+          "name": "Col. (Retd.) Arvind Khanna",
+          "age": 70,
+          "role": "Retd. Army Officer, Former Corporate Security Head",
+          "description": "Ran logistics for brigades; assessed aging like the operations problem it is — the infrastructure of aging is better engineered collectively than improvised individually. Tests night staffing unannounced at 9 pm, and documents decisions because 'the Army teaches documentation.'",
+          "tags": [
+            "Ops-Officer Assessor",
+            "9 pm Unannounced Tester",
+            "Documentation-Believer"
+          ],
+          "image": "/journals/the-third-innings/arvind.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 70-year-old Indian retired Army officer named Arvind wearing a crisp shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, dignified brisk expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Indira Khanna",
+          "age": 66,
+          "role": "Retired Economics Lecturer",
+          "description": "The evaluation rubric is hers — the 4 pm library headcount, the chef's attrition, the bridge-club WhatsApp's message frequency, and interviews with residents' children by phone. Her correction to the circle: 'It's a gated community where the clubhouse has a nurse.'",
+          "tags": [
+            "4 pm Library Tester",
+            "Rubric Builder",
+            "Stigma-Correction Author"
+          ],
+          "image": "/journals/the-third-innings/indira.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 66-year-old Indian woman named Indira wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, sharp warm expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Choose the third innings deliberately — a 2BHK in a care-continuum senior-living campus on Bengaluru's outskirts, purchased while healthy so the community becomes home rather than facility, with integration calendared like a posting and the Indiranagar sale funding two decades of freedom.",
+      "sharedVisionImage": "/journals/the-third-innings/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an active older couple cycling on a tree-lined path inside a beautiful campus community, other seniors playing chess and gardening in the background, a discreet medical center with a warm light among the greenery, morning sun through rain trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the medical center's light, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Senior-Living Pioneers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "The Third Innings, Chosen"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Serene Urbana 2BHK Closed"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "9 Months — While Healthy"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-third-innings/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a corporate dossier with a 10+ year multi-property track-record chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the chart, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Operator: 10+ Years, Multi-Property",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Unlike a regular flat, the asset's value rides on the operator's quality and solvency — evaluated like procurement, corporate due diligence, not just civil."
+        },
+        {
+          "image": "/journals/the-third-innings/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a care-continuum diagram with on-site nursing, a hospital tie-up and an ambulance time marked, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the ambulance time, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Care Continuum On Site",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Care escalation engineered on-site — not a tie-up with an asterisk. The 'senior resort' detour died on exactly this criterion."
+        },
+        {
+          "image": "/journals/the-third-innings/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a night nurse-call response drill at 2 am with staffing ratios annotated, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the ratio, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Night Staffing Verified",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The 2 am ratio, the nurse-call response drill, the hospital tie-up's actual ambulance time — tested unannounced at 9 pm; the operator that welcomed the test made the finals."
+        },
+        {
+          "image": "/journals/the-third-innings/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a library with eleven residents at 4 pm and a headcount note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the headcount, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The 4 pm Library Test",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Eleven people at 4 pm on a Tuesday, two arguing about a crossword with citations — the only amenity that matters: a community alive between events."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From an ops-officer's assessment memo to five campus tours, a care tie-up detour, resident-children interviews, and an integration plan calendared like a posting.",
+      "journeyFrameTitle": "ENGINEERED COLLECTIVELY, CHOSEN EARLY",
+      "roadmapTitle": "How a colonel and a lecturer chose freedom, deliberately",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Serene Urbana 2BHK"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹4.5 Cr Sale → Unit + Corpus"
+        },
+        {
+          "icon": "Library",
+          "label": "THE DECIDING TEST",
+          "value": "11 at 4 pm, Tuesday"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE UNFILTERED SOURCE",
+          "value": "Resident Children, Phoned"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-ops-assessment",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Ops Assessment",
+          "desc": "Two decades of friends' improvised aging observed — the ops officer's conclusion: aging infrastructure is better engineered collectively than improvised individually.",
+          "icon": "ClipboardList",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-five-campuses",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: Five Campuses, One Rubric",
+          "desc": "Five communities toured; the 4 pm library test and night-staffing drills instituted — every campus visit badge carries a pencilled library headcount.",
+          "icon": "Library",
+          "x": 340,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-senior-resort-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The 'Senior Resort'",
+          "desc": "A glossy hotel-branded pitch — its care continuum turns out to be a tie-up, not on-site. Declined; the asterisk magnified, the operator unnamed by policy.",
+          "icon": "Eye",
+          "x": 440,
+          "y": 400,
+          "width": 190
+        },
+        {
+          "id": "l4-model-spreadsheets",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Purchase vs Deposit",
+          "desc": "Serene Urbana vs Serene Amara (same operator, Devanahalli) — two model spreadsheets with a 'what does she inherit' tab open in Indira's lecturer's hand.",
+          "icon": "Scale",
+          "x": 560,
+          "y": 80,
+          "width": 190
+        },
+        {
+          "id": "l5-resident-children-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The Resident-Children Calls",
+          "desc": "Four calls to residents' children — chef attrition, fee-hike history, decline-handling. Two calls reshape the ranking; the unfiltered source wins.",
+          "icon": "Users",
+          "loopText": "2-Week Interview Loop — Two Calls Reshape the Ranking",
+          "x": 740,
+          "y": 400,
+          "width": 200
+        },
+        {
+          "id": "l6-serene-urbana-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Booked Third Innings",
+          "desc": "Serene Urbana 2BHK purchased; the Indiranagar sale funds corpus and London trips; integration calendared like a posting — bridge-club waitlist form dated the same day.",
+          "icon": "KeyRound",
+          "x": 800,
+          "y": 80,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "touring",
+          "label": "Touring",
+          "icon": "Library"
+        },
+        {
+          "id": "modelling",
+          "label": "Modelling",
+          "icon": "Scale"
+        },
+        {
+          "id": "interviewing",
+          "label": "Interviewing",
+          "icon": "Users"
+        },
+        {
+          "id": "integrating",
+          "label": "Integrating",
+          "icon": "Calendar"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Third Innings, Booked"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "assessment-memo-moment",
+          "title": "The ops assessment memo",
+          "desc": "An operations officer's assessment memo — 'aging infrastructure, engineered collectively' — the conclusion that turned a whisper into a plan.",
+          "imageSrc": "/journals/the-third-innings/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an operations assessment memo headed 'aging infrastructure, engineered collectively' with logistics-style annotations, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "library-headcount-moment",
+          "title": "Eleven at 4 pm on a Tuesday",
+          "desc": "The 4 pm library headcount pencilled on each campus badge — eleven people on a Tuesday, two arguing about a crossword with citations. The 'is it alive' question, settled.",
+          "imageSrc": "/journals/the-third-innings/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a campus visit badge with an '11, 4 pm' headcount pencilled beside a library scene with residents reading and arguing over a crossword, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "asterisk-moment",
+          "title": "The magnified asterisk",
+          "desc": "The 'senior resort' brochure with its care tie-up asterisk magnified — a tie-up is not a continuum, and the glossy detour ended on the fine print.",
+          "imageSrc": "/journals/the-third-innings/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a glossy senior-resort brochure with a care tie-up asterisk magnified through a magnifying glass, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "inherit-tab-moment",
+          "title": "The 'what does she inherit' tab",
+          "desc": "Indira's spreadsheet with the 'what does she inherit' tab open — purchase passes a thin-resale asset to the daughter; deposit returns capital with conditions. The estate honesty, tabulated.",
+          "imageSrc": "/journals/the-third-innings/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a spreadsheet with a 'what does she inherit' tab open, comparing purchase and deposit model outcomes, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "bridge-club-moment",
+          "title": "The same-day booking and waitlist forms",
+          "desc": "The Serene Urbana booking beside a bridge-club waitlist form, both dated the same day — integration calendared like a posting, belonging treated as logistics.",
+          "imageSrc": "/journals/the-third-innings/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a Serene Urbana booking form beside a bridge-club waitlist form, both stamped with the same date, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We're not going somewhere to be old. We're going somewhere to be free.",
+          "author": "— Arvind & Indira"
+        },
+        {
+          "text": "It's a gated community where the clubhouse has a nurse.",
+          "author": "— Indira's correction to the circle"
+        },
+        {
+          "text": "Eleven people, Riya. ELEVEN, at four pm on a Tuesday. Two arguing about a crossword — properly arguing, with citations.",
+          "author": "— Indira, on the library test"
+        },
+        {
+          "text": "The Army teaches documentation.",
+          "author": "— Arvind, on telling their daughter twice, in writing"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Arvind",
+          "avatar": "/journals/the-third-innings/arvind.png",
+          "text": "Riya, reconnaissance complete. I called four residents' children, as you suggested. Two glowing, one balanced, one informative — chef attrition at the other operator, fee hikes handled badly. Theek hai. Data is data."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "And the 4 pm library test, sir? Eleven at four on a Tuesday settles the 'is it alive' question. So — Serene Urbana, the 2BHK with the garden strip. Purchase model, not deposit: at your corpus the purchase wins, though your daughter inherits a thin-resale asset. You've said you're optimizing for your two decades—",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "ShieldCheck",
+          "title": "The Operator Dependency",
+          "description": "Unlike a regular flat, the asset's entire value rides on the operator's quality and solvency — a great building with a failed operator is a bad nursing home. The due diligence is corporate, not just civil."
+        },
+        {
+          "icon": "Moon",
+          "title": "Night Staffing Is the Truth",
+          "description": "The 2 am ratio, the nurse-call response drill, the hospital tie-up's actual ambulance time — tested unannounced at 9 pm; the operator that welcomed the test made the finals."
+        },
+        {
+          "icon": "Library",
+          "title": "The Alive-Between-Events Test",
+          "description": "The 4 pm library headcount and its siblings — the bridge-club WhatsApp's message frequency, the dining hall's Tuesday attendance — measure the only amenity that matters."
+        },
+        {
+          "icon": "Scale",
+          "title": "The Estate-Structure Choice",
+          "description": "Purchase passes a thin-market asset to the daughter; deposit models return capital with conditions — the 'what does she inherit' tab made the trade explicit."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Integration Time Is the Premium",
+          "description": "Moving at 70-and-healthy means the community becomes home, not facility — integration calendared like a posting, clubs chosen, the monthly lunch protected with a standing car arrangement."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-third-innings.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Touring the outskirts' senior-living campuses — Devanahalli and Kanakapura Road, far enough for greenery, near enough for the monthly Indiranagar lunch — with a rubric sharpened on every visit.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Care-Continuum 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Devanahalli • Kanakapura Road"
+        },
+        {
+          "icon": "Library",
+          "label": "THE TEST",
+          "value": "4 pm, Passed Twice"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Serene Urbana 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "The outskirts they explored",
+      "exploredAreas": [
+        {
+          "title": "Devanahalli (Chosen)",
+          "description": "The chosen arc — Serene Urbana and Serene Amara, both care-continuum campuses where the 4 pm library test passed and the night drills welcomed inspection.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 13.2524208,
+            "lng": 77.6903177
+          },
+          "imageSrc": "/journals/the-third-innings/devanahalli.png",
+          "imagegenerationprompt": "A modern architectural vector view of Devanahalli's senior-living campus belt with greenery and medical centers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Kanakapura Road",
+          "description": "The southern alternative — green corridor campuses weighed against the monthly Indiranagar lunch's distance, and the friends circle's driving years.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9719359,
+            "lng": 77.5911468
+          },
+          "imageSrc": "/journals/the-third-innings/kanakapura.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Kanakapura Road green corridor with campus communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Serene Urbana Campus (Chosen)",
+          "description": "The chosen community — the 2BHK with the garden strip, the bridge-club waitlist, and eleven people in the library at 4 pm on a Tuesday.",
+          "projects": 2,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9695995,
+            "lng": 77.6417096
+          },
+          "imageSrc": "/journals/the-third-innings/serene-urbana.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Serene Urbana campus with tree-lined paths and an active community, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the 'senior resort' pitch (detour — care tie-up ≠ care continuum) • Serene Amara (shortlist sibling, model comparison) • every campus that failed a rubric line",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE FRIENDS' IMPROVISED AGING",
+          "value": "The 3BHK Dependency Model",
+          "description": "Friends aging in family-designed homes, dependent on rotating cooks and attenders, socially shrinking to the TV — the observed alternative that made collective engineering obvious.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE CARE TIE-UP ASTERISK",
+          "value": "Tie-Up ≠ Continuum",
+          "description": "A glossy 'senior resort' pitch whose care continuum turned out to be a tie-up, not on-site infrastructure — the fine print that ended the detour.",
+          "icon": "Eye"
+        },
+        {
+          "title": "THE OPERATOR DEPENDENCY",
+          "value": "Corporate, Not Just Civil",
+          "description": "The asset's value rides on the operator's quality and solvency — track record, financials, and care protocols evaluated like procurement.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "title": "THE STIGMA OF THE CIRCLE",
+          "value": "'Old-Age Home' as Accusation",
+          "description": "'Old-age home' still lands like an accusation in their generation's vocabulary — Indira's correction: 'It's a gated community where the clubhouse has a nurse.'",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for operator track record, care-continuum depth, night staffing, the 4 pm library test, and a dining hall that survives month four.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Khannas evaluate operators like procurement: night ratios, unannounced monsoon visits, resident-children interviews, and a rubric so specific that the 4 pm library headcount decided more than any brochure. Their genius was choosing early — moving at 70-and-healthy so the community becomes home rather than facility, buying integration time with money, the most defensible premium in their view. And their honesty was estate-deep: the purchase-vs-deposit model ran with a 'what does she inherit' tab, and the daughter's thin-resale inheritance was told twice, in writing. The Army teaches documentation; the lecturer teaches the rubric; together they booked a third innings with the bridge-club waitlist form dated the same day as the deed.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a campus evaluation rubric beside a purchase-vs-deposit spreadsheet with a 'what does she inherit' tab, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing the outskirts' senior-living campuses — the same operator's two models run side by side, the tie-up detour declined, and the rubric applied to every visit.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Care-Continuum 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Serene Urbana 2BHK"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE MODEL DECISION",
+          "value": "Purchase Over Deposit"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹4.5 Cr Sale → Unit + Corpus"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Operator Track Record",
+          "subtitle": "10+ years, multi-property"
+        },
+        {
+          "icon": "Stethoscope",
+          "title": "Care Continuum On Site",
+          "subtitle": "not a tie-up"
+        },
+        {
+          "icon": "Moon",
+          "title": "Night Staffing Verified",
+          "subtitle": "9 pm unannounced"
+        },
+        {
+          "icon": "Library",
+          "title": "The 4 pm Library Test",
+          "subtitle": "alive between events"
+        },
+        {
+          "icon": "Scale",
+          "title": "Estate Modelling",
+          "subtitle": "the 'she inherits' tab"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Indira",
+          "avatar": "/journals/the-third-innings/indira.png",
+          "text": "Book it, Riya. And put us down for the bridge club before the ink dries — I've seen the waitlist. Retired professors hoard the good partners."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Done — and noted in the journal: 'belonging is logistics too.' The third innings starts with a key, a bridge-club card, and eleven people in the library who are about to become neighbours.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-third-innings/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Devanahalli and Kanakapura Road senior-living corridors in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Serene Urbana (Chosen)",
+          "name": "Serene Urbana (Columbia Pacific)",
+          "price": "1–3BHK ₹30L–1 Cr+",
+          "possession": "Ready, integrated township",
+          "psf": "Monthly from ~₹28K",
+          "location": "Devanahalli",
+          "imageSrc": "/journals/the-third-innings/projects/Serene-Urbana.png"
+        },
+        {
+          "title": "The Shortlist Sibling",
+          "name": "Serene Amara",
+          "price": "Model comparison",
+          "possession": "Same operator",
+          "psf": "Purchase vs deposit",
+          "location": "Devanahalli",
+          "imageSrc": "/journals/the-third-innings/projects/Serene-Amara.webp"
+        },
+        {
+          "title": "The Tie-Up Detour",
+          "name": "The 'Senior Resort' Pitch",
+          "price": "Glossy, asterisked",
+          "possession": "Tie-up, not continuum",
+          "psf": "Unnamed by policy",
+          "location": "North arc",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Eye",
+          "title": "The Care Tie-Up Asterisk",
+          "count": "1 senior-resort detour, declined"
+        },
+        {
+          "icon": "Moon",
+          "title": "Failed the Night-Staffing Drill",
+          "count": "campuses that declined the 9 pm test"
+        },
+        {
+          "icon": "Library",
+          "title": "Failed the 4 pm Library Test",
+          "count": "every empty-at-4-pm campus"
+        },
+        {
+          "icon": "ChefHat",
+          "title": "Chef-Attrition Signals",
+          "count": "1 operator re-ranked by a resident's child"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Serene Urbana 2BHK under the purchase model delivered the care-continuum campus, the operator's decade-plus track record, and eleven people in the library at 4 pm on a Tuesday — with the Indiranagar sale funding the corpus and London trips, the estate honesty told twice in writing, and integration calendared like a posting, bridge-club waitlist form dated the same day.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for senior-living choosers — the rubric, the unannounced tests, the estate-structure honesty, and integration planned like a posting.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The 4 pm Library Test"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Choosing Early, Deliberately"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "The Tie-Up Asterisk"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Integration Calendared"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The purchase-vs-deposit choice is an estate-structure choice.",
+          "description": "Purchase passes a thin-market asset to the daughter; deposit models return capital with conditions. Indira's spreadsheet now carries a 'what does she actually inherit' tab for each — the estate honesty, tabulated.",
+          "imageSrc": "/journals/the-third-innings/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a spreadsheet comparing purchase and deposit models with a 'what does she inherit' tab open, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Night staffing is the truth of a care operation.",
+          "description": "The 2 am ratio, the nurse-call response drill, the hospital tie-up's actual ambulance time — Arvind tested one at 9 pm unannounced; the operator that welcomed the test made the finals.",
+          "imageSrc": "/journals/the-third-innings/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a night nurse-call response drill with staffing ratios and an ambulance time annotated, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The 4 pm library test measures the only amenity that matters.",
+          "description": "The library headcount and its siblings — the bridge-club WhatsApp's message frequency, the dining hall's Tuesday attendance — measure whether the community is actually alive between events.",
+          "imageSrc": "/journals/the-third-innings/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a library with residents at 4 pm and a pencilled headcount beside a bridge-club WhatsApp chat with message timestamps, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Integration time is the premium — and belonging is logistics.",
+          "description": "Moving at 70-and-healthy means the community becomes home, not facility. Clubs chosen, the monthly Indiranagar lunch protected with a standing car arrangement, the first quarter's calendar drafted before the booking.",
+          "imageSrc": "/journals/the-third-innings/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a first-quarter integration calendar with clubs, lunches and bridge marked beside a booking form, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "A family 3BHK with improvised care can serve old age"
+        },
+        {
+          "icon": "Building2",
+          "text": "A glossy campus brochure reveals campus life"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The operator's promise is the operator's guarantee"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "The purchase model is always the better deal"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "ClipboardList",
+          "text": "Aging infrastructure is better engineered collectively"
+        },
+        {
+          "icon": "Library",
+          "text": "The 4 pm headcount reveals what brochures hide"
+        },
+        {
+          "icon": "Moon",
+          "text": "Night staffing, tested unannounced, is the truth"
+        },
+        {
+          "icon": "Scale",
+          "text": "Estate structure is chosen with a 'she inherits' tab open"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Users",
+          "title": "Phone resident children at campus one, not campus five",
+          "description": "The unfiltered source arrived in month five — starting the resident-children interviews at the first tour would have reshaped the ranking three campuses earlier."
+        },
+        {
+          "icon": "Moon",
+          "title": "Run the 9 pm drill on the first visit",
+          "description": "Night staffing was verified mid-journey — the unannounced drill should have been part of the first tour's checklist, not a refinement."
+        },
+        {
+          "icon": "Library",
+          "title": "Add the Tuesday-dining headcount to the rubric",
+          "description": "The dining hall's Tuesday attendance was a late discovery — the 4 pm test's siblings should have been in the rubric from the start."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Draft the integration calendar with the booking",
+          "description": "The first quarter was planned at month six — the clubs and the standing lunch arrangement could have shaped the unit choice itself."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Arvind",
+          "avatar": "/journals/the-third-innings/arvind.png",
+          "text": "We bought freedom on a Tuesday, joined the bridge-club waitlist the same day, and told our daughter twice — in writing. The Army teaches documentation; the third innings teaches timing."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The rubric, the drills, the library test, the 'she inherits' tab — that's not a purchase, sir, that's a plan executed. Eleven people at 4 pm are about to become neighbours. The innings was always going to be well-played.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for senior-living choosers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Arvind writing the ops assessment memo, Indira pencilling the 4 pm library headcount, the magnified care tie-up asterisk, and the same-day booking and bridge-club waitlist forms, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For senior-living choosers, the edge is in choosing early and evaluating like procurement: operator track record and solvency, night staffing tested unannounced, the 4 pm library headcount, and resident children phoned as the unfiltered source. Run the purchase-vs-deposit model with a 'what does she inherit' tab open, tell the estate honesty twice in writing, and treat integration as logistics — clubs joined, the old-lunch protected, the first quarter calendared before the booking. The Khannas proved the third innings is not a retreat; it's a well-planned advance.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The purchase-vs-deposit choice is really an estate-structure choice",
+          "body": "Purchase passes a thin-market asset to the daughter; deposit models return capital with conditions. Indira's spreadsheet now has a 'what does she actually inherit' tab for each.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Night staffing is the truth of a care operation",
+          "body": "The 2 am ratio, the nurse-call response drill, the hospital tie-up's actual ambulance time — Arvind tested one at 9 pm unannounced; the operator that welcomed the test made the finals.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The 4 pm library test measures the only amenity that matters",
+          "body": "The library headcount and its siblings — the bridge-club WhatsApp's message frequency, the dining hall's Tuesday attendance — measure whether the community is actually alive between events.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Resident children, phoned, were the unfiltered source",
+          "body": "Chef attrition, fee-hike history, how the operator handled a resident's decline and a family's complaint — two calls reshaped the ranking.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "They scheduled the integration plan like a posting",
+          "body": "Clubs chosen, the monthly Indiranagar lunch protected with a standing car arrangement, and the first quarter's calendar drafted before the booking. Belonging, Arvind notes, is also logistics.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Aging well, on your own terms?",
+      "description": "If you're choosing aging infrastructure while healthy, deliberately, like Col. Arvind and Indira, let Riya build your third-innings roadmap — operator due diligence, the campus rubric, and an honest estate model.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the home-sale position, the corridor preferences, the operator track-record bar, and the estate question for the heirs.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the campus scorecard — track record, night ratios, care depth — and runs the purchase-vs-deposit estate model for each finalist.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Third Innings journal — evaluation rubric, unannounced-check list, and estate-modelling tab — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive senior-living comparisons by operator track record, care depth, night staffing, and fee-escalation history — purchase and deposit models side by side.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Operator Due-Diligence Frameworks",
+          "description": "Track record, financials, care protocols — the corporate-level scrutiny that separates a home from a facility.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 2,
+          "title": "The Campus Evaluation Rubric",
+          "description": "The 4 pm library test, the 9 pm unannounced drill, the resident-children calls — a scorecard run on every visit.",
+          "icon": "Library"
+        },
+        {
+          "id": 3,
+          "title": "Estate-Structure Modelling",
+          "description": "Purchase vs deposit with the 'what does she inherit' tab — the honesty the heirs deserve, tabulated.",
+          "icon": "Scale"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You're choosing aging infrastructure while healthy, deliberately, before crisis chooses for you.",
+        "You've watched friends age in family-designed homes with improvised care, and you've taken notes.",
+        "You evaluate operators like a procurement officer: track record, staffing ratios, financials.",
+        "The stigma is your circle's problem, and you've drafted the correction.",
+        "Integration time — arriving young enough to build the bridge club — is the premium you're consciously paying.",
+        "Your heir's inheritance is consciously subordinated to your two decades, and you've said so out loud."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-ops-assessment",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Ops Assessment",
+      "desc": "Two decades of friends' improvised aging observed — the ops officer's conclusion: aging infrastructure is better engineered collectively than improvised individually.",
+      "icon": "ClipboardList",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-five-campuses",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: Five Campuses, One Rubric",
+      "desc": "Five communities toured; the 4 pm library test and night-staffing drills instituted — every campus visit badge carries a pencilled library headcount.",
+      "icon": "Library",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-senior-resort-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The 'Senior Resort'",
+      "desc": "A glossy hotel-branded pitch — its care continuum turns out to be a tie-up, not on-site. Declined; the asterisk magnified, the operator unnamed by policy.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-model-spreadsheets",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Purchase vs Deposit",
+      "desc": "Serene Urbana vs Serene Amara (same operator, Devanahalli) — two model spreadsheets with a 'what does she inherit' tab open in Indira's lecturer's hand.",
+      "icon": "Scale",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-resident-children-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The Resident-Children Calls",
+      "desc": "Four calls to residents' children — chef attrition, fee-hike history, decline-handling. Two calls reshape the ranking; the unfiltered source wins.",
+      "icon": "Users",
+      "loopText": "2-Week Interview Loop — Two Calls Reshape the Ranking",
+      "x": 880,
+      "y": 320,
+      "width": 200
+    },
+    {
+      "id": "l6-serene-urbana-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Booked Third Innings",
+      "desc": "Serene Urbana 2BHK purchased; the Indiranagar sale funds corpus and London trips; integration calendared like a posting — bridge-club waitlist form dated the same day.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 200
+    }
+  ]
+}

@@ -9,6 +9,9 @@ import { FooterVariant } from "@/components/layout/FooterVariant";
 export const metadata: Metadata = {
   title: "Contact Us",
   description: "Get in touch with Gruha.ai for early access and inquiries about AI-powered property search and evaluation in Bengaluru.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

@@ -1,0 +1,956 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "WALKABLE CORES",
+      "KORAMANGALA • INDIRANAGAR • COOKE TOWN"
+    ],
+    "title": "The Fifteen-Minute Life Journal",
+    "description": "Zoya (31, D2C growth) & Imran Sait's (33, studio designer) hunt for old small-building flats inside Bengaluru's walkable cores — trading square footage for the anna, the raddiwala, and a street they already know they love.",
+    "quote": "\"We'd take 900 honest square feet in a real neighbourhood over 1,800 in a compound.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Scale",
+        "text": "The UDS is the asset; the flat is the wrapper"
+      },
+      {
+        "icon": "HardHat",
+        "text": "The engineer’s hesitation is data — a ₹30K assessment"
+      },
+      {
+        "icon": "Wrench",
+        "text": "Waterproof before aesthetics in old buildings"
+      }
+    ],
+    "heroImage": "/journals/cover/19.png",
+    "heroTitle": "The Fifteen-Minute Life Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Zoya (31, growth lead at a D2C brand) & Imran Sait (33, senior designer at a Koramangala studio) — renters of a 1970s-built 2BHK who realized, with financial dread, that what they love is not buyable in a brochure: they love the street.",
+      "buyers": [
+        {
+          "name": "Zoya Sait",
+          "age": 31,
+          "role": "Growth Lead, D2C Brand",
+          "description": "Runs the UDS-per-rupee table and the renovation ledger. The realist who priced the fifteen-minute life — ₹2.2–2.6 Cr for the street, ₹20–25L for the bridge between street and structure.",
+          "tags": [
+            "Street-Structured",
+            "UDS Mathematician",
+            "Ledger-Keeper"
+          ],
+          "image": "/journals/the-fifteen-minute-life/zoya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 31-year-old Indian professional woman named Zoya wearing a smart casual top, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, bright perceptive expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Imran Sait",
+          "age": 33,
+          "role": "Senior Designer, Koramangala Studio",
+          "description": "Draws the hand-drawn street maps and Sundays in the park with a sketchbook. The romantic whose standard is the anna's coffee — and who brought a structural engineer to romance, correctly.",
+          "tags": [
+            "Street Cartographer",
+            "Sunday Sketcher",
+            "Romantic-Realist"
+          ],
+          "image": "/journals/the-fifteen-minute-life/imran.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 33-year-old Indian man named Imran wearing a casual collared shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm amused expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Buy the rarest stock in Bengaluru — an old flat in a small building inside a walkable core — accepting aging construction, no amenities, and khata's dark arts in exchange for a life they already know they love: the anna's coffee, three bookstores, the Sunday park, five minutes on foot to friends.",
+      "sharedVisionImage": "/journals/the-fifteen-minute-life/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a leafy old Bengaluru street at golden hour with a small three-storey 1970s building with curved balconies and bougainvillea, a couple walking back from a coffee stall with steel tumblers, rain trees arching overhead, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the building's balcony, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Walkability Believers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "First Home, Renovation-Forward"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Closed — Renovation Begins"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Patient — Street Over Year"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-fifteen-minute-life/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a structural beam inspection with an engineer's diagram, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the beam, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Structurally Honest Building",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "The engineer's face is the tiebreak — structure always wins over the balcony's bougainvillea, no matter how pretty the railings."
+        },
+        {
+          "image": "/journals/the-fifteen-minute-life/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a 30-year title chain document with a khata certificate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the khata, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Clear Khata & EC on a 30-Year Title",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "The dark arts of old-building verification — khata, encumbrance, society records — done properly, because the age of the building demands it."
+        },
+        {
+          "image": "/journals/the-fifteen-minute-life/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a stairwell with neighbours chatting and a friendly wave, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the wave, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Decade-Tenured Neighbours",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The building's social fabric is part of the purchase — tenured neighbours mean a building that works, not just one that stands."
+        },
+        {
+          "image": "/journals/the-fifteen-minute-life/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a steel coffee tumbler on a small shop counter with a smiling stall-owner, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the tumbler, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Anna Test",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The coffee stall where the anna starts their order on sight — the informal, un-listed infrastructure that no portal can show and no compound can replicate."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a hand-drawn street map to a UDS-per-rupee table, a tower detour that ended with 'the food court is not the anna', and a plain building promoted when the pretty one failed structure.",
+      "journeyFrameTitle": "THE STREET IS THE ASSET",
+      "roadmapTitle": "How walkability believers bought the last of something",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Renovation Begins"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹18–24K/sqft, UDS Logic"
+        },
+        {
+          "icon": "HardHat",
+          "label": "THE ENGINEER'S CALL",
+          "value": "Pretty Killed, Plain Promoted"
+        },
+        {
+          "icon": "Wrench",
+          "label": "RENOVATION",
+          "value": "₹24L, Waterproofing First"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-street-map",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Street Is Not Listed",
+          "desc": "The realization lands: what they love — the anna, the raddiwala, the Sunday park — exists on no portal. A hand-drawn map becomes the brief.",
+          "icon": "MapPin",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-uds-math",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: UDS-Per-Rupee Math",
+          "desc": "The old small-building hunt begins; the undivided share becomes the metric that makes the market legible; the structural engineer joins second visits.",
+          "icon": "Scale",
+          "x": 350,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-tower-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Tower Arithmetic",
+          "desc": "A Sarjapur tower's 'double the space' seduces for three weekends — and ends with the verdict written across the brochure: 'the food court is not the anna.'",
+          "icon": "Eye",
+          "x": 590,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-bank-ltv-reality",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: The Bank-LTV Reality",
+          "desc": "Three lenders, three LTVs on 35-year structures — the bank's appetite sets the real budget, and the paperwork-friendly building wins the best terms.",
+          "icon": "Banknote",
+          "x": 860,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-structure-kill",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-bank-ltv-reality",
+          "title": "L5 REGRESSION: The Structure Kill",
+          "desc": "The prettiest option fails — corroded reinforcement and a seepage history the seller 'forgot.' The plainest building, where the engineer hummed, is promoted.",
+          "icon": "Undo2",
+          "loopText": "S4 → S3 Regression (Corroded Reinforcement)",
+          "x": 600,
+          "y": 420,
+          "width": 300
+        },
+        {
+          "id": "l6-plain-building-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Plain Building Close",
+          "desc": "2BHK in a 12-unit block closed at land-value logic; ₹24L renovation begins with waterproofing, not aesthetics — and the anna is still a two-minute walk.",
+          "icon": "KeyRound",
+          "x": 280,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "mapping",
+          "label": "Mapping",
+          "icon": "MapPin"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Scale"
+        },
+        {
+          "id": "verifying",
+          "label": "Verifying",
+          "icon": "HardHat"
+        },
+        {
+          "id": "renovating",
+          "label": "Renovating",
+          "icon": "Wrench"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Street Won"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "street-map-moment",
+          "title": "The hand-drawn street map",
+          "desc": "The anna's stall, the raddiwala, three bookstores, the Sunday park, home — drawn by Imran, on paper, because no portal could list it. This was the brief.",
+          "imageSrc": "/journals/the-fifteen-minute-life/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-drawn street map with coffee stall, raddiwala, bookstores and park labelled in pencil, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the home marker, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "uds-table-moment",
+          "title": "The UDS-per-rupee table",
+          "desc": "A UDS-per-rupee comparison taped inside a 1970s stairwell photo — the moment the market stopped being frightening and became legible.",
+          "imageSrc": "/journals/the-fifteen-minute-life/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a UDS-per-rupee comparison table taped over a 1970s stairwell photograph, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the table, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "tower-detour-moment",
+          "title": "The verdict on the tower brochure",
+          "desc": "'The food court is not the anna' written across the Sarjapur tower brochure — the detour that ended in a verdict, not a compromise.",
+          "imageSrc": "/journals/the-fifteen-minute-life/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a glossy tower brochure with 'the food court is not the anna' written across it in ink, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the handwriting, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "corrosion-moment",
+          "title": "The corrosion photo beside the bougainvillea",
+          "desc": "The structural report's corrosion photograph placed beside the balcony bougainvillea they'd loved — the engineer's hesitation, converted into evidence.",
+          "imageSrc": "/journals/the-fifteen-minute-life/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a corrosion photograph from a structural report pinned beside a bougainvillea balcony photo, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the corrosion, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "renovation-ledger-moment",
+          "title": "The renovation ledger's first page",
+          "desc": "A ₹24L renovation ledger begun with waterproofing, not aesthetics — plumbing, wiring, waterproofing, the trifecta of old-building truth, listed before any paint.",
+          "imageSrc": "/journals/the-fifteen-minute-life/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a renovation ledger notebook with waterproofing listed first and paint crossed off to a later page, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the ledger, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We'd take 900 honest square feet in a real neighbourhood over 1,800 in a compound.",
+          "author": "— Zoya & Imran"
+        },
+        {
+          "text": "The street is what you're marrying. The building is the outfit. You can change railings. You can't change corroded steel.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Structural engineers don't have poker faces, bilkul nahi.",
+          "author": "— Imran"
+        },
+        {
+          "text": "The food court is not the anna.",
+          "author": "— The tower-brochure verdict"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Zoya",
+          "avatar": "/journals/the-fifteen-minute-life/zoya.png",
+          "text": "Riya, be honest with us. The pretty one — the curved balconies, the bougainvillea one. Joseph uncle hesitated, yaar. He just… paused near the beam and made that face."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That face was corrosion in the reinforcement, and a seepage history the seller 'forgot.' The plain building next street — Joseph uncle walked through it humming. The street is what you're marrying; the building is the outfit. You can change railings, not corroded steel.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "HardHat",
+          "title": "The Structural Assessment",
+          "description": "A ₹30K engineer's report killed the prettiest option — corroded reinforcement, seepage history — and promoted the plainest. The engineer's hesitation is data; the bougainvillea is not."
+        },
+        {
+          "icon": "Banknote",
+          "title": "The Bank-LTV Maze",
+          "description": "Three lenders quoted three different LTVs on a 35-year building — the bank's lending appetite set the real budget, not the listing prices."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "The 30-Year Title Chain",
+          "description": "Khata, encumbrance, society records on aged buildings — the dark arts of old-building verification, done properly, are the price of admission."
+        },
+        {
+          "icon": "Wrench",
+          "title": "The Renovation Trifecta",
+          "description": "Plumbing, wiring, waterproofing — the invisible ₹20–25L line items with no sinking fund behind them, budgeted before any aesthetics."
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "The Redevelopment Lottery",
+          "description": "The same land-value dynamic that makes the plot gold could someday dissolve the building — 1.6–2x area payoff, 4–6 years of negotiation, one holdout neighbour's timeline."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-fifteen-minute-life.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Hunting the rarest stock in Bengaluru — older flats in 8–20 unit buildings inside the walkable cores — where the buyer is effectively buying undivided land share with a 1978 building attached.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Old-Small-Building 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Koramangala • Indiranagar • Cooke Town"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE METRIC",
+          "value": "UDS-Per-Rupee"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "12-Unit Block, Plain & Honest"
+        }
+      ],
+      "exploredAreasTitle": "The walkable cores they explored",
+      "exploredAreas": [
+        {
+          "title": "Koramangala Blocks (Chosen)",
+          "description": "The market itself — old small buildings trade at ₹18–24K/sqft on pure UDS logic, where the anna, the raddiwala and three bookstores are the amenities.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.9345,
+            "lng": 77.6266
+          },
+          "imageSrc": "/journals/the-fifteen-minute-life/koramangala.png",
+          "imagegenerationprompt": "A modern architectural vector view of Koramangala block streets with 1970s small buildings and rain trees, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Indiranagar Defence Colonies",
+          "description": "Leafy defence-colony enclaves with some of the city's best-preserved old stock — priced accordingly, and worth every rupee of the UDS math.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9761729,
+            "lng": 77.6412969
+          },
+          "imageSrc": "/journals/the-fifteen-minute-life/indiranagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of Indiranagar defence colony streets with heritage-era small buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Cooke Town",
+          "description": "The northern old-money core — bungalow-lined streets and small walk-ups, watched for the rare listing that makes the UDS math sing.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 13.0025621,
+            "lng": 77.6227126
+          },
+          "imageSrc": "/journals/the-fifteen-minute-life/cooke-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Cooke Town's bungalow-lined streets with small walk-up buildings, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Richmond Town Fringe",
+          "description": "The southern fringe's church-spire streets — a quieter pocket where the walkable-core economics still hold at the margins.",
+          "projects": 2,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 13.0061468,
+            "lng": 77.6119702
+          },
+          "imageSrc": "/journals/the-fifteen-minute-life/richmond-town.png",
+          "imagegenerationprompt": "A modern architectural vector view of Richmond Town's fringe streets with heritage-era building fronts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: the Sarjapur tower (detour — the food court is not the anna) • Whitefield gated communities (double the sqft, none of the street)",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE UNLISTED ASSET",
+          "value": "The Street Is the Amenity",
+          "description": "The coffee stall, the park, the walk to friends — none of it appears on any portal, and every 'good investment' tour offers double the square feet and none of the street.",
+          "icon": "MapPin"
+        },
+        {
+          "title": "THE 1978 BUILDING ATTACHED",
+          "value": "UDS With a Building On It",
+          "description": "Walkable cores repriced on pure land value — buyers effectively purchase undivided land share with an aging structure attached, and sellers know it.",
+          "icon": "Building2"
+        },
+        {
+          "title": "THE BANK-LTV MAZE",
+          "value": "Three Lenders, Three LTVs",
+          "description": "Banks lend cautiously on 30+ year buildings — age, title chains, redevelopment murk — so the down payment may need to stretch.",
+          "icon": "Banknote"
+        },
+        {
+          "title": "THE DEPRECIATING-ANTIQUE CHORUS",
+          "value": "Parents, Lovingly",
+          "description": "Their parents think they're buying a depreciating antique; they think they're buying the last of something — the dinner-table argument with no spreadsheet resolution.",
+          "icon": "MessageSquare"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for UDS-per-rupee value, structurally honest bones, and the anna test — the street's own informal infrastructure, verified on foot.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Zoya and Imran don't shop projects — they shop streets, so the entire cast is a micro-market. Their genius artifact is the UDS-per-rupee table: once you see the undivided share as the asset and the flat as the wrapper, the whole market stops being frightening and becomes legible. And their tiebreak rule is the one every old-building buyer should steal: the engineer's hesitation vs the anna's wave — structure wins, always, and the anna is still a two-minute walk away from the plain building too. They're not buying a depreciating antique. They're buying the last of something, and they priced the bridge — ₹24L of renovation — before they signed.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a UDS-per-rupee table beside a structural report, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "The cast is a micro-market — individual old buildings stay unnamed by policy (30-year-old structures, diligence-sensitive), but the pattern is the purchase: UDS-per-rupee value in walkable cores.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Old-Small-Building 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "12-Unit Block, Koramangala"
+        },
+        {
+          "icon": "HardHat",
+          "label": "THE STRUCTURE KILL",
+          "value": "1 Pretty Option, Rejected"
+        },
+        {
+          "icon": "Wrench",
+          "label": "TRANSACTION",
+          "value": "₹18–24K/sqft + ₹24L Renovation"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Scale",
+          "title": "UDS-Per-Rupee Value",
+          "subtitle": "land share is the asset"
+        },
+        {
+          "icon": "HardHat",
+          "title": "Structural Honesty",
+          "subtitle": "the engineer's face is data"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Clear Khata & Title Chain",
+          "subtitle": "30-year verification"
+        },
+        {
+          "icon": "Coffee",
+          "title": "The Anna Test",
+          "subtitle": "two minutes on foot"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Renovation Bridge",
+          "subtitle": "₹24L, waterproofing first"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Imran",
+          "avatar": "/journals/the-fifteen-minute-life/imran.png",
+          "text": "'The street is what you're marrying.' Chalo, the anna's coffee is a two-minute walk from the plain one also. Book Joseph uncle for one final humming inspection."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Booked. And writing it in the journal: forty years of honest maintenance and a UDS share that's pure gold — the plain building was never plain. It was the building that hummed.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-fifteen-minute-life/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Koramangala, Indiranagar, Cooke Town and Richmond Town fringe with walkability rings in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "Micro-market watch",
+      "projects": [
+        {
+          "title": "The Chosen 12-Unit Block",
+          "name": "Koramangala Small Building",
+          "price": "₹18–24K/sqft (UDS logic)",
+          "possession": "1970s-era, renovated",
+          "psf": "Pure land-share value",
+          "location": "Koramangala blocks",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Hidden Primary Hope",
+          "name": "Boutique Redevelopment Watch",
+          "price": "₹25K+/sqft when surfaced",
+          "possession": "12-unit rebuilds",
+          "psf": "Assembled-plot launches",
+          "location": "Walkable cores",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Tower Detour",
+          "name": "Sarjapur Tower (unnamed)",
+          "price": "Double the sqft",
+          "possession": "Ready / UC",
+          "psf": "Compound pricing",
+          "location": "Sarjapur Road",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "HardHat",
+          "title": "Corroded Reinforcement & Seepage History",
+          "count": "1 pretty option, structure-killed"
+        },
+        {
+          "icon": "Banknote",
+          "title": "Bank-LTV Reality on Aged Stock",
+          "count": "3 lenders, 3 different LTVs"
+        },
+        {
+          "icon": "Coffee",
+          "title": "The Food-Court-Is-Not-The-Anna Verdict",
+          "count": "1 tower detour, three weekends"
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "The Redevelopment Lottery's Other Side",
+          "count": "every old building's quiet dread"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the 12-unit block's 2BHK at land-value logic — ₹18–24K/sqft for pure UDS in Koramangala's walkable core — delivered the street they were marrying with the plain building as the honest outfit. The ₹24L renovation bridge, waterproofing first, was priced before signing, and the anna remains a two-minute walk. The street won; the structure passed; the ledger began.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for walkable-core buyers — UDS math, the engineer's tiebreak, bank-LTV reality, and the renovation bridge that makes the street survivable.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "UDS Is the Asset"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Street Itself"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Loving the Bougainvillea"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Engineer's Hesitation"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The bank's appetite sets the real budget.",
+          "description": "Three lenders quoted three different LTVs on a 35-year building — the paperwork-friendly building with the cleanest title got the best terms; the listing prices were never the constraint.",
+          "imageSrc": "/journals/the-fifteen-minute-life/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of three lender LTV quote cards spread like playing cards beside a title-chain document, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The undivided share is the asset; the flat is the wrapper.",
+          "description": "Comparing UDS-per-rupee across listings made the whole market legible — walkable cores repriced on land value, and the buyer is buying land with a 1978 building attached.",
+          "imageSrc": "/journals/the-fifteen-minute-life/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a UDS-per-rupee comparison table over a land-title document, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The engineer's hesitation is data; the bougainvillea is not.",
+          "description": "A ₹30K structural assessment killed the prettiest option — corroded reinforcement, seepage history — and promoted the plainest one where the engineer hummed.",
+          "imageSrc": "/journals/the-fifteen-minute-life/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a structural report's corrosion photo beside a bougainvillea balcony photo with a verdict arrow, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Renovation is the bridge between the street and the structure.",
+          "description": "The ₹24L quote — plumbing, wiring, waterproofing, the trifecta of old-building truth — gave the romance an audited price, and it still cleared because the street does the rest.",
+          "imageSrc": "/journals/the-fifteen-minute-life/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a renovation ledger with waterproofing, plumbing and wiring listed before paint, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "LayoutGrid",
+          "text": "More square footage is always the better purchase"
+        },
+        {
+          "icon": "Building2",
+          "text": "A pretty facade and bougainvillea reveal a building's health"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The listing price is the honest price of the flat"
+        },
+        {
+          "icon": "Home",
+          "text": "Amenities mean clubhouses, pools and food courts"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Scale",
+          "text": "The UDS share is the asset — compare per-rupee, not per-sqft"
+        },
+        {
+          "icon": "HardHat",
+          "text": "The engineer's hesitation is data; the bougainvillea is not"
+        },
+        {
+          "icon": "Banknote",
+          "text": "The bank's LTV on aged stock sets the real budget"
+        },
+        {
+          "icon": "Coffee",
+          "text": "Amenities mean the anna, the raddiwala, the park and the walk"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Scale",
+          "title": "Build the UDS table in week one",
+          "description": "The metric that made the market legible arrived in month two — a month of tower-detour grief could have been a month of UDS math."
+        },
+        {
+          "icon": "HardHat",
+          "title": "Bring the engineer to visit one",
+          "description": "The structure kill came at month six — the ₹30K assessment should have been gate zero for every finalist, not a second-visit addition."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Interview lenders before shortlisting",
+          "description": "The bank-LTV reality shaped the budget in month five — three weeks of the lending maze could have been front-loaded."
+        },
+        {
+          "icon": "Coffee",
+          "title": "Run the anna test on paper first",
+          "description": "The street test was implicit; writing it as a checklist item — 'walk the morning route, order the coffee, say hello' — would have filtered candidates faster."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Zoya",
+          "avatar": "/journals/the-fifteen-minute-life/zoya.png",
+          "text": "Our parents see a depreciating antique. We see a ₹24L bridge to the street we already love, and the anna two minutes away. Same building, different ledger."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The street was never the risk — it was always the asset. You priced the structure honestly and let the neighbourhood do the rest. That's not an antique. That's the last of something, bought while it still exists.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for walkable-core buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Zoya and Imran drawing the street map, building the UDS table, receiving the structural report, and opening the renovation ledger with waterproofing first, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For buyers choosing streets over compounds, the edge is in the math that makes the romance auditable: UDS-per-rupee instead of per-sqft, the bank's LTV on aged stock as the real budget, the engineer's hesitation as the tiebreak, and the renovation trifecta priced before any paint. Zoya and Imran proved the street is the asset — and that a plain building with forty years of honest maintenance is the rarest listing in Bengaluru.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The bank's lending appetite set the real budget, not the listings",
+          "body": "Three lenders quoted three different LTVs on a 35-year building — the paperwork-friendly building with the cleanest title got the best terms.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The UDS is the asset; the flat is the wrapper",
+          "body": "Comparing UDS-per-rupee across listings made the market suddenly legible — the walkable cores had repriced on pure land value.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "A ₹30K structural assessment killed the prettiest option",
+          "body": "Corroded reinforcement and a seepage history the seller 'forgot' — the engineer's hesitation is data, and the balcony's bougainvillea is not.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "Redevelopment interviews revealed the lottery's real odds",
+          "body": "Three owners who'd been through it: the payoff is real (1.6–2x area), the process is 4–6 years of negotiation, and one holdout neighbour controls everyone's timeline.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 6",
+          "headline": "The renovation quote came in at ₹24L — and still cleared",
+          "body": "The trifecta plus surprises gave the old-building romance an audited price, and it still cleared, barely, because the street does the rest.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Everything worth keeping within fifteen minutes?",
+      "description": "If you love a street by name, like Zoya and Imran, let Riya build your walkable-core roadmap — UDS math, structural diligence, and the renovation bridge.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the streets you love, the budget, and whether a stroller is in the fifteen-minute life.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the UDS-per-rupee table, vets the title chain, and routes every finalist past a structural engineer.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Fifteen-Minute Life journal — old-building due-diligence checklist and renovation ledger — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive small-building listings with building age, UDS share, and khata status up front — and alerts for boutique redevelopment launches.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Old-Building Due Diligence",
+          "description": "Structure, title chain, khata, society health and redevelopment probability — as a checklist with red lines.",
+          "icon": "HardHat"
+        },
+        {
+          "id": 2,
+          "title": "Renovation Cost Ledgers",
+          "description": "Real vendor lists and the waterproofing trifecta — so the bridge between street and structure has an audited price.",
+          "icon": "Wrench"
+        },
+        {
+          "id": 3,
+          "title": "Walkability Audits, Block by Block",
+          "description": "Neighbourhood reports on foot — the anna test, school-run, evening stroll — because the street is the amenity.",
+          "icon": "Coffee"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You love a street, by name, and the housing stock on it is the price of admission.",
+        "Square footage matters less to you than the coffee place that knows your order.",
+        "You bring a structural engineer to romance, and you're right to.",
+        "Redevelopment is both your hidden upside and your quiet dread.",
+        "Your parents think you're buying a depreciating antique; you think you're buying the last of something.",
+        "You'd take 950 honest square feet in a real neighbourhood over 1,800 in a compound, and you've stress-tested that sentence with a stroller in it."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-street-map",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Street Is Not Listed",
+      "desc": "The realization lands: what they love — the anna, the raddiwala, the Sunday park — exists on no portal. A hand-drawn map becomes the brief.",
+      "icon": "MapPin",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-uds-math",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: UDS-Per-Rupee Math",
+      "desc": "The old small-building hunt begins; the undivided share becomes the metric that makes the market legible; the structural engineer joins second visits.",
+      "icon": "Scale",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-tower-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Tower Arithmetic",
+      "desc": "A Sarjapur tower's 'double the space' seduces for three weekends — and ends with the verdict written across the brochure: 'the food court is not the anna.'",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-bank-ltv-reality",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: The Bank-LTV Reality",
+      "desc": "Three lenders, three LTVs on 35-year structures — the bank's appetite sets the real budget, and the paperwork-friendly building wins the best terms.",
+      "icon": "Banknote",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-structure-kill",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-bank-ltv-reality",
+      "title": "L5 REGRESSION: The Structure Kill",
+      "desc": "The prettiest option fails — corroded reinforcement and a seepage history the seller 'forgot.' The plainest building, where the engineer hummed, is promoted.",
+      "icon": "Undo2",
+      "loopText": "S4 → S3 Regression (Corroded Reinforcement)",
+      "x": 620,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-plain-building-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Plain Building Close",
+      "desc": "2BHK in a 12-unit block closed at land-value logic; ₹24L renovation begins with waterproofing, not aesthetics — and the anna is still a two-minute walk.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

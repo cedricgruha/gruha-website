@@ -1,0 +1,949 @@
+{
+  "article": {
+    "tags": [
+      "JOURNAL",
+      "BENGALURU"
+    ],
+    "title": "The Sixteenth Floor Dream Journal",
+    "heroTitle": "The Sixteenth Floor Dream Journal",
+    "description": "The story of Pavan & Shruti Kulal's first home purchase journey in Bengaluru — a young couple navigating budget, fear, and a future built together.",
+    "quote": "\"Everyone says buy. Nobody says how to stop being scared.\"",
+    "readTime": "12 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Wallet",
+        "text": "Stretch your budget without regret"
+      },
+      {
+        "icon": "Building",
+        "text": "Decide between ready vs under construction"
+      },
+      {
+        "icon": "Users",
+        "text": "Manage home buying before becoming parents"
+      }
+    ],
+    "heroImage": "/journals/cover/14.png",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Pavan & Shruti -- their world, their dreams, and what matters most.",
+      "buyers": [
+        {
+          "name": "Pavan",
+          "age": 29,
+          "role": "Senior Engineer",
+          "description": "A steady, practical planner who does the math twice before deciding. Stays calm under pressure and leans on logic over impulse.",
+          "tags": [
+            "Responsible",
+            "Practical",
+            "Calm"
+          ],
+          "image": "/journals/the-first-emi-family/pavan.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 29-year-old South Indian male software engineer named Pavan with short dark hair, wearing a dark navy shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Shruti",
+          "age": 28,
+          "role": "QA",
+          "description": "Detail-oriented and empathetic, she notices what others miss. Organised by nature, she keeps the family's plans grounded.",
+          "tags": [
+            "Thoughtful",
+            "Organised",
+            "Empathetic"
+          ],
+          "image": "/journals/the-first-emi-family/shruti.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 28-year-old South Indian female QA engineer named Shruti with long dark hair, wearing a clean off-white sweater, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Create a safe, comfortable home before their baby arrives. A place where every milestone begins with a sense of belonging, from bringing their newborn home for the first time to celebrating birthdays, festivals and everyday moments together.",
+      "sharedVisionImage": "/journals/living-room-sketch.png",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "First-timers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Newly married"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Registered — Chirping Woods"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "Before baby"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/1/1.1.png",
+          "title": "Budget friendly, but future ready",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Making a wrong financial decision that impacts our future.",
+          "imagegenerationprompt": "A modern flat vector illustration of 1.1, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "image": "/journals/1/2.png",
+          "title": "Good connectivity to work",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Daily commute should be easy and stress free.",
+          "imagegenerationprompt": "A modern flat vector illustration of 2, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "image": "/journals/1/3.png",
+          "title": "Safe & family friendly neighborhood",
+          "scorePercentage": 75,
+          "scoreLabel": "7.5/10",
+          "description": "A secure environment for our child to grow.",
+          "imagegenerationprompt": "A modern flat vector illustration of 3, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "image": "/journals/1/4.png",
+          "title": "Enough space for their lifestyle",
+          "scorePercentage": 80,
+          "scoreLabel": "8/10",
+          "description": "Room to grow, work and create memories.",
+          "imagegenerationprompt": "A modern flat vector illustration of 4, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "imagegenerationprompt": "A modern flat vector illustration of living room sketch, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "Months of conversations, weekend visits, changing budgets and countless trade-offs brought Pavan & Shruti to where they are today.",
+      "journeyFrameTitle": "TOWARD THE FIRST EMI",
+      "roadmapTitle": "How their first home and first EMI took shape",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Registered — Chirping Woods"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SITE VISITS",
+          "value": "11 Projects"
+        },
+        {
+          "icon": "Calendar",
+          "label": "TIMELINE",
+          "value": "≤ 8 Months"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "BUDGET STRETCH",
+          "value": "₹1.35 Cr → ₹1.55 Cr"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-ghaar-final",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: GHAR — FINAL v1",
+          "desc": "The landlord's 10% rent-hike letter and a pregnancy test shared a fridge magnet. Their first version of GHAR — FINAL was born.",
+          "icon": "Home",
+          "x": 120,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l2-truth-column",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The TRUTH Column",
+          "desc": "They discovered the real cost of buying: base price plus roughly 16–18% in extras. The TRUTH column became their rule for every comparison.",
+          "icon": "Calculator",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-neopolis-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: Neopolis Dream",
+          "desc": "Sobha Neopolis sold the Greek dream on a full-page ad, but the ₹2.3–2.72 Cr reality was far beyond their range. One fight and one dosa later, the DREAMS — PARKED sheet was born.",
+          "icon": "Sparkles",
+          "x": 540,
+          "y": 70,
+          "width": 190
+        },
+        {
+          "id": "l4-chandapura-regression",
+          "stage": "REGRESSION",
+          "type": "loop",
+          "title": "L4 REGRESSION: Chandapura Veto",
+          "desc": "Three weeks were lost to the Chandapura widening idea. Shruti's veto reframed the decision: they needed a home, not a point to prove to two fathers.",
+          "icon": "RotateCcw",
+          "loopText": "3-Week Regression",
+          "x": 760,
+          "y": 260,
+          "width": 190
+        },
+        {
+          "id": "l5-splendour-mirage",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L5 DETOUR: Splendour Value Mirage",
+          "desc": "Godrej Splendour looked like a ₹85L all-in 2BHK value win until an 8:15 am drive test revealed a 1h50m journey to Electronic City.",
+          "icon": "Car",
+          "x": 860,
+          "y": 500,
+          "width": 190
+        },
+        {
+          "id": "l6-hosa-booking",
+          "stage": "S5→S6",
+          "type": "stage",
+          "title": "L6: Hosa Road Booking",
+          "desc": "They finally booked an under-construction 2BHK on Hosa Road at ₹1.22 Cr with CLP and 10% paid. It was the happiest evening of the search.",
+          "icon": "KeyRound",
+          "x": 640,
+          "y": 620,
+          "width": 190
+        },
+        {
+          "id": "l7-project-bounce",
+          "stage": "BOUNCE",
+          "type": "bounce",
+          "targetNodeId": "l6-hosa-booking",
+          "title": "L7 BOUNCE: The Project Flat-Lines",
+          "desc": "Six weeks of flat-lined RERA progress triggered a 2 am buyers'-group archive dive. They fought their exit and recovered the booking amount minus ₹50K.",
+          "icon": "Undo2",
+          "loopText": "S6 → S3 Bounce · 6 Weeks",
+          "x": 400,
+          "y": 500,
+          "width": 200
+        },
+        {
+          "id": "l8-chirping-woods",
+          "stage": "S3→S7",
+          "type": "stage",
+          "title": "L8: Ready-With-OC Pivot",
+          "desc": "GST math pushed them toward a ready-with-OC home. Shriram Chirping Woods became the choice at ₹1.44 Cr all-in, with registration reaching week 32.",
+          "icon": "CheckCircle2",
+          "x": 150,
+          "y": 440,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "post-booking",
+          "label": "Post-booking",
+          "icon": "CalendarPlus"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote",
+          "active": true,
+          "tag": "Completed"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "budget-shift",
+          "title": "The budget shift",
+          "desc": "Their ₹1 Cr dream became a ₹1.5 Cr reality as prices rose faster than their savings.",
+          "imageSrc": "/journals/2/1.png",
+          "imagegenerationprompt": "A modern flat vector illustration of 1, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "baby-deadline",
+          "title": "The baby deadline",
+          "desc": "With their first child arriving next year, delaying the decision was no longer an option.",
+          "imageSrc": "/journals/2/2.png",
+          "imagegenerationprompt": "A modern flat vector illustration of 2, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "sunday-ritual",
+          "title": "The Sunday Ritual",
+          "desc": "Every Sunday meant one site visit, one Excel update, one argument and one make-up dosa.",
+          "imageSrc": "/journals/2/3.png",
+          "imagegenerationprompt": "A modern flat vector illustration of 3, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Buy a site. Flat is just air, kano.",
+          "author": "— Pavan's father"
+        },
+        {
+          "text": "Buy a home close to a Devi temple.",
+          "author": "— Shruti's mother"
+        },
+        {
+          "text": "Atte, tell that to my mother. She already told Davangere half we're buying ‘the Greek one.’",
+          "author": "— Shruti"
+        },
+        {
+          "text": "Parked. Not deleted. Okay. One more dosa, then Hosa Road.",
+          "author": "— Pavan"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Shruti",
+          "avatar": "/journals/the-first-emi-family/shruti.png",
+          "text": "Riya, the showflat had bougainvillea, marre. Actual bougainvillea. I was standing in that Santorini balcony thinking… this is it, this is the one.",
+          "imagegenerationprompt": "A modern flat vector illustration of shruti, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/the-first-emi-family/pavan.png",
+          "text": "Then the price sheet came. Two point three crores — our whole budget is the parking-floor price there.",
+          "imagegenerationprompt": "A modern flat vector illustration of pavan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "We don't delete the dream — we park it. A sheet named 'Dreams — Parked,' Neopolis on top with its real number next to it. Dreams with numbers stop whispering, Shruti. And Monday, we go back to Hosa Road — where your real flat is quietly waiting to exist.",
+          "isRiya": true,
+          "imagegenerationprompt": "A modern flat vector illustration of avatar riya, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Clock4",
+          "title": "Prices Kept Rising",
+          "description": "The market appreciated faster than they could save."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Budget Increased",
+          "description": "Their planned budget stretched by nearly ₹35–40 lakhs."
+        },
+        {
+          "icon": "Car",
+          "title": "Countless Visits",
+          "description": "11 site visits across communities before narrowing list."
+        },
+        {
+          "icon": "Frown",
+          "title": "Decision Fatigue",
+          "description": "More options caused more comparisons and overthinking."
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Still Searching",
+          "description": "They're closer than ever, waiting for the perfect home."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-first-emi-family.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "From defining non-negotiables to comparing communities and projects, every search brought them one step closer to understanding what truly mattered.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH STRATEGY",
+          "value": "Focused Search"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "SEARCH COVERAGE",
+          "value": "3 Corridors"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "PROJECTS COMPARED",
+          "value": "11 Projects"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "NON-NEGOTIABLES",
+          "value": "Budget • Timeline"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "Outer Sarjapur Road (Top Choice)",
+          "description": "Strong social infrastructure, growing employment hubs and communities designed for young families.",
+          "projects": 5,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.932896,
+            "lng": 77.688195
+          },
+          "imageSrc": "/journals/sarjapur.png",
+          "imagegenerationprompt": "A modern flat vector illustration of sarjapur, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Hosa Road",
+          "description": "Balanced connectivity, improving infrastructure and better value within their target budget.",
+          "projects": 4,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.890365,
+            "lng": 77.673333
+          },
+          "imageSrc": "/journals/hosa-road.png",
+          "imagegenerationprompt": "A modern flat vector illustration of hosa road, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Chandapura–Attibele Fringe",
+          "description": "Larger homes within budget, but longer commute and fewer ready social conveniences.",
+          "projects": 2,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.779163,
+            "lng": 77.768668
+          },
+          "imageSrc": "/journals/attibele.png",
+          "imagegenerationprompt": "A modern flat vector illustration of attibele, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas they considered Kanakapura Road • Electronic City • Whitefield",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "FIRST-TIME BUYER FEAR",
+          "value": "Structural Anxiety",
+          "description": "Largest financial commitment ever signed creating fear of builder delivery delays.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "title": "MARKET REPRICING",
+          "value": "Savings vs Inflation",
+          "description": "Outer Sarjapur Road prices inflating faster than monthly savings rate.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "BABY ARRIVAL DATE",
+          "value": "Fixed Possession",
+          "description": "Family planning timeline giving home possession a hard non-negotiable expiry date.",
+          "icon": "Heart"
+        },
+        {
+          "title": "RENT + EMI OVERLAP",
+          "value": "Double Cash Drain",
+          "description": "Managing high current rent while paying pre-EMIs during under-construction phase.",
+          "icon": "CreditCard"
+        }
+      ],
+      "filtersFooterLabel": "They were searching for the right place to begin their family's next chapter with confidence.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Every time I suggested a lower-priced option, both of you kept returning to communities with trusted builders, better schools and realistic possession timelines. That's when I realized you weren't searching for the cheapest home. You were searching for peace of mind.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A modern flat vector illustration of advisor, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "From defining non-negotiables to comparing communities and projects, every search brought them one step closer to understanding what truly mattered.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Family-First Living"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "COMMUNITIES EVALUATED",
+          "value": "3 Corridors"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "PROJECTS ELIMINATED",
+          "value": "9 Projects"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "FINAL SHORTLIST",
+          "value": "2 Communities"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Lock",
+          "title": "Safety & security",
+          "subtitle": "for family"
+        },
+        {
+          "icon": "GraduationCap",
+          "title": "Good schools",
+          "subtitle": "nearby"
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Trusted builders",
+          "subtitle": "& quality"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Value of money",
+          "subtitle": "& future growth"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Possession timeline",
+          "subtitle": "before baby arrives"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/the-first-emi-family/pavan.png",
+          "text": "“Every Sunday became one site visit, one Excel update, one argument... and one make-up dosa.”",
+          "imagegenerationprompt": "A modern flat vector illustration of pavan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "It wasn't really about the projects anymore. You were trying to convince yourselves that you were ready for this next chapter.",
+          "isRiya": true,
+          "imagegenerationprompt": "A modern flat vector illustration of avatar riya, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "audioLabel": "Hear entire conversation (94 sec)",
+      "audioDurationLabel": "1:32",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of outer Sarjapur Road and Hosa Road highlighting the explored corridors in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "6 real projects",
+      "projects": [
+        {
+          "title": "Shriram Chirping Woods",
+          "name": "Shriram Chirping Woods",
+          "price": "From ~₹1.39 Cr",
+          "possession": "Ready",
+          "location": "Kasavanahalli / Harlur",
+          "imageSrc": "/journals/the-first-emi-family/projects/Shriram-Chirping-Woods.jpg"
+        },
+        {
+          "title": "Sobha Neopolis",
+          "name": "Sobha Neopolis",
+          "price": "₹2.3–2.72 Cr",
+          "possession": "The Print-Ad Detour",
+          "psf": "₹15,600/sqft",
+          "location": "Panathur",
+          "imageSrc": "/journals/the-first-emi-family/projects/Sobha-Neopolis.png"
+        },
+        {
+          "title": "Godrej Splendour",
+          "name": "Godrej Splendour",
+          "price": "₹85L All-In",
+          "possession": "Dec 2025",
+          "location": "Belathur / Whitefield",
+          "imageSrc": "/journals/the-first-emi-family/projects/Godrej-Splendour.jpg"
+        },
+        {
+          "title": "Casagrand Sunside",
+          "name": "Casagrand Sunside",
+          "price": "From ~₹1.85 Cr",
+          "possession": "Sticker-Shock Visit",
+          "location": "Sompura, off Sarjapur",
+          "imageSrc": "/journals/the-first-emi-family/projects/Casagrand-Sunside.webp"
+        },
+        {
+          "title": "Oceanus Monarda",
+          "name": "Oceanus Monarda",
+          "price": "1,214 sqft 2BHK",
+          "possession": "Resale Education",
+          "location": "Hosa Road",
+          "imageSrc": "/journals/the-first-emi-family/projects/Oceanus-Monarda.jpg"
+        },
+        {
+          "title": "Hosa Rd under-construction project",
+          "name": "Hosa Rd under-construction project",
+          "price": "Unnamed by policy",
+          "possession": "Booking · Stall · Exit",
+          "location": "Hosa Road belt",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "MapPin",
+          "title": "Location didn't align",
+          "count": "3 projects"
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Budget not suitable",
+          "count": "2 projects"
+        },
+        {
+          "icon": "Hourglass",
+          "title": "Possession timeline",
+          "count": "2 projects"
+        },
+        {
+          "icon": "Building2",
+          "title": "Amenities not matching",
+          "count": "1 projects"
+        },
+        {
+          "icon": "MoreHorizontal",
+          "title": "Other reasons",
+          "count": "1 projects"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "After reviewing their search journey, I noticed that Pavan and Shruti rarely chose the lowest-priced option. Instead, they consistently returned to projects that balanced trusted builders, family-friendly neighbourhoods and a realistic possession timeline before their baby's arrival.",
+      "suggestionImageSrc": "/journals/advisor.png",
+      "imagegenerationprompt": "A modern flat vector illustration of riya, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Every home-buying journey leaves behind lessons. Some come from difficult decisions, others from mistakes they never want to repeat. These are the insights Pavan and Shruti wish they had known before beginning their search, and the lessons that might help someone else make a more confident decision.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "Start earlier"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Family before perfection"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Waiting too long"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Clear priorities"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "Markets don't wait.",
+          "description": "Their ₹1 Cr budget seemed realistic initially. Within two years, property prices rose to ₹1.35–1.55 Cr. Starting earlier would have offered more flexibility and choices.",
+          "imageSrc": "/journals/3/1.png",
+          "imagegenerationprompt": "A modern flat vector illustration of 1, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Shortlists beat browsing.",
+          "description": "After comparing many listings and projects, they found more options didn't help. Focusing on a few well-matched communities made decisions easier.",
+          "imageSrc": "/journals/3/2.png",
+          "imagegenerationprompt": "A modern flat vector illustration of 2, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Builder trust matters.",
+          "description": "Price wasn't the only factor. Quality, clear documentation, RERA compliance, and delivery history mattered as much as the floor plan.",
+          "imageSrc": "/journals/3/3.png",
+          "imagegenerationprompt": "A modern flat vector illustration of 3, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "Bigger homes are always better"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The lowest EMI is the safest decision"
+        },
+        {
+          "icon": "LayoutGrid",
+          "text": "Amenities decide everything."
+        },
+        {
+          "icon": "LayoutList",
+          "text": "More options reduce risk."
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Home",
+          "text": "Better neighbourhoods build lasting value."
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Sustainable payments matter most."
+        },
+        {
+          "icon": "Smile",
+          "text": "Daily convenience drives happiness."
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "text": "Better comparisons build confidence."
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "PiggyBank",
+          "title": "Start saving earlier",
+          "description": "A stronger financial cushion would have reduced last-minute compromises."
+        },
+        {
+          "icon": "Search",
+          "title": "Visit better projects",
+          "description": "They'd focus on projects that genuinely matched their priorities."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "Talk to residents",
+          "description": "Real conversations often reveal more than sales presentations."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Read documents",
+          "description": "Understanding approvals and RERA details earlier would have saved time."
+        },
+        {
+          "icon": "IndianRupee",
+          "title": "Compare future value",
+          "description": "The cheapest option isn't always the smartest investment."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/the-first-emi-family/pavan.png",
+          "text": "If we had to start all over again...",
+          "imagegenerationprompt": "A modern flat vector illustration of pavan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "What would you do differently?",
+          "isRiya": true,
+          "imagegenerationprompt": "A modern flat vector illustration of avatar riya, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "sender": "Pavan",
+          "avatar": "/journals/the-first-emi-family/pavan.png",
+          "text": "I'd stop chasing perfect projects and start trusting our priorities much earlier.",
+          "imagegenerationprompt": "A modern flat vector illustration of pavan, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "audioLabel": "Hear entire conversation (94 sec)",
+      "audioDurationLabel": "1:32",
+      "adviceTitle": "Advice for people like them",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A horizontal 4-panel storyboard illustration of a first-home purchase in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 focal highlights on the fridge with two letters and one magnet, the DREAMS-PARKED sheet, the flat-lined RERA chart versus demand letters, and the registration resting on the eight-months bump, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "Every decision in their journey became a lesson. Looking back, Pavan and Shruti realised that confidence didn't come from visiting more projects or chasing the lowest price. It came from understanding their priorities, comparing thoughtfully and planning for the life they wanted to build. These lessons are the experiences they hope every future homebuyer can learn before beginning their own journey.",
+      "imagegenerationprompt": "A modern flat vector illustration of riya, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The RERA portal is genuinely readable",
+          "body": "Registration number, possession date, complaint history, quarterly updates — twenty minutes per project replaced hours of WhatsApp-forward anxiety with actual facts.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Construction-linked payment plans are the first-timer's friend",
+          "body": "10% at booking, the rest following slabs, means the savings deplete with the building's progress, not before it.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The anxious middle tier sorts by delivery history, not brochure",
+          "body": "Two delivered projects on time beats one celebrity architect, every time.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "They priced the 2.5 BHK honestly — it costs the emergency fund",
+          "body": "The 2 BHK with a convertible study won: the baby's room exists and the airbag survives.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "GST maths changed the comparison more than any discount",
+          "body": "Under-construction (5%) versus ready-with-OC (nil) — they now compute all-in cost per project, not per-sqft price.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "First EMI, baby on the way?",
+      "description": "If you're like Pavan and Shruti — first EMI, a baby on the way, eleven visits deep — let Riya build your first-home roadmap with an RERA-vigilant possession buffer.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You",
+          "description": "Share your plans, family needs, lifestyle, budget and expectations.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya listens",
+          "description": "Riya understands your priorities, asks meaningful questions and discovers what truly matters to you.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal created",
+          "description": "Your conversations are transformed into a personalized home-buying journal with insights and recommendations.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Better recommendations",
+          "description": "Receive project suggestions that fit your priorities, not just your filters.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Understand your priorities",
+          "description": "Discover what truly matters to your family before comparing properties.",
+          "icon": "HeartHandshake"
+        },
+        {
+          "id": 2,
+          "title": "True budget clarity",
+          "description": "Understand your real buying capacity, future commitments and sustainable budget.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "Best areas for you",
+          "description": "Explore neighbourhoods that match your lifestyle, commute and long-term plans.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 4,
+          "title": "Builder analysis",
+          "description": "Compare trusted builders, project quality, delivery history and construction confidence.",
+          "icon": "BadgeCheck"
+        },
+        {
+          "id": 5,
+          "title": "Your personal journal",
+          "description": "A beautifully organized journal capturing your conversations, comparisons, insights and next steps.",
+          "icon": "BookOpen"
+        }
+      ],
+      "blankTitle": "This page is still blank.",
+      "blankDescription": "But it won't stay that way for long. Every conversation you have with Riya becomes part of a journal that reflects your unique home-buying journey, helping you understand your priorities before making one of life's biggest decisions.",
+      "blankActionText": "Let's write it together.",
+      "blankImageSrc": "/journals/open-book-illustration.png",
+      "ctaTitle": "Ready to write your story?",
+      "ctaDescription": "Let Riya understand your goals and, together with Kabir, create a personalized journal that guides you toward the right home with confidence",
+      "ctaButtonText": "Copy Journal",
+      "ctaCharacterImage": "/journals/riya-full-character.png",
+      "imagegenerationprompt": "A modern flat vector illustration of open book illustration, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You are buying your first home together before major life milestones (e.g., family planning).",
+        "Balancing EMI affordability with lifestyle preferences in growth corridors like Sarjapur Road.",
+        "Navigating builder trust, construction timelines, and RERA approvals for under-construction vs ready stock.",
+        "You do the math twice before committing and prioritize financial discipline.",
+        "Seeking a safe, family-oriented gated community with strong resale and rental potential.",
+        "Want a modern home with top amenities without overextending your emergency savings."
+      ]
+    }
+  ]
+}

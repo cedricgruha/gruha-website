@@ -1,0 +1,946 @@
+{
+  "article": {
+    "tags": [
+      "SENIORS & DOWNSIZERS",
+      "RIGHTSIZING",
+      "BASAVANAGUDI ORBIT"
+    ],
+    "title": "The Lighter House Journal",
+    "description": "Nagaraj (72, retired professor) & Sharadamma Rao's (67, retired principal) downsizing from a ₹9.5 Cr Basavanagudi house to a 2BHK in the Vidyarthi Bhavan orbit — the plot-value sale, the garden triage as inheritance, and a lock-and-leave freedom booked before the lock existed.",
+    "quote": "\"Four bedrooms, two people, one visit every two years. The house won.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "Scale",
+        "text": "The plot is the value; the building is 'free'"
+      },
+      {
+        "icon": "Sprout",
+        "text": "Garden triage: sixty to twelve, gifted with visits"
+      },
+      {
+        "icon": "Plane",
+        "text": "Book the first trip before the sale registers"
+      }
+    ],
+    "heroImage": "/journals/cover/29.png",
+    "heroTitle": "The Lighter House Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Nagaraj (72, retired professor of mechanical engineering, UVCE) & Sharadamma Rao (67, retired school principal) — whose 40x60 Basavanagudi house, built in 1989 and worth ₹9.5 Cr, has become a museum they curate for children who visit, between them, roughly once every two years.",
+      "buyers": [
+        {
+          "name": "Nagaraj Rao",
+          "age": 72,
+          "role": "Retired Professor, Mechanical Engineering (UVCE)",
+          "description": "Planted the jackfruit tree the year his son was born; runs the plot-value math with an engineer's calm — 'simplicity per remaining decade' in his own hand decided the clean exit over three JV offers.",
+          "tags": [
+            "Clean-Exit Decider",
+            "Jackfruit-Tree Planter",
+            "Vidyarthi Bhavan Regular"
+          ],
+          "image": "/journals/the-lighter-house/nagaraj.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 72-year-old South Indian man named Nagaraj wearing a simple cotton shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, dignified gentle expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Sharadamma Rao",
+          "age": 67,
+          "role": "Retired School Principal",
+          "description": "The trophy cabinet and the garden are her domain; the sixty-to-twelve triage was conducted with chalk like an examiner — until it became a distribution of inheritance, forty-eight named friends and a watering route.",
+          "tags": [
+            "Garden Examiner",
+            "Watering-Route Architect",
+            "Farewell-Tour Convert"
+          ],
+          "image": "/journals/the-lighter-house/sharadamma.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 67-year-old South Indian woman named Sharadamma wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm serene expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Sell Sannidhi for its plot value and buy lighter — a 2BHK lock-and-leave in the Basavanagudi–Jayanagar orbit where the dosas, the Bull Temple walk, the Ramakrishna Math lectures, and the fifty-year friendships stay — with the liberated ₹7 Cr structured for income, care, and warm-handed gifts.",
+      "sharedVisionImage": "/journals/the-lighter-house/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an older couple on a small new balcony at sunrise, tending a compact garden of twelve pots, sharing filter coffee from steel tumblers, the silhouette of an old large house with a jackfruit tree fading gently into the soft morning sky behind them, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the twelve pots, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Seniors & Downsizers"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "The Lighter House"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Closed — Lighter House"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6 Months — Sale Sets Pace"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-lighter-house/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of two lift shafts with a backup badge and a battery glyph, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the badge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Lift Redundancy",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Two knee surgeries between them and three floors of stairs were the ledger that ended the museum — a single lift, serviced monthly, fails the audit outright."
+        },
+        {
+          "image": "/journals/the-lighter-house/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a map with a darshini, a temple walk route, and a math hall marked within a small radius, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the darshini, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "The Orbit — Vidyarthi Bhavan Radius",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Downsizing the house must not downsize the life — dosas, the Bull Temple walk, the Math lectures, and fifty-year friendships are the actual geography."
+        },
+        {
+          "image": "/journals/the-lighter-house/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a community park with seniors and younger families together and an age-mix chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the chart, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Seniors Present, Not Seniors Only",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "A community with an age-mix audit — the noise of children and the pace of young families keep the flat alive, not just maintained."
+        },
+        {
+          "image": "/journals/the-lighter-house/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a guest room with an inviting bed and a small welcome note, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the welcome note, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A Guest Room That Invites, Not Obligates",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The grandchildren and the old friends need a room that welcomes without demanding — the 'invites without obligating' test is part of the senior-friendly audit."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From five years of 'someday' in a drawer, to twin tracks and a parked senior-living option, a clean exit over three JVs, and a sale deed beside a small key with Singapore booked.",
+      "journeyFrameTitle": "SIMPLICITY PER REMAINING DECADE",
+      "roadmapTitle": "How a Basavanagudi museum became a lock-and-leave 2BHK in six months",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — Lighter House"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL LIBERATED",
+          "value": "₹9.5 Cr Sale → ₹7 Cr Corpus"
+        },
+        {
+          "icon": "Sprout",
+          "label": "THE TRIAGE",
+          "value": "60 Plants → 12 + 48 Gifts"
+        },
+        {
+          "icon": "Plane",
+          "label": "THE FIRST USE",
+          "value": "Singapore, Flat's First Month"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-the-decision",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Decision Said Aloud",
+          "desc": "Five years of 'someday' as a drawer of unopened brochures — broken after the second knee surgery and one 8 pm silence too many.",
+          "icon": "Home",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-twin-tracks",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: Twin Tracks Open",
+          "desc": "Sannidhi's sale options (outright vs builder-JV vs leaseback) and the 2BHK hunt in the orbit run side by side — three folders, the JV's flats sketched and set aside.",
+          "icon": "ArrowLeftRight",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-senior-living-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: The Senior-Living Weekend",
+          "desc": "A friend's rave leads to a Devanahalli campus visit — excellent, and 40 km from Vidyarthi Bhavan. Parked for later life, door left unrusted, revisit yearly.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-clean-exit-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L4: The Clean-Exit Decision",
+          "desc": "Three JV offers evaluated — the clean exit chosen: 'simplicity per remaining decade' in Nagaraj's hand beats flats-plus-cash complexity.",
+          "icon": "Scale",
+          "loopText": "3-Week JV-vs-Clean-Exit Loop — Simplicity Wins",
+          "x": 760,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-dues-stall-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l4-clean-exit-loop",
+          "title": "L5 BOUNCE: The Pending-Dues Stall",
+          "desc": "The first 2BHK agreement stalls — the seller's society-transfer file reveals pending dues; a polite exit, two weeks lost, the orbit search reopens.",
+          "icon": "Undo2",
+          "loopText": "2-Week Dues-Stall Bounce — Polite Exit",
+          "x": 300,
+          "y": 380,
+          "width": 260
+        },
+        {
+          "id": "l6-lighter-house-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Lighter House Close",
+          "desc": "Sale at ₹9.5 Cr (plot value); 2BHK closed in a lift-redundant Jayanagar-orbit building; ₹1.5 Cr gifted warm; Singapore booked for the flat's first month.",
+          "icon": "KeyRound",
+          "x": 810,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "valuing",
+          "label": "Valuing",
+          "icon": "Scale"
+        },
+        {
+          "id": "triage",
+          "label": "Triaging",
+          "icon": "Sprout"
+        },
+        {
+          "id": "selling",
+          "label": "Selling",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": "gifting",
+          "label": "Gifting",
+          "icon": "HeartHandshake"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Lighter, Booked"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "brochure-drawer-moment",
+          "title": "The drawer of unopened brochures",
+          "desc": "Five years of 'someday' as a drawer of unopened brochures, two knee X-rays on top — the museum's curators finally admitting the visitors don't come.",
+          "imageSrc": "/journals/the-lighter-house/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a drawer full of unopened property brochures with two knee X-rays lying on top, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "clean-exit-moment",
+          "title": "The clean-exit decision page",
+          "desc": "'Simplicity per remaining decade' in Nagaraj's hand — the page that declined three JV offers in favour of a clean exit, three valuations and one lawyer later.",
+          "imageSrc": "/journals/the-lighter-house/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a decision page with 'simplicity per remaining decade' written in handwriting and three JV folders set aside, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "watering-route-moment",
+          "title": "The watering route with forty-eight names",
+          "desc": "The garden triage as inheritance — forty-eight named friends, each with a plant and a story attached, and a visiting schedule that became the watering route.",
+          "imageSrc": "/journals/the-lighter-house/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a handwritten list of forty-eight names beside chalked plant tags in a garden, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "dues-stall-moment",
+          "title": "The society-transfer file with the flagged dues",
+          "desc": "The first flat's society-transfer file with pending dues flagged, a polite exit note beside it — the orbit search reopens, two weeks lighter.",
+          "imageSrc": "/journals/the-lighter-house/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a society-transfer file with pending dues flagged in red and a polite exit note clipped to it, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "deed-and-key-moment",
+          "title": "The ₹9.5 Cr deed beside a small key",
+          "desc": "The sale deed beside a 2BHK key, a Singapore itinerary, and the watering-route list — the museum closed, the lighter house opening, the freedom with a first use.",
+          "imageSrc": "/journals/the-lighter-house/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a ₹9.5 Cr sale deed beside a small apartment key, a Singapore itinerary and a plant watering-route list, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "Four bedrooms, two people, one visit every two years. The house won.",
+          "author": "— Nagaraj & Sharadamma"
+        },
+        {
+          "text": "You're not losing a garden. You're distributing an inheritance.",
+          "author": "— Riya, on the sixty-to-twelve triage"
+        },
+        {
+          "text": "Give Kamala the jasmine, finally. Twenty years of hinting, ayyo.",
+          "author": "— Nagaraj"
+        },
+        {
+          "text": "Amma, why are you both managing all this?",
+          "author": "— The children's video-call refrain"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Sharadamma",
+          "avatar": "/journals/the-lighter-house/sharadamma.png",
+          "text": "Sixty plants, Riya. The new balcony takes twelve. I've been standing in the garden since morning with chalk, like some examiner. Failing my own children."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Then let's not fail them, madam — let's graduate them. Your temple circle, the tailoring families, the neighbours' daughters: a list of forty-eight people who'd treasure a plant from Sannidhi's garden, each with a story. You're not losing a garden; you're distributing an inheritance. And the jackfruit tree stays with the house — we'll write the new owners a letter about it.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Scale",
+          "title": "The Plot-Value Market",
+          "description": "Basavanagudi 40x60 land commands ₹35–40K/sqft of site area — the building is 'free' and the plot is the value. Three valuations and one lawyer later, the clean exit won on simplicity per remaining decade."
+        },
+        {
+          "icon": "Building2",
+          "title": "The Senior-Friendly Audit",
+          "description": "Senior-friendly is specific: lift redundancy, anti-skid baths, grab-rail-ready walls, age-mix. The 'luxury' tower failed on one criterion — a single lift, serviced monthly."
+        },
+        {
+          "icon": "Sprout",
+          "title": "The Garden Triage",
+          "description": "Sixty plants to twelve — grief handled as inheritance. Forty-eight plants gifted to named friends with visits attached, the tour becoming a visiting schedule."
+        },
+        {
+          "icon": "HeartHandshake",
+          "title": "Warm-Handed Gifting, With an Actuary",
+          "description": "The ₹1.5 Cr gift survived the longevity math at 94 with care costs — at ₹1.5 Cr, not the ₹2 Cr first proposed. Generosity with an actuary is still generosity."
+        },
+        {
+          "icon": "Plane",
+          "title": "The Freedom's First Use",
+          "description": "Singapore booked for the flat's first month, Seattle for year's end — the lock-and-leave freedom scheduled before the lock existed. The empty-room problem, pre-empted."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-lighter-house.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "The orbit is the point — Basavanagudi, Jayanagar, at most Banashankari, where the dosas, the walk, and the fifty-year friendships stay. Senior-friendly audits applied to every candidate.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Lock-and-Leave 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Basavanagudi • Jayanagar • Banashankari"
+        },
+        {
+          "icon": "Building2",
+          "label": "THE AUDIT",
+          "value": "Lift Redundancy, Passed"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Jayanagar-Orbit 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "The orbit they explored",
+      "exploredAreas": [
+        {
+          "title": "Basavanagudi",
+          "description": "The home ground — Sannidhi's address and the Bull Temple walk; where the orbit's heart lives and where the new flat would be closest to everything familiar.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9429209,
+            "lng": 77.5501734
+          },
+          "imageSrc": "/journals/the-lighter-house/basavanagudi.png",
+          "imagegenerationprompt": "A modern architectural vector view of Basavanagudi's heritage streets with the Bull Temple precinct, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Jayanagar (Chosen)",
+          "description": "The orbit's value and lift-redundant stock — the 2BHK that passed the senior-friendly audit and kept the darshini and the park within the radius.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.930512,
+            "lng": 77.5665553
+          },
+          "imageSrc": "/journals/the-lighter-house/jayanagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of Jayanagar's tree-lined avenues and residential towers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Banashankari",
+          "description": "The orbit's outer edge — 'at most Banashankari' was the boundary set, and a couple of candidates there were weighed before the radius tightened.",
+          "projects": 3,
+          "siteVisits": 3,
+          "latlong": {
+            "lat": 12.9326146,
+            "lng": 77.5322449
+          },
+          "imageSrc": "/journals/the-lighter-house/banashankari.png",
+          "imagegenerationprompt": "A modern architectural vector view of Banashankari's established residential avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Serene Urbana, Devanahalli (the parked senior-living alternative — door left unrusted, revisit yearly) • every orbit candidate that failed the senior-friendly audit",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE MUSEUM YEARS",
+          "value": "Five Years of 'Someday'",
+          "description": "The house holds everything — the board-exam rooms, forty years of Ganesha festivals, the jackfruit tree — and the ledger of the last decade reads in knees and contractors.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE 8 pm SILENCE",
+          "value": "A Sound Neither Describes",
+          "description": "The specific loneliness of a big house at 8 pm — a sound both of them know and neither describes — was the quietest line in the decision ledger.",
+          "icon": "Moon"
+        },
+        {
+          "title": "THE JV SIREN SONG",
+          "value": "Three Builders, Three Folders",
+          "description": "Flats-plus-cash offers from three builders — declined for the clean exit, because simplicity per remaining decade outranks complexity with options.",
+          "icon": "Scale"
+        },
+        {
+          "title": "THE SINGLE-LIFT 'LUXURY' TOWER",
+          "value": "Failed One Criterion",
+          "description": "The luxury tower failed the senior-friendly audit on a single line: one lift, serviced monthly. Lift redundancy is not a preference at 72; it's the audit.",
+          "icon": "Building2"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for lift redundancy, the Vidyarthi Bhavan radius, an age-mix that breathes, and a guest room that invites without obligating.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“The Raos run two clocks — the asset's (milestones, JV offers, valuations) and the body's (knees, lifts, the 8 pm silence). Downsizers like them taught me that the house sale is a plot-value transaction dressed as a memory — the building is 'free,' and three builders' JV folders were declined because simplicity per remaining decade is a real number, not a sentiment. The garden triage was the human heart of it: sixty plants to twelve, the rest distributed as inheritance with a visiting schedule attached. And the freedom got its first use booked before the lock existed — Singapore, first month, so the empty-room problem never got a room. The right answer at 72 may differ at 79 — the senior-living door stays unrusted, revisited yearly.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a plot-value valuation sheet beside a garden-triage list of forty-eight names, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Two sides of one move — the plot-value sell side and the orbit's senior-friendly buy side, with the Devanahalli alternative parked with its door unrusted.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Lock-and-Leave 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Jayanagar-Orbit 2BHK"
+        },
+        {
+          "icon": "Scale",
+          "label": "THE SALE",
+          "value": "₹9.5 Cr, Plot Value, Clean Exit"
+        },
+        {
+          "icon": "Plane",
+          "label": "THE FIRST USE",
+          "value": "Singapore Booked"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "Building2",
+          "title": "Lift Redundancy",
+          "subtitle": "non-negotiable audit line"
+        },
+        {
+          "icon": "Coffee",
+          "title": "The Vidyarthi Bhavan Radius",
+          "subtitle": "the orbit is the point"
+        },
+        {
+          "icon": "Users",
+          "title": "Age-Mix That Breathes",
+          "subtitle": "seniors present, not only"
+        },
+        {
+          "icon": "HeartHandshake",
+          "title": "Guest Room That Invites",
+          "subtitle": "not obligates"
+        },
+        {
+          "icon": "Scale",
+          "title": "Clean Exit, Simplest Structure",
+          "subtitle": "simplicity per decade"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Nagaraj",
+          "avatar": "/journals/the-lighter-house/nagaraj.png",
+          "text": "Three JV folders sat on the table for three weeks. In the end, the clean exit was the real luxury — no flats to manage, no strings, just the number and the key."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Simplicity per remaining decade — that's not a lesser choice, it's the engineer's deepest one. And the Singapore itinerary in the folder is the freedom's first use. The museum closes; the lighter house opens.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-lighter-house/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of Basavanagudi, Jayanagar and Banashankari with the Vidyarthi Bhavan orbit ring in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "The orbit's two sides",
+      "projects": [
+        {
+          "title": "The Buy Side (Chosen)",
+          "name": "Jayanagar-Orbit Ready 2BHK",
+          "price": "₹1.9–2.2 Cr",
+          "possession": "Ready",
+          "psf": "₹16–18K/sqft orbit band",
+          "location": "Jayanagar–Basavanagudi",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Sell Side",
+          "name": "Sannidhi — Basavanagudi 40x60",
+          "price": "₹9.5 Cr, Plot Value",
+          "possession": "Sold — clean exit",
+          "psf": "₹35–40K/sqft of site area",
+          "location": "Basavanagudi",
+          "imageSrc": "/journals/default.png"
+        },
+        {
+          "title": "The Parked Alternative",
+          "name": "Serene Urbana (Columbia Pacific)",
+          "price": "1–3BHK ₹30L–1 Cr+",
+          "possession": "Senior-living campus",
+          "psf": "Packages from ~₹28K/mo",
+          "location": "Devanahalli",
+          "imageSrc": "/journals/the-lighter-house/projects/Serene-Urbana.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Building2",
+          "title": "The Single-Lift 'Luxury' Tower",
+          "count": "failed the audit on one line"
+        },
+        {
+          "icon": "Scale",
+          "title": "The Three JV Offers",
+          "count": "declined — simplicity per decade"
+        },
+        {
+          "icon": "FileX",
+          "title": "The Pending-Dues Flat",
+          "count": "1 polite exit, 2 weeks"
+        },
+        {
+          "icon": "MapPin",
+          "title": "The 40 km Senior Campus",
+          "count": "parked, door left unrusted"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the Jayanagar-orbit 2BHK at ₹1.9–2.2 Cr delivered the lift-redundant, age-mixed community inside the Vidyarthi Bhavan radius — while Sannidhi sold at plot value for ₹9.5 Cr via the cleanest of exits. The ₹7 Cr corpus was structured for income, medical care, warm-handed gifts, and two trips a year; the first trip was booked before the lock existed.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for seniors and downsizers — the plot-value sale, the senior-friendly audit, the garden triage as inheritance, and the freedom given a first use.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The Plot Is the Value"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "The Orbit, Not the House"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Five Years of 'Someday'"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Freedom's First Use"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "The plot-value market runs on builder-assembly economics.",
+          "description": "Outright sale, JV (flats + cash), and sell-with-leaseback all price differently — three valuations and one lawyer later, the clean exit won on simplicity per remaining decade.",
+          "imageSrc": "/journals/the-lighter-house/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of three sale-option folders with a clean-exit decision page on top marked 'simplicity per remaining decade', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Senior-friendly is specific, not aspirational.",
+          "description": "Lift redundancy, anti-skid baths, grab-rail-ready walls, age-mix audit — the 'luxury' tower failed on a single criterion: one lift, serviced monthly.",
+          "imageSrc": "/journals/the-lighter-house/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a senior-friendly audit checklist with lift redundancy and anti-skid bath lines beside a tower cross-section, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The garden triage is an inheritance, not a loss.",
+          "description": "Sixty plants to twelve; forty-eight gifted to named friends with visits attached — grief converted into a farewell tour, and the tour into a visiting schedule for the new flat.",
+          "imageSrc": "/journals/the-lighter-house/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of chalked plant tags with forty-eight names beside twelve potted plants on a small balcony, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Book the first trip before the sale registers.",
+          "description": "Singapore for the flat's first month, Seattle for year's end — the lock-and-leave freedom got its first use scheduled before the lock existed. The empty-room problem, pre-empted.",
+          "imageSrc": "/journals/the-lighter-house/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a Singapore itinerary beside a small apartment key and a calendar with two trip blocks, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "Home",
+          "text": "A big house is a permanent arrangement, maintained by love"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "The building's value is in the building"
+        },
+        {
+          "icon": "Building2",
+          "text": "A 'luxury' tower's amenities define senior living"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "Gifts wait for the will, which waits for later"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "Scale",
+          "text": "The plot is the value; the building is 'free' — sell on land, not memory"
+        },
+        {
+          "icon": "Building2",
+          "text": "Lift redundancy and anti-skid baths are the audit, not preferences"
+        },
+        {
+          "icon": "Sprout",
+          "text": "The garden triage is inheritance with a watering route attached"
+        },
+        {
+          "icon": "Plane",
+          "text": "The freedom's first use is booked before the lock exists"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Home",
+          "title": "Start the 'someday' conversation at year one, not year five",
+          "description": "The drawer of brochures sat for five years — the decision said aloud at the first knee surgery would have given the whole move a calmer runway."
+        },
+        {
+          "icon": "Scale",
+          "title": "Commission the three valuations at the start",
+          "description": "The plot-value revelation arrived at month two — having the land economics on paper from month one would have shaped the entire sale strategy earlier."
+        },
+        {
+          "icon": "Sprout",
+          "title": "Begin the plant gifting a season earlier",
+          "description": "The triage was conducted in one emotional weekend — a full season of gradual gifting would have softened it and spread the farewell tour's joy."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Check the society-transfer file before the agreement",
+          "description": "The pending-dues stall cost two weeks — the transfer-file review should have been gate zero for every orbit candidate."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Sharadamma",
+          "avatar": "/journals/the-lighter-house/sharadamma.png",
+          "text": "The jasmine went to Kamala after twenty years of her hinting, the jackfruit tree has a letter with the new owners, and twelve pots came with us. The garden didn't end — it just has forty-eight more addresses now."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "That's the whole journal, madam — the house was never going to be the inheritance. The garden, the friendships, the visits: that's what transfers. The lighter house just made it portable.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for seniors and downsizers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Nagaraj and Sharadamma opening the brochure drawer, declining the three JV folders, chalking the plant tags with forty-eight names, and booking Singapore beside the sale deed and small key, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For seniors and downsizers, the edge is in running two clocks honestly — the asset's and the body's. Sell on plot value, not memory; audit senior-friendly in specifics (lift redundancy, anti-skid baths, age-mix); and let the garden triage become inheritance with a visiting schedule attached. Structure the liberated corpus with longevity math at 94, give with warm hands but with an actuary, and book the freedom's first use before the lock exists. The Raos proved the lighter house isn't a smaller life — it's the same life, made portable.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The plot-value market runs on builder assembly economics",
+          "body": "Outright sale, JV (flats + cash), and sell-with-leaseback all priced differently — three valuations and one lawyer later, the clean exit won on simplicity per remaining decade.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Senior-friendly is specific: lift redundancy, anti-skid baths, age-mix",
+          "body": "The 'luxury' tower failed on a single criterion — one lift, serviced monthly. At 72, lift redundancy is not a preference; it's the audit.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "The pruning of the garden was the real negotiation",
+          "body": "Sixty plants to twelve — Sharadamma's method: gift each plant to a named friend with a visit attached. Grief became a farewell tour, and the tour became the new flat's visiting schedule.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The warm-handed gift ran the longevity math at 94 — and survived",
+          "body": "At ₹1.5 Cr, not the ₹2 Cr first proposed, with care costs included. Generosity with an actuary is still generosity.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "They booked Singapore and Seattle before the lock existed",
+          "body": "The lock-and-leave freedom got its first use scheduled for the flat's first month — the empty-room problem, pre-empted.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Three floors ready to lighten?",
+      "description": "If your house became a museum you curate for visitors who don't come, as Nagaraj and Sharadamma found, let Riya build your rightsizing roadmap — plot-value sale, senior-friendly audit, and the liberated-corpus plan.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the house's story and value, the orbit you need to stay in, the children's geography, and the longevity math of your family.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya prices the sale options at current land values, audits candidates against the senior-friendly checklist, and runs the longevity math at 94.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Lighter House journal — sale-option matrix, senior-friendly audit, and liberated-corpus plan — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive ready 2BHKs in your orbit that pass the audit — lifts, baths, age-mix, walkability — with the corpus structure attached.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Rightsizing Decision Frameworks",
+          "description": "The plot-value sale guide for old Bengaluru houses — valuation, capital gains, builder-JV vs outright, weighted for the decades remaining.",
+          "icon": "Scale"
+        },
+        {
+          "id": 2,
+          "title": "The Lock-and-Leave Senior Audit",
+          "description": "Lifts with backup, anti-skid baths, age-mix, walkability to park and darshini — the checklist that turns 'senior-friendly' from a slogan into a test.",
+          "icon": "Building2"
+        },
+        {
+          "id": 3,
+          "title": "Liberated-Corpus Planning",
+          "description": "Income ladders, untouchable medical earmarks, and warm-handed gifting math — run honestly at 94.",
+          "icon": "HeartHandshake"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your house has become a museum you curate for visitors who don't come.",
+        "The maintenance ledger of a big old house has begun writing itself in knees and contractors.",
+        "Your children are abroad, loving and far, and the video calls have started asking the question.",
+        "Downsizing the house must not downsize the life — your walk, your darshini, your fifty-year friendships stay.",
+        "You'd rather give with warm hands and watch it matter.",
+        "Some of what the house holds will not transfer, and you're learning to grieve it properly."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-the-decision",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Decision Said Aloud",
+      "desc": "Five years of 'someday' as a drawer of unopened brochures — broken after the second knee surgery and one 8 pm silence too many.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-twin-tracks",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: Twin Tracks Open",
+      "desc": "Sannidhi's sale options (outright vs builder-JV vs leaseback) and the 2BHK hunt in the orbit run side by side — three folders, the JV's flats sketched and set aside.",
+      "icon": "ArrowLeftRight",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-senior-living-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: The Senior-Living Weekend",
+      "desc": "A friend's rave leads to a Devanahalli campus visit — excellent, and 40 km from Vidyarthi Bhavan. Parked for later life, door left unrusted, revisit yearly.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-clean-exit-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L4: The Clean-Exit Decision",
+      "desc": "Three JV offers evaluated — the clean exit chosen: 'simplicity per remaining decade' in Nagaraj's hand beats flats-plus-cash complexity.",
+      "icon": "Scale",
+      "loopText": "3-Week JV-vs-Clean-Exit Loop — Simplicity Wins",
+      "x": 760,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l5-dues-stall-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "l4-clean-exit-loop",
+      "title": "L5 BOUNCE: The Pending-Dues Stall",
+      "desc": "The first 2BHK agreement stalls — the seller's society-transfer file reveals pending dues; a polite exit, two weeks lost, the orbit search reopens.",
+      "icon": "Undo2",
+      "loopText": "2-Week Dues-Stall Bounce — Polite Exit",
+      "x": 560,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-lighter-house-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Lighter House Close",
+      "desc": "Sale at ₹9.5 Cr (plot value); 2BHK closed in a lift-redundant Jayanagar-orbit building; ₹1.5 Cr gifted warm; Singapore booked for the flat's first month.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}

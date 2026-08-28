@@ -1,0 +1,929 @@
+{
+  "article": {
+    "tags": [
+      "YOUNG PROFESSIONALS & FIRST-TIMERS",
+      "SOLO BUYER",
+      "JP NAGAR • BANNERGHATTA"
+    ],
+    "title": "The One Name on the Deed Journal",
+    "description": "Divya Raghavan's (32, staff engineer, ₹72 LPA) solo purchase in JP Nagar–Bannerghatta Road — one name on the deed, a Yellow Line 2BHK, an 11 pm security-culture audit, and sixty potted plants of protest.",
+    "quote": "\"Waiting for marriage to buy a house is just waiting.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "KeyRound",
+        "text": "One name, nomination, will draft, guardianship filed"
+      },
+      {
+        "icon": "Moon",
+        "text": "The 11 pm security-desk audit beats any price sheet"
+      },
+      {
+        "icon": "Flower2",
+        "text": "'What is each flat FOR' reconciles logic and joy"
+      }
+    ],
+    "heroImage": "/journals/cover/15.png",
+    "heroTitle": "The One Name on the Deed Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who she is",
+      "description": "Getting to know Divya Raghavan (32, staff engineer at a US-headquartered product company) — buying a 2BHK in JP Nagar–Bannerghatta Road near the Yellow Line metro stretch, entirely in her own name, with a checklist tuned for single-woman ownership and a security culture she verifies at 11 pm.",
+      "buyers": [
+        {
+          "name": "Divya Raghavan",
+          "age": 32,
+          "role": "Staff Engineer, US Product Company",
+          "description": "Ten years, six flats, three kinds of landlord indignity — radicalized by a broker who asked her to bring her father on a video call. Now buys with her own signature: solo EMI, solo deed, solo door. Audits communities at 11 pm and 6 am, and quietly tracks which security desks log women's guests with a smirk.",
+          "tags": [
+            "Self-Possessed",
+            "11pm Auditor",
+            "Solo Byline"
+          ],
+          "image": "/journals/the-one-name-on-the-deed/divya.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 32-year-old South Indian professional woman named Divya wearing smart-casual work attire with a light blazer, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, confident amused expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Convert a decade of six rented flats and three kinds of landlord indignity into a Yellow Line 2BHK carrying one name on the deed — her own. A gated community with real security, not surveillance; an RWA sociable but boundaried; cafes and a gym walkable; security she can verify at 11 pm; a balcony for the plant ambitions; and a flat she can lock and travel from for three weeks — a settlement with the city that treated her as temporary.",
+      "sharedVisionImage": "/journals/the-one-name-on-the-deed/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a single woman standing in the warm doorway of her own apartment, key in hand, golden light spilling onto a balcony full of potted plants with a metro line glowing in the dusk behind, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the key, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Solo Professional"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Single by Choice"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "2BHK closed"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "3 Months"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-one-name-on-the-deed/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a property deed with a single signature, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the signature, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Her Name Alone on the Deed",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Non-negotiable: her name, her deed, her door. No co-applicant, no co-owner, no compromise on the solo byline."
+        },
+        {
+          "image": "/journals/the-one-name-on-the-deed/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a night security desk with a logbook and a steaming cup of tea, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the logbook, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "11 pm Security Culture Verified",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "She audited security desks at 11 pm and 6 am — guest-logging norms, single-owner density, whether women's guests get logged with a smirk."
+        },
+        {
+          "image": "/journals/the-one-name-on-the-deed/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a paw print beside a doorway, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the paw print, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Pet-Possible Community",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The dog-to-be is part of the floor plan — RWA pet policy verified before the price sheet was discussed."
+        },
+        {
+          "image": "/journals/the-one-name-on-the-deed/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a balcony with a growing potted plant collection, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on a plant pot, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Balcony for the Plant Ambitions",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Not just a balcony — the future site of sixty potted plants, deployed as protest if the sensible flat wins."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How her journey actually unfolded.",
+      "description": "From a broker who asked for 'father on a video call' to an 11 pm security-desk audit, the beige-vs-terrace dilemma, and one name on the deed.",
+      "journeyFrameTitle": "HER NAME, HER DEED, HER DOOR",
+      "roadmapTitle": "How a solo buyer closed a Yellow Line 2BHK on her own signature",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "2BHK closed"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.8 Cr (₹55L Down)"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "DEED",
+          "value": "One Name Only"
+        },
+        {
+          "icon": "Moon",
+          "label": "AUDIT HOUR",
+          "value": "11 pm Security Desk"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-broker-radicalisation",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Broker Chat That Radicalised Her",
+          "desc": "A broker asks her to bring her father on a video call to 'assure the owner.' Screenshotted and filed — her name, her deed, her door, decided that week.",
+          "icon": "MessageSquare",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-security-audits",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The 11 pm Audits",
+          "desc": "Security-desk audits invented: 11 pm logbook checks and 6 am lobby sittings — two glossy communities fail the unwritten checklist.",
+          "icon": "Moon",
+          "x": 320,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-women-preferred-detour",
+          "stage": "DETOUR",
+          "type": "detour",
+          "title": "L3 DETOUR: 'Women-Preferred' Marketing",
+          "desc": "A 'women-preferred community' pitch that means nothing operationally once you open the logbook; parked with an eye-roll.",
+          "icon": "Eye",
+          "x": 540,
+          "y": 320,
+          "width": 190
+        },
+        {
+          "id": "l4-two-finalists",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Two Finalists",
+          "desc": "Prestige Song of the South (Begur Rd, ready, 2BHK ₹1.8 Cr) vs an older JP Nagar community at better value — floor plans labelled by hand.",
+          "icon": "MapPin",
+          "x": 560,
+          "y": 30,
+          "width": 190
+        },
+        {
+          "id": "l5-joy-vs-resale-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L5: The Joy-vs-Resale Loop",
+          "desc": "The beige east-facing unit vs the charming terrace unit — she writes what each is FOR, and the loop resolves itself.",
+          "icon": "RotateCcw",
+          "loopText": "2-Week 'What Is Each Flat FOR' Loop",
+          "x": 780,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l6-song-of-the-south-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: Song of the South Close",
+          "desc": "2BHK closed on her own signature; nomination + will drafted in thirty lawyer-minutes; sixty potted plants of protest deployed on the winning balcony.",
+          "icon": "KeyRound",
+          "x": 780,
+          "y": 330,
+          "width": 190
+        }
+      ],
+      "timelineTitle": "Where she stands today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "auditing",
+          "label": "Auditing",
+          "icon": "Moon"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "One Name Only"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "broker-chat-moment",
+          "title": "The 'bring your father' chat bubble",
+          "desc": "The broker asking her to put her father on a video call to 'assure the owner' — screenshotted, filed, and the reason her name alone went on the deed.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a smartphone chat bubble reading 'bring your father on video call', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 chat bubble accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "security-desk-moment",
+          "title": "The 11 pm security desk",
+          "desc": "An 11 pm photograph of a security desk, logbook open, tea steaming — the audit that failed two glossy communities.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a night-time security desk with an open visitor logbook and a steaming cup of tea, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the logbook, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "two-floorplans-moment",
+          "title": "Two floor plans, labelled by hand",
+          "desc": "'The life I have' vs 'the life I'm hoping shows up' — the beige 2BHK and the terrace unit, annotated in her own handwriting.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two floor plans side by side labelled by hand 'the life I have' and 'the life I'm hoping shows up', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the labels, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "what-is-it-for-moment",
+          "title": "The coffee-ringed 'what is each flat FOR' page",
+          "desc": "A pros-and-cons page ending in the question that resolved the loop — the terrace was for an imagined life; the beige one funds the actual one, including the dog.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a coffee-ring-stained pros-and-cons notebook page ending with 'what is each flat FOR?', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the coffee ring, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "one-name-stencil-moment",
+          "title": "The one-name stencil and sixty plants",
+          "desc": "A brass nameplate stencil with a single name, sixty potted plants waiting in the corridor, and thirty lawyer-minutes that turned three future anxieties into filed paper.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a brass nameplate stencil with one name beside a corridor full of potted plants, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the nameplate, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around her",
+      "quotes": [
+        {
+          "text": "Waiting for marriage to buy a house is just waiting.",
+          "author": "— Divya"
+        },
+        {
+          "text": "My broker says 'madam, resale value' and I want to throw my filter coffee at him.",
+          "author": "— Divya"
+        },
+        {
+          "text": "What is each flat FOR? Answer as the woman who audited security desks at eleven pm, not as anyone's future seller.",
+          "author": "— Riya"
+        },
+        {
+          "text": "I'm putting SIXTY plants on that normal balcony. Sixty. As protest.",
+          "author": "— Divya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Divya",
+          "avatar": "/journals/the-one-name-on-the-deed/divya.png",
+          "text": "Riya, honest opinion time. The beige 2BHK — sensible, east-facing, resells in a weekend. The top-floor one has that terrace… aiyyo, that terrace, pa."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Don't waste the coffee. Here's my only question — what is each flat FOR? Not for anyone's future seller. For you, at eleven pm, with the logbook open.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "Moon",
+          "title": "Time-of-Day Diligence",
+          "description": "Communities auditioned at 11 pm and 6 am reveal security culture, guest-logging norms, and real residents — not the sales team's 11 am."
+        },
+        {
+          "icon": "Building2",
+          "title": "Completed-Phase Builder Stock",
+          "description": "An OC-issued completed phase lets you sit in the lobby for an hour and watch the building be itself — an audit no launch can offer."
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Solo-Loan Sanction",
+          "description": "Banks process solo-woman applications smoothly, but two sales offices still asked about 'co-applicant sir' — noted, and their competitor got the visit."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Nomination + Will + Guardianship",
+          "description": "Thirty minutes with a lawyer converted three future anxieties — nomination, will, joint-holding decisions — into filed paper."
+        },
+        {
+          "icon": "Flower2",
+          "title": "Resale vs Joy: The FOR Test",
+          "description": "The safest resale flat is a beige 2BHK that bores her; the charming terrace has a thinner buyer pool — the 'what is it FOR' test resolved which to live."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-one-name-on-the-deed.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where she looked and what she found.",
+      "description": "Evaluating ready builder stock across JP Nagar, Bannerghatta Road, and Begur Road — within 1 km of the Yellow Line, with a community-culture audit that ran at 11 pm and 6 am.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Solo-Owned 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "JP Nagar • Bannerghatta • Begur"
+        },
+        {
+          "icon": "Moon",
+          "label": "AUDIT INSTRUMENT",
+          "value": "11 pm Security Desk"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "Song of the South 2BHK"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "JP Nagar (Chosen)",
+          "description": "Established Yellow Line-adjacent belt — the older community at better value, mature security culture, and the corridor she's rented-adjacent to for years.",
+          "projects": 4,
+          "siteVisits": 6,
+          "latlong": {
+            "lat": 12.8897102,
+            "lng": 77.5574752
+          },
+          "imageSrc": "/journals/the-one-name-on-the-deed/jp-nagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of JP Nagar residential avenues with metro-line proximity, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Bannerghatta Road",
+          "description": "The Yellow Line corridor that repriced post-metro to ₹15–17K/sqft — 2BHKs that quoted ₹1.1 Cr pre-metro now run ₹1.7–2 Cr.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.7943268,
+            "lng": 77.6183343
+          },
+          "imageSrc": "/journals/the-one-name-on-the-deed/bannerghatta.png",
+          "imagegenerationprompt": "A modern architectural vector view of Bannerghatta Road with Yellow Line metro station proximity, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Begur Road (Song of the South)",
+          "description": "Prestige's completed-phase community — the chosen home, where OC-issued ready stock let her sit in the lobby and watch the building be itself.",
+          "projects": 2,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8639268,
+            "lng": 77.6090204
+          },
+          "imageSrc": "/journals/the-one-name-on-the-deed/begur-road.png",
+          "imagegenerationprompt": "A modern architectural vector view of Begur Road residential corridor with a completed-phase gated community, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Brigade Gardenia (value benchmark) • the 'women-preferred' marketing community (detour, unnamed) • an older JP Nagar finalist community",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "LANDLORD-ERA INDIGNITIES",
+          "value": "Ten Years, Six Flats",
+          "description": "Every move triggered by an owner's son's wedding, a 15% hike, or a landlord who 'preferred family' — ownership as settlement, not just asset.",
+          "icon": "MessageSquare"
+        },
+        {
+          "title": "THE 'FATHER ON VIDEO CALL' MOMENT",
+          "value": "Broker-Dismissed",
+          "description": "A broker asking her to bring her father to 'assure the owner' — the exact indignity that made the solo deed non-negotiable.",
+          "icon": "ShieldAlert"
+        },
+        {
+          "title": "'WOMEN-PREFERRED' COSTUME",
+          "value": "Marketing With Nothing Under It",
+          "description": "A community marketed as 'women-preferred' with zero operational meaning — the logbook showed the same smirks as everywhere else.",
+          "icon": "Eye"
+        },
+        {
+          "title": "'CO-APPLICANT SIR' ASKS",
+          "value": "Two Sales Offices Noted",
+          "description": "Banks process solo-woman applications smoothly, but two sales offices still asked about a 'co-applicant sir' — she bought their competitor's attention instead.",
+          "icon": "FileX"
+        }
+      ],
+      "filtersFooterLabel": "Divya was filtering for security culture, single-owner density, and a community that would notice if something was wrong — not one that noticed everything.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Divya's diligence instrument was time-of-day. Any community can host a polite sales tour at 11 am; very few survive an 11 pm visit with the logbook open and the tea steaming. She built a second checklist — security culture, guest-logging norms, single-women owner density — that exists nowhere on any portal, and it failed two glossy projects that every price sheet in Bengaluru would have called premium. When the beige-versus-terrace question came, she answered it the same way she'd audited the desks: what is each flat FOR? The beige one funds the actual life. The rest is just square feet.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a community-culture audit logbook at night, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where she looked and what she found.",
+      "description": "Weighing ready builder stock with OC — completed phases where community culture was already visible and auditable before committing a solo signature.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Solo-Owned 2BHK"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Song of the South 2BHK"
+        },
+        {
+          "icon": "Moon",
+          "label": "FAILED THE 11 PM AUDIT",
+          "value": "2 Glossy Communities"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "TRANSACTION",
+          "value": "₹1.8 Cr • One Name"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in her search",
+      "priorities": [
+        {
+          "icon": "KeyRound",
+          "title": "Her Name on the Deed",
+          "subtitle": "no co-applicant ever"
+        },
+        {
+          "icon": "Moon",
+          "title": "Security Culture",
+          "subtitle": "11 pm & 6 am verified"
+        },
+        {
+          "icon": "PawPrint",
+          "title": "Pet-Possible",
+          "subtitle": "dog-to-be welcomed"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "OC-Issued Ready Phase",
+          "subtitle": "completed & auditable"
+        },
+        {
+          "icon": "Flower2",
+          "title": "Balcony Real Estate",
+          "subtitle": "sixty pots minimum"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Divya",
+          "avatar": "/journals/the-one-name-on-the-deed/divya.png",
+          "text": "The beige one wins — but I'm putting sixty plants on that balcony as protest. Sixty."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Noted in the journal: 'Protest garden, sixty pots.' The tenant after you will inherit a jungle — and the deed stays yours alone.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where she searched",
+      "mapImageSrc": "/journals/the-one-name-on-the-deed/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of JP Nagar, Bannerghatta Road and Begur Road along the Yellow Line in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects she explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Prestige Song of the South (Chosen)",
+          "name": "Prestige Song of the South",
+          "price": "₹1.8 Cr",
+          "possession": "Ready",
+          "psf": "2BHK 1,232 sqft",
+          "location": "Begur Road",
+          "imageSrc": "/journals/the-one-name-on-the-deed/projects/Prestige-Song-of-the-South.webp"
+        },
+        {
+          "title": "Value Benchmark",
+          "name": "Brigade Gardenia",
+          "price": "Listings avg ₹8.8K–₹11.3K/sq ft",
+          "possession": "Ready",
+          "psf": "JP Nagar 7th Phase",
+          "location": "JP Nagar 7th Phase",
+          "imageSrc": "/journals/the-one-name-on-the-deed/projects/Brigade-Gardenia.webp"
+        },
+        {
+          "title": "The Older JP Nagar Finalist",
+          "name": "Older JP Nagar Community",
+          "price": "Better value per sqft",
+          "possession": "Ready",
+          "psf": "Mature security culture",
+          "location": "JP Nagar belt",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "Moon",
+          "title": "Failed the 11 pm Audit",
+          "count": "2 glossy communities"
+        },
+        {
+          "icon": "Eye",
+          "title": "Empty 'Women-Preferred' Marketing",
+          "count": "1 detour parked"
+        },
+        {
+          "icon": "RotateCcw",
+          "title": "The Terrace Lost the FOR Test",
+          "count": "1 charming heartbreak"
+        },
+        {
+          "icon": "FileX",
+          "title": "'Co-Applicant Sir' Offices",
+          "count": "2 noted, competitors visited"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying a developer-held ready 2BHK at Prestige Song of the South for ₹1.8 Cr delivered an OC-issued completed phase she could audit like a resident, a security culture that passed the 11 pm test, and a deed carrying one name — hers. The beige east-facing unit won the FOR test; the sixty-plant protest garden is a bonus.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for solo women buyers — the unwritten community checklist, time-of-day diligence, and the legal paperwork that converts future anxieties into filed paper.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The 11 pm Audit"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "One Name on the Deed"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Trusting 'Women-Preferred' Tags"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "Completed-Phase Auditability"
+        }
+      ],
+      "lessonsTitle": "Lessons she learned",
+      "lessons": [
+        {
+          "title": "The unwritten checklist matters more than the portal's.",
+          "description": "Security culture, single-women owner density, guest-logging norms — none of it exists online. She built it by visiting at 11 pm and 6 am and asking women residents directly. Two glossy projects failed it.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-written community-culture checklist beside an 11 pm security desk, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Completed-phase stock gives you the audit a launch never could.",
+          "description": "Sitting in the lobby for an hour and watching the building be itself is worth more than a launch discount — the ability to verify actual life before committing is the solo buyer's edge.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a woman sitting in a completed-phase lobby watching residents pass, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Solo-loan sanction: note who asks for 'co-applicant sir'.",
+          "description": "Banks processed her application smoothly, but two sales offices still asked about a male co-applicant. She noted which, and their competitors got her business — institutions learn from revenue.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a bank application form with a crossed-out co-applicant field, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The 'what is each flat FOR' test reconciles resale and joy.",
+          "description": "The terrace was for an imagined life; the beige east-facing flat funds the actual one, including the dog-to-be. Writing the answer down ended the loop in one evening.",
+          "imageSrc": "/journals/the-one-name-on-the-deed/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a notebook page asking 'what is each flat FOR?' with two columns, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Renting is fine — the landlord's 15% hike is just the city's way"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A glossy brochure and a polite sales tour reveal a community"
+        },
+        {
+          "icon": "Building2",
+          "text": "The safest resale flat is automatically the right home"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "A solo purchase means a lonelier, riskier decision"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "KeyRound",
+          "text": "Ownership is a settlement with the city — one name, one deed, one door"
+        },
+        {
+          "icon": "Moon",
+          "text": "An 11 pm logbook reveals more than any 11 am sales tour"
+        },
+        {
+          "icon": "Flower2",
+          "text": "Ask what each flat is FOR, then buy the one that funds the actual life"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "Nomination, will, and guardianship convert anxiety into filed paper"
+        }
+      ],
+      "differentlyTitle": "What she'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "Moon",
+          "title": "Start the 11 pm audits earlier",
+          "description": "Two glossy communities ate a month of shortlisting — the time-of-day test should have been gate one, not gate three."
+        },
+        {
+          "icon": "KeyRound",
+          "title": "Talk to the lawyer before shortlisting",
+          "description": "Nomination and will questions would have shaped the unit choice itself — thirty lawyer-minutes could have been spent earlier."
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "File every broker chat, from day one",
+          "description": "The 'father on video call' screenshot radicalised her in month one; earlier filing would have flagged the pattern sooner."
+        },
+        {
+          "icon": "FileX",
+          "title": "Ask the 'co-applicant' question up front",
+          "description": "Adding one question to the first call — 'do you require a co-applicant for solo women buyers?' — would have cut two office visits."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Divya",
+          "avatar": "/journals/the-one-name-on-the-deed/divya.png",
+          "text": "One name on the deed, a Yellow Line walk, and a balcony that now has sixty pots. I think I finally stopped being a tenant of Bengaluru."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You stopped being a tenant the week you filed that broker chat. The deed just caught up with the decision.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for solo women buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Divya filing the broker chat, auditing a security desk at 11 pm, writing the FOR test, and signing the Song of the South deed with one signature, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For solo women buyers, the edge is not in the price sheet — it's in the community-culture audit no portal lists, the completed-phase stock you can verify like a resident, and the legal paperwork (nomination, will, guardianship) filed early. Divya proved that one name on the deed is a settlement with the city — and that the 'what is each flat FOR' test reconciles the resale spreadsheet with the life actually being lived.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "The second checklist is unwritten anywhere online — she built it herself",
+          "body": "Security culture, single-women owner density, guest-logging norms — she built the checklist by visiting communities at odd hours and asking women residents directly. Two glossy projects failed it.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "Completed-phase builder stock gave her the audit a launch never could",
+          "body": "With OC issued and community culture already visible, she sat in the lobby for an hour and watched the building be itself — the audit that no pre-launch render can offer.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Banks process solo-woman applications smoothly — two sales offices didn't",
+          "body": "She noted which offices asked about 'co-applicant sir' and bought their competitor's attention instead. Institutions learn from revenue.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The terrace lost to the beige unit — but only after the FOR test",
+          "body": "Writing down what each flat was FOR revealed the terrace belonged to an imagined life while the beige east-facing one funds the actual one, including the dog. The loop closed in one evening.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Thirty lawyer-minutes converted three future anxieties into filed paper",
+          "body": "Nomination, a will draft, and joint-holding decisions postponed-but-documented — the legal essentials that let one name on the deed stay exactly that.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "One name, one income, your deed?",
+      "description": "If you're like Divya — buying alone, by choice, done waiting for life's milestones to authorise it — let Riya build your solo-buyer roadmap: community audits, solo-EMI math, and the law for one name on the deed.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your solo income, the corridor you want, and the non-negotiables — deed in your name, pet-possible, security culture intact.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the community-culture audit, checks solo-loan sanction terms, and runs the EMI at 25–28% of take-home with full tax benefits.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Solo Signature journal — 11 pm audit checklist, FOR-test template, and legal essentials for single owners — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified ready-with-OC 2BHK options in 200+ unit communities, with each project's culture audit attached.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in her search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Community-Culture Audit",
+          "description": "Security-desk and RWA-temperament field reviews at the hours that reveal the truth.",
+          "icon": "Moon"
+        },
+        {
+          "id": 2,
+          "title": "Solo-EMI Financial Framework",
+          "description": "EMI at 25–28% of take-home, full 80C/24(b) benefits, and what stays liquid for travel and the dog fund.",
+          "icon": "IndianRupee"
+        },
+        {
+          "id": 3,
+          "title": "Legal Essentials for Single Owners",
+          "description": "Nomination, will, guardianship, and joint-holding decisions — what to set up now versus later.",
+          "icon": "FileCheck2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You're buying alone, by choice, and you're done waiting for life milestones to authorize it.",
+        "Landlord-market indignities radicalized you into ownership.",
+        "You audit security desks at 11 pm and RWA temperaments before price sheets.",
+        "Resale-liquidity logic and personal-joy logic are at war in your shortlist, and you know which one society keeps voting for.",
+        "Your parents are proud, confused, and slightly scandalized in rotating order.",
+        "You've told almost no one your budget, because the commentary is a tax you decline to pay."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-broker-radicalisation",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Broker Chat That Radicalised Her",
+      "desc": "A broker asks her to bring her father on a video call to 'assure the owner.' Screenshotted and filed — her name, her deed, her door, decided that week.",
+      "icon": "MessageSquare",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-security-audits",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The 11 pm Audits",
+      "desc": "Security-desk audits invented: 11 pm logbook checks and 6 am lobby sittings — two glossy communities fail the unwritten checklist.",
+      "icon": "Moon",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l3-women-preferred-detour",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "L3 DETOUR: 'Women-Preferred' Marketing",
+      "desc": "A 'women-preferred community' pitch that means nothing operationally once you open the logbook; parked with an eye-roll.",
+      "icon": "Eye",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-two-finalists",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Two Finalists",
+      "desc": "Prestige Song of the South (Begur Rd, ready, 2BHK ₹1.8 Cr) vs an older JP Nagar community at better value — floor plans labelled by hand.",
+      "icon": "MapPin",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-joy-vs-resale-loop",
+      "stage": "S4",
+      "type": "loop",
+      "title": "L5: The Joy-vs-Resale Loop",
+      "desc": "The beige east-facing unit vs the charming terrace unit — she writes what each is FOR, and the loop resolves itself.",
+      "icon": "RotateCcw",
+      "loopText": "2-Week 'What Is Each Flat FOR' Loop",
+      "x": 880,
+      "y": 320,
+      "width": 190
+    },
+    {
+      "id": "l6-song-of-the-south-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: Song of the South Close",
+      "desc": "2BHK closed on her own signature; nomination + will drafted in thirty lawyer-minutes; sixty potted plants of protest deployed on the winning balcony.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 120,
+      "width": 190
+    }
+  ]
+}

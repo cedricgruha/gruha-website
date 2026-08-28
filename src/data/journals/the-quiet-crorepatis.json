@@ -1,0 +1,1001 @@
+{
+  "article": {
+    "tags": [
+      "INVESTORS & WEALTH",
+      "SOUTH BENGALURU",
+      "RETIREMENT"
+    ],
+    "title": "The Safe Harbour Journal",
+    "description": "Suresh & Veena Kulkarni's ₹1.69 Cr home purchase journey in JP Nagar 7th Phase — converting ₹2.7 Cr paper savings into sleep-tested brick assets.",
+    "quote": "\"We didn't save for thirty years to gamble now.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    },
+    "learnings": [
+      {
+        "icon": "FileCheck",
+        "text": "Photocopied OC number is non-negotiable before an offer"
+      },
+      {
+        "icon": "ShieldCheck",
+        "text": "RWA sinking fund health reveals building truth"
+      },
+      {
+        "icon": "Moon",
+        "text": "Price the sleep — zero-EMI peace beats peak yield"
+      }
+    ],
+    "heroImage": "/journals/cover/1.jpg",
+    "heroTitle": "The Safe Harbour Journal"
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Suresh (58, retired Canara Bank DGM) & Veena Kulkarni (54, former tailoring unit owner) -- deploying ₹1.69 Cr liquid savings into a ready 3BHK in Brigade Gardenia JP Nagar.",
+      "buyers": [
+        {
+          "name": "Suresh Kulkarni",
+          "age": 58,
+          "role": "Retired DGM (Canara Bank)",
+          "description": "Risk-averse, document-obsessed retired bank DGM. Spent 34 years evaluating loan defaults; values photocopied OCs and 30-year title chains over developer promises.",
+          "tags": [
+            "Conservative",
+            "Document-Driven",
+            "Zero-EMI"
+          ],
+          "image": "/journals/the-quiet-crorepatis/suresh.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 58-year-old South Indian male retired bank manager named Suresh wearing spectacles and a neat cotton shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Veena Kulkarni",
+          "age": 54,
+          "role": "Former Tailoring Unit Owner",
+          "description": "Intuitive, community-connected homemaker in Rajajinagar. Ensures every shortlisted property is visible from an auto and sits in an established neighborhood.",
+          "tags": [
+            "Practical",
+            "Community-Focused",
+            "Grounded"
+          ],
+          "image": "/journals/the-quiet-crorepatis/veena.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 54-year-old South Indian woman named Veena wearing a simple elegant saree, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, friendly smiling expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Convert paper FD savings into a ready, OC-issued brick asset in an established South Bengaluru community — protecting capital, securing 3% yield, and preserving peace of mind.",
+      "sharedVisionImage": "/journals/the-quiet-crorepatis/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of an older South Indian couple sitting on a park bench in Jayanagar looking across at a sturdy residential building, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the building entrance door, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Retired Couple"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Retirement"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "Brigade Gardenia — Closed"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "6-9 Months"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-quiet-crorepatis/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an official Occupancy Certificate (OC) document stamped with a verified seal, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the OC seal, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "OC in Hand & Photocopied Rule",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "Rule #42: 'OC is a number I have photocopied. Not a sentence I have been told.'"
+        },
+        {
+          "image": "/journals/the-quiet-crorepatis/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a 30-year property title deed flow chart, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the verified title stamp, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "30-Year Clean Title & A-Khata",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "Flawless legal title chain without encumbrances or co-nominee gaps."
+        },
+        {
+          "image": "/journals/the-quiet-crorepatis/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of an RWA society ledger notebook showing sinking fund balances, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the sinking fund total, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Functioning RWA & Sinking Fund",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "Audited RWA accounts ensuring no pending roof levies or maintenance deficits."
+        },
+        {
+          "image": "/journals/the-quiet-crorepatis/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of an auto-rickshaw parked outside an established apartment complex gate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the gate lamp glow, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Visible from an Auto & Close By",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "Veena's non-negotiable: accessible in South Bengaluru within 15 minutes of home."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From 6.4% FD renewals and the 41-question ledger to walking away twice and closing Brigade Gardenia in 32 days.",
+      "journeyFrameTitle": "WALKED AWAY TWICE",
+      "roadmapTitle": "How quiet savers closed Brigade Gardenia in 32 days",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Brigade Gardenia — Closed"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹1.69 Cr (All-Cash)"
+        },
+        {
+          "icon": "Calendar",
+          "label": "RESERVE KEPT",
+          "value": "₹1 Cr Emergency Fund"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "SLEEP TEST",
+          "value": "Zero EMI • Sleep Intact"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-fd-renewal",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: FD Renewal at 6.4%",
+          "desc": "FD renewal at 6.4%; the son's forwards; the ledger's 41 questions.",
+          "icon": "Landmark",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-jayanagar-showflat",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: Jayanagar Showflat Shock",
+          "desc": "Jayanagar showflat shock: ₹15–21K/sqft; the corpus recalibrates in a weekend.",
+          "icon": "MapPin",
+          "x": 320,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l3-falcon-luxe-detour",
+          "stage": "S2",
+          "type": "detour",
+          "title": "L3 DETOUR: Falcon City Luxe",
+          "desc": "Newspaper jacket ad: Prestige Falcon City Luxe pre-launch — showflat glamour, EOI taken home twice, returned unsigned.",
+          "icon": "AlertTriangle",
+          "x": 520,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l4-photocopy-oc-rule",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L4: The Photocopied-OC Rule",
+          "desc": "The Sarakki 'ready' tower without an OC number; the photocopied-OC rule is born.",
+          "icon": "FileCheck",
+          "x": 700,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l5-jayanagar-boutique",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L5: Jayanagar 24-Unit Boutique",
+          "desc": "Jayanagar 24-unit boutique romance; accounts requested 'to be fair to the building'.",
+          "icon": "Building2",
+          "x": 880,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l6-walkaway-1",
+          "stage": "S4",
+          "type": "regression",
+          "targetNodeId": "l2-jayanagar-showflat",
+          "title": "L6 REGRESSION: Walk-Away #1",
+          "desc": "No sinking fund, past roof levy; three weeks of grief-browsing Banashankari.",
+          "icon": "RotateCcw",
+          "x": 180,
+          "y": 340,
+          "width": 180
+        },
+        {
+          "id": "l7-sleep-test-loop",
+          "stage": "S4",
+          "type": "loop",
+          "title": "L7 Loop: Price the Sleep",
+          "desc": "Stuck; the Riya reframe 'price the sleep'; the decision takes 11 days from that sentence.",
+          "icon": "ShieldAlert",
+          "x": 480,
+          "y": 580,
+          "width": 180
+        },
+        {
+          "id": "l8-walkaway-2-bounce",
+          "stage": "S5",
+          "type": "bounce",
+          "targetNodeId": "l5-jayanagar-boutique",
+          "title": "L8 BOUNCE: Walk-Away #2",
+          "desc": "The twice-moving 'final price'; brokers note it; next talks start 8% lower.",
+          "icon": "Undo2",
+          "x": 680,
+          "y": 420,
+          "width": 190
+        },
+        {
+          "id": "l9-gardenia-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L9: Brigade Gardenia Close",
+          "desc": "Brigade Gardenia original-allottee 3BHK; a 10-day co-nominee wobble; ₹1.69 Cr, 32-day close.",
+          "icon": "CheckCircle2",
+          "x": 160,
+          "y": 560,
+          "width": 180
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "exploring",
+          "label": "Exploring",
+          "icon": "Feather"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "post-booking",
+          "label": "Post-booking",
+          "icon": "CalendarPlus"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "Banknote",
+          "active": true,
+          "tag": "Completed"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "ledger-moment",
+          "title": "The ledger's first 41 questions",
+          "desc": "Suresh opening his fresh ledger notebook beside the 6.4% FD renewal letter.",
+          "imageSrc": "/journals/the-quiet-crorepatis/moment-1.png",
+          "imagegenerationprompt": "A handwritten ledger notebook opened to question 1 beside a bank FD renewal letter, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 pen highlight accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "oc-photocopy-moment",
+          "title": "The photocopied OC rule #42",
+          "desc": "Writing rule #42 into the ledger after a broker offered promises instead of an OC number.",
+          "imageSrc": "/journals/the-quiet-crorepatis/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a photocopied Occupancy Certificate pinned above a sales brochure, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 stamp accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "roof-levy-moment",
+          "title": "The ₹6L unrecorded roof levy",
+          "desc": "Society AGM accounts showing a red-underlined ₹6L roof levy that killed the boutique deal.",
+          "imageSrc": "/journals/the-quiet-crorepatis/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of handwritten RWA society accounts with a red underlined entry, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 line accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "sleep-intact-moment",
+          "title": "Closing entry: Asset transferred to brick",
+          "desc": "The final entry in Suresh's ledger: 'Asset transferred from paper to brick. Sleep intact.'",
+          "imageSrc": "/journals/the-quiet-crorepatis/moment-4.png",
+          "imagegenerationprompt": "A closed leather ledger notebook with a steel filter-coffee tumbler, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 bookmark ribbon accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "We didn't save for thirty years to gamble now.",
+          "author": "— Suresh"
+        },
+        {
+          "text": "Whatever we buy, I should be able to see it from an auto.",
+          "author": "— Veena"
+        },
+        {
+          "text": "OC is a number I have photocopied. Not a sentence I have been told.",
+          "author": "— Suresh (Rule #42)"
+        },
+        {
+          "text": "Strict is how you sleep, sir.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Suresh",
+          "avatar": "/journals/the-quiet-crorepatis/suresh.png",
+          "text": "Riya, the sales boy says families are moving in and OC will come any day. Thirty-four years in banking taught me 'any day' means no."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "You are right, Suresh sir. Rule #42: No photocopied OC number, no offer. Strict is how you sleep.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "FileCheck2",
+          "title": "OC Number Verification",
+          "description": "Ready-to-move means nothing without a verified, photocopied OC number."
+        },
+        {
+          "icon": "ShieldAlert",
+          "title": "RWA Sinking Fund Health",
+          "description": "Unrecorded society repair levies signal poor long-term building health."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Ready Stock Negotiation",
+          "description": "Builder-held inventory negotiates 4-6% lower at quarter-end."
+        },
+        {
+          "icon": "Moon",
+          "title": "Sleep Test vs Peak Yield",
+          "description": "Capital protection and 3% safe yield outperform speculative high-yield bets."
+        },
+        {
+          "icon": "Heart",
+          "title": "Emergency Corpus Reserve",
+          "description": "Keeping ₹1 Cr untouchable in liquid FDs preserves retirement security."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-quiet-crorepatis.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating established South Bengaluru residential communities across JP Nagar, Jayanagar, and Banashankari.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Capital Protection"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "JP Nagar • Jayanagar"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED HOMES",
+          "value": "Unapproved & Pre-Launch"
+        },
+        {
+          "icon": "FileCheck2",
+          "label": "SELECTED ASSET",
+          "value": "Brigade Gardenia 3BHK"
+        }
+      ],
+      "exploredAreasTitle": "Areas they explored",
+      "exploredAreas": [
+        {
+          "title": "JP Nagar 7th Phase (Chosen)",
+          "description": "Established South Bengaluru residential belt; Brigade Gardenia listings average ~₹11,785/sqft, with Brigade Millennium and Elita Promenade as shortlist benchmarks.",
+          "projects": 4,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.891558,
+            "lng": 77.581452
+          },
+          "imageSrc": "/journals/the-quiet-crorepatis/jp-nagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of JP Nagar 7th Phase residential complexes with leafy avenues, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Jayanagar 4th Block",
+          "description": "Premium heritage residential hub explored for a 24-unit boutique apartment; the segment trades around ₹15–21K/sqft.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.927204,
+            "lng": 77.583484
+          },
+          "imageSrc": "/journals/the-quiet-crorepatis/jayanagar.png",
+          "imagegenerationprompt": "A modern architectural vector view of Jayanagar 4th Block avenues and boutique apartments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Konanakunte Cross",
+          "description": "Control-visit corridor for Prestige Falcon City; the Luxe phase became the print-ad detour.",
+          "projects": 2,
+          "siteVisits": 1,
+          "latlong": {
+            "lat": 12.884,
+            "lng": 77.563
+          },
+          "imageSrc": "/journals/the-quiet-crorepatis/konanakunte-cross.png",
+          "imagegenerationprompt": "A modern architectural vector view of Konanakunte Cross with Prestige Falcon City residential towers and surrounding Bengaluru streets, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Konanakunte Cross • Sarakki • Rajajinagar",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "FD YIELD GUILT",
+          "value": "6.4% FD Trap",
+          "description": "Guilt of doing nothing with ₹2.7 Cr paper savings arriving with every renewal notice.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "title": "PRE-LAUNCH RISK",
+          "value": "Zero EMI Mandate",
+          "description": "Refusing to sign EMIs or risk capital on under-construction promises without OCs.",
+          "icon": "ShieldAlert"
+        },
+        {
+          "title": "PRICE THEATRE",
+          "value": "Moving Final Prices",
+          "description": "Brokers moving \"final price\" twice at token table; brochure hype over document facts.",
+          "icon": "TrendingDown"
+        },
+        {
+          "title": "RWA LEVY TRAPS",
+          "value": "Unrecorded Deficits",
+          "description": "Unrecorded RWA repair levies and sinking fund deficits in boutique developments.",
+          "icon": "FileX"
+        }
+      ],
+      "filtersFooterLabel": "Suresh was filtering for capital protection, verified documentation, and sleep quality.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Suresh sir didn't look at infinity pools or Italian marble. He looked at photocopied OCs, 30-year title deeds, and RWA sinking fund ledgers. When we added the 'Sleep Test' row to his comparison table, the right decision became instantly clear.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing photocopied OC numbers and RWA sinking fund ledgers on a tablet, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating ready-to-move builder stock and established residential communities in South Bengaluru.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Safe Harbour"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "Brigade Gardenia 3BHK"
+        },
+        {
+          "icon": "ArrowLeftRight",
+          "label": "REJECTED DETOUR",
+          "value": "Prestige Falcon City Luxe"
+        },
+        {
+          "icon": "FileCheck",
+          "label": "TRANSACTION",
+          "value": "₹1.69 Cr • 32-Day Close"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "ShieldCheck",
+          "title": "OC Number in Hand",
+          "subtitle": "photocopy verified"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "RWA Sinking Fund",
+          "subtitle": "zero unrecorded levies"
+        },
+        {
+          "icon": "Moon",
+          "title": "The Sleep Test",
+          "subtitle": "zero EMI • capital safety"
+        },
+        {
+          "icon": "Building2",
+          "title": "Established Township",
+          "subtitle": "Brigade Gardenia track"
+        },
+        {
+          "icon": "Heart",
+          "title": "Auto Proximity",
+          "subtitle": "15 mins from Rajajinagar"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Suresh",
+          "avatar": "/journals/the-quiet-crorepatis/suresh.png",
+          "text": "Walking away twice taught the brokers I don't compromise on paper. Brigade Gardenia gave us the OC, the RWA health, and the price we wanted."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "A masterclass in patience, Suresh sir. Paper savings successfully converted into brick."
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-quiet-crorepatis/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of South Bengaluru highlighting JP Nagar 7th Phase and Jayanagar in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "4 core options",
+      "projects": [
+        {
+          "title": "Brigade Gardenia",
+          "name": "Brigade Gardenia",
+          "price": "Not stated",
+          "possession": "Possession ~2017",
+          "psf": "₹11,785/sqft (listings avg)",
+          "location": "JP Nagar 7th Phase",
+          "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Gardenia.webp"
+        },
+        {
+          "title": "Prestige Falcon City + Luxe Phase",
+          "name": "Prestige Falcon City",
+          "price": "2BHK from ~₹1.4 Cr",
+          "possession": "Ready township; Luxe = launch-stage, later possession",
+          "psf": "Not stated",
+          "location": "Konanakunte Cross",
+          "imageSrc": "/journals/the-quiet-crorepatis/projects/Prestige-Falcon-City.webp"
+        },
+        {
+          "title": "Brigade Millennium · Elita Promenade",
+          "name": "Brigade Millennium",
+          "price": "Not stated",
+          "possession": "Not stated",
+          "psf": "Locality avg ~₹12,250/sqft",
+          "location": "JP Nagar 7th Phase",
+          "imageSrc": "/journals/the-quiet-crorepatis/projects/Brigade-Millennium.jpg"
+        },
+        {
+          "title": "Jayanagar 4th Block Boutique",
+          "name": "Jayanagar 4th Block boutique (24 units)",
+          "price": "Not stated",
+          "possession": "Walk-away #1",
+          "psf": "₹15,000–21,000/sqft",
+          "location": "Jayanagar",
+          "details": "24-unit boutique layout; unnamed by policy",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some projects didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ShieldAlert",
+          "title": "Unrecorded Society Roof Levy",
+          "count": "1 boutique walk-away"
+        },
+        {
+          "icon": "Clock",
+          "title": "Pre-Launch Delivery Risk",
+          "count": "1 newspaper jacket ad detour"
+        },
+        {
+          "icon": "FileCheck",
+          "title": "Missing OC Certificate",
+          "count": "1 Sarakki ready tower"
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Seller Price Theatre",
+          "count": "1 resale walk-away"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Deploying ₹1.69 Cr into an original-allottee 3BHK at Brigade Gardenia with verified OC and clean RWA accounts delivered capital protection, 3% safe yield, and complete peace of mind.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for conservative, capital-protection-first home buyers.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "OC is a Photocopied Number"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Zero-EMI Capital Protection"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Chasing Pre-Launch Discounts"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "RWA Sinking Fund Audit"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "OC in hand means photocopied number, not promises.",
+          "description": "'Ready-to-move' brochures mean nothing. Demand the photocopied Occupancy Certificate number before opening negotiations.",
+          "imageSrc": "/journals/the-quiet-crorepatis/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of an Occupancy Certificate document with a verified stamp, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "RWA sinking funds reveal building health.",
+          "description": "Auditing society AGM minutes and sinking fund ledgers prevents unrecorded repair levies after purchase.",
+          "imageSrc": "/journals/the-quiet-crorepatis/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of society RWA audit ledgers, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Price the sleep -- safety over peak yield.",
+          "description": "Accepting 3% safe yield in an established community beats chasing 12% uncertain returns in unverified pre-launches.",
+          "imageSrc": "/journals/the-quiet-crorepatis/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a balance scale weighing sleep peace against yield charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Walking away is your strongest negotiation tool.",
+          "description": "Walking away twice from price theatre taught brokers Suresh was serious; the final deal started 8% lower.",
+          "imageSrc": "/journals/the-quiet-crorepatis/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a price comparison chart showing initial vs walk-away final price, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "Sales executive word that OC is 'applied' is sufficient"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "Pre-launch discounts offer free value without delivery risk"
+        },
+        {
+          "icon": "Building2",
+          "text": "Pretty lobbies guarantee good building maintenance"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "Higher yield in distant corridors is worth the hassle"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "ShieldCheck",
+          "text": "Photocopied OC number required before making any offer"
+        },
+        {
+          "icon": "Zap",
+          "text": "Launch discount is compensation for construction risk"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "RWA sinking fund health reveals real building condition"
+        },
+        {
+          "icon": "Moon",
+          "text": "Price the sleep -- capital protection beats distant yield"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Demand photocopied OC on Visit 1",
+          "description": "Filtering out projects without hard OC documents saves weeks of unhelpful site visits."
+        },
+        {
+          "icon": "FileText",
+          "title": "Audit RWA accounts before offers",
+          "description": "Checking society sinking fund balances early prevents discovering unrecorded levies later."
+        },
+        {
+          "icon": "Moon",
+          "title": "Ignore pre-launch newspaper ads",
+          "description": "Skipping glamorous pre-launch jacket ads keeps focus strictly on ready-to-move inventory."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Walk away at first price theatre",
+          "description": "Exiting negotiations when sellers move final prices establishes immediate bargaining leverage."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Suresh",
+          "avatar": "/journals/the-quiet-crorepatis/suresh.png",
+          "text": "Thirty-four years of banking taught me to protect capital. Brigade Gardenia gives us zero-EMI peace and complete sleep."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "A perfect outcome, Suresh sir. Paper savings safely anchored in brick."
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for conservative buyers",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Suresh opening ledger, auditing OC number, walking away from price theatre, and signing Brigade Gardenia deed, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For conservative buyers seeking capital protection over speculative growth, success comes from demanding photocopied OCs, auditing RWA accounts, and walking away from price theatre. Suresh & Veena proved that when safety leads, peace of mind follows.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "\"Ready-to-move\" and \"OC received\" are not the same sentence",
+          "body": "Suresh learned to demand the occupancy certificate's number, not its existence, before opening price negotiations.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Builder-held inventory negotiates differently from launch stock",
+          "body": "Quarter-end and financial-year-end conversations produced ₹40–60L swings on identical completed units.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "RWA sinking fund health is the real structural report",
+          "body": "Auditing society AGM minutes revealed unrecorded repair levies, saving ₹6L in unbudgeted maintenance.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 7",
+          "headline": "Stopped comparing today's price to 2019 reference points",
+          "body": "Accepted current South Bengaluru market pricing — the market does not owe anyone historical reference points.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 8",
+          "headline": "Walking away twice established real negotiation power",
+          "body": "Exiting negotiations when sellers moved final prices taught brokers Suresh was serious; the third deal started 8% lower.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "Your name on the deed, the quiet way?",
+      "description": "If you're deploying fixed savings into ready real estate without loans, like Suresh and Veena, let Riya build your safe-harbour roadmap — your name on the deed, the quiet way.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share your liquid savings corpus, preferred South Bengaluru localities, and zero-loan requirement.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya verifies photocopied OC numbers, A-khata status, and RWA sinking fund ledgers.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Safe Harbour journal and Rule #42 OC audit checklist are generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive verified ready-to-move 2BHK and compact 3BHK options matching your corpus.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "Photocopied OC Audit",
+          "description": "Verify hard OC certificates before initiating price negotiations.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 2,
+          "title": "RWA Sinking Fund Health Check",
+          "description": "Inspect society AGM minutes to avoid unrecorded repair levies.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": 3,
+          "title": "Zero-EMI Capital Protection",
+          "description": "Anchor liquid savings into ready brick assets while preserving reserve funds.",
+          "icon": "Building2"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "You have meaningful savings earning FD rates, and the guilt of \"doing nothing\" with them has started arriving with every renewal notice.",
+        "Capital protection matters more to you than capital growth — you would take 3% safe over 12% uncertain without blinking.",
+        "You will not sign an EMI. Ever. The conversation ends there.",
+        "You only trust what you can physically visit, and you want the asset within your daily geography.",
+        "Documents calm you down; brochures make you suspicious.",
+        "A 7-year-old building with a good RWA feels safer to you than a brand-new tower with a ribbon on it."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "s1-fd-audit",
+      "stage": "S1",
+      "type": "stage",
+      "title": "S1: FD Renewal Guilt",
+      "desc": "6 weeks auditing ₹2.7 Cr paper savings earning 6.4% FD; capital protection mandate.",
+      "icon": "Landmark",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s2-corridor-triage",
+      "stage": "S2",
+      "type": "stage",
+      "title": "S2: Corridor Triage",
+      "desc": "3 weeks shortlisting JP Nagar vs Banashankari; 7-year-old RWA building focus.",
+      "icon": "MapPin",
+      "x": 320,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "detour-luxe-ad",
+      "stage": "DETOUR",
+      "type": "detour",
+      "title": "DETOUR: Print-Ad Luxe",
+      "desc": "2.5 weeks chasing shiny luxury tower brochure outside budget; zero OC in hand.",
+      "icon": "AlertTriangle",
+      "x": 540,
+      "y": 220,
+      "width": 180
+    },
+    {
+      "id": "s3-oc-photocopy-audit",
+      "stage": "S3",
+      "type": "stage",
+      "title": "S3: OC Photocopy Audit",
+      "desc": "5 weeks evaluating 7-year-old ready buildings; photocopy OC rule strictly enforced.",
+      "icon": "FileCheck",
+      "x": 760,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "s4-walkaway-stall",
+      "stage": "S4",
+      "type": "loop",
+      "title": "S4: Walk-Away Stall",
+      "desc": "3 weeks grief disguised as re-exploring Banashankari after seller price hike.",
+      "icon": "RotateCcw",
+      "loopText": "3-Week Stall Loop",
+      "x": 880,
+      "y": 320,
+      "width": 180
+    },
+    {
+      "id": "s5-seller-theatre-bounce",
+      "stage": "S5",
+      "type": "bounce",
+      "targetNodeId": "s3-oc-photocopy-audit",
+      "title": "S5 BOUNCE: Price Theatre",
+      "desc": "1 week bounce: seller tried adding ₹12L at token table; Suresh walked out.",
+      "icon": "Undo2",
+      "loopText": "S5 → S3 Bounce (Walk-Away #2)",
+      "x": 620,
+      "y": 420,
+      "width": 190
+    },
+    {
+      "id": "s5-nominee-wobble",
+      "stage": "S5",
+      "type": "stage",
+      "title": "S5: Co-Nominee Wobble",
+      "desc": "10-day seller paper wobble held by all-cash proof-of-funds leverage.",
+      "icon": "ShieldAlert",
+      "x": 360,
+      "y": 420,
+      "width": 180
+    },
+    {
+      "id": "s7-brigade-gardenia-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "S7: Brigade Gardenia Close",
+      "desc": "32-day all-cash close at ₹1.69 Cr. Zero-EMI sleep-tested peace achieved.",
+      "icon": "CheckCircle2",
+      "x": 120,
+      "y": 420,
+      "width": 180
+    }
+  ]
+}

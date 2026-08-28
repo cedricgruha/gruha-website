@@ -1,0 +1,946 @@
+{
+  "article": {
+    "tags": [
+      "FAMILIES",
+      "VILLA UPGRADERS",
+      "SARJAPUR–GUNJUR–VARTHUR"
+    ],
+    "title": "The Second Front Door Journal",
+    "description": "Prashanth (42, distinguished engineer) & Deepa Reddy's (40, recruitment partner) upgrade from a 2014 Whitefield flat to a villa — carrying-cost ledgers written before brochures, a 6% retrade survived on a bank-valuation certificate, and a mango-viable garden spec'd like plumbing.",
+    "quote": "\"The flat was the launchpad. This is the landing.\"",
+    "readTime": "15 min read",
+    "updatedOn": "Updated on July 2026",
+    "learnings": [
+      {
+        "icon": "ClipboardList",
+        "text": "Write the carrying-cost ledger before the brochure"
+      },
+      {
+        "icon": "FileCheck2",
+        "text": "Retrading at agreement is a strategy, not a correction"
+      },
+      {
+        "icon": "TreeDeciduous",
+        "text": "The mango tree was spec’d like plumbing"
+      }
+    ],
+    "heroImage": "/journals/cover/23.png",
+    "heroTitle": "The Second Front Door Journal",
+    "datePublished": "2026-03-14",
+    "dateModified": "2026-07-08",
+    "author": {
+      "@type": "Person",
+      "name": "Riya",
+      "description": "AI home-search advisor at Gruha.ai"
+    }
+  },
+  "tabs": [
+    {
+      "id": "profile",
+      "name": "Profile",
+      "label": "Profile",
+      "bgColorHex": "#FCEAE2",
+      "inactiveBgHex": "rgba(252, 234, 226, 0.45)",
+      "textColor": "text-[#111827] font-bold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "aboutLabel": "ABOUT",
+      "title": "Who they are",
+      "description": "Getting to know Prashanth (42, distinguished engineer at a chip-design firm) & Deepa Reddy (40, partner at a recruitment consultancy) — kids 11 and 7, Deepa's mother visiting half the year, selling the 2014 Whitefield flat and hunting the Bengaluru second act: a villa on the Sarjapur–Gunjur–Varthur arc.",
+      "buyers": [
+        {
+          "name": "Prashanth Reddy",
+          "age": 42,
+          "role": "Distinguished Engineer, Chip-Design Firm",
+          "description": "The home-lab of synthesizers and soldering irons in cartons is his vote for the villa. Runs the carrying-cost ledger and the Section 54 choreography — and keeps the sentimental requirement (the mango tree) spec'd like plumbing.",
+          "tags": [
+            "Ledger-Disciplined",
+            "Synthesizer Refugee",
+            "Mango-Tree Specifier"
+          ],
+          "image": "/journals/the-second-front-door/prashanth.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 42-year-old South Indian man named Prashanth wearing a smart casual shirt, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, calm capable expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        },
+        {
+          "name": "Deepa Reddy",
+          "age": 40,
+          "role": "Partner, Recruitment Consultancy",
+          "description": "The one who wrote the verbs — garden, host, build, spread out — above the budget. Runs the friend-couple questionnaires and holds the family's social-audit instinct: density of actual life, not count of villas.",
+          "tags": [
+            "Verb-Writer",
+            "Social Auditor",
+            "Questionnaire Runner"
+          ],
+          "image": "/journals/the-second-front-door/deepa.png",
+          "imagegenerationprompt": "A stylized vector graphic portrait illustration of a 40-year-old South Indian woman named Deepa wearing smart business attire, digital vector art style with fine dark outlines, posterized cel-shading, warm natural skin tones, warm perceptive expression, clean solid warm beige background (#F4EBE1), high quality character art."
+        }
+      ],
+      "sharedVisionTitle": "Shared vision",
+      "sharedVisionDescription": "Turn the launchpad into the landing — a NE-facing villa on 2,400+ sqft in an 80–200 unit community on the Sarjapur–Gunjur–Varthur arc, where the verbs (garden, host, build, spread out) have room, the mango tree is feasible, and Deepa's mother's six-month residencies get real architecture.",
+      "sharedVisionImage": "/journals/the-second-front-door/shared-vision.png",
+      "imagegenerationprompt": "An architectural vector illustration of a family at the gate of a modern villa at dusk — kids chasing a dog across a small lawn, a grandmother on the veranda with evening tea, a young mango sapling staked in the garden's corner, warm lamplight from wide windows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the mango sapling, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+      "stats": [
+        {
+          "icon": "Briefcase",
+          "label": "BUYER PROFILE",
+          "value": "Villa Upgraders"
+        },
+        {
+          "icon": "Heart",
+          "label": "LIFE STAGE",
+          "value": "Second Act, Two Kids + Grandmom"
+        },
+        {
+          "icon": "TrendingUp",
+          "label": "SEARCH STAGE",
+          "value": "PLH Villa Closed"
+        },
+        {
+          "icon": "Hourglass",
+          "label": "TIMELINE",
+          "value": "12–18 Months"
+        }
+      ],
+      "prioritiesTitle": "Top priorities right now",
+      "priorities": [
+        {
+          "image": "/journals/the-second-front-door/priority-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a community RWA notice board with a functioning scale badge, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the badge, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Functioning RWA Scale",
+          "scorePercentage": 100,
+          "scoreLabel": "10/10",
+          "description": "120 villas need organized social effort, not Brownian motion — the community's management scale is the real amenity behind the gate."
+        },
+        {
+          "image": "/journals/the-second-front-door/priority-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a security booth with a patrol log and camera grid, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the log, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Real Security Protocols",
+          "scorePercentage": 95,
+          "scoreLabel": "9.5/10",
+          "description": "A gated villa community's security is only as real as its protocols — patrol logs and camera grids audited like the RWA finances."
+        },
+        {
+          "image": "/journals/the-second-front-door/priority-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a kids' cricket game on a villa community green at 5 pm, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the cricket ball, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "A Club the Kids Will Use",
+          "scorePercentage": 90,
+          "scoreLabel": "9/10",
+          "description": "The social audit beat the brochure: club usage on a Saturday and kids' cricket at 5 pm — density of actual life, not count of villas."
+        },
+        {
+          "image": "/journals/the-second-front-door/priority-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a mango sapling staked in a garden corner with a watering can, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the sapling, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality.",
+          "title": "Mango Tree Feasible",
+          "scorePercentage": 85,
+          "scoreLabel": "8.5/10",
+          "description": "The one sentimental requirement allowed to be a requirement — garden depth and orientation checked at two finalists, like any other spec."
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Journey",
+      "label": "Journey",
+      "bgColorHex": "#E2DFFD",
+      "inactiveBgHex": "rgba(226, 223, 253, 0.45)",
+      "textColor": "text-[#4A438A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "title": "How their journey actually unfolded.",
+      "description": "From a cricket ball hitting the TV to the verbs written above the budget, a carrying-cost ledger accepted before any brochure, and a retrade survived on a bank-valuation certificate.",
+      "journeyFrameTitle": "SELL ABOVE, BUY BELOW — IN STEP",
+      "roadmapTitle": "How a flat-launchpad family landed a villa with the math visible",
+      "metrics": [
+        {
+          "icon": "Briefcase",
+          "label": "JOURNEY STAGE",
+          "value": "Closed — PLH Villa"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "CAPITAL DEPLOYED",
+          "value": "₹5.6 Cr (₹2.6 Cr Rollover)"
+        },
+        {
+          "icon": "ClipboardList",
+          "label": "THE LEDGER",
+          "value": "₹45–60K/mo, Written First"
+        },
+        {
+          "icon": "TreeDeciduous",
+          "label": "THE SENTIMENTAL SPEC",
+          "value": "Mango Tree, Feasibility Checked"
+        }
+      ],
+      "roadmapNodes": [
+        {
+          "id": "l1-verbs-over-budget",
+          "stage": "S1",
+          "type": "start",
+          "title": "L1: The Verbs Over the Budget",
+          "desc": "The corridor cricket ball hits the TV again — garden, host, build, spread out get written above the budget. The launchpad has been outgrown.",
+          "icon": "Home",
+          "x": 120,
+          "y": 120,
+          "width": 180
+        },
+        {
+          "id": "l2-carrying-cost-ledger",
+          "stage": "S2",
+          "type": "stage",
+          "title": "L2: The Pre-Brochure Ledger",
+          "desc": "Carrying costs — staff, generator, garden — written down BEFORE brochures: ₹45–60K/month accepted in advance, a second invisible EMI made visible.",
+          "icon": "ClipboardList",
+          "x": 320,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l3-friend-couple-loop",
+          "stage": "S2",
+          "type": "loop",
+          "title": "L3: The Two Friend-Couple Interviews",
+          "desc": "Both sets interviewed with a fixed questionnaire — the glow-set and the regret-set differ on exactly one variable: budgeted management. The ledger gains three lines.",
+          "icon": "Users",
+          "loopText": "Friend-Couple Interview Loop — One Variable Apart",
+          "x": 540,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l4-two-finalists",
+          "stage": "S3",
+          "type": "stage",
+          "title": "L4: Two Villa Finalists",
+          "desc": "PLH villas (₹5.42–6.5 Cr) vs The Prestige City's Aspen Greens (Sarjapur villa phase) — toured twice, carrying-cost ledger applied to both.",
+          "icon": "Building2",
+          "x": 800,
+          "y": 120,
+          "width": 190
+        },
+        {
+          "id": "l5-retrade-bounce",
+          "stage": "S4",
+          "type": "bounce",
+          "targetNodeId": "l4-two-finalists",
+          "title": "L5 BOUNCE: The 6% Retrade",
+          "desc": "The flat's buyer retrades at agreement stage — 'market correction, sir.' Five weeks lost; the sale re-runs on a bank-valuation certificate, not memory.",
+          "icon": "Undo2",
+          "loopText": "5-Week Retrade Wobble — Cured by Certificate-Led Pricing",
+          "x": 700,
+          "y": 420,
+          "width": 290
+        },
+        {
+          "id": "l6-plh-villa-close",
+          "stage": "S7",
+          "type": "stage",
+          "title": "L6: The Mango-Leaf Close",
+          "desc": "PLH villa resale closed ~₹5.6 Cr; NE-facing plot with mango-viable garden; Deepa's mother approves the pooja corner in fifteen minutes.",
+          "icon": "KeyRound",
+          "x": 380,
+          "y": 420,
+          "width": 200
+        }
+      ],
+      "timelineTitle": "Where they stand today",
+      "timelineSteps": [
+        {
+          "id": "planning",
+          "label": "Planning",
+          "icon": "Lightbulb"
+        },
+        {
+          "id": "ledgering",
+          "label": "Ledgering",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": "comparing",
+          "label": "Comparing",
+          "icon": "Building2"
+        },
+        {
+          "id": "selling",
+          "label": "Selling",
+          "icon": "ArrowLeftRight"
+        },
+        {
+          "id": "negotiating",
+          "label": "Negotiating",
+          "icon": "MessageSquare"
+        },
+        {
+          "id": "buying",
+          "label": "Buying",
+          "icon": "KeyRound",
+          "active": true,
+          "tag": "Second Front Door"
+        }
+      ],
+      "momentsTitle": "Moments that changed everything",
+      "moments": [
+        {
+          "id": "verbs-moment",
+          "title": "The verbs above the budget",
+          "desc": "Garden, host, build, spread out — written above the budget in Deepa's handwriting, the day the cricket ball hit the TV for the last time.",
+          "imageSrc": "/journals/the-second-front-door/moment-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a notebook page with 'garden, host, build, spread out' written above a crossed-out budget figure, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the verbs, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "carrying-ledger-moment",
+          "title": "The ledger written before the brochure",
+          "desc": "Maintenance, staff, generator diesel, garden upkeep — ₹45–60K/month accepted on paper before any villa brochure asked them to dream. The second invisible EMI, made visible.",
+          "imageSrc": "/journals/the-second-front-door/moment-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of a hand-written carrying-cost ledger with monthly figures totalling ₹45–60K beside an unopened villa brochure, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the totals, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "questionnaires-moment",
+          "title": "The two friend-couple questionnaires",
+          "desc": "The glow-set's and the regret-set's answered questionnaires, one variable apart: budgeted management. The ledger gained three lines that evening.",
+          "imageSrc": "/journals/the-second-front-door/moment-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of two completed questionnaires side by side with one differing answer highlighted, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the highlighted answer, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "retrade-certificate-moment",
+          "title": "The retrade email beside the certificate",
+          "desc": "The buyer's 'market correction, sir' email beside the bank-valuation certificate that answered it — selling from the certificate, never from memory.",
+          "imageSrc": "/journals/the-second-front-door/moment-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a retrade email printout beside a bank-valuation certificate with today's date stamped, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the certificate, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "id": "mango-leaf-keychain-moment",
+          "title": "The mango-leaf keychain",
+          "desc": "The villa key on a mango-leaf keychain — with Deepa's mother's fifteen-minute verdict noted in the file: light, pooja-corner orientation, done.",
+          "imageSrc": "/journals/the-second-front-door/moment-5.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa key on a mango-leaf keychain beside a file note reading 'fifteen-minute verdict', rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent on the keychain, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "voicesTitle": "Voices around them",
+      "quotes": [
+        {
+          "text": "The flat was the launchpad. This is the landing.",
+          "author": "— Prashanth & Deepa"
+        },
+        {
+          "text": "Retrading at agreement is a strategy, not a correction. And it works only on sellers who negotiate from memory.",
+          "author": "— Riya"
+        },
+        {
+          "text": "The WhatsApp group isn't buying your flat, Deepa.",
+          "author": "— Riya"
+        },
+        {
+          "text": "Sell on the certificate, buy on her fifteen minutes.",
+          "author": "— Riya"
+        }
+      ],
+      "chatMessages": [
+        {
+          "sender": "Prashanth",
+          "avatar": "/journals/the-second-front-door/prashanth.png",
+          "text": "Riya, the buyer came back. 'Market correction, sir' — six percent off, at agreement stage, andi. After three weeks of sweetness."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "Retrading at agreement is a strategy, not a correction — and it works only on sellers who negotiate from memory. So we stop selling from memory. Bank-valuation team this week; the certified number is the listing, and every buyer sees the certificate up front. Retraders hate paperwork with no feelings in it.",
+          "isRiya": true
+        }
+      ],
+      "realityChecksTitle": "Reality checks along the way",
+      "realityChecks": [
+        {
+          "icon": "ClipboardList",
+          "title": "The Carrying-Cost Ledger",
+          "description": "Maintenance, staff, generator diesel, garden upkeep at ₹45–60K/month — a second, invisible EMI. Writing it down before the brochure is what separates the glow-set from the regret-set."
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "The Certificate-Led Sale",
+          "description": "The 6% retrade at agreement stage was answered with a bank-valuation certificate — the only number that sells, shown to every buyer up front."
+        },
+        {
+          "icon": "Scale",
+          "title": "Land Wearing a House",
+          "description": "The villa arc has repriced hard — they're effectively buying a ₹3 Cr plot wearing a ₹2.5 Cr house, with the plot compounding and the building decaying."
+        },
+        {
+          "icon": "Users",
+          "title": "The Social Audit",
+          "description": "120 villas require social effort where 600 flats produce playmates by Brownian motion — club usage on a Saturday and kids' cricket at 5 pm beat any brochure."
+        },
+        {
+          "icon": "TreeDeciduous",
+          "title": "The Sentimental Spec",
+          "description": "The mango tree was checked for feasibility at two finalists, like plumbing — the one sentimental requirement allowed to be a requirement, and priced accordingly."
+        }
+      ],
+      "audioLabel": "HEAR THE FULL CONVERSATION",
+      "audioSrc": "/audios/the-second-front-door.mp3"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "label": "Search",
+      "bgColorHex": "#FCDFE3",
+      "inactiveBgHex": "rgba(252, 223, 227, 0.45)",
+      "textColor": "text-[#8A3243] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE SEARCH",
+      "title": "Where they looked and what they found.",
+      "description": "Evaluating villa communities across the Sarjapur–Gunjur–Varthur arc — school continuity preserved, carrying costs applied to every candidate, and the mango tree feasibility checked at two.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Villa — Second Act"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CORRIDOR FOCUS",
+          "value": "Sarjapur–Gunjur–Varthur"
+        },
+        {
+          "icon": "Undo2",
+          "label": "THE RETRADE",
+          "value": "6% — Survived on Certificate"
+        },
+        {
+          "icon": "KeyRound",
+          "label": "SELECTED HOME",
+          "value": "PLH Villa, NE-Facing"
+        }
+      ],
+      "exploredAreasTitle": "The villa arc they explored",
+      "exploredAreas": [
+        {
+          "title": "Sarjapur",
+          "description": "The arc's southern anchor — new-launch villas quoting ₹5.5–7.5 Cr for their spec, with Aspen Greens' villa phase as the corridor's calibrated benchmark.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.8539623,
+            "lng": 77.7786213
+          },
+          "imageSrc": "/journals/the-second-front-door/sarjapur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Sarjapur arc with villa communities and green belts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Gunjur",
+          "description": "The middle of the arc — villa phases balancing school continuity with plot depth, where NE-facing corners with mango-viable gardens still exist at launch.",
+          "projects": 3,
+          "siteVisits": 4,
+          "latlong": {
+            "lat": 12.9209498,
+            "lng": 77.7323164
+          },
+          "imageSrc": "/journals/the-second-front-door/gunjur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Gunjur corridor's villa developments, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Varthur (Chosen)",
+          "description": "The northern anchor — PLH's 271-villa community at ₹5.42–6.5 Cr, where the social audit passed and the NE-facing mango-viable plot was secured.",
+          "projects": 3,
+          "siteVisits": 5,
+          "latlong": {
+            "lat": 12.9446228,
+            "lng": 77.7308286
+          },
+          "imageSrc": "/journals/the-second-front-door/varthur.png",
+          "imagegenerationprompt": "A modern architectural vector view of the Varthur villa belt with lakeside communities, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "consideredAreasLabel": "Other areas considered: Whitefield 4BHK villa resales (the sell-side market they were exiting) • every community failing the carrying-cost or social audit",
+      "filtersTitle": "SEARCH PAIN POINTS & FRUSTRATIONS",
+      "filters": [
+        {
+          "title": "THE OUTGROWN GEOMETRY",
+          "value": "Cricket in the Corridor",
+          "description": "The 2014 flat did everything asked — but the seven-year-old's cricket happens in the corridor, the synthesizers live in cartons, and the promised dog is pending real estate.",
+          "icon": "Home"
+        },
+        {
+          "title": "THE CARRYING-COST DENIAL",
+          "value": "The Second, Invisible EMI",
+          "description": "Maintenance, staff, generator, garden at ₹45–60K/month — the brochure never itemizes it, and the regret-set of friends never budgeted it.",
+          "icon": "ClipboardList"
+        },
+        {
+          "title": "THE 6% RETRADE",
+          "value": "'Market Correction, Sir'",
+          "description": "The buyer retrading at agreement stage cost five weeks — answered by selling from the bank-valuation certificate, never from memory or the WhatsApp group.",
+          "icon": "Undo2"
+        },
+        {
+          "title": "VILLA TIMELINE SLIPS",
+          "value": "Villa RERA ≠ Tower RERA",
+          "description": "Villa construction timelines slip more than tower timelines — lower builder priority and customization creep — so the villa-specific delivery history became the diligence.",
+          "icon": "Calendar"
+        }
+      ],
+      "filtersFooterLabel": "They were filtering for carrying-cost honesty, functioning RWA scale, real security protocols, kids' club usage, and a mango-viable NE-facing corner.",
+      "insightTitle": "What I noticed while we were searching",
+      "insightDescription": "“Upgraders' twin risk is carrying-cost denial and sell-side retrading — the Reddys met both and had written answers. The ledger came before the brochure: ₹45–60K/month of second-invisible-EMI accepted on paper, which put them ahead of most and exactly one variable ahead of the regret-set friends. When the buyer retraded 6% at agreement stage, we stopped selling from memory — the bank-valuation certificate became the listing, and retraders hate paperwork with no feelings in it. And the mango tree? Spec'd like plumbing, feasibility checked at two finalists — the one sentimental requirement allowed to be a requirement, and priced accordingly. The landing was always going to be a villa; the math just needed to arrive first.”",
+      "insightImage": "/journals/advisor.png",
+      "imagegenerationprompt": "A digital portrait of Riya reviewing a carrying-cost ledger beside a bank-valuation certificate, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "label": "Projects",
+      "bgColorHex": "#D0F6E3",
+      "inactiveBgHex": "rgba(208, 246, 227, 0.45)",
+      "textColor": "text-[#2B6A4F] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "THE PROJECTS",
+      "title": "Where they looked and what they found.",
+      "description": "Weighing villa communities on the Sarjapur–Gunjur–Varthur arc — carrying-cost ledger applied to every candidate, villa-specific RERA histories read, and the social audit conducted at 5 pm on a Saturday.",
+      "metrics": [
+        {
+          "icon": "Search",
+          "label": "SEARCH INTENT",
+          "value": "Villa — Second Act"
+        },
+        {
+          "icon": "LayoutGrid",
+          "label": "CHOSEN HOME",
+          "value": "PLH Villa, NE-Facing"
+        },
+        {
+          "icon": "Undo2",
+          "label": "THE RETRADE COST",
+          "value": "5 Weeks, Recovered"
+        },
+        {
+          "icon": "IndianRupee",
+          "label": "TRANSACTION",
+          "value": "₹5.6 Cr + ₹35–45L Landscaping"
+        }
+      ],
+      "prioritiesTitle": "What mattered most in their search",
+      "priorities": [
+        {
+          "icon": "ClipboardList",
+          "title": "Carrying-Cost Ledger",
+          "subtitle": "₹45–60K/mo, written first"
+        },
+        {
+          "icon": "Building2",
+          "title": "RWA Scale That Works",
+          "subtitle": "120 villas, organised"
+        },
+        {
+          "icon": "Users",
+          "title": "Kids' Social Density",
+          "subtitle": "cricket at 5 pm, counted"
+        },
+        {
+          "icon": "TreeDeciduous",
+          "title": "Mango-Viable Garden",
+          "subtitle": "NE-facing, depth-checked"
+        },
+        {
+          "icon": "FileCheck2",
+          "title": "Villa-Specific RERA History",
+          "subtitle": "not tower history"
+        }
+      ],
+      "riyaConclusionTitle": "Why Riya concluded this",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Deepa",
+          "avatar": "/journals/the-second-front-door/deepa.png",
+          "text": "The valuation number will be less than what the neighbours claim theirs is worth. The WhatsApp group has opinions, kada."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The WhatsApp group isn't buying your flat, Deepa. The certificate is. And your mother approved the pooja corner in fifteen minutes — sell on the certificate, buy on her fifteen minutes.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "whereTheySearchedTitle": "Where they searched",
+      "mapImageSrc": "/journals/the-second-front-door/search-map.png",
+      "mapImagePrompt": "A stylized geographic vector map of the Sarjapur, Gunjur and Varthur villa arc in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with Warm Coral #FF8A65 location pin markers, Scandinavian minimalism, clean white background.",
+      "projectsTitle": "Projects they explored",
+      "projectsCountBadge": "3 core options",
+      "projects": [
+        {
+          "title": "Prestige Lakeside Habitat Villas (Chosen)",
+          "name": "Prestige Lakeside Habitat Villas",
+          "price": "₹5.6 Cr Closed",
+          "possession": "Ready / resale",
+          "psf": "₹5.42–6.5 Cr band",
+          "location": "Varthur",
+          "imageSrc": "/journals/the-second-front-door/projects/Prestige-Lakeside-Habitat.webp"
+        },
+        {
+          "title": "The Villa-Phase Shortlist",
+          "name": "Prestige Aspen Greens",
+          "price": "Villa phase band",
+          "possession": "Phased",
+          "psf": "Sarjapur arc calibration",
+          "location": "The Prestige City, Sarjapur",
+          "imageSrc": "/journals/the-second-front-door/projects/The-Prestige-City-Aspen-Greens-phase.webp"
+        },
+        {
+          "title": "The Sell Side",
+          "name": "Whitefield 4BHK Villa Resales",
+          "price": "₹2–4.5 Cr+ dispersion",
+          "possession": "Resale market",
+          "psf": "By community and age",
+          "location": "Whitefield",
+          "imageSrc": "/journals/default.png"
+        }
+      ],
+      "rejectedTitle": "Why some options didn't make the cut",
+      "rejectedReasons": [
+        {
+          "icon": "ClipboardList",
+          "title": "Failed the Carrying-Cost Ledger",
+          "count": "every community with un-itemised upkeep"
+        },
+        {
+          "icon": "Users",
+          "title": "Failed the 5 pm Social Audit",
+          "count": "1 empty-club 400-villa community"
+        },
+        {
+          "icon": "Calendar",
+          "title": "Villa Timeline Slip Risk",
+          "count": "launches with tower-only delivery history"
+        },
+        {
+          "icon": "TreeDeciduous",
+          "title": "Mango-Unviable Plots",
+          "count": "garden-depth failures at inspection"
+        }
+      ],
+      "suggestionTitle": "Riya's suggestion",
+      "suggestionDescription": "Buying the PLH villa resale at ~₹5.6 Cr delivered the NE-facing corner with a mango-viable garden, a functioning 271-villa RWA, and the kids' social density confirmed at 5 pm — with the flat sold on a bank-valuation certificate and the Section 54 rollover choreographed against the close. The landing, landed, with the carrying-cost ledger still open and still honest.",
+      "suggestionImageSrc": "/journals/advisor.png"
+    },
+    {
+      "id": "learnings",
+      "name": "Learnings",
+      "label": "Learnings",
+      "bgColorHex": "#FEF1CD",
+      "inactiveBgHex": "rgba(254, 241, 205, 0.45)",
+      "textColor": "text-[#7A601A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "LEARNINGS",
+      "title": "What this journey teaches us.",
+      "description": "Key takeaways for villa upgraders — the pre-brochure ledger, the certificate-led sale, villa-specific RERA diligence, and the sentimental spec priced like plumbing.",
+      "metrics": [
+        {
+          "icon": "Lightbulb",
+          "label": "BIGGEST LESSON",
+          "value": "The Ledger Before the Brochure"
+        },
+        {
+          "icon": "HeartHandshake",
+          "label": "BIGGEST PRIORITY",
+          "value": "Carrying-Cost Honesty"
+        },
+        {
+          "icon": "Triangle",
+          "label": "BIGGEST MISTAKE",
+          "value": "Selling From Memory"
+        },
+        {
+          "icon": "Zap",
+          "label": "BIGGEST WIN",
+          "value": "The Certificate-Led Sale"
+        }
+      ],
+      "lessonsTitle": "Lessons they learned",
+      "lessons": [
+        {
+          "title": "At villa launches, the early-bird edge is selection, not price.",
+          "description": "The price sheet is uniform but the plots are not — corner, orientation, and tree-feasibility differences worth ₹40–60L trade at a ₹10–15L premium on launch day.",
+          "imageSrc": "/journals/the-second-front-door/lesson-1.png",
+          "imagegenerationprompt": "A 3D vector illustration of a villa launch plot map with corner and orientation highlights worth ₹40–60L, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The glow-set and the regret-set differ on one variable: budgeted management.",
+          "description": "Both friend-couples were interviewed with a fixed questionnaire — every difference traced back to whether the household had budgeted staff and systems or assumed them. The ledger gained three lines.",
+          "imageSrc": "/journals/the-second-front-door/lesson-2.png",
+          "imagegenerationprompt": "A 3D vector illustration of two questionnaires with a single differing answer highlighted and a ledger gaining three new lines, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "Villa timelines slip more than tower timelines — read the villa-specific RERA history.",
+          "description": "Lower builder priority and customization creep make villa schedules the honest risk — the developer's villa projects' history, not their towers', became the diligence that mattered.",
+          "imageSrc": "/journals/the-second-front-door/lesson-3.png",
+          "imagegenerationprompt": "A 3D vector illustration of a RERA delivery-history comparison between villa projects and tower projects, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        },
+        {
+          "title": "The sentimental requirement, spec'd like plumbing, stays a requirement.",
+          "description": "The mango tree's feasibility — garden depth, orientation, soil — was checked at two finalists like any other spec. Sentiment priced and verified stops being a wobble.",
+          "imageSrc": "/journals/the-second-front-door/lesson-4.png",
+          "imagegenerationprompt": "A 3D vector illustration of a mango sapling beside a garden-depth feasibility note with orientation arrows, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, Apple-inspired product aesthetics, soft ambient lighting, clean white background, editorial quality."
+        }
+      ],
+      "beforeTitle": "BEFORE",
+      "beforeItems": [
+        {
+          "icon": "FileText",
+          "text": "The brochure's villa cost is the villa cost"
+        },
+        {
+          "icon": "TrendingUp",
+          "text": "A villa appreciates like the land under it"
+        },
+        {
+          "icon": "Building2",
+          "text": "600 flats and 120 villas produce the same childhood"
+        },
+        {
+          "icon": "DollarSign",
+          "text": "The buyer's word at agreement stage is a promise"
+        }
+      ],
+      "afterTitle": "AFTER",
+      "afterItems": [
+        {
+          "icon": "ClipboardList",
+          "text": "Carrying costs — ₹45–60K/month — are a second EMI, written first"
+        },
+        {
+          "icon": "Scale",
+          "text": "The plot compounds; the building decays — price them separately"
+        },
+        {
+          "icon": "Users",
+          "text": "Villa childhoods are organised, not automatic — audit the 5 pm club"
+        },
+        {
+          "icon": "FileCheck2",
+          "text": "The bank-valuation certificate is the only number that sells"
+        }
+      ],
+      "differentlyTitle": "What they'd do differently",
+      "differentlyCards": [
+        {
+          "icon": "FileCheck2",
+          "title": "Get the certificate before listing, not after the retrade",
+          "description": "The retrade cost five weeks — a valuation certificate on the listing from day one would have filtered the strategy-buyers at the door."
+        },
+        {
+          "icon": "ClipboardList",
+          "title": "Interview the friend-couples in month one",
+          "description": "The one-variable discovery arrived in month three — the management-budgeting lesson would have shaped the ledger from the start."
+        },
+        {
+          "icon": "Users",
+          "title": "Run the social audit before the second tour",
+          "description": "The 5 pm club-and-cricket audit beat the brochure — scheduling it for the first visit would have saved a full second round of tours."
+        },
+        {
+          "icon": "TreeDeciduous",
+          "title": "Spec the mango tree in the needs card itself",
+          "description": "The sentimental requirement was added in month four — writing 'mango-viable garden' into the original brief would have filtered plots sooner."
+        }
+      ],
+      "riyaConclusionTitle": "Looking back",
+      "riyaConclusionImage": "/journals/riya.png",
+      "chatMessages": [
+        {
+          "sender": "Prashanth",
+          "avatar": "/journals/the-second-front-door/prashanth.png",
+          "text": "The flat got us here, and the villa keeps us here — mango sapling staked, pooja corner approved in fifteen minutes, carrying ledger still open and honest."
+        },
+        {
+          "sender": "Riya",
+          "avatar": "/journals/avatar-riya.png",
+          "text": "The launchpad did its job; the landing had a ledger. That's the whole upgrader's trick — keep the math visible while the family spreads out. The mango tree is just the receipt.",
+          "isRiya": true
+        }
+      ],
+      "audioLabel": "Hear entire conversation (90 sec)",
+      "audioDurationLabel": "1:30",
+      "adviceTitle": "Advice for villa upgraders",
+      "adviceStoryboardImage": "/journals/journey-storyboard.png",
+      "adviceStoryboardImagePrompt": "A vector storyboard showing Prashanth and Deepa writing the verbs above the budget, accepting the carrying-cost ledger, answering the retrade with a bank certificate, and closing the PLH villa with the mango-leaf key, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 focal accent, Scandinavian minimalism, clean white background.",
+      "adviceDescription": "For upgraders, the edge is the math that arrives before the dream: the carrying-cost ledger written before the brochure, the bank-valuation certificate on the listing before the retrade, villa-specific RERA history read instead of tower history, and the sentimental requirement priced like plumbing. Prashanth and Deepa proved the second front door opens cleanly when the first one closes on a certificate — and that the mango tree, spec'd properly, is never a wobble.",
+      "monthlyLearningsTitle": "Lessons learned along the way",
+      "monthlyLearnings": [
+        {
+          "month": "MONTH 1",
+          "headline": "At villa launches, the price sheet is uniform but the plots are not",
+          "body": "Corner, orientation, and tree-feasibility differences worth ₹40–60L trade at a ₹10–15L premium on launch day — the early-bird edge in villas is selection, not just price.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 2",
+          "headline": "The glow-set and the regret-set differed on exactly one variable",
+          "body": "Both friend-couples interviewed with a fixed questionnaire — whether the household budgeted management or assumed it. The ledger gained three lines.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 3",
+          "headline": "Villa construction timelines slip more than tower timelines",
+          "body": "Lower builder priority and customization creep — the developer's villa-specific RERA history, not their towers', became the diligence that mattered.",
+          "turning": true
+        },
+        {
+          "month": "MONTH 4",
+          "headline": "The 120-villa social audit beat the 400-villa brochure",
+          "body": "Club usage on a Saturday and kids' cricket at 5 pm — density of actual life, not count of villas, predicted the childhood they were buying.",
+          "turning": false
+        },
+        {
+          "month": "MONTH 5",
+          "headline": "Deepa's mother chose by light and pooja-corner in fifteen minutes",
+          "body": "Six months of residency deserved a vote — and her vote changed the shortlist, a reminder that the household's third generation has architecture preferences too.",
+          "turning": false
+        }
+      ]
+    },
+    {
+      "id": "start-here",
+      "name": "Start here",
+      "label": "Start here",
+      "bgColorHex": "#D0EDFE",
+      "inactiveBgHex": "rgba(208, 237, 254, 0.45)",
+      "textColor": "text-[#1A5B7A] font-semibold",
+      "inactiveTextColor": "text-gray-500 hover:text-gray-700",
+      "tagline": "START HERE",
+      "title": "The launchpad did its job — ready to land?",
+      "description": "If your first flat did its job and the verbs have changed, like Prashanth and Deepa, let Riya build your upgrader's roadmap — carrying-cost ledger, certificate-led sale, and villa-specific diligence.",
+      "stepsTitle": "Your conversation becomes your journal",
+      "steps": [
+        {
+          "id": 1,
+          "title": "You share",
+          "description": "Share the launchpad flat's details, the verbs your family needs, the budget, and the one sentimental requirement running the show.",
+          "imageSrc": "/journals/4/1.png",
+          "imagegenerationprompt": "A homebuyer entering corpus budget and South Bengaluru locality preferences into a smartphone app, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 phone screen accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 2,
+          "title": "Riya stress-tests",
+          "description": "Riya builds the carrying-cost ledger against real villa-owner data, prices the certificate-led sale, and audits villa-specific RERA histories.",
+          "imageSrc": "/journals/4/2.png",
+          "imagegenerationprompt": "Riya the AI real estate guide sitting thoughtfully with a notebook reviewing OC certificates and RWA accounts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 notebook accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 3,
+          "title": "Journal & mandate created",
+          "description": "Your custom Second Front Door journal — carrying-cost ledger, Section 54 choreography, and villa-RERA checklist — is generated.",
+          "imageSrc": "/journals/4/3.png",
+          "imagegenerationprompt": "An open home search journal displaying structured tabs and visual charts, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 tab ribbon accent, Scandinavian minimalism, clean white background."
+        },
+        {
+          "id": 4,
+          "title": "Actionable recommendations",
+          "description": "Receive villa launches with plot maps — NE-facing corners flagged, launch-day price sheets, and delivery histories attached.",
+          "imageSrc": "/journals/4/4.png",
+          "imagegenerationprompt": "A modern smartphone screen showing verified ready-to-move project suggestions, rendered in an 80% greyscale monochrome palette (#1E1E1E to #FFFFFF) with a Warm Coral #FF8A65 suggestion badge accent, Scandinavian minimalism, clean white background."
+        }
+      ],
+      "valuePropsTitle": "What mattered most in their search",
+      "valueProps": [
+        {
+          "id": 1,
+          "title": "The Carrying-Cost Ledger",
+          "description": "Staff, generator, garden, repairs — year-three costs audited against real villa-owner data, written before the brochure.",
+          "icon": "ClipboardList"
+        },
+        {
+          "id": 2,
+          "title": "The Certificate-Led Sale",
+          "description": "Bank-valuation-first pricing that turns retraders' strategy into paperwork with no feelings in it.",
+          "icon": "FileCheck2"
+        },
+        {
+          "id": 3,
+          "title": "Villa-Specific Diligence",
+          "description": "Plot maps, NE-facing corners, villa RERA histories, and Section 54 rollover choreography — the upgrader's full instrument kit.",
+          "icon": "TreeDeciduous"
+        }
+      ],
+      "checklistTitle": "IS THIS YOU?",
+      "checklistItems": [
+        "Your first property did its job; the family has outgrown its geometry, and the verbs have changed: garden, host, build, spread out.",
+        "You know villas are plots wearing depreciating costumes, and you're buying anyway, with the math visible.",
+        "You've written the carrying-cost ledger before the brochure asked you to dream.",
+        "Launch-stage plot selection matters to you — the right corner is the actual purchase.",
+        "A parent's six-month residencies need real architecture, not a guest room's hospitality.",
+        "One sentimental requirement (a tree, a courtyard, a verandah) is quietly running the show, and you've made peace with it."
+      ]
+    }
+  ],
+  "roadmapNodes": [
+    {
+      "id": "l1-verbs-over-budget",
+      "stage": "S1",
+      "type": "start",
+      "title": "L1: The Verbs Over the Budget",
+      "desc": "The corridor cricket ball hits the TV again — garden, host, build, spread out get written above the budget. The launchpad has been outgrown.",
+      "icon": "Home",
+      "x": 100,
+      "y": 120,
+      "width": 180
+    },
+    {
+      "id": "l2-carrying-cost-ledger",
+      "stage": "S2",
+      "type": "stage",
+      "title": "L2: The Pre-Brochure Ledger",
+      "desc": "Carrying costs — staff, generator, garden — written down BEFORE brochures: ₹45–60K/month accepted in advance, a second invisible EMI made visible.",
+      "icon": "ClipboardList",
+      "x": 320,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l3-friend-couple-loop",
+      "stage": "S2",
+      "type": "loop",
+      "title": "L3: The Two Friend-Couple Interviews",
+      "desc": "Both sets interviewed with a fixed questionnaire — the glow-set and the regret-set differ on exactly one variable: budgeted management. The ledger gains three lines.",
+      "icon": "Users",
+      "loopText": "Friend-Couple Interview Loop — One Variable Apart",
+      "x": 540,
+      "y": 220,
+      "width": 190
+    },
+    {
+      "id": "l4-two-finalists",
+      "stage": "S3",
+      "type": "stage",
+      "title": "L4: Two Villa Finalists",
+      "desc": "PLH villas (₹5.42–6.5 Cr) vs The Prestige City's Aspen Greens (Sarjapur villa phase) — toured twice, carrying-cost ledger applied to both.",
+      "icon": "Building2",
+      "x": 760,
+      "y": 120,
+      "width": 190
+    },
+    {
+      "id": "l5-retrade-bounce",
+      "stage": "S4",
+      "type": "bounce",
+      "targetNodeId": "l4-two-finalists",
+      "title": "L5 BOUNCE: The 6% Retrade",
+      "desc": "The flat's buyer retrades at agreement stage — 'market correction, sir.' Five weeks lost; the sale re-runs on a bank-valuation certificate, not memory.",
+      "icon": "Undo2",
+      "loopText": "5-Week Retrade Wobble — Cured by Certificate-Led Pricing",
+      "x": 620,
+      "y": 420,
+      "width": 200
+    },
+    {
+      "id": "l6-plh-villa-close",
+      "stage": "S7",
+      "type": "stage",
+      "title": "L6: The Mango-Leaf Close",
+      "desc": "PLH villa resale closed ~₹5.6 Cr; NE-facing plot with mango-viable garden; Deepa's mother approves the pooja corner in fifteen minutes.",
+      "icon": "KeyRound",
+      "x": 880,
+      "y": 420,
+      "width": 200
+    }
+  ]
+}
