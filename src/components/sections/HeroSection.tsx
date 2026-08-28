@@ -1,219 +1,329 @@
 "use client";
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Layers, ShieldCheck, Users, Zap, MapPin } from 'lucide-react';
+import {
+  Layers,
+  ShieldCheck,
+  Users,
+  Zap,
+  ArrowRight,
+  ChevronRight,
+  ChevronLeft
+} from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
+import allJournals from '@/data/community-journals.json';
 
-gsap.registerPlugin(ScrollTrigger);
+interface JournalCard {
+  id: number;
+  title: string;
+  subtitle: string;
+  tags: string[];
+  segment: string;
+  image: string;
+  views?: number;
+  copies?: number;
+  path?: string;
+  location?: string;
+}
 
+/* ─────────────────────────────────────────────────────────────────────────────
+   1. HERO SECTION (Light Hero Stage - Crisp Text Fix)
+   ───────────────────────────────────────────────────────────────────────────── */
 export const HeroSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { openModal } = useWaitlist();
   const headlineRef = useRef<HTMLHeadingElement>(null);
   const subheadlineRef = useRef<HTMLParagraphElement>(null);
   const btnRef = useRef<HTMLButtonElement>(null);
   const featuresRef = useRef<HTMLDivElement>(null);
-  const cardsRef = useRef<HTMLDivElement>(null);
+  const { openModal } = useWaitlist();
 
   useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-      // Staggered word animation for headline
       if (headlineRef.current) {
         const chars = headlineRef.current.querySelectorAll('.word');
-        tl.fromTo(chars, 
-          { y: 50, opacity: 0 },
+        tl.fromTo(
+          chars,
+          { y: 40, opacity: 0 },
           { y: 0, opacity: 1, duration: 0.6, stagger: 0.04 }
         );
       }
 
-      // Fade in subheadline and button
-      tl.fromTo([subheadlineRef.current, btnRef.current],
-        { y: 30, opacity: 0 },
+      tl.fromTo(
+        [subheadlineRef.current, btnRef.current],
+        { y: 25, opacity: 0 },
         { y: 0, opacity: 1, duration: 0.5, stagger: 0.1 },
         "-=0.4"
       );
 
-      // Features fade in
       if (featuresRef.current) {
-        const featureItems = featuresRef.current.children;
-        tl.fromTo(featureItems,
-          { opacity: 0, x: -20 },
-          { opacity: 1, x: 0, duration: 0.4, stagger: 0.08 },
+        tl.fromTo(
+          featuresRef.current.children,
+          { opacity: 0, y: 15 },
+          { opacity: 1, y: 0, duration: 0.4, stagger: 0.08 },
           "-=0.3"
         );
       }
-
-      // Cards slide up
-      if (cardsRef.current) {
-        const cards = cardsRef.current.querySelectorAll('.feature-card');
-        tl.fromTo(cards,
-          { y: 100, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.6, stagger: 0.01 },
-          "-=0.3"
-        );
-      }
-
-      // Removed parallax effect as requested
     }, containerRef);
 
-    return () => ctx.revert(); // Cleanup on unmount
+    return () => ctx.revert();
   }, []);
 
-  // Split headline into words for stagger effect
   const renderHeadline = () => {
     const text = "Better way to search, shortlist, evaluate and select your home";
-    return text.split(' ').map((word, idx) => (
-      <span key={idx} className="word inline-block mr-[0.3em] opacity-100">{word}</span>
-    ));
+    return text.split(' ').map((word, idx) => {
+      const isOrange = word.toLowerCase().includes("your") || word.toLowerCase().includes("home");
+      return (
+        <span
+          key={idx}
+          className={`word inline-block mr-[0.28em] ${
+            isOrange ? 'text-[#fc7c54] font-medium' : 'text-black font-normal'
+          }`}
+        >
+          {word}
+        </span>
+      );
+    });
   };
 
   const featureHighlights = [
-    { icon: <Layers size={20} strokeWidth={1.5} />, text: "Feature rich\nplatform" },
-    { icon: <ShieldCheck size={20} strokeWidth={1.5} className="text-white" />, text: "Privacy & Home buyer\nfirst" },
-    { icon: <Users size={20} strokeWidth={1.5} className="text-white" />, text: "Agents (Human + AI)\nworking for you" },
-    { icon: <Zap size={20} strokeWidth={1.5} className="text-white" />, text: "Data driven\nevaluation" }
-  ];
-
-  const bottomCards = [
-    { src: "/assets/hero-cards/1.png", alt: "Privacy Score" },
-    { src: "/assets/hero-cards/2.png", alt: "Master Plan Intelligence" },
-    { src: "/assets/hero-cards/3.png", alt: "Sunlight & Orientation" },
-    { src: "/assets/hero-cards/4.png", alt: "Floor Plan Space Analysis" },
-    { src: "/assets/hero-cards/5.png", alt: "Location & Traffic Intelligence" },
-    { src: "/assets/hero-cards/6.png", alt: "Smart Property Services" },
-  ];
-
-  const bottomRowCards = [
-    { src: "/assets/hero-cards/7.png", alt: "About" },
-    { src: "/assets/hero-cards/8.png", alt: "Price Plan" },
-    { src: "/assets/hero-cards/9.png", alt: "Property" },
-    { src: "/assets/hero-cards/10.png", alt: "Property Details" },
-    { src: "/assets/hero-cards/1.png", alt: "Home Match" },
-    { src: "/assets/hero-cards/2.png", alt: "Home Match Details" },
+    { icon: <Layers size={18} strokeWidth={1.8} />, text: "Feature rich platform" },
+    { icon: <ShieldCheck size={18} strokeWidth={1.8} />, text: "Privacy & Home buyer first" },
+    { icon: <Users size={18} strokeWidth={1.8} />, text: "Agents (Human + AI) working for you" },
+    { icon: <Zap size={18} strokeWidth={1.8} />, text: "Data driven evaluation" }
   ];
 
   return (
-    <section ref={containerRef} className="relative min-h-screen 2xl:min-h-0 2xl:h-[900px] pt-24 overflow-hidden bg-black flex flex-col justify-between">
-      {/* Background Image */}
-      <div className="hero-bg absolute inset-0 z-0">
-        <div className=" absolute inset-0">
-          <Image 
+    <>
+      <section ref={containerRef} className="relative pt-24 pb-20 bg-white text-black overflow-hidden">
+        {/* Background Image Layer */}
+        <div className="absolute inset-0 z-0">
+          <Image
             src="/assets/hero/hero-background.png"
             alt="Hero Background"
             fill
-            className="object-cover opacity-70"
+            className="object-cover"
             priority
             sizes="100vw"
           />
         </div>
-        
-        {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 pointer-events-none"></div>
-      </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-6 w-full flex-grow flex flex-col items-center justify-center text-center mt-8 md:mt-0">
-        <h1 
-          ref={headlineRef} 
-          className="font-fraunces text-white max-w-4xl mb-4 font-normal text-center"
-          style={{ fontSize: 'clamp(28px, 6vw, 46px)', lineHeight: '1.1', letterSpacing: '-1px' }}
-        >
-          {renderHeadline()}
-        </h1>
-        
-        <p 
-          ref={subheadlineRef}
-          className="font-inter text-sm md:text-base text-gray-300 max-w-xl mb-6 font-light px-2"
-        >
-          Property search is a painful task. We are here to show that it does not have to be painful.
+        {/* Hero Main Content */}
+        <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center pt-12 md:pt-16">
+          <h1
+            ref={headlineRef}
+            className="font-serif text-slate-900 max-w-3xl mx-auto mb-5 font-normal tracking-tight"
+            style={{ fontSize: 'clamp(32px, 5vw, 54px)', lineHeight: '1.15' }}
+          >
+            {renderHeadline()}
+          </h1>
+
+          <p
+            ref={subheadlineRef}
+            className="font-sans text-sm md:text-base text-black max-w-lg mx-auto mb-8"
+          >
+            Property search is a painful task. We are here to show that it does not have to be painful.
+          </p>
+
+          <button
+            ref={btnRef}
+            onClick={openModal}
+            className="bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 mb-16 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
+          >
+            Join Waitlist
+          </button>
+
+          {/* Feature Highlights Grid */}
+          <div ref={featuresRef} className="grid grid-cols-2 md:flex md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
+            {featureHighlights.map((feature, idx) => (
+              <div key={idx} className="flex items-center gap-3 text-left">
+                <div className="w-10 h-10 rounded-full border border-white/5 bg-white/10 backdrop-blur-sm flex items-center justify-center text-black shrink-0">
+                  {feature.icon}
+                </div>
+                <span className="text-xs text-black font-sans leading-snug max-w-[120px]">
+                  {feature.text}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 2. COMMUNITY JOURNALS SECTION */}
+      <CommunityJournalsSection />
+    </>
+  );
+};
+/* ─────────────────────────────────────────────────────────────────────────────
+   2. COMMUNITY JOURNALS CAROUSEL SECTION
+   ───────────────────────────────────────────────────────────────────────────── */
+function journalCategory(journal: JournalCard): string {
+  const s = (journal.segment || "").trim().toLowerCase();
+  const t = (journal.tags || []).join(" ").toLowerCase();
+  if (s.startsWith("pre-launch") || s.includes("pre-launch") || t.includes("pre-launch") || t.includes("eoi")) return "Pre-launch";
+  if (s.startsWith("nri")) return "NRI & Returnees";
+  if (s.includes("/ upgrader") || t.includes("upgrader")) return "Upgraders";
+  if (s.includes("/ legacy")) return "Legacy";
+  if (s.includes("/ lifestyle") || t.includes("lifestyle")) return "Lifestyle";
+  if (s.startsWith("investors & wealth")) return "Investors & Wealth";
+  if (s.startsWith("plot buyers")) return "Plot Buyers";
+  if (s.startsWith("young professionals")) return "Young Professionals & First-Timers";
+  if (s.startsWith("families")) return "Families";
+  if (s.startsWith("seniors")) return "Seniors & Downsizers";
+  if (s.startsWith("special convictions")) return "Special Convictions";
+  if (s.startsWith("primary purchase")) return "Primary Purchase";
+  return "Community";
+}
+
+export const CommunityJournalsSection = () => {
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const categoriesList = useMemo(() => {
+    const map: Record<string, { title: string; count: number; image: string }> = {};
+    for (const journal of allJournals as JournalCard[]) {
+      const title = journalCategory(journal);
+      if (!map[title]) {
+        map[title] = { title, count: 0, image: journal.image };
+      }
+      map[title].count += 1;
+    }
+    return Object.values(map).sort((a, b) => b.count - a.count);
+  }, []);
+
+  const checkScroll = () => {
+    if (scrollContainerRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef.current;
+      setCanScrollLeft(scrollLeft > 10);
+      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+    }
+  };
+
+  useEffect(() => {
+    checkScroll();
+    window.addEventListener('resize', checkScroll);
+    return () => window.removeEventListener('resize', checkScroll);
+  }, []);
+
+  const handleScroll = (direction: 'left' | 'right') => {
+    if (scrollContainerRef.current) {
+      const scrollAmount = scrollContainerRef.current.clientWidth * 0.75;
+      scrollContainerRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+      setTimeout(checkScroll, 350);
+    }
+  };
+
+  return (
+    <section className="bg-white text-slate-900 py-8 sm:py-10 border-t border-slate-100">
+      <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Header Row */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-wider text-[#fc7c54] block mb-1">
+              COMMUNITY JOURNALS
+            </span>
+            <h2 className="font-serif text-3xl sm:text-4xl font-medium text-slate-900">
+              Stories inspired by real homebuying journeys
+            </h2>
+            <p className="text-sm text-slate-600 mt-2 font-light">
+              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 10,000+ home seekers.
+            </p>
+          </div>
+
+          <Link
+            href="/community-journals"
+            className="border border-[#fc7c54] text-[#fc7c54] hover:bg-[#fc7c54]/10 text-xs sm:text-sm font-medium px-5 py-2.5 rounded-md inline-flex items-center gap-2 transition-all self-start md:self-auto shrink-0"
+          >
+            <span>Explore Community Journals</span>
+            <ArrowRight size={14} />
+          </Link>
+        </div>
+
+        {/* Carousel Deck */}
+        <div className="relative group">
+          {/* Navigation Arrows */}
+          {canScrollLeft && (
+            <button
+              onClick={() => handleScroll('left')}
+              className="absolute -left-12 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white text-slate-800 shadow-lg border border-slate-100 flex items-center justify-center hover:scale-105 active:scale-95 transition-all cursor-pointer"
+              aria-label="Previous"
+            >
+              <ChevronLeft size={22} />
+            </button>
+          )}
+
+          {canScrollRight && (
+            <button
+              onClick={() => handleScroll('right')}
+              className="absolute -right-12 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white text-slate-800 shadow-lg border border-slate-100 flex items-center justify-center hover:scale-105 active:scale-95 transition-all cursor-pointer"
+              aria-label="Next"
+            >
+              <ChevronRight size={22} />
+            </button>
+          )}
+
+          {/* Cards Track */}
+          <div
+            ref={scrollContainerRef}
+            onScroll={checkScroll}
+            className="flex gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-2"
+          >
+            {categoriesList.map((cat) => {
+              return (
+                <Link
+                  key={cat.title}
+                  href="/community-journals"
+                  className="group/card relative min-w-[200px] sm:min-w-[220px] md:min-w-[230px] h-[200px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.02] select-none"
+                >
+                  <Image
+                    src={cat.image}
+                    alt={cat.title}
+                    fill
+                    sizes="(max-width: 768px) 50vw, 20vw"
+                    className="object-cover object-right transition-transform duration-700 group-hover/card:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10" />
+
+                  <div className="absolute bottom-0 inset-x-0 p-4 z-20">
+                    <h3 className="font-semibold text-white text-sm sm:text-base leading-snug line-clamp-2 group-hover/card:text-[#fc7c54] transition-colors">
+                      {cat.title}
+                    </h3>
+                    <p className="text-[11px] text-white/70 mt-1 font-normal">
+                      {cat.count} {cat.count === 1 ? "journal" : "journals"}
+                    </p>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Counter Subtitle */}
+        <p className="text-center text-sm text-slate-600 mt-10 font-normal">
+          <span className="text-[#fc7c54] font-bold">{allJournals.length}+</span> journals across{" "}
+          <span className="text-[#fc7c54] font-bold">{categoriesList.length}+</span> categories shared by{" "}
+          <span className="text-[#fc7c54] font-bold">10,000+</span> home seekers.
         </p>
 
-        <button 
-          ref={btnRef}
-          onClick={openModal}
-          className="bg-[#fc7c54] text-black hover:bg-[#fc7c54]/90 font-inter font-medium px-6 py-3 rounded-lg text-sm transition-all duration-300 mb-8 inline-flex items-center gap-2"
-        >
-          Join Waitlist 
-        </button>
-
-        {/* Feature Highlights — 2-col grid on mobile, row on desktop */}
-        <div ref={featuresRef} className="grid grid-cols-2 md:flex md:flex-row md:items-center justify-center gap-4 md:gap-12 mt-2 w-full max-w-sm md:max-w-none">
-          {featureHighlights.map((feature, idx) => (
-            <div key={idx} className="flex items-center gap-2 md:gap-3 text-left">
-              <div className="w-8 h-8 md:w-9 md:h-9 rounded-full border border-gray-600/50 bg-black/20 backdrop-blur-sm flex items-center justify-center text-white shrink-0">
-                {feature.icon}
-              </div>
-              <p className="text-[0.6875rem] md:text-sm text-gray-300 font-inter whitespace-pre-line leading-snug">
-                {feature.text}
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
 
-      {/* Bottom Cards Carousel/Grid */}
-      <div ref={cardsRef} className="relative z-10 w-full mt-10 pb-0 overflow-hidden">
-        {/* First Row (Right to Left) */}
-        <div className="flex pb-2 md:pb-3 w-full">
-          <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
-            {[...bottomCards, ...bottomCards, ...bottomCards, ...bottomCards].map((card, idx) => (
-              <div key={`row1-${idx}`} className="flex-none pr-3 md:pr-4">
-                <div className="feature-card relative shrink-0 w-[200px] md:w-[280px] aspect-[13/9] rounded-xl overflow-hidden   group ">
-                  <Image 
-                    src={card.src}
-                    alt={card.alt}
-                    fill
-                    className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-500"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        
-        {/* Second Row (Left to Right) */}
-        <div className="flex pb-0 w-full mt-2 md:mt-3">
-          <div className="flex w-max animate-marquee-reverse hover:[animation-play-state:paused]">
-            {[...bottomRowCards, ...bottomRowCards, ...bottomRowCards, ...bottomRowCards].map((card, idx) => (
-              <div key={`row2-${idx}`} className="flex-none pr-3 md:pr-4">
-                <div className="feature-card relative shrink-0 w-[200px] md:w-[280px] lg:w-[320px] aspect-[16/10] rounded-xl overflow-hidden  group ">
-                  <Image 
-                    src={card.src}
-                    alt={card.alt}
-                    fill
-                    className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-500"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Gradient black shade to hide 2nd row */}
-        <div className="absolute bottom-0 left-0 right-0 h-[160px] md:h-[240px] bg-gradient-to-t from-black via-black/10 to-transparent pointer-events-none z-20"></div>
-      </div>
-      
-      <style dangerouslySetInnerHTML={{__html: `
+      <style dangerouslySetInnerHTML={{
+        __html: `
+        .hide-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
-        }
-        @keyframes marquee {
-          0% { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
-        }
-        @keyframes marquee-reverse {
-          0% { transform: translateX(-50%); }
-          100% { transform: translateX(0%); }
-        }
-        .animate-marquee {
-          animation: marquee 60s linear infinite;
-        }
-        .animate-marquee-reverse {
-          animation: marquee-reverse 60s linear infinite;
         }
       `}} />
     </section>
