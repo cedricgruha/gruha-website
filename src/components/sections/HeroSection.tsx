@@ -315,7 +315,7 @@ export const CommunityJournalsSection = () => {
                 <Link
                   key={cat.title}
                   href={`/community-journals?filter=${encodeURIComponent(cat.title)}`}
-                  className="group/card relative min-w-[200px] sm:min-w-[210px] md:min-w-[230px] h-[200px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
+                  className="group/card relative min-w-[130px] sm:min-w-[210px] md:min-w-[230px] h-[170px] sm:h-[200px] md:h-[220px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
                 >
                   <Image
                     src={cat.image}
