@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { useWaitlist } from '@/contexts/WaitlistContext';
 
@@ -14,6 +15,8 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = false }) => {
   const [scrolled, setScrolled] = useState(false);
   const { openModal } = useWaitlist();
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +36,7 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
           <div className="relative h-8 w-32 md:h-10 md:w-40">
 
             <Image
-              src="/assets/logo.png"
+              src={isHome ? "/assets/dark-logo.png" : "/assets/logo.png"}
               alt="Gruha.ai Logo"
               fill
               className="object-contain object-left"

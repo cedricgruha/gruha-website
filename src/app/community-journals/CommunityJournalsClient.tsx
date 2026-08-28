@@ -189,8 +189,14 @@ function matchesFilter(journal: JournalCard, filter: string): boolean {
   return tags.some((t) => t.includes(filterLower));
 }
 
-export const CommunityJournalsClient: React.FC<{ journals: JournalCard[] }> = ({ journals }) => {
-  const [activeFilter, setActiveFilter] = useState("All");
+export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initialFilter?: string }> = ({ journals, initialFilter }) => {
+  // Initialize the active filter from an optional ?filter= query param (e.g. when
+  // arriving from a hero category card) so the matching filter pill is already
+  // active. `initialFilter` is read server-side in the page and passed down.
+  const [activeFilter, setActiveFilter] = useState(() => {
+    if (initialFilter && FILTERS.includes(initialFilter)) return initialFilter;
+    return "All";
+  });
   const [search, setSearch] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [visibleCount, setVisibleCount] = useState(9);
