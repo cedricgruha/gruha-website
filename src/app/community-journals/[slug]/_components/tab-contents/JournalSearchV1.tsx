@@ -7,6 +7,7 @@ import * as Icons from "lucide-react";
 import imgSearchMap from "@/imports/Container.png";
 import { getPolygonPoints } from "@/data/polygonPoints";
 import { areaKey } from "@/data/polygonPoints/areaKey";
+import { trackLocationClick } from "@/lib/analytics";
 
 // Dynamic import for Leaflet client-only map component
 const JournalMapV1 = dynamic(() => import("./JournalMapV1"), { ssr: false });
@@ -309,6 +310,7 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
                   onClick={() => {
                     setSelectedAreaId(areaId);
                     setHoveredAreaId(areaId);
+                    trackLocationClick({ area: areaName });
                   }}
                   onMouseEnter={() => setHoveredAreaId(areaId)}
                   onMouseLeave={() => setHoveredAreaId(null)}
@@ -384,6 +386,10 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
                 onSelect={(id) => {
                   setSelectedAreaId(id);
                   setHoveredAreaId(id);
+                  const a = areasWithPoints.find(
+                    (x) => (x as { areaId?: string | number | null }).areaId === id
+                  ) as { name?: string } | undefined;
+                  trackLocationClick({ area: a?.name || String(id) });
                 }}
                 hoveredAreaId={hoveredAreaId}
                 onHover={setHoveredAreaId}
@@ -440,6 +446,7 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
                         } else {
                           setSelectedAreaId(areaId);
                           setHoveredAreaId(areaId);
+                          trackLocationClick({ area: areaName });
                         }
                       }}
                       onMouseEnter={() => setHoveredAreaId(areaId)}
@@ -506,6 +513,10 @@ export const JournalSearchV1: React.FC<JournalSearchV1Props> = ({
                 onSelect={(id) => {
                   setSelectedAreaId(id);
                   setHoveredAreaId(id);
+                  const a = areasWithPoints.find(
+                    (x) => (x as { areaId?: string | number | null }).areaId === id
+                  ) as { name?: string } | undefined;
+                  trackLocationClick({ area: a?.name || String(id) });
                 }}
                 hoveredAreaId={hoveredAreaId}
                 onHover={setHoveredAreaId}

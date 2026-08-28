@@ -14,6 +14,7 @@ import {
   ChevronLeft
 } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
+import { trackCategoryClick } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
 interface JournalCard {
@@ -308,14 +309,15 @@ export const CommunityJournalsSection = () => {
           <div
             ref={scrollContainerRef}
             onScroll={checkScroll}
-            className="flex gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-6"
+            className="flex gap-3 sm:gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-6"
           >
             {categoriesList.map((cat) => {
               return (
                 <Link
                   key={cat.title}
                   href={`/community-journals?filter=${encodeURIComponent(cat.title)}`}
-                  className="group/card relative min-w-[130px] sm:min-w-[210px] md:min-w-[230px] h-[170px] sm:h-[200px] md:h-[220px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
+                  onClick={() => trackCategoryClick({ category: cat.title })}
+                  className="group/card relative min-w-[140px] sm:min-w-[210px] md:min-w-[230px] h-[170px] sm:h-[200px] md:h-[220px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
                 >
                   <Image
                     src={cat.image}
