@@ -295,14 +295,14 @@ export const CommunityJournalsSection = () => {
           <div
             ref={scrollContainerRef}
             onScroll={checkScroll}
-            className="flex gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-2"
+            className="flex gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-6"
           >
             {categoriesList.map((cat) => {
               return (
                 <Link
                   key={cat.title}
                   href={`/community-journals?filter=${encodeURIComponent(categoryToFilter(cat.title))}`}
-                  className="group/card relative min-w-[200px] sm:min-w-[220px] md:min-w-[230px] h-[200px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.02] select-none"
+                  className="group/card relative min-w-[200px] sm:min-w-[220px] md:min-w-[230px] h-[200px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
                 >
                   <Image
                     src={cat.image}
