@@ -22,8 +22,8 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -35,11 +35,20 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
         <Link href="/" className="relative z-10 flex items-center gap-2">
           <div className="relative h-8 w-32 md:h-10 md:w-40">
 
+            {/* Mobile logo — always the standard logo (sm:hidden) */}
+            <Image
+              src="/assets/logo.png"
+              alt="Gruha.ai Logo"
+              fill
+              className="object-contain object-left sm:hidden"
+              priority
+            />
+            {/* Desktop logo — dark on home, standard elsewhere (hidden sm:block) */}
             <Image
               src={isHome ? "/assets/dark-logo.png" : "/assets/logo.png"}
               alt="Gruha.ai Logo"
               fill
-              className="object-contain object-left"
+              className="object-contain object-left hidden sm:block"
               priority
             />
           </div>
@@ -48,7 +57,7 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
 
         <div className="flex items-center gap-3">
           {/* Mobile CTA - small, always visible */}
-          <Button onClick={openModal} variant="primary" size="sm" className="md:hidden bg-[#fc7c54] text-white hover:bg-[#fc7c54]/90 rounded-lg border-none shadow-none text-xs px-4 py-2">
+          <Button onClick={openModal} variant="primary" size="sm" className="md:hidden bg-[#fc7c54] text-black hover:bg-[#fc7c54]/90 rounded-lg border-none shadow-none text-xs px-4 py-2">
             Join Waitlist
           </Button>
           <Button onClick={openModal} variant="primary" size="sm" className="hidden md:inline-flex bg-[#fc7c54] text-white hover:bg-[#fc7c54]/90 rounded-lg border-none shadow-none text-sm px-6">
