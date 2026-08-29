@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Header } from "@/components/layout/Header";
 import { FooterVariant } from "@/components/layout/FooterVariant";
+import { trackJournalCardClick, trackFilterClick } from "@/lib/analytics";
 
 const fd = "'Newsreader', Georgia, serif";
 const fu = "'Inter Tight', system-ui, sans-serif";
@@ -356,13 +357,10 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
                     <button
                       key={filter}
                       onClick={() => {
-                        // Analytics instrumentation event
-                        if (typeof window !== "undefined" && (window as any).gtag) {
-                          (window as any).gtag("event", "filter_pill_click", {
-                            filter_name: filter,
-                            previous_filter: activeFilter,
-                          });
-                        }
+                        trackFilterClick({
+                          filter,
+                          previous_filter: activeFilter,
+                        });
                         setActiveFilter(filter);
                       }}
                       className={`px-4 py-2 rounded-full text-[12.5px] font-medium transition-all cursor-pointer whitespace-nowrap font-inter shrink-0 ${isActive
@@ -514,7 +512,27 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
                 );
 
                 return targetHref ? (
-                  <Link key={journal.id} href={targetHref} className="block no-underline">
+                  <Link
+                    key={journal.id}
+                    href={targetHref}
+                    onClick={() => {
+                      trackJournalCardClick({
+                        journal_id: journal.id,
+                        journal_title: journal.title,
+                        location,
+                        filter: activeFilter === "All" ? "" : activeFilter,
+                      });
+                      // Signal the details page that this visit began with a card
+                      // click, so it skips firing `journal_viewed` (which is reserved
+                      // for direct/shared-link visits only). Read + cleared on mount.
+                      try {
+                        sessionStorage.setItem("journal_card_clicked", "1");
+                      } catch {
+                        // sessionStorage unavailable (e.g. private mode) - ignore.
+                      }
+                    }}
+                    className="block no-underline"
+                  >
                     {cardInner}
                   </Link>
                 ) : (

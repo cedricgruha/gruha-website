@@ -77,6 +77,47 @@ export function trackCategoryClick(override?: { category?: string; page?: string
   });
 }
 
+/**
+ * Journal card click on the listing page (card -> details navigation).
+ */
+export function trackJournalCardClick(override?: {
+  journal_id?: string | number;
+  journal_title?: string;
+  location?: string;
+  filter?: string;
+}): void {
+  track("journal_card_click", {
+    journal_id: override?.journal_id ?? null,
+    journal_title: override?.journal_title ?? "",
+    location: override?.location ?? "",
+    filter: override?.filter ?? "",
+    page: typeof window !== "undefined" ? window.location.pathname : "",
+  });
+}
+
+/**
+ * Journal details page view. Fired on mount of a slug page so EVERY visit is
+ * captured (card click, direct link, social share, refresh) with the slug as a
+ * structured parameter — complementary to the automatic GA4 page_view.
+ */
+export function trackJournalView(override?: { journal?: string; page?: string }): void {
+  const page = override?.page ?? (typeof window !== "undefined" ? window.location.pathname : "");
+  track("journal_viewed", {
+    journal: override?.journal ?? journalSlugFromPath(page),
+    page,
+  });
+}
+
+/**
+ * Filter pill selection on the Journals listing page.
+ */
+export function trackFilterClick(override?: { filter?: string; previous_filter?: string }): void {
+  track("filter_pill_click", {
+    filter_name: override?.filter ?? "",
+    previous_filter: override?.previous_filter ?? "",
+  });
+}
+
 // Extract the journal slug from a path like /community-journals/the-quiet-crorepatis
 // (or /community-journals/<slug>). Returns "" when not a journal page.
 function journalSlugFromPath(page: string): string {
