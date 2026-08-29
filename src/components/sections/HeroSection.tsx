@@ -14,6 +14,7 @@ import {
   ChevronLeft
 } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
+import { trackCategoryClick } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
 interface JournalCard {
@@ -143,7 +144,7 @@ export const HeroSection = () => {
 
           <button
             ref={btnRef}
-            onClick={openModal}
+            onClick={() => openModal("hero")}
             className="bg-[#fc7c54] text-black md:text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 mb-8 md:mb-16 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
           >
             Join Waitlist
@@ -268,7 +269,7 @@ export const CommunityJournalsSection = () => {
               Stories inspired by real homebuying journeys
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-light">
-              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 10,000+ home seekers.
+              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 1,000+ home seekers.
             </p>
           </div>
 
@@ -308,14 +309,15 @@ export const CommunityJournalsSection = () => {
           <div
             ref={scrollContainerRef}
             onScroll={checkScroll}
-            className="flex gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-6"
+            className="flex gap-3 sm:gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-6"
           >
             {categoriesList.map((cat) => {
               return (
                 <Link
                   key={cat.title}
                   href={`/community-journals?filter=${encodeURIComponent(cat.title)}`}
-                  className="group/card relative min-w-[130px] sm:min-w-[210px] md:min-w-[230px] h-[170px] sm:h-[200px] md:h-[220px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
+                  onClick={() => trackCategoryClick({ category: cat.title })}
+                  className="group/card relative min-w-[140px] sm:min-w-[210px] md:min-w-[230px] h-[170px] sm:h-[200px] md:h-[220px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
                 >
                   <Image
                     src={cat.image}
@@ -344,7 +346,7 @@ export const CommunityJournalsSection = () => {
         <p className="text-center text-sm text-slate-600 mt-10 font-normal">
           <span className="text-[#fc7c54] font-bold">{allJournals.length}+</span> journals across{" "}
           <span className="text-[#fc7c54] font-bold">{categoriesList.length}+</span> categories shared by{" "}
-          <span className="text-[#fc7c54] font-bold">10,000+</span> home seekers.
+          <span className="text-[#fc7c54] font-bold">1,000+</span> home seekers.
         </p>
 
       </div>

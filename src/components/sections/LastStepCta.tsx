@@ -25,7 +25,7 @@ export const LastStepCta = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button 
-            onClick={openModal}
+            onClick={() => openModal("last_step_cta")}
             className="w-full sm:w-auto bg-[#FE6235] hover:bg-[#E05020] text-white font-inter font-semibold text-lg px-10 py-4 rounded-2xl flex items-center justify-center gap-3 transition-all duration-300 shadow-xl shadow-[#FE6235]/20 hover:-translate-y-1"
           >
             Join the Waitlist
