@@ -34,7 +34,7 @@ export const WaitlistSection = () => {
           
           {/* CTA Button */}
           <div className="flex-shrink-0 w-full md:w-auto">
-            <button onClick={openModal} className="w-full md:w-auto bg-[#FE6235] hover:bg-[#E05020] text-white font-inter font-semibold text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300 group shadow-lg shadow-[#FE6235]/20">
+            <button onClick={() => openModal("waitlist_section")} className="w-full md:w-auto bg-[#FE6235] hover:bg-[#E05020] text-white font-inter font-semibold text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300 group shadow-lg shadow-[#FE6235]/20">
               Join the Waitlist
               <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
             </button>

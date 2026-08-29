@@ -79,7 +79,7 @@ const { openModal } = useWaitlist();
               height={300}
               className="w-full max-w-[240px] md:max-w-[380px] lg:max-w-[420px] h-auto object-contain pointer-events-none"
             />
-            <button onClick={openModal}
+            <button onClick={() => openModal("final_cta")}
               ref={buttonRef}
               className="w-full md:w-auto bg-[#3DBCA6] hover:bg-[#32A893] text-white font-inter font-medium text-sm px-10 py-3 rounded-md shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg relative z-20"
             >

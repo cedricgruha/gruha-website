@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Header } from "@/components/layout/Header";
 import { FooterVariant } from "@/components/layout/FooterVariant";
+import { trackJournalCardClick, trackFilterClick } from "@/lib/analytics";
 
 const fd = "'Newsreader', Georgia, serif";
 const fu = "'Inter Tight', system-ui, sans-serif";
@@ -356,13 +357,10 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
                     <button
                       key={filter}
                       onClick={() => {
-                        // Analytics instrumentation event
-                        if (typeof window !== "undefined" && (window as any).gtag) {
-                          (window as any).gtag("event", "filter_pill_click", {
-                            filter_name: filter,
-                            previous_filter: activeFilter,
-                          });
-                        }
+                        trackFilterClick({
+                          filter,
+                          previous_filter: activeFilter,
+                        });
                         setActiveFilter(filter);
                       }}
                       className={`px-4 py-2 rounded-full text-[12.5px] font-medium transition-all cursor-pointer whitespace-nowrap font-inter shrink-0 ${isActive
@@ -514,7 +512,27 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
                 );
 
                 return targetHref ? (
-                  <Link key={journal.id} href={targetHref} className="block no-underline">
+                  <Link
+                    key={journal.id}
+                    href={targetHref}
+                    onClick={() => {
+                      trackJournalCardClick({
+                        journal_id: journal.id,
+                        journal_title: journal.title,
+                        location,
+                        filter: activeFilter === "All" ? "" : activeFilter,
+                      });
+                      // Signal the details page that this visit began with a card
+                      // click, so it skips firing `journal_viewed` (which is reserved
+                      // for direct/shared-link visits only). Read + cleared on mount.
+                      try {
+                        sessionStorage.setItem("journal_card_clicked", "1");
+                      } catch {
+                        // sessionStorage unavailable (e.g. private mode) - ignore.
+                      }
+                    }}
+                    className="block no-underline"
+                  >
                     {cardInner}
                   </Link>
                 ) : (
@@ -549,21 +567,22 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
         </section>
 
         {/* ── BOTTOM PERSONA CTA BANNER ───────────────────────────────────── */}
+        {/*
         <section className="px-6 md:px-12 pb-20 max-w-[1400px] mx-auto w-full">
           <div className="relative rounded-[24px] bg-gradient-to-r from-[#FFF5F2] via-[#FEF0EC] to-[#FFF7F5] border border-[#FDBA74]/40 p-8 sm:p-10 shadow-sm overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6">
-
+*/}
             {/* Left Notebook Graphic */}
-            <div className="hidden sm:block shrink-0 w-16 h-16 relative">
+            {/*<div className="hidden sm:block shrink-0 w-16 h-16 relative">
               <Image
                 src="/assets/journal_notebook_icon.png"
                 alt="Notebook Icon"
                 fill
                 className="object-contain"
               />
-            </div>
+            </div>*/}
 
             {/* Middle Content Text */}
-            <div className="flex flex-col gap-1 text-center md:text-left flex-1 max-w-xl">
+            {/*<div className="flex flex-col gap-1 text-center md:text-left flex-1 max-w-xl">
               <h3
                 className="text-[22px] sm:text-[26px] font-semibold text-[#111827] leading-tight"
                 style={{ fontFamily: fd }}
@@ -575,10 +594,10 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
               >
                 Our AI can synthesize a custom journal based on your unique investment DNA, lifestyle needs, and location preferences.
               </p>
-            </div>
+            </div>*/}
 
             {/* CTA Button */}
-            <button
+            {/*<button
               className="px-5 py-3 rounded-xl bg-[#DD5128] hover:bg-[#C8441F] text-white font-medium text-[14px] flex items-center gap-2.5 shadow-2xs hover:shadow-xs transition-all shrink-0 cursor-pointer font-inter"
             >
               <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
@@ -586,20 +605,21 @@ export const CommunityJournalsClient: React.FC<{ journals: JournalCard[]; initia
                 <path d="M19 14L19.6 16.2L21.8 16.8L19.6 17.4L19 19.6L18.4 17.4L16.2 16.8L18.4 16.2L19 14Z" />
               </svg>
               <span>Generate your own journal</span>
-            </button>
+            </button>*/}
 
             {/* Right Homebuyers Group Graphic */}
-            <div className="hidden lg:block shrink-0 w-[220px] h-[100px] relative">
+            {/*<div className="hidden lg:block shrink-0 w-[220px] h-[100px] relative">
               <Image
                 src="/assets/footer-group-trans.png"
                 alt="Gruha Homebuyers Team"
                 fill
                 className="object-contain"
               />
-            </div>
+            </div>*/}
+         {/*
           </div>
         </section>
-
+*/}
       </main>
       <FooterVariant />
       <style dangerouslySetInnerHTML={{

@@ -32,7 +32,7 @@ export const MobileBottomCtaBar: React.FC<MobileBottomCtaBarProps> = ({
       <div className="max-w-md mx-auto flex items-center gap-2.5">
         <button
           type="button"
-          onClick={openModal}
+          onClick={() => openModal("mobile_bottom_bar")}
           className="group relative flex-1 flex items-center justify-center gap-1.5 py-3 px-3.5 text-[13px] font-bold rounded-xl text-white overflow-hidden transition-all active:scale-[0.98] cursor-pointer"
           style={{
             background: "#f25a2b",

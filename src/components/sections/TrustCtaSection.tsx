@@ -48,7 +48,7 @@ export const TrustCtaSection = () => {
           
           {/* Right: CTA Button */}
           <div className="flex-shrink-0 w-full md:w-auto flex justify-center md:justify-end">
-            <button onClick={openModal} className="w-full md:w-auto bg-[#8BD8BE] hover:bg-[#74C9AD] text-[#111] font-inter font-medium text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300">
+            <button onClick={() => openModal("trust_cta")} className="w-full md:w-auto bg-[#8BD8BE] hover:bg-[#74C9AD] text-[#111] font-inter font-medium text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300">
               Join the Waitlist
               <ArrowRight className="w-4 h-4" />
             </button>

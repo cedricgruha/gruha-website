@@ -10,6 +10,7 @@ import { FooterVariant } from "@/components/layout/FooterVariant";
 import journals from "@/data/community-journals.json";
 
 import { MobileBottomCtaBar } from "./_components/MobileBottomCtaBar";
+import { JournalViewTracker } from "./_components/JournalViewTracker";
 
 interface JournalSlugPageProps {
   params: Promise<{ slug: string }>;
@@ -188,6 +189,7 @@ export default async function JournalSlugPageV0({
       />
 
       <Header forceSolid />
+      <JournalViewTracker slug={slug} />
 
       {/* Main wrapper on light grey background */}
       <main className="min-h-screen bg-[#F3F6F9] text-[#111821] antialiased pt-16 pb-8 lg:pb-8">

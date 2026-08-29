@@ -14,6 +14,7 @@ import {
   ChevronLeft
 } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
+import { trackCategoryClick } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
 interface JournalCard {
@@ -81,7 +82,7 @@ export const HeroSection = () => {
         <span
           key={idx}
           className={`word inline-block mr-[0.28em] ${
-            isOrange ? 'text-[#fc7c54] font-medium' : 'text-black font-normal'
+            isOrange ? 'text-[#fc7c54] font-medium' : 'text-white md:text-black font-normal'
           }`}
         >
           {word}
@@ -99,14 +100,26 @@ export const HeroSection = () => {
 
   return (
     <>
-      <section ref={containerRef} className="relative pt-24 pb-20 bg-white text-black overflow-hidden">
+      <section ref={containerRef} className="relative pt-24 pb-8 sm:pb-20 bg-white text-black overflow-hidden">
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0">
+          {/* Mobile background */}
+          <Image
+            src="/assets/hero/hero-background.png"
+            alt="Hero Background"
+            fill
+            className="object-cover object-top sm:hidden"
+            priority
+            sizes="100vw"
+          />
+          {/* Mobile gradient overlay (below md) — classic bottom-dark hero gradient */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 md:hidden pointer-events-none" />
+          {/* Desktop background (sm and up) */}
           <Image
             src="/assets/hero/hero.png"
             alt="Hero Background"
             fill
-            className="object-cover object-top"
+            className="object-cover object-top hidden sm:block"
             priority
             sizes="100vw"
           />
@@ -116,7 +129,7 @@ export const HeroSection = () => {
         <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center pt-12 md:pt-16">
           <h1
             ref={headlineRef}
-            className="font-serif text-slate-900 max-w-3xl mx-auto mb-5 font-normal tracking-tight"
+            className="font-fraunces text-white md:text-slate-900 max-w-3xl mx-auto mb-5 font-normal tracking-tight"
             style={{ fontSize: 'clamp(32px, 5vw, 54px)', lineHeight: '1.15' }}
           >
             {renderHeadline()}
@@ -124,27 +137,27 @@ export const HeroSection = () => {
 
           <p
             ref={subheadlineRef}
-            className="font-sans text-sm md:text-base text-black max-w-lg mx-auto mb-8"
+            className="font-inter text-sm md:text-base text-white md:text-black max-w-lg mx-auto mb-8"
           >
             Property search is a painful task. We are here to show that it does not have to be painful.
           </p>
 
           <button
             ref={btnRef}
-            onClick={openModal}
-            className="bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 mb-16 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
+            onClick={() => openModal("hero")}
+            className="bg-[#fc7c54] text-black md:text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 mb-8 md:mb-16 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
           >
             Join Waitlist
           </button>
 
-          {/* Feature Highlights Grid */}
-          <div ref={featuresRef} className="grid grid-cols-2 md:flex md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
+          {/* Feature Highlights Grid — hidden on mobile, shown md+ */}
+          <div ref={featuresRef} className="hidden md:flex md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
             {featureHighlights.map((feature, idx) => (
               <div key={idx} className="flex items-center gap-3 text-left">
                 <div className="w-10 h-10 rounded-full border border-white/5 bg-white/10 backdrop-blur-sm flex items-center justify-center text-black shrink-0">
                   {feature.icon}
                 </div>
-                <span className="text-xs text-black font-sans leading-snug max-w-[120px]">
+                <span className="text-xs text-black font-inter leading-snug max-w-[120px]">
                   {feature.text}
                 </span>
               </div>
@@ -161,42 +174,47 @@ export const HeroSection = () => {
 /* ─────────────────────────────────────────────────────────────────────────────
    2. COMMUNITY JOURNALS CAROUSEL SECTION
    ───────────────────────────────────────────────────────────────────────────── */
-function journalCategory(journal: JournalCard): string {
-  const s = (journal.segment || "").trim().toLowerCase();
-  const t = (journal.tags || []).join(" ").toLowerCase();
-  if (s.startsWith("pre-launch") || s.includes("pre-launch") || t.includes("pre-launch") || t.includes("eoi")) return "Pre-launch";
-  if (s.startsWith("nri")) return "NRI & Returnees";
-  if (s.includes("/ upgrader") || t.includes("upgrader")) return "Upgraders";
-  if (s.includes("/ legacy")) return "Legacy";
-  if (s.includes("/ lifestyle") || t.includes("lifestyle")) return "Lifestyle";
-  if (s.startsWith("investors & wealth")) return "Investors & Wealth";
-  if (s.startsWith("plot buyers")) return "Plot Buyers";
-  if (s.startsWith("young professionals")) return "Young Professionals & First-Timers";
-  if (s.startsWith("families")) return "Families";
-  if (s.startsWith("seniors")) return "Seniors & Downsizers";
-  if (s.startsWith("special convictions")) return "Special Convictions";
-  if (s.startsWith("primary purchase")) return "Primary Purchase";
-  return "Community";
-}
+// The 9 categories exactly match the Community Journals page filter pills
+// (order mirrors that page). Counts are computed per-filter with the same
+// matching rules as the journal page, so the hero count equals the filter count
+// (a journal can appear under more than one filter on the page).
+const CATEGORY_FILTERS = [
+  "Investment",
+  "Pre-launch",
+  "First Home",
+  "Families",
+  "Seniors & Downsizers",
+  "Plots & Villas",
+  "NRI & Returnees",
+  "Upgraders",
+  "Specialists",
+];
 
-/* Map a category's display title to the Community Journals page filter name so
-   clicking a category card lands on the journals list with that filter active. */
-function categoryToFilter(title: string): string {
-  switch (title) {
-    case "Pre-launch": return "Pre-launch";
-    case "Investors & Wealth":
-    case "Lifestyle": return "Investment";
-    case "Young Professionals & First-Timers": return "First Home";
-    case "Families":
-    case "Legacy": return "Families";
-    case "Seniors & Downsizers": return "Seniors & Downsizers";
-    case "Plot Buyers": return "Plots & Villas";
-    case "NRI & Returnees": return "NRI & Returnees";
-    case "Upgraders": return "Upgraders";
-    case "Special Convictions":
-    case "Primary Purchase": return "Specialists";
-    default: return "All";
-  }
+// Group-matching config identical to the journals page GROUP_FILTER_MAP.
+const CATEGORY_GROUP: Record<string, { segment: string[]; tags: string[] }> = {
+  "Investment": { segment: ["investors & wealth"], tags: [] },
+  "Pre-launch": { segment: ["pre-launch", "eoi", "pre launch"], tags: ["eoi", "pre-launch", "prelaunch"] },
+  "First Home": { segment: ["young professionals"], tags: [] },
+  "Families": { segment: ["families"], tags: [] },
+  "Seniors & Downsizers": { segment: ["seniors"], tags: [] },
+  "Plots & Villas": { segment: ["plot buyers"], tags: [] },
+  "NRI & Returnees": { segment: ["nri"], tags: [] },
+  "Upgraders": { segment: ["upgraders"], tags: ["upgrader"] },
+  "Specialists": { segment: ["special convictions", "primary purchase"], tags: ["special convictions"] },
+};
+
+// Does a journal belong to a filter given its current search/match state?
+function journalMatchesFilter(journal: JournalCard, filter: string): boolean {
+  if (filter === "All") return true;
+  const segment = (journal.segment || "").toLowerCase();
+  const tags = (journal.tags || []).map((t) => t.toLowerCase());
+  const group = CATEGORY_GROUP[filter];
+  const segHit = !!group && group.segment.some((t) => segment.startsWith(t));
+  const tagHit = !!group && group.tags.some((t) => tags.some((tag) => tag.includes(t)));
+  if (segHit || tagHit) return true;
+  // Fallback: generic tag keyword (mirrors the journal page).
+  const filterLower = filter.toLowerCase();
+  return tags.some((t) => t.includes(filterLower));
 }
 
 export const CommunityJournalsSection = () => {
@@ -205,15 +223,11 @@ export const CommunityJournalsSection = () => {
   const [canScrollRight, setCanScrollRight] = useState(true);
 
   const categoriesList = useMemo(() => {
-    const map: Record<string, { title: string; count: number; image: string }> = {};
-    for (const journal of allJournals as JournalCard[]) {
-      const title = journalCategory(journal);
-      if (!map[title]) {
-        map[title] = { title, count: 0, image: journal.image };
-      }
-      map[title].count += 1;
-    }
-    return Object.values(map).sort((a, b) => b.count - a.count);
+    const journals = allJournals as JournalCard[];
+    return CATEGORY_FILTERS.map((title) => {
+      const matching = journals.filter((j) => journalMatchesFilter(j, title));
+      return { title, count: matching.length, image: matching[0]?.image || "/journals/default.png" };
+    });
   }, []);
 
   const checkScroll = () => {
@@ -246,7 +260,7 @@ export const CommunityJournalsSection = () => {
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header Row */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-2 sm:mb-8 gap-4">
           <div>
             <span className="text-xs font-bold uppercase tracking-wider text-[#fc7c54] block mb-1">
               COMMUNITY JOURNALS
@@ -255,7 +269,7 @@ export const CommunityJournalsSection = () => {
               Stories inspired by real homebuying journeys
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-light">
-              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 10,000+ home seekers.
+              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 1,000+ home seekers.
             </p>
           </div>
 
@@ -274,20 +288,20 @@ export const CommunityJournalsSection = () => {
           {canScrollLeft && (
             <button
               onClick={() => handleScroll('left')}
-              className="absolute -left-12 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white text-slate-800 shadow-lg border border-slate-100 flex items-center justify-center hover:scale-105 active:scale-95 transition-all cursor-pointer"
+              className="absolute -left-1 sm:-left-4 xl:-left-14 top-1/2 -translate-y-1/2 z-30 w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-white text-slate-800 shadow-lg border border-slate-100 flex items-center justify-center hover:scale-105 active:scale-95 transition-all cursor-pointer"
               aria-label="Previous"
             >
-              <ChevronLeft size={22} />
+              <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2} />
             </button>
           )}
 
           {canScrollRight && (
             <button
               onClick={() => handleScroll('right')}
-              className="absolute -right-12 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white text-slate-800 shadow-lg border border-slate-100 flex items-center justify-center hover:scale-105 active:scale-95 transition-all cursor-pointer"
+              className="absolute -right-1 sm:-right-4 xl:-right-14 top-1/2 -translate-y-1/2 z-30 w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-white text-slate-800 shadow-lg border border-slate-100 flex items-center justify-center hover:scale-105 active:scale-95 transition-all cursor-pointer"
               aria-label="Next"
             >
-              <ChevronRight size={22} />
+              <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2} />
             </button>
           )}
 
@@ -295,14 +309,15 @@ export const CommunityJournalsSection = () => {
           <div
             ref={scrollContainerRef}
             onScroll={checkScroll}
-            className="flex gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-2"
+            className="flex gap-3 sm:gap-4 overflow-x-auto hide-scrollbar scroll-smooth py-6"
           >
             {categoriesList.map((cat) => {
               return (
                 <Link
                   key={cat.title}
-                  href={`/community-journals?filter=${encodeURIComponent(categoryToFilter(cat.title))}`}
-                  className="group/card relative min-w-[200px] sm:min-w-[220px] md:min-w-[230px] h-[200px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.02] select-none"
+                  href={`/community-journals?filter=${encodeURIComponent(cat.title)}`}
+                  onClick={() => trackCategoryClick({ category: cat.title })}
+                  className="group/card relative min-w-[140px] sm:min-w-[210px] md:min-w-[230px] h-[170px] sm:h-[200px] md:h-[220px] rounded-2xl overflow-hidden shrink-0 bg-slate-900 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[1.02] select-none"
                 >
                   <Image
                     src={cat.image}
@@ -331,7 +346,7 @@ export const CommunityJournalsSection = () => {
         <p className="text-center text-sm text-slate-600 mt-10 font-normal">
           <span className="text-[#fc7c54] font-bold">{allJournals.length}+</span> journals across{" "}
           <span className="text-[#fc7c54] font-bold">{categoriesList.length}+</span> categories shared by{" "}
-          <span className="text-[#fc7c54] font-bold">10,000+</span> home seekers.
+          <span className="text-[#fc7c54] font-bold">1,000+</span> home seekers.
         </p>
 
       </div>
