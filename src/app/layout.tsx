@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
+import { headers } from "next/headers";
 import "./globals.css";
 import { AppProviders } from "@/components/ui/AppProviders";
 import Script from "next/script";
@@ -83,30 +84,39 @@ export const viewport: Viewport = {
   themeColor: "#000000",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Only load Google Analytics on the production domain (gruha.ai / www.gruha.ai).
+  // This prevents localhost/staging/preview traffic from sending page_views.
+  const host = ((await headers()).get("host") ?? "").toLowerCase();
+  const isProdHost = host === "gruha.ai" || host === "www.gruha.ai";
+
   return (
     <html
       lang="en"
       className={`${fraunces.variable} ${inter.variable} antialiased`}
     >
       <body className="flex flex-col font-inter bg-white text-dark">
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-VDNW8C2RNE"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+        {isProdHost && (
+          <>
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-VDNW8C2RNE"
+              strategy="lazyOnload"
+            />
+            <Script id="google-analytics" strategy="lazyOnload">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
 
-            gtag('config', 'G-VDNW8C2RNE');
-          `}
-        </Script>
+                gtag('config', 'G-VDNW8C2RNE');
+              `}
+            </Script>
+          </>
+        )}
         <Script id="org-jsonld" type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

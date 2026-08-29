@@ -12,14 +12,30 @@
 // this never crashes if the snippet fails to load.
 type GtagFn = (...args: unknown[]) => void;
 
+// Only these hosts are allowed to send events (production domain).
+const ALLOWED_HOSTS = new Set(["gruha.ai", "www.gruha.ai"]);
+
+function isAllowedHost(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return ALLOWED_HOSTS.has(window.location.hostname.toLowerCase());
+  } catch {
+    return false;
+  }
+}
+
 function getGtag(): GtagFn | undefined {
   if (typeof window === "undefined") return undefined;
   const w = window as unknown as { gtag?: GtagFn };
   return w.gtag;
 }
 
-/** Fire an event only when GA is loaded — silently no-op otherwise. */
+/** Fire an event only when GA is loaded AND on the production domain. */
 function track(eventName: string, params: Record<string, unknown>): void {
+
+  // Never send events from localhost/staging/preview domains.
+  if (!isAllowedHost()) return;
+
   const gtag = getGtag();
   if (!gtag) return;
   try {
