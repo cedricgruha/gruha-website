@@ -209,7 +209,7 @@
           "stage": "S3",
           "type": "stage",
           "title": "L4: The 4BHK Shortlist",
-          "desc": "4BHK shortlist: PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, but possession 2027 vs a child starting school) vs Brigade Cornerstone Utopia's largest units (value).",
+          "desc": "4BHK shortlist: PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, but possession 2028 vs a child starting school) vs Brigade Cornerstone Utopia's largest units (value).",
           "icon": "Building2",
           "x": 790,
           "y": 80,
@@ -435,7 +435,7 @@
         },
         {
           "title": "Panathur — Sobha Neopolis (New-Build Option)",
-          "description": "4BHKs at ~₹15,600/sqft, newer and better-specified — but possession 2027 loses to a 7-year-old starting a school year in a home that exists.",
+          "description": "4BHKs at ~₹15,600/sqft, newer and better-specified — but possession 2028 loses to a 7-year-old starting a school year in a home that exists.",
           "projects": 3,
           "siteVisits": 2,
           "latlong": {
@@ -610,7 +610,7 @@
           "title": "The New-Build Option",
           "name": "Sobha Neopolis (4BHK)",
           "price": "~₹15,600/sqft",
-          "possession": "2027 — vs school year",
+          "possession": "2028 — vs school year",
           "psf": "Newer, better-specified",
           "location": "Panathur",
           "imageSrc": "/journals/the-one-more-room/projects/sobha_neopolis.png"
@@ -618,7 +618,7 @@
         {
           "title": "The Value Floor",
           "name": "Brigade Cornerstone Utopia (large units)",
-          "price": "~₹9–11.5K/sqft resale",
+          "price": "₹14,550/ sq ft resale",
           "possession": "Ready township",
           "psf": "Largest ready units",
           "location": "Whitefield / Varthur Rd",
@@ -648,7 +648,7 @@
         },
         {
           "icon": "Hourglass",
-          "title": "Neopolis 2027 Possession",
+          "title": "Neopolis 2028 Possession",
           "count": "lost to a 7-year-old's school year"
         },
         {
@@ -950,7 +950,7 @@
       "stage": "S3",
       "type": "stage",
       "title": "L4: The 4BHK Shortlist",
-      "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2027 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
+      "desc": "PLH large apartments (2,600–2,830 sqft resale) vs Sobha Neopolis 4BHK (new, possession 2028 vs a school year) vs Brigade Cornerstone Utopia's largest units (value).",
       "icon": "Building2",
       "x": 760,
       "y": 120,
