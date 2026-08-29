@@ -269,7 +269,7 @@ export const CommunityJournalsSection = () => {
               Stories inspired by real homebuying journeys
             </h2>
             <p className="text-sm text-slate-600 mt-2 font-light">
-              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 10,000+ home seekers.
+              Explore experiences across {categoriesList.length}+ categories and {allJournals.length}+ journals shared by 1,000+ home seekers.
             </p>
           </div>
 
@@ -346,7 +346,7 @@ export const CommunityJournalsSection = () => {
         <p className="text-center text-sm text-slate-600 mt-10 font-normal">
           <span className="text-[#fc7c54] font-bold">{allJournals.length}+</span> journals across{" "}
           <span className="text-[#fc7c54] font-bold">{categoriesList.length}+</span> categories shared by{" "}
-          <span className="text-[#fc7c54] font-bold">10,000+</span> home seekers.
+          <span className="text-[#fc7c54] font-bold">1,000+</span> home seekers.
         </p>
 
       </div>
