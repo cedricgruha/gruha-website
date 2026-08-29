@@ -160,7 +160,7 @@ export const JournalStartHereV0: React.FC<JournalStartHereV0Props> = ({
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
                 <button
                   type="button"
-                  onClick={openModal}
+                  onClick={() => openModal("start_here")}
                   className="group relative w-full sm:w-auto px-6 py-3 text-base font-bold rounded-xl text-white overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(242,90,43,0.4)] hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
                   style={{ background: "#f25a2b", fontFamily: fu }}
                 >

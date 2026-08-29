@@ -48,8 +48,11 @@ export function trackCtaClick(override?: {
     cta,
     // The page where the CTA was clicked (fallback: current URL).
     page: override?.page ?? (typeof window !== "undefined" ? window.location.pathname : ""),
-    // Specific CTA element, when known (e.g. "header", "hero", "sidebar").
-    ...(override?.source ? { source: override.source } : {}),
+    // Which CTA section was clicked (e.g. "header", "hero", "sidebar",
+    // "mobile_bottom_bar"). Named `cta_source` (not `source`) to avoid colliding
+    // with GA4's traffic-source `source` parameter. Register `cta` + `cta_source`
+    // as event-scoped custom dimensions in GA4 to report per-section counts.
+    ...(override?.source ? { cta_source: override.source } : {}),
   });
 }
 

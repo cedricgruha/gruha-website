@@ -27,7 +27,7 @@ export const CtaSection = () => {
           the <span className="text-[#8B5CF6]">future of real estate</span> decisions.
         </h2>
 
-          <button onClick={openModal} className="bg-[#8B5CF6] hover:bg-[#7C3AED] text-white font-inter font-semibold text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300">
+          <button onClick={() => openModal("cta_section")} className="bg-[#8B5CF6] hover:bg-[#7C3AED] text-white font-inter font-semibold text-sm px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300">
           Join the Waitlist
           <ArrowRight className="w-4 h-4" />
         </button>

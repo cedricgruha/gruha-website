@@ -85,7 +85,7 @@ export const CohortSection = () => {
             </p>
             
             <div>
-              <button onClick={openModal} className="bg-[#EE7456] hover:bg-[#E06548] text-white font-inter font-medium text-sm px-5 py-2.5 rounded-xl flex items-center gap-2 transition-colors duration-300 group shadow-lg shadow-[#EE7456]/20">
+              <button onClick={() => openModal("cohort")} className="bg-[#EE7456] hover:bg-[#E06548] text-white font-inter font-medium text-sm px-5 py-2.5 rounded-xl flex items-center gap-2 transition-colors duration-300 group shadow-lg shadow-[#EE7456]/20">
                 Join Cohort 01
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </button>

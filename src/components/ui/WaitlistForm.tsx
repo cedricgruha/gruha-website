@@ -26,11 +26,11 @@ interface WaitlistFormProps {
   showLabels?: boolean;
 }
 
-export const WaitlistForm: React.FC<WaitlistFormProps> = ({ 
-  className = "", 
-  title, 
+export const WaitlistForm: React.FC<WaitlistFormProps> = ({
+  className = "",
+  title,
   subtitle,
-  showLabels = true 
+  showLabels = true
 }) => {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -90,7 +90,9 @@ export const WaitlistForm: React.FC<WaitlistFormProps> = ({
         <div>
           <h3 className="font-fraunces text-2xl font-semibold text-[#1C1C1E] mb-2">You&apos;re on the list!</h3>
           <p className="font-inter text-gray-600 max-w-sm">
-            We&apos;ll reach out to <span className="font-medium text-[#1C1C1E]">{form.email}</span> when we&apos;re ready for you.
+            We&apos;ll reach out to{" "}
+            <span className="font-medium text-[#1C1C1E]">{form.email}</span>{" "}
+            when we&apos;re ready for you.
           </p>
         </div>
         <button
@@ -111,7 +113,7 @@ export const WaitlistForm: React.FC<WaitlistFormProps> = ({
           {subtitle && <p className="font-inter text-gray-600">{subtitle}</p>}
         </div>
       )}
-      
+
       <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Field

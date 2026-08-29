@@ -122,7 +122,7 @@ export const JournalSidebarCtaCardV0: React.FC<JournalSidebarCtaCardV0Props> = (
           <div className="flex flex-col gap-3">
             <button
               type="button"
-              onClick={openModal}
+              onClick={() => openModal("sidebar")}
               className="group relative w-full flex items-center justify-center gap-2 py-3.5 px-4 text-[14px] font-bold rounded-2xl text-white overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
               style={{
                 background: "#f25a2b",
