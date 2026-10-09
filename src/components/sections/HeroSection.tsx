@@ -3,6 +3,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { gsap } from 'gsap';
 import {
   Layers,
@@ -16,6 +17,10 @@ import {
 import { useWaitlist } from '@/contexts/WaitlistContext';
 import { trackCategoryClick } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
+
+const GruhaExplainerSection = dynamic(() =>
+  import('./gruha-explainer/GruhaExplainerSection').then((mod) => mod.GruhaExplainerSection)
+);
 
 interface JournalCard {
   id: number;
@@ -166,7 +171,10 @@ export const HeroSection = () => {
         </div>
       </section>
 
-      {/* 2. COMMUNITY JOURNALS SECTION */}
+      {/* 2. WHAT GRUHA STANDS FOR — interactive explainer */}
+      <GruhaExplainerSection />
+
+      {/* 3. COMMUNITY JOURNALS SECTION */}
       <CommunityJournalsSection />
     </>
   );
