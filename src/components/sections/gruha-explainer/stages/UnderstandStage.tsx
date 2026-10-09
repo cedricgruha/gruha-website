@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useId, useRef, useState } from "react";
 import { Mic, RotateCcw } from "lucide-react";
 import { C, EASE } from "../tokens";
-import { LockGlyph, RiyaPortrait, SignalDot, TechGrid, gsap, useSceneTimeline } from "../primitives";
+import { LockGlyph, SignalDot, TechGrid, gsap, useSceneTimeline } from "../primitives";
 import { StageCanvas, StageProps, ToolButton, Toolbar } from "../ui";
 
 const PROMPT = "What does your ideal home look like?";
@@ -14,6 +14,7 @@ const SLOT = { x: 556, y0: 186, gap: 38 };
 
 export function UnderstandStage({ reduced, onSequenceEnd, onInteract }: StageProps) {
   const scope = useRef<HTMLDivElement>(null);
+  const clipId = useId().replace(/:/g, "");
   const [listening, setListening] = useState(false);
 
   const tl = useSceneTimeline(
@@ -40,11 +41,18 @@ export function UnderstandStage({ reduced, onSequenceEnd, onInteract }: StagePro
       const typed = { n: 0 };
 
       tl.set(".resp", { opacity: 0 })
-        // 1 — Riya draws herself on
-        .fromTo(".riya .draw", { drawSVG: "0%" }, { drawSVG: "100%", duration: 1.5, stagger: 0.06, ease: EASE.draw })
-        .fromTo(".ring", { drawSVG: "50% 50%" }, { drawSVG: "0% 100%", duration: 1.2, stagger: 0.15, ease: EASE.inOut }, 0.4)
-        .fromTo(".riya-label", { opacity: 0, y: 6 }, { opacity: 1, y: 0, duration: 0.6, ease: EASE.out }, 1.2)
-        .addLabel("listen", 1.5)
+        .set(".riya-photo", { opacity: 0, scale: 0.95, transformOrigin: "160px 206px" })
+        // 1 — Outer two circular lines draw on
+        .fromTo(".ring", { drawSVG: "50% 50%" }, { drawSVG: "0% 100%", duration: 1.1, stagger: 0.15, ease: EASE.inOut }, 0.1)
+        // Once the inner circular line completes, reveal Riya's photo
+        .fromTo(
+          ".riya-photo",
+          { opacity: 0, scale: 0.95 },
+          { opacity: 1, scale: 1, duration: 0.75, ease: "power2.out" },
+          0.85,
+        )
+        .fromTo(".riya-label", { opacity: 0, y: 6 }, { opacity: 1, y: 0, duration: 0.5, ease: EASE.out }, 1.0)
+        .addLabel("listen", 1.35)
         // 2 — waveform wakes up
         .fromTo(".bars", { opacity: 0 }, { opacity: 1, duration: 0.3 }, "listen")
         .fromTo(amp, { v: 0 }, { v: 1, duration: 0.6, ease: "power2.out" }, "listen")
@@ -127,13 +135,29 @@ export function UnderstandStage({ reduced, onSequenceEnd, onInteract }: StagePro
       <StageCanvas label="Riya asks what your ideal home looks like. Your answers — Bengaluru, 3 BHK, ₹1.5 to 2.5 crore, good schools nearby — become a structured Home Brief.">
         <TechGrid w={720} h={440} />
 
-        {/* Riya */}
+        <defs>
+          <clipPath id={`riya-${clipId}`}>
+            <circle cx="160" cy="206" r="104" />
+          </clipPath>
+        </defs>
+
+        {/* Riya Circular Portrait */}
+        <circle cx="160" cy="206" r="104" fill={C.surface} />
+        <g clipPath={`url(#riya-${clipId})`}>
+          <image
+            className="riya-photo"
+            href="/assets/team/riya-avatar.jpg"
+            x="27"
+            y="95"
+            width="266"
+            height="266"
+            preserveAspectRatio="xMidYMid slice"
+            opacity="0"
+          />
+        </g>
         <g fill="none" strokeLinecap="round">
           <circle className="ring" cx="160" cy="206" r="104" stroke={C.hairline} strokeWidth="1" />
           <circle className="ring" cx="160" cy="206" r="116" stroke={C.mint} strokeWidth="1.2" strokeDasharray="2 6" />
-        </g>
-        <g className="riya" transform="translate(68 112) scale(1.3)">
-          <RiyaPortrait />
         </g>
         <g className="riya-label">
           <text x="160" y="354" textAnchor="middle" fontSize="11" fontWeight="600" letterSpacing="2" fill={C.ink}>

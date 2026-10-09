@@ -3,7 +3,7 @@
 import React, { useEffect, useId, useRef } from "react";
 import { RotateCcw } from "lucide-react";
 import { C, EASE } from "../tokens";
-import { BriefGlyph, IsoBuilding, KabirPortrait, SignalDot, TechGrid, gsap, useSceneTimeline } from "../primitives";
+import { BriefGlyph, IsoBuilding, SignalDot, TechGrid, gsap, useSceneTimeline } from "../primitives";
 import { StageCanvas, StageProps, ToolButton, Toolbar } from "../ui";
 
 const NEEDS = ["Location", "Budget", "Configuration", "Lifestyle"];
@@ -28,16 +28,21 @@ export function RecommendStage({ reduced, onSequenceEnd, onInteract }: StageProp
   const tl = useSceneTimeline(
     scope,
     (tl) => {
-      tl
+      tl.set(".kabir-photo", { opacity: 0, scale: 0.95, transformOrigin: "340px 58px" })
         // 1 — the Home Brief arrives from stage 01
-        .fromTo(".brief", { x: -70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.8, ease: EASE.out })
-        .fromTo(".brief-label", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.5)
+        .fromTo(".brief-group", { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.8, ease: EASE.out })
         // 2 — and decomposes into requirement nodes
         .fromTo(".split", { drawSVG: "0%" }, { drawSVG: "100%", duration: 0.6, stagger: 0.08, ease: EASE.inOut }, 0.7)
         .fromTo(".need", { opacity: 0, x: -12 }, { opacity: 1, x: 0, duration: 0.45, stagger: 0.1, ease: EASE.out }, 1.0)
-        // 3 — Kabir and the matching engine
-        .fromTo(".kabir .draw", { drawSVG: "0%" }, { drawSVG: "100%", duration: 1.1, stagger: 0.04, ease: EASE.draw }, 1.1)
-        .fromTo(".kabir-frame", { drawSVG: "0%" }, { drawSVG: "100%", duration: 0.9, ease: EASE.inOut }, 1.1)
+        // 3 — Kabir circular lines draw on
+        .fromTo(".kabir-ring", { drawSVG: "50% 50%" }, { drawSVG: "0% 100%", duration: 0.9, stagger: 0.12, ease: EASE.inOut }, 1.1)
+        // Once the inner circular line completes, reveal Kabir's photo
+        .fromTo(
+          ".kabir-photo",
+          { opacity: 0, scale: 0.95 },
+          { opacity: 1, scale: 1, duration: 0.65, ease: "power2.out" },
+          1.55,
+        )
         .fromTo(".kabir-label", { opacity: 0, x: -6 }, { opacity: 1, x: 0, duration: 0.5 }, 1.7)
         .fromTo(".engine-part", { drawSVG: "0%" }, { drawSVG: "100%", duration: 0.9, stagger: 0.12, ease: EASE.inOut }, 1.5)
         .fromTo(".engine-link", { drawSVG: "0%" }, { drawSVG: "100%", duration: 0.5 }, 2.0)
@@ -121,15 +126,17 @@ export function RecommendStage({ reduced, onSequenceEnd, onInteract }: StageProp
         <TechGrid w={720} h={440} />
 
         {/* Incoming Home Brief */}
-        <BriefGlyph x={34} y={186} className="brief" />
-        <text className="brief-label" x="56" y="256" textAnchor="middle" fontSize="9" fontWeight="600" letterSpacing="1.5" fill={C.inkSoft}>
-          HOME BRIEF
-        </text>
+        <g className="brief-group">
+          <BriefGlyph x={50} y={186} />
+          <text className="brief-label" x={72} y={256} textAnchor="middle" fontSize="9" fontWeight="600" letterSpacing="1.5" fill={C.inkSoft}>
+            HOME BRIEF
+          </text>
+        </g>
 
         {/* Brief → requirement nodes */}
         <g fill="none" stroke={C.mint} strokeWidth="1">
           {NEED_Y.map((y, i) => (
-            <path key={i} className="split" d={`M80 211 C100 211 100 ${y} 120 ${y}`} />
+            <path key={i} className="split" d={`M94 211 C107 211 107 ${y} 120 ${y}`} />
           ))}
         </g>
         {NEEDS.map((n, i) => (
@@ -153,27 +160,38 @@ export function RecommendStage({ reduced, onSequenceEnd, onInteract }: StageProp
           <SignalDot key={i} className={`in-dot-${i}`} color={C.blue} r={2.5} />
         ))}
 
-        {/* Kabir */}
+        {/* Kabir Circular Portrait */}
         <defs>
           <clipPath id={`kabir-${clip}`}>
             <circle cx="340" cy="58" r="40" />
           </clipPath>
         </defs>
-        <circle className="kabir-frame" cx="340" cy="58" r="40" fill={C.surface} stroke={C.hairline} />
+        <circle cx="340" cy="58" r="40" fill={C.surface} />
         <g clipPath={`url(#kabir-${clip})`}>
-          <g className="kabir" transform="translate(303 24) scale(0.52)">
-            <KabirPortrait />
-          </g>
+          <image
+            className="kabir-photo"
+            href="/assets/team/kabir-avatar.jpg"
+            x="308"
+            y="17"
+            width="104"
+            height="104"
+            preserveAspectRatio="xMidYMid slice"
+            opacity="0"
+          />
+        </g>
+        <g fill="none" strokeLinecap="round">
+          <circle className="kabir-ring" cx="340" cy="58" r="40" stroke={C.hairline} strokeWidth="1" />
+          <circle className="kabir-ring" cx="340" cy="58" r="46" stroke={C.blue} strokeWidth="1.1" strokeDasharray="2 5" />
         </g>
         <g className="kabir-label">
-          <text x="392" y="54" fontSize="11" fontWeight="600" letterSpacing="2" fill={C.ink}>
+          <text x="394" y="54" fontSize="11" fontWeight="600" letterSpacing="2" fill={C.ink}>
             KABIR
           </text>
-          <text x="392" y="70" fontSize="10.5" fill={C.inkSoft}>
+          <text x="394" y="70" fontSize="10.5" fill={C.inkSoft}>
             Matching engine
           </text>
         </g>
-        <path className="engine-link" d={`M340 98 V${ENGINE.y - 66}`} stroke={C.blue} strokeDasharray="2 4" fill="none" />
+        <path className="engine-link" d={`M340 108 V${ENGINE.y - 66}`} stroke={C.blue} strokeDasharray="2 4" fill="none" />
 
         {/* Matching engine */}
         <g fill="none">
