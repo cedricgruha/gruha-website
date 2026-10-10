@@ -18,9 +18,8 @@ import { useWaitlist } from '@/contexts/WaitlistContext';
 import { trackCategoryClick } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
-const GruhaExplainerSection = dynamic(() =>
-  import('./gruha-explainer/GruhaExplainerSection').then((mod) => mod.GruhaExplainerSection)
-);
+import { GruhaExplainerSection } from './gruha-explainer/GruhaExplainerSection';
+
 
 interface JournalCard {
   id: number;
@@ -42,9 +41,13 @@ export const HeroSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
   const subheadlineRef = useRef<HTMLParagraphElement>(null);
-  const btnRef = useRef<HTMLButtonElement>(null);
+  const btnRef = useRef<HTMLDivElement>(null);
   const featuresRef = useRef<HTMLDivElement>(null);
   const { openModal } = useWaitlist();
+
+  const appUrl =
+    process.env.NEXT_PUBLIC_APP_URL ||
+    (process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://app.gruha.ai");
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -147,13 +150,22 @@ export const HeroSection = () => {
             Property search is a painful task. We are here to show that it does not have to be painful.
           </p>
 
-          <button
-            ref={btnRef}
-            onClick={() => openModal("hero")}
-            className="bg-[#fc7c54] text-black md:text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 mb-8 md:mb-16 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
-          >
-            Join Waitlist
-          </button>
+          <div ref={btnRef} className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8 md:mb-16">
+            <button
+              onClick={() => openModal("hero")}
+              className="w-full sm:w-auto bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
+            >
+              Join Waitlist
+            </button>
+            <a
+              href={appUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto inline-flex items-center justify-center border-2 border-[#17212B] text-[#17212B] font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer"
+            >
+              Experience Data
+            </a>
+          </div>
 
           {/* Feature Highlights Grid — hidden on mobile, shown md+ */}
           <div ref={featuresRef} className="hidden md:flex md:flex-row items-center justify-center gap-6 md:gap-12 w-full">

@@ -62,6 +62,7 @@ const cards = [
 export const ProjectsSection = () => {
   return (
     <BaseStepSection
+      sectionId="projects"
       step={2}
       number="02"
       title="Projects"

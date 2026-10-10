@@ -156,18 +156,18 @@ export function GruhaExplainerSection() {
         {/* Section header */}
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <span className="mb-3 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#858B91]">
+            <span className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#858B91] font-inter">
               <span className="h-px w-6 bg-[#858B91]" />
               What Gruha stands for
             </span>
-            <h2 id="gruha-explainer-title" className="font-fraunces text-3xl font-normal tracking-tight text-[#17212B] sm:text-4xl md:text-5xl">
+            <h2 id="gruha-explainer-title" className="font-fraunces text-3xl font-normal leading-[1.15] tracking-tight text-[#17212B] sm:text-4xl md:text-5xl">
               From conversation to keys.
             </h2>
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#5F6873] sm:text-base">
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#5F6873] font-inter font-normal sm:text-base">
               AI that understands you and finds what fits, without chasing you for a phone number. A human expert joins only when you
               decide.
             </p>
-            <p className="mt-4 inline-flex items-center gap-2 text-xs font-medium text-[#17212B]">
+            <p className="mt-4 inline-flex items-center gap-2 text-xs font-medium text-[#17212B] font-inter">
               <span className="h-1.5 w-1.5 rounded-full bg-[#17212B]" />
               Information first. Identity when you choose.
             </p>
@@ -177,7 +177,7 @@ export function GruhaExplainerSection() {
               type="button"
               onClick={togglePlay}
               aria-label={playing ? "Pause guided tour" : finished ? "Replay guided tour" : "Play guided tour"}
-              className="inline-flex items-center gap-2 rounded-full border border-[#E1DED5] bg-white px-4 py-2 text-xs font-medium text-[#17212B] transition-colors hover:bg-[#F0EFE9] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#17212B]"
+              className="inline-flex items-center gap-2 rounded-full border border-[#E1DED5] bg-white px-4 py-2 text-xs font-medium font-inter text-[#17212B] transition-colors hover:bg-[#F0EFE9] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#17212B]"
             >
               {playing ? <Pause size={13} /> : finished ? <RotateCcw size={13} /> : <Play size={13} />}
               {playing ? "Pause tour" : finished ? "Replay tour" : "Play tour"}
@@ -230,7 +230,7 @@ export function GruhaExplainerSection() {
                     style={{ outlineColor: s.accent }}
                   >
                     <span
-                      className="flex h-[31px] w-[31px] items-center justify-center rounded-full border bg-white text-[11px] font-semibold tabular-nums transition-all duration-300"
+                      className="flex h-8 w-8 items-center justify-center rounded-full border bg-white text-xs font-semibold tabular-nums font-inter transition-all duration-300"
                       style={{
                         borderColor: active || done ? s.accent : "#D9D6CC",
                         color: active ? "#fff" : done ? s.accent : C.muted,
@@ -241,7 +241,7 @@ export function GruhaExplainerSection() {
                       {s.number}
                     </span>
                     <span
-                      className="hidden text-[11px] font-semibold uppercase tracking-[0.14em] transition-colors sm:block"
+                      className="hidden text-xs font-semibold uppercase tracking-wider font-inter transition-colors sm:block"
                       style={{ color: active ? C.ink : C.muted }}
                     >
                       {s.label}
@@ -258,20 +258,20 @@ export function GruhaExplainerSection() {
           <div ref={textRef} className="flex flex-col justify-center lg:py-6" aria-live="polite">
             <div className="overflow-hidden">
               <div className="reveal flex items-baseline gap-3">
-                <span className="text-6xl font-extralight leading-none tabular-nums tracking-tight md:text-7xl lg:text-8xl" style={{ color: meta.accent }}>
+                <span className="font-fraunces text-6xl font-light leading-none tabular-nums tracking-tight md:text-7xl lg:text-8xl" style={{ color: meta.accent }}>
                   {meta.number}
                 </span>
-                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#858B91]">{meta.label}</span>
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#858B91] font-inter">{meta.label}</span>
               </div>
             </div>
             <div className="mt-5 overflow-hidden pb-1">
-              <h3 className="reveal text-2xl font-semibold leading-tight tracking-tight text-[#17212B] md:text-3xl">{meta.headline}</h3>
+              <h3 className="reveal font-fraunces text-2xl font-normal leading-tight tracking-tight text-[#17212B] sm:text-3xl md:text-3xl">{meta.headline}</h3>
             </div>
             <div className="mt-3 overflow-hidden">
-              <p className="reveal max-w-sm text-sm leading-relaxed text-[#5F6873] md:text-base">{meta.copy}</p>
+              <p className="reveal max-w-sm text-sm leading-relaxed text-[#5F6873] font-inter md:text-base">{meta.copy}</p>
             </div>
             <div className="mt-6 overflow-hidden">
-              <p className="reveal inline-flex items-center gap-2 text-xs text-[#5F6873]">
+              <p className="reveal inline-flex items-center gap-2 text-xs font-medium text-[#5F6873] font-inter">
                 <span className="h-1.5 w-1.5 rounded-full" style={{ background: meta.accent }} />
                 {meta.agent}
               </p>
@@ -280,11 +280,11 @@ export function GruhaExplainerSection() {
 
           <div className="overflow-hidden rounded-2xl border border-[#E1DED5] bg-white shadow-[0_1px_0_rgba(23,33,43,0.03),0_24px_48px_-32px_rgba(23,33,43,0.18)]">
             <div className="flex items-center justify-between border-b border-[#E7E5DE] px-4 py-2.5">
-              <span className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#5F6873]">
+              <span className="flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-[#5F6873] font-inter">
                 <span className="h-1.5 w-1.5 rounded-full" style={{ background: meta.accent }} />
                 {meta.number} / {meta.label}
               </span>
-              <span className="hidden text-[10px] uppercase tracking-[0.16em] text-[#858B91] sm:inline">Interactive · Illustrative</span>
+              <span className="hidden text-xs uppercase tracking-wider text-[#858B91] sm:inline font-inter">Interactive · Illustrative</span>
             </div>
             <div ref={canvasRef}>
               {started ? (
