@@ -505,8 +505,9 @@ export function GruhaExplainerSection() {
     // State & Controls
     const reducedMQ = window.matchMedia("(prefers-reduced-motion: reduce)");
     let t = 0;
-    let playing = !reducedMQ.matches;
-    let visible = true;
+    let playing = false;
+    let hasAutoplayed = false;
+    let visible = false;
     let last = performance.now();
     let active = -1;
     let cw = 900;
@@ -518,6 +519,7 @@ export function GruhaExplainerSection() {
     const M = () => (reducedMQ.matches ? 0 : 1);
 
     function seek(n: number) {
+      hasAutoplayed = true;
       t = clamp(n, 0, DURATION);
       dirty = true;
     }
@@ -530,6 +532,7 @@ export function GruhaExplainerSection() {
     }
 
     function setPlaying(v: boolean) {
+      if (v) hasAutoplayed = true;
       playing = v;
       if (v && t >= DURATION) t = 0;
       sync();
@@ -587,8 +590,15 @@ export function GruhaExplainerSection() {
     const io = new IntersectionObserver(
       ([en]) => {
         visible = en.isIntersecting;
+        const triggerRatio = mobile ? 0.35 : 0.45;
+        if (!hasAutoplayed && en.intersectionRatio >= triggerRatio && !reducedMQ.matches) {
+          hasAutoplayed = true;
+          t = 0;
+          last = performance.now();
+          setPlaying(true);
+        }
       },
-      { threshold: 0.25 }
+      { threshold: [0, 0.2, 0.35, 0.45, 0.5, 0.6] }
     );
     io.observe(theatre);
 
