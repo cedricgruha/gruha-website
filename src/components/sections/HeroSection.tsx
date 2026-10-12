@@ -108,7 +108,7 @@ export const HeroSection = () => {
 
   return (
     <>
-      <section ref={containerRef} className="relative pt-24 pb-8 sm:pb-20 bg-white text-black overflow-hidden">
+      <section ref={containerRef} className="relative pt-20 sm:pt-22 pb-6 sm:pb-10 bg-white text-black overflow-hidden">
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0">
           {/* Mobile background */}
@@ -134,7 +134,7 @@ export const HeroSection = () => {
         </div>
 
         {/* Hero Main Content */}
-        <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center pt-12 md:pt-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center pt-8 md:pt-10">
           <h1
             ref={headlineRef}
             className="font-fraunces text-white md:text-slate-900 max-w-3xl mx-auto mb-5 font-normal tracking-tight"
@@ -145,12 +145,12 @@ export const HeroSection = () => {
 
           <p
             ref={subheadlineRef}
-            className="font-inter text-sm md:text-base text-white md:text-black max-w-lg mx-auto mb-8"
+            className="font-inter text-sm md:text-base text-white md:text-black max-w-lg mx-auto mb-6"
           >
             Property search is a painful task. We are here to show that it does not have to be painful.
           </p>
 
-          <div ref={btnRef} className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8 md:mb-16">
+          <div ref={btnRef} className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 md:mb-10">
             <button
               onClick={() => openModal("hero")}
               className="w-full sm:w-auto bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
