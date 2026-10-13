@@ -150,21 +150,34 @@ export const HeroSection = () => {
             Property search is a painful task. We are here to show that it does not have to be painful.
           </p>
 
-          <div ref={btnRef} className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8 md:mb-16">
-            <button
-              onClick={() => openModal("hero")}
-              className="w-full sm:w-auto bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
-            >
-              Join Waitlist
-            </button>
-            <a
-              href={appUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center border-2 border-[#17212B] text-[#17212B] font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer"
-            >
-              Experience Data
-            </a>
+          <div ref={btnRef} className="flex flex-col sm:flex-row items-center sm:items-start justify-center gap-6 sm:gap-8 md:gap-12 mb-8 md:mb-16 max-w-2xl mx-auto">
+            {/* Primary CTA */}
+            <div className="flex flex-col items-center text-center w-full sm:w-[260px] md:w-[280px]">
+              <button
+                onClick={() => openModal("hero")}
+                className="w-full sm:w-auto min-w-[200px] bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                Join Waitlist
+              </button>
+              <p className="mt-2.5 font-inter text-xs md:text-[13px] text-white md:text-slate-900 font-medium leading-relaxed max-w-[240px] sm:max-w-none drop-shadow-xs md:drop-shadow-none">
+                Be among the first to experience a smarter way to find your home.
+              </p>
+            </div>
+
+            {/* Secondary CTA */}
+            <div className="flex flex-col items-center text-center w-full sm:w-[260px] md:w-[280px]">
+              <a
+                href={appUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto min-w-[200px] inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                Explore Projects
+              </a>
+              <p className="mt-2.5 font-inter text-xs md:text-[13px] text-white md:text-slate-900 font-medium leading-relaxed max-w-[240px] sm:max-w-none drop-shadow-xs md:drop-shadow-none">
+                See real project data, explore your options, and decide when you&apos;re ready.
+              </p>
+            </div>
           </div>
 
           {/* Feature Highlights Grid — hidden on mobile, shown md+ */}
