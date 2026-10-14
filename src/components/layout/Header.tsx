@@ -26,9 +26,15 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Only a header that actually becomes fixed should swap to the solid bar. When the
+  // header stays `absolute`, its bottom 23px are still on screen between scrollY 50 and
+  // 73, so the dark background + border flashed in and vanished on the way back up.
+  const isStuck = sticky && scrolled;
+  const showSolid = forceSolid || isStuck;
+
   return (
     <header
-      className={`${sticky && scrolled ? 'fixed' : 'absolute'} top-0 left-0 right-0 z-50 transition-all duration-300 px-6 md:px-12 ${scrolled || forceSolid ? 'bg-[#111821] shadow-md py-4 border-b border-white/10' : 'bg-transparent py-6'
+      className={`${isStuck ? 'fixed' : 'absolute'} top-0 left-0 right-0 z-50 transition-all duration-300 px-6 md:px-12 ${showSolid ? 'bg-[#111821] shadow-md py-4 border-b border-white/10' : 'bg-transparent py-6'
         }`}
     >
       <div className="max-w-[1400px] mx-auto px-0 sm:px-8 flex items-center justify-between">
