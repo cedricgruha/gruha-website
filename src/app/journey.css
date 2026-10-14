@@ -712,7 +712,6 @@
 .gruha-journey .portrait img {
   width: 64px;
   max-width: none;
-  transform: translate(-7px, -4px);
 }
 
 .gruha-journey .controls {
