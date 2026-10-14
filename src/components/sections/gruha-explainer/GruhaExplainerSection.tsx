@@ -1,6 +1,12 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
+import {
+  trackExplainerAgentClick,
+  trackExplainerChapterClick,
+  trackExplainerPlayToggle,
+  trackExplainerReplayClick,
+} from "@/lib/analytics";
 
 const ASSETS: Record<string, string> = {
   riya: "/assets/journey/riya.png",
@@ -552,20 +558,38 @@ export function GruhaExplainerSection() {
 
     const timeButtons = root.querySelectorAll<HTMLButtonElement>("[data-time]");
     timeButtons.forEach((b) => {
-      b.onclick = () => seek(Number(b.dataset.time));
+      b.onclick = () => {
+        const time = Number(b.dataset.time);
+        // "01Understand" -> index "01", name "Understand"
+        const index = b.querySelector("b")?.textContent?.trim() ?? "";
+        const name = (b.textContent ?? "").replace(index, "").trim();
+        trackExplainerChapterClick({ chapter_index: index, chapter_name: name, chapter_time: time });
+        seek(time);
+      };
     });
 
     const agentButtons = root.querySelectorAll<HTMLButtonElement>("[data-agent]");
     agentButtons.forEach((b) => {
-      b.onclick = () => seek(people[Number(b.dataset.agent)][3]);
+      b.onclick = () => {
+        const i = Number(b.dataset.agent);
+        const person = people[i];
+        trackExplainerAgentClick({ agent_name: person[1], agent_role: person[2], agent_index: i });
+        seek(person[3]);
+      };
     });
 
     const playBtn = $("play");
-    if (playBtn) playBtn.onclick = () => setPlaying(!playing);
+    if (playBtn)
+      playBtn.onclick = () => {
+        const next = !playing;
+        trackExplainerPlayToggle({ action: next ? "play" : "pause" });
+        setPlaying(next);
+      };
 
     const replayBtn = $("replay");
     if (replayBtn) {
       replayBtn.onclick = () => {
+        trackExplainerReplayClick();
         t = 0;
         setPlaying(true);
       };

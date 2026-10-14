@@ -15,7 +15,11 @@ import {
   ChevronLeft
 } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
-import { trackCategoryClick } from '@/lib/analytics';
+import {
+  trackCategoryClick,
+  trackExploreProjectsClick,
+  trackExploreCommunityJournalsClick,
+} from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
 import { GruhaExplainerSection } from './gruha-explainer/GruhaExplainerSection';
@@ -170,6 +174,7 @@ export const HeroSection = () => {
                 href={appUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackExploreProjectsClick({ source: "hero" })}
                 className="w-full sm:w-auto min-w-[200px] inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-white font-semibold px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:scale-105 active:scale-95 cursor-pointer"
               >
                 Explore Projects
@@ -308,6 +313,7 @@ export const CommunityJournalsSection = () => {
 
           <Link
             href="/community-journals"
+            onClick={() => trackExploreCommunityJournalsClick({ source: "homepage_carousel" })}
             className="border border-[#fc7c54] text-[#fc7c54] hover:bg-[#fc7c54]/10 text-xs sm:text-sm font-medium px-5 py-2.5 rounded-md inline-flex items-center gap-2 transition-all self-start md:self-auto shrink-0"
           >
             <span>Explore Community Journals</span>
