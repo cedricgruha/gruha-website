@@ -1,0 +1,943 @@
+/* Gruha Journey V7 Styles — scoped to .gruha-journey */
+
+@font-face {
+  font-family: 'Fraunces';
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/journey/fraunces.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/journey/inter.woff2') format('woff2');
+}
+
+.gruha-journey {
+  --coral: #fc7c54;
+  --coral-ink: #c4572f;
+  --ink: #242724;
+  --muted: #73756f;
+  --line: #deded5;
+  --paper: #f8f7f3;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter), 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gruha-journey * {
+  box-sizing: border-box;
+}
+
+.gruha-journey button {
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+}
+
+.gruha-journey button:focus-visible,
+.gruha-journey input:focus-visible {
+  outline: 3px solid var(--coral);
+  outline-offset: 3px;
+}
+
+.gruha-journey .sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.gruha-journey .explainer {
+  max-width: 1440px;
+  margin: auto;
+  height: 760px;
+  padding: 6px 30px 20px;
+  display: grid;
+  grid-template-rows: 20px 45px 36px minmax(0, 1fr) 40px 36px 24px;
+  gap: 8px;
+}
+
+.gruha-journey .eyebrow {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  align-self: end;
+}
+
+.gruha-journey .journey-title {
+  font: 400 36px/1.2 var(--font-fraunces), 'Fraunces', Georgia, serif;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+/* Chapters double as a progress indicator. */
+.gruha-journey .chapters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.gruha-journey .chapters button {
+  position: relative;
+  background: none;
+  border: 0;
+  text-align: left;
+  padding: 9px 0 0;
+  color: #878982;
+  font-size: 12px;
+  transition: color 0.3s;
+}
+
+.gruha-journey .chapters button::before,
+.gruha-journey .chapters button i {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2px;
+  width: 100%;
+  background: var(--line);
+  border-radius: 2px;
+}
+
+.gruha-journey .chapters button i {
+  background: var(--coral);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+
+.gruha-journey .chapters button.active {
+  color: var(--ink);
+}
+
+.gruha-journey .chapters b {
+  margin-right: 10px;
+  color: var(--coral);
+  font-weight: 500;
+}
+
+.gruha-journey .theatre {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  isolation: isolate;
+  background: radial-gradient(ellipse 60% 70% at 62% 78%, #ffe6d8 0, transparent 70%),
+              radial-gradient(ellipse 50% 60% at 15% 10%, #f5f3ea 0, transparent 70%),
+              #eeede6;
+}
+
+.gruha-journey .grain {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(#c9c6b8 0.7px, transparent 0.8px);
+  background-size: 18px 18px;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.gruha-journey .halo {
+  position: absolute;
+  left: 30%;
+  right: 0;
+  top: 8%;
+  bottom: 8%;
+  background: radial-gradient(closest-side, #ffd9c5aa, transparent);
+  filter: blur(10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Left column: who is speaking and what they mean. */
+.gruha-journey .speech {
+  position: absolute;
+  left: 26px;
+  top: 24px;
+  width: 26%;
+  z-index: 8;
+}
+
+.gruha-journey .speaker {
+  font-size: 10px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #96634e;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gruha-journey .speaker::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--coral);
+  box-shadow: 0 0 0 4px #fc7c5426;
+}
+
+.gruha-journey .speech h2,
+.gruha-journey .speech h3,
+.gruha-journey #caption,
+.gruha-journey .speech-caption {
+  font: 400 29px/1.13 var(--font-fraunces), 'Fraunces', Georgia, serif !important;
+  font-family: var(--font-fraunces), 'Fraunces', Georgia, serif !important;
+  margin: 0;
+  max-width: 330px;
+  letter-spacing: -0.01em;
+  min-height: 2.26em;
+}
+
+.gruha-journey .w {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+.gruha-journey .w > span {
+  display: inline-block;
+  will-change: transform;
+  font-family: inherit;
+}
+
+.gruha-journey .context {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #6d716a;
+  margin: 12px 0 0;
+  max-width: 300px;
+}
+
+.gruha-journey .agent {
+  position: absolute;
+  left: 16px;
+  bottom: 0;
+  width: 245px;
+  height: 260px;
+  transform-origin: 50% 90%;
+  z-index: 5;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.gruha-journey .agent img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 50% 100%;
+  filter: drop-shadow(0 18px 14px #5b3e2622);
+}
+
+.gruha-journey .agent-tag {
+  position: absolute;
+  left: 36px;
+  bottom: 14px;
+  z-index: 6;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 30px;
+  box-shadow: 0 4px 18px #2a1f1410;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.gruha-journey .agent-tag b {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.gruha-journey .agent-tag span {
+  color: var(--muted);
+}
+
+.gruha-journey .screen-title {
+  position: absolute;
+  left: 32%;
+  top: 18px;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  color: #747871;
+  text-transform: uppercase;
+  z-index: 7;
+}
+
+/* The stage: product screens live in real 3D space. */
+.gruha-journey .stage {
+  position: absolute;
+  left: 27%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  --cy: 0px;
+  perspective: 1700px;
+  perspective-origin: 50% calc(50% + var(--cy));
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 8%), linear-gradient(180deg, transparent 18px, #000 46px);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(90deg, transparent 0, #000 8%), linear-gradient(180deg, transparent 18px, #000 46px);
+  mask-composite: intersect;
+}
+
+.gruha-journey .rig {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.gruha-journey .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--cw);
+  border-radius: calc(var(--cw) * 0.014);
+  overflow: hidden;
+  background: #fff;
+  visibility: hidden;
+  box-shadow: 0 1px 0 #ffffff inset, 0 0 0 1px #2427241a, 0 24px 50px -18px #3b2a1a55, 0 8px 18px -8px #24272422;
+  container-type: inline-size;
+  will-change: transform;
+  transform-style: flat;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.gruha-journey .card > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.gruha-journey .ov {
+  position: absolute;
+  pointer-events: none;
+}
+
+.gruha-journey .spot {
+  border-radius: 9px;
+  opacity: 0;
+  --dim: 0;
+  --ring: 0;
+  box-shadow: 0 0 0 2px rgba(252, 124, 84, var(--ring)),
+              0 0 0 9px rgba(252, 124, 84, calc(var(--ring) * 0.16)),
+              0 0 0 300vmax rgba(28, 30, 27, var(--dim));
+}
+
+.gruha-journey .spot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(100deg, transparent 30%, #fc7c5433 48%, #ffffff55 50%, #fc7c5433 52%, transparent 70%) no-repeat;
+  background-size: 250% 100%;
+  background-position: var(--sweep, 150%) 0;
+}
+
+.gruha-journey .unit-fill {
+  left: 4.74%;
+  top: 56.88%;
+  width: 89.96%;
+  height: 4.49%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gruha-journey .unit-fill i {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #fc7c54, #ff9a72);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  border-radius: 8px;
+}
+
+.gruha-journey .unit-fill b {
+  position: absolute;
+  top: -25%;
+  bottom: -25%;
+  width: 2px;
+  background: #242724;
+  left: 85.5%;
+  opacity: 0;
+}
+
+.gruha-journey .journal-patch {
+  left: 27.4%;
+  top: 88.6%;
+  width: 20%;
+  white-space: nowrap;
+  height: 2.6%;
+  background: rgb(11, 22, 31);
+  color: #aab3ba;
+  font-size: 1.18cqw;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 0.2%;
+}
+
+.gruha-journey .journal-bar {
+  left: 27.8%;
+  top: 92.1%;
+  width: 44.35%;
+  height: 0.7%;
+  border-radius: 9px;
+}
+
+.gruha-journey .journal-bar i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-radius: 9px;
+  background: #18bfa1;
+  box-shadow: 0 0 12px #18bfa1;
+}
+
+.gruha-journey .trace {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gruha-journey .trace path {
+  fill: none;
+  stroke: #fc7c54;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 0 6px #fc7c54);
+}
+
+.gruha-journey .trace .area {
+  fill: #fc7c54;
+  stroke: none;
+  filter: none;
+  opacity: 0;
+}
+
+/* Brief cards are HTML, so they stay crisp at any zoom. */
+.gruha-journey .brief {
+  width: var(--bw);
+  padding: 22px 22px 20px;
+  background: #fffdf9;
+  border-radius: 18px;
+  box-shadow: 0 0 0 1px #2427240f, 0 30px 70px -24px #3b2a1a66, 0 10px 24px -12px #24272422;
+  overflow: visible;
+}
+
+.gruha-journey .brief .kicker {
+  font-size: 9.5px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #a0624a;
+  margin-bottom: 8px;
+}
+
+.gruha-journey .brief h3 {
+  font: 400 23px/1.15 var(--font-fraunces), 'Fraunces', Georgia, serif;
+  margin: 0 0 14px;
+  letter-spacing: -0.01em;
+}
+
+.gruha-journey .brief ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.gruha-journey .brief li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12.5px;
+  padding: 10px 38px 10px 12px;
+  background: #f4f3ed;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.gruha-journey .brief li .ic {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--coral-ink);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.gruha-journey .brief li .tick {
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background: var(--coral);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+}
+
+.gruha-journey .brief li::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, #fc7c5422, transparent);
+  transform: translateX(var(--shine, -100%));
+}
+
+.gruha-journey .brief .seal {
+  color: #ba5b3b;
+  font-size: 11px;
+  margin-top: 14px;
+}
+
+.gruha-journey .brief .cta {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #262b25;
+  color: #fff;
+  font-size: 12.5px;
+  text-align: left;
+  --hover: 0;
+  box-shadow: 0 0 0 calc(var(--hover) * 4px) #fc7c5440, 0 10px 24px -10px #262b25aa;
+  cursor: default;
+}
+
+.gruha-journey .brief .cta span {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--coral);
+  transform: translateX(calc(var(--hover) * 3px));
+}
+
+.gruha-journey .brief .fine {
+  font-size: 10px;
+  color: #8a8c84;
+  margin-top: 8px;
+}
+
+/* Agent cursor, Figma-style: the specialist is "driving" the product. */
+.gruha-journey .cursor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.gruha-journey .cursor svg {
+  display: block;
+  filter: drop-shadow(0 3px 5px #0003);
+  transform-origin: 3px 3px;
+}
+
+.gruha-journey .cursor .label {
+  position: absolute;
+  left: 15px;
+  top: 19px;
+  background: var(--coral);
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px 10px 10px 10px;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px #fc7c5440;
+}
+
+.gruha-journey .cursor .label.you {
+  background: #262b25;
+  box-shadow: 0 4px 10px #0002;
+}
+
+.gruha-journey .cursor .ripple {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 46px;
+  height: 46px;
+  margin: -23px 0 0 -23px;
+  border-radius: 50%;
+  border: 2px solid var(--coral);
+  opacity: 0;
+}
+
+.gruha-journey .facts {
+  position: absolute;
+  right: 26px;
+  top: 55px;
+  display: flex;
+  gap: 9px;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.gruha-journey .fact {
+  padding: 10px 13px;
+  background: #252923ee;
+  color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 14px 30px -10px #0005;
+  backdrop-filter: blur(6px);
+  min-width: 86px;
+}
+
+.gruha-journey .fact b {
+  font-size: 21px;
+  font-weight: 500;
+  display: block;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.gruha-journey .fact span {
+  font-size: 9px;
+  color: #e4d9cd;
+}
+
+.gruha-journey .takeaway {
+  position: absolute;
+  bottom: 15px;
+  left: 31%;
+  right: 22px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: #fffffff0;
+  border: 1px solid #e4dfd4;
+  border-radius: 14px;
+  padding: 12px 15px;
+  z-index: 7;
+  box-shadow: 0 12px 30px -12px #3b332133;
+  backdrop-filter: blur(8px);
+}
+
+.gruha-journey .takeaway .arrow {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #fff0e9;
+  color: #bb5b36;
+  flex-shrink: 0;
+  font-size: 13px;
+}
+
+.gruha-journey .takeaway .txt {
+  min-width: 0;
+}
+
+.gruha-journey .takeaway strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.gruha-journey .takeaway small {
+  display: block;
+  font-size: 9px;
+  color: #84867e;
+  margin-top: 4px;
+}
+
+.gruha-journey .team-rail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gruha-journey .team-rail button {
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 9px 2px 2px;
+  color: #83867e;
+  font-size: 10px;
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.gruha-journey .team-rail button.selected {
+  background: #fff;
+  border-color: #f4c2ad;
+  color: #272a25;
+}
+
+.gruha-journey .portrait {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #e9e8df;
+}
+
+.gruha-journey .portrait img {
+  width: 64px;
+  max-width: none;
+  transform: translate(-7px, -4px);
+}
+
+.gruha-journey .controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.gruha-journey .controls button {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  padding: 7px 14px;
+  font-size: 12px;
+}
+
+.gruha-journey .controls #play {
+  background: #262b25;
+  color: #fff;
+  border-color: #262b25;
+  min-width: 104px;
+}
+
+.gruha-journey .controls input[type="range"] {
+  flex: 1;
+  min-width: 40px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--coral) var(--p, 0%), #d9d8cf var(--p, 0%));
+  cursor: pointer;
+}
+
+.gruha-journey .controls input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--coral);
+  box-shadow: 0 1px 4px #0002;
+}
+
+.gruha-journey .controls input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--coral);
+}
+
+.gruha-journey .controls #time {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: #76796f;
+}
+
+.gruha-journey .note {
+  font-size: 9px;
+  color: #898b83;
+  margin: 0;
+  line-height: 1.4;
+  align-self: center;
+}
+
+@media (max-width: 700px) {
+  .gruha-journey .explainer {
+    height: 740px;
+    padding: 6px 14px 12px;
+    grid-template-rows: 16px 36px 42px minmax(0, 1fr) 53px 34px 37px;
+    gap: 5px;
+  }
+  .gruha-journey .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .gruha-journey .journey-title {
+    font-size: 28px;
+  }
+  .gruha-journey .chapters {
+    gap: 8px;
+  }
+  .gruha-journey .chapters button {
+    font-size: 9px;
+    line-height: 1.5;
+  }
+  .gruha-journey .chapters b {
+    display: block;
+  }
+  .gruha-journey .speech {
+    left: 17px;
+    top: 17px;
+    width: 58%;
+  }
+  .gruha-journey .speech h2,
+  .gruha-journey .speech h3,
+  .gruha-journey #caption,
+  .gruha-journey .speech-caption {
+    font-size: 23px;
+    min-height: 3.4em;
+  }
+  .gruha-journey .speaker {
+    font-size: 8px;
+    margin-bottom: 9px;
+  }
+  .gruha-journey .context {
+    font-size: 10px;
+  }
+  .gruha-journey .agent {
+    left: auto;
+    right: -27px;
+    top: 62px;
+    bottom: auto;
+    width: 145px;
+    height: 178px;
+  }
+  .gruha-journey .agent-tag {
+    left: auto;
+    right: 12px;
+    top: 214px;
+    bottom: auto;
+    font-size: 9px;
+    padding: 6px 9px;
+  }
+  .gruha-journey .agent-tag span {
+    display: none;
+  }
+  .gruha-journey .screen-title {
+    top: 211px;
+    left: 17px;
+    font-size: 7px;
+    max-width: 70%;
+  }
+  .gruha-journey .stage {
+    left: 0;
+    right: 0;
+    top: 226px;
+    bottom: 66px;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 14px);
+    mask-image: linear-gradient(180deg, transparent 0, #000 14px);
+  }
+  .gruha-journey .facts {
+    top: 236px;
+    right: 12px;
+    gap: 5px;
+  }
+  .gruha-journey .fact {
+    padding: 6px 8px;
+    min-width: 0;
+  }
+  .gruha-journey .fact b {
+    font-size: 15px;
+  }
+  .gruha-journey .fact span {
+    font-size: 8px;
+  }
+  .gruha-journey .takeaway {
+    left: 12px;
+    right: 12px;
+    bottom: 10px;
+    padding: 10px;
+  }
+  .gruha-journey .takeaway strong {
+    font-size: 13px;
+  }
+  .gruha-journey .takeaway small {
+    font-size: 8px;
+  }
+  .gruha-journey .brief {
+    padding: 14px;
+  }
+  .gruha-journey .brief h3 {
+    font-size: 17px;
+    margin-bottom: 9px;
+  }
+  .gruha-journey .brief li {
+    font-size: 10.5px;
+    padding: 7px 32px 7px 9px;
+  }
+  .gruha-journey .brief ul {
+    gap: 5px;
+  }
+  .gruha-journey .brief .kicker {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+  .gruha-journey .brief .kicker,
+  .gruha-journey .brief .seal,
+  .gruha-journey .brief .fine {
+    display: none;
+  }
+  .gruha-journey .brief .cta {
+    margin-top: 10px;
+    padding: 9px 11px;
+    font-size: 11px;
+  }
+  .gruha-journey .team-rail {
+    gap: 2px;
+    justify-content: space-between;
+  }
+  .gruha-journey .team-rail button {
+    padding: 2px;
+    flex-direction: column;
+    font-size: 8px;
+    gap: 3px;
+  }
+  .gruha-journey .portrait {
+    width: 27px;
+    height: 27px;
+  }
+  .gruha-journey .controls {
+    gap: 8px;
+  }
+  .gruha-journey .controls button {
+    padding: 8px 11px;
+  }
+  .gruha-journey .note {
+    font-size: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gruha-journey .chapters button,
+  .gruha-journey .team-rail button {
+    transition: none;
+  }
+}

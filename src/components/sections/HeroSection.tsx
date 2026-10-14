@@ -3,6 +3,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { gsap } from 'gsap';
 import {
   Layers,
@@ -14,8 +15,15 @@ import {
   ChevronLeft
 } from 'lucide-react';
 import { useWaitlist } from '@/contexts/WaitlistContext';
-import { trackCategoryClick } from '@/lib/analytics';
+import {
+  trackCategoryClick,
+  trackExploreProjectsClick,
+  trackExploreCommunityJournalsClick,
+} from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
+
+import { GruhaExplainerSection } from './gruha-explainer/GruhaExplainerSection';
+
 
 interface JournalCard {
   id: number;
@@ -37,9 +45,13 @@ export const HeroSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
   const subheadlineRef = useRef<HTMLParagraphElement>(null);
-  const btnRef = useRef<HTMLButtonElement>(null);
+  const btnRef = useRef<HTMLDivElement>(null);
   const featuresRef = useRef<HTMLDivElement>(null);
   const { openModal } = useWaitlist();
+
+  const appUrl =
+    process.env.NEXT_PUBLIC_APP_URL ||
+    (process.env.NODE_ENV === "development" ? "http://localhost:3100" : "https://app.gruha.ai");
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -142,13 +154,36 @@ export const HeroSection = () => {
             Property search is a painful task. We are here to show that it does not have to be painful.
           </p>
 
-          <button
-            ref={btnRef}
-            onClick={() => openModal("hero")}
-            className="bg-[#fc7c54] text-black md:text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 mb-8 md:mb-16 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
-          >
-            Join Waitlist
-          </button>
+          <div ref={btnRef} className="flex flex-col sm:flex-row items-center sm:items-start justify-center gap-6 sm:gap-8 md:gap-10 mb-8 md:mb-16 max-w-3xl mx-auto">
+            {/* Primary CTA */}
+            <div className="flex flex-col items-center text-center w-full sm:w-[280px] md:w-[310px]">
+              <button
+                onClick={() => openModal("hero")}
+                className="w-full sm:w-auto min-w-[200px] bg-[#fc7c54] text-white font-medium px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:bg-[#fc7c54]/90 hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                Join Waitlist
+              </button>
+              <p className="mt-2.5 font-inter text-xs md:text-[13px] text-white md:text-slate-900 font-medium leading-relaxed max-w-[280px] sm:max-w-none drop-shadow-xs md:drop-shadow-none">
+                Be among the first to experience a smarter way to find your home.
+              </p>
+            </div>
+
+            {/* Secondary CTA */}
+            <div className="flex flex-col items-center text-center w-full sm:w-[280px] md:w-[310px]">
+              <a
+                href={appUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackExploreProjectsClick({ source: "hero" })}
+                className="w-full sm:w-auto min-w-[200px] inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-white font-semibold px-8 py-3.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                Explore Projects
+              </a>
+              <p className="mt-2.5 font-inter text-xs md:text-[13px] text-white md:text-slate-900 font-medium leading-relaxed max-w-[280px] sm:max-w-none drop-shadow-xs md:drop-shadow-none">
+                See real project data, explore, and join the waitlist when you&apos;re ready.
+              </p>
+            </div>
+          </div>
 
           {/* Feature Highlights Grid — hidden on mobile, shown md+ */}
           <div ref={featuresRef} className="hidden md:flex md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
@@ -166,7 +201,10 @@ export const HeroSection = () => {
         </div>
       </section>
 
-      {/* 2. COMMUNITY JOURNALS SECTION */}
+      {/* 2. WHAT GRUHA STANDS FOR — interactive explainer */}
+      <GruhaExplainerSection />
+
+      {/* 3. COMMUNITY JOURNALS SECTION */}
       <CommunityJournalsSection />
     </>
   );
@@ -275,6 +313,7 @@ export const CommunityJournalsSection = () => {
 
           <Link
             href="/community-journals"
+            onClick={() => trackExploreCommunityJournalsClick({ source: "homepage_carousel" })}
             className="border border-[#fc7c54] text-[#fc7c54] hover:bg-[#fc7c54]/10 text-xs sm:text-sm font-medium px-5 py-2.5 rounded-md inline-flex items-center gap-2 transition-all self-start md:self-auto shrink-0"
           >
             <span>Explore Community Journals</span>
