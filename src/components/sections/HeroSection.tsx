@@ -53,6 +53,9 @@ export const HeroSection = () => {
     process.env.NEXT_PUBLIC_APP_URL ||
     (process.env.NODE_ENV === "development" ? "http://localhost:3100" : "https://app.gruha.ai");
 
+  // Deep-link straight into the PDP app's project search instead of its landing top.
+  const appSearchUrl = `${appUrl.replace(/\/$/, "")}/#project-search`;
+
   useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
@@ -171,7 +174,7 @@ export const HeroSection = () => {
             {/* Secondary CTA */}
             <div className="flex flex-col items-center text-center w-full sm:w-[280px] md:w-[310px]">
               <a
-                href={appUrl}
+                href={appSearchUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => trackExploreProjectsClick({ source: "hero" })}

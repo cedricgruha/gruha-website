@@ -1137,10 +1137,6 @@ export function GruhaExplainerSection() {
           <input id="seek" aria-label="Tour timeline" type="range" min="0" max="58" step="0.05" defaultValue="0" />
           <span id="time">0:00 / 0:58</span>
         </div>
-        <p className="note">
-          Illustrative needs and agent dialogue · Product captures: 12 Oct 2026 · Unit example revised for review ·
-          Product figures are snapshots, not current availability · No contact submission.
-        </p>
       </div>
     </section>
   );
