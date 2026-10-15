@@ -64,7 +64,6 @@ export const FooterVariant = () => {
               src="/assets/footer-group.png"
               alt="Gruha Specialists Team"
               fill
-              priority
               className="object-contain"
               sizes="(max-width: 768px) 100vw, 1400px"
             />

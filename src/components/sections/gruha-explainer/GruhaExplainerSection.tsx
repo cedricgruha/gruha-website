@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
+import "@/app/journey.css";
 import {
   trackExplainerAgentClick,
   trackExplainerChapterClick,
@@ -481,32 +482,44 @@ export function GruhaExplainerSection() {
     const cursorEl = $("cursor");
     if (!theatre || !stage || !rig || !cursorEl) return;
 
-    // Build Rig Cards
-    rig.innerHTML = "";
+    // Build Rig Cards deferred
     const cardEls: Record<string, HTMLElement> = {};
-    for (const [name, c] of Object.entries(CARDS)) {
-      const el = document.createElement("div");
-      el.className = "card" + (c.html ? " brief" : "");
-      el.style.transform = "translate3d(0px, 0px, 0px) scale(1)";
-      if (c.html) {
-        el.innerHTML = c.html;
-      } else {
-        el.innerHTML = `<img src="${ASSETS[name]}" alt="" draggable="false">${c.extra || ""}<div class="ov spot"></div>`;
-        for (const [k, r] of Object.entries(c.targets || {})) {
-          el.insertAdjacentHTML("beforeend", `<div class="ov" data-t="${k}" style="${box(r)}"></div>`);
+    let cardsBuilt = false;
+    const buildCards = () => {
+      if (cardsBuilt) return;
+      cardsBuilt = true;
+      preloadAssets();
+      rig.innerHTML = "";
+      for (const [name, c] of Object.entries(CARDS)) {
+        const el = document.createElement("div");
+        el.className = "card" + (c.html ? " brief" : "");
+        el.style.transform = "translate3d(0px, 0px, 0px) scale(1)";
+        if (c.html) {
+          el.innerHTML = c.html;
+        } else {
+          el.innerHTML = `<img src="${ASSETS[name]}" alt="" draggable="false" loading="lazy" decoding="async">${c.extra || ""}<div class="ov spot"></div>`;
+          for (const [k, r] of Object.entries(c.targets || {})) {
+            el.insertAdjacentHTML("beforeend", `<div class="ov" data-t="${k}" style="${box(r)}"></div>`);
+          }
         }
+        rig.appendChild(el);
+        cardEls[name] = el;
       }
-      rig.appendChild(el);
-      cardEls[name] = el;
-    }
+      dirty = true;
+    };
 
     const q = (name: string, sel: string) => cardEls[name]?.querySelector<HTMLElement>(sel);
 
-    // Preload all assets
-    Object.values(ASSETS).forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
+    // Preload assets only when the user scrolls near the explainer section
+    let assetsPreloaded = false;
+    const preloadAssets = () => {
+      if (assetsPreloaded) return;
+      assetsPreloaded = true;
+      Object.values(ASSETS).forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    };
 
     // State & Controls
     const reducedMQ = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -525,6 +538,7 @@ export function GruhaExplainerSection() {
     const M = () => (reducedMQ.matches ? 0 : 1);
 
     function seek(n: number) {
+      buildCards();
       hasAutoplayed = true;
       t = clamp(n, 0, DURATION);
       dirty = true;
@@ -538,7 +552,10 @@ export function GruhaExplainerSection() {
     }
 
     function setPlaying(v: boolean) {
-      if (v) hasAutoplayed = true;
+      if (v) {
+        hasAutoplayed = true;
+        buildCards();
+      }
       playing = v;
       if (v && t >= DURATION) t = 0;
       sync();
@@ -625,6 +642,18 @@ export function GruhaExplainerSection() {
       { threshold: [0, 0.2, 0.35, 0.45, 0.5, 0.6] }
     );
     io.observe(theatre);
+
+    // Preload and build cards when explainer is within 350px of viewport
+    const preloadIo = new IntersectionObserver(
+      ([en]) => {
+        if (en.isIntersecting) {
+          buildCards();
+          preloadIo.disconnect();
+        }
+      },
+      { rootMargin: "350px 0px" }
+    );
+    preloadIo.observe(theatre);
 
     const ro = new ResizeObserver(() => {
       const r = stage.getBoundingClientRect();
@@ -1121,7 +1150,7 @@ export function GruhaExplainerSection() {
               className={i === 0 ? "selected" : ""}
             >
               <span className="portrait">
-                <img src={ASSETS[p[0]]} alt="" />
+                <img src={ASSETS[p[0]]} alt="" loading="lazy" decoding="async" />
               </span>
               {p[1]}
             </button>

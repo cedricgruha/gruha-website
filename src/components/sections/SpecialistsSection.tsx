@@ -129,8 +129,9 @@ export const SpecialistsSection = () => {
                   src={specialist.image}
                   alt={specialist.name}
                   fill
+                  loading="lazy"
                   className="object-contain object-bottom sm:object-center transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                  sizes="(max-width: 640px) 280px, (max-width: 1024px) 330px, 350px"
                 />
               </div>
 

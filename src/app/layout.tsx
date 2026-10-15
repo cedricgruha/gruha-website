@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import { headers } from "next/headers";
 import "./globals.css";
-import "./journey.css";
 import { AppProviders } from "@/components/ui/AppProviders";
 import Script from "next/script";
 

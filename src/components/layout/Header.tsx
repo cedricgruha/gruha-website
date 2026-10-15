@@ -40,6 +40,7 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
               src="/assets/logo.png"
               alt="Gruha.ai Logo"
               fill
+              sizes="(max-width: 768px) 128px, 160px"
               className="object-contain object-left sm:hidden"
               priority
             />
@@ -48,8 +49,8 @@ export const Header: React.FC<HeaderProps> = ({ forceSolid = false, sticky = fal
               src={isHome ? "/assets/dark-logo.png" : "/assets/logo.png"}
               alt="Gruha.ai Logo"
               fill
+              sizes="(max-width: 768px) 128px, 160px"
               className="object-contain object-left hidden sm:block"
-              priority
             />
           </div>
         </Link>

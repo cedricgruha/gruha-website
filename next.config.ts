@@ -8,7 +8,17 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: '/:path*',
+        source: '/assets/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        // Apply only to HTML pages, excluding _next internal routes
+        source: '/((?!_next|assets|favicon|site\\.webmanifest).*)',
         headers: [
           {
             key: 'Cache-Control',

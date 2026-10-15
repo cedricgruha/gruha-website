@@ -1,6 +1,6 @@
 "use client";
 
-import  { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -11,7 +11,60 @@ export const FeatureSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const textRef = useRef<HTMLParagraphElement>(null);
+  const mediaWrapperRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
+
+  // 1. Detect desktop breakpoint (sm: 640px+) so mobile never mounts/downloads video
+  useEffect(() => {
+    const mql = window.matchMedia('(min-width: 640px)');
+    setIsDesktop(mql.matches);
+
+    const handler = (e: MediaQueryListEvent) => {
+      setIsDesktop(e.matches);
+    };
+    mql.addEventListener('change', handler);
+    return () => mql.removeEventListener('change', handler);
+  }, []);
+
+  // 2. Lazy-load the video only on desktop when media wrapper comes near viewport
+  useEffect(() => {
+    if (!isDesktop) return;
+
+    const target = mediaWrapperRef.current;
+    if (!target) return;
+
+    if (!('IntersectionObserver' in window)) {
+      setShouldLoadVideo(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setShouldLoadVideo(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '50px 0px' }
+    );
+
+    observer.observe(target);
+
+    return () => observer.disconnect();
+  }, [isDesktop]);
+
+  // 3. When video src is attached on desktop, start playback safely
+  useEffect(() => {
+    if (shouldLoadVideo && videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().catch(() => {
+        // Handle autoplay policy/abort gracefully if needed
+      });
+    }
+  }, [shouldLoadVideo]);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -31,20 +84,22 @@ export const FeatureSection = () => {
         }
       );
 
-      // Fade in the video
-      gsap.fromTo(videoRef.current,
-        { opacity: 0, y: 40 },
-        { 
-          opacity: 1, 
-          y: 0, 
-          duration: 1.2, 
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: videoRef.current,
-            start: "top 85%",
+      // Fade in the media wrapper
+      if (mediaWrapperRef.current) {
+        gsap.fromTo(mediaWrapperRef.current,
+          { opacity: 0, y: 40 },
+          { 
+            opacity: 1, 
+            y: 0, 
+            duration: 1.2, 
+            ease: 'power3.out',
+            scrollTrigger: {
+              trigger: mediaWrapperRef.current,
+              start: "top 85%",
+            }
           }
-        }
-      );
+        );
+      }
     }, containerRef);
 
     return () => ctx.revert();
@@ -69,25 +124,29 @@ export const FeatureSection = () => {
           <br className="hidden md:block" /> closer to your dream home and experiences.
         </p>
         
-        <div className="w-full max-w-4xl flex justify-center">
-          {/* Desktop: autoplay video */}
-          <video
-            ref={videoRef}
-            src="/assets/white-4_001.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            className="w-full h-auto object-contain hidden sm:block"
-          />
+        <div ref={mediaWrapperRef} className="w-full max-w-4xl flex justify-center">
+          {/* Desktop only: autoplay video (lazy-loaded as user scrolls near) */}
+          {isDesktop && (
+            <video
+              ref={videoRef}
+              src={shouldLoadVideo ? "/assets/white-4_001.mp4" : undefined}
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="none"
+              className="w-full h-auto object-contain hidden sm:block"
+            />
+          )}
           {/* Mobile: static image */}
           <Image
             src="/assets/hero-mobile-bg.jpeg"
             width={600}
             height={400}
+            sizes="(max-width: 640px) 450px, 600px"
             className="w-full h-auto object-contain sm:hidden"
             alt="How we built Gruha.ai ?"
+            loading="lazy"
           />
         </div>
       </div>

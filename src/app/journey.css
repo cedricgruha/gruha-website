@@ -1,19 +1,5 @@
 /* Gruha Journey V7 Styles — scoped to .gruha-journey */
 
-@font-face {
-  font-family: 'Fraunces';
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/assets/journey/fraunces.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/assets/journey/inter.woff2') format('woff2');
-}
-
 .gruha-journey {
   --coral: #fc7c54;
   --coral-ink: #c4572f;
