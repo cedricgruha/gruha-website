@@ -114,8 +114,8 @@
   border-radius: 22px;
   isolation: isolate;
   background: radial-gradient(ellipse 60% 70% at 62% 78%, #ffe6d8 0, transparent 70%),
-              radial-gradient(ellipse 50% 60% at 15% 10%, #f5f3ea 0, transparent 70%),
-              #eeede6;
+    radial-gradient(ellipse 50% 60% at 15% 10%, #f5f3ea 0, transparent 70%),
+    #eeede6;
 }
 
 .gruha-journey .grain {
@@ -188,7 +188,7 @@
   margin-bottom: -0.08em;
 }
 
-.gruha-journey .w > span {
+.gruha-journey .w>span {
   display: inline-block;
   will-change: transform;
   font-family: inherit;
@@ -294,7 +294,7 @@
   -webkit-backface-visibility: hidden;
 }
 
-.gruha-journey .card > img {
+.gruha-journey .card>img {
   display: block;
   width: 100%;
   height: auto;
@@ -317,8 +317,8 @@
   --dim: 0;
   --ring: 0;
   box-shadow: 0 0 0 2px rgba(252, 124, 84, var(--ring)),
-              0 0 0 9px rgba(252, 124, 84, calc(var(--ring) * 0.16)),
-              0 0 0 300vmax rgba(28, 30, 27, var(--dim));
+    0 0 0 9px rgba(252, 124, 84, calc(var(--ring) * 0.16)),
+    0 0 0 300vmax rgba(28, 30, 27, var(--dim));
 }
 
 .gruha-journey .spot::after {
@@ -698,7 +698,7 @@
 .gruha-journey .portrait img {
   width: 64px;
   max-width: none;
-  transform: translate(-7px, -4px);
+  transform: translate(3px, 1px);
 }
 
 .gruha-journey .controls {

@@ -14,7 +14,9 @@ export const FinalCtaSection = () => {
   const buttonRef = useRef<HTMLButtonElement>(null);
 const { openModal } = useWaitlist();
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    let ctx: gsap.Context | undefined;
+    const timer = setTimeout(() => {
+      ctx = gsap.context(() => {
       gsap.fromTo(contentRef.current,
         { opacity: 0, y: 30 },
         {
@@ -44,8 +46,12 @@ const { openModal } = useWaitlist();
         }
       );
     }, sectionRef);
+    }, 150);
 
-    return () => ctx.revert();
+    return () => {
+      clearTimeout(timer);
+      if (ctx) ctx.revert();
+    };
   }, []);
 
   return (

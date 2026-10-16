@@ -22,7 +22,7 @@ import {
 } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
-import { GruhaExplainerSection } from './gruha-explainer/GruhaExplainerSection';
+const GruhaExplainerSection = dynamic(() => import('./gruha-explainer/GruhaExplainerSection').then(mod => mod.GruhaExplainerSection), { ssr: true });
 
 
 interface JournalCard {
@@ -54,36 +54,37 @@ export const HeroSection = () => {
     (process.env.NODE_ENV === "development" ? "http://localhost:3100" : "https://app.gruha.ai");
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    let ctx: gsap.Context | undefined;
+    ctx = gsap.context(() => {
+        const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-      if (headlineRef.current) {
-        const chars = headlineRef.current.querySelectorAll('.word');
+        if (headlineRef.current) {
+          const chars = headlineRef.current.querySelectorAll('.word');
+          tl.fromTo(
+            chars,
+            { y: 40, opacity: 0 },
+            { y: 0, opacity: 1, duration: 0.6, stagger: 0.04 }
+          );
+        }
+
         tl.fromTo(
-          chars,
-          { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.6, stagger: 0.04 }
+          [subheadlineRef.current, btnRef.current],
+          { y: 25, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.5, stagger: 0.1 },
+          "-=0.4"
         );
-      }
 
-      tl.fromTo(
-        [subheadlineRef.current, btnRef.current],
-        { y: 25, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5, stagger: 0.1 },
-        "-=0.4"
-      );
-
-      if (featuresRef.current) {
-        tl.fromTo(
-          featuresRef.current.children,
-          { opacity: 0, y: 15 },
-          { opacity: 1, y: 0, duration: 0.4, stagger: 0.08 },
-          "-=0.3"
-        );
-      }
+        if (featuresRef.current) {
+          tl.fromTo(
+            featuresRef.current.children,
+            { opacity: 0, y: 15 },
+            { opacity: 1, y: 0, duration: 0.4, stagger: 0.08 },
+            "-=0.3"
+          );
+        }
     }, containerRef);
 
-    return () => ctx.revert();
+    return () => ctx?.revert();
   }, []);
 
   const renderHeadline = () => {
@@ -122,7 +123,8 @@ export const HeroSection = () => {
             fill
             className="object-cover object-top sm:hidden"
             priority
-            sizes="100vw"
+            fetchPriority="high"
+            sizes="(max-width: 640px) 100vw, 1px"
           />
           {/* Mobile gradient overlay (below md) — classic bottom-dark hero gradient */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 md:hidden pointer-events-none" />
@@ -132,7 +134,6 @@ export const HeroSection = () => {
             alt="Hero Background"
             fill
             className="object-cover object-top hidden sm:block"
-            priority
             sizes="100vw"
           />
         </div>
@@ -362,7 +363,7 @@ export const CommunityJournalsSection = () => {
                     src={cat.image}
                     alt={cat.title}
                     fill
-                    sizes="(max-width: 768px) 50vw, 20vw"
+                    loading="lazy" sizes="(max-width: 640px) 140px, 210px"
                     className="object-cover object-right transition-transform duration-700 group-hover/card:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10" />

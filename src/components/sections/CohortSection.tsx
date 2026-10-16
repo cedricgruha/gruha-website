@@ -17,7 +17,9 @@ export const CohortSection = () => {
    const { openModal } = useWaitlist();
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    let ctx: gsap.Context | undefined;
+    const timer = setTimeout(() => {
+      ctx = gsap.context(() => {
       // Fade in content from left
       if (contentRef.current) {
         gsap.fromTo(contentRef.current.children,
@@ -53,8 +55,12 @@ export const CohortSection = () => {
         );
       }
     }, containerRef);
+    }, 150);
 
-    return () => ctx.revert();
+    return () => {
+      clearTimeout(timer);
+      if (ctx) ctx.revert();
+    };
   }, []);
 
   return (

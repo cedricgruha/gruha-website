@@ -36,7 +36,7 @@ export const BaseStepSection: React.FC<BaseStepSectionProps> = ({
   cards,
   features,
   sectionId,
-  bgClass = "bg-[#F9F9F9]",
+  bgClass = "bg-step-default",
   topOffset = 120,
   spacing = 16,
   badgeMarginTop = "-mt-19 md:-mt-23"
@@ -46,7 +46,9 @@ export const BaseStepSection: React.FC<BaseStepSectionProps> = ({
   const featuresRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    let ctx: gsap.Context | undefined;
+    const timer = setTimeout(() => {
+      ctx = gsap.context(() => {
       // Fade and slide sidebar from left
       if (imageRef.current) {
         gsap.fromTo(imageRef.current,
@@ -82,8 +84,12 @@ export const BaseStepSection: React.FC<BaseStepSectionProps> = ({
         );
       }
     }, sectionRef);
+    }, 120);
 
-    return () => ctx.revert();
+    return () => {
+      clearTimeout(timer);
+      if (ctx) ctx.revert();
+    };
   }, []);
 
   return (

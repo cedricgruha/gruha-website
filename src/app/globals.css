@@ -22,6 +22,9 @@
   .text-balance {
     text-wrap: balance;
   }
+  .bg-step-default {
+    background-color: #F9F9F9;
+  }
 }
 
 body {

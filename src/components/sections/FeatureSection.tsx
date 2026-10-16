@@ -67,7 +67,9 @@ export const FeatureSection = () => {
   }, [shouldLoadVideo]);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    let ctx: gsap.Context | undefined;
+    const timer = setTimeout(() => {
+      ctx = gsap.context(() => {
       // Fade in the title and text
       gsap.fromTo([titleRef.current, textRef.current],
         { opacity: 0, y: 30 },
@@ -101,8 +103,12 @@ export const FeatureSection = () => {
         );
       }
     }, containerRef);
+    }, 150);
 
-    return () => ctx.revert();
+    return () => {
+      clearTimeout(timer);
+      if (ctx) ctx.revert();
+    };
   }, []);
 
   return (
