@@ -698,7 +698,21 @@
 .gruha-journey .portrait img {
   width: 64px;
   max-width: none;
-  transform: translate(-7px, -4px);
+  transform: translate(var(--portrait-x, -7px), var(--portrait-y, -4px));
+}
+
+.gruha-journey .portrait-riya,
+.gruha-journey .portrait-kabir,
+.gruha-journey .portrait-arjun,
+.gruha-journey .portrait-sharon {
+  --portrait-x: 2px;
+  --portrait-y: 3px;
+}
+
+.gruha-journey .portrait-ananya,
+.gruha-journey .portrait-karan {
+  --portrait-x: 4px;
+  --portrait-y: 3px;
 }
 
 .gruha-journey .controls {
@@ -912,8 +926,23 @@
   }
   .gruha-journey .portrait img {
     width: 54px;
-    transform: translate(-6px, -3.5px);
+    transform: translate(var(--portrait-x, -6px), var(--portrait-y, -3.5px));
   }
+
+  .gruha-journey .portrait-riya,
+  .gruha-journey .portrait-kabir,
+  .gruha-journey .portrait-arjun,
+  .gruha-journey .portrait-sharon {
+    --portrait-x: 1.7px;
+    --portrait-y: 2.5px;
+  }
+
+  .gruha-journey .portrait-ananya,
+  .gruha-journey .portrait-karan {
+    --portrait-x: 3.4px;
+    --portrait-y: 2.5px;
+  }
+
   .gruha-journey .controls {
     gap: 8px;
   }
