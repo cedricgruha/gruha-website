@@ -1149,7 +1149,7 @@ export function GruhaExplainerSection() {
               aria-label={`Jump to ${p[1]}, ${p[2]}`}
               className={i === 0 ? "selected" : ""}
             >
-              <span className="portrait">
+              <span className={`portrait portrait-${p[0]}`}>
                 <img src={ASSETS[p[0]]} alt="" loading="lazy" decoding="async" />
               </span>
               {p[1]}
