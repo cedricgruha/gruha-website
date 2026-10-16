@@ -497,7 +497,9 @@ export function GruhaExplainerSection() {
         if (c.html) {
           el.innerHTML = c.html;
         } else {
-          el.innerHTML = `<img src="${ASSETS[name]}" alt="" draggable="false" loading="lazy" decoding="async">${c.extra || ""}<div class="ov spot"></div>`;
+          const w = 1265;
+          const h = c.aspect ? Math.round(1265 / c.aspect) : 712;
+          el.innerHTML = `<img src="${ASSETS[name]}" alt="" width="${w}" height="${h}" draggable="false" loading="lazy" decoding="async">${c.extra || ""}<div class="ov spot"></div>`;
           for (const [k, r] of Object.entries(c.targets || {})) {
             el.insertAdjacentHTML("beforeend", `<div class="ov" data-t="${k}" style="${box(r)}"></div>`);
           }
@@ -1131,10 +1133,10 @@ export function GruhaExplainerSection() {
           </div>
           <p className="sr" id="live" aria-live="polite" />
           <div className="agent" id="agent-a">
-            <img alt="" />
+            <img alt="" width="260" height="320" />
           </div>
           <div className="agent" id="agent-b">
-            <img alt="" />
+            <img alt="" width="260" height="320" />
           </div>
           <div className="agent-tag" id="agent-tag" />
           <div className="screen-title" id="screen-title" />
@@ -1175,7 +1177,7 @@ export function GruhaExplainerSection() {
               className={i === 0 ? "selected" : ""}
             >
               <span className={`portrait portrait-${p[0]}`}>
-                <img src={ASSETS[p[0]]} alt="" loading="lazy" decoding="async" />
+                <img src={ASSETS[p[0]]} alt="" width="64" height="64" loading="lazy" decoding="async" />
               </span>
               {p[1]}
             </button>
