@@ -542,6 +542,7 @@ export function GruhaExplainerSection() {
       hasAutoplayed = true;
       t = clamp(n, 0, DURATION);
       dirty = true;
+      startLoop();
     }
 
     function sync() {
@@ -559,6 +560,9 @@ export function GruhaExplainerSection() {
       playing = v;
       if (v && t >= DURATION) t = 0;
       sync();
+      if (v) {
+        startLoop();
+      }
     }
 
     // Measure geometry
@@ -836,6 +840,20 @@ export function GruhaExplainerSection() {
       });
     }
 
+    function startLoop() {
+      if (!rafId) {
+        last = performance.now();
+        rafId = requestAnimationFrame(frame);
+      }
+    }
+
+    function stopLoop() {
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+        rafId = 0;
+      }
+    }
+
     function frame(now: number) {
       const dt = Math.min((now - last) / 1000, 0.1);
       last = now;
@@ -845,6 +863,7 @@ export function GruhaExplainerSection() {
         if (t >= DURATION) {
           playing = false;
           sync();
+          stopLoop();
         }
       }
       if (dirty) {
@@ -853,7 +872,11 @@ export function GruhaExplainerSection() {
         draw();
         if (moving) dirty = true;
       }
-      rafId = requestAnimationFrame(frame);
+      if (playing && visible && !document.hidden) {
+        rafId = requestAnimationFrame(frame);
+      } else {
+        rafId = 0;
+      }
     }
 
     function draw() {
@@ -1055,11 +1078,13 @@ export function GruhaExplainerSection() {
       }
     }
 
-    rafId = requestAnimationFrame(frame);
+    // Initial first-frame draw
+    draw();
 
     return () => {
-      cancelAnimationFrame(rafId);
+      stopLoop();
       io.disconnect();
+      preloadIo.disconnect();
       ro.disconnect();
       document.removeEventListener("keydown", onKeyDown);
       rig.innerHTML = "";

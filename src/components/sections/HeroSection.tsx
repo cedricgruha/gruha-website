@@ -22,7 +22,7 @@ import {
 } from '@/lib/analytics';
 import allJournals from '@/data/community-journals.json';
 
-const GruhaExplainerSection = dynamic(() => import('./gruha-explainer/GruhaExplainerSection').then(mod => mod.GruhaExplainerSection), { ssr: true });
+const GruhaExplainerSection = dynamic(() => import('./gruha-explainer/GruhaExplainerSection').then(mod => mod.GruhaExplainerSection), { ssr: false });
 
 
 interface JournalCard {
