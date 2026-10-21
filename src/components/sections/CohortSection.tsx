@@ -55,7 +55,7 @@ export const CohortSection = () => {
         );
       }
     }, containerRef);
-    }, 150);
+    }, 650);
 
     return () => {
       clearTimeout(timer);

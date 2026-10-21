@@ -482,33 +482,24 @@ export function GruhaExplainerSection() {
     const cursorEl = $("cursor");
     if (!theatre || !stage || !rig || !cursorEl) return;
 
-    // Build Rig Cards deferred
+    // Build Rig Cards
+    rig.innerHTML = "";
     const cardEls: Record<string, HTMLElement> = {};
-    let cardsBuilt = false;
-    const buildCards = () => {
-      if (cardsBuilt) return;
-      cardsBuilt = true;
-      preloadAssets();
-      rig.innerHTML = "";
-      for (const [name, c] of Object.entries(CARDS)) {
-        const el = document.createElement("div");
-        el.className = "card" + (c.html ? " brief" : "");
-        el.style.transform = "translate3d(0px, 0px, 0px) scale(1)";
-        if (c.html) {
-          el.innerHTML = c.html;
-        } else {
-          const w = 1265;
-          const h = c.aspect ? Math.round(1265 / c.aspect) : 712;
-          el.innerHTML = `<img src="${ASSETS[name]}" alt="" width="${w}" height="${h}" draggable="false" loading="lazy" decoding="async">${c.extra || ""}<div class="ov spot"></div>`;
-          for (const [k, r] of Object.entries(c.targets || {})) {
-            el.insertAdjacentHTML("beforeend", `<div class="ov" data-t="${k}" style="${box(r)}"></div>`);
-          }
+    for (const [name, c] of Object.entries(CARDS)) {
+      const el = document.createElement("div");
+      el.className = "card" + (c.html ? " brief" : "");
+      el.style.transform = "translate3d(0px, 0px, 0px) scale(1)";
+      if (c.html) {
+        el.innerHTML = c.html;
+      } else {
+        el.innerHTML = `<img src="${ASSETS[name]}" alt="" draggable="false">${c.extra || ""}<div class="ov spot"></div>`;
+        for (const [k, r] of Object.entries(c.targets || {})) {
+          el.insertAdjacentHTML("beforeend", `<div class="ov" data-t="${k}" style="${box(r)}"></div>`);
         }
-        rig.appendChild(el);
-        cardEls[name] = el;
       }
-      dirty = true;
-    };
+      rig.appendChild(el);
+      cardEls[name] = el;
+    }
 
     const q = (name: string, sel: string) => cardEls[name]?.querySelector<HTMLElement>(sel);
 
@@ -540,7 +531,6 @@ export function GruhaExplainerSection() {
     const M = () => (reducedMQ.matches ? 0 : 1);
 
     function seek(n: number) {
-      buildCards();
       hasAutoplayed = true;
       t = clamp(n, 0, DURATION);
       dirty = true;
@@ -557,7 +547,6 @@ export function GruhaExplainerSection() {
     function setPlaying(v: boolean) {
       if (v) {
         hasAutoplayed = true;
-        buildCards();
       }
       playing = v;
       if (v && t >= DURATION) t = 0;
@@ -567,10 +556,22 @@ export function GruhaExplainerSection() {
       }
     }
 
+    // Cache target points and theater rect to avoid forced reflows during frame rendering
+    const targetPtCache: Record<string, { x: number; y: number }> = {};
+    let cachedTheatreRect: DOMRect | null = null;
+
+    function clearTargetCache() {
+      cachedTheatreRect = null;
+      for (const k in targetPtCache) {
+        delete targetPtCache[k];
+      }
+    }
+
     // Measure geometry
     const geo = { W: 0, H: 0, cy: 0, size: {} as Record<string, [number, number]> };
     function measure(W: number, H: number, cy: number) {
       Object.assign(geo, { W, H, cy });
+      clearTargetCache();
       for (const [n, el] of Object.entries(cardEls)) {
         geo.size[n] = CARDS[n].html
           ? [el.offsetWidth, el.offsetHeight]
@@ -637,29 +638,18 @@ export function GruhaExplainerSection() {
     const io = new IntersectionObserver(
       ([en]) => {
         visible = en.isIntersecting;
-        const triggerRatio = mobile ? 0.35 : 0.45;
-        if (!hasAutoplayed && en.intersectionRatio >= triggerRatio && !reducedMQ.matches) {
+        const triggerRatio = mobile ? 0.65 : 0.55;
+        if (!hasAutoplayed && en.intersectionRatio >= triggerRatio && !reducedMQ.matches && (window.scrollY > 80 || !mobile)) {
           hasAutoplayed = true;
           t = 0;
           last = performance.now();
           setPlaying(true);
         }
       },
-      { threshold: [0, 0.2, 0.35, 0.45, 0.5, 0.6] }
+      { threshold: [0, 0.2, 0.4, 0.55, 0.65, 0.8] }
     );
     io.observe(theatre);
 
-    // Preload and build cards when explainer is within 350px of viewport
-    const preloadIo = new IntersectionObserver(
-      ([en]) => {
-        if (en.isIntersecting) {
-          buildCards();
-          preloadIo.disconnect();
-        }
-      },
-      { rootMargin: "350px 0px" }
-    );
-    preloadIo.observe(theatre);
 
     const ro = new ResizeObserver(() => {
       const r = stage.getBoundingClientRect();
@@ -756,6 +746,7 @@ export function GruhaExplainerSection() {
       });
 
       phrase = null;
+      clearTargetCache();
     }
 
     // Cursor rendering
@@ -765,12 +756,18 @@ export function GruhaExplainerSection() {
     });
 
     function targetPt(ref: string) {
+      if (targetPtCache[ref]) return targetPtCache[ref];
       const [name, key] = ref.split(".");
       const el = cardEls[name]?.querySelector(`[data-t="${key}"]`);
       if (!el) return { x: 0, y: 0 };
       const r = el.getBoundingClientRect();
-      const tr = theatre.getBoundingClientRect();
-      return { x: r.left - tr.left + r.width * 0.5, y: r.top - tr.top + r.height * 0.5 };
+      if (!cachedTheatreRect) {
+        cachedTheatreRect = theatre.getBoundingClientRect();
+      }
+      const tr = cachedTheatreRect;
+      const pt = { x: r.left - tr.left + r.width * 0.5, y: r.top - tr.top + r.height * 0.5 };
+      targetPtCache[ref] = pt;
+      return pt;
     }
 
     function renderCursor(c: CursorDef, a: number) {
@@ -1086,7 +1083,6 @@ export function GruhaExplainerSection() {
     return () => {
       stopLoop();
       io.disconnect();
-      preloadIo.disconnect();
       ro.disconnect();
       document.removeEventListener("keydown", onKeyDown);
       rig.innerHTML = "";

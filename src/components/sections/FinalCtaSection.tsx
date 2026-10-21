@@ -46,7 +46,7 @@ const { openModal } = useWaitlist();
         }
       );
     }, sectionRef);
-    }, 150);
+    }, 700);
 
     return () => {
       clearTimeout(timer);

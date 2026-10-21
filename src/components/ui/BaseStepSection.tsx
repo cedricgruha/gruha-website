@@ -84,7 +84,7 @@ export const BaseStepSection: React.FC<BaseStepSectionProps> = ({
         );
       }
     }, sectionRef);
-    }, 120);
+    }, 700);
 
     return () => {
       clearTimeout(timer);

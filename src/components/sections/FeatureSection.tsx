@@ -103,7 +103,7 @@ export const FeatureSection = () => {
         );
       }
     }, containerRef);
-    }, 150);
+    }, 500);
 
     return () => {
       clearTimeout(timer);

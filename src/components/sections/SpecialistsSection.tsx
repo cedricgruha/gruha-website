@@ -96,7 +96,7 @@ export const SpecialistsSection = () => {
         );
       }
     }, containerRef);
-    }, 120);
+    }, 600);
 
     return () => {
       clearTimeout(timer);
